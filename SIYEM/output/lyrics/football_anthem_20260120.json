@@ -1,0 +1,91 @@
+{
+  "context": {
+    "ai_role": "karasahin",
+    "genre_fusion": "folk_rock",
+    "theme": "football_national_pride",
+    "ottoman_influence": {
+      "metaphors": ["vatan", "bayrak", "kader", "yol"],
+      "patterns": ["poetic", "temporal"]
+    },
+    "bpm": 120,
+    "section": null,
+    "timestamp": "2026-01-20T00:00:00.000000",
+    "custom_context": "Football anthem, national pride, three countries, 2002 World Cup, victory"
+  },
+  "turkish_lyrics": {
+    "title": "Dünya Döner",
+    "sections": {
+      "verse_1": [
+        "Dünya döner, içimizde yanar,",
+        "Bir tarih uyanır, sesler çınlar.",
+        "Biz dedik, gökte yankı olur,",
+        "Geçeriz biz, geriye toz duman kalır."
+      ],
+      "chorus": [
+        "Kore'de yanan ateş bizde,",
+        "Doğan güneş yüreğimizde.",
+        "Kenan koşar, Barış durmaz,",
+        "Arda ve Hakan'la, inanç susmaz."
+      ],
+      "verse_2": [
+        "Zincirle değil, kalple sar bizi,",
+        "Toprağın altında kök vardır bizim.",
+        "Üç ülke, bir hayal; yola koyulduk yine,",
+        "MET LIFE'a biz \"Can\" deriz,",
+        "BEKLE, GELİRİZ!"
+      ],
+      "bridge": [
+        "Düşünce siper,",
+        "Hayal zaferdir.",
+        "Kalbin nereye fısıldarsa, orası vatandır."
+      ],
+      "verse_3": [
+        "İki bin ikide çocuktuk,",
+        "Bugün yine inandık.",
+        "Bir milletin duası terle birleşir,",
+        "Bayrağın altında kalp hiç bitmez."
+      ],
+      "verse_4": [
+        "Zafer rakibe değil,",
+        "Kendine yenilmemektir.",
+        "Siz de babaya sorun",
+        "KİMİZ BİZ?!",
+        "Ay yıldızız biz!"
+      ],
+      "outro": [
+        "Tozdan geldik, dumandan doğduk,",
+        "Sahada bir olduk,",
+        "Kupanın kalbinde bir umut olduk.",
+        "Üç ülke görsün, dünya duysun,",
+        "Bizim olan hiç sönmez!"
+      ]
+    },
+    "ottoman_influence": {
+      "metaphors_used": [
+        "vatan",
+        "bayrak",
+        "kader"
+      ],
+      "patterns_applied": [
+        "poetic",
+        "temporal"
+      ],
+      "cultural_weight": "authentic_soil"
+    }
+  },
+  "metadata": {
+    "generation_time": "2026-01-20T00:00:00.000000",
+    "entity": "Karasahin (JK)",
+    "ai_role": "karasahin",
+    "genre": "folk_rock",
+    "independent_streams": true,
+    "status": "catalogued",
+    "note": "Football anthem derivative of 'Yazılı'",
+    "mission_alignment": {
+      "community": true,
+      "stewardship": true,
+      "peace_love_unity": true,
+      "description": "Community unity, national stewardship, peace through sport"
+    }
+  }
+}

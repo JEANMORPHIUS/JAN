@@ -1,0 +1,91 @@
+{
+  "context": {
+    "ai_role": "karasahin",
+    "genre_fusion": "turkish_arabesque_rnb",
+    "theme": "destiny_self_reflection",
+    "ottoman_influence": {
+      "metaphors": ["kader", "yazı", "alın yazısı", "yol", "gölge"],
+      "patterns": ["poetic", "existential"]
+    },
+    "bpm": 80,
+    "section": null,
+    "timestamp": "2026-01-20T00:00:00.000000",
+    "custom_context": "Mirror reflection, destiny written, smoke and dust, self-discovery"
+  },
+  "turkish_lyrics": {
+    "title": "Yazılı",
+    "sections": {
+      "verse_1": [
+        "Dünya ayna içinde yanar",
+        "Kırık bakan hep kırık arar",
+        "Ben dedim gökte sükut olur",
+        "Yanar içimde geriye toz duman kalır"
+      ],
+      "verse_2": [
+        "Son sigaramda kayboldu yolum",
+        "Aynaya baktım duman olmuşum",
+        "Ben dedim fırtına koptu kalbimin",
+        "Gölgesinde sandım dünya yoktu"
+      ],
+      "verse_3": [
+        "Zincirle kapsadım dışarıda boşuna",
+        "Oysa prangam kanayan bir yara",
+        "Hayal kurdum gökyüzü kadar derinim",
+        "Oraya kadarmış kaderim yazılı benim"
+      ],
+      "chorus": [
+        "[Şiir]",
+        "Düşünce kurşun",
+        "Hayal kaderdir",
+        "Kalbin nereye fısıldarsa sen de orayı hak ettin",
+        "Ben dediğinde korkma",
+        "O beni hiç sorgulama",
+        "Zafer karşı değil düşmana",
+        "Karanlığına çevirmektir ışığa"
+      ],
+      "verse_4": [
+        "Sen de aynaya sor",
+        "Kimim ben?",
+        "Dumanım sende",
+        "Akar her yanım",
+        "Tozlu gölgeler birleşir",
+        "Saklı kalan anım"
+      ],
+      "outro": [
+        "Kırık Kaşlılar sessiz onlar",
+        "Sır saklar derin",
+        "Yaklaş bak gözüme hisset",
+        "Anla işte",
+        "O benim"
+      ]
+    },
+    "ottoman_influence": {
+      "metaphors_used": [
+        "kader",
+        "yazı",
+        "alın yazısı",
+        "gölge"
+      ],
+      "patterns_applied": [
+        "poetic",
+        "existential"
+      ],
+      "cultural_weight": "authentic_soil"
+    }
+  },
+  "metadata": {
+    "generation_time": "2026-01-20T00:00:00.000000",
+    "entity": "Karasahin (JK)",
+    "ai_role": "karasahin",
+    "genre": "turkish_arabesque_rnb",
+    "independent_streams": true,
+    "status": "catalogued",
+    "note": "Original version - football anthem is derivative",
+    "mission_alignment": {
+      "right_spirits": true,
+      "spiritual_battle": true,
+      "stewardship": true,
+      "description": "Destiny and truth, spiritual alignment, self-stewardship through reflection"
+    }
+  }
+}

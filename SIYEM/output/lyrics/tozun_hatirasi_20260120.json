@@ -1,0 +1,83 @@
+{
+  "context": {
+    "ai_role": "karasahin",
+    "genre_fusion": "turkish_arabesque_rnb",
+    "theme": "memory_love_eternal",
+    "ottoman_influence": {
+      "metaphors": ["sevda", "hatıra", "nefes", "kalp"],
+      "patterns": ["poetic", "temporal"]
+    },
+    "bpm": 70,
+    "section": null,
+    "timestamp": "2026-01-20T00:00:00.000000",
+    "custom_context": "Memory of dust, eternal love, traces that remain, breath and touch"
+  },
+  "turkish_lyrics": {
+    "title": "Tozun Hatırası",
+    "sections": {
+      "verse_1": [
+        "Pencere kenarında ışık kırılır,",
+        "Havada süzülen zerre durulur.",
+        "Kim bilir hangi nefesin izi,",
+        "Hangi gülüş, hangi hüzün korudur."
+      ],
+      "chorus": [
+        "Silersin — biter sanırsın,",
+        "Ama kalpte kalır anısın.",
+        "Tozun hatırası, susmaz zamanla,",
+        "Bir zerrede saklı koca bir dünya."
+      ],
+      "verse_2": [
+        "Ne kadar süpürsen, ne kadar unutursan,",
+        "Sevda kalır geriye — toza karışsan da."
+      ],
+      "verse_3": [
+        "Rüzgârla savrulur dağdan ovaya,",
+        "Bir gün döner, düşer eski yuvaya.",
+        "İnsan da böyledir — kaybolur sanılır,",
+        "Ama sevgisi toprağa yazılır."
+      ],
+      "bridge": [
+        "Bir nefes, bir dokunuş,",
+        "Zamanı deler, kalır sonsuz.",
+        "Küçük bir zerre yeter anlatmaya,",
+        "Kalpteki izdir — unutulmaz ya."
+      ],
+      "outro": [
+        "Tozun hatırası, susmaz zamanla,",
+        "Bir zerrede saklı koca bir dünya.",
+        "Ne kadar süpürsen, ne kadar unutursan,",
+        "Sevda kalır geriye — toza karışsan da.",
+        "Toza karışsan da…",
+        "Sevda kalır geriye…"
+      ]
+    },
+    "ottoman_influence": {
+      "metaphors_used": [
+        "sevda",
+        "hatıra",
+        "nefes",
+        "kalp"
+      ],
+      "patterns_applied": [
+        "poetic",
+        "temporal"
+      ],
+      "cultural_weight": "authentic_soil"
+    }
+  },
+  "metadata": {
+    "generation_time": "2026-01-20T00:00:00.000000",
+    "entity": "Karasahin (JK)",
+    "ai_role": "karasahin",
+    "genre": "turkish_arabesque_rnb",
+    "independent_streams": true,
+    "status": "catalogued",
+    "mission_alignment": {
+      "love": true,
+      "community": true,
+      "stewardship": true,
+      "description": "Eternal love and memory, community bonds, stewardship of relationships"
+    }
+  }
+}

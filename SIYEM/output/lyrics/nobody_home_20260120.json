@@ -1,0 +1,89 @@
+{
+  "context": {
+    "ai_role": "karasahin",
+    "genre_fusion": "pop",
+    "theme": "loneliness_longing",
+    "ottoman_influence": {
+      "metaphors": ["yol", "hasret"],
+      "patterns": ["poetic", "temporal"]
+    },
+    "bpm": 95,
+    "section": null,
+    "timestamp": "2026-01-20T00:00:00.000000",
+    "custom_context": "Loneliness, waiting, phone calls, missing someone, hope and despair"
+  },
+  "english_lyrics": {
+    "title": "Nobody Home",
+    "sections": {
+      "verse_1": [
+        "I'm walking alone down this street again",
+        "I've been here before, It's the same now as it was back then",
+        "I'm scrambling around trying to find my way",
+        "Knowing I can't hold on to yesterday",
+        "I just hope I make it through today"
+      ],
+      "verse_2": [
+        "The waves on the shore still call out your name",
+        "Your head on my shoulder still feels the same",
+        "If all was a lie baby you would still be true",
+        "But then I know this pictures missing you",
+        "I can't be sure I'm gonna make it through"
+      ],
+      "chorus": [
+        "But there's nobody home on the phone to talk to",
+        "Will somebody please give me a call I'm needing something new",
+        "I give you my words, you give me your time",
+        "You give me your smile while I sing you my rhyme",
+        "That's what I want",
+        "But there's nobody home",
+        "There's nobody home",
+        "And I'm feeling so alone"
+      ],
+      "verse_3": [
+        "It's getting harder to stay, each and every day, you're not here",
+        "But you make me stay, with the games you play, It's unclear",
+        "I'm saying where have you been, you say I'll be there by four",
+        "It's twenty to five, you're still not at my door",
+        "What can I do? I'm down on the floor",
+        "I'm waiting for you, but I can't take anymore."
+      ],
+      "bridge": [
+        "I'm feeling further away, but you make me stay",
+        "What can I do, all I see is you",
+        "The beat of my heart tells me this is the start",
+        "Of something beautiful of something true"
+      ],
+      "verse_4": [
+        "Once more I'm feeling complete, standing back on my feet",
+        "Now I can see just where I want to be",
+        "Yesterday's pain won't defeat me again",
+        "I see a brand new day on the horizon",
+        "I see a brand new day on the horizon"
+      ]
+    },
+    "karasahin_voice": {
+      "signature_phrases": [
+        "Nobody home",
+        "Brand new day on the horizon"
+      ],
+      "metaphors": [
+        "Waves calling your name",
+        "Games you play"
+      ],
+      "cadence": "melancholic_hope"
+    }
+  },
+  "metadata": {
+    "generation_time": "2026-01-20T00:00:00.000000",
+    "entity": "Karasahin (JK)",
+    "ai_role": "karasahin",
+    "genre": "pop",
+    "independent_streams": true,
+    "status": "catalogued",
+    "mission_alignment": {
+      "community": true,
+      "love": true,
+      "description": "Longing for connection, community need, hope for new day"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "context": {
+    "ai_role": "karasahin",
+    "genre_fusion": "turkish_arabesque_rnb",
+    "theme": "love_devotion",
+    "ottoman_influence": {
+      "metaphors": ["gönül", "aşk", "sevda", "can"],
+      "patterns": ["poetic", "reverential"]
+    },
+    "bpm": 70,
+    "section": null,
+    "timestamp": "2026-01-20T00:00:00.000000",
+    "custom_context": "Deep devotion, love as eternal film, heart's dedication"
+  },
+  "turkish_lyrics": {
+    "title": "Seni Sevmek",
+    "sections": {
+      "verse_1": [
+        "Senin her kusurunu sevmek",
+        "Gece gündüz beklemek",
+        "Sevmek, her olduğumu vermek",
+        "Seni sevmek"
+      ],
+      "chorus": [
+        "Sevmek, bitmeyen filme benzer",
+        "Uçurup birden ezer",
+        "Kalp sahibine çeker",
+        "Seni sevmek"
+      ],
+      "verse_2": [
+        "Yaşamak bir tecrübe",
+        "Her doğan yeni güne",
+        "Yarınlar kime kalır",
+        "Ne olur bugün",
+        "Sen kal yanımda"
+      ],
+      "chorus_repeat": [
+        "Sevmek, seni sevmek",
+        "Duran kalbe can vermek",
+        "Seni sevmek"
+      ],
+      "verse_3": [
+        "Her gecenin sabahı sensin,",
+        "Her nefesin adı sensin.",
+        "Kalbim seni ezberlesin —",
+        "Seni sevmek."
+      ],
+      "bridge": [
+        "Alnımdaki yazın olsun",
+        "Başı sonu belli olsun",
+        "Gönlüm artık senle dolsun",
+        "Bu canım sana feda olsun"
+      ],
+      "outro": [
+        "Sevmek, seni sevmek",
+        "Duran kalbe can vermek",
+        "Seni sevmek",
+        "Seni sevmek"
+      ]
+    },
+    "ottoman_influence": {
+      "metaphors_used": [
+        "gönül",
+        "can",
+        "sevda"
+      ],
+      "patterns_applied": [
+        "poetic",
+        "reverential"
+      ],
+      "cultural_weight": "authentic_soil"
+    }
+  },
+  "metadata": {
+    "generation_time": "2026-01-20T00:00:00.000000",
+    "entity": "Karasahin (JK)",
+    "ai_role": "karasahin",
+    "genre": "turkish_arabesque_rnb",
+    "independent_streams": true,
+    "status": "catalogued",
+    "mission_alignment": {
+      "love": true,
+      "community": true,
+      "stewardship": true,
+      "peace_love_unity": true,
+      "description": "Love as highest mastery, devotion to community, heart's stewardship"
+    }
+  }
+}

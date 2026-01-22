@@ -1,0 +1,74 @@
+{
+  "context": {
+    "ai_role": "karasahin",
+    "genre_fusion": "pop",
+    "theme": "heartbreak_danger",
+    "ottoman_influence": {
+      "metaphors": ["aşk", "dert", "yara"],
+      "patterns": ["poetic"]
+    },
+    "bpm": 100,
+    "section": null,
+    "timestamp": "2026-01-20T00:00:00.000000",
+    "custom_context": "Heartbreak, danger, falling, losing control, ghost of love"
+  },
+  "english_lyrics": {
+    "title": "I'm in Danger",
+    "sections": {
+      "verse_1": [
+        "Roses are red, my heart turned gray,",
+        "My hands still reach but you slip away.",
+        "Maybe I couldn't hold your flame,",
+        "Maybe your fire is just a game.",
+        "Yesterday laughter, today I cry,",
+        "My baby don't see the tears I hide."
+      ],
+      "verse_2": [
+        "The pain runs deep, the wound won't mend,",
+        "The more it burns, the more I pretend."
+      ],
+      "chorus": [
+        "I'm in danger — falling fast,",
+        "Through shadows of a haunted past.",
+        "Losing grip, my soul untold,",
+        "No direction, no control."
+      ],
+      "verse_3": [
+        "I speak to mirrors, they turn their face,",
+        "Your ghost still lingers in empty space.",
+        "Whispers of you curl like smoke,",
+        "Burning my heart with words you spoke."
+      ],
+      "chorus_repeat": [
+        "I'm in danger — falling fast,",
+        "Through shadows of a haunted past.",
+        "Losing grip, my soul untold,",
+        "Maybe this chaos is all I hold."
+      ]
+    },
+    "karasahin_voice": {
+      "signature_phrases": [
+        "I'm in danger",
+        "Falling fast"
+      ],
+      "metaphors": [
+        "Roses are red, heart turned gray",
+        "Ghost in empty space"
+      ],
+      "cadence": "urgent_melancholic"
+    }
+  },
+  "metadata": {
+    "generation_time": "2026-01-20T00:00:00.000000",
+    "entity": "Karasahin (JK)",
+    "ai_role": "karasahin",
+    "genre": "pop",
+    "independent_streams": true,
+    "status": "catalogued",
+    "mission_alignment": {
+      "spiritual_battle": true,
+      "stewardship": true,
+      "description": "Spiritual battle, self-stewardship through danger, healing journey"
+    }
+  }
+}

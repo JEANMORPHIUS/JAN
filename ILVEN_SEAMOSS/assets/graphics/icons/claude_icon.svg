@@ -1,0 +1,37 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Claude Icon - Warm, minimalist design -->
+  <defs>
+    <linearGradient id="claudeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbe5b2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4a574;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background circle with glow -->
+  <circle cx="256" cy="256" r="200" fill="url(#claudeGrad)" opacity="0.3" filter="url(#glow)"/>
+  
+  <!-- Claude-inspired design (thoughtful, intelligent) -->
+  <g transform="translate(256, 256)">
+    <!-- Central brain/mind symbol -->
+    <path d="M -80,-40 Q -100,0 -80,40 Q -40,60 0,60 Q 40,60 80,40 Q 100,0 80,-40 Q 40,-60 0,-60 Q -40,-60 -80,-40 Z" 
+          fill="#fbe5b2" filter="url(#glow)" opacity="0.9"/>
+    
+    <!-- Thought lines (subtle) -->
+    <circle cx="90" cy="-50" r="15" fill="#d4a574" opacity="0.6" filter="url(#glow)"/>
+    <circle cx="100" cy="-20" r="12" fill="#d4a574" opacity="0.5" filter="url(#glow)"/>
+    <circle cx="95" cy="10" r="10" fill="#d4a574" opacity="0.4" filter="url(#glow)"/>
+    
+    <!-- Central sparkle -->
+    <circle cx="0" cy="0" r="12" fill="#ffffff" opacity="0.9"/>
+  </g>
+  
+  <!-- Outer glow ring -->
+  <circle cx="256" cy="256" r="220" fill="none" stroke="#fbe5b2" stroke-width="2" opacity="0.4"/>
+</svg>

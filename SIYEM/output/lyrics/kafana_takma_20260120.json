@@ -1,0 +1,89 @@
+{
+  "context": {
+    "ai_role": "karasahin",
+    "genre_fusion": "folk_rock",
+    "theme": "resilience_kindness",
+    "ottoman_influence": {
+      "metaphors": ["yol", "vicdan", "kalp"],
+      "patterns": ["poetic", "existential"]
+    },
+    "bpm": 85,
+    "section": null,
+    "timestamp": "2026-01-20T00:00:00.000000",
+    "custom_context": "Resilience despite betrayal, kindness as weapon, conscience as guide"
+  },
+  "turkish_lyrics": {
+    "title": "Kafana Takma",
+    "sections": {
+      "verse_1": [
+        "Ruhum yorgun, dünya acele",
+        "Kime dokunsam, yara izleriyle",
+        "Bir tebessüm bile yanlış anlaşılan",
+        "İyilik kayıp, kötülük alkışlanan"
+      ],
+      "verse_2": [
+        "Bir el uzattım, kırdılar bileğimi",
+        "Bir söz söyledim, çarpıttı hepsini",
+        "Ne kadar saf kaldıysam, o kadar suç",
+        "Bu kalbin bedeli hep fazla, hep borç"
+      ],
+      "chorus": [
+        "Zaten iyilik yapanda kabahat",
+        "Ne kadar verirsen, o kadar bela",
+        "Kafana takma, devam yoluna",
+        "Vicdanın olsun tek silahın hayata"
+      ],
+      "verse_3": [
+        "Dost dediklerim, fırsat kollayan",
+        "Bir ben yanıyorum, dünya oynayan",
+        "Sevgi bile artık bir yarış gibi",
+        "Hızla geçiyor, ruhlar takas gibi"
+      ],
+      "bridge": [
+        "Kırıldım ama dönmüyorum",
+        "İnandım ama görmüyorum"
+      ],
+      "verse_4": [
+        "Birileri aceleyle kazandı sanır",
+        "Ama sabırla yürüyen yolunu tanır",
+        "Karanlıkta bile parlayan yüzüm",
+        "İyilik delisiyim, bu benim sözüm"
+      ],
+      "outro": [
+        "Zaten iyilik yapanda kabahat",
+        "Bu dünya kör, sen yoluna bak",
+        "Kafana takma, devam yoluna",
+        "Vicdanın olsun tek silahın hayata",
+        "Taş atana gül bırakırım yine",
+        "Çünkü ben barışığım kendimle"
+      ]
+    },
+    "ottoman_influence": {
+      "metaphors_used": [
+        "yol",
+        "vicdan",
+        "kalp"
+      ],
+      "patterns_applied": [
+        "poetic",
+        "existential"
+      ],
+      "cultural_weight": "authentic_soil"
+    }
+  },
+  "metadata": {
+    "generation_time": "2026-01-20T00:00:00.000000",
+    "entity": "Karasahin (JK)",
+    "ai_role": "karasahin",
+    "genre": "folk_rock",
+    "independent_streams": true,
+    "status": "catalogued",
+    "mission_alignment": {
+      "stewardship": true,
+      "community": true,
+      "love": true,
+      "peace_love_unity": true,
+      "description": "Kindness as weapon, conscience as guide, community resilience"
+    }
+  }
+}

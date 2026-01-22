@@ -1,0 +1,83 @@
+{
+  "context": {
+    "ai_role": "karasahin",
+    "genre_fusion": "folk_rock",
+    "theme": "self_discovery",
+    "ottoman_influence": {
+      "metaphors": ["yol", "hakikat", "öz"],
+      "patterns": ["poetic", "existential"]
+    },
+    "bpm": 75,
+    "section": null,
+    "timestamp": "2026-01-20T00:00:00.000000",
+    "custom_context": "Journey through fire and ice, masks and truth, self-discovery"
+  },
+  "english_lyrics": {
+    "title": "Fire & Ice",
+    "sections": {
+      "verse_1": [
+        "I chased horizons painted gold,",
+        "But every sunrise left me cold.",
+        "Whispers of power, shadows of flame,",
+        "I wore their masks, but none knew my name."
+      ],
+      "verse_2": [
+        "Some stay asleep, some never see,",
+        "Some fall in silence, too heavy to be.",
+        "But I kept walking, through fire, through frost,",
+        "Every mask I shed was a kingdom I lost."
+      ],
+      "chorus": [
+        "Through the fire, through the ice,",
+        "Through the mirrors, through the lies.",
+        "The self is a river, it cuts through the stone,",
+        "The truth is eternal — it calls me home."
+      ],
+      "verse_3": [
+        "I saw the seekers, blind in their fight,",
+        "I saw the dreamers, afraid of the night.",
+        "The hidden gospel carved into my skin,",
+        "The kingdom I searched for was always within."
+      ],
+      "verse_4": [
+        "The shadow is me, the tyrant is me,",
+        "The savior I prayed for was buried in me.",
+        "False dawns fade, but the night makes it clear,",
+        "The one I was seeking was already here."
+      ],
+      "chorus_repeat": [
+        "Through the fire, through the ice,",
+        "Through the silence, through the cries.",
+        "Every mask I burned was a star in the sky,",
+        "The self is eternal — it never can die."
+      ]
+    },
+    "karasahin_voice": {
+      "signature_phrases": [
+        "The truth is eternal",
+        "The self is a river"
+      ],
+      "metaphors": [
+        "Fire and ice",
+        "Masks and kingdoms",
+        "Self as river"
+      ],
+      "cadence": "contemplative_flowing"
+    }
+  },
+  "metadata": {
+    "generation_time": "2026-01-20T00:00:00.000000",
+    "entity": "Karasahin (JK)",
+    "ai_role": "karasahin",
+    "genre": "folk_rock",
+    "independent_streams": true,
+    "status": "catalogued",
+    "mission_alignment": {
+      "stewardship": true,
+      "spiritual_battle": true,
+      "right_spirits": true,
+      "love": true,
+      "description": "Self-stewardship through truth discovery, spiritual journey through fire and ice"
+    }
+  }
+}

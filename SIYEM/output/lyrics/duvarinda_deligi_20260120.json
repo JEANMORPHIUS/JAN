@@ -1,0 +1,74 @@
+{
+  "context": {
+    "ai_role": "karasahin",
+    "genre_fusion": "folk_rock",
+    "theme": "cyprus_identity",
+    "ottoman_influence": {
+      "metaphors": ["yol", "gurbetlik", "vatan"],
+      "patterns": ["poetic", "temporal"]
+    },
+    "bpm": 85,
+    "section": null,
+    "timestamp": "2026-01-20T00:00:00.000000",
+    "custom_context": "Small island, big words, gossip and identity, Cyprus connection"
+  },
+  "turkish_lyrics": {
+    "title": "Duvarında Deliği",
+    "sections": {
+      "verse_1": [
+        "Duvarında deliği var, her laf oradan sızar",
+        "Birisi öksürse bile \"kesin işi o bozar!\"",
+        "Köyün bilgesi kahvede, elinde tesbih dizisi",
+        "Her şeyi \"götten\" anlasada bilmez kim kimin hissi"
+      ],
+      "chorus": [
+        "Sen gitsen ne olur, ada içimizde",
+        "Küçük yerin büyük sözü, yan cebimizde",
+        "Kıbrıs gider bizden, ama biz gitmeyiz",
+        "Gökyüzü bile duyar, biz susmayız"
+      ],
+      "verse_2": [
+        "Biri aşık olur, biri hemen ölçer",
+        "Kimin nerde eli, kim kimi dövüşür",
+        "Dedikodudan köprü, gıybetten gemi",
+        "Her limanda bir tanıdık, ama kimse demi demi"
+      ],
+      "verse_3": [
+        "Zeytin dalı ektik, yalan biçtik",
+        "Aşkı konuşurken bile içten içe içtik",
+        "Bir deli deliğine dünya sığdırdık",
+        "Ama kendimize yer bırakmadık"
+      ],
+      "chorus_repeat": [
+        "Sen gitsen ne olur, ada içimizde",
+        "Küçük yerin büyük lafı hep dilimizde",
+        "Kıbrıs gider bizden, ama biz gitmeyiz",
+        "Duvarında deliği var, oradan gülmeyiz"
+      ]
+    },
+    "ottoman_influence": {
+      "metaphors_used": [
+        "ada",
+        "yol"
+      ],
+      "patterns_applied": [
+        "poetic",
+        "temporal"
+      ],
+      "cultural_weight": "authentic_soil"
+    }
+  },
+  "metadata": {
+    "generation_time": "2026-01-20T00:00:00.000000",
+    "entity": "Karasahin (JK)",
+    "ai_role": "karasahin",
+    "genre": "folk_rock",
+    "independent_streams": true,
+    "status": "catalogued",
+    "mission_alignment": {
+      "community": true,
+      "stewardship": true,
+      "description": "Small island community, identity and belonging, stewardship of place"
+    }
+  }
+}

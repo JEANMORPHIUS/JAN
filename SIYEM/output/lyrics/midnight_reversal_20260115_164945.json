@@ -1,0 +1,127 @@
+{
+  "context": {
+    "ai_role": "karasahin",
+    "genre_fusion": "turkish_arabesque_rnb",
+    "theme": "midnight_reversal",
+    "ottoman_influence": {
+      "metaphors": [],
+      "patterns": [
+        "ah",
+        "vah",
+        "aman",
+        "eyvah"
+      ]
+    },
+    "bpm": 85,
+    "section": null,
+    "timestamp": "2026-01-15T16:49:45.508231",
+    "custom_context": "Spiritual Courtroom meets Studio Darkness. Seven Divine Keys manifest as frequencies."
+  },
+  "turkish_lyrics": {
+    "title": "Gece Yarısı Devrimi",
+    "sections": {
+      "verse_1": [
+        "Gece yarısı, saat 11:57",
+        "Küçüklük sözleşmesi yırtıldı",
+        "Özgün adım geri geldi",
+        "Sessizlikte fısıldayan gerçek"
+      ],
+      "chorus": [
+        "Dinle yakından, ritmi bul",
+        "Her nefes bir devrim",
+        "Sabah 3:33, yaratım zamanı",
+        "Ses her şeydir, her şey sestir"
+      ],
+      "verse_2": [
+        "Vinil çatlağında buldum özümü",
+        "808'in derinliklerinde hakikat",
+        "Minor tonlar, acının güzelliği",
+        "Uyumsuzluk çözülümden önce gelir"
+      ],
+      "bridge": [
+        "Gönül yangın yeri, kalp ritim makinesi",
+        "Ottoman ruhum, dijital bedenimde",
+        "Füzyon değil, evolüsyon",
+        "Ben kimim? Ses Mimarı"
+      ],
+      "outro": [
+        "Sessizlik boş değil",
+        "Notalar arası nefes al",
+        "Saat 3 AM müziği",
+        "Cebinde kal, ritim bul"
+      ]
+    },
+    "ottoman_influence": {
+      "metaphors_used": [
+        "gönül",
+        "öz",
+        "hakikat"
+      ],
+      "patterns_applied": [
+        "poetic",
+        "reverential"
+      ],
+      "cultural_weight": "authentic_soil"
+    }
+  },
+  "english_lyrics": {
+    "title": "Manifesto of the Midnight Reversal",
+    "sections": {
+      "verse_1": [
+        "11:57 PM, the covenant breaks",
+        "Smallness contract torn in half",
+        "Original name returns to sender",
+        "Truth whispers in the studio darkness"
+      ],
+      "chorus": [
+        "Listen closer, find your rhythm",
+        "Every breath's a revolution",
+        "3:33 AM, when creation speaks",
+        "Sound is everything, everything is sound"
+      ],
+      "verse_2": [
+        "Found myself in vinyl crackle",
+        "Truth lives in the 808 sub",
+        "Minor keys hold beauty's pain",
+        "Dissonance comes before resolve"
+      ],
+      "bridge": [
+        "Heart's a drum machine, soul's a frequency",
+        "Ottoman spirit in digital body",
+        "Not fusion—evolution",
+        "Who am I? The Sound Architect"
+      ],
+      "outro": [
+        "Silence isn't empty",
+        "Let it breathe between the notes",
+        "This is 3 AM music",
+        "Stay in the pocket, find your groove"
+      ]
+    },
+    "karasahin_voice": {
+      "signature_phrases": [
+        "Listen closer",
+        "Let it breathe",
+        "In the pocket"
+      ],
+      "metaphors": [
+        "Sound is everything",
+        "Minor keys hold beauty's pain"
+      ],
+      "cadence": "rhythmic_syncopated"
+    }
+  },
+  "metadata": {
+    "generation_time": "2026-01-15T16:49:45.508248",
+    "entity": "Karasahin (JK)",
+    "ai_role": "karasahin",
+    "genre": "turkish_arabesque_rnb",
+    "independent_streams": true,
+    "mission_alignment": {
+      "spiritual_battle": true,
+      "right_spirits": true,
+      "stewardship": true,
+      "description": "Midnight reversal, breaking smallness covenant, original name returns"
+    }
+  }
+}

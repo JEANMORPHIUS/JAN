@@ -1,0 +1,85 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Global Map Base - Warm, minimalist design for Segment 5 -->
+  <defs>
+    <linearGradient id="mapGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c4a3e;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#4a7c59;stop-opacity:0.6" />
+    </linearGradient>
+    <filter id="cityGlow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient id="cityGlowGrad" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#fbe5b2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4a574;stop-opacity:0.3" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#f5e6d3" opacity="0.3"/>
+  
+  <!-- Simplified world map (continents as soft shapes) -->
+  <!-- Europe -->
+  <path d="M 800,300 Q 850,280 900,290 Q 950,300 1000,320 Q 1050,340 1100,350 Q 1150,360 1200,370 L 1200,450 Q 1150,460 1100,470 Q 1050,480 1000,490 Q 950,500 900,510 Q 850,520 800,530 Q 750,540 700,550 L 700,400 Q 750,350 800,300 Z" 
+        fill="url(#mapGrad)" opacity="0.4"/>
+  
+  <!-- Africa -->
+  <path d="M 900,550 Q 950,560 1000,570 Q 1050,580 1100,600 Q 1150,620 1200,650 Q 1250,680 1300,720 L 1300,850 Q 1250,880 1200,900 Q 1150,920 1100,930 Q 1050,940 1000,950 Q 950,960 900,970 L 900,750 Q 900,650 900,550 Z" 
+        fill="url(#mapGrad)" opacity="0.4"/>
+  
+  <!-- North America -->
+  <path d="M 200,200 Q 250,180 300,200 Q 350,220 400,250 Q 450,280 500,320 Q 550,360 600,400 L 600,600 Q 550,620 500,640 Q 450,660 400,680 Q 350,700 300,720 Q 250,740 200,760 L 200,500 Q 200,350 200,200 Z" 
+        fill="url(#mapGrad)" opacity="0.4"/>
+  
+  <!-- Asia -->
+  <path d="M 1200,200 Q 1300,180 1400,200 Q 1500,220 1600,250 Q 1700,280 1750,320 L 1750,600 Q 1700,650 1600,700 Q 1500,750 1400,800 Q 1300,850 1200,900 L 1200,550 Q 1200,375 1200,200 Z" 
+        fill="url(#mapGrad)" opacity="0.4"/>
+  
+  <!-- City Markers (will light up in animation) -->
+  <!-- London (origin) -->
+  <g id="london" transform="translate(950, 400)">
+    <circle cx="0" cy="0" r="40" fill="url(#cityGlowGrad)" opacity="0" filter="url(#cityGlow)"/>
+    <circle cx="0" cy="0" r="20" fill="#fbe5b2" opacity="0" filter="url(#cityGlow)"/>
+    <circle cx="0" cy="0" r="8" fill="#ffffff" opacity="0"/>
+  </g>
+  
+  <!-- Paris -->
+  <g id="paris" transform="translate(1000, 380)">
+    <circle cx="0" cy="0" r="40" fill="url(#cityGlowGrad)" opacity="0" filter="url(#cityGlow)"/>
+    <circle cx="0" cy="0" r="20" fill="#fbe5b2" opacity="0" filter="url(#cityGlow)"/>
+    <circle cx="0" cy="0" r="8" fill="#ffffff" opacity="0"/>
+  </g>
+  
+  <!-- Lagos -->
+  <g id="lagos" transform="translate(1050, 650)">
+    <circle cx="0" cy="0" r="40" fill="url(#cityGlowGrad)" opacity="0" filter="url(#cityGlow)"/>
+    <circle cx="0" cy="0" r="20" fill="#fbe5b2" opacity="0" filter="url(#cityGlow)"/>
+    <circle cx="0" cy="0" r="8" fill="#ffffff" opacity="0"/>
+  </g>
+  
+  <!-- Toronto -->
+  <g id="toronto" transform="translate(400, 350)">
+    <circle cx="0" cy="0" r="40" fill="url(#cityGlowGrad)" opacity="0" filter="url(#cityGlow)"/>
+    <circle cx="0" cy="0" r="20" fill="#fbe5b2" opacity="0" filter="url(#cityGlow)"/>
+    <circle cx="0" cy="0" r="8" fill="#ffffff" opacity="0"/>
+  </g>
+  
+  <!-- Istanbul -->
+  <g id="istanbul" transform="translate(1150, 420)">
+    <circle cx="0" cy="0" r="40" fill="url(#cityGlowGrad)" opacity="0" filter="url(#cityGlow)"/>
+    <circle cx="0" cy="0" r="20" fill="#fbe5b2" opacity="0" filter="url(#cityGlow)"/>
+    <circle cx="0" cy="0" r="8" fill="#ffffff" opacity="0"/>
+  </g>
+  
+  <!-- Connection lines (subtle, will appear with cities) -->
+  <g id="connections" opacity="0">
+    <line x1="950" y1="400" x2="1000" y2="380" stroke="#fbe5b2" stroke-width="2" opacity="0.3"/>
+    <line x1="1000" y1="380" x2="1050" y2="650" stroke="#fbe5b2" stroke-width="2" opacity="0.3"/>
+    <line x1="1050" y1="650" x2="400" y2="350" stroke="#fbe5b2" stroke-width="2" opacity="0.3"/>
+    <line x1="400" y1="350" x2="1150" y2="420" stroke="#fbe5b2" stroke-width="2" opacity="0.3"/>
+    <line x1="1150" y1="420" x2="950" y2="400" stroke="#fbe5b2" stroke-width="2" opacity="0.3"/>
+  </g>
+</svg>

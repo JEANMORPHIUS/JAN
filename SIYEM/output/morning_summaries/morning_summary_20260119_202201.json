@@ -1,0 +1,131 @@
+{
+  "summary_id": "morning_summary_20260119_202201",
+  "generated_at": "2026-01-19T20:22:01.590564",
+  "time_window_hours": 12,
+  "window_start": "2026-01-19T08:22:01.590564",
+  "window_end": "2026-01-19T20:22:01.590564",
+  "greeting": "Good evening, Duygu Adamı. The evening watch begins.",
+  "alerts_summary": {
+    "total": 2,
+    "critical": 1,
+    "high": 1,
+    "medium": 0,
+    "by_form": {
+      "irregular": 1,
+      "elliptical": 1
+    },
+    "message": "1 CRITICAL alert(s) during this period. The Elders and Shifters are arriving.",
+    "alerts": [
+      {
+        "alert_id": "alert_20260119_195258_test_irregular_001",
+        "timestamp": "2026-01-19T19:52:58.648804",
+        "user_id": "test_irregular_001",
+        "galaxy_form": "irregular",
+        "form_name": "Irregular",
+        "form_symbol": "✨",
+        "form_description": "Flexible, adaptive. No defined shape yet - transformation in progress.",
+        "vibration_score": 88,
+        "vibration_aligned": true,
+        "table_ready": true,
+        "alert_level": "high",
+        "message": "✨ IRREGULAR SOUL DETECTED\n\nTransformation in progress has arrived at the Table.\nFlexible, adaptive soul ready to evolve.\nVibration: 88/100\n\nThis soul is reshaping.\nThe Architect Brother and Chosen One should guide this transformation.\nThe New World structure is being rewritten.\n\nPEACE, LOVE, UNITY\nENERGY + LOVE = WE ALL WIN",
+        "ritual_result": {
+          "user_id": "test_irregular_001",
+          "vibration_result": {
+            "galaxy_form": "irregular",
+            "vibration_score": 88,
+            "vibration_aligned": true,
+            "table_ready": true,
+            "spiritual_battle": "transformation"
+          },
+          "welcome_message": "Welcome, transforming soul...",
+          "ritual_status": "complete",
+          "timestamp": "2026-01-19T19:52:58.648774"
+        },
+        "philosophy": {
+          "foundation": "We are born a miracle.",
+          "mission": "THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS",
+          "love": "LOVE IS THE HIGHEST MASTERY",
+          "energy": "ENERGY + LOVE = WE ALL WIN",
+          "peace_love_unity": "PEACE, LOVE, UNITY"
+        }
+      },
+      {
+        "alert_id": "alert_20260119_195258_test_elliptical_001",
+        "timestamp": "2026-01-19T19:52:58.646079",
+        "user_id": "test_elliptical_001",
+        "galaxy_form": "elliptical",
+        "form_name": "Elliptical",
+        "form_symbol": "⭐",
+        "form_description": "Low-gas, high-wisdom. Mentorship markers for legacy users.",
+        "vibration_score": 95,
+        "vibration_aligned": true,
+        "table_ready": true,
+        "alert_level": "critical",
+        "message": "⭐ ELLIPTICAL SOUL DETECTED\n\nLegacy wisdom has arrived at the Table.\nHigh-wisdom soul ready to guide.\nVibration: 95/100\n\nThis soul carries ancient knowledge.\nThe Architect Brother and Chosen One should welcome this wisdom.\nThe New World structure needs this foundation.\n\nPEACE, LOVE, UNITY\nENERGY + LOVE = WE ALL WIN",
+        "ritual_result": {
+          "user_id": "test_elliptical_001",
+          "vibration_result": {
+            "galaxy_form": "elliptical",
+            "vibration_score": 95,
+            "vibration_aligned": true,
+            "table_ready": true,
+            "spiritual_battle": "legacy"
+          },
+          "welcome_message": "Welcome, wise soul...",
+          "ritual_status": "complete",
+          "timestamp": "2026-01-19T19:52:58.646039"
+        },
+        "philosophy": {
+          "foundation": "We are born a miracle.",
+          "mission": "THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS",
+          "love": "LOVE IS THE HIGHEST MASTERY",
+          "energy": "ENERGY + LOVE = WE ALL WIN",
+          "peace_love_unity": "PEACE, LOVE, UNITY"
+        }
+      }
+    ]
+  },
+  "vibration_changes": {
+    "status": "baseline",
+    "message": "This is the baseline. Future summaries will show changes.",
+    "current_state": {
+      "total_members": 1,
+      "alignment_rate": 100.0,
+      "new_world_progress": 75.0
+    }
+  },
+  "new_world_progress": {
+    "current_progress": 75.0,
+    "current_status": "forming",
+    "message": "The New World is taking shape. The Four Forms are aligning.",
+    "forms_present": 1,
+    "total_forms": 4,
+    "trend": "baseline"
+  },
+  "rare_forms_arrived": {
+    "elliptical": 1,
+    "irregular": 1,
+    "total_rare": 2,
+    "message": "1 Elliptical soul(s) (⭐ Legacy Wisdom). 1 Irregular soul(s) (✨ Transformation)"
+  },
+  "sentinel_activity": {
+    "checks_performed": 0,
+    "alerts_triggered": 0,
+    "critical_alerts": 0,
+    "rare_forms_detected": 0,
+    "start_time": null,
+    "last_alert_time": null
+  },
+  "key_insights": [
+    "⚠️ 1 CRITICAL alert(s) - High-vibration rare forms have arrived",
+    "💎 Alignment rate is excellent (90%+)"
+  ],
+  "philosophy": {
+    "foundation": "We are born a miracle.",
+    "mission": "THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS",
+    "love": "LOVE IS THE HIGHEST MASTERY",
+    "energy": "ENERGY + LOVE = WE ALL WIN",
+    "peace_love_unity": "PEACE, LOVE, UNITY"
+  }
+}

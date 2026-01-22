@@ -1,0 +1,38 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- ChatGPT Icon - Warm, minimalist design -->
+  <defs>
+    <linearGradient id="chatgptGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbe5b2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4a574;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background circle with glow -->
+  <circle cx="256" cy="256" r="200" fill="url(#chatgptGrad)" opacity="0.3" filter="url(#glow)"/>
+  
+  <!-- ChatGPT-inspired design (conversation/chat bubbles) -->
+  <g transform="translate(256, 256)">
+    <!-- Chat bubble 1 -->
+    <path d="M -60,-50 Q -80,-50 -80,-30 L -80,10 Q -80,30 -60,30 L -40,30 L -30,40 L -30,30 L -10,30 Q 10,30 10,10 L 10,-30 Q 10,-50 -10,-50 Z" 
+          fill="#fbe5b2" filter="url(#glow)" opacity="0.9"/>
+    
+    <!-- Chat bubble 2 (smaller, response) -->
+    <path d="M 60,20 Q 80,20 80,40 L 80,70 Q 80,90 60,90 L 40,90 L 30,100 L 30,90 L 10,90 Q -10,90 -10,70 L -10,40 Q -10,20 10,20 Z" 
+          fill="#d4a574" filter="url(#glow)" opacity="0.8"/>
+    
+    <!-- Conversation dots -->
+    <circle cx="-50" cy="-10" r="4" fill="#ffffff" opacity="0.9"/>
+    <circle cx="-30" cy="-10" r="4" fill="#ffffff" opacity="0.9"/>
+    <circle cx="-10" cy="-10" r="4" fill="#ffffff" opacity="0.9"/>
+  </g>
+  
+  <!-- Outer glow ring -->
+  <circle cx="256" cy="256" r="220" fill="none" stroke="#fbe5b2" stroke-width="2" opacity="0.4"/>
+</svg>

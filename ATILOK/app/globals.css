@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Lato:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #0B1E3E;
+  --navy-light: #1A3A6B;
+  --navy-dark: #051225;
+  --steel: #7B848F;
+  --steel-light: #9CA5B0;
+  --steel-dark: #5A626C;
+  --copper: #C46A28;
+  --copper-light: #E08A4F;
+  --copper-dark: #A04F1F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: var(--navy);
+  background-color: #FAFAFA;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--navy);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Industrial icon styling */
+.industrial-icon {
+  filter: drop-shadow(0 2px 4px rgba(11, 30, 62, 0.1));
+}
+
+/* Smooth transitions */
+.transition-smooth {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Button styles */
+.btn-primary {
+  @apply bg-copper text-white px-6 py-3 rounded-lg font-heading font-semibold 
+         hover:bg-copper-dark transition-smooth shadow-md hover:shadow-lg;
+}
+
+.btn-secondary {
+  @apply bg-navy text-white px-6 py-3 rounded-lg font-heading font-semibold 
+         hover:bg-navy-light transition-smooth shadow-md hover:shadow-lg;
+}
+
+.btn-outline {
+  @apply border-2 border-navy text-navy px-6 py-3 rounded-lg font-heading font-semibold 
+         hover:bg-navy hover:text-white transition-smooth;
+}

@@ -1,0 +1,85 @@
+{
+  "context": {
+    "ai_role": "karasahin",
+    "genre_fusion": "turkish_arabesque_rnb",
+    "theme": "defiance_resilience",
+    "ottoman_influence": {
+      "metaphors": ["aşk", "dert", "keder", "yol"],
+      "patterns": ["poetic", "existential"]
+    },
+    "bpm": 90,
+    "section": null,
+    "timestamp": "2026-01-20T00:00:00.000000",
+    "custom_context": "Defiance, resilience, standing strong despite pain, love as mill"
+  },
+  "turkish_lyrics": {
+    "title": "Sana İnat",
+    "sections": {
+      "verse_1": [
+        "Geceleri sessiz, yıldızlar ağlar",
+        "Adını anarken, içimi parçalar",
+        "Her yalanın izi hâlâ yanımda",
+        "Sana inat, dimdik masamda"
+      ],
+      "chorus": [
+        "Sana inat kafa tutacağım.",
+        "Masamdasın; vuracağım dibine.",
+        "Dünya kime döner, bir değirmen —",
+        "aşk olsun çevirene.",
+        "Sen gideli burası kara kış;",
+        "poyrazın bana zehir esen.",
+        "Ardından yalvaranlar varmış;",
+        "dile benden ne dilersen."
+      ],
+      "verse_2": [
+        "Kırık dökük sokaklarda yürürüm",
+        "Hatıraların gölgesinde ölürüm",
+        "kalbim hâlâ savaşır seninle",
+        "Vurulurum, boyun eğmem",
+        "Vurulurum, boyun eğmem"
+      ],
+      "bridge": [
+        "Kırılmış kalbim hâlâ seninle",
+        "Her rüzgar fısıldar adını bana",
+        "Ama yıkamam kendimi artık",
+        "Sana inat, dimdik dururum burada"
+      ],
+      "outro": [
+        "Sana inat kafa tutacağım.",
+        "Masamdasın; vuracağım dibine.",
+        "Dünya kime döner, bir değirmen —",
+        "aşk olsun çevirene.",
+        "Sen gideli burası kara kış;",
+        "poyrazın bana zehir esen.",
+        "Ardından yalvaranlar varmış;",
+        "dile benden ne dilersen."
+      ]
+    },
+    "ottoman_influence": {
+      "metaphors_used": [
+        "aşk",
+        "dert",
+        "keder"
+      ],
+      "patterns_applied": [
+        "poetic",
+        "existential"
+      ],
+      "cultural_weight": "authentic_soil"
+    }
+  },
+  "metadata": {
+    "generation_time": "2026-01-20T00:00:00.000000",
+    "entity": "Karasahin (JK)",
+    "ai_role": "karasahin",
+    "genre": "turkish_arabesque_rnb",
+    "independent_streams": true,
+    "status": "catalogued",
+    "mission_alignment": {
+      "stewardship": true,
+      "spiritual_battle": true,
+      "right_spirits": true,
+      "description": "Resilience and defiance, self-stewardship, spiritual strength"
+    }
+  }
+}

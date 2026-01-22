@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-01-19T19:46:13.096199",
+  "total_members": 1,
+  "total_aligned": 1,
+  "total_table_ready": 1,
+  "alignment_rate": 100.0,
+  "table_readiness_rate": 100.0,
+  "form_distribution": {
+    "spiral": {
+      "name": "Spiral",
+      "symbol": "🌀",
+      "color": "#4A90E2",
+      "description": "Active, flowing energy. Rapid updates and dynamic engagement.",
+      "count": 1,
+      "percentage": 100.0,
+      "average_vibration": 100.0,
+      "aligned_count": 1,
+      "aligned_percentage": 100.0,
+      "table_ready_count": 1,
+      "table_ready_percentage": 100.0,
+      "spiritual_battles": {
+        "active": 1
+      },
+      "recent_arrivals_24h": 1,
+      "energy_level": "high",
+      "growth_rate": "rapid"
+    }
+  },
+  "energy_concentration": {
+    "high_energy": {
+      "count": 1,
+      "percentage": 100.0,
+      "forms": [
+        "spiral",
+        "barred_spiral"
+      ]
+    },
+    "low_energy": {
+      "count": 0,
+      "percentage": 0.0,
+      "forms": [
+        "elliptical"
+      ]
+    },
+    "variable_energy": {
+      "count": 0,
+      "percentage": 0.0,
+      "forms": [
+        "irregular"
+      ]
+    },
+    "concentration_zone": "high"
+  },
+  "new_world_status": {
+    "status": "forming",
+    "progress": 75.0,
+    "balance_score": 25.0,
+    "alignment_score": 100.0,
+    "table_readiness_score": 100.0,
+    "message": "The New World is taking shape. The Four Forms are aligning.",
+    "forms_present": 1,
+    "total_forms": 4
+  },
+  "philosophy": {
+    "foundation": "We are born a miracle.",
+    "mission": "THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS",
+    "love": "LOVE IS THE HIGHEST MASTERY",
+    "energy": "ENERGY + LOVE = WE ALL WIN",
+    "peace_love_unity": "PEACE, LOVE, UNITY"
+  }
+}

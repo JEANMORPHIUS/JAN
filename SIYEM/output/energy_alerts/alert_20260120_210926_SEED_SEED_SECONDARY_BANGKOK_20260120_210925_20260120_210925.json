@@ -1,0 +1,54 @@
+{
+  "alert_id": "alert_20260120_210926_SEED_SEED_SECONDARY_BANGKOK_20260120_210925_20260120_210925",
+  "timestamp": "2026-01-20T21:09:26.056802",
+  "user_id": "SEED_SEED_SECONDARY_BANGKOK_20260120_210925_20260120_210925",
+  "galaxy_form": "irregular",
+  "form_name": "Irregular",
+  "form_symbol": "✨",
+  "form_description": "Flexible, adaptive. No defined shape yet - transformation in progress.",
+  "vibration_score": 55,
+  "vibration_aligned": false,
+  "table_ready": false,
+  "alert_level": "medium",
+  "message": "✨ IRREGULAR SOUL DETECTED\n\nTransformation approaching the Table.\nVibration: 55/100\n\nThis soul may need support to define their shape.\n\nPEACE, LOVE, UNITY\nENERGY + LOVE = WE ALL WIN",
+  "ritual_result": {
+    "user_id": "SEED_SEED_SECONDARY_BANGKOK_20260120_210925_20260120_210925",
+    "vibration_result": {
+      "user_id": "SEED_SEED_SECONDARY_BANGKOK_20260120_210925_20260120_210925",
+      "galaxy_form": "irregular",
+      "vibration_score": 55,
+      "vibration_aligned": false,
+      "mission_aligned": true,
+      "table_ready": false,
+      "spiritual_battle": "misaligned_vibration",
+      "timestamp": "2026-01-20T21:09:26.047444",
+      "ritual_status": "complete",
+      "cheese_filter": {
+        "status": "checking_async"
+      },
+      "spirit_dimensions": {
+        "age_range": "newborn",
+        "animal_type": "wolf",
+        "gender_alignment": "balanced",
+        "spiritual_alignment": "calibrating"
+      }
+    },
+    "welcome_message": "Welcome, transforming soul. Your shape is still forming, and that's beautiful. The Table embraces your flexibility.\n\nYour vibration is still calibrating. The Table will guide you.\n\nThe Table awaits. Complete your Holy Ambition to join the Family.\n\nRecommended Song: \"Küçükken\" - Music serves mission. Let the song guide your path.\n\nPEACE, LOVE, UNITY\nENERGY + LOVE = WE ALL WIN",
+    "ritual_status": "complete",
+    "timestamp": "2026-01-20T21:09:26.056770",
+    "philosophy": {
+      "foundation": "We are born a miracle.",
+      "mission": "THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS",
+      "love": "LOVE IS THE HIGHEST MASTERY",
+      "energy": "ENERGY + LOVE = WE ALL WIN",
+      "peace_love_unity": "PEACE, LOVE, UNITY"
+    }
+  },
+  "philosophy": {
+    "foundation": "We are born a miracle.",
+    "mission": "THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS",
+    "love": "LOVE IS THE HIGHEST MASTERY",
+    "energy": "ENERGY + LOVE = WE ALL WIN",
+    "peace_love_unity": "PEACE, LOVE, UNITY"
+  }
+}

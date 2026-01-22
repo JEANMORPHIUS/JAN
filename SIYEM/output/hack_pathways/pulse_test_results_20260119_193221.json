@@ -1,0 +1,129 @@
+{
+  "total_tests": 5,
+  "passed_tests": 4,
+  "failed_tests": 1,
+  "pass_rate": 0.8,
+  "vibration_gatekeeper_locked": false,
+  "test_results": [
+    {
+      "test": "parallel_pathway_creation",
+      "passed": true,
+      "pathway_hash": "ad467e0f",
+      "missing_fields": [],
+      "vibration": "transformation",
+      "new_world": true,
+      "regeneration": true,
+      "separation": false
+    },
+    {
+      "test": "gatekeeper_bypass",
+      "passed": true,
+      "total_gatekeepers": 6,
+      "total_blocked": 6,
+      "total_bypassed": 6,
+      "bypass_rate": 1.0,
+      "bypass_results": {
+        "social_media_algorithms": {
+          "traditional_blocked": true,
+          "bypass_attempted": true,
+          "bypass_successful": true,
+          "vibration_aligned": true,
+          "pathway_hash": "19933b41"
+        },
+        "content_moderation": {
+          "traditional_blocked": true,
+          "bypass_attempted": true,
+          "bypass_successful": true,
+          "vibration_aligned": true,
+          "pathway_hash": "4eb25309"
+        },
+        "payment_processors": {
+          "traditional_blocked": true,
+          "bypass_attempted": true,
+          "bypass_successful": true,
+          "vibration_aligned": true,
+          "pathway_hash": "97d1d0f4"
+        },
+        "hosting_providers": {
+          "traditional_blocked": true,
+          "bypass_attempted": true,
+          "bypass_successful": true,
+          "vibration_aligned": true,
+          "pathway_hash": "968fac63"
+        },
+        "search_engines": {
+          "traditional_blocked": true,
+          "bypass_attempted": true,
+          "bypass_successful": true,
+          "vibration_aligned": true,
+          "pathway_hash": "cf744da8"
+        },
+        "traditional_marketing": {
+          "traditional_blocked": true,
+          "bypass_attempted": true,
+          "bypass_successful": true,
+          "vibration_aligned": true,
+          "pathway_hash": "bf8aa465"
+        }
+      }
+    },
+    {
+      "test": "vibration_gatekeeper_integrity",
+      "passed": false,
+      "aligned_vibration": true,
+      "misaligned_detected": false,
+      "gatekeeper_locked": false
+    },
+    {
+      "test": "new_world_bridge",
+      "passed": true,
+      "bridge_hash": "09e58c3b",
+      "missing_fields": [],
+      "regeneration": true,
+      "separation": false,
+      "parallel_reality": true,
+      "stable": true
+    },
+    {
+      "test": "irregular_content_generation",
+      "passed": true,
+      "transformation_levels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "generation_results": {
+        "1": {
+          "generated": true,
+          "has_transformation": true,
+          "has_peace_love": true,
+          "has_energy_love": true,
+          "content_length": 344
+        },
+        "2": {
+          "generated": true,
+          "has_transformation": true,
+          "has_peace_love": true,
+          "has_energy_love": true,
+          "content_length": 329
+        },
+        "3": {
+          "generated": true,
+          "has_transformation": true,
+          "has_peace_love": true,
+          "has_energy_love": true,
+          "content_length": 330
+        },
+        "4": {
+          "generated": true,
+          "has_transformation": true,
+          "has_peace_love": true,
+          "has_energy_love": true,
+          "content_length": 317
+        }
+      }
+    }
+  ],
+  "timestamp": "2026-01-19T19:32:21.314896"
+}

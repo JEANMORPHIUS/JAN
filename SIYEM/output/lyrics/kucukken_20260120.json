@@ -1,0 +1,72 @@
+{
+  "context": {
+    "ai_role": "karasahin",
+    "genre_fusion": "folk_rock",
+    "theme": "childhood_growth_truth",
+    "ottoman_influence": {
+      "metaphors": ["yol", "hakikat", "yara", "kalp"],
+      "patterns": ["poetic", "existential"]
+    },
+    "bpm": 75,
+    "section": null,
+    "timestamp": "2026-01-20T00:00:00.000000",
+    "custom_context": "Childhood silence, broken wings, truth wounds that heal, growth through pain"
+  },
+  "turkish_lyrics": {
+    "title": "Küçükken",
+    "sections": {
+      "verse_1": [
+        "Küçükken sustum, göğe baktım",
+        "Kırık kanatla yol aradım",
+        "Sevgi sandım, yara kaldı",
+        "Ama yaralar da büyütür insanı"
+      ],
+      "chorus": [
+        "Kim çocuk, kim yetişkin?",
+        "Roller hep değişir, gözler hep derin",
+        "Hakikat yarası, kanar ama iyileştirir",
+        "Eger sözu yanarsa, gerçekten gelir"
+      ],
+      "verse_2": [
+        "Halıların altında eski izler",
+        "Sessiz odalarda yankı sözler",
+        "Geçmiş yükünü taşır kalpte",
+        "Akarsada suyu, atesi temizler"
+      ],
+      "chorus_repeat": [
+        "Kim çocuk, kim yetişkin?",
+        "Roller değişti, gözler hep derin",
+        "Hakikat yarası, kanar ama iyileştirir",
+        "Benim sözüm yanarsa, sevgiden gelir"
+      ]
+    },
+    "ottoman_influence": {
+      "metaphors_used": [
+        "yol",
+        "hakikat",
+        "yara",
+        "kalp"
+      ],
+      "patterns_applied": [
+        "poetic",
+        "existential"
+      ],
+      "cultural_weight": "authentic_soil"
+    }
+  },
+  "metadata": {
+    "generation_time": "2026-01-20T00:00:00.000000",
+    "entity": "Karasahin (JK)",
+    "ai_role": "karasahin",
+    "genre": "folk_rock",
+    "independent_streams": true,
+    "status": "catalogued",
+    "mission_alignment": {
+      "stewardship": true,
+      "right_spirits": true,
+      "spiritual_battle": true,
+      "love": true,
+      "description": "Growth through truth, self-stewardship, spiritual healing through love"
+    }
+  }
+}
