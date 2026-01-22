@@ -1,0 +1,181 @@
+{
+  "statements": [
+    {
+      "statement_id": "truth_001",
+      "statement": "Peace is the truth. War is the lie.",
+      "truth_type": "truth",
+      "alignment": "fully_aligned",
+      "category": "geopolitical",
+      "simple_explanation": "War creates separation. Peace creates unity. The truth is peace. The flow is peace.",
+      "how_to_align": "Choose peace over war. Support unity over division. The flow is peace.",
+      "impact": "When we align with peace, we align with the one truth. The matrix transcends through peace.",
+      "discovered_at": "2026-01-22T12:15:24.150668"
+    },
+    {
+      "statement_id": "truth_002",
+      "statement": "Sharing is the truth. Hoarding is the lie.",
+      "truth_type": "truth",
+      "alignment": "fully_aligned",
+      "category": "economic",
+      "simple_explanation": "Hoarding creates scarcity. Sharing creates abundance. The truth is sharing. The flow is sharing.",
+      "how_to_align": "Share resources. Support equity. The flow is sharing.",
+      "impact": "When we align with sharing, we align with the one truth. The matrix transcends through sharing.",
+      "discovered_at": "2026-01-22T12:15:24.150675"
+    },
+    {
+      "statement_id": "truth_003",
+      "statement": "Unity is the truth. Division is the lie.",
+      "truth_type": "truth",
+      "alignment": "fully_aligned",
+      "category": "social",
+      "simple_explanation": "Division creates separation. Unity creates connection. The truth is unity. The flow is unity.",
+      "how_to_align": "Choose unity over division. Support connection over separation. The flow is unity.",
+      "impact": "When we align with unity, we align with the one truth. The matrix transcends through unity.",
+      "discovered_at": "2026-01-22T12:15:24.150677"
+    },
+    {
+      "statement_id": "truth_004",
+      "statement": "Truth is the truth. Deception is the lie.",
+      "truth_type": "truth",
+      "alignment": "fully_aligned",
+      "category": "information",
+      "simple_explanation": "Deception creates confusion. Truth creates clarity. The truth is truth. The flow is truth.",
+      "how_to_align": "Speak truth. Support transparency. The flow is truth.",
+      "impact": "When we align with truth, we align with the one truth. The matrix transcends through truth.",
+      "discovered_at": "2026-01-22T12:15:24.150679"
+    },
+    {
+      "statement_id": "truth_005",
+      "statement": "Love is the truth. Fear is the lie.",
+      "truth_type": "truth",
+      "alignment": "fully_aligned",
+      "category": "spiritual",
+      "simple_explanation": "Fear creates separation. Love creates connection. The truth is love. The flow is love.",
+      "how_to_align": "Choose love over fear. Support connection over separation. The flow is love.",
+      "impact": "When we align with love, we align with the one truth. The matrix transcends through love.",
+      "discovered_at": "2026-01-22T12:15:24.150680"
+    },
+    {
+      "statement_id": "truth_006",
+      "statement": "Cooperation is the truth. Competition is the lie.",
+      "truth_type": "truth",
+      "alignment": "fully_aligned",
+      "category": "economic",
+      "simple_explanation": "Competition creates separation. Cooperation creates unity. The truth is cooperation. The flow is cooperation.",
+      "how_to_align": "Choose cooperation over competition. Support unity over separation. The flow is cooperation.",
+      "impact": "When we align with cooperation, we align with the one truth. The matrix transcends through cooperation.",
+      "discovered_at": "2026-01-22T12:15:24.150682"
+    },
+    {
+      "statement_id": "truth_007",
+      "statement": "Stewardship is the truth. Exploitation is the lie.",
+      "truth_type": "truth",
+      "alignment": "fully_aligned",
+      "category": "economic",
+      "simple_explanation": "Exploitation creates harm. Stewardship creates care. The truth is stewardship. The flow is stewardship.",
+      "how_to_align": "Practice stewardship. Support care over harm. The flow is stewardship.",
+      "impact": "When we align with stewardship, we align with the one truth. The matrix transcends through stewardship.",
+      "discovered_at": "2026-01-22T12:15:24.150683"
+    },
+    {
+      "statement_id": "truth_008",
+      "statement": "Community is the truth. Isolation is the lie.",
+      "truth_type": "truth",
+      "alignment": "fully_aligned",
+      "category": "social",
+      "simple_explanation": "Isolation creates separation. Community creates connection. The truth is community. The flow is community.",
+      "how_to_align": "Build community. Support connection over isolation. The flow is community.",
+      "impact": "When we align with community, we align with the one truth. The matrix transcends through community.",
+      "discovered_at": "2026-01-22T12:15:24.150684"
+    },
+    {
+      "statement_id": "lie_001",
+      "statement": "War is the lie. Peace is the truth.",
+      "truth_type": "lie",
+      "alignment": "misaligned",
+      "category": "geopolitical",
+      "simple_explanation": "War creates separation. This is the lie. Peace is the truth. The flow is peace.",
+      "how_to_align": "Recognize war as the lie. Choose peace. Align with the one truth.",
+      "impact": "When we recognize war as the lie, we can align with peace. The matrix transcends through recognition.",
+      "discovered_at": "2026-01-22T12:15:24.150686"
+    },
+    {
+      "statement_id": "lie_002",
+      "statement": "Hoarding is the lie. Sharing is the truth.",
+      "truth_type": "lie",
+      "alignment": "misaligned",
+      "category": "economic",
+      "simple_explanation": "Hoarding creates scarcity. This is the lie. Sharing is the truth. The flow is sharing.",
+      "how_to_align": "Recognize hoarding as the lie. Choose sharing. Align with the one truth.",
+      "impact": "When we recognize hoarding as the lie, we can align with sharing. The matrix transcends through recognition.",
+      "discovered_at": "2026-01-22T12:15:24.150687"
+    },
+    {
+      "statement_id": "lie_003",
+      "statement": "Division is the lie. Unity is the truth.",
+      "truth_type": "lie",
+      "alignment": "misaligned",
+      "category": "social",
+      "simple_explanation": "Division creates separation. This is the lie. Unity is the truth. The flow is unity.",
+      "how_to_align": "Recognize division as the lie. Choose unity. Align with the one truth.",
+      "impact": "When we recognize division as the lie, we can align with unity. The matrix transcends through recognition.",
+      "discovered_at": "2026-01-22T12:15:24.150689"
+    },
+    {
+      "statement_id": "lie_004",
+      "statement": "Deception is the lie. Truth is the truth.",
+      "truth_type": "lie",
+      "alignment": "misaligned",
+      "category": "information",
+      "simple_explanation": "Deception creates confusion. This is the lie. Truth is the truth. The flow is truth.",
+      "how_to_align": "Recognize deception as the lie. Choose truth. Align with the one truth.",
+      "impact": "When we recognize deception as the lie, we can align with truth. The matrix transcends through recognition.",
+      "discovered_at": "2026-01-22T12:15:24.150690"
+    },
+    {
+      "statement_id": "lie_005",
+      "statement": "Fear is the lie. Love is the truth.",
+      "truth_type": "lie",
+      "alignment": "misaligned",
+      "category": "spiritual",
+      "simple_explanation": "Fear creates separation. This is the lie. Love is the truth. The flow is love.",
+      "how_to_align": "Recognize fear as the lie. Choose love. Align with the one truth.",
+      "impact": "When we recognize fear as the lie, we can align with love. The matrix transcends through recognition.",
+      "discovered_at": "2026-01-22T12:15:24.150691"
+    },
+    {
+      "statement_id": "lie_006",
+      "statement": "Competition is the lie. Cooperation is the truth.",
+      "truth_type": "lie",
+      "alignment": "misaligned",
+      "category": "economic",
+      "simple_explanation": "Competition creates separation. This is the lie. Cooperation is the truth. The flow is cooperation.",
+      "how_to_align": "Recognize competition as the lie. Choose cooperation. Align with the one truth.",
+      "impact": "When we recognize competition as the lie, we can align with cooperation. The matrix transcends through recognition.",
+      "discovered_at": "2026-01-22T12:15:24.150692"
+    },
+    {
+      "statement_id": "lie_007",
+      "statement": "Exploitation is the lie. Stewardship is the truth.",
+      "truth_type": "lie",
+      "alignment": "misaligned",
+      "category": "economic",
+      "simple_explanation": "Exploitation creates harm. This is the lie. Stewardship is the truth. The flow is stewardship.",
+      "how_to_align": "Recognize exploitation as the lie. Choose stewardship. Align with the one truth.",
+      "impact": "When we recognize exploitation as the lie, we can align with stewardship. The matrix transcends through recognition.",
+      "discovered_at": "2026-01-22T12:15:24.150696"
+    },
+    {
+      "statement_id": "lie_008",
+      "statement": "Isolation is the lie. Community is the truth.",
+      "truth_type": "lie",
+      "alignment": "misaligned",
+      "category": "social",
+      "simple_explanation": "Isolation creates separation. This is the lie. Community is the truth. The flow is community.",
+      "how_to_align": "Recognize isolation as the lie. Choose community. Align with the one truth.",
+      "impact": "When we recognize isolation as the lie, we can align with community. The matrix transcends through recognition.",
+      "discovered_at": "2026-01-22T12:15:24.150697"
+    }
+  ],
+  "last_updated": "2026-01-22T12:15:24.150709"
+}
