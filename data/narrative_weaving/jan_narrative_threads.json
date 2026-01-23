@@ -1,0 +1,181 @@
+{
+  "threads": [
+    {
+      "thread_id": "thread_20260123_153803",
+      "title": "Creative-Practical Balance",
+      "description": "Song serves mission, mission honors song",
+      "yin_aspect": "Creative expression (song, art, music, poetry)",
+      "yang_aspect": "Practical mission (stewardship, community, service)",
+      "balance_score": 0.8,
+      "visibility": "public",
+      "target_audience": [
+        "world",
+        "community",
+        "creators"
+      ],
+      "required_for_home": true,
+      "created_at": "2026-01-23T15:38:03.203858",
+      "updated_at": "2026-01-23T15:38:03.203863",
+      "metadata": {}
+    },
+    {
+      "thread_id": "thread_20260123_153803",
+      "title": "Spiritual-Material Balance",
+      "description": "Spirit guides matter, matter manifests spirit",
+      "yin_aspect": "Spiritual alignment (vibration, purpose, truth)",
+      "yang_aspect": "Material systems (code, infrastructure, deployment)",
+      "balance_score": 0.8,
+      "visibility": "public",
+      "target_audience": [
+        "world",
+        "developers",
+        "spiritual_seekers"
+      ],
+      "required_for_home": true,
+      "created_at": "2026-01-23T15:38:03.206940",
+      "updated_at": "2026-01-23T15:38:03.206944",
+      "metadata": {}
+    },
+    {
+      "thread_id": "thread_20260123_153803",
+      "title": "Individual-Community Balance",
+      "description": "Individual serves community, community honors individual",
+      "yin_aspect": "Individual expression (entity identity, personal voice)",
+      "yang_aspect": "Community service (we all win, stewardship)",
+      "balance_score": 0.8,
+      "visibility": "public",
+      "target_audience": [
+        "world",
+        "community",
+        "individuals"
+      ],
+      "required_for_home": true,
+      "created_at": "2026-01-23T15:38:03.210082",
+      "updated_at": "2026-01-23T15:38:03.210085",
+      "metadata": {}
+    },
+    {
+      "thread_id": "thread_20260123_153803",
+      "title": "Unity Over Division",
+      "description": "We are one. The 1% no longer rule the masses.",
+      "yin_aspect": "Unity consciousness (we are one)",
+      "yang_aspect": "Community power (we all win)",
+      "balance_score": 1.0,
+      "visibility": "public",
+      "target_audience": [
+        "world",
+        "everyone"
+      ],
+      "required_for_home": true,
+      "created_at": "2026-01-23T15:38:03.213316",
+      "updated_at": "2026-01-23T15:38:03.213319",
+      "metadata": {}
+    },
+    {
+      "thread_id": "thread_20260123_153803",
+      "title": "Dream Facilitation",
+      "description": "Enable and facilitate dreams. The nightmare is over.",
+      "yin_aspect": "Dream vision (what we want to live)",
+      "yang_aspect": "Dream facilitation (what enables dreams)",
+      "balance_score": 0.9,
+      "visibility": "public",
+      "target_audience": [
+        "world",
+        "dreamers"
+      ],
+      "required_for_home": true,
+      "created_at": "2026-01-23T15:38:03.217311",
+      "updated_at": "2026-01-23T15:38:03.217316",
+      "metadata": {}
+    },
+    {
+      "thread_id": "thread_20260123_153817",
+      "title": "Creative-Practical Balance",
+      "description": "Song serves mission, mission honors song",
+      "yin_aspect": "Creative expression (song, art, music, poetry)",
+      "yang_aspect": "Practical mission (stewardship, community, service)",
+      "balance_score": 0.8,
+      "visibility": "public",
+      "target_audience": [
+        "world",
+        "community",
+        "creators"
+      ],
+      "required_for_home": true,
+      "created_at": "2026-01-23T15:38:17.085846",
+      "updated_at": "2026-01-23T15:38:17.085849",
+      "metadata": {}
+    },
+    {
+      "thread_id": "thread_20260123_153817",
+      "title": "Spiritual-Material Balance",
+      "description": "Spirit guides matter, matter manifests spirit",
+      "yin_aspect": "Spiritual alignment (vibration, purpose, truth)",
+      "yang_aspect": "Material systems (code, infrastructure, deployment)",
+      "balance_score": 0.8,
+      "visibility": "public",
+      "target_audience": [
+        "world",
+        "developers",
+        "spiritual_seekers"
+      ],
+      "required_for_home": true,
+      "created_at": "2026-01-23T15:38:17.100750",
+      "updated_at": "2026-01-23T15:38:17.100765",
+      "metadata": {}
+    },
+    {
+      "thread_id": "thread_20260123_153817",
+      "title": "Individual-Community Balance",
+      "description": "Individual serves community, community honors individual",
+      "yin_aspect": "Individual expression (entity identity, personal voice)",
+      "yang_aspect": "Community service (we all win, stewardship)",
+      "balance_score": 0.8,
+      "visibility": "public",
+      "target_audience": [
+        "world",
+        "community",
+        "individuals"
+      ],
+      "required_for_home": true,
+      "created_at": "2026-01-23T15:38:17.104163",
+      "updated_at": "2026-01-23T15:38:17.104167",
+      "metadata": {}
+    },
+    {
+      "thread_id": "thread_20260123_153817",
+      "title": "Unity Over Division",
+      "description": "We are one. The 1% no longer rule the masses.",
+      "yin_aspect": "Unity consciousness (we are one)",
+      "yang_aspect": "Community power (we all win)",
+      "balance_score": 1.0,
+      "visibility": "public",
+      "target_audience": [
+        "world",
+        "everyone"
+      ],
+      "required_for_home": true,
+      "created_at": "2026-01-23T15:38:17.107108",
+      "updated_at": "2026-01-23T15:38:17.107112",
+      "metadata": {}
+    },
+    {
+      "thread_id": "thread_20260123_153817",
+      "title": "Dream Facilitation",
+      "description": "Enable and facilitate dreams. The nightmare is over.",
+      "yin_aspect": "Dream vision (what we want to live)",
+      "yang_aspect": "Dream facilitation (what enables dreams)",
+      "balance_score": 0.9,
+      "visibility": "public",
+      "target_audience": [
+        "world",
+        "dreamers"
+      ],
+      "required_for_home": true,
+      "created_at": "2026-01-23T15:38:17.110204",
+      "updated_at": "2026-01-23T15:38:17.110207",
+      "metadata": {}
+    }
+  ],
+  "last_updated": "2026-01-23T15:38:17.115367"
+}
