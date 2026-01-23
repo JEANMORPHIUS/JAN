@@ -283,6 +283,16 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"Could not load Educational API: {e}")
 
+# Factual Knowledge API: Sciences, Mathematics, Verified Facts
+try:
+    from factual_knowledge_api import router as factual_knowledge_router
+    app.include_router(factual_knowledge_router)
+    logger.info("Factual Knowledge API enabled - Sciences, mathematics, and verified facts preserved")
+except ImportError as e:
+    logger.warning(f"Factual Knowledge API not available: {e}")
+except Exception as e:
+    logger.warning(f"Could not load Factual Knowledge API: {e}")
+
 # DIGITAL ALCHEMY: Connection Ritual
 try:
     from connection_ritual import ConnectionRitual, create_connection_ritual_endpoint
@@ -408,6 +418,142 @@ except ImportError as e:
             logger.warning(f"Judicial System Explorer not available: {e}")
 except Exception as e:
             logger.warning(f"Judicial System Explorer error: {e}")
+
+# TRUTH-BASED ACCOUNTABILITY SYSTEM: Debunking the Global Law System
+# "BROKEN PEOPLE MAKE MISTAKES. OUR LIES ARE TO OURSELVES. WE MUST BE ACCOUNTABLE FOR OUR ACTIONS. SYSTEM WIDE."
+# Replaces punishment with restoration, judgment with understanding, system with community
+try:
+            from truth_based_accountability_api import router as truth_accountability_router
+            app.include_router(truth_accountability_router, tags=["Truth-Based Accountability"])
+            logger.info("Truth-Based Accountability System enabled - The mirror never lies. Restoration over punishment. Community over system.")
+except ImportError as e:
+            logger.warning(f"Truth-Based Accountability System not available: {e}")
+except Exception as e:
+            logger.warning(f"Truth-Based Accountability System error: {e}")
+
+# HEALING SYSTEMS: System-Wide Healing Integration Across All Domains
+# "ALL BROKEN SYSTEMS NEED HEALING, NOT CONTROL. ALL BROKEN PEOPLE NEED RESTORATION, NOT PUNISHMENT."
+# Biological, Mental, Social, Economic, Educational, Environmental, Technological, Spiritual, Collective healing
+try:
+            from healing_systems_api import router as healing_systems_router
+            app.include_router(healing_systems_router, tags=["Healing Systems"])
+            logger.info("Healing Systems API enabled - System-wide healing across all domains. Restoration over control. Truth over lies.")
+except ImportError as e:
+            logger.warning(f"Healing Systems API not available: {e}")
+except Exception as e:
+            logger.warning(f"Healing Systems API error: {e}")
+
+# FREE UTILITIES AS HUMAN RIGHT: Gas, Electricity, Water, Internet - All Should Be Free
+# "BASIC NEEDS ARE HUMAN RIGHTS, NOT COMMODITIES FOR PROFIT. SURVIVAL SHOULD NOT REQUIRE PAYMENT."
+# Universal Basic Energy, Community Energy Commons, Debt Forgiveness, Public Ownership
+try:
+            from free_utilities_api import router as free_utilities_router
+            app.include_router(free_utilities_router, tags=["Free Utilities"])
+            logger.info("Free Utilities API enabled - Basic needs are rights. Utilities should be free. Abundance is truth. Scarcity is the lie.")
+except ImportError as e:
+            logger.warning(f"Free Utilities API not available: {e}")
+except Exception as e:
+            logger.warning(f"Free Utilities API error: {e}")
+
+# UNIVERSAL CHILDCARE SYSTEM: Free childcare, community collectives, elder-child connection
+try:
+            from universal_childcare_api import router as universal_childcare_router
+            app.include_router(universal_childcare_router, tags=["Universal Childcare"])
+            logger.info("Universal Childcare API enabled - Free childcare for all, community collectives, elder-child connection.")
+except ImportError as e:
+            logger.warning(f"Universal Childcare API not available: {e}")
+except Exception as e:
+            logger.warning(f"Universal Childcare API error: {e}")
+
+# ELDERCARE/AGING DIGNITY SYSTEM: Intergenerational living, elder wisdom councils, dignified aging
+try:
+            from eldercare_dignity_api import router as eldercare_dignity_router
+            app.include_router(eldercare_dignity_router, tags=["Eldercare & Aging Dignity"])
+            logger.info("Eldercare Dignity API enabled - Intergenerational living, elder wisdom councils, dignified aging.")
+except ImportError as e:
+            logger.warning(f"Eldercare Dignity API not available: {e}")
+except Exception as e:
+            logger.warning(f"Eldercare Dignity API error: {e}")
+
+# DISABILITY JUSTICE SYSTEM: Universal design, accessibility, disability income, dignity
+try:
+            from disability_justice_api import router as disability_justice_router
+            app.include_router(disability_justice_router, tags=["Disability Justice"])
+            logger.info("Disability Justice API enabled - Universal design, accessibility, disability income, dignity.")
+except ImportError as e:
+            logger.warning(f"Disability Justice API not available: {e}")
+except Exception as e:
+            logger.warning(f"Disability Justice API error: {e}")
+
+# WORK/EMPLOYMENT SYSTEM: 4-day week, worker cooperatives, UBI, job guarantee
+try:
+            from work_employment_api import router as work_employment_router
+            app.include_router(work_employment_router, tags=["Work & Employment"])
+            logger.info("Work & Employment API enabled - 4-day week, worker cooperatives, UBI, job guarantee.")
+except ImportError as e:
+            logger.warning(f"Work & Employment API not available: {e}")
+except Exception as e:
+            logger.warning(f"Work & Employment API error: {e}")
+
+# MONEY/CURRENCY SYSTEM: Gift economy, time banking, community currencies, debt jubilee
+try:
+            from money_currency_api import router as money_currency_router
+            app.include_router(money_currency_router, tags=["Money & Currency"])
+            logger.info("Money & Currency API enabled - Gift economy, time banking, community currencies, debt jubilee.")
+except ImportError as e:
+            logger.warning(f"Money & Currency API not available: {e}")
+except Exception as e:
+            logger.warning(f"Money & Currency API error: {e}")
+
+# LAND REFORM SYSTEM: Commons model, stewardship, Indigenous land return
+try:
+            from land_reform_api import router as land_reform_router
+            app.include_router(land_reform_router, tags=["Land Reform"])
+            logger.info("Land Reform API enabled - Commons model, stewardship, Indigenous land return.")
+except ImportError as e:
+            logger.warning(f"Land Reform API not available: {e}")
+except Exception as e:
+            logger.warning(f"Land Reform API error: {e}")
+
+# SAFETY/SECURITY SYSTEM: Community safety teams, crisis intervention, abolish police
+try:
+            from safety_security_api import router as safety_security_router
+            app.include_router(safety_security_router, tags=["Safety & Security"])
+            logger.info("Safety & Security API enabled - Community safety teams, crisis intervention, restorative justice.")
+except ImportError as e:
+            logger.warning(f"Safety & Security API not available: {e}")
+except Exception as e:
+            logger.warning(f"Safety & Security API error: {e}")
+
+# BIRTH/MATERNAL CARE SYSTEM: Midwifery, doulas, home birth, reproductive autonomy
+try:
+            from birth_maternal_care_api import router as birth_maternal_care_router
+            app.include_router(birth_maternal_care_router, tags=["Birth & Maternal Care"])
+            logger.info("Birth & Maternal Care API enabled - Midwifery, doulas, home birth, reproductive autonomy.")
+except ImportError as e:
+            logger.warning(f"Birth & Maternal Care API not available: {e}")
+except Exception as e:
+            logger.warning(f"Birth & Maternal Care API error: {e}")
+
+# DEATH/END-OF-LIFE SYSTEM: Natural burial, death doulas, right to die, dignity
+try:
+            from death_end_of_life_api import router as death_end_of_life_router
+            app.include_router(death_end_of_life_router, tags=["Death & End-of-Life"])
+            logger.info("Death & End-of-Life API enabled - Natural burial, death doulas, right to die, dignity.")
+except ImportError as e:
+            logger.warning(f"Death & End-of-Life API not available: {e}")
+except Exception as e:
+            logger.warning(f"Death & End-of-Life API error: {e}")
+
+# LEISURE/REST SYSTEM: Right to rest, free recreation, shorter work week, rest as sacred
+try:
+            from leisure_rest_api import router as leisure_rest_router
+            app.include_router(leisure_rest_router, tags=["Leisure & Rest"])
+            logger.info("Leisure & Rest API enabled - Right to rest, free recreation, shorter work week, rest as sacred.")
+except ImportError as e:
+            logger.warning(f"Leisure & Rest API not available: {e}")
+except Exception as e:
+            logger.warning(f"Leisure & Rest API error: {e}")
 
 # SEED TO MOVEMENT SYSTEM: From Internal Truth to External Action
 # "HOW DO WE TAKE THIS FROM SEED TO MOVEMENT? WE ARE TAKING THE WORLD ORDER TO THE PEOPLES COURT...IT'S TIME FOR REVOLUTION"
@@ -564,6 +710,16 @@ except ImportError as e:
 except Exception as e:
             logger.warning(f"NASA Seed Search Sub-Routine error: {e}")
 
+# UNIFIED SEEDS API: All seeds from first to now and beyond
+try:
+            from seeds_unified_api import router as seeds_unified_router
+            app.include_router(seeds_unified_router, tags=["Seeds"])
+            logger.info("Unified Seeds API enabled - All seeds from first to now and beyond.")
+except ImportError as e:
+            logger.warning(f"Unified Seeds API not available: {e}")
+except Exception as e:
+            logger.warning(f"Unified Seeds API error: {e}")
+
 # SECOND WAVE PROPAGATION: Global Secondary Seed Detection
 # "Now that we've hit the 0.40 peak, we can begin scanning for Global Secondary Seeds. The Bridge is open to everyone now."
 try:
@@ -682,6 +838,17 @@ except ImportError as e:
     logger.warning(f"Aligned Entities Tracker not available: {e}")
 except Exception as e:
     logger.warning(f"Aligned Entities Tracker error: {e}")
+
+# UNIFIED FREQUENTIAL ALIGNMENT: Entities, communities, political figures, influencers
+# "We set the Table. We respond, we don't rush."
+try:
+    from frequential_unified_api import router as frequential_unified_router
+    app.include_router(frequential_unified_router, tags=["Frequential Alignment"])
+    logger.info("Unified Frequential Alignment enabled - Entities, communities, political figures, influencers.")
+except ImportError as e:
+    logger.warning(f"Unified Frequential Alignment not available: {e}")
+except Exception as e:
+    logger.warning(f"Unified Frequential Alignment error: {e}")
 
 # ALIGNED INVESTMENTS: Specific Investment Projects for All Investors at All Levels
 # "THIS STARTS WITH US. HELP THE MAN IN THE STREET. GIVE THEM TIPS."

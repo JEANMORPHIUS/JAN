@@ -857,6 +857,502 @@ async def get_one_truth():
         }
 
 
+@router.get("/timeline-deep-search")
+async def get_timeline_deep_search(
+    era: Optional[str] = Query(None, description="Filter by era"),
+    dimension: Optional[str] = Query(None, description="Filter by dimension: past, present, future")
+):
+    """
+    Get timeline deep search - deep search our timeline across all dimensions.
+    """
+    try:
+        import sys
+        from pathlib import Path
+        sys.path.insert(0, str(Path(__file__).parent.parent.parent / "scripts"))
+        from timeline_deep_search_future_writing import get_timeline_deep_search_future_writing, TimelineEra, TimelineDimension
+        
+        system = get_timeline_deep_search_future_writing()
+        
+        # Filter timeline points
+        points = list(system.timeline_points.values())
+        
+        if era:
+            era_enum = None
+            for e in TimelineEra:
+                if e.value == era.lower():
+                    era_enum = e
+                    break
+            if era_enum:
+                points = [p for p in points if p.era == era_enum]
+        
+        if dimension:
+            dim_enum = None
+            for d in TimelineDimension:
+                if d.value == dimension.lower():
+                    dim_enum = d
+                    break
+            if dim_enum:
+                points = [p for p in points if p.dimension == dim_enum]
+        
+        return {
+            "status": "success",
+            "message": "Deep search our timeline",
+            "total_points": len(points),
+            "timeline_points": [
+                {
+                    "point_id": point.point_id,
+                    "era": point.era.value,
+                    "dimension": point.dimension.value,
+                    "time_period": point.time_period,
+                    "year": point.year,
+                    "century": point.century,
+                    "description": point.description,
+                    "what_was": point.what_was,
+                    "what_is": point.what_is,
+                    "what_must_become": point.what_must_become,
+                    "alignment_state": point.alignment_state.value,
+                    "alignment_score": point.alignment_score,
+                    "serves_table": point.serves_table,
+                    "patterns": point.patterns,
+                    "lessons": point.lessons,
+                    "warnings": point.warnings
+                }
+                for point in points
+            ]
+        }
+    except Exception as e:
+        logger.error(f"Error getting timeline deep search: {e}")
+        return {
+            "status": "error",
+            "message": str(e)
+        }
+
+
+@router.get("/future-writing")
+async def get_future_writing(
+    category: Optional[str] = Query(None, description="Filter by category"),
+    min_alignment: float = Query(0.0, description="Minimum alignment score")
+):
+    """
+    Get future writing - start to write the future aligned with The Table.
+    """
+    try:
+        import sys
+        from pathlib import Path
+        sys.path.insert(0, str(Path(__file__).parent.parent.parent / "scripts"))
+        from timeline_deep_search_future_writing import get_timeline_deep_search_future_writing, FutureCategory
+        
+        system = get_timeline_deep_search_future_writing()
+        
+        # Filter future visions
+        visions = list(system.future_visions.values())
+        
+        if category:
+            cat_enum = None
+            for c in FutureCategory:
+                if c.value == category.lower():
+                    cat_enum = c
+                    break
+            if cat_enum:
+                visions = [v for v in visions if v.category == cat_enum]
+        
+        if min_alignment > 0.0:
+            visions = [v for v in visions if v.alignment_with_table >= min_alignment]
+        
+        return {
+            "status": "success",
+            "message": "Start to write the future",
+            "total_visions": len(visions),
+            "future_visions": [
+                {
+                    "vision_id": vision.vision_id,
+                    "category": vision.category.value,
+                    "vision_name": vision.vision_name,
+                    "current_lie": vision.current_lie,
+                    "current_separation": vision.current_separation,
+                    "current_mechanisms": vision.current_mechanisms,
+                    "future_truth": vision.future_truth,
+                    "future_alignment": vision.future_alignment,
+                    "future_mechanisms": vision.future_mechanisms,
+                    "transformation_path": vision.transformation_path,
+                    "transition_steps": vision.transition_steps,
+                    "transformation_obstacles": vision.transformation_obstacles,
+                    "alignment_with_table": vision.alignment_with_table,
+                    "serves_table": vision.serves_table,
+                    "impact_on_table": vision.impact_on_table,
+                    "impact_on_community": vision.impact_on_community,
+                    "required_changes": vision.required_changes
+                }
+                for vision in visions
+            ]
+        }
+    except Exception as e:
+        logger.error(f"Error getting future writing: {e}")
+        return {
+            "status": "error",
+            "message": str(e)
+        }
+
+
+@router.get("/timeline-future-report")
+async def get_timeline_future_report():
+    """Get comprehensive timeline deep search and future writing report"""
+    try:
+        import sys
+        from pathlib import Path
+        sys.path.insert(0, str(Path(__file__).parent.parent.parent / "scripts"))
+        from timeline_deep_search_future_writing import get_timeline_deep_search_future_writing
+        
+        system = get_timeline_deep_search_future_writing()
+        report = system.get_deep_search_report()
+        
+        return {
+            "status": "success",
+            "message": "Deep search our timeline and start to write the future",
+            "report": report
+        }
+    except Exception as e:
+        logger.error(f"Error getting timeline future report: {e}")
+        return {
+            "status": "error",
+            "message": str(e)
+        }
+
+
+@router.get("/return-to-table-damage")
+async def get_return_to_table_damage(
+    damage_type: Optional[str] = Query(None, description="Filter by damage type"),
+    severity: Optional[str] = Query(None, description="Filter by severity"),
+    critical_only: bool = Query(False, description="Show only critical damages")
+):
+    """
+    Get return to table damage assessment - what damage must we be ready for in the return to The Table.
+    """
+    try:
+        import sys
+        from pathlib import Path
+        sys.path.insert(0, str(Path(__file__).parent.parent.parent / "scripts"))
+        from return_to_table_damage_assessment import get_return_to_table_damage_assessment, DamageType, DamageSeverity
+        
+        assessment = get_return_to_table_damage_assessment()
+        
+        # Filter damages
+        damages = list(assessment.damages.values())
+        
+        if critical_only:
+            damages = assessment.get_critical_damages()
+        
+        if damage_type:
+            type_enum = None
+            for dt in DamageType:
+                if dt.value == damage_type.lower():
+                    type_enum = dt
+                    break
+            if type_enum:
+                damages = [d for d in damages if d.damage_type == type_enum]
+        
+        if severity:
+            severity_enum = None
+            for sev in DamageSeverity:
+                if sev.value == severity.lower():
+                    severity_enum = sev
+                    break
+            if severity_enum:
+                damages = [d for d in damages if d.damage_type == severity_enum]
+        
+        return {
+            "status": "success",
+            "message": "What damage must we be ready for in the return to The Table",
+            "total_damages": len(damages),
+            "damages": [
+                {
+                    "damage_id": damage.damage_id,
+                    "damage_name": damage.damage_name,
+                    "damage_type": damage.damage_type.value,
+                    "damage_source": damage.damage_source.value,
+                    "severity": damage.severity.value,
+                    "description": damage.description,
+                    "how_damage_occurs": damage.how_damage_occurs,
+                    "when_damage_occurs": damage.when_damage_occurs,
+                    "who_is_affected": damage.who_is_affected,
+                    "symptoms": damage.symptoms,
+                    "warning_signs": damage.warning_signs,
+                    "triggers": damage.triggers,
+                    "impact_on_table": damage.impact_on_table,
+                    "impact_on_community": damage.impact_on_community,
+                    "impact_on_individuals": damage.impact_on_individuals,
+                    "impact_on_systems": damage.impact_on_systems,
+                    "protection_needed": damage.protection_needed.value,
+                    "protection_protocols": damage.protection_protocols,
+                    "preparation_steps": damage.preparation_steps,
+                    "healing_required": damage.healing_required,
+                    "healing_protocols": damage.healing_protocols,
+                    "restoration_steps": damage.restoration_steps,
+                    "resistance_expected": damage.resistance_expected,
+                    "resistance_forms": damage.resistance_forms,
+                    "opposition_sources": damage.opposition_sources
+                }
+                for damage in damages
+            ]
+        }
+    except Exception as e:
+        logger.error(f"Error getting return to table damage: {e}")
+        return {
+            "status": "error",
+            "message": str(e)
+        }
+
+
+@router.get("/return-to-table-damage/assessment")
+async def get_return_to_table_damage_assessment():
+    """Get comprehensive return to table damage assessment report"""
+    try:
+        import sys
+        from pathlib import Path
+        sys.path.insert(0, str(Path(__file__).parent.parent.parent / "scripts"))
+        from return_to_table_damage_assessment import get_return_to_table_damage_assessment
+        
+        assessment = get_return_to_table_damage_assessment()
+        report = assessment.get_assessment_report()
+        
+        return {
+            "status": "success",
+            "message": "What damage must we be ready for in the return to The Table",
+            "assessment_report": report
+        }
+    except Exception as e:
+        logger.error(f"Error getting return to table damage assessment: {e}")
+        return {
+            "status": "error",
+            "message": str(e)
+        }
+
+
+@router.get("/frequential-arts-crafts")
+async def get_frequential_arts_crafts(
+    time_period: Optional[str] = Query(None, description="Filter by time period"),
+    medium: Optional[str] = Query(None, description="Filter by medium"),
+    min_frequency: float = Query(0.0, description="Minimum frequency score")
+):
+    """
+    Get frequential arts and crafts timeline - all arts and crafts throughout time with frequential alignment.
+    Everything must be aligned throughout our timeline.
+    """
+    try:
+        import sys
+        from pathlib import Path
+        sys.path.insert(0, str(Path(__file__).parent.parent.parent / "scripts"))
+        from frequential_arts_crafts_timeline import get_frequential_arts_crafts_timeline, TimePeriod, ArtMedium
+        
+        timeline = get_frequential_arts_crafts_timeline()
+        
+        # Filter arts and crafts
+        arts_crafts = list(timeline.arts_crafts.values())
+        
+        if time_period:
+            period_enum = None
+            for period in TimePeriod:
+                if period.value == time_period.lower():
+                    period_enum = period
+                    break
+            if period_enum:
+                arts_crafts = [a for a in arts_crafts if a.time_period == period_enum]
+        
+        if medium:
+            medium_enum = None
+            for med in ArtMedium:
+                if med.value == medium.lower():
+                    medium_enum = med
+                    break
+            if medium_enum:
+                arts_crafts = [a for a in arts_crafts if a.medium == medium_enum]
+        
+        if min_frequency > 0.0:
+            arts_crafts = [a for a in arts_crafts if a.frequency_score >= min_frequency]
+        
+        return {
+            "status": "success",
+            "total_arts_crafts": len(arts_crafts),
+            "message": "Everything must be aligned throughout our timeline",
+            "arts_crafts": [
+                {
+                    "art_id": art.art_id,
+                    "title": art.title,
+                    "artist_craftsperson": art.artist_craftsperson,
+                    "medium": art.medium.value,
+                    "time_period": art.time_period.value,
+                    "culture_region": art.culture_region,
+                    "year_created": art.year_created,
+                    "century": art.century,
+                    "description": art.description,
+                    "materials": art.materials,
+                    "techniques": art.techniques,
+                    "frequency_score": art.frequency_score,
+                    "alignment_benefits": art.alignment_benefits,
+                    "how_benefits": art.how_benefits,
+                    "connection_to_table": art.connection_to_table,
+                    "key_messages": art.key_messages,
+                    "themes": art.themes,
+                    "timeline_alignment": art.timeline_alignment,
+                    "historical_significance": art.historical_significance,
+                    "cultural_impact": art.cultural_impact
+                }
+                for art in arts_crafts
+            ]
+        }
+    except Exception as e:
+        logger.error(f"Error getting frequential arts and crafts: {e}")
+        return {
+            "status": "error",
+            "message": str(e)
+        }
+
+
+@router.get("/frequential-arts-crafts/timeline")
+async def get_frequential_arts_crafts_timeline():
+    """Get frequential arts and crafts organized by timeline"""
+    try:
+        import sys
+        from pathlib import Path
+        sys.path.insert(0, str(Path(__file__).parent.parent.parent / "scripts"))
+        from frequential_arts_crafts_timeline import get_frequential_arts_crafts_timeline, TimePeriod
+        
+        timeline = get_frequential_arts_crafts_timeline()
+        report = timeline.get_timeline_report()
+        
+        return {
+            "status": "success",
+            "message": "Everything must be aligned throughout our timeline",
+            "timeline_report": report
+        }
+    except Exception as e:
+        logger.error(f"Error getting frequential arts and crafts timeline: {e}")
+        return {
+            "status": "error",
+            "message": str(e)
+        }
+
+
+@router.get("/frequential-songs")
+async def get_frequential_songs(
+    language: Optional[str] = Query(None, description="Filter by language: english, turkish"),
+    theme: Optional[str] = Query(None, description="Filter by theme"),
+    min_frequency: float = Query(0.0, description="Minimum frequency score")
+):
+    """
+    Get frequential songs catalog - all frequentially aligned songs in English and Turkish with lyrics.
+    """
+    try:
+        import sys
+        from pathlib import Path
+        sys.path.insert(0, str(Path(__file__).parent.parent.parent / "scripts"))
+        from frequential_songs_catalog import get_frequential_songs_catalog, SongLanguage
+        
+        catalog = get_frequential_songs_catalog()
+        
+        # Filter songs
+        songs = list(catalog.songs.values())
+        
+        if language:
+            lang_enum = SongLanguage.ENGLISH if language.lower() == "english" else SongLanguage.TURKISH if language.lower() == "turkish" else None
+            if lang_enum:
+                songs = [s for s in songs if s.language == lang_enum]
+        
+        if theme:
+            songs = [s for s in songs if theme.lower() in [t.lower() for t in s.themes]]
+        
+        if min_frequency > 0.0:
+            songs = [s for s in songs if s.frequency_score >= min_frequency]
+        
+        return {
+            "status": "success",
+            "total_songs": len(songs),
+            "songs": [
+                {
+                    "song_id": song.song_id,
+                    "title": song.title,
+                    "artist": song.artist,
+                    "language": song.language.value,
+                    "themes": song.themes,
+                    "lyrics_original": song.lyrics_original,
+                    "lyrics_english": song.lyrics_english,
+                    "lyrics_turkish": song.lyrics_turkish,
+                    "frequency_score": song.frequency_score,
+                    "alignment_indicators": song.alignment_indicators,
+                    "year": song.year,
+                    "genre": song.genre,
+                    "album": song.album,
+                    "connection_to_table": song.connection_to_table,
+                    "key_messages": song.key_messages,
+                    "quotes": song.quotes
+                }
+                for song in songs
+            ]
+        }
+    except Exception as e:
+        logger.error(f"Error getting frequential songs: {e}")
+        return {
+            "status": "error",
+            "message": str(e)
+        }
+
+
+@router.get("/frequential-songs/by-language")
+async def get_frequential_songs_by_language():
+    """Get frequential songs grouped by language"""
+    try:
+        import sys
+        from pathlib import Path
+        sys.path.insert(0, str(Path(__file__).parent.parent.parent / "scripts"))
+        from frequential_songs_catalog import get_frequential_songs_catalog, SongLanguage
+        
+        catalog = get_frequential_songs_catalog()
+        
+        english_songs = catalog.get_songs_by_language(SongLanguage.ENGLISH)
+        turkish_songs = catalog.get_songs_by_language(SongLanguage.TURKISH)
+        
+        return {
+            "status": "success",
+            "by_language": {
+                "english": {
+                    "total": len(english_songs),
+                    "songs": [
+                        {
+                            "song_id": song.song_id,
+                            "title": song.title,
+                            "artist": song.artist,
+                            "themes": song.themes,
+                            "frequency_score": song.frequency_score,
+                            "has_lyrics": bool(song.lyrics_original)
+                        }
+                        for song in english_songs
+                    ]
+                },
+                "turkish": {
+                    "total": len(turkish_songs),
+                    "songs": [
+                        {
+                            "song_id": song.song_id,
+                            "title": song.title,
+                            "artist": song.artist,
+                            "themes": song.themes,
+                            "frequency_score": song.frequency_score,
+                            "has_lyrics": bool(song.lyrics_original),
+                            "has_translation": bool(song.lyrics_english)
+                        }
+                        for song in turkish_songs
+                    ]
+                }
+            }
+        }
+    except Exception as e:
+        logger.error(f"Error getting frequential songs by language: {e}")
+        return {
+            "status": "error",
+            "message": str(e)
+        }
+
+
 @router.get("/spiritual-contracts-miracles")
 async def get_spiritual_contracts_miracles():
     """

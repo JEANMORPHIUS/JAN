@@ -1,0 +1,170 @@
+{
+  "restoration_framework": {
+    "step_1_remember": {
+      "name": "Remember The Table",
+      "description": "Remember Pangea, remember perfect unity, remember The Seed",
+      "actions": [
+        "Document Pangea as The Table",
+        "Remember perfect unity (1.0 field resonance)",
+        "Remember all souls were unified",
+        "Remember The Seed (the truth)",
+        "Honor Law 1: Never Betray The Table"
+      ],
+      "systems": [
+        "Pangea integration",
+        "Table timeline analysis",
+        "Philosophy integration (PANGEA_IS_THE_TABLE)"
+      ],
+      "field_resonance_impact": "+0.05"
+    },
+    "step_2_cleanse": {
+      "name": "Cleanse The Shell",
+      "description": "Remove dark energy narratives, reveal The Seed",
+      "actions": [
+        "Cleanse heritage site narratives",
+        "Remove dark energy patterns",
+        "Apply regeneration narratives",
+        "Reveal The Seed (the truth)",
+        "Honor Law 41: Respect the Abandoned"
+      ],
+      "systems": [
+        "Heritage cleansing framework",
+        "Dark energy pattern detection",
+        "Regeneration narrative application"
+      ],
+      "field_resonance_impact": "+0.10"
+    },
+    "step_3_connect": {
+      "name": "Connect The Grid",
+      "description": "Connect heritage sites, restore field resonance",
+      "actions": [
+        "Map heritage sites to The Table",
+        "Calculate field resonance",
+        "Connect sites through field space",
+        "Build the Global Grid",
+        "Restore energy flow"
+      ],
+      "systems": [
+        "Grid sync analysis",
+        "Field space calculation",
+        "Energy flow restoration",
+        "Global Grid connection"
+      ],
+      "field_resonance_impact": "+0.15"
+    },
+    "step_4_fight": {
+      "name": "Fight Dark Energies",
+      "description": "Fight at battlefields, protect heritage sites",
+      "actions": [
+        "Identify spiritual battlefields",
+        "Register light entities",
+        "Document dark energy entities",
+        "Fight at plate boundaries",
+        "Protect heritage sites"
+      ],
+      "systems": [
+        "Spiritual contracts registry",
+        "Battlefield documentation",
+        "Entity registration",
+        "Contract restoration"
+      ],
+      "field_resonance_impact": "+0.10"
+    },
+    "step_5_restore_contracts": {
+      "name": "Restore Contracts",
+      "description": "Restore unified contracts, connect light entities",
+      "actions": [
+        "Document unified contracts",
+        "Connect light entities across plates",
+        "Restore soul agreements",
+        "Re-establish divine covenants",
+        "Unify spiritual contracts"
+      ],
+      "systems": [
+        "Spiritual contracts registry",
+        "Contract restoration",
+        "Entity connection",
+        "Soul mapping"
+      ],
+      "field_resonance_impact": "+0.15"
+    },
+    "step_6_restore_table": {
+      "name": "Restore The Table",
+      "description": "Complete restoration, unity restored",
+      "actions": [
+        "Complete field resonance restoration",
+        "Unify all contracts",
+        "Connect all heritage sites",
+        "Restore perfect unity",
+        "The Table is whole again"
+      ],
+      "systems": [
+        "Complete Grid restoration",
+        "Unified contract system",
+        "Perfect field resonance",
+        "The Table restored"
+      ],
+      "field_resonance_impact": "+0.22"
+    }
+  },
+  "restoration_metrics": {
+    "current_state": {
+      "field_resonance": 0.78,
+      "unity_level": "Memory of unity",
+      "contracts": "Complex across plates",
+      "battlefields": "Many at boundaries",
+      "heritage_sites": "Connected but fragmented"
+    },
+    "target_state": {
+      "field_resonance": 1.0,
+      "unity_level": "Perfect unity restored",
+      "contracts": "Unified at The Table",
+      "battlefields": "None - only unity",
+      "heritage_sites": "All connected to The Table"
+    },
+    "progress_tracking": {
+      "step_1": {
+        "status": "complete",
+        "field_resonance": 0.83
+      },
+      "step_2": {
+        "status": "in_progress",
+        "field_resonance": 0.93
+      },
+      "step_3": {
+        "status": "in_progress",
+        "field_resonance": 0.98
+      },
+      "step_4": {
+        "status": "pending",
+        "field_resonance": 0.99
+      },
+      "step_5": {
+        "status": "pending",
+        "field_resonance": 0.99
+      },
+      "step_6": {
+        "status": "pending",
+        "field_resonance": 1.0
+      }
+    }
+  },
+  "current_state": {
+    "field_resonance": 0.78,
+    "unity_level": "Memory of unity",
+    "status": "Fragmented but connected"
+  },
+  "target_state": {
+    "field_resonance": 1.0,
+    "unity_level": "Perfect unity restored",
+    "status": "The Table restored"
+  },
+  "how_to_fix_it": {
+    "step_1": "Remember The Table - Pangea integration complete",
+    "step_2": "Cleanse The Shell - Remove dark energy, reveal The Seed",
+    "step_3": "Connect The Grid - Restore field resonance",
+    "step_4": "Fight Dark Energies - Protect heritage sites",
+    "step_5": "Restore Contracts - Unify spiritual contracts",
+    "step_6": "Restore The Table - Complete restoration"
+  }
+}

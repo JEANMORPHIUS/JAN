@@ -29,7 +29,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from utils import (
-    Path, json, load_json, save_json, setup_logging
+    Path, json, load_json, save_json, setup_logging,
     standard_main
 )
 

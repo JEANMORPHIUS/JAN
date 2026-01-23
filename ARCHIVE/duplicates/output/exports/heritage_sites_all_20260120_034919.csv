@@ -1,0 +1,139 @@
+id,site_name,site_type,region,country,coordinates_lat,coordinates_lon,timeline_dimension,time_period,year_established,year_abandoned,current_status,law_41_compliant,requires_cleansing,field_resonance_level,field_space_resonance,magnetic_pole_alignment,polarity_state,narrative_count
+20,Bhangarh Fort,Fort,Rajasthan,India,27.0964,76.2856,primary,renaissance,1573,1783,abandoned,0,1,,,,,0
+21,Heritage Property,Fort,Rajasthan,India,,,primary,renaissance,1573,1783,archived,1,0,,,,,2
+17,Château de Brissac,Chateau,Anjou,France,47.35,-0.45,primary,renaissance,1500,,active,0,1,,,,,0
+18,Heritage Property,Chateau,Anjou,France,,,primary,renaissance,1500,,regenerated,1,0,,,,,2
+1,Berengaria Hotel,Hotel,Troodos Mountains,Cyprus,34.9167,32.8333,primary,modern,1930,1984,abandoned,0,1,0.8393333333333335,0.3855555555555556,neutral,positive,1
+2,abandoned Berengaria Hotel,Hotel,Troodos Mountains,Cyprus,,,primary,modern,1930,1984,regenerated,1,0,,,,,4
+15,Poveglia Island,Hospital,Venice,Italy,45.3808,12.3306,primary,modern,1793,1968,abandoned,0,1,,,,,0
+16,Heritage Property,Hospital,Venice,Italy,,,primary,modern,1793,1968,regenerated,1,0,,,,,2
+19,Leap Castle,Castle,Offaly,Ireland,53.0333,-7.8,primary,medieval,1250,,regenerated,1,0,,,,,2
+3,Alhambra Palace,Palace,Andalusia,Spain,37.177,-3.5886,primary,medieval,1238,,active,0,1,0.869,0.35,neutral,positive,2
+14,haunted Alhambra Palace,Palace,Andalusia,Spain,,,primary,medieval,1238,,regenerated,1,0,,,,,2
+8,Angkor Wat,Temple Complex,Siem Reap,Cambodia,13.4125,103.867,primary,medieval,1150,1431,active,0,1,0.6843333333333333,0.9111111111111111,neutral,neutral,1
+9,12th century as a Hindu temple,Temple Complex,Siem Reap,Cambodia,,,primary,medieval,1150,1431,archived,1,0,,,,,2
+10,Machu Picchu,Inca Citadel,Cusco,Peru,-13.1631,-72.545,primary,ancient,1450,1572,active,0,1,0.5640000000000001,0.8666666666666667,neutral,neutral,1
+11,Heritage Property,Inca Citadel,Cusco,Peru,,,primary,ancient,1450,1572,archived,1,0,,,,,2
+22,Ancient Temple of Delphi,Temple,Phocis,Greece,38.4826,22.5014,primary,ancient,800,390,ruins,0,1,,,,,0
+23,abandoned temple,Temple,Phocis,Greece,,,primary,ancient,800,390,archived,1,0,,,,,2
+6,Great Pyramid of Giza,Pyramid,Giza,Egypt,29.9792,31.1342,primary,ancient,-2580,,active,0,1,0.8900000000000001,0.5333333333333333,neutral,neutral,1
+7,Heritage Property,Pyramid,Giza,Egypt,,,primary,ancient,-2580,,archived,1,0,,,,,2
+4,Stonehenge,Stone Circle,Wiltshire,England,51.1789,-1.8262,primary,ancient,-3000,,active,0,1,0.8416666666666667,0.2611111111111111,north,positive,1
+5,Heritage Property,Stone Circle,Wiltshire,England,,,primary,ancient,-3000,,archived,1,0,,,,,2
+12,Uluru,Sacred Monolith,Northern Territory,Australia,-25.3444,131.0369,primary,ancient,-60000000,,active,1,0,0.7783333333333333,0.28888888888888886,south,negative,1
+13,Heritage Property,Sacred Monolith,Northern Territory,Australia,,,primary,ancient,-60000000,,archived,1,0,,,,,2
+33,Bhangarh Fort,Fort,Rajasthan,India,27.0964,76.2856,parallel,renaissance,1573,1783,abandoned,0,1,,,,,0
+34,Heritage Property,Fort,Rajasthan,India,,,parallel,renaissance,1573,1783,archived,1,0,,,,,2
+30,Château de Brissac,Chateau,Anjou,France,47.35,-0.45,parallel,renaissance,1500,,active,0,1,,,,,0
+31,Heritage Property,Chateau,Anjou,France,,,parallel,renaissance,1500,,regenerated,1,0,,,,,2
+24,Berengaria Hotel,Hotel,Cyprus,Cyprus,34.9167,32.8333,parallel,modern,1930,1984,abandoned,0,1,0.8393333333333335,0.3855555555555556,neutral,positive,0
+25,abandoned Berengaria Hotel,Hotel,Cyprus,Cyprus,,,parallel,modern,1930,1984,regenerated,1,0,,,,,4
+28,Poveglia Island,Hospital,Venice,Italy,45.3808,12.3306,parallel,modern,1793,1968,abandoned,0,1,,,,,0
+29,Heritage Property,Hospital,Venice,Italy,,,parallel,modern,1793,1968,regenerated,1,0,,,,,2
+32,Leap Castle,Castle,Offaly,Ireland,53.0333,-7.8,parallel,medieval,1250,,regenerated,1,0,,,,,2
+26,Alhambra Palace,Palace,Andalusia,Spain,37.177,-3.5886,parallel,medieval,1238,,active,0,1,0.869,0.35,neutral,positive,2
+27,haunted Alhambra Palace,Palace,Andalusia,Spain,,,parallel,medieval,1238,,regenerated,1,0,,,,,2
+89,Angkor Wat,Temple Complex,Siem Reap,Cambodia,13.4125,103.867,parallel,medieval,1150,1431,active,0,1,0.6843333333333333,0.9111111111111111,neutral,neutral,0
+90,12th century as a Hindu temple,Temple Complex,Siem Reap,Cambodia,,,parallel,medieval,1150,1431,archived,1,0,,,,,2
+91,Machu Picchu,Inca Citadel,Cusco,Peru,-13.1631,-72.545,parallel,ancient,1450,1572,active,0,1,0.5640000000000001,0.8666666666666667,neutral,neutral,0
+92,Heritage Property,Inca Citadel,Cusco,Peru,,,parallel,ancient,1450,1572,archived,1,0,,,,,2
+35,Ancient Temple of Delphi,Temple,Phocis,Greece,38.4826,22.5014,parallel,ancient,800,390,ruins,0,1,,,,,0
+36,abandoned temple,Temple,Phocis,Greece,,,parallel,ancient,800,390,archived,1,0,,,,,2
+93,Great Pyramid of Giza,Pyramid,Giza,Egypt,29.9792,31.1342,parallel,ancient,-2580,,active,0,1,0.8900000000000001,0.5333333333333333,neutral,neutral,0
+94,Heritage Property,Pyramid,Giza,Egypt,,,parallel,ancient,-2580,,archived,1,0,,,,,2
+95,Stonehenge,Stone Circle,Wiltshire,England,51.1789,-1.8262,parallel,ancient,-3000,,active,0,1,0.8416666666666667,0.2611111111111111,north,positive,0
+96,Heritage Property,Stone Circle,Wiltshire,England,,,parallel,ancient,-3000,,archived,1,0,,,,,2
+97,Uluru,Sacred Monolith,Northern Territory,Australia,-25.3444,131.0369,parallel,ancient,-60000000,,active,1,0,0.7783333333333333,0.28888888888888886,south,negative,0
+98,Heritage Property,Sacred Monolith,Northern Territory,Australia,,,parallel,ancient,-60000000,,archived,1,0,,,,,2
+46,Bhangarh Fort,Fort,Rajasthan,India,27.0964,76.2856,past_loop,renaissance,1573,1783,abandoned,0,1,,,,,0
+47,Heritage Property,Fort,Rajasthan,India,,,past_loop,renaissance,1573,1783,archived,1,0,,,,,2
+43,Château de Brissac,Chateau,Anjou,France,47.35,-0.45,past_loop,renaissance,1500,,active,0,1,,,,,0
+44,Heritage Property,Chateau,Anjou,France,,,past_loop,renaissance,1500,,regenerated,1,0,,,,,2
+37,Berengaria Hotel,Hotel,Cyprus,Cyprus,34.9167,32.8333,past_loop,modern,1930,1984,abandoned,0,1,0.8393333333333335,0.3855555555555556,neutral,positive,0
+38,abandoned Berengaria Hotel,Hotel,Cyprus,Cyprus,,,past_loop,modern,1930,1984,regenerated,1,0,,,,,4
+41,Poveglia Island,Hospital,Venice,Italy,45.3808,12.3306,past_loop,modern,1793,1968,abandoned,0,1,,,,,0
+42,Heritage Property,Hospital,Venice,Italy,,,past_loop,modern,1793,1968,regenerated,1,0,,,,,2
+45,Leap Castle,Castle,Offaly,Ireland,53.0333,-7.8,past_loop,medieval,1250,,regenerated,1,0,,,,,2
+39,Alhambra Palace,Palace,Andalusia,Spain,37.177,-3.5886,past_loop,medieval,1238,,active,0,1,0.869,0.35,neutral,positive,2
+40,haunted Alhambra Palace,Palace,Andalusia,Spain,,,past_loop,medieval,1238,,regenerated,1,0,,,,,2
+99,Angkor Wat,Temple Complex,Siem Reap,Cambodia,13.4125,103.867,past_loop,medieval,1150,1431,active,0,1,0.6843333333333333,0.9111111111111111,neutral,neutral,0
+100,12th century as a Hindu temple,Temple Complex,Siem Reap,Cambodia,,,past_loop,medieval,1150,1431,archived,1,0,,,,,2
+101,Machu Picchu,Inca Citadel,Cusco,Peru,-13.1631,-72.545,past_loop,ancient,1450,1572,active,0,1,0.5640000000000001,0.8666666666666667,neutral,neutral,0
+102,Heritage Property,Inca Citadel,Cusco,Peru,,,past_loop,ancient,1450,1572,archived,1,0,,,,,2
+48,Ancient Temple of Delphi,Temple,Phocis,Greece,38.4826,22.5014,past_loop,ancient,800,390,ruins,0,1,,,,,0
+49,abandoned temple,Temple,Phocis,Greece,,,past_loop,ancient,800,390,archived,1,0,,,,,2
+103,Great Pyramid of Giza,Pyramid,Giza,Egypt,29.9792,31.1342,past_loop,ancient,-2580,,active,0,1,0.8900000000000001,0.5333333333333333,neutral,neutral,0
+104,Heritage Property,Pyramid,Giza,Egypt,,,past_loop,ancient,-2580,,archived,1,0,,,,,2
+105,Stonehenge,Stone Circle,Wiltshire,England,51.1789,-1.8262,past_loop,ancient,-3000,,active,0,1,0.8416666666666667,0.2611111111111111,north,positive,0
+106,Heritage Property,Stone Circle,Wiltshire,England,,,past_loop,ancient,-3000,,archived,1,0,,,,,2
+107,Uluru,Sacred Monolith,Northern Territory,Australia,-25.3444,131.0369,past_loop,ancient,-60000000,,active,1,0,0.7783333333333333,0.28888888888888886,south,negative,0
+108,Heritage Property,Sacred Monolith,Northern Territory,Australia,,,past_loop,ancient,-60000000,,archived,1,0,,,,,2
+59,Bhangarh Fort,Fort,Rajasthan,India,27.0964,76.2856,future_loop,renaissance,1573,1783,abandoned,0,1,,,,,0
+60,Heritage Property,Fort,Rajasthan,India,,,future_loop,renaissance,1573,1783,archived,1,0,,,,,2
+56,Château de Brissac,Chateau,Anjou,France,47.35,-0.45,future_loop,renaissance,1500,,active,0,1,,,,,0
+57,Heritage Property,Chateau,Anjou,France,,,future_loop,renaissance,1500,,regenerated,1,0,,,,,2
+50,Berengaria Hotel,Hotel,Cyprus,Cyprus,34.9167,32.8333,future_loop,modern,1930,1984,abandoned,0,1,0.8393333333333335,0.3855555555555556,neutral,positive,0
+51,abandoned Berengaria Hotel,Hotel,Cyprus,Cyprus,,,future_loop,modern,1930,1984,regenerated,1,0,,,,,4
+54,Poveglia Island,Hospital,Venice,Italy,45.3808,12.3306,future_loop,modern,1793,1968,abandoned,0,1,,,,,0
+55,Heritage Property,Hospital,Venice,Italy,,,future_loop,modern,1793,1968,regenerated,1,0,,,,,2
+58,Leap Castle,Castle,Offaly,Ireland,53.0333,-7.8,future_loop,medieval,1250,,regenerated,1,0,,,,,2
+52,Alhambra Palace,Palace,Andalusia,Spain,37.177,-3.5886,future_loop,medieval,1238,,active,0,1,0.869,0.35,neutral,positive,2
+53,haunted Alhambra Palace,Palace,Andalusia,Spain,,,future_loop,medieval,1238,,regenerated,1,0,,,,,2
+109,Angkor Wat,Temple Complex,Siem Reap,Cambodia,13.4125,103.867,future_loop,medieval,1150,1431,active,0,1,0.6843333333333333,0.9111111111111111,neutral,neutral,0
+110,12th century as a Hindu temple,Temple Complex,Siem Reap,Cambodia,,,future_loop,medieval,1150,1431,archived,1,0,,,,,2
+111,Machu Picchu,Inca Citadel,Cusco,Peru,-13.1631,-72.545,future_loop,ancient,1450,1572,active,0,1,0.5640000000000001,0.8666666666666667,neutral,neutral,0
+112,Heritage Property,Inca Citadel,Cusco,Peru,,,future_loop,ancient,1450,1572,archived,1,0,,,,,2
+61,Ancient Temple of Delphi,Temple,Phocis,Greece,38.4826,22.5014,future_loop,ancient,800,390,ruins,0,1,,,,,0
+62,abandoned temple,Temple,Phocis,Greece,,,future_loop,ancient,800,390,archived,1,0,,,,,2
+113,Great Pyramid of Giza,Pyramid,Giza,Egypt,29.9792,31.1342,future_loop,ancient,-2580,,active,0,1,0.8900000000000001,0.5333333333333333,neutral,neutral,0
+114,Heritage Property,Pyramid,Giza,Egypt,,,future_loop,ancient,-2580,,archived,1,0,,,,,2
+115,Stonehenge,Stone Circle,Wiltshire,England,51.1789,-1.8262,future_loop,ancient,-3000,,active,0,1,0.8416666666666667,0.2611111111111111,north,positive,0
+116,Heritage Property,Stone Circle,Wiltshire,England,,,future_loop,ancient,-3000,,archived,1,0,,,,,2
+117,Uluru,Sacred Monolith,Northern Territory,Australia,-25.3444,131.0369,future_loop,ancient,-60000000,,active,1,0,0.7783333333333333,0.28888888888888886,south,negative,0
+118,Heritage Property,Sacred Monolith,Northern Territory,Australia,,,future_loop,ancient,-60000000,,archived,1,0,,,,,2
+72,Bhangarh Fort,Fort,Rajasthan,India,27.0964,76.2856,regeneration,renaissance,1573,1783,abandoned,0,1,,,,,0
+73,Heritage Property,Fort,Rajasthan,India,,,regeneration,renaissance,1573,1783,archived,1,0,,,,,2
+69,Château de Brissac,Chateau,Anjou,France,47.35,-0.45,regeneration,renaissance,1500,,active,0,1,,,,,0
+70,Heritage Property,Chateau,Anjou,France,,,regeneration,renaissance,1500,,regenerated,1,0,,,,,2
+63,Berengaria Hotel,Hotel,Cyprus,Cyprus,34.9167,32.8333,regeneration,modern,1930,1984,abandoned,0,1,0.8393333333333335,0.3855555555555556,neutral,positive,0
+64,abandoned Berengaria Hotel,Hotel,Cyprus,Cyprus,,,regeneration,modern,1930,1984,regenerated,1,0,,,,,4
+67,Poveglia Island,Hospital,Venice,Italy,45.3808,12.3306,regeneration,modern,1793,1968,abandoned,0,1,,,,,0
+68,Heritage Property,Hospital,Venice,Italy,,,regeneration,modern,1793,1968,regenerated,1,0,,,,,2
+71,Leap Castle,Castle,Offaly,Ireland,53.0333,-7.8,regeneration,medieval,1250,,regenerated,1,0,,,,,2
+65,Alhambra Palace,Palace,Andalusia,Spain,37.177,-3.5886,regeneration,medieval,1238,,active,0,1,0.869,0.35,neutral,positive,2
+66,haunted Alhambra Palace,Palace,Andalusia,Spain,,,regeneration,medieval,1238,,regenerated,1,0,,,,,2
+119,Angkor Wat,Temple Complex,Siem Reap,Cambodia,13.4125,103.867,regeneration,medieval,1150,1431,active,0,1,0.6843333333333333,0.9111111111111111,neutral,neutral,0
+120,12th century as a Hindu temple,Temple Complex,Siem Reap,Cambodia,,,regeneration,medieval,1150,1431,archived,1,0,,,,,2
+121,Machu Picchu,Inca Citadel,Cusco,Peru,-13.1631,-72.545,regeneration,ancient,1450,1572,active,0,1,0.5640000000000001,0.8666666666666667,neutral,neutral,0
+122,Heritage Property,Inca Citadel,Cusco,Peru,,,regeneration,ancient,1450,1572,archived,1,0,,,,,2
+74,Ancient Temple of Delphi,Temple,Phocis,Greece,38.4826,22.5014,regeneration,ancient,800,390,ruins,0,1,,,,,0
+75,abandoned temple,Temple,Phocis,Greece,,,regeneration,ancient,800,390,archived,1,0,,,,,2
+123,Great Pyramid of Giza,Pyramid,Giza,Egypt,29.9792,31.1342,regeneration,ancient,-2580,,active,0,1,0.8900000000000001,0.5333333333333333,neutral,neutral,0
+124,Heritage Property,Pyramid,Giza,Egypt,,,regeneration,ancient,-2580,,archived,1,0,,,,,2
+125,Stonehenge,Stone Circle,Wiltshire,England,51.1789,-1.8262,regeneration,ancient,-3000,,active,0,1,0.8416666666666667,0.2611111111111111,north,positive,0
+126,Heritage Property,Stone Circle,Wiltshire,England,,,regeneration,ancient,-3000,,archived,1,0,,,,,2
+127,Uluru,Sacred Monolith,Northern Territory,Australia,-25.3444,131.0369,regeneration,ancient,-60000000,,active,1,0,0.7783333333333333,0.28888888888888886,south,negative,0
+128,Heritage Property,Sacred Monolith,Northern Territory,Australia,,,regeneration,ancient,-60000000,,archived,1,0,,,,,2
+85,Bhangarh Fort,Fort,Rajasthan,India,27.0964,76.2856,alternate,renaissance,1573,1783,abandoned,0,1,,,,,0
+86,Heritage Property,Fort,Rajasthan,India,,,alternate,renaissance,1573,1783,archived,1,0,,,,,2
+82,Château de Brissac,Chateau,Anjou,France,47.35,-0.45,alternate,renaissance,1500,,active,0,1,,,,,0
+83,Heritage Property,Chateau,Anjou,France,,,alternate,renaissance,1500,,regenerated,1,0,,,,,2
+76,Berengaria Hotel,Hotel,Cyprus,Cyprus,34.9167,32.8333,alternate,modern,1930,1984,abandoned,0,1,0.8393333333333335,0.3855555555555556,neutral,positive,0
+77,abandoned Berengaria Hotel,Hotel,Cyprus,Cyprus,,,alternate,modern,1930,1984,regenerated,1,0,,,,,4
+80,Poveglia Island,Hospital,Venice,Italy,45.3808,12.3306,alternate,modern,1793,1968,abandoned,0,1,,,,,0
+81,Heritage Property,Hospital,Venice,Italy,,,alternate,modern,1793,1968,regenerated,1,0,,,,,2
+84,Leap Castle,Castle,Offaly,Ireland,53.0333,-7.8,alternate,medieval,1250,,regenerated,1,0,,,,,2
+78,Alhambra Palace,Palace,Andalusia,Spain,37.177,-3.5886,alternate,medieval,1238,,active,0,1,0.869,0.35,neutral,positive,2
+79,haunted Alhambra Palace,Palace,Andalusia,Spain,,,alternate,medieval,1238,,regenerated,1,0,,,,,2
+129,Angkor Wat,Temple Complex,Siem Reap,Cambodia,13.4125,103.867,alternate,medieval,1150,1431,active,0,1,0.6843333333333333,0.9111111111111111,neutral,neutral,0
+130,12th century as a Hindu temple,Temple Complex,Siem Reap,Cambodia,,,alternate,medieval,1150,1431,archived,1,0,,,,,2
+131,Machu Picchu,Inca Citadel,Cusco,Peru,-13.1631,-72.545,alternate,ancient,1450,1572,active,0,1,0.5640000000000001,0.8666666666666667,neutral,neutral,0
+132,Heritage Property,Inca Citadel,Cusco,Peru,,,alternate,ancient,1450,1572,archived,1,0,,,,,2
+87,Ancient Temple of Delphi,Temple,Phocis,Greece,38.4826,22.5014,alternate,ancient,800,390,ruins,0,1,,,,,0
+88,abandoned temple,Temple,Phocis,Greece,,,alternate,ancient,800,390,archived,1,0,,,,,2
+133,Great Pyramid of Giza,Pyramid,Giza,Egypt,29.9792,31.1342,alternate,ancient,-2580,,active,0,1,0.8900000000000001,0.5333333333333333,neutral,neutral,0
+134,Heritage Property,Pyramid,Giza,Egypt,,,alternate,ancient,-2580,,archived,1,0,,,,,2
+135,Stonehenge,Stone Circle,Wiltshire,England,51.1789,-1.8262,alternate,ancient,-3000,,active,0,1,0.8416666666666667,0.2611111111111111,north,positive,0
+136,Heritage Property,Stone Circle,Wiltshire,England,,,alternate,ancient,-3000,,archived,1,0,,,,,2
+137,Uluru,Sacred Monolith,Northern Territory,Australia,-25.3444,131.0369,alternate,ancient,-60000000,,active,1,0,0.7783333333333333,0.28888888888888886,south,negative,0
+138,Heritage Property,Sacred Monolith,Northern Territory,Australia,,,alternate,ancient,-60000000,,archived,1,0,,,,,2

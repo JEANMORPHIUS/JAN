@@ -77,8 +77,15 @@ def git_add_selective(repo_path: Path, retries: int = 3):
         for line in result.stdout.strip().split('\n'):
             if not line.strip():
                 continue
-            status = line[:2]
-            filepath = line[3:].strip()
+            # Git status format: XY filename (X = staged, Y = working)
+            # Handle quoted filenames with spaces
+            if line[2] == ' ':
+                status = line[:2]
+                filepath = line[3:].strip()
+            else:
+                # Handle case where there's no space (shouldn't happen but be safe)
+                status = line[:2]
+                filepath = line[2:].strip()
             
             # Skip problematic files
             if 'NUL' in filepath or filepath == 'NUL':
@@ -264,9 +271,9 @@ def main():
     success = automated_git_push(repo_path, commit_message)
     
     if success:
-        logger.info("\n✅ All done! Changes pushed successfully.")
+        logger.info("\n[SUCCESS] All done! Changes pushed successfully.")
     else:
-        logger.warning("\n⚠️ Some steps failed, but local commit may be complete.")
+        logger.warning("\n[WARNING] Some steps failed, but local commit may be complete.")
         logger.info("You can check status with: git status")
         logger.info("You can push manually with: git push origin master")
 

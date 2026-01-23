@@ -729,6 +729,13 @@ class CarePackageSystem:
                 "for_strength": ["Sana İnat", "Kafana Takma", "I'm in Danger"],
                 "for_community": ["Duvarında Deliği", "Dünya Döner", "Nobody Home"],
                 "message": "Songs serve mission - music as tool for stewardship, community, and right spirits"
+            },
+            "frequential_songs": {
+                "message": "Frequentially aligned songs in English and Turkish with full lyrics. Deep search complete.",
+                "endpoints": {
+                    "all_songs": "/api/care-package/frequential-songs",
+                    "by_language": "/api/care-package/frequential-songs/by-language"
+                }
             }
         }
         
@@ -999,6 +1006,175 @@ class CarePackageSystem:
             care_package["influential_figures"] = {
                 "status": "not_available",
                 "message": f"Influential figures analysis not available: {e}"
+            }
+        
+        # FREQUENTIAL SONGS CATALOG
+        try:
+            import sys
+            from pathlib import Path
+            sys.path.insert(0, str(Path(__file__).parent.parent.parent / "scripts"))
+            from frequential_songs_catalog import get_frequential_songs_catalog, SongLanguage
+            
+            songs_catalog = get_frequential_songs_catalog()
+            songs_report = songs_catalog.get_catalog_report()
+            
+            english_songs = songs_catalog.get_songs_by_language(SongLanguage.ENGLISH)
+            turkish_songs = songs_catalog.get_songs_by_language(SongLanguage.TURKISH)
+            
+            care_package["frequential_songs"] = {
+                **care_package.get("frequential_songs", {}),
+                "total_songs": songs_report["total_songs"],
+                "english_songs": songs_report["english_songs"],
+                "turkish_songs": songs_report["turkish_songs"],
+                "high_frequency_songs": songs_report["high_frequency_songs"],
+                "by_theme": songs_report["by_theme"],
+                "sample_english": [
+                    {
+                        "title": song.title,
+                        "artist": song.artist,
+                        "themes": song.themes,
+                        "frequency_score": song.frequency_score,
+                        "has_lyrics": bool(song.lyrics_original)
+                    }
+                    for song in english_songs[:5]
+                ],
+                "sample_turkish": [
+                    {
+                        "title": song.title,
+                        "artist": song.artist,
+                        "themes": song.themes,
+                        "frequency_score": song.frequency_score,
+                        "has_lyrics": bool(song.lyrics_original),
+                        "has_translation": bool(song.lyrics_english)
+                    }
+                    for song in turkish_songs[:5]
+                ]
+            }
+        except Exception as e:
+            logger.warning(f"Could not integrate frequential songs: {e}")
+            care_package["frequential_songs"] = {
+                **care_package.get("frequential_songs", {}),
+                "status": "not_available",
+                "message": f"Frequential songs catalog not available: {e}"
+            }
+        
+        # FREQUENTIAL ARTS AND CRAFTS TIMELINE
+        try:
+            import sys
+            from pathlib import Path
+            sys.path.insert(0, str(Path(__file__).parent.parent.parent / "scripts"))
+            from frequential_arts_crafts_timeline import get_frequential_arts_crafts_timeline
+            
+            arts_crafts_timeline = get_frequential_arts_crafts_timeline()
+            timeline_report = arts_crafts_timeline.get_timeline_report()
+            
+            care_package["frequential_arts_crafts"] = {
+                "message": "Everything must be aligned throughout our timeline",
+                "total_arts_crafts": timeline_report["total_arts_crafts"],
+                "high_frequency": timeline_report["high_frequency"],
+                "by_period": timeline_report["by_period"],
+                "alignment_summary": timeline_report["alignment_summary"],
+                "sample_arts_crafts": [
+                    {
+                        "title": art.title,
+                        "artist_craftsperson": art.artist_craftsperson,
+                        "medium": art.medium.value,
+                        "time_period": art.time_period.value,
+                        "frequency_score": art.frequency_score,
+                        "how_benefits": art.how_benefits
+                    }
+                    for art in list(arts_crafts_timeline.arts_crafts.values())[:5]
+                ]
+            }
+        except Exception as e:
+            logger.warning(f"Could not integrate frequential arts and crafts: {e}")
+            care_package["frequential_arts_crafts"] = {
+                "status": "not_available",
+                "message": f"Frequential arts and crafts timeline not available: {e}"
+            }
+        
+        # RETURN TO THE TABLE: DAMAGE ASSESSMENT
+        try:
+            import sys
+            from pathlib import Path
+            sys.path.insert(0, str(Path(__file__).parent.parent.parent / "scripts"))
+            from return_to_table_damage_assessment import get_return_to_table_damage_assessment
+            
+            damage_assessment = get_return_to_table_damage_assessment()
+            damage_report = damage_assessment.get_assessment_report()
+            
+            critical_damages = damage_assessment.get_critical_damages()
+            
+            care_package["return_to_table_damage"] = {
+                "message": "What damage must we be ready for in the return to The Table",
+                "total_damages": damage_report["total_damages"],
+                "critical_damages": damage_report["critical_damages"],
+                "damages_requiring_healing": damage_report["damages_requiring_healing"],
+                "damages_with_resistance": damage_report["damages_with_resistance"],
+                "by_severity": damage_report["by_severity"],
+                "critical_damages_list": [
+                    {
+                        "damage_name": damage.damage_name,
+                        "damage_type": damage.damage_type.value,
+                        "severity": damage.severity.value,
+                        "protection_needed": damage.protection_needed.value,
+                        "healing_required": damage.healing_required,
+                        "resistance_expected": damage.resistance_expected,
+                        "description": damage.description[:200]
+                    }
+                    for damage in critical_damages[:5]
+                ]
+            }
+        except Exception as e:
+            logger.warning(f"Could not integrate return to table damage assessment: {e}")
+            care_package["return_to_table_damage"] = {
+                "status": "not_available",
+                "message": f"Return to table damage assessment not available: {e}"
+            }
+        
+        # TIMELINE DEEP SEARCH & FUTURE WRITING
+        try:
+            import sys
+            from pathlib import Path
+            sys.path.insert(0, str(Path(__file__).parent.parent.parent / "scripts"))
+            from timeline_deep_search_future_writing import get_timeline_deep_search_future_writing
+            
+            timeline_future = get_timeline_deep_search_future_writing()
+            timeline_report = timeline_future.get_deep_search_report()
+            
+            aligned_futures = timeline_future.get_aligned_futures(0.8)
+            
+            care_package["timeline_future"] = {
+                "message": "Deep search our timeline and start to write the future",
+                "timeline_points": timeline_report["timeline_points"],
+                "future_visions": timeline_report["future_visions"],
+                "aligned_futures": timeline_report["aligned_futures"],
+                "by_era": timeline_report["by_era"],
+                "by_category": timeline_report["by_category"],
+                "sample_timeline": [
+                    {
+                        "era": point.era.value,
+                        "time_period": point.time_period,
+                        "alignment_score": point.alignment_score,
+                        "what_must_become": point.what_must_become[:150]
+                    }
+                    for point in list(timeline_future.timeline_points.values())[:3]
+                ],
+                "sample_futures": [
+                    {
+                        "category": vision.category.value,
+                        "vision_name": vision.vision_name,
+                        "alignment_with_table": vision.alignment_with_table,
+                        "future_truth": vision.future_truth[:150]
+                    }
+                    for vision in aligned_futures[:5]
+                ]
+            }
+        except Exception as e:
+            logger.warning(f"Could not integrate timeline future: {e}")
+            care_package["timeline_future"] = {
+                "status": "not_available",
+                "message": f"Timeline deep search and future writing not available: {e}"
             }
         
         # THE ONE TRUTH: ALIGNMENT CHECK

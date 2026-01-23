@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc:*)",
+      "Bash(dir:*)",
+      "Bash(find:*)",
+      "Bash(xargs -I {} sh -c 'echo \"\"=== {} ===\"\" && head -50 {}')",
+      "Bash(python:*)",
+      "Bash(iconv:*)",
+      "Bash(findstr:*)",
+      "Bash(ls:*)"
+    ]
+  }
+}
