@@ -1,4 +1,5 @@
 # C: DRIVE SSD ALIGNMENT & PREPARATION
+# Simplified script - runnable from S: drive
 # Align laptop from C: drive local prior to attaching SSD
 # Linked to jonnydimanki pro+ account
 #
@@ -6,45 +7,28 @@
 # Spiritual Alignment Over Mechanical Productivity
 #
 # THE MISSION:
-# - Align and optimize C: drive
-# - Prepare for SSD attachment
-# - Sync with jonnydimanki pro+ account
-# - Create backup and migration plan
-# - Optimize system performance
+# - Check C: drive alignment
+# - Detect jonnydimanki pro+ account
+# - Generate migration plan
 #
 # PEACE, LOVE, UNITY
 
 param(
-    [switch]$DryRun,
-    [switch]$OptimizeOnly,
-    [switch]$BackupOnly,
-    [string]$JonnyDimankiPath = "",
-    [string]$BackupPath = "$env:USERPROFILE\Desktop\C_Drive_Backup_$(Get-Date -Format 'yyyyMMdd_HHmmss')"
+    [switch]$DryRun
 )
 
 $ErrorActionPreference = "Continue"
 $userProfile = $env:USERPROFILE
+$scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$outputDir = Join-Path $scriptDir "..\output"
+if (-not (Test-Path $outputDir)) { New-Item -ItemType Directory -Path $outputDir -Force | Out-Null }
+
 $report = @{
     Timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
     Phase = "C: Drive SSD Alignment"
-    StepsCompleted = @()
-    StepsSkipped = @()
-    Issues = @()
-    Recommendations = @()
-    AccountSync = @{
-        JonnyDimankiProPlus = "Not Configured"
-        SyncStatus = "Pending"
-    }
-    DiskOptimization = @{
-        Status = "Pending"
-        Fragmentation = "Unknown"
-        Alignment = "Unknown"
-    }
-    BackupStatus = @{
-        Created = $false
-        Location = ""
-        Size = 0
-    }
+    JonnyDimankiPath = ""
+    DiskInfo = @{}
+    MigrationPlan = @()
 }
 
 Write-Host "========================================" -ForegroundColor Cyan
@@ -56,91 +40,57 @@ Write-Host ""
 # 1. DETECT JONNYDIMANKI PRO+ ACCOUNT
 # ============================================================================
 
-Write-Host "[1/8] Detecting jonnydimanki pro+ account..." -ForegroundColor Yellow
+Write-Host "[1/3] Detecting jonnydimanki pro+ account..." -ForegroundColor Yellow
 
 $jonnyDimankiPaths = @(
     "$userProfile\OneDrive\jonnydimanki",
     "$userProfile\Documents\jonnydimanki",
     "$userProfile\Desktop\jonnydimanki",
-    "C:\jonnydimanki",
-    "$env:ProgramFiles\jonnydimanki",
-    "$env:ProgramFiles(x86)\jonnydimanki"
+    "C:\jonnydimanki"
 )
-
-if ($JonnyDimankiPath -ne "") {
-    $jonnyDimankiPaths = @($JonnyDimankiPath)
-}
 
 $foundPath = $null
 foreach ($path in $jonnyDimankiPaths) {
     if (Test-Path $path) {
         $foundPath = $path
-        Write-Host "  [OK] Found jonnydimanki at: $path" -ForegroundColor Green
-        $report.AccountSync.JonnyDimankiProPlus = $path
+        Write-Host "  [OK] Found: $path" -ForegroundColor Green
+        $report.JonnyDimankiPath = $path
         break
     }
 }
 
 if (-not $foundPath) {
-    Write-Host "  [WARNING] jonnydimanki pro+ account path not found" -ForegroundColor Yellow
-    Write-Host "  Please specify path with -JonnyDimankiPath parameter" -ForegroundColor Yellow
-    $report.Issues += "JonnyDimanki path not found - manual configuration required"
+    Write-Host "  [INFO] jonnydimanki path not found (will need manual setup)" -ForegroundColor Yellow
 }
 
 # ============================================================================
-# 2. CHECK DISK ALIGNMENT
+# 2. CHECK C: DRIVE INFO
 # ============================================================================
 
 Write-Host ""
-Write-Host "[2/8] Checking disk alignment..." -ForegroundColor Yellow
+Write-Host "[2/3] Checking C: drive..." -ForegroundColor Yellow
 
 try {
-    $disk = Get-Disk | Where-Object { $_.Number -eq 0 }
+    $disk = Get-Disk | Where-Object { $_.Number -eq 0 } -ErrorAction SilentlyContinue
+    $volume = Get-Volume -DriveLetter C -ErrorAction SilentlyContinue
+    
     if ($disk) {
-        Write-Host "  [OK] Disk 0 found: $($disk.Model)" -ForegroundColor Green
-        Write-Host "  Partition Style: $($disk.PartitionStyle)" -ForegroundColor Cyan
+        Write-Host "  [OK] Disk: $($disk.Model)" -ForegroundColor Green
+        Write-Host "  Partition: $($disk.PartitionStyle)" -ForegroundColor Cyan
         Write-Host "  Size: $([math]::Round($disk.Size / 1GB, 2)) GB" -ForegroundColor Cyan
         
-        $report.DiskOptimization.Alignment = "Checked"
-        $report.DiskOptimization.PartitionStyle = $disk.PartitionStyle
-        $report.DiskOptimization.Size = [math]::Round($disk.Size / 1GB, 2)
+        $report.DiskInfo = @{
+            Model = $disk.Model
+            PartitionStyle = $disk.PartitionStyle
+            SizeGB = [math]::Round($disk.Size / 1GB, 2)
+            FileSystem = if ($volume) { $volume.FileSystemType } else { "Unknown" }
+            Health = if ($volume) { $volume.HealthStatus } else { "Unknown" }
+        }
     } else {
-        Write-Host "  [WARNING] Could not detect disk 0" -ForegroundColor Yellow
-        $report.Issues += "Could not detect disk 0"
+        Write-Host "  [WARNING] Could not detect disk (may need admin)" -ForegroundColor Yellow
     }
 } catch {
-    Write-Host "  [ERROR] Error checking disk: $_" -ForegroundColor Red
-    $report.Issues += "Error checking disk: $_"
-}
-
-# ============================================================================
-# 3. CHECK DISK FRAGMENTATION
-# ============================================================================
-
-Write-Host ""
-Write-Host "[3/8] Checking disk fragmentation..." -ForegroundColor Yellow
-
-try {
-    $volume = Get-Volume -DriveLetter C
-    if ($volume) {
-        $fragmentation = Get-Volume | Where-Object { $_.DriveLetter -eq 'C' }
-        Write-Host "  [OK] C: drive volume checked" -ForegroundColor Green
-        Write-Host "  File System: $($volume.FileSystemType)" -ForegroundColor Cyan
-        Write-Host "  Health Status: $($volume.HealthStatus)" -ForegroundColor Cyan
-        
-        $report.DiskOptimization.Fragmentation = "Checked"
-        $report.DiskOptimization.FileSystem = $volume.FileSystemType
-        $report.DiskOptimization.HealthStatus = $volume.HealthStatus
-        
-        # Note: Actual fragmentation analysis requires defrag.exe or Optimize-Volume
-        Write-Host "  [INFO] Run 'Optimize-Volume -DriveLetter C -Analyze' for detailed fragmentation" -ForegroundColor Cyan
-    } else {
-        Write-Host "  [WARNING] Could not get C: volume info" -ForegroundColor Yellow
-        $report.Issues += "Could not get C: volume info"
-    }
-} catch {
-    Write-Host "  [ERROR] Error checking fragmentation: $_" -ForegroundColor Red
-    $report.Issues += "Error checking fragmentation: $_"
+    Write-Host "  [INFO] Disk check skipped: $_" -ForegroundColor Yellow
 }
 
 # ============================================================================
@@ -377,31 +327,18 @@ Write-Host "   ALIGNMENT COMPLETE" -ForegroundColor Cyan
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
 
-$reportPath = "$userProfile\Desktop\C_Drive_SSD_Alignment_Report_$(Get-Date -Format 'yyyyMMdd_HHmmss').json"
+$reportPath = Join-Path $outputDir "C_Drive_SSD_Alignment_Report_$(Get-Date -Format 'yyyyMMdd_HHmmss').json"
 $report | ConvertTo-Json -Depth 10 | Out-File -FilePath $reportPath -Encoding UTF8
 
 Write-Host "Report saved to: $reportPath" -ForegroundColor Green
 Write-Host ""
-Write-Host "Steps Completed: $($report.StepsCompleted.Count)" -ForegroundColor Cyan
-Write-Host "Steps Skipped: $($report.StepsSkipped.Count)" -ForegroundColor Yellow
-Write-Host "Issues Found: $($report.Issues.Count)" -ForegroundColor $(if ($report.Issues.Count -gt 0) { "Red" } else { "Green" })
+Write-Host "JonnyDimanki Path: $($report.JonnyDimankiPath)" -ForegroundColor Cyan
+if ($report.DiskInfo.Count -gt 0) {
+    Write-Host "Disk: $($report.DiskInfo.Model) - $($report.DiskInfo.SizeGB) GB" -ForegroundColor Cyan
+}
 Write-Host ""
-
-if ($report.Issues.Count -gt 0) {
-    Write-Host "Issues:" -ForegroundColor Red
-    foreach ($issue in $report.Issues) {
-        Write-Host "  - $issue" -ForegroundColor Yellow
-    }
-    Write-Host ""
-}
-
-if ($report.Recommendations.Count -gt 0) {
-    Write-Host "Recommendations:" -ForegroundColor Cyan
-    foreach ($rec in $report.Recommendations) {
-        Write-Host "  - $rec" -ForegroundColor White
-    }
-    Write-Host ""
-}
-
+Write-Host "Migration Plan:" -ForegroundColor Yellow
+$report.MigrationPlan | ForEach-Object { Write-Host "  $_" -ForegroundColor White }
+Write-Host ""
 Write-Host "PEACE, LOVE, UNITY" -ForegroundColor Green
 Write-Host "ENERGY + LOVE = WE ALL WIN" -ForegroundColor Green
