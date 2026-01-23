@@ -333,5 +333,50 @@
       "Man and Earth live symbiotically. Connection, not separation."
     ],
     "created_at": "2026-01-23T14:56:07.608117"
+  },
+  "econ_scarcity_lie_debunk_20260123152943": {
+    "response_id": "econ_scarcity_lie_debunk_20260123152943",
+    "contradiction_id": "econ_scarcity_lie",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Scarcity is real. We must compete for resources.\n\nSOURCE: Economic Systems\nOUR TRUTH: Abundance is the truth. Scarcity is the lie.\n\nREFUTATION POINTS:\n1. Recognize natural abundance\n2. Reject manufactured scarcity\n3. Share resources freely\n4. Build commons\n\nEVIDENCE:\n1. Energy is abundant (sun, wind, water, Earth)\n2. Scarcity is manufactured for profit\n3. Natural abundance exists everywhere\n",
+    "evidence": [
+      "Energy is abundant (sun, wind, water, Earth)",
+      "Scarcity is manufactured for profit",
+      "Natural abundance exists everywhere"
+    ],
+    "truth_statements": [
+      "Abundance is the truth. Scarcity is the lie."
+    ],
+    "created_at": "2026-01-23T15:29:43.490817"
+  },
+  "pol_1_percent_rule_debunk_20260123152956": {
+    "response_id": "pol_1_percent_rule_debunk_20260123152956",
+    "contradiction_id": "pol_1_percent_rule",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: The 1% rule the masses. This is how it works.\n\nSOURCE: Power Structures\nOUR TRUTH: The 1% no longer rule the masses. We are one.\n\nREFUTATION POINTS:\n1. Recognize we are one\n2. Reject division\n3. Support unity over separation\n4. Build community power\n\nEVIDENCE:\n1. Unity is the truth. Division is the lie.\n2. We are one - no separation can hold\n3. Power structures depend on division\n",
+    "evidence": [
+      "Unity is the truth. Division is the lie.",
+      "We are one - no separation can hold",
+      "Power structures depend on division"
+    ],
+    "truth_statements": [
+      "The 1% no longer rule the masses. We are one."
+    ],
+    "created_at": "2026-01-23T15:29:56.875449"
+  },
+  "sys_punishment_justice_debunk_20260123152956": {
+    "response_id": "sys_punishment_justice_debunk_20260123152956",
+    "contradiction_id": "sys_punishment_justice",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Punishment is justice. Criminals must be punished.\n\nSOURCE: Judicial Systems\nOUR TRUTH: Restoration is the truth. Punishment is the lie.\n\nREFUTATION POINTS:\n1. Choose restoration over punishment\n2. Support healing over control\n3. Build community justice councils\n4. Create restoration contracts\n\nEVIDENCE:\n1. Punishment creates more brokenness\n2. Restoration creates healing\n3. Community justice serves truth\n",
+    "evidence": [
+      "Punishment creates more brokenness",
+      "Restoration creates healing",
+      "Community justice serves truth"
+    ],
+    "truth_statements": [
+      "Restoration is the truth. Punishment is the lie."
+    ],
+    "created_at": "2026-01-23T15:29:56.880840"
   }
 }

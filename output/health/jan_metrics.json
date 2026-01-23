@@ -37,5 +37,57 @@
     "field_resonance": null,
     "source": "manual",
     "confidence": 1.0
+  },
+  {
+    "timestamp": "2026-01-23T15:00:00",
+    "metric_type": "lab_result",
+    "metric_name": "blood_glucose",
+    "value": 0.0,
+    "unit": "mmol/L",
+    "condition_name": "Type 1 Diabetes",
+    "notes": null,
+    "life_event_id": null,
+    "field_resonance": null,
+    "source": "manual",
+    "confidence": 1.0
+  },
+  {
+    "timestamp": "2026-01-23T15:00:00",
+    "metric_type": "medication",
+    "metric_name": "Humalog",
+    "value": 7.0,
+    "unit": "units",
+    "condition_name": "Type 1 Diabetes",
+    "notes": null,
+    "life_event_id": null,
+    "field_resonance": null,
+    "source": "manual",
+    "confidence": 1.0
+  },
+  {
+    "timestamp": "2026-01-23T15:00:00",
+    "metric_type": "lab_result",
+    "metric_name": "blood_glucose",
+    "value": 15.8,
+    "unit": "mmol/L",
+    "condition_name": "Type 1 Diabetes",
+    "notes": null,
+    "life_event_id": null,
+    "field_resonance": null,
+    "source": "manual",
+    "confidence": 1.0
+  },
+  {
+    "timestamp": "2026-01-23T15:00:00",
+    "metric_type": "medication",
+    "metric_name": "Humalog",
+    "value": 7.0,
+    "unit": "units",
+    "condition_name": "Type 1 Diabetes",
+    "notes": null,
+    "life_event_id": null,
+    "field_resonance": null,
+    "source": "manual",
+    "confidence": 1.0
   }
 ]

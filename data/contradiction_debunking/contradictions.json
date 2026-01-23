@@ -16,14 +16,14 @@
       "Share resources freely",
       "Build commons"
     ],
-    "status": "identified",
-    "debunked_date": null,
-    "debunked_by": null,
+    "status": "debunked",
+    "debunked_date": "2026-01-23T15:29:43.490776",
+    "debunked_by": "complete_all_debunking.py",
     "impact_level": 0.9,
     "frequency_score": -0.8,
     "metadata": {},
     "created_at": "2026-01-23T14:54:40.434116",
-    "updated_at": "2026-01-23T14:54:40.434122"
+    "updated_at": "2026-01-23T15:29:43.490795"
   },
   "pol_1_percent_rule": {
     "contradiction_id": "pol_1_percent_rule",
@@ -42,14 +42,14 @@
       "Support unity over separation",
       "Build community power"
     ],
-    "status": "identified",
-    "debunked_date": null,
-    "debunked_by": null,
+    "status": "debunked",
+    "debunked_date": "2026-01-23T15:29:56.875413",
+    "debunked_by": "complete_all_debunking.py",
     "impact_level": 1.0,
     "frequency_score": -0.9,
     "metadata": {},
     "created_at": "2026-01-23T14:54:40.438605",
-    "updated_at": "2026-01-23T14:54:40.438609"
+    "updated_at": "2026-01-23T15:29:56.875429"
   },
   "sys_punishment_justice": {
     "contradiction_id": "sys_punishment_justice",
@@ -68,14 +68,14 @@
       "Build community justice councils",
       "Create restoration contracts"
     ],
-    "status": "identified",
-    "debunked_date": null,
-    "debunked_by": null,
+    "status": "debunked",
+    "debunked_date": "2026-01-23T15:29:56.880817",
+    "debunked_by": "complete_all_debunking.py",
     "impact_level": 0.8,
     "frequency_score": -0.7,
     "metadata": {},
     "created_at": "2026-01-23T14:54:40.442698",
-    "updated_at": "2026-01-23T14:54:40.442704"
+    "updated_at": "2026-01-23T15:29:56.880822"
   },
   "auto_20260123145440": {
     "contradiction_id": "auto_20260123145440",
