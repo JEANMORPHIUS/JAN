@@ -1,0 +1,48 @@
+{
+  "version": "shell",
+  "access": "public",
+  "language": "Global Integration, Social Cohesion, Digital Inclusion",
+  "pages": {
+    "homepage": {
+      "header": "Fixing a broken world, one child at a time",
+      "subheader": "Ethical framework education for modern families",
+      "body": "\nWe provide values-based learning through 376 evidence-based lessons. \nOur ethical framework integrates emotional resilience with academic \nexcellence, serving as a compass for children in the modern world.\n\nThrough global integration and social cohesion, we build digital \ninclusion programs that respect cultural values while building \ncommunity connections.\n            ",
+      "cta": "Join the movement for ethical education",
+      "language": "Global Integration, Social Cohesion, Digital Inclusion"
+    },
+    "about": {
+      "title": "About Siyem",
+      "body": "\nSiyem is a values-based education platform designed to integrate \nemotional resilience with academic excellence. We provide 376 \nevidence-based lessons that serve as an ethical framework for \nmodern schools and families.\n\nOur mission is to build character development through proven \nmethodology, respecting cultural heritage while preparing children \nfor tomorrow.\n            ",
+      "values": [
+        "Values-based education",
+        "Character development",
+        "Ethical framework",
+        "Cultural heritage preservation",
+        "Evidence-based methodology"
+      ]
+    },
+    "services": {
+      "title": "Our Services",
+      "services": [
+        {
+          "name": "Values-Based Education",
+          "description": "376 evidence-based lessons for character development through ethical frameworks."
+        },
+        {
+          "name": "Cultural Heritage Programs",
+          "description": "Preserve cultural heritage through intergenerational learning and traditional values."
+        },
+        {
+          "name": "Professional Development",
+          "description": "Ethical framework training for educators and corporate leaders."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "body": "Join the movement for ethical education. Connect with us to learn more about our values-based programs.",
+      "email": "info@siyem.org",
+      "language": "Public-facing contact information"
+    }
+  }
+}

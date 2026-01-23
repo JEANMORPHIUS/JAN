@@ -1,0 +1,337 @@
+{
+  "figures": [
+    {
+      "figure_id": "uk_001",
+      "name": "Jeremy Corbyn",
+      "role": "member_of_parliament",
+      "country": "United Kingdom",
+      "region": "England",
+      "time_period": "2010s-2020s",
+      "start_year": 1983,
+      "end_year": null,
+      "current": true,
+      "frequency_score": 0.7,
+      "alignment_indicators": [
+        "SERVES_TABLE",
+        "TRUTH_TELLER",
+        "COMMUNITY_FOCUSED",
+        "UNITY_BUILDER",
+        "STEWARDSHIP",
+        "TRANSPARENT",
+        "ETHICAL",
+        "ACCESSIBLE",
+        "PEACE_ORIENTED"
+      ],
+      "misalignment_indicators": [],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_focused": true,
+      "unity_builder": true,
+      "hidden_alignment": false,
+      "description": "Long-serving MP known for consistent principles, anti-war stance, community organizing, and speaking truth to power. Served as Labour Party leader (2015-2020).",
+      "key_actions": [
+        "Consistent anti-war stance",
+        "Community organizing and grassroots support",
+        "Advocacy for peace and diplomacy",
+        "Support for workers' rights",
+        "Environmental stewardship",
+        "Housing justice",
+        "Transparency in politics"
+      ],
+      "quotes": [
+        "Peace is not the absence of war, but the presence of justice.",
+        "We don't have to be unequal. We don't have to be insecure. We don't have to accept injustice."
+      ],
+      "connection_to_table": "Serves The Table through consistent principles, community focus, peace orientation, and truth-telling. Represents stewardship over extraction.",
+      "impact_scale": 0.8,
+      "accessibility": 0.9,
+      "dignity_preserving": true,
+      "metadata": {
+        "party": "Labour",
+        "constituency": "Islington North",
+        "notable": "Longest-serving MP, consistent principles"
+      },
+      "discovered_at": "2026-01-22T11:26:28.704460"
+    },
+    {
+      "figure_id": "uk_002",
+      "name": "Caroline Lucas",
+      "role": "member_of_parliament",
+      "country": "United Kingdom",
+      "region": "England",
+      "time_period": "2010s-2020s",
+      "start_year": 2010,
+      "end_year": null,
+      "current": true,
+      "frequency_score": 0.85,
+      "alignment_indicators": [
+        "SERVES_TABLE",
+        "TRUTH_TELLER",
+        "COMMUNITY_FOCUSED",
+        "STEWARDSHIP",
+        "REGENERATIVE",
+        "TRANSPARENT",
+        "ETHICAL",
+        "ENVIRONMENTAL_STEWARDSHIP"
+      ],
+      "misalignment_indicators": [],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_focused": true,
+      "unity_builder": true,
+      "hidden_alignment": false,
+      "description": "Green Party MP, environmental steward, truth-teller, community-focused. First Green Party MP in UK Parliament.",
+      "key_actions": [
+        "Environmental stewardship and climate action",
+        "Advocacy for regenerative systems",
+        "Community organizing",
+        "Transparency in politics",
+        "Support for social justice"
+      ],
+      "quotes": [
+        "We need to build a world that works for everyone, not just the few.",
+        "Climate justice is social justice."
+      ],
+      "connection_to_table": "Serves The Table through environmental stewardship, regenerative thinking, community focus, and truth-telling.",
+      "impact_scale": 0.7,
+      "accessibility": 0.85,
+      "dignity_preserving": true,
+      "metadata": {
+        "party": "Green Party",
+        "constituency": "Brighton Pavilion",
+        "notable": "First Green Party MP"
+      },
+      "discovered_at": "2026-01-22T11:26:28.704491"
+    },
+    {
+      "figure_id": "uk_003",
+      "name": "Nicola Sturgeon",
+      "role": "minister",
+      "country": "United Kingdom",
+      "region": "Scotland",
+      "time_period": "2010s-2020s",
+      "start_year": 2014,
+      "end_year": 2023,
+      "current": false,
+      "frequency_score": 0.6,
+      "alignment_indicators": [
+        "COMMUNITY_FOCUSED",
+        "STEWARDSHIP",
+        "TRANSPARENT",
+        "ACCESSIBLE"
+      ],
+      "misalignment_indicators": [
+        "Division creation (independence focus)"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_focused": true,
+      "unity_builder": false,
+      "hidden_alignment": false,
+      "description": "Former First Minister of Scotland. Community-focused, transparent governance, but independence focus creates division.",
+      "key_actions": [
+        "Community-focused policies",
+        "Transparent governance",
+        "Social justice advocacy",
+        "Environmental policies"
+      ],
+      "quotes": [],
+      "connection_to_table": "Partially serves The Table through community focus and transparency, but independence focus creates division.",
+      "impact_scale": 0.8,
+      "accessibility": 0.8,
+      "dignity_preserving": true,
+      "metadata": {
+        "party": "Scottish National Party",
+        "role_detail": "First Minister of Scotland",
+        "notable": "Longest-serving First Minister"
+      },
+      "discovered_at": "2026-01-22T11:26:28.704499"
+    },
+    {
+      "figure_id": "uk_004",
+      "name": "Mark Drakeford",
+      "role": "minister",
+      "country": "United Kingdom",
+      "region": "Wales",
+      "time_period": "2010s-2020s",
+      "start_year": 2018,
+      "end_year": 2024,
+      "current": false,
+      "frequency_score": 0.65,
+      "alignment_indicators": [
+        "COMMUNITY_FOCUSED",
+        "STEWARDSHIP",
+        "TRANSPARENT",
+        "ETHICAL"
+      ],
+      "misalignment_indicators": [],
+      "serves_table": true,
+      "truth_teller": false,
+      "community_focused": true,
+      "unity_builder": true,
+      "hidden_alignment": false,
+      "description": "Former First Minister of Wales. Known for community-focused policies, transparency, and ethical governance.",
+      "key_actions": [
+        "Community-focused policies",
+        "Transparent governance",
+        "Social justice",
+        "Environmental stewardship"
+      ],
+      "quotes": [],
+      "connection_to_table": "Serves The Table through community focus, transparency, and ethical governance.",
+      "impact_scale": 0.6,
+      "accessibility": 0.75,
+      "dignity_preserving": true,
+      "metadata": {
+        "party": "Welsh Labour",
+        "role_detail": "First Minister of Wales"
+      },
+      "discovered_at": "2026-01-22T11:26:28.704504"
+    },
+    {
+      "figure_id": "uk_005",
+      "name": "John Hume",
+      "role": "member_of_parliament",
+      "country": "United Kingdom",
+      "region": "Northern Ireland",
+      "time_period": "Historical (1960s-2000s)",
+      "start_year": 1969,
+      "end_year": 2005,
+      "current": false,
+      "frequency_score": 0.9,
+      "alignment_indicators": [
+        "SERVES_TABLE",
+        "TRUTH_TELLER",
+        "UNITY_BUILDER",
+        "PEACE_ORIENTED",
+        "STEWARDSHIP",
+        "ETHICAL"
+      ],
+      "misalignment_indicators": [],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_focused": true,
+      "unity_builder": true,
+      "hidden_alignment": false,
+      "description": "Nobel Peace Prize winner. Architect of the Good Friday Agreement. Unity builder, peace-oriented, truth-teller. Served The Table through peace and reconciliation.",
+      "key_actions": [
+        "Good Friday Agreement (1998)",
+        "Peace and reconciliation work",
+        "Unity building across communities",
+        "Truth-telling about conflict"
+      ],
+      "quotes": [
+        "Difference is an accident of birth and it should therefore never be the source of hatred or conflict.",
+        "I want to see Ireland - North and South - the wounds of violence healed, and build in their place a bridge of respect and understanding."
+      ],
+      "connection_to_table": "Serves The Table through peace, unity, truth-telling, and reconciliation. Nobel Peace Prize winner.",
+      "impact_scale": 0.9,
+      "accessibility": 0.8,
+      "dignity_preserving": true,
+      "metadata": {
+        "party": "Social Democratic and Labour Party",
+        "awards": "Nobel Peace Prize (1998)",
+        "notable": "Architect of Good Friday Agreement"
+      },
+      "discovered_at": "2026-01-22T11:26:28.704509"
+    },
+    {
+      "figure_id": "global_001",
+      "name": "Jacinda Ardern",
+      "role": "prime_minister",
+      "country": "New Zealand",
+      "region": "Aotearoa",
+      "time_period": "2010s-2020s",
+      "start_year": 2017,
+      "end_year": 2023,
+      "current": false,
+      "frequency_score": 0.8,
+      "alignment_indicators": [
+        "SERVES_TABLE",
+        "COMMUNITY_FOCUSED",
+        "UNITY_BUILDER",
+        "STEWARDSHIP",
+        "TRANSPARENT",
+        "ETHICAL",
+        "LOVE_CENTERED"
+      ],
+      "misalignment_indicators": [],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_focused": true,
+      "unity_builder": true,
+      "hidden_alignment": false,
+      "description": "Former Prime Minister of New Zealand. Known for compassionate leadership, community focus, unity building, and ethical governance.",
+      "key_actions": [
+        "Compassionate leadership",
+        "Community-focused policies",
+        "Unity building",
+        "Transparent governance",
+        "Environmental stewardship",
+        "Gun control reform"
+      ],
+      "quotes": [
+        "I refuse to believe that you cannot be both compassionate and strong.",
+        "We can be the place we want to be."
+      ],
+      "connection_to_table": "Serves The Table through compassionate leadership, community focus, unity building, and ethical governance.",
+      "impact_scale": 0.85,
+      "accessibility": 0.85,
+      "dignity_preserving": true,
+      "metadata": {
+        "party": "New Zealand Labour Party",
+        "notable": "Youngest female head of government"
+      },
+      "discovered_at": "2026-01-22T11:26:28.704513"
+    },
+    {
+      "figure_id": "global_002",
+      "name": "Nelson Mandela",
+      "role": "president",
+      "country": "South Africa",
+      "region": "South Africa",
+      "time_period": "Historical (1990s-2010s)",
+      "start_year": 1994,
+      "end_year": 1999,
+      "current": false,
+      "frequency_score": 0.95,
+      "alignment_indicators": [
+        "SERVES_TABLE",
+        "TRUTH_TELLER",
+        "UNITY_BUILDER",
+        "PEACE_ORIENTED",
+        "STEWARDSHIP",
+        "ETHICAL",
+        "LOVE_CENTERED"
+      ],
+      "misalignment_indicators": [],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_focused": true,
+      "unity_builder": true,
+      "hidden_alignment": false,
+      "description": "Former President of South Africa. Truth-teller, unity builder, peace-oriented. Served The Table through reconciliation, truth, and unity.",
+      "key_actions": [
+        "Truth and Reconciliation Commission",
+        "Unity building across racial divides",
+        "Peace and reconciliation",
+        "Truth-telling about apartheid"
+      ],
+      "quotes": [
+        "It always seems impossible until it's done.",
+        "For to be free is not merely to cast off one's chains, but to live in a way that respects and enhances the freedom of others."
+      ],
+      "connection_to_table": "Serves The Table through truth, unity, peace, reconciliation, and love. One of the greatest anchors in the human realm.",
+      "impact_scale": 1.0,
+      "accessibility": 0.9,
+      "dignity_preserving": true,
+      "metadata": {
+        "party": "African National Congress",
+        "awards": "Nobel Peace Prize (1993)",
+        "notable": "First black President of South Africa"
+      },
+      "discovered_at": "2026-01-22T11:26:28.704517"
+    }
+  ],
+  "last_updated": "2026-01-22T11:26:28.704537"
+}

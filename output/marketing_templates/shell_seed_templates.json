@@ -1,0 +1,274 @@
+{
+  "shell_seed_templates": {
+    "social_media": {
+      "instagram": {
+        "shell": {
+          "template": "{{entity}} shares: {{message}} #ValuesEducation #CulturalHeritage #BilingualLearning",
+          "description": "Public-facing Instagram post using Shell language",
+          "hashtags": ["#ValuesEducation", "#CulturalHeritage", "#BilingualLearning", "#EmotionalIntelligence"],
+          "language": "Global Integration, Social Cohesion, Digital Inclusion"
+        },
+        "seed": {
+          "template": "{{entity}} shares: {{message}} #DuyguAdamı #BookOfRacon #SpiritualSovereignty",
+          "description": "Community-facing Instagram post using Seed language",
+          "hashtags": ["#DuyguAdamı", "#BookOfRacon", "#SpiritualSovereignty", "#VoiceOfGod"],
+          "language": "Spiritual Sovereignty, Laws of Racon, Sacred Covenants",
+          "access": "Community/Private groups only"
+        }
+      },
+      "tiktok": {
+        "shell": {
+          "template": "{{entity}} challenge: {{message}} #SelfMastery #Discipline #CharacterBuilding",
+          "description": "Public-facing TikTok post using Shell language",
+          "hashtags": ["#SelfMastery", "#Discipline", "#CharacterBuilding", "#Resilience"],
+          "language": "Self-mastery, Discipline, Warrior's Code"
+        },
+        "seed": {
+          "template": "{{entity}} challenge: {{message}} #LawsOfRacon #SacredDiscipline #SpiritualSovereignty",
+          "description": "Community-facing TikTok post using Seed language",
+          "hashtags": ["#LawsOfRacon", "#SacredDiscipline", "#SpiritualSovereignty", "#BookOfRacon"],
+          "language": "Laws of Racon, Sacred Discipline, Spiritual Sovereignty",
+          "access": "Community/Private groups only"
+        }
+      },
+      "facebook": {
+        "shell": {
+          "template": "Listen, child... {{message}} #AncestralWisdom #IntergenerationalLearning #TraditionalValues",
+          "description": "Public-facing Facebook post using Shell language",
+          "hashtags": ["#AncestralWisdom", "#IntergenerationalLearning", "#TraditionalValues", "#CommunityValues"],
+          "opening": "Listen, child..." or "Bak evlat..." (public Turkish)",
+          "language": "Ancestral Wisdom, Intergenerational Learning, Traditional Values"
+        },
+        "seed": {
+          "template": "Yeğen, dinle... {{message}} #LawsOfRacon #SpiritualSovereignty #SacredCovenants",
+          "description": "Community-facing Facebook post using Seed language",
+          "hashtags": ["#LawsOfRacon", "#SpiritualSovereignty", "#SacredCovenants", "#BookOfRacon"],
+          "opening": "Yeğen, dinle..." (community Turkish only)",
+          "language": "Laws of Racon, Spiritual Sovereignty, Sacred Covenants",
+          "access": "Community/Private groups only"
+        }
+      },
+      "twitter": {
+        "shell": {
+          "template": "{{message}} #EdTech #ValuesEducation #CharacterDevelopment",
+          "description": "Public-facing Twitter/X post using Shell language",
+          "hashtags": ["#EdTech", "#ValuesEducation", "#CharacterDevelopment", "#EthicalFramework"],
+          "language": "Scripture-based Values Education, Ethical Framework, Character Development"
+        },
+        "seed": {
+          "template": "{{message}} #BookOfRacon #SpiritualSovereignty #SacredCovenants",
+          "description": "Community-facing Twitter/X post using Seed language (DMs/Trusted networks only)",
+          "hashtags": ["#BookOfRacon", "#SpiritualSovereignty", "#SacredCovenants", "#LawsOfRacon"],
+          "language": "Book of Racon as OS, Spiritual Sovereignty, Sacred Covenants",
+          "access": "DMs/Trusted networks only"
+        }
+      }
+    },
+    "educational": {
+      "school_brochure": {
+        "shell": {
+          "headline": "Siyem: Heart and Mind Hand-in-Hand",
+          "subheadline": "Values-Based Education for Modern Schools",
+          "body": "376 values-based education lessons designed to integrate emotional resilience with academic excellence. Our ethical framework provides character development through proven methodology.",
+          "key_points": [
+            "Evidence-based moral education",
+            "Character development curriculum",
+            "Ethical framework integration",
+            "Measurable outcomes"
+          ],
+          "language": "Values Education, Character Development, Ethical Framework"
+        },
+        "seed": {
+          "headline": "The Book of Racon: Operating System for Consciousness",
+          "subheadline": "Spiritual Sovereignty Through Scripture Education",
+          "body": "376 lessons (40 Laws + 7 Divine Keys) implementing spiritual sovereignty through sacred covenants of honour. The Laws of Racon serve as the foundational operating system.",
+          "key_points": [
+            "Laws of Racon as non-negotiable ethical code",
+            "Spiritual sovereignty through education",
+            "Sacred covenants of honour",
+            "Eternal covenant in teaching"
+          ],
+          "language": "Laws of Racon, Spiritual Sovereignty, Sacred Covenants",
+          "access": "Teachers/Community leaders only"
+        }
+      }
+    },
+    "service": {
+      "professional_b2b": {
+        "shell": {
+          "service_name": "Custom AI Persona Development",
+          "description": "Ethical AI-powered content generation platform for your brand. We provide white-label solutions integrating values-based frameworks into your corporate training and content systems.",
+          "features": [
+            "Custom persona development",
+            "Ethical framework integration",
+            "Values-based content generation",
+            "Corporate training systems"
+          ],
+          "language": "Ethical Framework, Values-Based, Corporate Training"
+        },
+        "seed": {
+          "service_name": "Implementing the Book of Racon as Operating System",
+          "description": "We implement the Laws of Racon as the foundational OS for your persona architecture. Spiritual sovereignty through sacred covenants of honour.",
+          "features": [
+            "Book of Racon as OS integration",
+            "Spiritual sovereignty architecture",
+            "Sacred covenants of honour",
+            "Laws of Racon as constraints"
+          ],
+          "language": "Book of Racon, Spiritual Sovereignty, Sacred Covenants",
+          "access": "Internal development only"
+        }
+      },
+      "creator_economy": {
+        "shell": {
+          "service_name": "JAN Studio: AI Persona Creation Platform",
+          "description": "Creative identity system for content creators. Ethical AI tools for storytelling, values-based content generation, and persona development.",
+          "features": [
+            "AI persona creation",
+            "Creative identity system",
+            "Ethical AI tools",
+            "Values-based generation"
+          ],
+          "language": "AI Tools, Creative Platform, Ethical AI"
+        },
+        "seed": {
+          "service_name": "JAN Studio: The Book of Racon as Creative OS",
+          "description": "The Laws of Racon as operating system for creative identity. Spiritual sovereignty through persona architecture, ensuring every persona honors sacred covenants of honour.",
+          "features": [
+            "Book of Racon as creative OS",
+            "Spiritual sovereignty in persona design",
+            "Sacred covenants of honour",
+            "Laws of Racon as creative constraints"
+          ],
+          "language": "Book of Racon, Spiritual Sovereignty, Sacred Covenants",
+          "access": "Creator community only"
+        }
+      },
+      "educational": {
+        "shell": {
+          "service_name": "376 Values-Based Education Lessons",
+          "description": "Character development curriculum integrating emotional resilience with academic excellence. Ethical framework for modern schools, evidence-based moral education system.",
+          "features": [
+            "376 values-based lessons",
+            "Character development curriculum",
+            "Ethical framework integration",
+            "Evidence-based methodology"
+          ],
+          "language": "Values Education, Character Development, Ethical Framework"
+        },
+        "seed": {
+          "service_name": "376 Lessons (40 Laws + 7 Divine Keys) from the Book of Racon",
+          "description": "Spiritual sovereignty through scripture education. The Laws of Racon as operating system for consciousness, ensuring every lesson honors sacred covenants of honour.",
+          "features": [
+            "40 Laws + 7 Divine Keys",
+            "Spiritual sovereignty architecture",
+            "Sacred covenants of honour",
+            "Laws of Racon as non-negotiable code"
+          ],
+          "language": "Laws of Racon, Spiritual Sovereignty, Sacred Covenants",
+          "access": "Teachers/Community leaders only"
+        }
+      }
+    },
+    "cultural": {
+      "karasahin_ramiz_campaign": {
+        "shell": {
+          "campaign_name": "Voice of the Heritage",
+          "tagline": "Music and wisdom connecting generations",
+          "copy": "Karasahin's music and Ramiz's teachings bridge past and future. Through emotional intelligence and ancestral wisdom, we preserve cultural heritage while preparing children for tomorrow.",
+          "hashtags": ["#CulturalHeritage", "#EmotionalIntelligence", "#AncestralWisdom"],
+          "language": "Cultural Heritage, Emotional Intelligence, Ancestral Wisdom"
+        },
+        "seed": {
+          "campaign_name": "Mirasın Sesi (Voice of the Heritage)",
+          "tagline": "Karasahin (Voice of God) + Ramiz (Laws of Racon) = Complete Transmission",
+          "copy": "Karasahin (The Voice of God) meets Ramiz (The Laws of Racon) in complete transmission. The Sound Architect's divine frequency harmonizes with the Elder's sacred covenants.",
+          "hashtags": ["#DuyguAdamı", "#BookOfRacon", "#VoiceOfGod", "#LawsOfRacon"],
+          "language": "Voice of God, Laws of Racon, Sacred Covenants",
+          "access": "Community/Private groups only"
+        }
+      }
+    },
+    "london_community": {
+      "council_communications": {
+        "shell": {
+          "grant_application": "Community integration through digital inclusion programs serving diverse neighborhoods. Our social cohesion initiatives provide educational access for underserved communities, respecting cultural values while building community connections.",
+          "language": "Global Integration, Social Cohesion, Digital Inclusion",
+          "access": "Council/Grant applications"
+        },
+        "seed": {
+          "community_materials": "The Book of Racon as operating system for community healing. Spiritual sovereignty through community integration, honoring sacred covenants of honour across cultures. The Laws of Racon bridge communities to Cyprus.",
+          "language": "Spiritual Sovereignty, Laws of Racon, Sacred Covenants",
+          "access": "Community/Private groups only"
+        }
+      }
+    }
+  },
+  "threshold_defense_rules": {
+    "shell_content": {
+      "must_not_contain": [
+        "spiritual sovereignty",
+        "laws of racon",
+        "sacred covenants",
+        "book of racon as os",
+        "sacred truth",
+        "scripture education",
+        "spiritual development",
+        "sacred wisdom",
+        "eternal covenant",
+        "sacred discipline",
+        "duygu adamı",
+        "emotion man",
+        "voice of god",
+        "yeğen, dinle",
+        "metaphysical",
+        "seed"
+      ],
+      "must_use": [
+        "global integration",
+        "social cohesion",
+        "digital inclusion",
+        "ethical framework",
+        "values education",
+        "character development",
+        "evidence-based",
+        "moral education",
+        "cultural heritage",
+        "ancestral wisdom",
+        "warrior's code",
+        "self-mastery",
+        "discipline",
+        "emotional intelligence"
+      ]
+    },
+    "seed_content": {
+      "can_contain": [
+        "spiritual sovereignty",
+        "laws of racon",
+        "sacred covenants",
+        "book of racon",
+        "sacred truth",
+        "scripture education",
+        "spiritual development",
+        "sacred wisdom",
+        "eternal covenant",
+        "sacred discipline",
+        "duygu adamı",
+        "emotion man",
+        "voice of god",
+        "yeğen, dinle"
+      ],
+      "access_restrictions": [
+        "Community/Private groups only",
+        "Trusted networks only",
+        "Internal development only",
+        "Teachers/Community leaders only"
+      ]
+    }
+  },
+  "usage_instructions": {
+    "for_content_creators": "Always use Shell templates for public-facing content. Seed templates are for community/private use only.",
+    "for_developers": "Use shell_seed_translator.py to automatically convert between Shell and Seed language.",
+    "for_reviewers": "Use threshold_defense_checker.py to verify no Seed language leaks into Shell content before release."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "openai",
+  "version": "1.0.0",
+  "author": "JAN Team",
+  "description": "OpenAI GPT-4 and GPT-3.5 integration",
+  "type": "ai-service",
+  "entry_point": "openai_plugin.py",
+  "dependencies": [
+    "openai>=1.0.0"
+  ],
+  "permissions": [
+    "api_key"
+  ],
+  "config": {
+    "api_key": "",
+    "default_model": "gpt-4",
+    "default_temperature": 0.7
+  },
+  "requires": {
+    "jan_version": ">=1.0.0"
+  }
+}
+

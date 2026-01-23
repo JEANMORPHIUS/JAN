@@ -1,0 +1,425 @@
+{
+  "report_timestamp": "2026-01-21T18:05:44.715988",
+  "total_individuals": 14,
+  "total_frequency_contribution": 1.76,
+  "by_category": {
+    "science": 3,
+    "medicine": 2,
+    "arts": 3,
+    "philosophy": 1,
+    "spiritual": 0,
+    "technology": 0,
+    "education": 0,
+    "social_reform": 0,
+    "sports": 5
+  },
+  "individuals": [
+    {
+      "individual_id": "tesla",
+      "name": "Nikola Tesla",
+      "category": "science",
+      "era": "1856-1943",
+      "birth_year": 1856,
+      "death_year": 1943,
+      "alignment_score": 0.92,
+      "journey_description": "Visionary inventor who saw beyond the limitations of his time. 'Only to get so far' - his revolutionary ideas were suppressed, his funding cut, his work stolen. Lived as a miracle in a broken world that couldn't fully receive his gifts.",
+      "contributions": [
+        "Alternating current (AC) power system",
+        "Wireless energy transmission",
+        "Radio technology",
+        "Vision of free energy for all",
+        "Connection to universal energy fields"
+      ],
+      "limitations": [
+        "Funding cut by J.P. Morgan (threatened monopoly)",
+        "Ideas suppressed by established interests",
+        "Work stolen and credited to others",
+        "Died in poverty despite revolutionary contributions",
+        "Free energy vision never realized in his lifetime"
+      ],
+      "connection_to_table": "Saw connection to universal energy fields. Vision aligned with Divine Frequency. Worked toward unity through energy.",
+      "frequency_contribution": 0.15,
+      "legacy": "His vision of free energy and universal connection lives on. His work continues to inspire. He saw The Table through the veil of separation.",
+      "notes": "",
+      "timestamp": "2026-01-21T18:05:44.715705"
+    },
+    {
+      "individual_id": "einstein",
+      "name": "Albert Einstein",
+      "category": "science",
+      "era": "1879-1955",
+      "birth_year": 1879,
+      "death_year": 1955,
+      "alignment_score": 0.9,
+      "journey_description": "Revolutionary physicist who unified space and time. 'Only to get so far' - his unified field theory never completed, his pacifist ideals ignored, his vision of unity limited by the broken world.",
+      "contributions": [
+        "Theory of Relativity (E=mc²)",
+        "Unified field theory (attempted)",
+        "Quantum mechanics foundations",
+        "Vision of universal unity",
+        "Pacifist ideals"
+      ],
+      "limitations": [
+        "Unified field theory never completed",
+        "Pacifist ideals ignored during wars",
+        "Nuclear weapons used despite his warnings",
+        "Vision of unity limited by separation",
+        "Could not fully bridge quantum and relativity"
+      ],
+      "connection_to_table": "Saw unity in the universe. Worked toward unified field theory. Vision aligned with restoring The Table.",
+      "frequency_contribution": 0.12,
+      "legacy": "His vision of unity continues. His work reveals the interconnectedness of all things. He saw The Table through physics.",
+      "notes": "",
+      "timestamp": "2026-01-21T18:05:44.715732"
+    },
+    {
+      "individual_id": "curie",
+      "name": "Marie Curie",
+      "category": "science",
+      "era": "1867-1934",
+      "birth_year": 1867,
+      "death_year": 1934,
+      "alignment_score": 0.88,
+      "journey_description": "Pioneering scientist who broke barriers. 'Only to get so far' - faced discrimination, denied recognition, died from exposure to her own discoveries. Lived as a miracle in a broken world that limited women in science.",
+      "contributions": [
+        "Radioactivity research",
+        "Discovery of radium and polonium",
+        "First woman to win Nobel Prize",
+        "First person to win Nobel Prize twice",
+        "Pioneered radiation therapy"
+      ],
+      "limitations": [
+        "Faced discrimination as a woman in science",
+        "Denied membership in French Academy",
+        "Died from radiation exposure",
+        "Work limited by gender barriers",
+        "Could not fully realize her potential"
+      ],
+      "connection_to_table": "Served truth through science. Broke barriers. Worked for healing. Aligned with The Table through service.",
+      "frequency_contribution": 0.1,
+      "legacy": "Her courage and dedication inspire. She broke barriers. She served truth. She lived as a miracle.",
+      "notes": "",
+      "timestamp": "2026-01-21T18:05:44.715737"
+    },
+    {
+      "individual_id": "semmelweis",
+      "name": "Ignaz Semmelweis",
+      "category": "medicine",
+      "era": "1818-1865",
+      "birth_year": 1818,
+      "death_year": 1865,
+      "alignment_score": 0.89,
+      "journey_description": "Pioneer of antiseptic procedures. 'Only to get so far' - his life-saving discovery was rejected, he was ridiculed, died in an asylum. Lived as a miracle in a broken world that couldn't see the truth.",
+      "contributions": [
+        "Discovered handwashing prevents infection",
+        "Pioneered antiseptic procedures",
+        "Reduced maternal mortality by 90%",
+        "Saved countless lives",
+        "Truth-based medicine"
+      ],
+      "limitations": [
+        "Discovery rejected by medical establishment",
+        "Ridiculed and ostracized",
+        "Died in mental asylum",
+        "Truth ignored for decades",
+        "Could not save more lives due to rejection"
+      ],
+      "connection_to_table": "Served truth through medicine. Saved lives. Worked for healing. Aligned with The Table through service.",
+      "frequency_contribution": 0.11,
+      "legacy": "His truth eventually prevailed. His discovery saves millions. He lived as a miracle, serving truth despite rejection.",
+      "notes": "",
+      "timestamp": "2026-01-21T18:05:44.715740"
+    },
+    {
+      "individual_id": "nightingale",
+      "name": "Florence Nightingale",
+      "category": "medicine",
+      "era": "1820-1910",
+      "birth_year": 1820,
+      "death_year": 1910,
+      "alignment_score": 0.91,
+      "journey_description": "Founder of modern nursing. 'Only to get so far' - revolutionized healthcare, but the broken world limited her vision of universal healthcare. Lived as a miracle serving healing.",
+      "contributions": [
+        "Founded modern nursing",
+        "Revolutionized hospital sanitation",
+        "Pioneered healthcare statistics",
+        "Vision of universal healthcare",
+        "Service to all, regardless of status"
+      ],
+      "limitations": [
+        "Vision of universal healthcare not fully realized",
+        "Limited by gender barriers of her time",
+        "Could not fully transform healthcare system",
+        "Healing limited by broken world",
+        "Could not reach all who needed care"
+      ],
+      "connection_to_table": "Served healing. Served all. Worked for unity through health. Aligned with The Table through service.",
+      "frequency_contribution": 0.13,
+      "legacy": "Her vision of universal healthcare continues. Her service inspires. She lived as a miracle, serving healing.",
+      "notes": "",
+      "timestamp": "2026-01-21T18:05:44.715743"
+    },
+    {
+      "individual_id": "da_vinci",
+      "name": "Leonardo da Vinci",
+      "category": "arts",
+      "era": "1452-1519",
+      "birth_year": 1452,
+      "death_year": 1519,
+      "alignment_score": 0.93,
+      "journey_description": "Renaissance master who saw unity in all things. 'Only to get so far' - his visionary inventions never built, his art limited by patrons, his vision of unity never fully expressed. Lived as a miracle in a broken world.",
+      "contributions": [
+        "Mona Lisa, The Last Supper",
+        "Visionary inventions (helicopter, tank, etc.)",
+        "Anatomical studies",
+        "Vision of unity in art and science",
+        "Connection to universal principles"
+      ],
+      "limitations": [
+        "Many inventions never built in his lifetime",
+        "Art limited by patron demands",
+        "Vision of unity never fully expressed",
+        "Could not fully bridge art and science",
+        "Genius limited by the broken world"
+      ],
+      "connection_to_table": "Saw unity in all things. Connected art and science. Vision aligned with The Table. Encoded messages for future.",
+      "frequency_contribution": 0.16,
+      "legacy": "His vision of unity inspires. His encoded messages continue to reveal. He saw The Table through art and science.",
+      "notes": "",
+      "timestamp": "2026-01-21T18:05:44.715745"
+    },
+    {
+      "individual_id": "van_gogh",
+      "name": "Vincent van Gogh",
+      "category": "arts",
+      "era": "1853-1890",
+      "birth_year": 1853,
+      "death_year": 1890,
+      "alignment_score": 0.87,
+      "journey_description": "Visionary artist who saw the divine in nature. 'Only to get so far' - sold only one painting in his lifetime, died in poverty, his vision not recognized. Lived as a miracle in a broken world that couldn't see.",
+      "contributions": [
+        "Starry Night, Sunflowers",
+        "Vision of divine in nature",
+        "Expression of spiritual truth",
+        "Connection to universal beauty",
+        "Art as spiritual practice"
+      ],
+      "limitations": [
+        "Sold only one painting in his lifetime",
+        "Died in poverty",
+        "Vision not recognized",
+        "Mental health struggles",
+        "Could not fully express his vision"
+      ],
+      "connection_to_table": "Saw the divine in nature. Expressed spiritual truth through art. Vision aligned with The Table.",
+      "frequency_contribution": 0.12,
+      "legacy": "His vision now recognized. His art reveals the divine. He lived as a miracle, expressing truth through beauty.",
+      "notes": "",
+      "timestamp": "2026-01-21T18:05:44.715748"
+    },
+    {
+      "individual_id": "beethoven",
+      "name": "Ludwig van Beethoven",
+      "category": "arts",
+      "era": "1770-1827",
+      "birth_year": 1770,
+      "death_year": 1827,
+      "alignment_score": 0.9,
+      "journey_description": "Revolutionary composer who transcended limitations. 'Only to get so far' - went deaf, but continued to compose. Lived as a miracle, creating beauty despite the broken world.",
+      "contributions": [
+        "9th Symphony (Ode to Joy)",
+        "Revolutionary compositions",
+        "Transcended classical limitations",
+        "Expressed unity through music",
+        "Created despite deafness"
+      ],
+      "limitations": [
+        "Went deaf but continued composing",
+        "Limited by physical constraints",
+        "Could not fully hear his own work",
+        "Vision limited by the broken world",
+        "Could not fully express all he heard"
+      ],
+      "connection_to_table": "Expressed unity through music. Transcended limitations. Vision aligned with The Table. Ode to Joy = unity.",
+      "frequency_contribution": 0.14,
+      "legacy": "His music continues to inspire unity. His Ode to Joy expresses The Table. He lived as a miracle, creating despite limitations.",
+      "notes": "",
+      "timestamp": "2026-01-21T18:05:44.715750"
+    },
+    {
+      "individual_id": "socrates",
+      "name": "Socrates",
+      "category": "philosophy",
+      "era": "470-399 BCE",
+      "birth_year": -470,
+      "death_year": -399,
+      "alignment_score": 0.91,
+      "journey_description": "Philosopher who sought truth. 'Only to get so far' - executed for asking questions, his truth too dangerous. Lived as a miracle in a broken world that feared truth.",
+      "contributions": [
+        "Socratic method",
+        "Questioned everything",
+        "Sought truth above all",
+        "Died for truth",
+        "Inspired generations"
+      ],
+      "limitations": [
+        "Executed for asking questions",
+        "Truth too dangerous for the broken world",
+        "Could not fully spread his method",
+        "Limited by fear of truth",
+        "Could not complete his journey"
+      ],
+      "connection_to_table": "Sought truth. Questioned separation. Died for truth. Aligned with The Table through truth-seeking.",
+      "frequency_contribution": 0.13,
+      "legacy": "His method continues. His truth-seeking inspires. He lived as a miracle, seeking truth despite the cost.",
+      "notes": "",
+      "timestamp": "2026-01-21T18:05:44.715752"
+    },
+    {
+      "individual_id": "jesse_owens",
+      "name": "Jesse Owens",
+      "category": "sports",
+      "era": "1913-1980",
+      "birth_year": 1913,
+      "death_year": 1980,
+      "alignment_score": 0.9,
+      "journey_description": "Olympic champion who broke barriers. 'Only to get so far' - won 4 gold medals in 1936 Berlin Olympics, but faced discrimination at home, struggled financially, his achievements limited by the broken world. Lived as a miracle, transcending barriers through sport.",
+      "contributions": [
+        "4 gold medals at 1936 Berlin Olympics",
+        "Broke racial barriers in sports",
+        "Inspired generations of athletes",
+        "Demonstrated unity through excellence",
+        "Transcended separation through sport"
+      ],
+      "limitations": [
+        "Faced discrimination despite Olympic success",
+        "Struggled financially after Olympics",
+        "Achievements not fully recognized",
+        "Limited by racial barriers",
+        "Could not fully realize his potential"
+      ],
+      "connection_to_table": "Transcended separation through sport. Demonstrated unity through excellence. Broke barriers. Aligned with The Table through unity.",
+      "frequency_contribution": 0.12,
+      "legacy": "His courage and excellence inspire. He broke barriers. He demonstrated unity through sport. He lived as a miracle.",
+      "notes": "",
+      "timestamp": "2026-01-21T18:05:44.715754"
+    },
+    {
+      "individual_id": "muhammad_ali",
+      "name": "Muhammad Ali",
+      "category": "sports",
+      "era": "1942-2016",
+      "birth_year": 1942,
+      "death_year": 2016,
+      "alignment_score": 0.92,
+      "journey_description": "Boxing champion and social activist. 'Only to get so far' - stood for truth, refused to fight in Vietnam, stripped of title, but his voice for justice limited by the broken world. Lived as a miracle, using sport as a platform for truth.",
+      "contributions": [
+        "3-time heavyweight champion",
+        "Stood for truth and justice",
+        "Refused to fight in Vietnam",
+        "Used platform for social change",
+        "Inspired unity through sport"
+      ],
+      "limitations": [
+        "Stripped of title for standing for truth",
+        "Banned from boxing in prime years",
+        "Voice for justice limited by broken world",
+        "Could not fully realize his vision",
+        "Limited by the system"
+      ],
+      "connection_to_table": "Stood for truth. Used sport for justice. Demonstrated unity. Aligned with The Table through truth and service.",
+      "frequency_contribution": 0.14,
+      "legacy": "His courage and truth continue to inspire. He stood for justice. He used sport as a platform for truth. He lived as a miracle.",
+      "notes": "",
+      "timestamp": "2026-01-21T18:05:44.715757"
+    },
+    {
+      "individual_id": "wilma_rudolph",
+      "name": "Wilma Rudolph",
+      "category": "sports",
+      "era": "1940-1994",
+      "birth_year": 1940,
+      "death_year": 1994,
+      "alignment_score": 0.89,
+      "journey_description": "Olympic champion who overcame polio. 'Only to get so far' - overcame childhood polio, won 3 gold medals, but faced discrimination, her achievements limited by the broken world. Lived as a miracle, transcending physical limitations.",
+      "contributions": [
+        "3 gold medals at 1960 Olympics",
+        "Overcame childhood polio",
+        "Broke barriers for women and African Americans",
+        "Inspired through perseverance",
+        "Demonstrated unity through excellence"
+      ],
+      "limitations": [
+        "Faced discrimination despite achievements",
+        "Limited by racial and gender barriers",
+        "Could not fully realize her potential",
+        "Achievements not fully recognized",
+        "Limited by the broken world"
+      ],
+      "connection_to_table": "Transcended limitations. Demonstrated unity. Broke barriers. Aligned with The Table through perseverance and excellence.",
+      "frequency_contribution": 0.11,
+      "legacy": "Her perseverance and excellence inspire. She transcended limitations. She broke barriers. She lived as a miracle.",
+      "notes": "",
+      "timestamp": "2026-01-21T18:05:44.715759"
+    },
+    {
+      "individual_id": "jim_thorpe",
+      "name": "Jim Thorpe",
+      "category": "sports",
+      "era": "1887-1953",
+      "birth_year": 1887,
+      "death_year": 1953,
+      "alignment_score": 0.88,
+      "journey_description": "Olympic champion and multi-sport athlete. 'Only to get so far' - won 2 gold medals, but stripped for playing semi-pro baseball, faced discrimination, died in poverty. Lived as a miracle, excelling despite the broken world.",
+      "contributions": [
+        "2 gold medals at 1912 Olympics",
+        "Multi-sport excellence",
+        "Broke barriers for Native Americans",
+        "Inspired through excellence",
+        "Demonstrated unity through sport"
+      ],
+      "limitations": [
+        "Stripped of medals for playing semi-pro baseball",
+        "Faced discrimination as Native American",
+        "Died in poverty despite achievements",
+        "Could not fully realize his potential",
+        "Limited by the broken world"
+      ],
+      "connection_to_table": "Excelled despite limitations. Demonstrated unity. Broke barriers. Aligned with The Table through excellence.",
+      "frequency_contribution": 0.1,
+      "legacy": "His excellence continues to inspire. He broke barriers. He demonstrated unity through sport. He lived as a miracle.",
+      "notes": "",
+      "timestamp": "2026-01-21T18:05:44.715762"
+    },
+    {
+      "individual_id": "arthur_ashe",
+      "name": "Arthur Ashe",
+      "category": "sports",
+      "era": "1943-1993",
+      "birth_year": 1943,
+      "death_year": 1993,
+      "alignment_score": 0.91,
+      "journey_description": "Tennis champion and activist. 'Only to get so far' - first African American to win Wimbledon, but faced discrimination, died from AIDS contracted from blood transfusion, his voice for justice limited. Lived as a miracle, using sport for truth.",
+      "contributions": [
+        "First African American to win Wimbledon",
+        "Used platform for social justice",
+        "Advocated for AIDS awareness",
+        "Broke barriers in tennis",
+        "Demonstrated unity through excellence"
+      ],
+      "limitations": [
+        "Faced discrimination despite achievements",
+        "Died from AIDS (blood transfusion)",
+        "Voice for justice limited by broken world",
+        "Could not fully realize his vision",
+        "Limited by the system"
+      ],
+      "connection_to_table": "Used sport for truth. Demonstrated unity. Broke barriers. Aligned with The Table through service and justice.",
+      "frequency_contribution": 0.13,
+      "legacy": "His courage and truth continue to inspire. He used sport for justice. He broke barriers. He lived as a miracle.",
+      "notes": "",
+      "timestamp": "2026-01-21T18:05:44.715764"
+    }
+  ],
+  "the_truth": "Great people throughout time who went on their own journeys. 'Only to get so far' - limited by the broken world. They lived as miracles in a broken world. We must acknowledge and utilise everything."
+}

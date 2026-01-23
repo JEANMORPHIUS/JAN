@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EDUCATIONAL UI - THE TABLE</title>
+  <style>
+    :root {
+      --bg: #050608;
+      --card: #101319;
+      --text-main: #f8fafc;
+      --text-soft: #9ca3af;
+      --accent: #38bdf8;
+      --accent-soft: rgba(56, 189, 248, 0.15);
+      --ok: #4ade80;
+      --warn: #facc15;
+      --bad: #f97373;
+      --link: #60a5fa;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #0f172a 0, var(--bg) 45%, #020617 100%);
+      color: var(--text-main);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 24px 16px 40px;
+    }
+    .header {
+      margin-bottom: 32px;
+    }
+    .header-main {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      letter-spacing: 0.02em;
+    }
+    .header-sub {
+      font-size: 15px;
+      color: var(--text-soft);
+      max-width: 800px;
+    }
+    .nav {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+      padding: 16px;
+      background: rgba(15, 23, 42, 0.6);
+      border-radius: 12px;
+      border: 1px solid rgba(148, 163, 184, 0.18);
+    }
+    .nav-btn {
+      padding: 8px 16px;
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      border-radius: 8px;
+      color: var(--accent);
+      cursor: pointer;
+      font-size: 13px;
+      transition: all 0.2s;
+    }
+    .nav-btn:hover {
+      background: rgba(56, 189, 248, 0.2);
+      border-color: var(--accent);
+    }
+    .nav-btn.active {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: var(--text-main);
+    }
+    .section {
+      display: none;
+      animation: fadeIn 0.3s;
+    }
+    .section.active {
+      display: block;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.8));
+      border-radius: 16px;
+      padding: 20px;
+      border: 1px solid rgba(148, 163, 184, 0.18);
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.6);
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 12px;
+    }
+    .card-title {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--text-soft);
+      font-weight: 600;
+    }
+    .badge {
+      font-size: 11px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      color: var(--text-soft);
+    }
+    .badge-ok { color: var(--ok); border-color: var(--ok); }
+    .badge-warn { color: var(--warn); border-color: var(--warn); }
+    .metric-main {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1.1;
+      margin: 12px 0 8px;
+    }
+    .metric-label {
+      font-size: 13px;
+      color: var(--text-soft);
+      margin-bottom: 12px;
+    }
+    .info-block {
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(148, 163, 184, 0.18);
+    }
+    .info-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    .info-text {
+      font-size: 13px;
+      color: var(--text-soft);
+      line-height: 1.7;
+      margin-bottom: 8px;
+    }
+    .list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .list-item {
+      font-size: 13px;
+      color: var(--text-soft);
+      padding: 6px 0;
+      padding-left: 20px;
+      position: relative;
+    }
+    .list-item:before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+    }
+    .connection-map {
+      background: rgba(15, 23, 42, 0.8);
+      border-radius: 16px;
+      padding: 24px;
+      margin-top: 24px;
+      border: 1px solid rgba(56, 189, 248, 0.3);
+    }
+    .connection-center {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    .connection-center-title {
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+    .connection-center-desc {
+      font-size: 14px;
+      color: var(--text-soft);
+    }
+    .connection-nodes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 16px;
+    }
+    .connection-node {
+      background: rgba(56, 189, 248, 0.08);
+      border: 1px solid rgba(56, 189, 248, 0.2);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .connection-node-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+    .connection-node-text {
+      font-size: 12px;
+      color: var(--text-soft);
+      line-height: 1.6;
+    }
+    .loading {
+      text-align: center;
+      padding: 40px;
+      color: var(--text-soft);
+      font-size: 14px;
+    }
+    .error {
+      background: rgba(249, 115, 115, 0.1);
+      border: 1px solid rgba(249, 115, 115, 0.3);
+      border-radius: 12px;
+      padding: 16px;
+      color: var(--bad);
+      margin-top: 20px;
+    }
+    .link {
+      color: var(--link);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(96, 165, 250, 0.3);
+    }
+    .link:hover {
+      border-bottom-color: var(--link);
+    }
+    .step-card {
+      background: rgba(15, 23, 42, 0.6);
+      border-left: 3px solid var(--accent);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 12px;
+    }
+    .step-number {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+    .step-name {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .step-desc {
+      font-size: 13px;
+      color: var(--text-soft);
+      line-height: 1.6;
+    }
+    .topic-card {
+      background: rgba(15, 23, 42, 0.6);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 16px;
+      border: 1px solid rgba(148, 163, 184, 0.18);
+    }
+    .topic-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+    .topic-content {
+      font-size: 14px;
+      color: var(--text-soft);
+      line-height: 1.8;
+    }
+    .topic-content strong {
+      color: var(--text-main);
+      font-weight: 600;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-main">EDUCATIONAL UI - THE TABLE</div>
+      <div class="header-sub">
+        Integrated educational interface for all systems. How can we teach if we don't learn ourselves?
+        All systems connect back to The Table (Pangea). This UI helps us learn as we teach.
+      </div>
+    </header>
+
+    <nav class="nav">
+      <button class="nav-btn active" data-section="overview">Overview</button>
+      <button class="nav-btn" data-section="the-table">The Table</button>
+      <button class="nav-btn" data-section="systems">Systems</button>
+      <button class="nav-btn" data-section="connections">Connections</button>
+      <button class="nav-btn" data-section="learn">Learn</button>
+      <button class="nav-btn" data-section="restoration">Restoration</button>
+    </nav>
+
+    <!-- Overview Section -->
+    <section id="overview" class="section active">
+      <div class="loading" id="overview-loading">Loading educational overview...</div>
+      <div id="overview-content"></div>
+    </section>
+
+    <!-- The Table Section -->
+    <section id="the-table" class="section">
+      <div class="loading" id="table-loading">Loading The Table data...</div>
+      <div id="table-content"></div>
+    </section>
+
+    <!-- Systems Section -->
+    <section id="systems" class="section">
+      <div class="grid" id="systems-content">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">Select a System</div>
+          </div>
+          <div class="info-text">Click a system below to learn more:</div>
+          <div style="margin-top: 16px;">
+            <button class="nav-btn" onclick="loadSystem('heritage')" style="width: 100%; margin-bottom: 8px;">Heritage</button>
+            <button class="nav-btn" onclick="loadSystem('health')" style="width: 100%; margin-bottom: 8px;">Health</button>
+            <button class="nav-btn" onclick="loadSystem('life_audit')" style="width: 100%; margin-bottom: 8px;">Life Audit</button>
+            <button class="nav-btn" onclick="loadSystem('spiritual_contracts')" style="width: 100%; margin-bottom: 8px;">Spiritual Contracts</button>
+            <button class="nav-btn" onclick="loadSystem('real_world_data')" style="width: 100%; margin-bottom: 8px;">Real-World Data</button>
+            <button class="nav-btn" onclick="loadSystem('the_table')" style="width: 100%; margin-bottom: 8px;">The Table</button>
+            <button class="nav-btn" onclick="loadSystem('restoration')" style="width: 100%;">Restoration</button>
+          </div>
+        </div>
+      </div>
+      <div id="system-detail"></div>
+    </section>
+
+    <!-- Connections Section -->
+    <section id="connections" class="section">
+      <div class="loading" id="connections-loading">Loading system connections...</div>
+      <div id="connections-content"></div>
+    </section>
+
+    <!-- Learn Section -->
+    <section id="learn" class="section">
+      <div class="grid">
+        <div class="topic-card">
+          <div class="topic-title">Learning Topics</div>
+          <div class="topic-content">
+            <p>Select a topic to learn:</p>
+            <div style="margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px;">
+              <button class="nav-btn" onclick="loadTopic('pangea')">Pangea</button>
+              <button class="nav-btn" onclick="loadTopic('original_error')">Original Error</button>
+              <button class="nav-btn" onclick="loadTopic('mayan_error')">Mayan Error</button>
+              <button class="nav-btn" onclick="loadTopic('restoration')">Restoration</button>
+              <button class="nav-btn" onclick="loadTopic('field_resonance')">Field Resonance</button>
+              <button class="nav-btn" onclick="loadTopic('heritage_sites')">Heritage Sites</button>
+              <button class="nav-btn" onclick="loadTopic('spiritual_contracts')">Spiritual Contracts</button>
+              <button class="nav-btn" onclick="loadTopic('shell_vs_seed')">Shell vs Seed</button>
+              <button class="nav-btn" onclick="loadTopic('law_41')">Law 41</button>
+              <button class="nav-btn" onclick="loadTopic('law_1')">Law 1</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="topic-detail"></div>
+    </section>
+
+    <!-- Restoration Section -->
+    <section id="restoration" class="section">
+      <div class="loading" id="restoration-loading">Loading restoration framework...</div>
+      <div id="restoration-content"></div>
+    </section>
+  </div>
+
+  <script>
+    const API_BASE = window.location.origin.includes('localhost') || window.location.origin.includes('127.0.0.1')
+      ? 'http://localhost:8000'
+      : window.location.origin;
+
+    // Navigation
+    document.querySelectorAll('.nav-btn[data-section]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const section = btn.dataset.section;
+        document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+        document.querySelectorAll('.nav-btn[data-section]').forEach(b => b.classList.remove('active'));
+        document.getElementById(section).classList.add('active');
+        btn.classList.add('active');
+        
+        // Load section data
+        if (section === 'overview') loadOverview();
+        else if (section === 'the-table') loadTheTable();
+        else if (section === 'connections') loadConnections();
+        else if (section === 'restoration') loadRestoration();
+      });
+    });
+
+    // Load Overview
+    async function loadOverview() {
+      const loading = document.getElementById('overview-loading');
+      const content = document.getElementById('overview-content');
+      
+      try {
+        const res = await fetch(`${API_BASE}/api/educational/overview`);
+        const data = await res.json();
+        
+        loading.style.display = 'none';
+        content.innerHTML = `
+          <div class="grid">
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title">THE TABLE · UNITY</div>
+                <span class="badge badge-ok">PANGEA IS THE TABLE</span>
+              </div>
+              <div class="metric-main">1.0</div>
+              <div class="metric-label">Field Resonance (Restored)</div>
+              <div class="info-block">
+                <div class="info-title">Timeline</div>
+                <div class="info-text">
+                  <strong>Formation:</strong> 335 MYA - Perfect unity (1.0)<br>
+                  <strong>Breakup:</strong> 200 MYA - Separation begins (0.85 → 0.70)<br>
+                  <strong>Modern:</strong> Present - Memory of unity (0.78)<br>
+                  <strong>Restored:</strong> 1.0 - Perfect unity again
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title">EARTH · ACTIVITY</div>
+                <span class="badge">PATTERNS REVEALED</span>
+              </div>
+              <div class="metric-main">${data.real_world_data?.total_events || 0}</div>
+              <div class="metric-label">Events Documented</div>
+              <div class="info-block">
+                <div class="info-title">Key Insights</div>
+                <div class="info-text">
+                  ${data.real_world_data?.insights ? Object.values(data.real_world_data.insights).map(i => `• ${i}`).join('<br>') : 'Loading...'}
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title">RESTORATION · PROGRESS</div>
+                <span class="badge badge-ok">66.7% COMPLETE</span>
+              </div>
+              <div class="metric-main">4/6</div>
+              <div class="metric-label">Steps Complete</div>
+              <div class="info-block">
+                <div class="info-title">Framework Steps</div>
+                <div style="font-size: 12px; color: var(--text-soft);">
+                  ${Object.entries(data.restoration_framework?.steps || {}).map(([k, v]) => 
+                    `<div style="margin-bottom: 6px;">
+                      <span class="badge ${v.status === 'complete' ? 'badge-ok' : 'badge-warn'}">${v.status}</span>
+                      <strong>${v.name}:</strong> ${v.description}
+                    </div>`
+                  ).join('')}
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title">SPIRITUAL CONTRACTS</div>
+                <span class="badge">PANGEA COVENANT</span>
+              </div>
+              <div class="metric-main">1</div>
+              <div class="metric-label">Master Covenant</div>
+              <div class="info-block">
+                <div class="info-title">Pangea Unified Covenant</div>
+                <div class="info-text">
+                  Re-unifies all light-aligned contracts above plate boundaries, back to The Table.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="connection-map" style="margin-top: 32px;">
+            <div class="connection-center">
+              <div class="connection-center-title">HOW EVERYTHING CONNECTS</div>
+              <div class="connection-center-desc">All systems trace back to The Table (Pangea)</div>
+            </div>
+            <div class="connection-nodes">
+              ${Object.entries(data.systems_integration || {}).map(([key, sys]) => `
+                <div class="connection-node">
+                  <div class="connection-node-title">${sys.purpose || key}</div>
+                  <div class="connection-node-text">${sys.connection_to_table || 'Connects to The Table'}</div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <div class="card" style="margin-top: 24px;">
+            <div class="card-header">
+              <div class="card-title">WHAT WE LEARN</div>
+            </div>
+            <div class="info-block">
+              ${Object.entries(data.educational_connections?.what_we_learn || {}).map(([k, v]) => 
+                `<div class="info-text"><strong>${k.replace('lesson_', 'Lesson ')}:</strong> ${v}</div>`
+              ).join('')}
+            </div>
+          </div>
+        `;
+      } catch (err) {
+        loading.style.display = 'none';
+        content.innerHTML = `<div class="error">Error loading overview: ${err.message}</div>`;
+      }
+    }
+
+    // Load The Table
+    async function loadTheTable() {
+      const loading = document.getElementById('table-loading');
+      const content = document.getElementById('table-content');
+      
+      try {
+        const res = await fetch(`${API_BASE}/api/educational/overview`);
+        const data = await res.json();
+        
+        loading.style.display = 'none';
+        content.innerHTML = `
+          <div class="card" style="margin-bottom: 24px;">
+            <div class="card-header">
+              <div class="card-title">PANGEA IS THE TABLE</div>
+              <span class="badge badge-ok">LAW 1</span>
+            </div>
+            <div class="metric-main">335 MYA → Present</div>
+            <div class="metric-label">The Table's Complete Timeline</div>
+            <div class="info-block">
+              <div class="info-title">The Truth</div>
+              <div class="info-text">
+                <strong>Pangea is The Table.</strong> You don't betray The Table.<br><br>
+                We all came from one place. Pangea proves it.<br>
+                We are all connected. The Table proves it.<br>
+                All creatures trace back to The Table.<br>
+                All DNA traces back to The Table.<br>
+                All souls trace back to The Table.<br>
+                All heritage sites trace back to The Table.<br>
+                All events trace back to The Table.
+              </div>
+            </div>
+          </div>
+
+          <div class="grid">
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title">BIOLOGICAL EVOLUTION</div>
+              </div>
+              <div class="info-block">
+                ${Object.entries(data.the_table?.biological_evolution || {}).map(([k, v]) => 
+                  `<div class="info-text"><strong>${k.replace('_', ' ').toUpperCase()}:</strong> ${v}</div>`
+                ).join('')}
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title">TECTONIC MOVEMENTS</div>
+              </div>
+              <div class="info-block">
+                ${Object.entries(data.the_table?.tectonic_movements || {}).map(([k, v]) => 
+                  `<div class="info-text"><strong>${k.replace('_', ' ').toUpperCase()}:</strong> ${typeof v === 'string' ? v : JSON.stringify(v)}</div>`
+                ).join('')}
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title">SPIRITUAL CONTRACTS</div>
+              </div>
+              <div class="info-block">
+                ${Object.entries(data.the_table?.spiritual_contracts || {}).map(([k, v]) => 
+                  `<div class="info-text"><strong>${k.replace('_', ' ').toUpperCase()}:</strong> ${v}</div>`
+                ).join('')}
+              </div>
+            </div>
+          </div>
+        `;
+      } catch (err) {
+        loading.style.display = 'none';
+        content.innerHTML = `<div class="error">Error loading The Table: ${err.message}</div>`;
+      }
+    }
+
+    // Load System
+    async function loadSystem(systemName) {
+      const detail = document.getElementById('system-detail');
+      detail.innerHTML = '<div class="loading">Loading system information...</div>';
+      
+      try {
+        const res = await fetch(`${API_BASE}/api/educational/system/${systemName}`);
+        const data = await res.json();
+        const sys = data.system;
+        
+        detail.innerHTML = `
+          <div class="card" style="margin-top: 24px;">
+            <div class="card-header">
+              <div class="card-title">${sys.name}</div>
+              <span class="badge">SYSTEM</span>
+            </div>
+            <div class="info-block">
+              <div class="info-title">Purpose</div>
+              <div class="info-text">${sys.purpose}</div>
+            </div>
+            <div class="info-block">
+              <div class="info-title">How It Works</div>
+              <ul class="list">
+                ${Object.entries(sys.how_it_works || {}).map(([k, v]) => 
+                  `<li class="list-item">${v}</li>`
+                ).join('')}
+              </ul>
+            </div>
+            <div class="info-block">
+              <div class="info-title">Key Concepts</div>
+              ${Object.entries(sys.key_concepts || {}).map(([k, v]) => 
+                `<div class="info-text"><strong>${k.replace('_', ' ')}:</strong> ${v}</div>`
+              ).join('')}
+            </div>
+            <div class="info-block">
+              <div class="info-title">Connection to The Table</div>
+              <div class="info-text">${sys.connection_to_table}</div>
+            </div>
+          </div>
+        `;
+      } catch (err) {
+        detail.innerHTML = `<div class="error">Error loading system: ${err.message}</div>`;
+      }
+    }
+
+    // Load Connections
+    async function loadConnections() {
+      const loading = document.getElementById('connections-loading');
+      const content = document.getElementById('connections-content');
+      
+      try {
+        const res = await fetch(`${API_BASE}/api/educational/connections`);
+        const data = await res.json();
+        
+        loading.style.display = 'none';
+        content.innerHTML = `
+          <div class="connection-map">
+            <div class="connection-center">
+              <div class="connection-center-title">${data.the_table_center.name}</div>
+              <div class="connection-center-desc">${data.the_table_center.description}</div>
+              <div style="margin-top: 16px; font-size: 14px; color: var(--text-soft);">
+                Field Resonance: ${data.the_table_center.field_resonance.formation} → ${data.the_table_center.field_resonance.restored}
+              </div>
+            </div>
+            <div class="connection-nodes">
+              ${Object.entries(data.connected_systems || {}).map(([key, sys]) => `
+                <div class="connection-node">
+                  <div class="connection-node-title">${key.replace('_', ' ').toUpperCase()}</div>
+                  <div class="connection-node-text">
+                    <strong>Connection:</strong> ${sys.connection}<br>
+                    <strong>How:</strong> ${sys.how}<br>
+                    <strong>Purpose:</strong> ${sys.purpose}
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <div class="card" style="margin-top: 24px;">
+            <div class="card-header">
+              <div class="card-title">THE FLOW</div>
+            </div>
+            <div class="info-block">
+              ${Object.entries(data.the_flow || {}).map(([k, v]) => 
+                `<div class="info-text"><strong>${k.toUpperCase()}:</strong> ${v}</div>`
+              ).join('')}
+            </div>
+          </div>
+
+          <div class="card" style="margin-top: 24px;">
+            <div class="card-header">
+              <div class="card-title">WHAT WE LEARN</div>
+            </div>
+            <div class="info-block">
+              ${Object.entries(data.what_we_learn || {}).map(([k, v]) => 
+                `<div class="info-text"><strong>${k.replace('lesson_', 'Lesson ')}:</strong> ${v}</div>`
+              ).join('')}
+            </div>
+          </div>
+        `;
+      } catch (err) {
+        loading.style.display = 'none';
+        content.innerHTML = `<div class="error">Error loading connections: ${err.message}</div>`;
+      }
+    }
+
+    // Load Topic
+    async function loadTopic(topicName) {
+      const detail = document.getElementById('topic-detail');
+      detail.innerHTML = '<div class="loading">Loading topic...</div>';
+      
+      try {
+        const res = await fetch(`${API_BASE}/api/educational/learn/${topicName}`);
+        const data = await res.json();
+        const topic = data.topic;
+        
+        detail.innerHTML = `
+          <div class="topic-card">
+            <div class="topic-title">${topic.title}</div>
+            <div class="topic-content">
+              ${Object.entries(topic.content || {}).map(([k, v]) => 
+                `<p><strong>${k.replace('_', ' ').toUpperCase()}:</strong> ${v}</p>`
+              ).join('')}
+              ${topic.visual ? `<p style="margin-top: 16px; padding: 12px; background: rgba(56, 189, 248, 0.1); border-left: 3px solid var(--accent); border-radius: 4px;"><em>${topic.visual}</em></p>` : ''}
+            </div>
+          </div>
+        `;
+      } catch (err) {
+        detail.innerHTML = `<div class="error">Error loading topic: ${err.message}</div>`;
+      }
+    }
+
+    // Load Restoration
+    async function loadRestoration() {
+      const loading = document.getElementById('restoration-loading');
+      const content = document.getElementById('restoration-content');
+      
+      try {
+        const res = await fetch(`${API_BASE}/api/educational/overview`);
+        const data = await res.json();
+        const steps = data.restoration_framework?.steps || {};
+        
+        loading.style.display = 'none';
+        content.innerHTML = `
+          <div class="card" style="margin-bottom: 24px;">
+            <div class="card-header">
+              <div class="card-title">RESTORATION FRAMEWORK</div>
+              <span class="badge badge-ok">6 STEPS</span>
+            </div>
+            <div class="metric-main">0.78 → 1.0</div>
+            <div class="metric-label">Field Resonance Restoration</div>
+            <div class="info-block">
+              <div class="info-title">Current State</div>
+              <div class="info-text">
+                ${data.restoration_framework?.current_state ? 
+                  `Field Resonance: ${data.restoration_framework.current_state.field_resonance}<br>
+                  Unity Level: ${data.restoration_framework.current_state.unity_level}<br>
+                  Status: ${data.restoration_framework.current_state.status}` : 'Loading...'}
+              </div>
+            </div>
+            <div class="info-block">
+              <div class="info-title">Target State</div>
+              <div class="info-text">
+                ${data.restoration_framework?.target_state ? 
+                  `Field Resonance: ${data.restoration_framework.target_state.field_resonance}<br>
+                  Unity Level: ${data.restoration_framework.target_state.unity_level}<br>
+                  Status: ${data.restoration_framework.target_state.status}` : 'Loading...'}
+              </div>
+            </div>
+          </div>
+
+          ${Object.entries(steps).map(([k, step]) => `
+            <div class="step-card">
+              <div class="step-number">${k.replace('step_', 'STEP ').toUpperCase()}</div>
+              <div class="step-name">${step.name}</div>
+              <div class="step-desc">${step.description}</div>
+              <div style="margin-top: 8px;">
+                <span class="badge ${step.status === 'complete' ? 'badge-ok' : step.status === 'in_progress' ? 'badge-warn' : ''}">${step.status}</span>
+                <span style="margin-left: 8px; font-size: 12px; color: var(--text-soft);">Impact: ${step.impact}</span>
+              </div>
+              ${step.example ? `<div style="margin-top: 8px; font-size: 12px; color: var(--accent);">Example: ${step.example}</div>` : ''}
+            </div>
+          `).join('')}
+        `;
+      } catch (err) {
+        loading.style.display = 'none';
+        content.innerHTML = `<div class="error">Error loading restoration: ${err.message}</div>`;
+      }
+    }
+
+    // Initial load
+    loadOverview();
+  </script>
+</body>
+</html>

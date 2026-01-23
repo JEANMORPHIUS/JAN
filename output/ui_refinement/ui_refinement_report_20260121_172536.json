@@ -1,0 +1,115 @@
+{
+  "report_timestamp": "2026-01-21T17:25:36.952277",
+  "total_components": 16,
+  "components_by_type": {
+    "button": 4,
+    "label": 0,
+    "menu": 2,
+    "navigation": 4,
+    "message": 3,
+    "form": 3,
+    "card": 0,
+    "modal": 0,
+    "tooltip": 0,
+    "notification": 0
+  },
+  "components": {
+    "nav.home": {
+      "type": "navigation",
+      "english": "Home",
+      "turkish": "Ana Sayfa",
+      "context": "Navigation menu item"
+    },
+    "nav.entities": {
+      "type": "navigation",
+      "english": "Entities",
+      "turkish": "Varlıklar",
+      "context": "Navigation menu item"
+    },
+    "nav.systems": {
+      "type": "navigation",
+      "english": "Systems",
+      "turkish": "Sistemler",
+      "context": "Navigation menu item"
+    },
+    "nav.about": {
+      "type": "navigation",
+      "english": "About",
+      "turkish": "Hakkında",
+      "context": "Navigation menu item"
+    },
+    "btn.submit": {
+      "type": "button",
+      "english": "Submit",
+      "turkish": "Gönder",
+      "context": "Submit button"
+    },
+    "btn.cancel": {
+      "type": "button",
+      "english": "Cancel",
+      "turkish": "İptal",
+      "context": "Cancel button"
+    },
+    "btn.save": {
+      "type": "button",
+      "english": "Save",
+      "turkish": "Kaydet",
+      "context": "Save button"
+    },
+    "btn.delete": {
+      "type": "button",
+      "english": "Delete",
+      "turkish": "Sil",
+      "context": "Delete button"
+    },
+    "msg.success": {
+      "type": "message",
+      "english": "Success",
+      "turkish": "Başarılı",
+      "context": "Success message"
+    },
+    "msg.error": {
+      "type": "message",
+      "english": "Error",
+      "turkish": "Hata",
+      "context": "Error message"
+    },
+    "msg.loading": {
+      "type": "message",
+      "english": "Loading...",
+      "turkish": "Yükleniyor...",
+      "context": "Loading message"
+    },
+    "form.name": {
+      "type": "form",
+      "english": "Name",
+      "turkish": "Ad",
+      "context": "Form label"
+    },
+    "form.email": {
+      "type": "form",
+      "english": "Email",
+      "turkish": "E-posta",
+      "context": "Form label"
+    },
+    "form.language": {
+      "type": "form",
+      "english": "Language",
+      "turkish": "Dil",
+      "context": "Form label"
+    },
+    "lang.english": {
+      "type": "menu",
+      "english": "English",
+      "turkish": "İngilizce",
+      "context": "Language selection"
+    },
+    "lang.turkish": {
+      "type": "menu",
+      "english": "Turkish",
+      "turkish": "Türkçe",
+      "context": "Language selection"
+    }
+  },
+  "the_truth": "All UI components refined with full English/Turkish support. Language selection supported. Bilingual content display ready."
+}

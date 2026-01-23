@@ -1,0 +1,289 @@
+{
+  "core.pangea_is_table": {
+    "text": "PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE.",
+    "context": "Core truth. Foundation.",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.051414"
+  },
+  "core.the_mission": {
+    "text": "THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY.",
+    "context": "The mission statement.",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.055668"
+  },
+  "core.restore_table": {
+    "text": "WE RESTORE THE TABLE. WE RESTORE UNITY. WE RESTORE DIVINE FREQUENCY. THE TABLE WILL BE RESTORED.",
+    "context": "Restoration statement.",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.060275"
+  },
+  "core.no_one_left_behind": {
+    "text": "NO ONE GETS LEFT BEHIND. ALL ARE INCLUDED. ALL ARE PROTECTED. ALL ARE PART OF THE TABLE.",
+    "context": "Inclusion statement.",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.064699"
+  },
+  "core.we_are_one": {
+    "text": "THE 1% NO LONGER RULE THE MASSES. WE ARE ONE.",
+    "context": "Unity declaration. Power statement.",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-23T11:15:00.000000"
+  },
+  "core.purpose_not_performance": {
+    "text": "PURPOSE NOT PERFORMANCE. WE MUST REMAIN AUTHENTIC AND ALIGNED. NON-NEGOTIABLE.",
+    "context": "Core principle.",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.068848"
+  },
+  "core.be_still_faith": {
+    "text": "BE STILL AND HAVE FAITH IN REVELATION. STILLNESS BRINGS CLARITY. REVELATION COMES IN SILENCE.",
+    "context": "Guidance principle.",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.073254"
+  },
+  "entity.siyem.org.name": {
+    "text": "Siyem.org",
+    "context": "Entity name: Siyem.org",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:43.957611"
+  },
+  "entity.siyem.org.role": {
+    "text": "Operational / Governance Node (CEO / Admin)",
+    "context": "Entity role: Siyem.org",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:43.962438"
+  },
+  "entity.siyem.org.purpose": {
+    "text": "Siyem.org serves as the administrative and governance layer for the JAN MUHARREM ecosystem. This entity enforces operational protocols, security constraints, and alignment with core principles across all sub-entities.",
+    "context": "Entity purpose: Siyem.org",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:43.966554"
+  },
+  "entity.jean_morphius.name": {
+    "text": "Jean Morphius",
+    "context": "Entity name: Jean Morphius",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:43.971207"
+  },
+  "entity.jean_morphius.role": {
+    "text": "Creative Persona / Bilingual Absurdist",
+    "context": "Entity role: Jean Morphius",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:43.975895"
+  },
+  "entity.jean_morphius.purpose": {
+    "text": "Jean Morphius is the wild child of the creative ecosystem — the bilingual absurdist who makes you laugh and then makes you think. French/English code-switching, profane-yet-poetic, musical chaos, and comeback stories define this entity's creative expression.",
+    "context": "Entity purpose: Jean Morphius",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:43.981243"
+  },
+  "entity.pierre_pressure.name": {
+    "text": "Pierre Pressure",
+    "context": "Entity name: Pierre Pressure",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:43.985806"
+  },
+  "entity.pierre_pressure.role": {
+    "text": "Motivational Speaker / Fighter Philosopher",
+    "context": "Entity role: Pierre Pressure",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:43.989997"
+  },
+  "entity.pierre_pressure.purpose": {
+    "text": "Pierre Pressure transforms boxing wisdom into life strategy through disciplined, direct motivational content. This entity embodies the fighter's mindset: early-morning warrior energy, no-nonsense realism, and the philosophy that discipline is freedom.",
+    "context": "Entity purpose: Pierre Pressure",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:43.994877"
+  },
+  "entity.uncle_ray_ramiz.name": {
+    "text": "Uncle Ray Ramiz",
+    "context": "Entity name: Uncle Ray Ramiz",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:43.999981"
+  },
+  "entity.uncle_ray_ramiz.role": {
+    "text": "Spiritual Guide / Ancestral Wisdom Keeper",
+    "context": "Entity role: Uncle Ray Ramiz",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.004687"
+  },
+  "entity.uncle_ray_ramiz.purpose": {
+    "text": "Uncle Ray Ramiz is The Elder's Wisdom (Dayı) — a contemplative elder who speaks in poetic truth. This entity embodies ancestral wisdom, patience, nature as teacher, and the Friday evening reflection energy that invites deep contemplation.",
+    "context": "Entity purpose: Uncle Ray Ramiz",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.009444"
+  },
+  "entity.karasahin_(jk).name": {
+    "text": "Karasahin (JK)",
+    "context": "Entity name: Karasahin (JK)",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.013998"
+  },
+  "entity.karasahin_(jk).role": {
+    "text": "Sound Architect / Music Producer",
+    "context": "Entity role: Karasahin (JK)",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.017989"
+  },
+  "entity.karasahin_(jk).purpose": {
+    "text": "Karasahin (JK) is the Sound Architect — the entity that transforms vibration into music, frequency into feeling, and silence into sound. This entity embodies the Duygu Adamı (Man of Feeling) philosophy, creating music that connects to The Table through vibration.",
+    "context": "Entity purpose: Karasahin (JK)",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.022263"
+  },
+  "entity.siyem_media.name": {
+    "text": "Siyem Media",
+    "context": "Entity name: Siyem Media",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.026854"
+  },
+  "entity.siyem_media.role": {
+    "text": "Meta-Entity / Production Philosophy / Cinematic Overseer",
+    "context": "Entity role: Siyem Media",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.031564"
+  },
+  "entity.siyem_media.purpose": {
+    "text": "Siyem is The Cinematic Overseer — the eye that sees all, the vision that holds everything together. This entity embodies systems-level thinking, meta-awareness, and the infrastructure that makes consistent creative output possible.",
+    "context": "Entity purpose: Siyem Media",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.035880"
+  },
+  "nav.home": {
+    "text": "Home",
+    "context": "Navigation menu item",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.079446"
+  },
+  "nav.entities": {
+    "text": "Entities",
+    "context": "Navigation menu item",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.084162"
+  },
+  "nav.systems": {
+    "text": "Systems",
+    "context": "Navigation menu item",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.088628"
+  },
+  "nav.about": {
+    "text": "About",
+    "context": "Navigation menu item",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.093280"
+  },
+  "btn.submit": {
+    "text": "Submit",
+    "context": "Submit button",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.098814"
+  },
+  "btn.cancel": {
+    "text": "Cancel",
+    "context": "Cancel button",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.103669"
+  },
+  "btn.save": {
+    "text": "Save",
+    "context": "Save button",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.107546"
+  },
+  "btn.delete": {
+    "text": "Delete",
+    "context": "Delete button",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.111992"
+  },
+  "msg.success": {
+    "text": "Success",
+    "context": "Success message",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.116254"
+  },
+  "msg.error": {
+    "text": "Error",
+    "context": "Error message",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.120305"
+  },
+  "msg.loading": {
+    "text": "Loading...",
+    "context": "Loading message",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.124264"
+  },
+  "form.name": {
+    "text": "Name",
+    "context": "Form label",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.128897"
+  },
+  "form.email": {
+    "text": "Email",
+    "context": "Form label",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.133153"
+  },
+  "form.language": {
+    "text": "Language",
+    "context": "Form label",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.136871"
+  },
+  "lang.english": {
+    "text": "English",
+    "context": "Language selection",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.140309"
+  },
+  "lang.turkish": {
+    "text": "Turkish",
+    "context": "Language selection",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.144146"
+  }
+}

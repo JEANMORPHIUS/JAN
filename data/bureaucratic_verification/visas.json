@@ -1,0 +1,128 @@
+{
+  "nc_tourist_visa_uk": {
+    "visa_id": "nc_tourist_visa_uk",
+    "country": "North Cyprus",
+    "visa_type": "Tourist",
+    "nationality": "UK",
+    "duration": "90 days",
+    "entry_requirements": [
+      "Valid passport"
+    ],
+    "required_documents": [
+      "Passport valid 6+ months"
+    ],
+    "application_process": "Visa on arrival or e-visa",
+    "processing_time": "Immediate (on arrival) or 1-3 days (e-visa)",
+    "cost": 0.0,
+    "currency": "USD",
+    "validity_period": "90 days",
+    "multiple_entry": true,
+    "extension_possible": false,
+    "renewal_required": false,
+    "renewal_frequency": null,
+    "restrictions": [],
+    "exemptions": [],
+    "loopholes": [],
+    "status": "unverified",
+    "verified_date": null,
+    "metadata": {},
+    "created_at": "2026-01-23T11:03:25.632711"
+  },
+  "tr_tourist_visa_uk": {
+    "visa_id": "tr_tourist_visa_uk",
+    "country": "Turkey",
+    "visa_type": "Tourist",
+    "nationality": "UK",
+    "duration": "90 days",
+    "entry_requirements": [
+      "Valid passport"
+    ],
+    "required_documents": [
+      "Passport valid 6+ months"
+    ],
+    "application_process": "E-visa online",
+    "processing_time": "24-48 hours",
+    "cost": 20.0,
+    "currency": "USD",
+    "validity_period": "180 days (multiple entry)",
+    "multiple_entry": true,
+    "extension_possible": false,
+    "renewal_required": false,
+    "renewal_frequency": null,
+    "restrictions": [],
+    "exemptions": [],
+    "loopholes": [],
+    "status": "unverified",
+    "verified_date": null,
+    "metadata": {},
+    "created_at": "2026-01-23T11:03:25.652253"
+  },
+  "tr_work_visa": {
+    "visa_id": "tr_work_visa",
+    "country": "Turkey",
+    "visa_type": "Work",
+    "nationality": "UK",
+    "duration": "1 year",
+    "entry_requirements": [
+      "Work permit",
+      "Valid passport"
+    ],
+    "required_documents": [
+      "Work permit application",
+      "Employment contract",
+      "Educational certificates",
+      "Criminal record check",
+      "Medical certificate"
+    ],
+    "application_process": "Apply at Turkish consulate",
+    "processing_time": "4-8 weeks",
+    "cost": 100.0,
+    "currency": "USD",
+    "validity_period": "1 year",
+    "multiple_entry": false,
+    "extension_possible": false,
+    "renewal_required": true,
+    "renewal_frequency": null,
+    "restrictions": [],
+    "exemptions": [],
+    "loopholes": [],
+    "status": "unverified",
+    "verified_date": null,
+    "metadata": {},
+    "created_at": "2026-01-23T11:03:25.659418"
+  },
+  "uk_innovator_visa": {
+    "visa_id": "uk_innovator_visa",
+    "country": "UK",
+    "visa_type": "Innovator",
+    "nationality": "Non-EEA",
+    "duration": "3 years",
+    "entry_requirements": [
+      "Innovative business idea",
+      "Endorsement",
+      "English language"
+    ],
+    "required_documents": [
+      "Business plan",
+      "Endorsement letter",
+      "English language certificate",
+      "Financial proof (£50,000 investment)"
+    ],
+    "application_process": "Apply online, biometric appointment",
+    "processing_time": "3 weeks",
+    "cost": 1021.0,
+    "currency": "GBP",
+    "validity_period": "3 years",
+    "multiple_entry": true,
+    "extension_possible": true,
+    "renewal_required": false,
+    "renewal_frequency": null,
+    "restrictions": [],
+    "exemptions": [],
+    "loopholes": [],
+    "status": "unverified",
+    "verified_date": null,
+    "metadata": {},
+    "created_at": "2026-01-23T11:06:25.218647"
+  }
+}

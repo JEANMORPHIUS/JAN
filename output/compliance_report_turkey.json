@@ -1,0 +1,542 @@
+{
+  "timestamp": "2026-01-23T11:06:48.076108",
+  "jurisdiction": "Turkey",
+  "summary": {
+    "total_requirements": 9,
+    "verified": 0,
+    "unverified": 9,
+    "with_loopholes": 0,
+    "high_red_tape": 0,
+    "high_complexity": 0
+  },
+  "checklist": [
+    {
+      "requirement_id": "tr_business_registration",
+      "name": "Business Registration (Limited Company)",
+      "type": "business_registration",
+      "status": "unverified",
+      "required_documents": [
+        "Articles of association",
+        "Passport copies",
+        "Proof of address",
+        "Capital deposit proof"
+      ],
+      "processing_time": "2-3 weeks",
+      "cost": 1000.0,
+      "currency": "TRY",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "tr_tax_registration",
+      "name": "Tax Registration (Vergi Dairesi)",
+      "type": "tax_registration",
+      "status": "unverified",
+      "required_documents": [
+        "Business registration",
+        "Passport",
+        "Residence permit",
+        "Bank account details"
+      ],
+      "processing_time": "1-2 weeks",
+      "cost": 500.0,
+      "currency": "TRY",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "tr_residence_permit",
+      "name": "Residence Permit (Ikamet)",
+      "type": "residence_permit",
+      "status": "unverified",
+      "required_documents": [
+        "Valid passport",
+        "Proof of income (minimum threshold)",
+        "Health insurance",
+        "Criminal record check",
+        "Medical certificate",
+        "Rental agreement or property deed"
+      ],
+      "processing_time": "6-8 weeks",
+      "cost": 200.0,
+      "currency": "TRY",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "tr_property_registration",
+      "name": "Property Registration (Tapu)",
+      "type": "property_registration",
+      "status": "unverified",
+      "required_documents": [
+        "Title deed (Tapu)",
+        "Passport",
+        "Tax number",
+        "Survey report",
+        "No debt certificate"
+      ],
+      "processing_time": "2-4 weeks",
+      "cost": 2000.0,
+      "currency": "TRY",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "tr_health_certification",
+      "name": "Health Certificate (Saglik Raporu)",
+      "type": "health_certification",
+      "status": "unverified",
+      "required_documents": [
+        "Medical examination",
+        "Blood test results",
+        "Chest X-ray",
+        "Vaccination records"
+      ],
+      "processing_time": "1 week",
+      "cost": 200.0,
+      "currency": "TRY",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "tr_criminal_record_check",
+      "name": "Criminal Record Check (Sabika Kaydi)",
+      "type": "criminal_record_check",
+      "status": "unverified",
+      "required_documents": [
+        "Passport",
+        "Application form",
+        "Fingerprints",
+        "Apostille from home country"
+      ],
+      "processing_time": "3-4 weeks",
+      "cost": 100.0,
+      "currency": "TRY",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "tr_educational_certification",
+      "name": "Educational Certification Recognition (Denklik)",
+      "type": "educational_certification",
+      "status": "unverified",
+      "required_documents": [
+        "Original degree certificates",
+        "Transcripts",
+        "Translation (certified)",
+        "Apostille",
+        "Equivalency application"
+      ],
+      "processing_time": "8-12 weeks",
+      "cost": 500.0,
+      "currency": "TRY",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "tr_tourist_visa_uk",
+      "name": "Tourist Visa - UK",
+      "type": "visa",
+      "status": "unverified",
+      "required_documents": [
+        "Passport valid 6+ months"
+      ],
+      "processing_time": "24-48 hours",
+      "cost": 20.0,
+      "duration": "90 days",
+      "verified": false,
+      "loopholes_available": false
+    },
+    {
+      "requirement_id": "tr_work_visa",
+      "name": "Work Visa - UK",
+      "type": "visa",
+      "status": "unverified",
+      "required_documents": [
+        "Work permit application",
+        "Employment contract",
+        "Educational certificates",
+        "Criminal record check",
+        "Medical certificate"
+      ],
+      "processing_time": "4-8 weeks",
+      "cost": 100.0,
+      "duration": "1 year",
+      "verified": false,
+      "loopholes_available": false
+    }
+  ],
+  "by_type": {
+    "business_registration": [
+      {
+        "requirement_id": "tr_business_registration",
+        "name": "Business Registration (Limited Company)",
+        "type": "business_registration",
+        "status": "unverified",
+        "required_documents": [
+          "Articles of association",
+          "Passport copies",
+          "Proof of address",
+          "Capital deposit proof"
+        ],
+        "processing_time": "2-3 weeks",
+        "cost": 1000.0,
+        "currency": "TRY",
+        "verified": false,
+        "loopholes_available": false,
+        "red_tape_score": 0.0,
+        "complexity_score": 0.0
+      }
+    ],
+    "tax_registration": [
+      {
+        "requirement_id": "tr_tax_registration",
+        "name": "Tax Registration (Vergi Dairesi)",
+        "type": "tax_registration",
+        "status": "unverified",
+        "required_documents": [
+          "Business registration",
+          "Passport",
+          "Residence permit",
+          "Bank account details"
+        ],
+        "processing_time": "1-2 weeks",
+        "cost": 500.0,
+        "currency": "TRY",
+        "verified": false,
+        "loopholes_available": false,
+        "red_tape_score": 0.0,
+        "complexity_score": 0.0
+      }
+    ],
+    "residence_permit": [
+      {
+        "requirement_id": "tr_residence_permit",
+        "name": "Residence Permit (Ikamet)",
+        "type": "residence_permit",
+        "status": "unverified",
+        "required_documents": [
+          "Valid passport",
+          "Proof of income (minimum threshold)",
+          "Health insurance",
+          "Criminal record check",
+          "Medical certificate",
+          "Rental agreement or property deed"
+        ],
+        "processing_time": "6-8 weeks",
+        "cost": 200.0,
+        "currency": "TRY",
+        "verified": false,
+        "loopholes_available": false,
+        "red_tape_score": 0.0,
+        "complexity_score": 0.0
+      }
+    ],
+    "property_registration": [
+      {
+        "requirement_id": "tr_property_registration",
+        "name": "Property Registration (Tapu)",
+        "type": "property_registration",
+        "status": "unverified",
+        "required_documents": [
+          "Title deed (Tapu)",
+          "Passport",
+          "Tax number",
+          "Survey report",
+          "No debt certificate"
+        ],
+        "processing_time": "2-4 weeks",
+        "cost": 2000.0,
+        "currency": "TRY",
+        "verified": false,
+        "loopholes_available": false,
+        "red_tape_score": 0.0,
+        "complexity_score": 0.0
+      }
+    ],
+    "health_certification": [
+      {
+        "requirement_id": "tr_health_certification",
+        "name": "Health Certificate (Saglik Raporu)",
+        "type": "health_certification",
+        "status": "unverified",
+        "required_documents": [
+          "Medical examination",
+          "Blood test results",
+          "Chest X-ray",
+          "Vaccination records"
+        ],
+        "processing_time": "1 week",
+        "cost": 200.0,
+        "currency": "TRY",
+        "verified": false,
+        "loopholes_available": false,
+        "red_tape_score": 0.0,
+        "complexity_score": 0.0
+      }
+    ],
+    "criminal_record_check": [
+      {
+        "requirement_id": "tr_criminal_record_check",
+        "name": "Criminal Record Check (Sabika Kaydi)",
+        "type": "criminal_record_check",
+        "status": "unverified",
+        "required_documents": [
+          "Passport",
+          "Application form",
+          "Fingerprints",
+          "Apostille from home country"
+        ],
+        "processing_time": "3-4 weeks",
+        "cost": 100.0,
+        "currency": "TRY",
+        "verified": false,
+        "loopholes_available": false,
+        "red_tape_score": 0.0,
+        "complexity_score": 0.0
+      }
+    ],
+    "educational_certification": [
+      {
+        "requirement_id": "tr_educational_certification",
+        "name": "Educational Certification Recognition (Denklik)",
+        "type": "educational_certification",
+        "status": "unverified",
+        "required_documents": [
+          "Original degree certificates",
+          "Transcripts",
+          "Translation (certified)",
+          "Apostille",
+          "Equivalency application"
+        ],
+        "processing_time": "8-12 weeks",
+        "cost": 500.0,
+        "currency": "TRY",
+        "verified": false,
+        "loopholes_available": false,
+        "red_tape_score": 0.0,
+        "complexity_score": 0.0
+      }
+    ],
+    "visa": [
+      {
+        "requirement_id": "tr_tourist_visa_uk",
+        "name": "Tourist Visa - UK",
+        "type": "visa",
+        "status": "unverified",
+        "required_documents": [
+          "Passport valid 6+ months"
+        ],
+        "processing_time": "24-48 hours",
+        "cost": 20.0,
+        "duration": "90 days",
+        "verified": false,
+        "loopholes_available": false
+      },
+      {
+        "requirement_id": "tr_work_visa",
+        "name": "Work Visa - UK",
+        "type": "visa",
+        "status": "unverified",
+        "required_documents": [
+          "Work permit application",
+          "Employment contract",
+          "Educational certificates",
+          "Criminal record check",
+          "Medical certificate"
+        ],
+        "processing_time": "4-8 weeks",
+        "cost": 100.0,
+        "duration": "1 year",
+        "verified": false,
+        "loopholes_available": false
+      }
+    ]
+  },
+  "unverified_items": [
+    {
+      "requirement_id": "tr_business_registration",
+      "name": "Business Registration (Limited Company)",
+      "type": "business_registration",
+      "status": "unverified",
+      "required_documents": [
+        "Articles of association",
+        "Passport copies",
+        "Proof of address",
+        "Capital deposit proof"
+      ],
+      "processing_time": "2-3 weeks",
+      "cost": 1000.0,
+      "currency": "TRY",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "tr_tax_registration",
+      "name": "Tax Registration (Vergi Dairesi)",
+      "type": "tax_registration",
+      "status": "unverified",
+      "required_documents": [
+        "Business registration",
+        "Passport",
+        "Residence permit",
+        "Bank account details"
+      ],
+      "processing_time": "1-2 weeks",
+      "cost": 500.0,
+      "currency": "TRY",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "tr_residence_permit",
+      "name": "Residence Permit (Ikamet)",
+      "type": "residence_permit",
+      "status": "unverified",
+      "required_documents": [
+        "Valid passport",
+        "Proof of income (minimum threshold)",
+        "Health insurance",
+        "Criminal record check",
+        "Medical certificate",
+        "Rental agreement or property deed"
+      ],
+      "processing_time": "6-8 weeks",
+      "cost": 200.0,
+      "currency": "TRY",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "tr_property_registration",
+      "name": "Property Registration (Tapu)",
+      "type": "property_registration",
+      "status": "unverified",
+      "required_documents": [
+        "Title deed (Tapu)",
+        "Passport",
+        "Tax number",
+        "Survey report",
+        "No debt certificate"
+      ],
+      "processing_time": "2-4 weeks",
+      "cost": 2000.0,
+      "currency": "TRY",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "tr_health_certification",
+      "name": "Health Certificate (Saglik Raporu)",
+      "type": "health_certification",
+      "status": "unverified",
+      "required_documents": [
+        "Medical examination",
+        "Blood test results",
+        "Chest X-ray",
+        "Vaccination records"
+      ],
+      "processing_time": "1 week",
+      "cost": 200.0,
+      "currency": "TRY",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "tr_criminal_record_check",
+      "name": "Criminal Record Check (Sabika Kaydi)",
+      "type": "criminal_record_check",
+      "status": "unverified",
+      "required_documents": [
+        "Passport",
+        "Application form",
+        "Fingerprints",
+        "Apostille from home country"
+      ],
+      "processing_time": "3-4 weeks",
+      "cost": 100.0,
+      "currency": "TRY",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "tr_educational_certification",
+      "name": "Educational Certification Recognition (Denklik)",
+      "type": "educational_certification",
+      "status": "unverified",
+      "required_documents": [
+        "Original degree certificates",
+        "Transcripts",
+        "Translation (certified)",
+        "Apostille",
+        "Equivalency application"
+      ],
+      "processing_time": "8-12 weeks",
+      "cost": 500.0,
+      "currency": "TRY",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "tr_tourist_visa_uk",
+      "name": "Tourist Visa - UK",
+      "type": "visa",
+      "status": "unverified",
+      "required_documents": [
+        "Passport valid 6+ months"
+      ],
+      "processing_time": "24-48 hours",
+      "cost": 20.0,
+      "duration": "90 days",
+      "verified": false,
+      "loopholes_available": false
+    },
+    {
+      "requirement_id": "tr_work_visa",
+      "name": "Work Visa - UK",
+      "type": "visa",
+      "status": "unverified",
+      "required_documents": [
+        "Work permit application",
+        "Employment contract",
+        "Educational certificates",
+        "Criminal record check",
+        "Medical certificate"
+      ],
+      "processing_time": "4-8 weeks",
+      "cost": 100.0,
+      "duration": "1 year",
+      "verified": false,
+      "loopholes_available": false
+    }
+  ],
+  "high_priority_items": []
+}

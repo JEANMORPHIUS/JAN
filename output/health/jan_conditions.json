@@ -1,0 +1,41 @@
+[
+  {
+    "condition_name": "Type 1 Diabetes",
+    "category": "metabolic",
+    "diagnosis_date": null,
+    "primary_metrics": [
+      "blood_glucose",
+      "tresiba",
+      "humalog"
+    ],
+    "medication_schedule": {
+      "Tresiba": {
+        "type": "long_acting",
+        "units": 13.0,
+        "time": "morning"
+      },
+      "Humalog": {
+        "type": "rapid_acting",
+        "units": 8.0,
+        "time": "morning"
+      }
+    },
+    "target_ranges": {
+      "blood_glucose": {
+        "min": 4.0,
+        "max": 7.0,
+        "unit": "mmol/L"
+      }
+    },
+    "original_narrative": "",
+    "cleansed_narrative": "",
+    "dark_energy_detected": false,
+    "violation_type": null,
+    "regeneration_applied": false,
+    "law_41_compliant": true,
+    "life_chapter_id": null,
+    "field_resonance": null,
+    "status": "active",
+    "notes": "Type 1 Diabetes management"
+  }
+]

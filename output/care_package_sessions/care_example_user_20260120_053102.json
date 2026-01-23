@@ -1,0 +1,48 @@
+{
+  "session_id": "care_example_user_20260120_053102",
+  "user_id": "example_user",
+  "started_at": "2026-01-20T05:31:02.094537",
+  "completed_at": "2026-01-20T05:31:02.124256",
+  "status": "completed",
+  "narratives_analyzed": [
+    "I'm battling diabetes. It's a hopeless fight. I'll never be normal again.",
+    "This hotel is haunted by ghosts. People died here. It's cursed.",
+    "I'm stuck in this toxic relationship. Everyone always abandons me."
+  ],
+  "total_dark_energy_found": 3,
+  "total_regenerations": 3,
+  "categories_cleansed": {
+    "health_fear_mongering": 1,
+    "heritage_exploitation": 1,
+    "relationship_toxicity": 1
+  },
+  "detections": [
+    {
+      "dark_energy_detected": true,
+      "categories": [
+        "health_fear_mongering"
+      ],
+      "severity": 1.0,
+      "law_41_compliant": false,
+      "regeneration_required": true
+    },
+    {
+      "dark_energy_detected": true,
+      "categories": [
+        "heritage_exploitation"
+      ],
+      "severity": 0.75,
+      "law_41_compliant": false,
+      "regeneration_required": true
+    },
+    {
+      "dark_energy_detected": true,
+      "categories": [
+        "relationship_toxicity"
+      ],
+      "severity": 0.75,
+      "law_41_compliant": false,
+      "regeneration_required": true
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "user_id": "diabetes_example",
+  "export_timestamp": "2026-01-20T05:14:13.056115",
+  "conditions": [
+    {
+      "condition_name": "Type 1 Diabetes",
+      "category": "metabolic",
+      "diagnosis_date": "2020-01-01",
+      "primary_metrics": [
+        "blood_glucose",
+        "insulin_units",
+        "carbohydrates"
+      ],
+      "medication_schedule": {
+        "Degludec": {
+          "type": "long_acting",
+          "units": 11,
+          "time": "morning"
+        },
+        "Humalog": {
+          "type": "rapid_acting",
+          "units": 6,
+          "time": "morning"
+        }
+      },
+      "target_ranges": {
+        "blood_glucose": {
+          "min": 4.0,
+          "max": 7.0,
+          "unit": "mmol/L"
+        }
+      },
+      "original_narrative": "I have diabetes and need to manage it carefully.",
+      "cleansed_narrative": "I have diabetes and need to manage it carefully.",
+      "dark_energy_detected": false,
+      "violation_type": null,
+      "regeneration_applied": false,
+      "law_41_compliant": true,
+      "life_chapter_id": null,
+      "field_resonance": null,
+      "status": "active",
+      "notes": "Managing with insulin and monitoring blood glucose"
+    }
+  ],
+  "metrics": [
+    {
+      "timestamp": "2026-01-20T04:30:00",
+      "metric_type": "lab_result",
+      "metric_name": "blood_glucose",
+      "value": 20.8,
+      "unit": "mmol/L",
+      "condition_name": "Type 1 Diabetes",
+      "notes": null,
+      "life_event_id": null,
+      "field_resonance": null,
+      "source": "manual",
+      "confidence": 1.0
+    },
+    {
+      "timestamp": "2026-01-20T04:30:00",
+      "metric_type": "medication",
+      "metric_name": "Degludec",
+      "value": 11,
+      "unit": "units",
+      "condition_name": "Type 1 Diabetes",
+      "notes": null,
+      "life_event_id": null,
+      "field_resonance": null,
+      "source": "manual",
+      "confidence": 1.0
+    },
+    {
+      "timestamp": "2026-01-20T04:30:00",
+      "metric_type": "medication",
+      "metric_name": "Humalog",
+      "value": 6,
+      "unit": "units",
+      "condition_name": "Type 1 Diabetes",
+      "notes": null,
+      "life_event_id": null,
+      "field_resonance": null,
+      "source": "manual",
+      "confidence": 1.0
+    }
+  ],
+  "logs": [
+    {
+      "timestamp": "2026-01-20T04:30:00",
+      "entry_type": "routine",
+      "metrics": [
+        {
+          "timestamp": "2026-01-20T04:30:00",
+          "metric_type": "lab_result",
+          "metric_name": "blood_glucose",
+          "value": 20.8,
+          "unit": "mmol/L",
+          "condition_name": "Type 1 Diabetes",
+          "notes": null,
+          "life_event_id": null,
+          "field_resonance": null,
+          "source": "manual",
+          "confidence": 1.0
+        },
+        {
+          "timestamp": "2026-01-20T04:30:00",
+          "metric_type": "medication",
+          "metric_name": "Degludec",
+          "value": 11,
+          "unit": "units",
+          "condition_name": "Type 1 Diabetes",
+          "notes": null,
+          "life_event_id": null,
+          "field_resonance": null,
+          "source": "manual",
+          "confidence": 1.0
+        },
+        {
+          "timestamp": "2026-01-20T04:30:00",
+          "metric_type": "medication",
+          "metric_name": "Humalog",
+          "value": 6,
+          "unit": "units",
+          "condition_name": "Type 1 Diabetes",
+          "notes": null,
+          "life_event_id": null,
+          "field_resonance": null,
+          "source": "manual",
+          "confidence": 1.0
+        }
+      ],
+      "condition_name": "Type 1 Diabetes",
+      "notes": "Morning loop: 500ml mixed with 500ml Ribena, Shilajit salt, insulin",
+      "life_event_id": null,
+      "field_resonance": null,
+      "pattern_detected": false,
+      "pattern_description": null
+    }
+  ],
+  "summary": {
+    "conditions": [
+      {
+        "condition_name": "Type 1 Diabetes",
+        "category": "metabolic",
+        "diagnosis_date": "2020-01-01",
+        "primary_metrics": [
+          "blood_glucose",
+          "insulin_units",
+          "carbohydrates"
+        ],
+        "medication_schedule": {
+          "Degludec": {
+            "type": "long_acting",
+            "units": 11,
+            "time": "morning"
+          },
+          "Humalog": {
+            "type": "rapid_acting",
+            "units": 6,
+            "time": "morning"
+          }
+        },
+        "target_ranges": {
+          "blood_glucose": {
+            "min": 4.0,
+            "max": 7.0,
+            "unit": "mmol/L"
+          }
+        },
+        "original_narrative": "I have diabetes and need to manage it carefully.",
+        "cleansed_narrative": "I have diabetes and need to manage it carefully.",
+        "dark_energy_detected": false,
+        "violation_type": null,
+        "regeneration_applied": false,
+        "law_41_compliant": true,
+        "life_chapter_id": null,
+        "field_resonance": null,
+        "status": "active",
+        "notes": "Managing with insulin and monitoring blood glucose"
+      }
+    ],
+    "total_conditions": 1,
+    "total_metrics": 3,
+    "total_logs": 1,
+    "latest_entry": {
+      "timestamp": "2026-01-20T04:30:00",
+      "entry_type": "routine",
+      "metrics_count": 3
+    }
+  }
+}

@@ -1,0 +1,2399 @@
+{
+  "analysis_timestamp": "2026-01-20T13:23:19.335074",
+  "total_events": 168,
+  "temporal_patterns": {
+    "total_events": 168,
+    "events_by_year": {
+      "79": 1,
+      "476": 1,
+      "1347": 1,
+      "1453": 2,
+      "1755": 2,
+      "1760": 1,
+      "1815": 1,
+      "1883": 2,
+      "1902": 1,
+      "1906": 1,
+      "1923": 1,
+      "1960": 1,
+      "1976": 1,
+      "1980": 2,
+      "1985": 1,
+      "1991": 2,
+      "2001": 1,
+      "2002": 1,
+      "2003": 1,
+      "2004": 5,
+      "2005": 2,
+      "2006": 1,
+      "2007": 1,
+      "2008": 2,
+      "2010": 5,
+      "2011": 5,
+      "2012": 1,
+      "2013": 1,
+      "2014": 1,
+      "2015": 1,
+      "2016": 2,
+      "2017": 1,
+      "2018": 2,
+      "2019": 3,
+      "2020": 2,
+      "2021": 3,
+      "2022": 3,
+      "2023": 4,
+      "2024": 7,
+      "2025": 21,
+      "2026": 71
+    },
+    "events_by_month": {
+      "1": 80,
+      "2": 2,
+      "3": 7,
+      "4": 11,
+      "5": 10,
+      "6": 6,
+      "7": 6,
+      "8": 13,
+      "9": 7,
+      "10": 3,
+      "11": 8,
+      "12": 15
+    },
+    "events_by_hour": {
+      "12": 2,
+      "13": 166
+    },
+    "most_active_year": {
+      "year": 2026,
+      "count": 71
+    },
+    "most_active_month": {
+      "month": 1,
+      "count": 80
+    },
+    "recent_activity_30_days": 168,
+    "year_range": {
+      "earliest": 79,
+      "latest": 2026
+    }
+  },
+  "spatial_patterns": {
+    "total_events": 168,
+    "events_by_region": {
+      "Southeast Asia": 13,
+      "East Asia": 9,
+      "Caribbean": 4,
+      "South Asia": 5,
+      "North America": 5,
+      "Europe": 8,
+      "Europe/Asia": 3,
+      "Middle East": 1,
+      "South America": 6,
+      "Pacific": 2,
+      "8 km NW of Pinnacles, CA": 1,
+      "86 km NNW of Karluk, Alaska": 1,
+      "21 km N of Indio, CA": 1,
+      "8 km NE of Coso Junction, CA": 1,
+      "12 km SE of Tehachapi, CA": 1,
+      "18 km N of Indio, CA": 1,
+      "60 km NW of Toyah, Texas": 1,
+      "3 km NNW of Pinnacles, CA": 1,
+      "11 km WNW of The Geysers, CA": 1,
+      "1 km SW of P\u0101hala, Hawaii": 1,
+      "25 km WSW of Susitna North, Alaska": 1,
+      "10 km WNW of The Geysers, CA": 1,
+      "5 km WNW of Cobb, CA": 1,
+      "17 km NNE of Indio, CA": 1,
+      "20 km NNE of Indio, CA": 1,
+      "Unknown location": 53,
+      "Ambrym ": 1,
+      "Mayon ": 1,
+      "Masaya ": 1,
+      "Sabancaya ": 1,
+      "Nyamulagira ": 1,
+      "Ambae ": 1,
+      "Purac\u00e9 ": 1,
+      "Manam ": 1,
+      "Barren Island ": 1,
+      "Hayli Gubbi ": 1,
+      "Planch\u00f3n-Peteroa ": 1,
+      "Kanlaon ": 1,
+      "Ioto ": 1,
+      "Dempo ": 1,
+      "Bagana ": 1,
+      "Whakaari/White Island ": 1,
+      "Krasheninnikov ": 1,
+      "Nevado del Ruiz ": 1,
+      "Reykjanes ": 1,
+      "Telica ": 1,
+      "Kirishimayama ": 1,
+      "Unknown": 1,
+      "Poas ": 1,
+      "Lewotolok ": 1,
+      "Yasur ": 1,
+      "Kilauea ": 1,
+      "Home Reef ": 1,
+      "Sheveluch ": 1,
+      "Suwanosejima ": 1,
+      "Bezymianny ": 1,
+      "Etna ": 1,
+      "Lewotobi ": 1,
+      "Marapi ": 1,
+      "Dukono ": 1,
+      "Ibu ": 1,
+      "Stromboli ": 1,
+      "Aira ": 1,
+      "Great Sitkin ": 1,
+      "Merapi ": 1,
+      "Santa Maria ": 1,
+      "Semeru ": 1,
+      "Reventador ": 1,
+      "Sangay ": 1,
+      "Fuego ": 1
+    },
+    "events_by_country": {
+      "Indonesia": 19,
+      "Japan": 10,
+      "Haiti": 2,
+      "China": 3,
+      "Pakistan": 3,
+      "United States": 5,
+      "Philippines": 4,
+      "Iceland": 3,
+      "Turkey": 2,
+      "Portugal": 2,
+      "India": 2,
+      "Iran": 1,
+      "Peru": 2,
+      "Chile": 4,
+      "Nepal": 1,
+      "Ecuador": 3,
+      "Italy": 5,
+      "Mexico": 1,
+      "Martinique": 1,
+      "Colombia": 3,
+      "Saint Vincent and the Grenadines": 1,
+      "Tonga": 2,
+      "Multiple": 1,
+      "United Kingdom": 1,
+      "Unknown": 69,
+      "Vanuatu": 3,
+      "Nicaragua": 2,
+      "DR Congo": 1,
+      "Papua New Guinea": 2,
+      "Ethiopia": 1,
+      "New Zealand": 1,
+      "Russia": 3,
+      "Costa Rica": 1,
+      "Hawaii": 1,
+      "Andreanof Islands (U.S.)": 1,
+      "Guatemala": 2
+    },
+    "top_regions": [
+      {
+        "region": "Unknown location",
+        "count": 53
+      },
+      {
+        "region": "Southeast Asia",
+        "count": 13
+      },
+      {
+        "region": "East Asia",
+        "count": 9
+      },
+      {
+        "region": "Europe",
+        "count": 8
+      },
+      {
+        "region": "South America",
+        "count": 6
+      },
+      {
+        "region": "South Asia",
+        "count": 5
+      },
+      {
+        "region": "North America",
+        "count": 5
+      },
+      {
+        "region": "Caribbean",
+        "count": 4
+      },
+      {
+        "region": "Europe/Asia",
+        "count": 3
+      },
+      {
+        "region": "Pacific",
+        "count": 2
+      }
+    ],
+    "top_countries": [
+      {
+        "country": "Unknown",
+        "count": 69
+      },
+      {
+        "country": "Indonesia",
+        "count": 19
+      },
+      {
+        "country": "Japan",
+        "count": 10
+      },
+      {
+        "country": "United States",
+        "count": 5
+      },
+      {
+        "country": "Italy",
+        "count": 5
+      },
+      {
+        "country": "Philippines",
+        "count": 4
+      },
+      {
+        "country": "Chile",
+        "count": 4
+      },
+      {
+        "country": "China",
+        "count": 3
+      },
+      {
+        "country": "Pakistan",
+        "count": 3
+      },
+      {
+        "country": "Iceland",
+        "count": 3
+      }
+    ],
+    "geographic_spread": {
+      "lat_range": {
+        "min": -38.24,
+        "max": 63.817
+      },
+      "lon_range": {
+        "min": -179.9121,
+        "max": 178.6006
+      },
+      "total_locations": 168
+    }
+  },
+  "magnitude_patterns": {
+    "total_events_with_magnitude": 117,
+    "magnitude_statistics": {
+      "min": 0.25,
+      "max": 9.5,
+      "average": 5.155641025641026
+    },
+    "magnitude_distribution": {
+      "M9.0+": 9,
+      "M8.0-8.9": 6,
+      "M7.0-7.9": 17,
+      "M6.0-6.9": 7,
+      "M5.0-5.9": 12,
+      "M4.0-4.9": 49,
+      "M<4.0": 17
+    },
+    "largest_events": [
+      {
+        "event_name": "1960 Valdivia Earthquake",
+        "magnitude": 9.5,
+        "date": "1960-05-22",
+        "location": {
+          "lat": -38.24,
+          "lon": -73.05
+        }
+      },
+      {
+        "event_name": "2004 Indian Ocean Earthquake and Tsunami",
+        "magnitude": 9.1,
+        "date": "2004-12-26",
+        "location": {
+          "lat": 3.316,
+          "lon": 95.854
+        }
+      },
+      {
+        "event_name": "2004 Indian Ocean Earthquake and Tsunami",
+        "magnitude": 9.1,
+        "date": "2004-12-26",
+        "location": {
+          "lat": 3.316,
+          "lon": 95.854
+        }
+      },
+      {
+        "event_name": "2004 Indian Ocean Earthquake and Tsunami",
+        "magnitude": 9.1,
+        "date": "2004-12-26",
+        "location": {
+          "lat": 3.316,
+          "lon": 95.854
+        }
+      },
+      {
+        "event_name": "2004 Indian Ocean Tsunami",
+        "magnitude": 9.1,
+        "date": "2004-12-26",
+        "location": {
+          "lat": 3.316,
+          "lon": 95.854
+        }
+      },
+      {
+        "event_name": "2011 Tohoku Earthquake and Tsunami",
+        "magnitude": 9.0,
+        "date": "2011-03-11",
+        "location": {
+          "lat": 38.297,
+          "lon": 142.373
+        }
+      },
+      {
+        "event_name": "2011 Tohoku Earthquake and Tsunami",
+        "magnitude": 9.0,
+        "date": "2011-03-11",
+        "location": {
+          "lat": 38.297,
+          "lon": 142.373
+        }
+      },
+      {
+        "event_name": "2011 Tohoku Earthquake and Tsunami",
+        "magnitude": 9.0,
+        "date": "2011-03-11",
+        "location": {
+          "lat": 38.297,
+          "lon": 142.373
+        }
+      },
+      {
+        "event_name": "2011 Tohoku Tsunami",
+        "magnitude": 9.0,
+        "date": "2011-03-11",
+        "location": {
+          "lat": 38.297,
+          "lon": 142.373
+        }
+      },
+      {
+        "event_name": "2010 Chile Earthquake",
+        "magnitude": 8.8,
+        "date": "2010-02-27",
+        "location": {
+          "lat": -35.846,
+          "lon": -72.719
+        }
+      }
+    ]
+  },
+  "plate_patterns": {
+    "total_plates_with_events": 12,
+    "events_by_plate": {
+      "indo_australian": 57,
+      "eurasian": 57,
+      "pacific": 74,
+      "caribbean": 4,
+      "north_american": 20,
+      "philippine": 2,
+      "african": 15,
+      "arabian": 1,
+      "nazca": 17,
+      "south_american": 17,
+      "cocos": 1,
+      "unknown": 18
+    },
+    "top_active_plates": [
+      {
+        "plate": "pacific",
+        "count": 74
+      },
+      {
+        "plate": "indo_australian",
+        "count": 57
+      },
+      {
+        "plate": "eurasian",
+        "count": 57
+      },
+      {
+        "plate": "north_american",
+        "count": 20
+      },
+      {
+        "plate": "unknown",
+        "count": 18
+      },
+      {
+        "plate": "nazca",
+        "count": 17
+      },
+      {
+        "plate": "south_american",
+        "count": 17
+      },
+      {
+        "plate": "african",
+        "count": 15
+      },
+      {
+        "plate": "caribbean",
+        "count": 4
+      },
+      {
+        "plate": "philippine",
+        "count": 2
+      },
+      {
+        "plate": "arabian",
+        "count": 1
+      },
+      {
+        "plate": "cocos",
+        "count": 1
+      }
+    ],
+    "plate_trends": {
+      "indo_australian": {
+        "trend": "increasing",
+        "recent_activity": 41,
+        "older_activity": 16
+      },
+      "eurasian": {
+        "trend": "increasing",
+        "recent_activity": 18,
+        "older_activity": 39
+      },
+      "pacific": {
+        "trend": "increasing",
+        "recent_activity": 63,
+        "older_activity": 11
+      },
+      "caribbean": {
+        "trend": "increasing",
+        "recent_activity": 1,
+        "older_activity": 3
+      },
+      "north_american": {
+        "trend": "increasing",
+        "recent_activity": 10,
+        "older_activity": 10
+      },
+      "philippine": {
+        "trend": "decreasing",
+        "recent_activity": 0,
+        "older_activity": 2
+      },
+      "african": {
+        "trend": "increasing",
+        "recent_activity": 8,
+        "older_activity": 7
+      },
+      "nazca": {
+        "trend": "increasing",
+        "recent_activity": 9,
+        "older_activity": 8
+      },
+      "south_american": {
+        "trend": "increasing",
+        "recent_activity": 9,
+        "older_activity": 8
+      },
+      "unknown": {
+        "trend": "increasing",
+        "recent_activity": 17,
+        "older_activity": 1
+      }
+    },
+    "plate_event_details": {
+      "indo_australian": [
+        {
+          "event_id": "natural_disaster_2004-12-26_2004_indian_ocean_earthquake_and_tsunami",
+          "event_name": "2004 Indian Ocean Earthquake and Tsunami",
+          "magnitude": 9.1,
+          "date": "2004-12-26"
+        },
+        {
+          "event_id": "natural_disaster_2004-12-26_2004_indian_ocean_earthquake_and_tsunami",
+          "event_name": "2004 Indian Ocean Earthquake and Tsunami",
+          "magnitude": 9.1,
+          "date": "2004-12-26"
+        },
+        {
+          "event_id": "natural_disaster_2005-10-08_2005_kashmir_earthquake",
+          "event_name": "2005 Kashmir Earthquake",
+          "magnitude": 7.6,
+          "date": "2005-10-08"
+        },
+        {
+          "event_id": "natural_disaster_2001-01-26_2001_gujarat_earthquake",
+          "event_name": "2001 Gujarat Earthquake",
+          "magnitude": 7.7,
+          "date": "2001-01-26"
+        },
+        {
+          "event_id": "natural_disaster_2004-12-26_2004_indian_ocean_earthquake_and_tsunami",
+          "event_name": "2004 Indian Ocean Earthquake and Tsunami",
+          "magnitude": 9.1,
+          "date": "2004-12-26"
+        },
+        {
+          "event_id": "natural_disaster_2005-10-08_2005_kashmir_earthquake",
+          "event_name": "2005 Kashmir Earthquake",
+          "magnitude": 7.6,
+          "date": "2005-10-08"
+        },
+        {
+          "event_id": "natural_disaster_2006-05-26_2006_yogyakarta_earthquake",
+          "event_name": "2006 Yogyakarta Earthquake",
+          "magnitude": 6.4,
+          "date": "2006-05-26"
+        },
+        {
+          "event_id": "natural_disaster_2012-04-11_2012_indian_ocean_earthquakes",
+          "event_name": "2012 Indian Ocean Earthquakes",
+          "magnitude": 8.6,
+          "date": "2012-04-11"
+        },
+        {
+          "event_id": "natural_disaster_2013-09-24_2013_pakistan_earthquake",
+          "event_name": "2013 Pakistan Earthquake",
+          "magnitude": 7.7,
+          "date": "2013-09-24"
+        },
+        {
+          "event_id": "natural_disaster_2015-04-25_2015_nepal_earthquake",
+          "event_name": "2015 Nepal Earthquake",
+          "magnitude": 7.8,
+          "date": "2015-04-25"
+        },
+        {
+          "event_id": "natural_disaster_2018-09-28_2018_indonesia_earthquake_and_tsunami",
+          "event_name": "2018 Indonesia Earthquake and Tsunami",
+          "magnitude": 7.5,
+          "date": "2018-09-28"
+        },
+        {
+          "event_id": "natural_disaster_1815-04-10_1815_mount_tambora_eruption",
+          "event_name": "1815 Mount Tambora Eruption",
+          "magnitude": 7.0,
+          "date": "1815-04-10"
+        },
+        {
+          "event_id": "natural_disaster_1883-08-26_1883_krakatoa_eruption",
+          "event_name": "1883 Krakatoa Eruption",
+          "magnitude": 6.0,
+          "date": "1883-08-26"
+        },
+        {
+          "event_id": "natural_disaster_1883-08-27_1883_krakatoa_tsunami",
+          "event_name": "1883 Krakatoa Tsunami",
+          "magnitude": 6.0,
+          "date": "1883-08-27"
+        },
+        {
+          "event_id": "natural_disaster_2004-12-26_2004_indian_ocean_tsunami",
+          "event_name": "2004 Indian Ocean Tsunami",
+          "magnitude": 9.1,
+          "date": "2004-12-26"
+        },
+        {
+          "event_id": "natural_disaster_2004-12-26_2004_indian_ocean_tsunami",
+          "event_name": "2004 Indian Ocean Tsunami",
+          "magnitude": null,
+          "date": "2004-12-26"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 5.0,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.8,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.9,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.3,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 5.9,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.2,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.7,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 5.3,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.1,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.4,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.4,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.7,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.9,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.0,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.0,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.7,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 5.3,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.9,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.9,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.2,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.9,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.4,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-08_eonet_volcano:_ambrym_,_vanuatu",
+          "event_name": "EONET Volcano: Ambrym , Vanuatu",
+          "magnitude": null,
+          "date": "2026-01-08"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-07_eonet_volcano:_mayon_,_philippines",
+          "event_name": "EONET Volcano: Mayon , Philippines",
+          "magnitude": null,
+          "date": "2026-01-07"
+        },
+        {
+          "event_id": "natural_disaster_2025-12-03_eonet_volcano:_ambae_,_vanuatu",
+          "event_name": "EONET Volcano: Ambae , Vanuatu",
+          "magnitude": null,
+          "date": "2025-12-03"
+        },
+        {
+          "event_id": "natural_disaster_2025-11-30_eonet_volcano:_manam_,_papua_new_guinea",
+          "event_name": "EONET Volcano: Manam , Papua New Guinea",
+          "magnitude": null,
+          "date": "2025-11-30"
+        },
+        {
+          "event_id": "natural_disaster_2025-11-29_eonet_volcano:_barren_island_,_india",
+          "event_name": "EONET Volcano: Barren Island , India",
+          "magnitude": null,
+          "date": "2025-11-29"
+        },
+        {
+          "event_id": "natural_disaster_2025-09-10_eonet_volcano:_kanlaon_,_philippines",
+          "event_name": "EONET Volcano: Kanlaon , Philippines",
+          "magnitude": null,
+          "date": "2025-09-10"
+        },
+        {
+          "event_id": "natural_disaster_2025-09-01_eonet_volcano:_ioto_,_japan",
+          "event_name": "EONET Volcano: Ioto , Japan",
+          "magnitude": null,
+          "date": "2025-09-01"
+        },
+        {
+          "event_id": "natural_disaster_2025-08-29_eonet_volcano:_dempo_,_indonesia",
+          "event_name": "EONET Volcano: Dempo , Indonesia",
+          "magnitude": null,
+          "date": "2025-08-29"
+        },
+        {
+          "event_id": "natural_disaster_2025-08-28_eonet_volcano:_bagana_,_papua_new_guinea",
+          "event_name": "EONET Volcano: Bagana , Papua New Guinea",
+          "magnitude": null,
+          "date": "2025-08-28"
+        },
+        {
+          "event_id": "natural_disaster_2025-08-28_eonet_volcano:_whakaari/white_island_,_new_zealand",
+          "event_name": "EONET Volcano: Whakaari/White Island , New Zealand",
+          "magnitude": null,
+          "date": "2025-08-28"
+        },
+        {
+          "event_id": "natural_disaster_2025-02-19_eonet_volcano:_lewotolok_,_indonesia",
+          "event_name": "EONET Volcano: Lewotolok , Indonesia",
+          "magnitude": null,
+          "date": "2025-02-19"
+        },
+        {
+          "event_id": "natural_disaster_2024-12-31_eonet_volcano:_yasur_,_vanuatu",
+          "event_name": "EONET Volcano: Yasur , Vanuatu",
+          "magnitude": null,
+          "date": "2024-12-31"
+        },
+        {
+          "event_id": "natural_disaster_2024-08-02_eonet_volcano:_suwanosejima_,_japan",
+          "event_name": "EONET Volcano: Suwanosejima , Japan",
+          "magnitude": null,
+          "date": "2024-08-02"
+        },
+        {
+          "event_id": "natural_disaster_2023-12-28_eonet_volcano:_lewotobi_,_indonesia",
+          "event_name": "EONET Volcano: Lewotobi , Indonesia",
+          "magnitude": null,
+          "date": "2023-12-28"
+        },
+        {
+          "event_id": "natural_disaster_2023-12-03_eonet_volcano:_marapi_,_indonesia",
+          "event_name": "EONET Volcano: Marapi , Indonesia",
+          "magnitude": null,
+          "date": "2023-12-03"
+        },
+        {
+          "event_id": "natural_disaster_2023-11-07_eonet_volcano:_dukono_,_indonesia",
+          "event_name": "EONET Volcano: Dukono , Indonesia",
+          "magnitude": null,
+          "date": "2023-11-07"
+        },
+        {
+          "event_id": "natural_disaster_2023-06-06_eonet_volcano:_ibu_,_indonesia",
+          "event_name": "EONET Volcano: Ibu , Indonesia",
+          "magnitude": null,
+          "date": "2023-06-06"
+        },
+        {
+          "event_id": "natural_disaster_2021-01-07_eonet_volcano:_merapi_,_indonesia",
+          "event_name": "EONET Volcano: Merapi , Indonesia",
+          "magnitude": null,
+          "date": "2021-01-07"
+        },
+        {
+          "event_id": "natural_disaster_2020-01-18_eonet_volcano:_semeru_,_indonesia",
+          "event_name": "EONET Volcano: Semeru , Indonesia",
+          "magnitude": null,
+          "date": "2020-01-18"
+        }
+      ],
+      "eurasian": [
+        {
+          "event_id": "natural_disaster_2004-12-26_2004_indian_ocean_earthquake_and_tsunami",
+          "event_name": "2004 Indian Ocean Earthquake and Tsunami",
+          "magnitude": 9.1,
+          "date": "2004-12-26"
+        },
+        {
+          "event_id": "natural_disaster_2011-03-11_2011_tohoku_earthquake_and_tsunami",
+          "event_name": "2011 Tohoku Earthquake and Tsunami",
+          "magnitude": 9.0,
+          "date": "2011-03-11"
+        },
+        {
+          "event_id": "natural_disaster_2004-12-26_2004_indian_ocean_earthquake_and_tsunami",
+          "event_name": "2004 Indian Ocean Earthquake and Tsunami",
+          "magnitude": 9.1,
+          "date": "2004-12-26"
+        },
+        {
+          "event_id": "natural_disaster_2011-03-11_2011_tohoku_earthquake_and_tsunami",
+          "event_name": "2011 Tohoku Earthquake and Tsunami",
+          "magnitude": 9.0,
+          "date": "2011-03-11"
+        },
+        {
+          "event_id": "natural_disaster_2008-05-12_2008_sichuan_earthquake",
+          "event_name": "2008 Sichuan Earthquake",
+          "magnitude": 7.9,
+          "date": "2008-05-12"
+        },
+        {
+          "event_id": "natural_disaster_2005-10-08_2005_kashmir_earthquake",
+          "event_name": "2005 Kashmir Earthquake",
+          "magnitude": 7.6,
+          "date": "2005-10-08"
+        },
+        {
+          "event_id": "natural_disaster_1991-06-15_1991_mount_pinatubo_eruption",
+          "event_name": "1991 Mount Pinatubo Eruption",
+          "magnitude": 6.1,
+          "date": "1991-06-15"
+        },
+        {
+          "event_id": "natural_disaster_2010-04-14_2010_eyjafjallaj\u00f6kull_eruption",
+          "event_name": "2010 Eyjafjallaj\u00f6kull Eruption",
+          "magnitude": 4.0,
+          "date": "2010-04-14"
+        },
+        {
+          "event_id": "historical_event_1453-05-29_fall_of_constantinople",
+          "event_name": "Fall of Constantinople",
+          "magnitude": null,
+          "date": "1453-05-29"
+        },
+        {
+          "event_id": "natural_disaster_1755-11-01_great_lisbon_earthquake",
+          "event_name": "Great Lisbon Earthquake",
+          "magnitude": 8.5,
+          "date": "1755-11-01"
+        },
+        {
+          "event_id": "natural_disaster_2001-01-26_2001_gujarat_earthquake",
+          "event_name": "2001 Gujarat Earthquake",
+          "magnitude": 7.7,
+          "date": "2001-01-26"
+        },
+        {
+          "event_id": "natural_disaster_2003-12-26_2003_bam_earthquake",
+          "event_name": "2003 Bam Earthquake",
+          "magnitude": 6.6,
+          "date": "2003-12-26"
+        },
+        {
+          "event_id": "natural_disaster_2004-12-26_2004_indian_ocean_earthquake_and_tsunami",
+          "event_name": "2004 Indian Ocean Earthquake and Tsunami",
+          "magnitude": 9.1,
+          "date": "2004-12-26"
+        },
+        {
+          "event_id": "natural_disaster_2005-10-08_2005_kashmir_earthquake",
+          "event_name": "2005 Kashmir Earthquake",
+          "magnitude": 7.6,
+          "date": "2005-10-08"
+        },
+        {
+          "event_id": "natural_disaster_2006-05-26_2006_yogyakarta_earthquake",
+          "event_name": "2006 Yogyakarta Earthquake",
+          "magnitude": 6.4,
+          "date": "2006-05-26"
+        },
+        {
+          "event_id": "natural_disaster_2008-05-12_2008_sichuan_earthquake",
+          "event_name": "2008 Sichuan Earthquake",
+          "magnitude": 7.9,
+          "date": "2008-05-12"
+        },
+        {
+          "event_id": "natural_disaster_2011-03-11_2011_tohoku_earthquake_and_tsunami",
+          "event_name": "2011 Tohoku Earthquake and Tsunami",
+          "magnitude": 9.0,
+          "date": "2011-03-11"
+        },
+        {
+          "event_id": "natural_disaster_2012-04-11_2012_indian_ocean_earthquakes",
+          "event_name": "2012 Indian Ocean Earthquakes",
+          "magnitude": 8.6,
+          "date": "2012-04-11"
+        },
+        {
+          "event_id": "natural_disaster_2013-09-24_2013_pakistan_earthquake",
+          "event_name": "2013 Pakistan Earthquake",
+          "magnitude": 7.7,
+          "date": "2013-09-24"
+        },
+        {
+          "event_id": "natural_disaster_2015-04-25_2015_nepal_earthquake",
+          "event_name": "2015 Nepal Earthquake",
+          "magnitude": 7.8,
+          "date": "2015-04-25"
+        },
+        {
+          "event_id": "natural_disaster_2016-08-24_2016_central_italy_earthquakes",
+          "event_name": "2016 Central Italy Earthquakes",
+          "magnitude": 6.2,
+          "date": "2016-08-24"
+        },
+        {
+          "event_id": "natural_disaster_2018-09-28_2018_indonesia_earthquake_and_tsunami",
+          "event_name": "2018 Indonesia Earthquake and Tsunami",
+          "magnitude": 7.5,
+          "date": "2018-09-28"
+        },
+        {
+          "event_id": "natural_disaster_1923-09-01_1923_great_kanto_earthquake",
+          "event_name": "1923 Great Kanto Earthquake",
+          "magnitude": 7.9,
+          "date": "1923-09-01"
+        },
+        {
+          "event_id": "natural_disaster_1976-07-28_1976_tangshan_earthquake",
+          "event_name": "1976 Tangshan Earthquake",
+          "magnitude": 7.6,
+          "date": "1976-07-28"
+        },
+        {
+          "event_id": "natural_disaster_1815-04-10_1815_mount_tambora_eruption",
+          "event_name": "1815 Mount Tambora Eruption",
+          "magnitude": 7.0,
+          "date": "1815-04-10"
+        },
+        {
+          "event_id": "natural_disaster_1883-08-26_1883_krakatoa_eruption",
+          "event_name": "1883 Krakatoa Eruption",
+          "magnitude": 6.0,
+          "date": "1883-08-26"
+        },
+        {
+          "event_id": "natural_disaster_1991-06-15_1991_mount_pinatubo_eruption",
+          "event_name": "1991 Mount Pinatubo Eruption",
+          "magnitude": 6.1,
+          "date": "1991-06-15"
+        },
+        {
+          "event_id": "natural_disaster_2010-04-14_2010_eyjafjallaj\u00f6kull_eruption",
+          "event_name": "2010 Eyjafjallaj\u00f6kull Eruption",
+          "magnitude": 4.0,
+          "date": "2010-04-14"
+        },
+        {
+          "event_id": "natural_disaster_0079-08-24_ad_79_mount_vesuvius_eruption",
+          "event_name": "AD 79 Mount Vesuvius Eruption",
+          "magnitude": 5.0,
+          "date": "0079-08-24"
+        },
+        {
+          "event_id": "historical_event_1453-05-29_fall_of_constantinople",
+          "event_name": "Fall of Constantinople",
+          "magnitude": null,
+          "date": "1453-05-29"
+        },
+        {
+          "event_id": "natural_disaster_1755-11-01_great_lisbon_earthquake",
+          "event_name": "Great Lisbon Earthquake",
+          "magnitude": 8.5,
+          "date": "1755-11-01"
+        },
+        {
+          "event_id": "natural_disaster_1883-08-27_1883_krakatoa_tsunami",
+          "event_name": "1883 Krakatoa Tsunami",
+          "magnitude": 6.0,
+          "date": "1883-08-27"
+        },
+        {
+          "event_id": "natural_disaster_2004-12-26_2004_indian_ocean_tsunami",
+          "event_name": "2004 Indian Ocean Tsunami",
+          "magnitude": 9.1,
+          "date": "2004-12-26"
+        },
+        {
+          "event_id": "natural_disaster_2011-03-11_2011_tohoku_tsunami",
+          "event_name": "2011 Tohoku Tsunami",
+          "magnitude": 9.0,
+          "date": "2011-03-11"
+        },
+        {
+          "event_id": "natural_disaster_2004-12-26_2004_indian_ocean_tsunami",
+          "event_name": "2004 Indian Ocean Tsunami",
+          "magnitude": null,
+          "date": "2004-12-26"
+        },
+        {
+          "event_id": "natural_disaster_2011-03-11_2011_tohoku_tsunami",
+          "event_name": "2011 Tohoku Tsunami",
+          "magnitude": null,
+          "date": "2011-03-11"
+        },
+        {
+          "event_id": "civilizational_0476-09-04_fall_of_roman_empire",
+          "event_name": "Fall of Roman Empire",
+          "magnitude": null,
+          "date": "0476-09-04"
+        },
+        {
+          "event_id": "civilizational_1347-01-01_black_death",
+          "event_name": "Black Death",
+          "magnitude": null,
+          "date": "1347-01-01"
+        },
+        {
+          "event_id": "civilizational_1760-01-01_industrial_revolution",
+          "event_name": "Industrial Revolution",
+          "magnitude": null,
+          "date": "1760-01-01"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.3,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.0,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.1,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.4,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.3,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.5,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.3,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.6,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.3,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.5,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.5,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2025-08-25_eonet_volcano:_krasheninnikov_,_russia",
+          "event_name": "EONET Volcano: Krasheninnikov , Russia",
+          "magnitude": null,
+          "date": "2025-08-25"
+        },
+        {
+          "event_id": "natural_disaster_2025-06-22_eonet_volcano:_kirishimayama_,_japan",
+          "event_name": "EONET Volcano: Kirishimayama , Japan",
+          "magnitude": null,
+          "date": "2025-06-22"
+        },
+        {
+          "event_id": "natural_disaster_2024-08-17_eonet_volcano:_sheveluch_,_russia",
+          "event_name": "EONET Volcano: Sheveluch , Russia",
+          "magnitude": null,
+          "date": "2024-08-17"
+        },
+        {
+          "event_id": "natural_disaster_2024-07-24_eonet_volcano:_bezymianny_,_russia",
+          "event_name": "EONET Volcano: Bezymianny , Russia",
+          "magnitude": null,
+          "date": "2024-07-24"
+        },
+        {
+          "event_id": "natural_disaster_2024-06-06_eonet_volcano:_etna_,_italy",
+          "event_name": "EONET Volcano: Etna , Italy",
+          "magnitude": null,
+          "date": "2024-06-06"
+        },
+        {
+          "event_id": "natural_disaster_2022-08-07_eonet_volcano:_stromboli_,_italy",
+          "event_name": "EONET Volcano: Stromboli , Italy",
+          "magnitude": null,
+          "date": "2022-08-07"
+        },
+        {
+          "event_id": "natural_disaster_2022-06-27_eonet_volcano:_aira_,_japan",
+          "event_name": "EONET Volcano: Aira , Japan",
+          "magnitude": null,
+          "date": "2022-06-27"
+        }
+      ],
+      "pacific": [
+        {
+          "event_id": "natural_disaster_2011-03-11_2011_tohoku_earthquake_and_tsunami",
+          "event_name": "2011 Tohoku Earthquake and Tsunami",
+          "magnitude": 9.0,
+          "date": "2011-03-11"
+        },
+        {
+          "event_id": "natural_disaster_2011-03-11_2011_tohoku_earthquake_and_tsunami",
+          "event_name": "2011 Tohoku Earthquake and Tsunami",
+          "magnitude": 9.0,
+          "date": "2011-03-11"
+        },
+        {
+          "event_id": "natural_disaster_1980-05-18_1980_mount_st._helens_eruption",
+          "event_name": "1980 Mount St. Helens Eruption",
+          "magnitude": 5.1,
+          "date": "1980-05-18"
+        },
+        {
+          "event_id": "natural_disaster_2011-03-11_2011_tohoku_earthquake_and_tsunami",
+          "event_name": "2011 Tohoku Earthquake and Tsunami",
+          "magnitude": 9.0,
+          "date": "2011-03-11"
+        },
+        {
+          "event_id": "natural_disaster_2019-07-04_2019_ridgecrest_earthquakes",
+          "event_name": "2019 Ridgecrest Earthquakes",
+          "magnitude": 7.1,
+          "date": "2019-07-04"
+        },
+        {
+          "event_id": "natural_disaster_1906-04-18_1906_san_francisco_earthquake",
+          "event_name": "1906 San Francisco Earthquake",
+          "magnitude": 7.9,
+          "date": "1906-04-18"
+        },
+        {
+          "event_id": "natural_disaster_1923-09-01_1923_great_kanto_earthquake",
+          "event_name": "1923 Great Kanto Earthquake",
+          "magnitude": 7.9,
+          "date": "1923-09-01"
+        },
+        {
+          "event_id": "natural_disaster_1980-05-18_1980_mount_st._helens_eruption",
+          "event_name": "1980 Mount St. Helens Eruption",
+          "magnitude": 5.1,
+          "date": "1980-05-18"
+        },
+        {
+          "event_id": "natural_disaster_2018-05-03_2018_kilauea_eruption",
+          "event_name": "2018 Kilauea Eruption",
+          "magnitude": 3.0,
+          "date": "2018-05-03"
+        },
+        {
+          "event_id": "natural_disaster_2022-01-15_2022_hunga_tonga-hunga_ha'apai_eruption",
+          "event_name": "2022 Hunga Tonga-Hunga Ha'apai Eruption",
+          "magnitude": 5.0,
+          "date": "2022-01-15"
+        },
+        {
+          "event_id": "natural_disaster_2011-03-11_2011_tohoku_tsunami",
+          "event_name": "2011 Tohoku Tsunami",
+          "magnitude": 9.0,
+          "date": "2011-03-11"
+        },
+        {
+          "event_id": "natural_disaster_2011-03-11_2011_tohoku_tsunami",
+          "event_name": "2011 Tohoku Tsunami",
+          "magnitude": null,
+          "date": "2011-03-11"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.2,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.8,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.0,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.7,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.1,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.6,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.9,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.3,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 5.9,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.2,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 5.1,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.7,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.3,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 5.3,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.1,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.4,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.5,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.4,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.5,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.9,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.3,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.7,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.9,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.0,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.6,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.0,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.7,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 5.3,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.9,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.3,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.9,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.2,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.4,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.9,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.5,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.5,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-08_eonet_volcano:_ambrym_,_vanuatu",
+          "event_name": "EONET Volcano: Ambrym , Vanuatu",
+          "magnitude": null,
+          "date": "2026-01-08"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-07_eonet_volcano:_mayon_,_philippines",
+          "event_name": "EONET Volcano: Mayon , Philippines",
+          "magnitude": null,
+          "date": "2026-01-07"
+        },
+        {
+          "event_id": "natural_disaster_2025-12-03_eonet_volcano:_ambae_,_vanuatu",
+          "event_name": "EONET Volcano: Ambae , Vanuatu",
+          "magnitude": null,
+          "date": "2025-12-03"
+        },
+        {
+          "event_id": "natural_disaster_2025-11-30_eonet_volcano:_manam_,_papua_new_guinea",
+          "event_name": "EONET Volcano: Manam , Papua New Guinea",
+          "magnitude": null,
+          "date": "2025-11-30"
+        },
+        {
+          "event_id": "natural_disaster_2025-09-10_eonet_volcano:_kanlaon_,_philippines",
+          "event_name": "EONET Volcano: Kanlaon , Philippines",
+          "magnitude": null,
+          "date": "2025-09-10"
+        },
+        {
+          "event_id": "natural_disaster_2025-09-01_eonet_volcano:_ioto_,_japan",
+          "event_name": "EONET Volcano: Ioto , Japan",
+          "magnitude": null,
+          "date": "2025-09-01"
+        },
+        {
+          "event_id": "natural_disaster_2025-08-29_eonet_volcano:_dempo_,_indonesia",
+          "event_name": "EONET Volcano: Dempo , Indonesia",
+          "magnitude": null,
+          "date": "2025-08-29"
+        },
+        {
+          "event_id": "natural_disaster_2025-08-28_eonet_volcano:_bagana_,_papua_new_guinea",
+          "event_name": "EONET Volcano: Bagana , Papua New Guinea",
+          "magnitude": null,
+          "date": "2025-08-28"
+        },
+        {
+          "event_id": "natural_disaster_2025-08-28_eonet_volcano:_whakaari/white_island_,_new_zealand",
+          "event_name": "EONET Volcano: Whakaari/White Island , New Zealand",
+          "magnitude": null,
+          "date": "2025-08-28"
+        },
+        {
+          "event_id": "natural_disaster_2025-08-25_eonet_volcano:_krasheninnikov_,_russia",
+          "event_name": "EONET Volcano: Krasheninnikov , Russia",
+          "magnitude": null,
+          "date": "2025-08-25"
+        },
+        {
+          "event_id": "natural_disaster_2025-06-22_eonet_volcano:_kirishimayama_,_japan",
+          "event_name": "EONET Volcano: Kirishimayama , Japan",
+          "magnitude": null,
+          "date": "2025-06-22"
+        },
+        {
+          "event_id": "natural_disaster_2025-02-19_eonet_volcano:_lewotolok_,_indonesia",
+          "event_name": "EONET Volcano: Lewotolok , Indonesia",
+          "magnitude": null,
+          "date": "2025-02-19"
+        },
+        {
+          "event_id": "natural_disaster_2024-12-31_eonet_volcano:_yasur_,_vanuatu",
+          "event_name": "EONET Volcano: Yasur , Vanuatu",
+          "magnitude": null,
+          "date": "2024-12-31"
+        },
+        {
+          "event_id": "natural_disaster_2024-12-23_eonet_volcano:_kilauea_,_hawaii",
+          "event_name": "EONET Volcano: Kilauea , Hawaii",
+          "magnitude": null,
+          "date": "2024-12-23"
+        },
+        {
+          "event_id": "natural_disaster_2024-12-12_eonet_volcano:_home_reef_,_tonga",
+          "event_name": "EONET Volcano: Home Reef , Tonga",
+          "magnitude": null,
+          "date": "2024-12-12"
+        },
+        {
+          "event_id": "natural_disaster_2024-08-17_eonet_volcano:_sheveluch_,_russia",
+          "event_name": "EONET Volcano: Sheveluch , Russia",
+          "magnitude": null,
+          "date": "2024-08-17"
+        },
+        {
+          "event_id": "natural_disaster_2024-08-02_eonet_volcano:_suwanosejima_,_japan",
+          "event_name": "EONET Volcano: Suwanosejima , Japan",
+          "magnitude": null,
+          "date": "2024-08-02"
+        },
+        {
+          "event_id": "natural_disaster_2024-07-24_eonet_volcano:_bezymianny_,_russia",
+          "event_name": "EONET Volcano: Bezymianny , Russia",
+          "magnitude": null,
+          "date": "2024-07-24"
+        },
+        {
+          "event_id": "natural_disaster_2023-12-28_eonet_volcano:_lewotobi_,_indonesia",
+          "event_name": "EONET Volcano: Lewotobi , Indonesia",
+          "magnitude": null,
+          "date": "2023-12-28"
+        },
+        {
+          "event_id": "natural_disaster_2023-12-03_eonet_volcano:_marapi_,_indonesia",
+          "event_name": "EONET Volcano: Marapi , Indonesia",
+          "magnitude": null,
+          "date": "2023-12-03"
+        },
+        {
+          "event_id": "natural_disaster_2023-11-07_eonet_volcano:_dukono_,_indonesia",
+          "event_name": "EONET Volcano: Dukono , Indonesia",
+          "magnitude": null,
+          "date": "2023-11-07"
+        },
+        {
+          "event_id": "natural_disaster_2023-06-06_eonet_volcano:_ibu_,_indonesia",
+          "event_name": "EONET Volcano: Ibu , Indonesia",
+          "magnitude": null,
+          "date": "2023-06-06"
+        },
+        {
+          "event_id": "natural_disaster_2022-06-27_eonet_volcano:_aira_,_japan",
+          "event_name": "EONET Volcano: Aira , Japan",
+          "magnitude": null,
+          "date": "2022-06-27"
+        },
+        {
+          "event_id": "natural_disaster_2021-10-19_eonet_volcano:_great_sitkin_,_andreanof_islands_(u.s.)",
+          "event_name": "EONET Volcano: Great Sitkin , Andreanof Islands (U.S.)",
+          "magnitude": null,
+          "date": "2021-10-19"
+        },
+        {
+          "event_id": "natural_disaster_2021-01-07_eonet_volcano:_merapi_,_indonesia",
+          "event_name": "EONET Volcano: Merapi , Indonesia",
+          "magnitude": null,
+          "date": "2021-01-07"
+        },
+        {
+          "event_id": "natural_disaster_2020-01-18_eonet_volcano:_semeru_,_indonesia",
+          "event_name": "EONET Volcano: Semeru , Indonesia",
+          "magnitude": null,
+          "date": "2020-01-18"
+        }
+      ],
+      "caribbean": [
+        {
+          "event_id": "natural_disaster_2010-01-12_2010_haiti_earthquake",
+          "event_name": "2010 Haiti Earthquake",
+          "magnitude": 7.0,
+          "date": "2010-01-12"
+        },
+        {
+          "event_id": "natural_disaster_2010-01-12_2010_haiti_earthquake",
+          "event_name": "2010 Haiti Earthquake",
+          "magnitude": 7.0,
+          "date": "2010-01-12"
+        },
+        {
+          "event_id": "natural_disaster_1902-05-08_1902_mount_pel\u00e9e_eruption",
+          "event_name": "1902 Mount Pel\u00e9e Eruption",
+          "magnitude": 4.0,
+          "date": "1902-05-08"
+        },
+        {
+          "event_id": "natural_disaster_2021-04-09_2021_la_soufri\u00e8re_eruption",
+          "event_name": "2021 La Soufri\u00e8re Eruption",
+          "magnitude": 4.0,
+          "date": "2021-04-09"
+        }
+      ],
+      "north_american": [
+        {
+          "event_id": "natural_disaster_2010-01-12_2010_haiti_earthquake",
+          "event_name": "2010 Haiti Earthquake",
+          "magnitude": 7.0,
+          "date": "2010-01-12"
+        },
+        {
+          "event_id": "natural_disaster_1980-05-18_1980_mount_st._helens_eruption",
+          "event_name": "1980 Mount St. Helens Eruption",
+          "magnitude": 5.1,
+          "date": "1980-05-18"
+        },
+        {
+          "event_id": "natural_disaster_2010-04-14_2010_eyjafjallaj\u00f6kull_eruption",
+          "event_name": "2010 Eyjafjallaj\u00f6kull Eruption",
+          "magnitude": 4.0,
+          "date": "2010-04-14"
+        },
+        {
+          "event_id": "natural_disaster_2010-01-12_2010_haiti_earthquake",
+          "event_name": "2010 Haiti Earthquake",
+          "magnitude": 7.0,
+          "date": "2010-01-12"
+        },
+        {
+          "event_id": "natural_disaster_2017-09-19_2017_mexico_earthquake",
+          "event_name": "2017 Mexico Earthquake",
+          "magnitude": 7.1,
+          "date": "2017-09-19"
+        },
+        {
+          "event_id": "natural_disaster_2019-07-04_2019_ridgecrest_earthquakes",
+          "event_name": "2019 Ridgecrest Earthquakes",
+          "magnitude": 7.1,
+          "date": "2019-07-04"
+        },
+        {
+          "event_id": "natural_disaster_1906-04-18_1906_san_francisco_earthquake",
+          "event_name": "1906 San Francisco Earthquake",
+          "magnitude": 7.9,
+          "date": "1906-04-18"
+        },
+        {
+          "event_id": "natural_disaster_1902-05-08_1902_mount_pel\u00e9e_eruption",
+          "event_name": "1902 Mount Pel\u00e9e Eruption",
+          "magnitude": 4.0,
+          "date": "1902-05-08"
+        },
+        {
+          "event_id": "natural_disaster_1980-05-18_1980_mount_st._helens_eruption",
+          "event_name": "1980 Mount St. Helens Eruption",
+          "magnitude": 5.1,
+          "date": "1980-05-18"
+        },
+        {
+          "event_id": "natural_disaster_2010-04-14_2010_eyjafjallaj\u00f6kull_eruption",
+          "event_name": "2010 Eyjafjallaj\u00f6kull Eruption",
+          "magnitude": 4.0,
+          "date": "2010-04-14"
+        },
+        {
+          "event_id": "natural_disaster_2021-04-09_2021_la_soufri\u00e8re_eruption",
+          "event_name": "2021 La Soufri\u00e8re Eruption",
+          "magnitude": 4.0,
+          "date": "2021-04-09"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.1,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.2,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 5.0,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.0,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.1,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.4,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.1,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.0,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2025-04-10_eonet_volcano:_popocatepetl_,\u00a0mexico",
+          "event_name": "EONET Volcano: Popocatepetl ,\u00a0Mexico",
+          "magnitude": null,
+          "date": "2025-04-10"
+        }
+      ],
+      "philippine": [
+        {
+          "event_id": "natural_disaster_1991-06-15_1991_mount_pinatubo_eruption",
+          "event_name": "1991 Mount Pinatubo Eruption",
+          "magnitude": 6.1,
+          "date": "1991-06-15"
+        },
+        {
+          "event_id": "natural_disaster_1991-06-15_1991_mount_pinatubo_eruption",
+          "event_name": "1991 Mount Pinatubo Eruption",
+          "magnitude": 6.1,
+          "date": "1991-06-15"
+        }
+      ],
+      "african": [
+        {
+          "event_id": "historical_event_1453-05-29_fall_of_constantinople",
+          "event_name": "Fall of Constantinople",
+          "magnitude": null,
+          "date": "1453-05-29"
+        },
+        {
+          "event_id": "natural_disaster_1755-11-01_great_lisbon_earthquake",
+          "event_name": "Great Lisbon Earthquake",
+          "magnitude": 8.5,
+          "date": "1755-11-01"
+        },
+        {
+          "event_id": "natural_disaster_2016-08-24_2016_central_italy_earthquakes",
+          "event_name": "2016 Central Italy Earthquakes",
+          "magnitude": 6.2,
+          "date": "2016-08-24"
+        },
+        {
+          "event_id": "natural_disaster_0079-08-24_ad_79_mount_vesuvius_eruption",
+          "event_name": "AD 79 Mount Vesuvius Eruption",
+          "magnitude": 5.0,
+          "date": "0079-08-24"
+        },
+        {
+          "event_id": "historical_event_1453-05-29_fall_of_constantinople",
+          "event_name": "Fall of Constantinople",
+          "magnitude": null,
+          "date": "1453-05-29"
+        },
+        {
+          "event_id": "natural_disaster_1755-11-01_great_lisbon_earthquake",
+          "event_name": "Great Lisbon Earthquake",
+          "magnitude": 8.5,
+          "date": "1755-11-01"
+        },
+        {
+          "event_id": "civilizational_0476-09-04_fall_of_roman_empire",
+          "event_name": "Fall of Roman Empire",
+          "magnitude": null,
+          "date": "0476-09-04"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.4,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 5.3,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 5.2,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.3,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2025-12-07_eonet_volcano:_nyamulagira_,_dr_congo",
+          "event_name": "EONET Volcano: Nyamulagira , DR Congo",
+          "magnitude": null,
+          "date": "2025-12-07"
+        },
+        {
+          "event_id": "natural_disaster_2025-11-23_eonet_volcano:_hayli_gubbi_,_ethiopia",
+          "event_name": "EONET Volcano: Hayli Gubbi , Ethiopia",
+          "magnitude": null,
+          "date": "2025-11-23"
+        },
+        {
+          "event_id": "natural_disaster_2024-06-06_eonet_volcano:_etna_,_italy",
+          "event_name": "EONET Volcano: Etna , Italy",
+          "magnitude": null,
+          "date": "2024-06-06"
+        },
+        {
+          "event_id": "natural_disaster_2022-08-07_eonet_volcano:_stromboli_,_italy",
+          "event_name": "EONET Volcano: Stromboli , Italy",
+          "magnitude": null,
+          "date": "2022-08-07"
+        }
+      ],
+      "arabian": [
+        {
+          "event_id": "natural_disaster_2003-12-26_2003_bam_earthquake",
+          "event_name": "2003 Bam Earthquake",
+          "magnitude": 6.6,
+          "date": "2003-12-26"
+        }
+      ],
+      "nazca": [
+        {
+          "event_id": "natural_disaster_2007-08-15_2007_peru_earthquake",
+          "event_name": "2007 Peru Earthquake",
+          "magnitude": 8.0,
+          "date": "2007-08-15"
+        },
+        {
+          "event_id": "natural_disaster_2010-02-27_2010_chile_earthquake",
+          "event_name": "2010 Chile Earthquake",
+          "magnitude": 8.8,
+          "date": "2010-02-27"
+        },
+        {
+          "event_id": "natural_disaster_2014-04-01_2014_iquique_earthquake",
+          "event_name": "2014 Iquique Earthquake",
+          "magnitude": 8.2,
+          "date": "2014-04-01"
+        },
+        {
+          "event_id": "natural_disaster_2016-04-16_2016_ecuador_earthquake",
+          "event_name": "2016 Ecuador Earthquake",
+          "magnitude": 7.8,
+          "date": "2016-04-16"
+        },
+        {
+          "event_id": "natural_disaster_1960-05-22_1960_valdivia_earthquake",
+          "event_name": "1960 Valdivia Earthquake",
+          "magnitude": 9.5,
+          "date": "1960-05-22"
+        },
+        {
+          "event_id": "natural_disaster_1985-11-13_1985_nevado_del_ruiz_eruption",
+          "event_name": "1985 Nevado del Ruiz Eruption",
+          "magnitude": 3.0,
+          "date": "1985-11-13"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.0,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.3,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-02_eonet_volcano:_masaya_,_nicaragua",
+          "event_name": "EONET Volcano: Masaya , Nicaragua",
+          "magnitude": null,
+          "date": "2026-01-02"
+        },
+        {
+          "event_id": "natural_disaster_2025-12-29_eonet_volcano:_sabancaya_,_peru",
+          "event_name": "EONET Volcano: Sabancaya , Peru",
+          "magnitude": null,
+          "date": "2025-12-29"
+        },
+        {
+          "event_id": "natural_disaster_2025-12-02_eonet_volcano:_purac\u00e9_,_colombia",
+          "event_name": "EONET Volcano: Purac\u00e9 , Colombia",
+          "magnitude": null,
+          "date": "2025-12-02"
+        },
+        {
+          "event_id": "natural_disaster_2025-11-13_eonet_volcano:_planch\u00f3n-peteroa_,_chile",
+          "event_name": "EONET Volcano: Planch\u00f3n-Peteroa , Chile",
+          "magnitude": null,
+          "date": "2025-11-13"
+        },
+        {
+          "event_id": "natural_disaster_2025-08-11_eonet_volcano:_nevado_del_ruiz_,_colombia",
+          "event_name": "EONET Volcano: Nevado del Ruiz , Colombia",
+          "magnitude": null,
+          "date": "2025-08-11"
+        },
+        {
+          "event_id": "natural_disaster_2025-07-14_eonet_volcano:_telica_,_nicaragua",
+          "event_name": "EONET Volcano: Telica , Nicaragua",
+          "magnitude": null,
+          "date": "2025-07-14"
+        },
+        {
+          "event_id": "natural_disaster_2025-04-09_eonet_volcano:_poas_,_costa_rica",
+          "event_name": "EONET Volcano: Poas , Costa Rica",
+          "magnitude": null,
+          "date": "2025-04-09"
+        },
+        {
+          "event_id": "natural_disaster_2019-07-10_eonet_volcano:_reventador_,_ecuador",
+          "event_name": "EONET Volcano: Reventador , Ecuador",
+          "magnitude": null,
+          "date": "2019-07-10"
+        },
+        {
+          "event_id": "natural_disaster_2019-03-26_eonet_volcano:_sangay_,_ecuador",
+          "event_name": "EONET Volcano: Sangay , Ecuador",
+          "magnitude": null,
+          "date": "2019-03-26"
+        }
+      ],
+      "south_american": [
+        {
+          "event_id": "natural_disaster_2007-08-15_2007_peru_earthquake",
+          "event_name": "2007 Peru Earthquake",
+          "magnitude": 8.0,
+          "date": "2007-08-15"
+        },
+        {
+          "event_id": "natural_disaster_2010-02-27_2010_chile_earthquake",
+          "event_name": "2010 Chile Earthquake",
+          "magnitude": 8.8,
+          "date": "2010-02-27"
+        },
+        {
+          "event_id": "natural_disaster_2014-04-01_2014_iquique_earthquake",
+          "event_name": "2014 Iquique Earthquake",
+          "magnitude": 8.2,
+          "date": "2014-04-01"
+        },
+        {
+          "event_id": "natural_disaster_2016-04-16_2016_ecuador_earthquake",
+          "event_name": "2016 Ecuador Earthquake",
+          "magnitude": 7.8,
+          "date": "2016-04-16"
+        },
+        {
+          "event_id": "natural_disaster_1960-05-22_1960_valdivia_earthquake",
+          "event_name": "1960 Valdivia Earthquake",
+          "magnitude": 9.5,
+          "date": "1960-05-22"
+        },
+        {
+          "event_id": "natural_disaster_1985-11-13_1985_nevado_del_ruiz_eruption",
+          "event_name": "1985 Nevado del Ruiz Eruption",
+          "magnitude": 3.0,
+          "date": "1985-11-13"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.0,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-19_emsc_earthquake:_unknown_location",
+          "event_name": "EMSC Earthquake: Unknown location",
+          "magnitude": 4.3,
+          "date": "2026-01-19"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-02_eonet_volcano:_masaya_,_nicaragua",
+          "event_name": "EONET Volcano: Masaya , Nicaragua",
+          "magnitude": null,
+          "date": "2026-01-02"
+        },
+        {
+          "event_id": "natural_disaster_2025-12-29_eonet_volcano:_sabancaya_,_peru",
+          "event_name": "EONET Volcano: Sabancaya , Peru",
+          "magnitude": null,
+          "date": "2025-12-29"
+        },
+        {
+          "event_id": "natural_disaster_2025-12-02_eonet_volcano:_purac\u00e9_,_colombia",
+          "event_name": "EONET Volcano: Purac\u00e9 , Colombia",
+          "magnitude": null,
+          "date": "2025-12-02"
+        },
+        {
+          "event_id": "natural_disaster_2025-11-13_eonet_volcano:_planch\u00f3n-peteroa_,_chile",
+          "event_name": "EONET Volcano: Planch\u00f3n-Peteroa , Chile",
+          "magnitude": null,
+          "date": "2025-11-13"
+        },
+        {
+          "event_id": "natural_disaster_2025-08-11_eonet_volcano:_nevado_del_ruiz_,_colombia",
+          "event_name": "EONET Volcano: Nevado del Ruiz , Colombia",
+          "magnitude": null,
+          "date": "2025-08-11"
+        },
+        {
+          "event_id": "natural_disaster_2025-07-14_eonet_volcano:_telica_,_nicaragua",
+          "event_name": "EONET Volcano: Telica , Nicaragua",
+          "magnitude": null,
+          "date": "2025-07-14"
+        },
+        {
+          "event_id": "natural_disaster_2025-04-09_eonet_volcano:_poas_,_costa_rica",
+          "event_name": "EONET Volcano: Poas , Costa Rica",
+          "magnitude": null,
+          "date": "2025-04-09"
+        },
+        {
+          "event_id": "natural_disaster_2019-07-10_eonet_volcano:_reventador_,_ecuador",
+          "event_name": "EONET Volcano: Reventador , Ecuador",
+          "magnitude": null,
+          "date": "2019-07-10"
+        },
+        {
+          "event_id": "natural_disaster_2019-03-26_eonet_volcano:_sangay_,_ecuador",
+          "event_name": "EONET Volcano: Sangay , Ecuador",
+          "magnitude": null,
+          "date": "2019-03-26"
+        }
+      ],
+      "cocos": [
+        {
+          "event_id": "natural_disaster_2017-09-19_2017_mexico_earthquake",
+          "event_name": "2017 Mexico Earthquake",
+          "magnitude": 7.1,
+          "date": "2017-09-19"
+        }
+      ],
+      "unknown": [
+        {
+          "event_id": "natural_disaster_2026-01-20_usgs_8_km_nw_of_pinnacles,_ca",
+          "event_name": "USGS 8 km NW of Pinnacles, CA",
+          "magnitude": 1.17,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_usgs_86_km_nnw_of_karluk,_alaska",
+          "event_name": "USGS 86 km NNW of Karluk, Alaska",
+          "magnitude": 1.1,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_usgs_21_km_n_of_indio,_ca",
+          "event_name": "USGS 21 km N of Indio, CA",
+          "magnitude": 1.28,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_usgs_8_km_ne_of_coso_junction,_ca",
+          "event_name": "USGS 8 km NE of Coso Junction, CA",
+          "magnitude": 0.25,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_usgs_12_km_se_of_tehachapi,_ca",
+          "event_name": "USGS 12 km SE of Tehachapi, CA",
+          "magnitude": 0.7,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_usgs_18_km_n_of_indio,_ca",
+          "event_name": "USGS 18 km N of Indio, CA",
+          "magnitude": 1.34,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_usgs_60_km_nw_of_toyah,_texas",
+          "event_name": "USGS 60 km NW of Toyah, Texas",
+          "magnitude": 1.9,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_usgs_3_km_nnw_of_pinnacles,_ca",
+          "event_name": "USGS 3 km NNW of Pinnacles, CA",
+          "magnitude": 1.36,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_usgs_11_km_wnw_of_the_geysers,_ca",
+          "event_name": "USGS 11 km WNW of The Geysers, CA",
+          "magnitude": 0.77,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_usgs_1_km_sw_of_p\u0101hala,_hawaii",
+          "event_name": "USGS 1 km SW of P\u0101hala, Hawaii",
+          "magnitude": 1.7,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_usgs_25_km_wsw_of_susitna_north,_alaska",
+          "event_name": "USGS 25 km WSW of Susitna North, Alaska",
+          "magnitude": 1.3,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_usgs_10_km_wnw_of_the_geysers,_ca",
+          "event_name": "USGS 10 km WNW of The Geysers, CA",
+          "magnitude": 0.77,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_usgs_5_km_wnw_of_cobb,_ca",
+          "event_name": "USGS 5 km WNW of Cobb, CA",
+          "magnitude": 1.48,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_usgs_17_km_nne_of_indio,_ca",
+          "event_name": "USGS 17 km NNE of Indio, CA",
+          "magnitude": 1.21,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2026-01-20_usgs_20_km_nne_of_indio,_ca",
+          "event_name": "USGS 20 km NNE of Indio, CA",
+          "magnitude": 0.58,
+          "date": "2026-01-20"
+        },
+        {
+          "event_id": "natural_disaster_2025-07-16_eonet_volcano:_reykjanes_,_iceland",
+          "event_name": "EONET Volcano: Reykjanes , Iceland",
+          "magnitude": null,
+          "date": "2025-07-16"
+        },
+        {
+          "event_id": "natural_disaster_2020-03-18_eonet_volcano:_santa_maria_,_guatemala",
+          "event_name": "EONET Volcano: Santa Maria , Guatemala",
+          "magnitude": null,
+          "date": "2020-03-18"
+        },
+        {
+          "event_id": "natural_disaster_2002-01-04_eonet_volcano:_fuego_,_guatemala",
+          "event_name": "EONET Volcano: Fuego , Guatemala",
+          "magnitude": null,
+          "date": "2002-01-04"
+        }
+      ]
+    }
+  },
+  "heritage_connections": {
+    "total_events_with_heritage_connections": 0,
+    "total_heritage_site_connections": 0,
+    "most_connected_sites": [],
+    "connection_rate": 0.0
+  },
+  "field_resonance_patterns": {
+    "total_events_with_resonance": 117,
+    "resonance_statistics": {
+      "min": 0.025,
+      "max": 0.95,
+      "average": 0.5155641025641026
+    },
+    "resonance_distribution": {
+      "High (0.7-1.0)": 32,
+      "Medium (0.4-0.7)": 68,
+      "Low (0.0-0.4)": 17
+    },
+    "highest_impact_events": [
+      {
+        "event_name": "1960 Valdivia Earthquake",
+        "resonance_impact": 0.95,
+        "magnitude": 9.5,
+        "date": "1960-05-22"
+      },
+      {
+        "event_name": "2004 Indian Ocean Earthquake and Tsunami",
+        "resonance_impact": 0.9099999999999999,
+        "magnitude": 9.1,
+        "date": "2004-12-26"
+      },
+      {
+        "event_name": "2004 Indian Ocean Earthquake and Tsunami",
+        "resonance_impact": 0.9099999999999999,
+        "magnitude": 9.1,
+        "date": "2004-12-26"
+      },
+      {
+        "event_name": "2004 Indian Ocean Earthquake and Tsunami",
+        "resonance_impact": 0.9099999999999999,
+        "magnitude": 9.1,
+        "date": "2004-12-26"
+      },
+      {
+        "event_name": "2004 Indian Ocean Tsunami",
+        "resonance_impact": 0.9099999999999999,
+        "magnitude": 9.1,
+        "date": "2004-12-26"
+      },
+      {
+        "event_name": "2011 Tohoku Earthquake and Tsunami",
+        "resonance_impact": 0.9,
+        "magnitude": 9.0,
+        "date": "2011-03-11"
+      },
+      {
+        "event_name": "2011 Tohoku Earthquake and Tsunami",
+        "resonance_impact": 0.9,
+        "magnitude": 9.0,
+        "date": "2011-03-11"
+      },
+      {
+        "event_name": "2011 Tohoku Earthquake and Tsunami",
+        "resonance_impact": 0.9,
+        "magnitude": 9.0,
+        "date": "2011-03-11"
+      },
+      {
+        "event_name": "2011 Tohoku Tsunami",
+        "resonance_impact": 0.9,
+        "magnitude": 9.0,
+        "date": "2011-03-11"
+      },
+      {
+        "event_name": "2010 Chile Earthquake",
+        "resonance_impact": 0.8800000000000001,
+        "magnitude": 8.8,
+        "date": "2010-02-27"
+      }
+    ]
+  },
+  "source_patterns": {
+    "total_sources": 30,
+    "events_by_source": {
+      "USGS": 56,
+      "NOAA": 5,
+      "JMA": 5,
+      "UN": 4,
+      "TEPCO": 2,
+      "CENC": 2,
+      "NDMA": 3,
+      "USFS": 2,
+      "PHIVOLCS": 2,
+      "IMO": 2,
+      "Icelandic Met Office": 2,
+      "Historical records": 16,
+      "Byzantine archives": 2,
+      "Geological surveys": 2,
+      "GSDMA": 1,
+      "IIEES": 1,
+      "BMKG": 3,
+      "IGP": 1,
+      "CSN": 2,
+      "NSC": 1,
+      "IGEPN": 1,
+      "INGV": 1,
+      "SSN": 1,
+      "Caltech": 1,
+      "GVP": 7,
+      "HVO": 1,
+      "UWI": 1,
+      "Archaeological evidence": 1,
+      "EMSC": 53,
+      "NASA EONET": 44
+    },
+    "top_sources": [
+      {
+        "source": "USGS",
+        "count": 56
+      },
+      {
+        "source": "EMSC",
+        "count": 53
+      },
+      {
+        "source": "NASA EONET",
+        "count": 44
+      },
+      {
+        "source": "Historical records",
+        "count": 16
+      },
+      {
+        "source": "GVP",
+        "count": 7
+      },
+      {
+        "source": "NOAA",
+        "count": 5
+      },
+      {
+        "source": "JMA",
+        "count": 5
+      },
+      {
+        "source": "UN",
+        "count": 4
+      },
+      {
+        "source": "NDMA",
+        "count": 3
+      },
+      {
+        "source": "BMKG",
+        "count": 3
+      }
+    ]
+  }
+}

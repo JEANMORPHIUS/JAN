@@ -1,0 +1,633 @@
+{
+  "timestamp": "2026-01-23T11:06:48.058091",
+  "jurisdiction": "North Cyprus",
+  "summary": {
+    "total_requirements": 11,
+    "verified": 0,
+    "unverified": 11,
+    "with_loopholes": 0,
+    "high_red_tape": 0,
+    "high_complexity": 0
+  },
+  "checklist": [
+    {
+      "requirement_id": "nc_business_registration",
+      "name": "Business Registration",
+      "type": "business_registration",
+      "status": "unverified",
+      "required_documents": [
+        "Business plan",
+        "Passport copies",
+        "Proof of address",
+        "Bank statement"
+      ],
+      "processing_time": "2-4 weeks",
+      "cost": 500.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "nc_work_permit",
+      "name": "Work Permit",
+      "type": "work_permit",
+      "status": "unverified",
+      "required_documents": [
+        "Job offer letter",
+        "Educational certificates",
+        "Criminal record check",
+        "Medical certificate"
+      ],
+      "processing_time": "4-8 weeks",
+      "cost": 300.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "nc_tax_registration",
+      "name": "Tax Registration",
+      "type": "tax_registration",
+      "status": "unverified",
+      "required_documents": [
+        "Business registration certificate",
+        "Passport copies",
+        "Proof of address",
+        "Bank account details"
+      ],
+      "processing_time": "1-2 weeks",
+      "cost": 100.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "nc_residence_permit",
+      "name": "Residence Permit",
+      "type": "residence_permit",
+      "status": "unverified",
+      "required_documents": [
+        "Valid passport",
+        "Proof of income",
+        "Health insurance",
+        "Criminal record check",
+        "Medical certificate"
+      ],
+      "processing_time": "4-6 weeks",
+      "cost": 200.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "nc_property_registration",
+      "name": "Property Registration",
+      "type": "property_registration",
+      "status": "unverified",
+      "required_documents": [
+        "Title deed",
+        "Passport",
+        "Tax clearance certificate",
+        "Survey report"
+      ],
+      "processing_time": "2-4 weeks",
+      "cost": 500.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "nc_health_certification",
+      "name": "Health Certification",
+      "type": "health_certification",
+      "status": "unverified",
+      "required_documents": [
+        "Medical examination results",
+        "Vaccination records",
+        "Blood test results"
+      ],
+      "processing_time": "1 week",
+      "cost": 50.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "nc_criminal_record_check",
+      "name": "Criminal Record Check",
+      "type": "criminal_record_check",
+      "status": "unverified",
+      "required_documents": [
+        "Passport",
+        "Application form",
+        "Fingerprints"
+      ],
+      "processing_time": "2-3 weeks",
+      "cost": 30.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "nc_educational_certification",
+      "name": "Educational Certification Recognition",
+      "type": "educational_certification",
+      "status": "unverified",
+      "required_documents": [
+        "Original degree certificates",
+        "Transcripts",
+        "Translation (if needed)",
+        "Apostille (if needed)"
+      ],
+      "processing_time": "4-8 weeks",
+      "cost": 150.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "nc_tourist_visa_uk",
+      "name": "Tourist Visa - UK",
+      "type": "visa",
+      "status": "unverified",
+      "required_documents": [
+        "Passport valid 6+ months"
+      ],
+      "processing_time": "Immediate (on arrival) or 1-3 days (e-visa)",
+      "cost": 0.0,
+      "duration": "90 days",
+      "verified": false,
+      "loopholes_available": false
+    },
+    {
+      "requirement_id": "nc_birth_registry",
+      "name": "Birth Registration Registration",
+      "type": "civil_registry",
+      "status": "unverified",
+      "required_documents": [
+        "Birth certificate from hospital",
+        "Parents' identification",
+        "Marriage certificate (if applicable)"
+      ],
+      "processing_time": "1-2 weeks",
+      "cost": 50.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false
+    },
+    {
+      "requirement_id": "nc_marriage_registry",
+      "name": "Marriage Registration Registration",
+      "type": "civil_registry",
+      "status": "unverified",
+      "required_documents": [
+        "Valid passports",
+        "Birth certificates",
+        "Single status certificate",
+        "Medical certificate"
+      ],
+      "processing_time": "2-4 weeks",
+      "cost": 200.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false
+    }
+  ],
+  "by_type": {
+    "business_registration": [
+      {
+        "requirement_id": "nc_business_registration",
+        "name": "Business Registration",
+        "type": "business_registration",
+        "status": "unverified",
+        "required_documents": [
+          "Business plan",
+          "Passport copies",
+          "Proof of address",
+          "Bank statement"
+        ],
+        "processing_time": "2-4 weeks",
+        "cost": 500.0,
+        "currency": "EUR",
+        "verified": false,
+        "loopholes_available": false,
+        "red_tape_score": 0.0,
+        "complexity_score": 0.0
+      }
+    ],
+    "work_permit": [
+      {
+        "requirement_id": "nc_work_permit",
+        "name": "Work Permit",
+        "type": "work_permit",
+        "status": "unverified",
+        "required_documents": [
+          "Job offer letter",
+          "Educational certificates",
+          "Criminal record check",
+          "Medical certificate"
+        ],
+        "processing_time": "4-8 weeks",
+        "cost": 300.0,
+        "currency": "EUR",
+        "verified": false,
+        "loopholes_available": false,
+        "red_tape_score": 0.0,
+        "complexity_score": 0.0
+      }
+    ],
+    "tax_registration": [
+      {
+        "requirement_id": "nc_tax_registration",
+        "name": "Tax Registration",
+        "type": "tax_registration",
+        "status": "unverified",
+        "required_documents": [
+          "Business registration certificate",
+          "Passport copies",
+          "Proof of address",
+          "Bank account details"
+        ],
+        "processing_time": "1-2 weeks",
+        "cost": 100.0,
+        "currency": "EUR",
+        "verified": false,
+        "loopholes_available": false,
+        "red_tape_score": 0.0,
+        "complexity_score": 0.0
+      }
+    ],
+    "residence_permit": [
+      {
+        "requirement_id": "nc_residence_permit",
+        "name": "Residence Permit",
+        "type": "residence_permit",
+        "status": "unverified",
+        "required_documents": [
+          "Valid passport",
+          "Proof of income",
+          "Health insurance",
+          "Criminal record check",
+          "Medical certificate"
+        ],
+        "processing_time": "4-6 weeks",
+        "cost": 200.0,
+        "currency": "EUR",
+        "verified": false,
+        "loopholes_available": false,
+        "red_tape_score": 0.0,
+        "complexity_score": 0.0
+      }
+    ],
+    "property_registration": [
+      {
+        "requirement_id": "nc_property_registration",
+        "name": "Property Registration",
+        "type": "property_registration",
+        "status": "unverified",
+        "required_documents": [
+          "Title deed",
+          "Passport",
+          "Tax clearance certificate",
+          "Survey report"
+        ],
+        "processing_time": "2-4 weeks",
+        "cost": 500.0,
+        "currency": "EUR",
+        "verified": false,
+        "loopholes_available": false,
+        "red_tape_score": 0.0,
+        "complexity_score": 0.0
+      }
+    ],
+    "health_certification": [
+      {
+        "requirement_id": "nc_health_certification",
+        "name": "Health Certification",
+        "type": "health_certification",
+        "status": "unverified",
+        "required_documents": [
+          "Medical examination results",
+          "Vaccination records",
+          "Blood test results"
+        ],
+        "processing_time": "1 week",
+        "cost": 50.0,
+        "currency": "EUR",
+        "verified": false,
+        "loopholes_available": false,
+        "red_tape_score": 0.0,
+        "complexity_score": 0.0
+      }
+    ],
+    "criminal_record_check": [
+      {
+        "requirement_id": "nc_criminal_record_check",
+        "name": "Criminal Record Check",
+        "type": "criminal_record_check",
+        "status": "unverified",
+        "required_documents": [
+          "Passport",
+          "Application form",
+          "Fingerprints"
+        ],
+        "processing_time": "2-3 weeks",
+        "cost": 30.0,
+        "currency": "EUR",
+        "verified": false,
+        "loopholes_available": false,
+        "red_tape_score": 0.0,
+        "complexity_score": 0.0
+      }
+    ],
+    "educational_certification": [
+      {
+        "requirement_id": "nc_educational_certification",
+        "name": "Educational Certification Recognition",
+        "type": "educational_certification",
+        "status": "unverified",
+        "required_documents": [
+          "Original degree certificates",
+          "Transcripts",
+          "Translation (if needed)",
+          "Apostille (if needed)"
+        ],
+        "processing_time": "4-8 weeks",
+        "cost": 150.0,
+        "currency": "EUR",
+        "verified": false,
+        "loopholes_available": false,
+        "red_tape_score": 0.0,
+        "complexity_score": 0.0
+      }
+    ],
+    "visa": [
+      {
+        "requirement_id": "nc_tourist_visa_uk",
+        "name": "Tourist Visa - UK",
+        "type": "visa",
+        "status": "unverified",
+        "required_documents": [
+          "Passport valid 6+ months"
+        ],
+        "processing_time": "Immediate (on arrival) or 1-3 days (e-visa)",
+        "cost": 0.0,
+        "duration": "90 days",
+        "verified": false,
+        "loopholes_available": false
+      }
+    ],
+    "civil_registry": [
+      {
+        "requirement_id": "nc_birth_registry",
+        "name": "Birth Registration Registration",
+        "type": "civil_registry",
+        "status": "unverified",
+        "required_documents": [
+          "Birth certificate from hospital",
+          "Parents' identification",
+          "Marriage certificate (if applicable)"
+        ],
+        "processing_time": "1-2 weeks",
+        "cost": 50.0,
+        "currency": "EUR",
+        "verified": false,
+        "loopholes_available": false
+      },
+      {
+        "requirement_id": "nc_marriage_registry",
+        "name": "Marriage Registration Registration",
+        "type": "civil_registry",
+        "status": "unverified",
+        "required_documents": [
+          "Valid passports",
+          "Birth certificates",
+          "Single status certificate",
+          "Medical certificate"
+        ],
+        "processing_time": "2-4 weeks",
+        "cost": 200.0,
+        "currency": "EUR",
+        "verified": false,
+        "loopholes_available": false
+      }
+    ]
+  },
+  "unverified_items": [
+    {
+      "requirement_id": "nc_business_registration",
+      "name": "Business Registration",
+      "type": "business_registration",
+      "status": "unverified",
+      "required_documents": [
+        "Business plan",
+        "Passport copies",
+        "Proof of address",
+        "Bank statement"
+      ],
+      "processing_time": "2-4 weeks",
+      "cost": 500.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "nc_work_permit",
+      "name": "Work Permit",
+      "type": "work_permit",
+      "status": "unverified",
+      "required_documents": [
+        "Job offer letter",
+        "Educational certificates",
+        "Criminal record check",
+        "Medical certificate"
+      ],
+      "processing_time": "4-8 weeks",
+      "cost": 300.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "nc_tax_registration",
+      "name": "Tax Registration",
+      "type": "tax_registration",
+      "status": "unverified",
+      "required_documents": [
+        "Business registration certificate",
+        "Passport copies",
+        "Proof of address",
+        "Bank account details"
+      ],
+      "processing_time": "1-2 weeks",
+      "cost": 100.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "nc_residence_permit",
+      "name": "Residence Permit",
+      "type": "residence_permit",
+      "status": "unverified",
+      "required_documents": [
+        "Valid passport",
+        "Proof of income",
+        "Health insurance",
+        "Criminal record check",
+        "Medical certificate"
+      ],
+      "processing_time": "4-6 weeks",
+      "cost": 200.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "nc_property_registration",
+      "name": "Property Registration",
+      "type": "property_registration",
+      "status": "unverified",
+      "required_documents": [
+        "Title deed",
+        "Passport",
+        "Tax clearance certificate",
+        "Survey report"
+      ],
+      "processing_time": "2-4 weeks",
+      "cost": 500.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "nc_health_certification",
+      "name": "Health Certification",
+      "type": "health_certification",
+      "status": "unverified",
+      "required_documents": [
+        "Medical examination results",
+        "Vaccination records",
+        "Blood test results"
+      ],
+      "processing_time": "1 week",
+      "cost": 50.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "nc_criminal_record_check",
+      "name": "Criminal Record Check",
+      "type": "criminal_record_check",
+      "status": "unverified",
+      "required_documents": [
+        "Passport",
+        "Application form",
+        "Fingerprints"
+      ],
+      "processing_time": "2-3 weeks",
+      "cost": 30.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "nc_educational_certification",
+      "name": "Educational Certification Recognition",
+      "type": "educational_certification",
+      "status": "unverified",
+      "required_documents": [
+        "Original degree certificates",
+        "Transcripts",
+        "Translation (if needed)",
+        "Apostille (if needed)"
+      ],
+      "processing_time": "4-8 weeks",
+      "cost": 150.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "nc_tourist_visa_uk",
+      "name": "Tourist Visa - UK",
+      "type": "visa",
+      "status": "unverified",
+      "required_documents": [
+        "Passport valid 6+ months"
+      ],
+      "processing_time": "Immediate (on arrival) or 1-3 days (e-visa)",
+      "cost": 0.0,
+      "duration": "90 days",
+      "verified": false,
+      "loopholes_available": false
+    },
+    {
+      "requirement_id": "nc_birth_registry",
+      "name": "Birth Registration Registration",
+      "type": "civil_registry",
+      "status": "unverified",
+      "required_documents": [
+        "Birth certificate from hospital",
+        "Parents' identification",
+        "Marriage certificate (if applicable)"
+      ],
+      "processing_time": "1-2 weeks",
+      "cost": 50.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false
+    },
+    {
+      "requirement_id": "nc_marriage_registry",
+      "name": "Marriage Registration Registration",
+      "type": "civil_registry",
+      "status": "unverified",
+      "required_documents": [
+        "Valid passports",
+        "Birth certificates",
+        "Single status certificate",
+        "Medical certificate"
+      ],
+      "processing_time": "2-4 weeks",
+      "cost": 200.0,
+      "currency": "EUR",
+      "verified": false,
+      "loopholes_available": false
+    }
+  ],
+  "high_priority_items": []
+}

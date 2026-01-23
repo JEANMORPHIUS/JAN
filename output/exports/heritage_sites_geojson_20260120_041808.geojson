@@ -1,0 +1,1738 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "export_timestamp": "2026-01-20T04:18:08.172364",
+    "total_sites": 138,
+    "sites_with_coordinates": 72
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.2856,
+          27.0964
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Bhangarh Fort",
+        "type": "Fort",
+        "region": "Rajasthan",
+        "country": "India",
+        "timeline": "primary",
+        "time_period": "renaissance",
+        "status": "abandoned",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.45,
+          47.35
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Château de Brissac",
+        "type": "Chateau",
+        "region": "Anjou",
+        "country": "France",
+        "timeline": "primary",
+        "time_period": "renaissance",
+        "status": "active",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8333,
+          34.9167
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Berengaria Hotel",
+        "type": "Hotel",
+        "region": "Troodos Mountains",
+        "country": "Cyprus",
+        "timeline": "primary",
+        "time_period": "modern",
+        "status": "abandoned",
+        "field_resonance": 0.8393333333333335,
+        "field_space": 0.3855555555555556,
+        "pole_alignment": "neutral",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3306,
+          45.3808
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Poveglia Island",
+        "type": "Hospital",
+        "region": "Venice",
+        "country": "Italy",
+        "timeline": "primary",
+        "time_period": "modern",
+        "status": "abandoned",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8,
+          53.0333
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Leap Castle",
+        "type": "Castle",
+        "region": "Offaly",
+        "country": "Ireland",
+        "timeline": "primary",
+        "time_period": "medieval",
+        "status": "regenerated",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5886,
+          37.177
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Alhambra Palace",
+        "type": "Palace",
+        "region": "Andalusia",
+        "country": "Spain",
+        "timeline": "primary",
+        "time_period": "medieval",
+        "status": "active",
+        "field_resonance": 0.869,
+        "field_space": 0.35,
+        "pole_alignment": "neutral",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.867,
+          13.4125
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Angkor Wat",
+        "type": "Temple Complex",
+        "region": "Siem Reap",
+        "country": "Cambodia",
+        "timeline": "primary",
+        "time_period": "medieval",
+        "status": "active",
+        "field_resonance": 0.6843333333333333,
+        "field_space": 0.9111111111111111,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.545,
+          -13.1631
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Machu Picchu",
+        "type": "Inca Citadel",
+        "region": "Cusco",
+        "country": "Peru",
+        "timeline": "primary",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.5640000000000001,
+        "field_space": 0.8666666666666667,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5014,
+          38.4826
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Ancient Temple of Delphi",
+        "type": "Temple",
+        "region": "Phocis",
+        "country": "Greece",
+        "timeline": "primary",
+        "time_period": "ancient",
+        "status": "ruins",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1342,
+          29.9792
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Great Pyramid of Giza",
+        "type": "Pyramid",
+        "region": "Giza",
+        "country": "Egypt",
+        "timeline": "primary",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.8900000000000001,
+        "field_space": 0.5333333333333333,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8262,
+          51.1789
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Stonehenge",
+        "type": "Stone Circle",
+        "region": "Wiltshire",
+        "country": "England",
+        "timeline": "primary",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.8416666666666667,
+        "field_space": 0.2611111111111111,
+        "pole_alignment": "north",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.0369,
+          -25.3444
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Uluru",
+        "type": "Sacred Monolith",
+        "region": "Northern Territory",
+        "country": "Australia",
+        "timeline": "primary",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.7783333333333333,
+        "field_space": 0.28888888888888886,
+        "pole_alignment": "south",
+        "polarity": "negative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.2856,
+          27.0964
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Bhangarh Fort",
+        "type": "Fort",
+        "region": "Rajasthan",
+        "country": "India",
+        "timeline": "parallel",
+        "time_period": "renaissance",
+        "status": "abandoned",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.45,
+          47.35
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Château de Brissac",
+        "type": "Chateau",
+        "region": "Anjou",
+        "country": "France",
+        "timeline": "parallel",
+        "time_period": "renaissance",
+        "status": "active",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8333,
+          34.9167
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Berengaria Hotel",
+        "type": "Hotel",
+        "region": "Cyprus",
+        "country": "Cyprus",
+        "timeline": "parallel",
+        "time_period": "modern",
+        "status": "abandoned",
+        "field_resonance": 0.8393333333333335,
+        "field_space": 0.3855555555555556,
+        "pole_alignment": "neutral",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3306,
+          45.3808
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Poveglia Island",
+        "type": "Hospital",
+        "region": "Venice",
+        "country": "Italy",
+        "timeline": "parallel",
+        "time_period": "modern",
+        "status": "abandoned",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8,
+          53.0333
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Leap Castle",
+        "type": "Castle",
+        "region": "Offaly",
+        "country": "Ireland",
+        "timeline": "parallel",
+        "time_period": "medieval",
+        "status": "regenerated",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5886,
+          37.177
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Alhambra Palace",
+        "type": "Palace",
+        "region": "Andalusia",
+        "country": "Spain",
+        "timeline": "parallel",
+        "time_period": "medieval",
+        "status": "active",
+        "field_resonance": 0.869,
+        "field_space": 0.35,
+        "pole_alignment": "neutral",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.867,
+          13.4125
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Angkor Wat",
+        "type": "Temple Complex",
+        "region": "Siem Reap",
+        "country": "Cambodia",
+        "timeline": "parallel",
+        "time_period": "medieval",
+        "status": "active",
+        "field_resonance": 0.6843333333333333,
+        "field_space": 0.9111111111111111,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.545,
+          -13.1631
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Machu Picchu",
+        "type": "Inca Citadel",
+        "region": "Cusco",
+        "country": "Peru",
+        "timeline": "parallel",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.5640000000000001,
+        "field_space": 0.8666666666666667,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5014,
+          38.4826
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Ancient Temple of Delphi",
+        "type": "Temple",
+        "region": "Phocis",
+        "country": "Greece",
+        "timeline": "parallel",
+        "time_period": "ancient",
+        "status": "ruins",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1342,
+          29.9792
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Great Pyramid of Giza",
+        "type": "Pyramid",
+        "region": "Giza",
+        "country": "Egypt",
+        "timeline": "parallel",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.8900000000000001,
+        "field_space": 0.5333333333333333,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8262,
+          51.1789
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "Stonehenge",
+        "type": "Stone Circle",
+        "region": "Wiltshire",
+        "country": "England",
+        "timeline": "parallel",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.8416666666666667,
+        "field_space": 0.2611111111111111,
+        "pole_alignment": "north",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.0369,
+          -25.3444
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "name": "Uluru",
+        "type": "Sacred Monolith",
+        "region": "Northern Territory",
+        "country": "Australia",
+        "timeline": "parallel",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.7783333333333333,
+        "field_space": 0.28888888888888886,
+        "pole_alignment": "south",
+        "polarity": "negative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.2856,
+          27.0964
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "Bhangarh Fort",
+        "type": "Fort",
+        "region": "Rajasthan",
+        "country": "India",
+        "timeline": "past_loop",
+        "time_period": "renaissance",
+        "status": "abandoned",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.45,
+          47.35
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "Château de Brissac",
+        "type": "Chateau",
+        "region": "Anjou",
+        "country": "France",
+        "timeline": "past_loop",
+        "time_period": "renaissance",
+        "status": "active",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8333,
+          34.9167
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Berengaria Hotel",
+        "type": "Hotel",
+        "region": "Cyprus",
+        "country": "Cyprus",
+        "timeline": "past_loop",
+        "time_period": "modern",
+        "status": "abandoned",
+        "field_resonance": 0.8393333333333335,
+        "field_space": 0.3855555555555556,
+        "pole_alignment": "neutral",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3306,
+          45.3808
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Poveglia Island",
+        "type": "Hospital",
+        "region": "Venice",
+        "country": "Italy",
+        "timeline": "past_loop",
+        "time_period": "modern",
+        "status": "abandoned",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8,
+          53.0333
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Leap Castle",
+        "type": "Castle",
+        "region": "Offaly",
+        "country": "Ireland",
+        "timeline": "past_loop",
+        "time_period": "medieval",
+        "status": "regenerated",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5886,
+          37.177
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Alhambra Palace",
+        "type": "Palace",
+        "region": "Andalusia",
+        "country": "Spain",
+        "timeline": "past_loop",
+        "time_period": "medieval",
+        "status": "active",
+        "field_resonance": 0.869,
+        "field_space": 0.35,
+        "pole_alignment": "neutral",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.867,
+          13.4125
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "name": "Angkor Wat",
+        "type": "Temple Complex",
+        "region": "Siem Reap",
+        "country": "Cambodia",
+        "timeline": "past_loop",
+        "time_period": "medieval",
+        "status": "active",
+        "field_resonance": 0.6843333333333333,
+        "field_space": 0.9111111111111111,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.545,
+          -13.1631
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Machu Picchu",
+        "type": "Inca Citadel",
+        "region": "Cusco",
+        "country": "Peru",
+        "timeline": "past_loop",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.5640000000000001,
+        "field_space": 0.8666666666666667,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5014,
+          38.4826
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Ancient Temple of Delphi",
+        "type": "Temple",
+        "region": "Phocis",
+        "country": "Greece",
+        "timeline": "past_loop",
+        "time_period": "ancient",
+        "status": "ruins",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1342,
+          29.9792
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Great Pyramid of Giza",
+        "type": "Pyramid",
+        "region": "Giza",
+        "country": "Egypt",
+        "timeline": "past_loop",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.8900000000000001,
+        "field_space": 0.5333333333333333,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8262,
+          51.1789
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Stonehenge",
+        "type": "Stone Circle",
+        "region": "Wiltshire",
+        "country": "England",
+        "timeline": "past_loop",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.8416666666666667,
+        "field_space": 0.2611111111111111,
+        "pole_alignment": "north",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.0369,
+          -25.3444
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Uluru",
+        "type": "Sacred Monolith",
+        "region": "Northern Territory",
+        "country": "Australia",
+        "timeline": "past_loop",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.7783333333333333,
+        "field_space": 0.28888888888888886,
+        "pole_alignment": "south",
+        "polarity": "negative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.2856,
+          27.0964
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Bhangarh Fort",
+        "type": "Fort",
+        "region": "Rajasthan",
+        "country": "India",
+        "timeline": "future_loop",
+        "time_period": "renaissance",
+        "status": "abandoned",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.45,
+          47.35
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Château de Brissac",
+        "type": "Chateau",
+        "region": "Anjou",
+        "country": "France",
+        "timeline": "future_loop",
+        "time_period": "renaissance",
+        "status": "active",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8333,
+          34.9167
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Berengaria Hotel",
+        "type": "Hotel",
+        "region": "Cyprus",
+        "country": "Cyprus",
+        "timeline": "future_loop",
+        "time_period": "modern",
+        "status": "abandoned",
+        "field_resonance": 0.8393333333333335,
+        "field_space": 0.3855555555555556,
+        "pole_alignment": "neutral",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3306,
+          45.3808
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Poveglia Island",
+        "type": "Hospital",
+        "region": "Venice",
+        "country": "Italy",
+        "timeline": "future_loop",
+        "time_period": "modern",
+        "status": "abandoned",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8,
+          53.0333
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Leap Castle",
+        "type": "Castle",
+        "region": "Offaly",
+        "country": "Ireland",
+        "timeline": "future_loop",
+        "time_period": "medieval",
+        "status": "regenerated",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5886,
+          37.177
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "Alhambra Palace",
+        "type": "Palace",
+        "region": "Andalusia",
+        "country": "Spain",
+        "timeline": "future_loop",
+        "time_period": "medieval",
+        "status": "active",
+        "field_resonance": 0.869,
+        "field_space": 0.35,
+        "pole_alignment": "neutral",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.867,
+          13.4125
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Angkor Wat",
+        "type": "Temple Complex",
+        "region": "Siem Reap",
+        "country": "Cambodia",
+        "timeline": "future_loop",
+        "time_period": "medieval",
+        "status": "active",
+        "field_resonance": 0.6843333333333333,
+        "field_space": 0.9111111111111111,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.545,
+          -13.1631
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Machu Picchu",
+        "type": "Inca Citadel",
+        "region": "Cusco",
+        "country": "Peru",
+        "timeline": "future_loop",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.5640000000000001,
+        "field_space": 0.8666666666666667,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5014,
+          38.4826
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "Ancient Temple of Delphi",
+        "type": "Temple",
+        "region": "Phocis",
+        "country": "Greece",
+        "timeline": "future_loop",
+        "time_period": "ancient",
+        "status": "ruins",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1342,
+          29.9792
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Great Pyramid of Giza",
+        "type": "Pyramid",
+        "region": "Giza",
+        "country": "Egypt",
+        "timeline": "future_loop",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.8900000000000001,
+        "field_space": 0.5333333333333333,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8262,
+          51.1789
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Stonehenge",
+        "type": "Stone Circle",
+        "region": "Wiltshire",
+        "country": "England",
+        "timeline": "future_loop",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.8416666666666667,
+        "field_space": 0.2611111111111111,
+        "pole_alignment": "north",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.0369,
+          -25.3444
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Uluru",
+        "type": "Sacred Monolith",
+        "region": "Northern Territory",
+        "country": "Australia",
+        "timeline": "future_loop",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.7783333333333333,
+        "field_space": 0.28888888888888886,
+        "pole_alignment": "south",
+        "polarity": "negative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.2856,
+          27.0964
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "Bhangarh Fort",
+        "type": "Fort",
+        "region": "Rajasthan",
+        "country": "India",
+        "timeline": "regeneration",
+        "time_period": "renaissance",
+        "status": "abandoned",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.45,
+          47.35
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Château de Brissac",
+        "type": "Chateau",
+        "region": "Anjou",
+        "country": "France",
+        "timeline": "regeneration",
+        "time_period": "renaissance",
+        "status": "active",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8333,
+          34.9167
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Berengaria Hotel",
+        "type": "Hotel",
+        "region": "Cyprus",
+        "country": "Cyprus",
+        "timeline": "regeneration",
+        "time_period": "modern",
+        "status": "abandoned",
+        "field_resonance": 0.8393333333333335,
+        "field_space": 0.3855555555555556,
+        "pole_alignment": "neutral",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3306,
+          45.3808
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Poveglia Island",
+        "type": "Hospital",
+        "region": "Venice",
+        "country": "Italy",
+        "timeline": "regeneration",
+        "time_period": "modern",
+        "status": "abandoned",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8,
+          53.0333
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Leap Castle",
+        "type": "Castle",
+        "region": "Offaly",
+        "country": "Ireland",
+        "timeline": "regeneration",
+        "time_period": "medieval",
+        "status": "regenerated",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5886,
+          37.177
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Alhambra Palace",
+        "type": "Palace",
+        "region": "Andalusia",
+        "country": "Spain",
+        "timeline": "regeneration",
+        "time_period": "medieval",
+        "status": "active",
+        "field_resonance": 0.869,
+        "field_space": 0.35,
+        "pole_alignment": "neutral",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.867,
+          13.4125
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Angkor Wat",
+        "type": "Temple Complex",
+        "region": "Siem Reap",
+        "country": "Cambodia",
+        "timeline": "regeneration",
+        "time_period": "medieval",
+        "status": "active",
+        "field_resonance": 0.6843333333333333,
+        "field_space": 0.9111111111111111,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.545,
+          -13.1631
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Machu Picchu",
+        "type": "Inca Citadel",
+        "region": "Cusco",
+        "country": "Peru",
+        "timeline": "regeneration",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.5640000000000001,
+        "field_space": 0.8666666666666667,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5014,
+          38.4826
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Ancient Temple of Delphi",
+        "type": "Temple",
+        "region": "Phocis",
+        "country": "Greece",
+        "timeline": "regeneration",
+        "time_period": "ancient",
+        "status": "ruins",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1342,
+          29.9792
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Great Pyramid of Giza",
+        "type": "Pyramid",
+        "region": "Giza",
+        "country": "Egypt",
+        "timeline": "regeneration",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.8900000000000001,
+        "field_space": 0.5333333333333333,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8262,
+          51.1789
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Stonehenge",
+        "type": "Stone Circle",
+        "region": "Wiltshire",
+        "country": "England",
+        "timeline": "regeneration",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.8416666666666667,
+        "field_space": 0.2611111111111111,
+        "pole_alignment": "north",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.0369,
+          -25.3444
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Uluru",
+        "type": "Sacred Monolith",
+        "region": "Northern Territory",
+        "country": "Australia",
+        "timeline": "regeneration",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.7783333333333333,
+        "field_space": 0.28888888888888886,
+        "pole_alignment": "south",
+        "polarity": "negative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.2856,
+          27.0964
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Bhangarh Fort",
+        "type": "Fort",
+        "region": "Rajasthan",
+        "country": "India",
+        "timeline": "alternate",
+        "time_period": "renaissance",
+        "status": "abandoned",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.45,
+          47.35
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Château de Brissac",
+        "type": "Chateau",
+        "region": "Anjou",
+        "country": "France",
+        "timeline": "alternate",
+        "time_period": "renaissance",
+        "status": "active",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8333,
+          34.9167
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Berengaria Hotel",
+        "type": "Hotel",
+        "region": "Cyprus",
+        "country": "Cyprus",
+        "timeline": "alternate",
+        "time_period": "modern",
+        "status": "abandoned",
+        "field_resonance": 0.8393333333333335,
+        "field_space": 0.3855555555555556,
+        "pole_alignment": "neutral",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3306,
+          45.3808
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Poveglia Island",
+        "type": "Hospital",
+        "region": "Venice",
+        "country": "Italy",
+        "timeline": "alternate",
+        "time_period": "modern",
+        "status": "abandoned",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8,
+          53.0333
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Leap Castle",
+        "type": "Castle",
+        "region": "Offaly",
+        "country": "Ireland",
+        "timeline": "alternate",
+        "time_period": "medieval",
+        "status": "regenerated",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5886,
+          37.177
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Alhambra Palace",
+        "type": "Palace",
+        "region": "Andalusia",
+        "country": "Spain",
+        "timeline": "alternate",
+        "time_period": "medieval",
+        "status": "active",
+        "field_resonance": 0.869,
+        "field_space": 0.35,
+        "pole_alignment": "neutral",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.867,
+          13.4125
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Angkor Wat",
+        "type": "Temple Complex",
+        "region": "Siem Reap",
+        "country": "Cambodia",
+        "timeline": "alternate",
+        "time_period": "medieval",
+        "status": "active",
+        "field_resonance": 0.6843333333333333,
+        "field_space": 0.9111111111111111,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.545,
+          -13.1631
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "name": "Machu Picchu",
+        "type": "Inca Citadel",
+        "region": "Cusco",
+        "country": "Peru",
+        "timeline": "alternate",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.5640000000000001,
+        "field_space": 0.8666666666666667,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5014,
+          38.4826
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Ancient Temple of Delphi",
+        "type": "Temple",
+        "region": "Phocis",
+        "country": "Greece",
+        "timeline": "alternate",
+        "time_period": "ancient",
+        "status": "ruins",
+        "field_resonance": null,
+        "field_space": null,
+        "pole_alignment": null,
+        "polarity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1342,
+          29.9792
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "name": "Great Pyramid of Giza",
+        "type": "Pyramid",
+        "region": "Giza",
+        "country": "Egypt",
+        "timeline": "alternate",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.8900000000000001,
+        "field_space": 0.5333333333333333,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8262,
+          51.1789
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "name": "Stonehenge",
+        "type": "Stone Circle",
+        "region": "Wiltshire",
+        "country": "England",
+        "timeline": "alternate",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.8416666666666667,
+        "field_space": 0.2611111111111111,
+        "pole_alignment": "north",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.0369,
+          -25.3444
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "name": "Uluru",
+        "type": "Sacred Monolith",
+        "region": "Northern Territory",
+        "country": "Australia",
+        "timeline": "alternate",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.7783333333333333,
+        "field_space": 0.28888888888888886,
+        "pole_alignment": "south",
+        "polarity": "negative"
+      }
+    }
+  ]
+}

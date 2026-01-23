@@ -1,0 +1,32 @@
+[
+  {
+    "condition_name": "Hypertension",
+    "category": "cardiovascular",
+    "diagnosis_date": null,
+    "primary_metrics": [
+      "blood_pressure_systolic",
+      "blood_pressure_diastolic"
+    ],
+    "medication_schedule": {},
+    "target_ranges": {
+      "blood_pressure_systolic": {
+        "max": 140,
+        "unit": "mmHg"
+      },
+      "blood_pressure_diastolic": {
+        "max": 90,
+        "unit": "mmHg"
+      }
+    },
+    "original_narrative": "",
+    "cleansed_narrative": "",
+    "dark_energy_detected": false,
+    "violation_type": null,
+    "regeneration_applied": false,
+    "law_41_compliant": true,
+    "life_chapter_id": null,
+    "field_resonance": null,
+    "status": "active",
+    "notes": null
+  }
+]

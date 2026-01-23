@@ -1,0 +1,22 @@
+[Unit]
+Description=JAN Studio Kids - Kid-Friendly Interface for Raspberry Pi
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/jan-studio/pi
+Environment="JAN_ROOT=/home/pi/JAN"
+Environment="JAN_MODELS_DIR=/home/pi/.jan-models"
+Environment="PYTHONUNBUFFERED=1"
+ExecStart=/usr/bin/python3 /home/pi/jan-studio/pi/kids_api.py
+Restart=always
+RestartSec=10
+
+# Resource limits
+MemoryLimit=2G
+CPUQuota=80%
+
+[Install]
+WantedBy=multi-user.target
+

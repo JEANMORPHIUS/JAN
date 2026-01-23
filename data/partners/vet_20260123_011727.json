@@ -1,0 +1,213 @@
+{
+  "application_id": "vet_20260123_011727",
+  "partner_name": "North Cyprus International School",
+  "partner_type": "school",
+  "status": "approved",
+  "created": "2026-01-23T01:17:27.000333",
+  "vetting_checklist": {
+    "mission_alignment": {
+      "weight": 0.35,
+      "criteria": [
+        {
+          "question": "Does partner serve beneficiaries, not ego?",
+          "alignment_principle": "Purpose Not Performance",
+          "required": true
+        },
+        {
+          "question": "Does partner embrace love as highest principle?",
+          "alignment_principle": "Love Is The Highest Mastery",
+          "required": true
+        },
+        {
+          "question": "Does partner operate with transparency?",
+          "alignment_principle": "Honesty Equals Data",
+          "required": true
+        },
+        {
+          "question": "Does partner serve The Table (unity, not separation)?",
+          "alignment_principle": "Pangea Is The Table",
+          "required": true
+        }
+      ]
+    },
+    "financial_integrity": {
+      "weight": 0.25,
+      "criteria": [
+        {
+          "check": "Financial statements publicly available",
+          "required": true
+        },
+        {
+          "check": "Independent audit within last 2 years",
+          "required": true
+        },
+        {
+          "check": "Overhead costs <25%",
+          "required": false
+        },
+        {
+          "check": "Frontline spending >60%",
+          "required": true
+        },
+        {
+          "check": "No history of financial fraud or mismanagement",
+          "required": true
+        }
+      ]
+    },
+    "anti_corruption": {
+      "weight": 0.2,
+      "criteria": [
+        {
+          "check": "Anti-corruption policy in place",
+          "required": true
+        },
+        {
+          "check": "Whistleblower protection mechanism",
+          "required": true
+        },
+        {
+          "check": "Dual-approval for expenditures",
+          "required": false
+        },
+        {
+          "check": "No conflicts of interest declared",
+          "required": true
+        },
+        {
+          "check": "Background checks for leadership",
+          "required": true
+        }
+      ]
+    },
+    "operational_capacity": {
+      "weight": 0.1,
+      "criteria": [
+        {
+          "check": "Proven track record (2+ years operation)",
+          "required": false
+        },
+        {
+          "check": "Adequate staffing for partnership",
+          "required": true
+        },
+        {
+          "check": "Infrastructure to support partnership",
+          "required": true
+        },
+        {
+          "check": "Local community trust and relationships",
+          "required": true
+        }
+      ]
+    },
+    "spiritual_alignment": {
+      "weight": 0.1,
+      "criteria": [
+        {
+          "question": "Does partner honor all faiths and beliefs?",
+          "principle": "Unity in diversity",
+          "required": true
+        },
+        {
+          "question": "Does partner serve souls, not systems?",
+          "principle": "Starve ego, feed soul",
+          "required": true
+        },
+        {
+          "question": "Does partner operate with humility?",
+          "principle": "Humility in service",
+          "required": true
+        }
+      ]
+    }
+  },
+  "responses": {
+    "mission_alignment": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": true
+    },
+    "financial_integrity": {
+      "0": true,
+      "1": true,
+      "2": false,
+      "3": true,
+      "4": true
+    },
+    "anti_corruption": {
+      "0": true,
+      "1": true,
+      "2": false,
+      "3": true,
+      "4": true
+    },
+    "operational_capacity": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": true
+    },
+    "spiritual_alignment": {
+      "0": true,
+      "1": true,
+      "2": true
+    }
+  },
+  "scores": {
+    "mission_alignment": {
+      "passed": 4,
+      "total": 4,
+      "required_passed": 4,
+      "required_total": 4,
+      "category_score": 100.0,
+      "weighted_score": 35.0,
+      "all_required_met": true
+    },
+    "financial_integrity": {
+      "passed": 4,
+      "total": 5,
+      "required_passed": 4,
+      "required_total": 4,
+      "category_score": 80.0,
+      "weighted_score": 20.0,
+      "all_required_met": true
+    },
+    "anti_corruption": {
+      "passed": 4,
+      "total": 5,
+      "required_passed": 4,
+      "required_total": 4,
+      "category_score": 80.0,
+      "weighted_score": 16.0,
+      "all_required_met": true
+    },
+    "operational_capacity": {
+      "passed": 4,
+      "total": 4,
+      "required_passed": 3,
+      "required_total": 3,
+      "category_score": 100.0,
+      "weighted_score": 10.0,
+      "all_required_met": true
+    },
+    "spiritual_alignment": {
+      "passed": 3,
+      "total": 3,
+      "required_passed": 3,
+      "required_total": 3,
+      "category_score": 100.0,
+      "weighted_score": 10.0,
+      "all_required_met": true
+    }
+  },
+  "notes": [],
+  "decision": {
+    "status": "approved",
+    "reason": "Exceeds all standards",
+    "decided_at": "2026-01-23T01:17:27.003867",
+    "conditions": []
+  },
+  "total_score": 91.0
+}

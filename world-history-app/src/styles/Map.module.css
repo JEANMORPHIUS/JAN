@@ -1,0 +1,181 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-background-primary, #f5f5f5);
+}
+
+.header {
+  padding: 2rem;
+  background: var(--color-background-secondary, #fff);
+  border-bottom: 1px solid var(--color-border, #ddd);
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-text-primary, #333);
+}
+
+.truth {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--color-text-accent, #0066cc);
+  margin-bottom: 1rem;
+}
+
+.legend {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary, #666);
+}
+
+.legendColor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.error {
+  text-align: center;
+  padding: 4rem;
+  max-width: 600px;
+  margin: 4rem auto;
+  background: var(--color-background-secondary, #fff);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.error h2 {
+  margin-bottom: 1rem;
+  color: var(--color-text-primary, #333);
+}
+
+.error p {
+  margin-bottom: 0.5rem;
+  color: var(--color-text-secondary, #666);
+}
+
+.error a {
+  color: var(--color-text-accent, #0066cc);
+  text-decoration: underline;
+}
+
+.loading {
+  text-align: center;
+  padding: 4rem;
+  font-size: 1.2rem;
+  color: var(--color-text-secondary, #666);
+}
+
+.mapContainer {
+  flex: 1;
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 200px);
+  min-height: 600px;
+}
+
+.marker {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.marker:hover {
+  transform: scale(1.3);
+}
+
+.markerInner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.popup {
+  max-width: 300px;
+}
+
+.popup h3 {
+  margin-bottom: 0.5rem;
+  color: var(--color-text-primary, #333);
+  font-size: 1.2rem;
+}
+
+.popup p {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary, #666);
+  line-height: 1.5;
+}
+
+.popup strong {
+  color: var(--color-text-primary, #333);
+}
+
+@media (prefers-color-scheme: dark) {
+  .header {
+    background: var(--color-background-secondary-dark, #2a2a2a);
+    border-bottom-color: var(--color-border-dark, #444);
+  }
+
+  .header h1 {
+    color: var(--color-text-primary-dark, #fff);
+  }
+
+  .truth {
+    color: var(--color-text-accent-dark, #66b3ff);
+  }
+
+  .legendItem {
+    color: var(--color-text-secondary-dark, #ccc);
+  }
+
+  .error {
+    background: var(--color-background-secondary-dark, #2a2a2a);
+  }
+
+  .error h2 {
+    color: var(--color-text-primary-dark, #fff);
+  }
+
+  .error p {
+    color: var(--color-text-secondary-dark, #ccc);
+  }
+
+  .error a {
+    color: var(--color-text-accent-dark, #66b3ff);
+  }
+
+  .loading {
+    color: var(--color-text-secondary-dark, #ccc);
+  }
+
+  .popup h3 {
+    color: var(--color-text-primary-dark, #fff);
+  }
+
+  .popup p {
+    color: var(--color-text-secondary-dark, #ccc);
+  }
+
+  .popup strong {
+    color: var(--color-text-primary-dark, #fff);
+  }
+}

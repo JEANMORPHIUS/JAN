@@ -1,0 +1,41 @@
+[
+  {
+    "condition_name": "Type 1 Diabetes",
+    "category": "metabolic",
+    "diagnosis_date": "2020-01-01",
+    "primary_metrics": [
+      "blood_glucose",
+      "insulin_units",
+      "carbohydrates"
+    ],
+    "medication_schedule": {
+      "Degludec": {
+        "type": "long_acting",
+        "units": 11,
+        "time": "morning"
+      },
+      "Humalog": {
+        "type": "rapid_acting",
+        "units": 6,
+        "time": "morning"
+      }
+    },
+    "target_ranges": {
+      "blood_glucose": {
+        "min": 4.0,
+        "max": 7.0,
+        "unit": "mmol/L"
+      }
+    },
+    "original_narrative": "I have diabetes and need to manage it carefully.",
+    "cleansed_narrative": "I have diabetes and need to manage it carefully.",
+    "dark_energy_detected": false,
+    "violation_type": null,
+    "regeneration_applied": false,
+    "law_41_compliant": true,
+    "life_chapter_id": null,
+    "field_resonance": null,
+    "status": "active",
+    "notes": "Managing with insulin and monitoring blood glucose"
+  }
+]

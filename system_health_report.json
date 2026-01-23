@@ -1,0 +1,89 @@
+{
+  "timestamp": "2026-01-23T01:34:58.249068",
+  "overall_status": "NOT_READY",
+  "completion_percentage": 68,
+  "components": {
+    "infrastructure": {
+      "backend_systems": {
+        "total": 5,
+        "present": 5,
+        "status": "OPERATIONAL"
+      },
+      "automation_pipelines": {
+        "total": 5,
+        "present": 5,
+        "status": "OPERATIONAL"
+      },
+      "documentation": {
+        "total": 4,
+        "present": 4,
+        "status": "COMPLETE"
+      }
+    },
+    "content": {
+      "scripture_lessons": {
+        "expected": 376,
+        "present": 655,
+        "status": "READY"
+      },
+      "social_content": {
+        "expected": 208,
+        "present": 0,
+        "status": "PENDING"
+      },
+      "visual_assets": {
+        "expected": 584,
+        "present": 0,
+        "status": "PENDING"
+      },
+      "audio_assets": {
+        "expected": 376,
+        "present": 0,
+        "status": "PENDING"
+      }
+    },
+    "prerequisites": {
+      "python": {
+        "required": "3.9+",
+        "actual": "3.14.0",
+        "status": "OK"
+      },
+      "nodejs": {
+        "required": "any",
+        "actual": "v24.11.0",
+        "status": "OK"
+      },
+      "docker": {
+        "status": "MISSING"
+      },
+      "git": {
+        "required": "any",
+        "actual": "git version 2.51.2.windows.1",
+        "status": "OK"
+      },
+      "python_packages": {
+        "required": [
+          "fastapi",
+          "uvicorn",
+          "sqlalchemy",
+          "pydantic",
+          "requests"
+        ],
+        "status": "PARTIAL"
+      }
+    }
+  },
+  "critical_issues": [],
+  "warnings": [
+    "Visual assets pending generation",
+    "Audio assets pending generation"
+  ],
+  "recommendations": [
+    "Generate social_content: 0/208 present",
+    "Generate visual_assets: 0/584 present",
+    "Generate audio_assets: 0/376 present",
+    "Install Docker: https://www.docker.com/",
+    "Install missing python_packages packages: pip install -r requirements.txt"
+  ],
+  "deployment_readiness": false
+}

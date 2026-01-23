@@ -1,0 +1,22 @@
+{
+  "name": "suno-integration",
+  "version": "1.0.0",
+  "author": "JAN Team",
+  "description": "Suno AI music generation integration",
+  "type": "integration",
+  "entry_point": "suno_plugin.py",
+  "dependencies": [
+    "requests>=2.28.0"
+  ],
+  "permissions": [
+    "api_key"
+  ],
+  "config": {
+    "api_key": "",
+    "api_url": "https://api.suno.ai/v1/generate"
+  },
+  "requires": {
+    "jan_version": ">=1.0.0"
+  }
+}
+

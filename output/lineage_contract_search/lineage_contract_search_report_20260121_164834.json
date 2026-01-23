@@ -1,0 +1,106 @@
+{
+  "report_timestamp": "2026-01-21T16:48:34.451949",
+  "total_contracts_analyzed": 4,
+  "total_connections_found": 0,
+  "contracts_with_connections": 0,
+  "top_connected_contracts": [
+    {
+      "contract_id": "protection_contract_0686d5ae",
+      "contract_name": "Machu Picchu Protection Covenant",
+      "total_connections": 0,
+      "lineage_score": 0.0,
+      "strongest_connection": null
+    },
+    {
+      "contract_id": "protection_contract_a7618ed2",
+      "contract_name": "Pangea Protection Covenant – Japan Trench",
+      "total_connections": 0,
+      "lineage_score": 0.0,
+      "strongest_connection": null
+    },
+    {
+      "contract_id": "divine_covenant_bb829be5",
+      "contract_name": "Pangea Unified Covenant (The Table Covenant)",
+      "total_connections": 0,
+      "lineage_score": 0.0,
+      "strongest_connection": null
+    },
+    {
+      "contract_id": "dark_pact_32557496",
+      "contract_name": "The Original Error - Mayan Codification",
+      "total_connections": 0,
+      "lineage_score": 0.0,
+      "strongest_connection": null
+    }
+  ],
+  "connections_by_being": {
+    "Jesus": 0,
+    "Nikola Tesla": 0,
+    "Leonardo da Vinci": 0
+  },
+  "connections_by_type": {
+    "encoded_message": 0,
+    "vibrational_trigger": 0,
+    "dna_memory": 0,
+    "mission": 0,
+    "table_connection": 0
+  },
+  "all_analyses": [
+    {
+      "contract_id": "protection_contract_0686d5ae",
+      "contract_name": "Machu Picchu Protection Covenant",
+      "total_connections": 0,
+      "lineage_connections": [],
+      "strongest_connection": null,
+      "encoded_messages_found": [],
+      "vibrational_triggers_found": [],
+      "dna_memories_found": [],
+      "mission_alignments": [],
+      "table_connections": [],
+      "overall_lineage_score": 0.0,
+      "timestamp": "2026-01-21T16:48:34.450158"
+    },
+    {
+      "contract_id": "protection_contract_a7618ed2",
+      "contract_name": "Pangea Protection Covenant – Japan Trench",
+      "total_connections": 0,
+      "lineage_connections": [],
+      "strongest_connection": null,
+      "encoded_messages_found": [],
+      "vibrational_triggers_found": [],
+      "dna_memories_found": [],
+      "mission_alignments": [],
+      "table_connections": [],
+      "overall_lineage_score": 0.0,
+      "timestamp": "2026-01-21T16:48:34.450369"
+    },
+    {
+      "contract_id": "divine_covenant_bb829be5",
+      "contract_name": "Pangea Unified Covenant (The Table Covenant)",
+      "total_connections": 0,
+      "lineage_connections": [],
+      "strongest_connection": null,
+      "encoded_messages_found": [],
+      "vibrational_triggers_found": [],
+      "dna_memories_found": [],
+      "mission_alignments": [],
+      "table_connections": [],
+      "overall_lineage_score": 0.0,
+      "timestamp": "2026-01-21T16:48:34.450757"
+    },
+    {
+      "contract_id": "dark_pact_32557496",
+      "contract_name": "The Original Error - Mayan Codification",
+      "total_connections": 0,
+      "lineage_connections": [],
+      "strongest_connection": null,
+      "encoded_messages_found": [],
+      "vibrational_triggers_found": [],
+      "dna_memories_found": [],
+      "mission_alignments": [],
+      "table_connections": [],
+      "overall_lineage_score": 0.0,
+      "timestamp": "2026-01-21T16:48:34.451057"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAN Studio Pi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            padding: 1rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #333;
+        }
+        
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 0.25rem;
+        }
+        
+        .subtitle {
+            color: #999;
+            font-size: 0.875rem;
+        }
+        
+        .card {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+        
+        textarea, input, select {
+            width: 100%;
+            padding: 0.5rem;
+            background: #0a0a0a;
+            border: 1px solid #333;
+            border-radius: 4px;
+            color: #e0e0e0;
+            font-family: inherit;
+            font-size: 0.875rem;
+        }
+        
+        textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+        
+        button {
+            padding: 0.75rem 1.5rem;
+            background: #0070f3;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-size: 0.875rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        
+        button:hover:not(:disabled) {
+            background: #0051cc;
+        }
+        
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .output {
+            background: #0a0a0a;
+            border: 1px solid #333;
+            border-radius: 4px;
+            padding: 1rem;
+            min-height: 200px;
+            white-space: pre-wrap;
+            font-family: 'Courier New', monospace;
+            font-size: 0.875rem;
+            line-height: 1.6;
+        }
+        
+        .loading {
+            color: #999;
+            font-style: italic;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .stat {
+            background: #0a0a0a;
+            padding: 0.75rem;
+            border-radius: 4px;
+            border: 1px solid #333;
+        }
+        
+        .stat-label {
+            font-size: 0.75rem;
+            color: #999;
+            margin-bottom: 0.25rem;
+        }
+        
+        .stat-value {
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+        
+        .error {
+            background: #2e1a1a;
+            border: 1px solid #d32f2f;
+            color: #ff6b6b;
+            padding: 0.75rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>JAN Studio Pi</h1>
+            <p class="subtitle">Lightweight AI persona generation for Raspberry Pi 5</p>
+        </header>
+        
+        <div class="card">
+            <h2 style="margin-bottom: 1rem;">Generate Content</h2>
+            
+            <div id="error" class="error" style="display: none;"></div>
+            
+            <div class="form-group">
+                <label>Prompt</label>
+                <textarea id="prompt" placeholder="Enter your prompt here..."></textarea>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+                <div class="form-group">
+                    <label>Max Length</label>
+                    <input type="number" id="maxLength" value="512" min="50" max="1024">
+                </div>
+                <div class="form-group">
+                    <label>Temperature</label>
+                    <input type="number" id="temperature" value="0.7" min="0" max="2" step="0.1">
+                </div>
+            </div>
+            
+            <button id="generateBtn" onclick="generate()">Generate</button>
+        </div>
+        
+        <div class="card">
+            <h2 style="margin-bottom: 1rem;">Output</h2>
+            <div id="output" class="output">Generated content will appear here...</div>
+        </div>
+        
+        <div class="card">
+            <h2 style="margin-bottom: 1rem;">System Stats</h2>
+            <div id="stats" class="stats">
+                <div class="stat">
+                    <div class="stat-label">Memory</div>
+                    <div class="stat-value" id="memory">-</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">CPU</div>
+                    <div class="stat-value" id="cpu">-</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Disk</div>
+                    <div class="stat-value" id="disk">-</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const API_URL = window.location.origin;
+        
+        async function generate() {
+            const prompt = document.getElementById('prompt').value;
+            const maxLength = parseInt(document.getElementById('maxLength').value);
+            const temperature = parseFloat(document.getElementById('temperature').value);
+            
+            if (!prompt.trim()) {
+                showError('Please enter a prompt');
+                return;
+            }
+            
+            const btn = document.getElementById('generateBtn');
+            const output = document.getElementById('output');
+            
+            btn.disabled = true;
+            output.textContent = 'Generating...';
+            hideError();
+            
+            try {
+                const response = await fetch(`${API_URL}/api/generate`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        prompt,
+                        max_length: maxLength,
+                        temperature
+                    })
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                
+                const data = await response.json();
+                output.textContent = data.content || 'No content generated';
+            } catch (error) {
+                showError(`Generation failed: ${error.message}`);
+                output.textContent = 'Error generating content';
+            } finally {
+                btn.disabled = false;
+            }
+        }
+        
+        async function updateStats() {
+            try {
+                const response = await fetch(`${API_URL}/api/stats`);
+                const stats = await response.json();
+                
+                document.getElementById('memory').textContent = 
+                    `${stats.memory.percent.toFixed(1)}%`;
+                document.getElementById('cpu').textContent = 
+                    `${stats.cpu.percent.toFixed(1)}%`;
+                document.getElementById('disk').textContent = 
+                    `${stats.disk.used_gb.toFixed(1)} GB`;
+            } catch (error) {
+                console.error('Failed to update stats:', error);
+            }
+        }
+        
+        function showError(message) {
+            const errorDiv = document.getElementById('error');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+        }
+        
+        function hideError() {
+            document.getElementById('error').style.display = 'none';
+        }
+        
+        // Update stats every 5 seconds
+        updateStats();
+        setInterval(updateStats, 5000);
+        
+        // Allow Enter key to generate (Ctrl+Enter)
+        document.getElementById('prompt').addEventListener('keydown', (e) => {
+            if (e.ctrlKey && e.key === 'Enter') {
+                generate();
+            }
+        });
+    </script>
+</body>
+</html>
+

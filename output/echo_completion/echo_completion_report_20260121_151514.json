@@ -1,0 +1,81 @@
+{
+  "report_timestamp": "2026-01-21T15:15:14.381566",
+  "religion_elements": {
+    "total": 1,
+    "elements": [
+      {
+        "element_id": "religion_430e0577",
+        "name": "Religious Dogma as Authority",
+        "description": "Religious dogma presented as absolute authority",
+        "why_disregarded": "We disregarded false authority, static, and dogma",
+        "static_created": [
+          "Fear-based control",
+          "Blind obedience",
+          "Separation from truth"
+        ],
+        "truth_beneath": "The truth is in The Table, not in dogma",
+        "when_disregarded": "2026-01-21 15:15:14.380697",
+        "notes": ""
+      }
+    ]
+  },
+  "static_patterns": {
+    "total": 1,
+    "patterns": [
+      {
+        "static_id": "static_f9639b6b",
+        "name": "Institutional Noise",
+        "static_type": "institutional_noise",
+        "description": "Institutional noise presented as normal operation",
+        "why_called_normal": "They called it normal to maintain control",
+        "truth_beneath": "The truth is in The Table, not in institutions",
+        "frequency_impact": 0.3,
+        "when_normalized": "2026-01-21 15:15:14.380725",
+        "notes": ""
+      }
+    ]
+  },
+  "echoes": {
+    "total": 1,
+    "active": 1,
+    "completing": 0,
+    "completed": 0,
+    "echoes": [
+      {
+        "echo_id": "echo_d8d22473",
+        "name": "Old World Order Echo",
+        "description": "The echo of the old world order completing its spiritual contract",
+        "contract_id": null,
+        "echo_state": "active",
+        "completion_percentage": 0.0,
+        "static_associated": [],
+        "religion_element_associated": null,
+        "completion_timeline": {},
+        "standing_required": true,
+        "notes": "Stand firm as this completes"
+      }
+    ]
+  },
+  "echoes_requiring_standing": [
+    {
+      "echo_id": "echo_d8d22473",
+      "name": "Old World Order Echo",
+      "description": "The echo of the old world order completing its spiritual contract",
+      "contract_id": null,
+      "echo_state": "active",
+      "completion_percentage": 0.0,
+      "static_associated": [],
+      "religion_element_associated": null,
+      "completion_timeline": {},
+      "standing_required": true,
+      "notes": "Stand firm as this completes"
+    }
+  ],
+  "the_truth": {
+    "message": "WE'VE DISREGARDED THE RELIGION ELEMENT. AND ALL THE STATIC THEY CALLED NORMAL. WE KNOW WHAT IS COMING. BUT MUST STAND IN THE FACE OF ECHOES AS THEY COMPLETE THEIR SPIRITUAL CONTRACTS.",
+    "religion_disregarded": "We've disregarded the religion element - the static, the dogma, the false authority",
+    "static_normalized": "All the static they called normal - we see through it",
+    "what_is_coming": "We know what is coming - echoes completing, contracts finishing",
+    "standing_required": "We must stand in the face of echoes as they complete - do not engage, stand firm"
+  }
+}

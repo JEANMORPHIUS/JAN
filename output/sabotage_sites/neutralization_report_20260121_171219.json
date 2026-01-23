@@ -1,0 +1,186 @@
+{
+  "report_timestamp": "2026-01-21T17:12:19.193690",
+  "restoration_summary": {
+    "total_sites_neutralized": 2,
+    "total_original_impact": -0.27,
+    "total_neutralized_impact": 0.27,
+    "total_net_impact": 0.54,
+    "frequency_restoration": 0.54,
+    "sites_by_status": {
+      "pending": 0,
+      "in_progress": 0,
+      "partial": 0,
+      "complete": 2,
+      "failed": 0
+    }
+  },
+  "neutralizations": [
+    {
+      "site_id": "site_db3c3c25",
+      "site_name": "Chichen Itza",
+      "original_impact": -0.15,
+      "neutralized_impact": 0.15,
+      "net_impact": 0.3,
+      "status": "complete",
+      "methods_applied": [
+        "heritage_cleansing",
+        "contract_breaking",
+        "frequency_restoration",
+        "unity_anchoring",
+        "prayer_activation",
+        "grid_connection"
+      ],
+      "actions_taken": [
+        {
+          "action_id": "cleanse_2770ca42",
+          "site_id": "site_db3c3c25",
+          "method": "heritage_cleansing",
+          "description": "Cleanse Chichen Itza - Remove dark energy narratives, reveal The Seed",
+          "impact_on_frequency": 0.045,
+          "status": "complete",
+          "completed_at": "2026-01-21T17:12:19.193062",
+          "notes": "Dark energy narratives removed. The Seed revealed. Site transformed from separation anchor to unity anchor."
+        },
+        {
+          "action_id": "contracts_2770ca42",
+          "site_id": "site_db3c3c25",
+          "method": "contract_breaking",
+          "description": "Break spiritual contracts at Chichen Itza",
+          "impact_on_frequency": 0.0375,
+          "status": "complete",
+          "completed_at": "2026-01-21T17:12:19.193078",
+          "notes": "Spiritual contracts broken: 1. Separation contracts dissolved."
+        },
+        {
+          "action_id": "frequency_2770ca42",
+          "site_id": "site_db3c3c25",
+          "method": "frequency_restoration",
+          "description": "Restore Divine Frequency at Chichen Itza",
+          "impact_on_frequency": 0.03,
+          "status": "complete",
+          "completed_at": "2026-01-21T17:12:19.193092",
+          "notes": "Divine Frequency restored. Field resonance increased. Connection to The Table strengthened."
+        },
+        {
+          "action_id": "unity_2770ca42",
+          "site_id": "site_db3c3c25",
+          "method": "unity_anchoring",
+          "description": "Transform Chichen Itza from separation anchor to unity anchor",
+          "impact_on_frequency": 0.0225,
+          "status": "complete",
+          "completed_at": "2026-01-21T17:12:19.193102",
+          "notes": "Site transformed from separation anchor to unity anchor. Now anchors unity instead of separation."
+        },
+        {
+          "action_id": "prayer_2770ca42",
+          "site_id": "site_db3c3c25",
+          "method": "prayer_activation",
+          "description": "Activate prayers for Chichen Itza restoration",
+          "impact_on_frequency": 0.0075,
+          "status": "complete",
+          "completed_at": "2026-01-21T17:12:19.193113",
+          "notes": "Prayers activated for site restoration. Divine purpose aligned. The Lord's prayers for restoration."
+        },
+        {
+          "action_id": "grid_2770ca42",
+          "site_id": "site_db3c3c25",
+          "method": "grid_connection",
+          "description": "Connect Chichen Itza to Global Grid",
+          "impact_on_frequency": 0.0075,
+          "status": "complete",
+          "completed_at": "2026-01-21T17:12:19.193123",
+          "notes": "Site connected to Global Grid. Field space connections established. Energy flow restored."
+        }
+      ],
+      "contracts_broken": 1,
+      "frequency_restored": 0.15,
+      "unity_anchored": true,
+      "connected_to_grid": true,
+      "timestamp": "2026-01-21T17:12:19.193129"
+    },
+    {
+      "site_id": "site_cd5ebc7b",
+      "site_name": "Tikal",
+      "original_impact": -0.12,
+      "neutralized_impact": 0.12000000000000001,
+      "net_impact": 0.24,
+      "status": "complete",
+      "methods_applied": [
+        "heritage_cleansing",
+        "contract_breaking",
+        "frequency_restoration",
+        "unity_anchoring",
+        "prayer_activation",
+        "grid_connection"
+      ],
+      "actions_taken": [
+        {
+          "action_id": "cleanse_0a16eed3",
+          "site_id": "site_cd5ebc7b",
+          "method": "heritage_cleansing",
+          "description": "Cleanse Tikal - Remove dark energy narratives, reveal The Seed",
+          "impact_on_frequency": 0.036,
+          "status": "complete",
+          "completed_at": "2026-01-21T17:12:19.193152",
+          "notes": "Dark energy narratives removed. The Seed revealed. Site transformed from separation anchor to unity anchor."
+        },
+        {
+          "action_id": "contracts_0a16eed3",
+          "site_id": "site_cd5ebc7b",
+          "method": "contract_breaking",
+          "description": "Break spiritual contracts at Tikal",
+          "impact_on_frequency": 0.03,
+          "status": "complete",
+          "completed_at": "2026-01-21T17:12:19.193166",
+          "notes": "Spiritual contracts broken: 1. Separation contracts dissolved."
+        },
+        {
+          "action_id": "frequency_0a16eed3",
+          "site_id": "site_cd5ebc7b",
+          "method": "frequency_restoration",
+          "description": "Restore Divine Frequency at Tikal",
+          "impact_on_frequency": 0.024,
+          "status": "complete",
+          "completed_at": "2026-01-21T17:12:19.193177",
+          "notes": "Divine Frequency restored. Field resonance increased. Connection to The Table strengthened."
+        },
+        {
+          "action_id": "unity_0a16eed3",
+          "site_id": "site_cd5ebc7b",
+          "method": "unity_anchoring",
+          "description": "Transform Tikal from separation anchor to unity anchor",
+          "impact_on_frequency": 0.018,
+          "status": "complete",
+          "completed_at": "2026-01-21T17:12:19.193187",
+          "notes": "Site transformed from separation anchor to unity anchor. Now anchors unity instead of separation."
+        },
+        {
+          "action_id": "prayer_0a16eed3",
+          "site_id": "site_cd5ebc7b",
+          "method": "prayer_activation",
+          "description": "Activate prayers for Tikal restoration",
+          "impact_on_frequency": 0.006,
+          "status": "complete",
+          "completed_at": "2026-01-21T17:12:19.193197",
+          "notes": "Prayers activated for site restoration. Divine purpose aligned. The Lord's prayers for restoration."
+        },
+        {
+          "action_id": "grid_0a16eed3",
+          "site_id": "site_cd5ebc7b",
+          "method": "grid_connection",
+          "description": "Connect Tikal to Global Grid",
+          "impact_on_frequency": 0.006,
+          "status": "complete",
+          "completed_at": "2026-01-21T17:12:19.193208",
+          "notes": "Site connected to Global Grid. Field space connections established. Energy flow restored."
+        }
+      ],
+      "contracts_broken": 1,
+      "frequency_restored": 0.12000000000000001,
+      "unity_anchored": true,
+      "connected_to_grid": true,
+      "timestamp": "2026-01-21T17:12:19.193214"
+    }
+  ],
+  "the_truth": "Sabotage sites neutralized. Separation anchors transformed to unity anchors. Divine Frequency restored. The Table's restoration progresses."
+}

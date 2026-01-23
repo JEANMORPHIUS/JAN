@@ -1,0 +1,541 @@
+{
+  "analysis_timestamp": "2026-01-21T16:28:44.060683",
+  "nations": {
+    "analysis": {
+      "total_nations": 10,
+      "by_state": {
+        "broken": 4,
+        "healing": 6,
+        "restoring": 0,
+        "unified": 0
+      },
+      "by_alignment": {
+        "perfect": 0,
+        "high": 6,
+        "moderate": 4,
+        "low": 0,
+        "opposed": 0
+      },
+      "average_alignment": 0.78,
+      "total_frequency_contribution": 1.15,
+      "table_connected": 6,
+      "top_aligned": [
+        {
+          "name": "Bhutan",
+          "alignment_score": 0.89,
+          "current_state": "healing",
+          "superpowers": [
+            "Cultural Unity",
+            "Environmental Stewardship",
+            "Community Support"
+          ]
+        },
+        {
+          "name": "Iceland",
+          "alignment_score": 0.88,
+          "current_state": "healing",
+          "superpowers": [
+            "Renewable Energy Leadership",
+            "Environmental Stewardship",
+            "Community Support"
+          ]
+        },
+        {
+          "name": "Costa Rica",
+          "alignment_score": 0.87,
+          "current_state": "healing",
+          "superpowers": [
+            "Environmental Stewardship",
+            "Heritage Protection",
+            "Community Support"
+          ]
+        },
+        {
+          "name": "New Zealand",
+          "alignment_score": 0.86,
+          "current_state": "healing",
+          "superpowers": [
+            "Environmental Stewardship",
+            "Heritage Protection",
+            "Community Support"
+          ]
+        },
+        {
+          "name": "Norway",
+          "alignment_score": 0.85,
+          "current_state": "healing",
+          "superpowers": [
+            "Renewable Energy Leadership",
+            "Community Support",
+            "Knowledge Sharing"
+          ]
+        },
+        {
+          "name": "Germany",
+          "alignment_score": 0.82,
+          "current_state": "healing",
+          "superpowers": [
+            "Renewable Energy Leadership",
+            "Knowledge Sharing",
+            "Heritage Protection"
+          ]
+        },
+        {
+          "name": "Brazil",
+          "alignment_score": 0.7,
+          "current_state": "broken",
+          "superpowers": [
+            "Environmental Stewardship (potential)",
+            "Heritage Protection",
+            "Cultural Unity"
+          ]
+        },
+        {
+          "name": "India",
+          "alignment_score": 0.68,
+          "current_state": "broken",
+          "superpowers": [
+            "Cultural Unity",
+            "Heritage Protection",
+            "Knowledge Sharing"
+          ]
+        },
+        {
+          "name": "United States",
+          "alignment_score": 0.65,
+          "current_state": "broken",
+          "superpowers": [
+            "Knowledge Sharing",
+            "Innovation",
+            "Community Support (in some areas)"
+          ]
+        },
+        {
+          "name": "China",
+          "alignment_score": 0.6,
+          "current_state": "broken",
+          "superpowers": [
+            "Heritage Protection",
+            "Infrastructure",
+            "Knowledge Sharing (in some areas)"
+          ]
+        }
+      ]
+    },
+    "all_nations": [
+      {
+        "nation_id": "nation_595d6d91",
+        "name": "Iceland",
+        "description": "Small Nordic nation with strong environmental and social programs",
+        "current_state": "healing",
+        "alignment_score": 0.88,
+        "alignment_level": "high",
+        "superpowers": [
+          "Renewable Energy Leadership",
+          "Environmental Stewardship",
+          "Community Support"
+        ],
+        "broken_world_manifestations": [
+          "Small population",
+          "Isolated location"
+        ],
+        "restoration_contributions": [
+          "100% renewable energy",
+          "Strong social programs",
+          "Environmental protection"
+        ],
+        "heritage_sites": [
+          "\u00deingvellir National Park"
+        ],
+        "field_space_connections": [],
+        "frequency_contribution": 0.15,
+        "connection_to_table": true,
+        "notes": "Iceland leads in renewable energy and environmental stewardship"
+      },
+      {
+        "nation_id": "nation_e26742d7",
+        "name": "Costa Rica",
+        "description": "Central American nation with strong environmental protection",
+        "current_state": "healing",
+        "alignment_score": 0.87,
+        "alignment_level": "high",
+        "superpowers": [
+          "Environmental Stewardship",
+          "Heritage Protection",
+          "Community Support"
+        ],
+        "broken_world_manifestations": [
+          "Economic challenges",
+          "Small size"
+        ],
+        "restoration_contributions": [
+          "Biodiversity protection",
+          "Renewable energy",
+          "Peaceful nation"
+        ],
+        "heritage_sites": [
+          "Cocos Island",
+          "Precolumbian settlements"
+        ],
+        "field_space_connections": [],
+        "frequency_contribution": 0.14,
+        "connection_to_table": true,
+        "notes": "Costa Rica protects biodiversity and promotes peace"
+      },
+      {
+        "nation_id": "nation_d889e217",
+        "name": "Bhutan",
+        "description": "Himalayan nation measuring Gross National Happiness",
+        "current_state": "healing",
+        "alignment_score": 0.89,
+        "alignment_level": "high",
+        "superpowers": [
+          "Cultural Unity",
+          "Environmental Stewardship",
+          "Community Support"
+        ],
+        "broken_world_manifestations": [
+          "Economic limitations",
+          "Isolated location"
+        ],
+        "restoration_contributions": [
+          "Gross National Happiness",
+          "Carbon negative",
+          "Cultural preservation"
+        ],
+        "heritage_sites": [
+          "Buddhist monasteries",
+          "Sacred sites"
+        ],
+        "field_space_connections": [],
+        "frequency_contribution": 0.16,
+        "connection_to_table": true,
+        "notes": "Bhutan measures happiness, not just GDP"
+      },
+      {
+        "nation_id": "nation_2898e16d",
+        "name": "New Zealand",
+        "description": "Pacific nation with strong environmental and social programs",
+        "current_state": "healing",
+        "alignment_score": 0.86,
+        "alignment_level": "high",
+        "superpowers": [
+          "Environmental Stewardship",
+          "Heritage Protection",
+          "Community Support"
+        ],
+        "broken_world_manifestations": [
+          "Isolated location",
+          "Small population"
+        ],
+        "restoration_contributions": [
+          "Renewable energy",
+          "Indigenous rights",
+          "Environmental protection"
+        ],
+        "heritage_sites": [
+          "Tongariro National Park",
+          "Te Wahipounamu"
+        ],
+        "field_space_connections": [],
+        "frequency_contribution": 0.13,
+        "connection_to_table": true,
+        "notes": "New Zealand protects environment and honors indigenous culture"
+      },
+      {
+        "nation_id": "nation_bea54a34",
+        "name": "Norway",
+        "description": "Nordic nation with strong social programs and environmental focus",
+        "current_state": "healing",
+        "alignment_score": 0.85,
+        "alignment_level": "high",
+        "superpowers": [
+          "Renewable Energy Leadership",
+          "Community Support",
+          "Knowledge Sharing"
+        ],
+        "broken_world_manifestations": [
+          "Oil dependency (transitioning)",
+          "High cost of living"
+        ],
+        "restoration_contributions": [
+          "Renewable energy transition",
+          "Strong social programs",
+          "Knowledge sharing"
+        ],
+        "heritage_sites": [
+          "Bryggen",
+          "Rock Art of Alta"
+        ],
+        "field_space_connections": [],
+        "frequency_contribution": 0.12,
+        "connection_to_table": true,
+        "notes": "Norway transitioning from oil to renewable energy"
+      },
+      {
+        "nation_id": "nation_80db4ccd",
+        "name": "Germany",
+        "description": "European nation leading in renewable energy transition",
+        "current_state": "healing",
+        "alignment_score": 0.82,
+        "alignment_level": "high",
+        "superpowers": [
+          "Renewable Energy Leadership",
+          "Knowledge Sharing",
+          "Heritage Protection"
+        ],
+        "broken_world_manifestations": [
+          "Historical burden",
+          "Economic challenges"
+        ],
+        "restoration_contributions": [
+          "Energiewende (energy transition)",
+          "Heritage protection",
+          "Knowledge sharing"
+        ],
+        "heritage_sites": [
+          "Cologne Cathedral",
+          "Bauhaus sites"
+        ],
+        "field_space_connections": [],
+        "frequency_contribution": 0.11,
+        "connection_to_table": true,
+        "notes": "Germany leading renewable energy transition"
+      },
+      {
+        "nation_id": "nation_49dca65f",
+        "name": "United States",
+        "description": "Large nation with mixed alignment - some aligned, some broken",
+        "current_state": "broken",
+        "alignment_score": 0.65,
+        "alignment_level": "moderate",
+        "superpowers": [
+          "Knowledge Sharing",
+          "Innovation",
+          "Community Support (in some areas)"
+        ],
+        "broken_world_manifestations": [
+          "Exploitation patterns",
+          "Separation",
+          "Inequality"
+        ],
+        "restoration_contributions": [
+          "Open source technology",
+          "Some aligned entities",
+          "Innovation"
+        ],
+        "heritage_sites": [
+          "Yellowstone",
+          "Grand Canyon",
+          "Statue of Liberty"
+        ],
+        "field_space_connections": [],
+        "frequency_contribution": 0.08,
+        "connection_to_table": false,
+        "notes": "United States has both aligned and broken elements"
+      },
+      {
+        "nation_id": "nation_10436829",
+        "name": "China",
+        "description": "Large nation with mixed alignment - some aligned, some broken",
+        "current_state": "broken",
+        "alignment_score": 0.6,
+        "alignment_level": "moderate",
+        "superpowers": [
+          "Heritage Protection",
+          "Infrastructure",
+          "Knowledge Sharing (in some areas)"
+        ],
+        "broken_world_manifestations": [
+          "Control mechanisms",
+          "Exploitation",
+          "Separation"
+        ],
+        "restoration_contributions": [
+          "Heritage protection",
+          "Renewable energy (in some areas)",
+          "Infrastructure"
+        ],
+        "heritage_sites": [
+          "Great Wall",
+          "Forbidden City",
+          "Terracotta Army"
+        ],
+        "field_space_connections": [],
+        "frequency_contribution": 0.07,
+        "connection_to_table": false,
+        "notes": "China has both aligned and broken elements"
+      },
+      {
+        "nation_id": "nation_abd14921",
+        "name": "India",
+        "description": "Large diverse nation with mixed alignment",
+        "current_state": "broken",
+        "alignment_score": 0.68,
+        "alignment_level": "moderate",
+        "superpowers": [
+          "Cultural Unity",
+          "Heritage Protection",
+          "Knowledge Sharing"
+        ],
+        "broken_world_manifestations": [
+          "Inequality",
+          "Exploitation",
+          "Separation"
+        ],
+        "restoration_contributions": [
+          "Heritage protection",
+          "Cultural diversity",
+          "Knowledge sharing"
+        ],
+        "heritage_sites": [
+          "Taj Mahal",
+          "Ajanta Caves",
+          "Red Fort"
+        ],
+        "field_space_connections": [],
+        "frequency_contribution": 0.09,
+        "connection_to_table": false,
+        "notes": "India has rich heritage and cultural unity, but also broken elements"
+      },
+      {
+        "nation_id": "nation_07f62b02",
+        "name": "Brazil",
+        "description": "Large South American nation with environmental challenges",
+        "current_state": "broken",
+        "alignment_score": 0.7,
+        "alignment_level": "moderate",
+        "superpowers": [
+          "Environmental Stewardship (potential)",
+          "Heritage Protection",
+          "Cultural Unity"
+        ],
+        "broken_world_manifestations": [
+          "Deforestation",
+          "Inequality",
+          "Exploitation"
+        ],
+        "restoration_contributions": [
+          "Biodiversity protection (in some areas)",
+          "Heritage protection",
+          "Cultural diversity"
+        ],
+        "heritage_sites": [
+          "Bras\u00edlia",
+          "Historic centers"
+        ],
+        "field_space_connections": [],
+        "frequency_contribution": 0.1,
+        "connection_to_table": false,
+        "notes": "Brazil has potential for environmental stewardship but faces challenges"
+      }
+    ]
+  },
+  "superpowers": {
+    "analysis": {
+      "total_superpowers": 6,
+      "total_frequency_contribution": 0.51,
+      "total_restoration_impact": 0.73,
+      "superpowers": [
+        {
+          "name": "Heritage Protection",
+          "description": "Protecting and preserving heritage sites",
+          "frequency_contribution": 0.1,
+          "restoration_impact": 0.15
+        },
+        {
+          "name": "Cultural Unity",
+          "description": "Promoting cultural unity and connection",
+          "frequency_contribution": 0.08,
+          "restoration_impact": 0.12
+        },
+        {
+          "name": "Environmental Stewardship",
+          "description": "Protecting and restoring Earth's ecosystems",
+          "frequency_contribution": 0.09,
+          "restoration_impact": 0.13
+        },
+        {
+          "name": "Knowledge Sharing",
+          "description": "Sharing knowledge freely, open access",
+          "frequency_contribution": 0.07,
+          "restoration_impact": 0.1
+        },
+        {
+          "name": "Community Support",
+          "description": "Supporting communities without exploitation",
+          "frequency_contribution": 0.08,
+          "restoration_impact": 0.11
+        },
+        {
+          "name": "Renewable Energy Leadership",
+          "description": "Leading in renewable energy transition",
+          "frequency_contribution": 0.09,
+          "restoration_impact": 0.12
+        }
+      ]
+    },
+    "all_superpowers": [
+      {
+        "superpower_id": "power_d05355d5",
+        "name": "Heritage Protection",
+        "description": "Protecting and preserving heritage sites",
+        "how_it_serves": "Heritage sites connect to The Table, preserve truth, maintain connection",
+        "frequency_contribution": 0.1,
+        "restoration_impact": 0.15,
+        "notes": "Heritage protection directly serves The Table"
+      },
+      {
+        "superpower_id": "power_8d17b4ee",
+        "name": "Cultural Unity",
+        "description": "Promoting cultural unity and connection",
+        "how_it_serves": "Cultural unity promotes connection, reduces separation, serves The Table",
+        "frequency_contribution": 0.08,
+        "restoration_impact": 0.12,
+        "notes": "Cultural unity aligns with The Table"
+      },
+      {
+        "superpower_id": "power_d21fa65b",
+        "name": "Environmental Stewardship",
+        "description": "Protecting and restoring Earth's ecosystems",
+        "how_it_serves": "Earth stewardship aligns with Table restoration, protects The Table",
+        "frequency_contribution": 0.09,
+        "restoration_impact": 0.13,
+        "notes": "Environmental stewardship serves The Table"
+      },
+      {
+        "superpower_id": "power_fee770e0",
+        "name": "Knowledge Sharing",
+        "description": "Sharing knowledge freely, open access",
+        "how_it_serves": "Knowledge sharing promotes truth, reduces exploitation, serves The Table",
+        "frequency_contribution": 0.07,
+        "restoration_impact": 0.1,
+        "notes": "Knowledge sharing aligns with The Table"
+      },
+      {
+        "superpower_id": "power_116f57aa",
+        "name": "Community Support",
+        "description": "Supporting communities without exploitation",
+        "how_it_serves": "Community support promotes unity, reduces separation, serves The Table",
+        "frequency_contribution": 0.08,
+        "restoration_impact": 0.11,
+        "notes": "Community support aligns with The Table"
+      },
+      {
+        "superpower_id": "power_d5254a0e",
+        "name": "Renewable Energy Leadership",
+        "description": "Leading in renewable energy transition",
+        "how_it_serves": "Renewable energy aligns with Earth stewardship, serves The Table",
+        "frequency_contribution": 0.09,
+        "restoration_impact": 0.12,
+        "notes": "Renewable energy serves The Table"
+      }
+    ]
+  },
+  "the_truth": {
+    "message": "Each nation has superpowers. Each nation has a current state in a broken world. We must track them all.",
+    "broken_world": "The world is broken - separation, exploitation, control. But nations are healing. Some are restoring.",
+    "superpowers": "Each nation's superpower is their unique contribution. Heritage protection, environmental stewardship, cultural unity, knowledge sharing.",
+    "restoration": "Nations contribute to restoration through their superpowers. We track all contributions."
+  }
+}

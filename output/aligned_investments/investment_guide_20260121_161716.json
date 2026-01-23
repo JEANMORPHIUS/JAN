@@ -1,0 +1,783 @@
+{
+  "analysis_timestamp": "2026-01-21T16:17:16.719853",
+  "total_projects": 12,
+  "total_tips": 7,
+  "projects_by_level": {
+    "small": 7,
+    "medium": 3,
+    "large": 2,
+    "institutional": 0
+  },
+  "projects_by_type": {
+    "direct": 1,
+    "fund": 1,
+    "cooperative": 3,
+    "crowdfunding": 0,
+    "community": 0,
+    "impact": 6,
+    "esg": 1,
+    "dividend": 0,
+    "growth": 0,
+    "income": 0
+  },
+  "all_projects": [
+    {
+      "project_id": "project_bf0743c9",
+      "name": "Local Credit Union Savings Account",
+      "description": "Open a savings account at a local credit union - member-owned, not profit-driven",
+      "investment_type": "cooperative",
+      "investment_level": "small",
+      "risk_level": "very_low",
+      "minimum_investment": 1.0,
+      "alignment_score": 0.84,
+      "frequency_contribution": 0.01,
+      "how_it_aligns": [
+        "Member ownership",
+        "No exploitation",
+        "Community service",
+        "Unity"
+      ],
+      "expected_return": "2-3% APY",
+      "time_horizon": "Flexible",
+      "liquidity": "High - withdraw anytime",
+      "website": null,
+      "contact": null,
+      "tips": [
+        "Start with $25-50 if that's what you have",
+        "Set up automatic transfers of $10-20/month",
+        "Credit unions are member-owned, not profit-driven",
+        "Your money stays in your community"
+      ],
+      "notes": "Perfect starting point for the man in the street"
+    },
+    {
+      "project_id": "project_da26d1ca",
+      "name": "Community Solar Cooperative",
+      "description": "Join a community solar cooperative - own a share of local solar energy",
+      "investment_type": "cooperative",
+      "investment_level": "small",
+      "risk_level": "low",
+      "minimum_investment": 100.0,
+      "alignment_score": 0.88,
+      "frequency_contribution": 0.02,
+      "how_it_aligns": [
+        "Community ownership",
+        "Renewable energy",
+        "No exploitation",
+        "Stewardship"
+      ],
+      "expected_return": "5-8% annually",
+      "time_horizon": "5-10 years",
+      "liquidity": "Moderate - can sell share",
+      "website": null,
+      "contact": null,
+      "tips": [
+        "Start with $100-500 if possible",
+        "Reduces your electricity bill",
+        "Supports renewable energy",
+        "Community-owned, not corporate"
+      ],
+      "notes": "Community solar aligns with Earth stewardship"
+    },
+    {
+      "project_id": "project_aa4eaafd",
+      "name": "Local Food Cooperative Membership",
+      "description": "Join a local food cooperative - support local farmers, get better food",
+      "investment_type": "cooperative",
+      "investment_level": "small",
+      "risk_level": "very_low",
+      "minimum_investment": 50.0,
+      "alignment_score": 0.85,
+      "frequency_contribution": 0.01,
+      "how_it_aligns": [
+        "Community support",
+        "Local economy",
+        "No exploitation",
+        "Unity"
+      ],
+      "expected_return": "10-20% discount on food",
+      "time_horizon": "Ongoing",
+      "liquidity": "High - can withdraw membership",
+      "website": null,
+      "contact": null,
+      "tips": [
+        "Start with $50-100 membership",
+        "Get discounts on food",
+        "Support local farmers",
+        "Build community connections"
+      ],
+      "notes": "Food co-ops support local communities"
+    },
+    {
+      "project_id": "project_397bdc11",
+      "name": "Micro-Lending to Aligned Businesses",
+      "description": "Lend small amounts to aligned businesses through micro-lending platforms",
+      "investment_type": "impact",
+      "investment_level": "small",
+      "risk_level": "moderate",
+      "minimum_investment": 25.0,
+      "alignment_score": 0.86,
+      "frequency_contribution": 0.02,
+      "how_it_aligns": [
+        "Support aligned businesses",
+        "Community service",
+        "No exploitation",
+        "Unity"
+      ],
+      "expected_return": "4-6% annually",
+      "time_horizon": "1-3 years",
+      "liquidity": "Low - locked until repayment",
+      "website": null,
+      "contact": null,
+      "tips": [
+        "Start with $25-100",
+        "Diversify across multiple loans",
+        "Support aligned businesses",
+        "Help others while earning"
+      ],
+      "notes": "Micro-lending supports aligned businesses"
+    },
+    {
+      "project_id": "project_0fcca1b6",
+      "name": "Homeless Support Organizations - Direct Donation",
+      "description": "Direct donations to organizations providing housing and meals for the homeless",
+      "investment_type": "impact",
+      "investment_level": "small",
+      "risk_level": "very_low",
+      "minimum_investment": 1.0,
+      "alignment_score": 0.95,
+      "frequency_contribution": 0.05,
+      "how_it_aligns": [
+        "NO ONE GETS LEFT BEHIND",
+        "Roof over head",
+        "Hot meal a day",
+        "Community service",
+        "Unity"
+      ],
+      "expected_return": "Lives changed, community strengthened",
+      "time_horizon": "Immediate impact",
+      "liquidity": "N/A - donation",
+      "website": null,
+      "contact": null,
+      "tips": [
+        "Start with $1-10 if that's what you have",
+        "Set up monthly recurring donation of $5-25",
+        "Research local homeless shelters and food programs",
+        "May the Lord give them a roof over their head and one hot meal a day",
+        "Every dollar helps - even $1 provides a meal"
+      ],
+      "notes": "NO ONE GETS LEFT BEHIND. May the Lord give them a roof over their head and one hot meal a day."
+    },
+    {
+      "project_id": "project_a1e46b09",
+      "name": "Housing First Programs",
+      "description": "Support Housing First programs that provide permanent housing for the homeless",
+      "investment_type": "impact",
+      "investment_level": "small",
+      "risk_level": "very_low",
+      "minimum_investment": 10.0,
+      "alignment_score": 0.94,
+      "frequency_contribution": 0.08,
+      "how_it_aligns": [
+        "NO ONE GETS LEFT BEHIND",
+        "Roof over head",
+        "Permanent housing",
+        "Community service",
+        "Unity"
+      ],
+      "expected_return": "Lives transformed, community strengthened",
+      "time_horizon": "Ongoing support",
+      "liquidity": "N/A - donation",
+      "website": null,
+      "contact": null,
+      "tips": [
+        "Start with $10-50 monthly",
+        "Housing First programs are proven effective",
+        "Provides permanent housing, not just shelter",
+        "May the Lord give them a roof over their head"
+      ],
+      "notes": "Housing First provides permanent housing - highest alignment with NO ONE GETS LEFT BEHIND"
+    },
+    {
+      "project_id": "project_d50281a9",
+      "name": "Community Meal Programs",
+      "description": "Support community meal programs providing hot meals for the homeless",
+      "investment_type": "impact",
+      "investment_level": "small",
+      "risk_level": "very_low",
+      "minimum_investment": 5.0,
+      "alignment_score": 0.93,
+      "frequency_contribution": 0.04,
+      "how_it_aligns": [
+        "NO ONE GETS LEFT BEHIND",
+        "Hot meal a day",
+        "Community service",
+        "Unity"
+      ],
+      "expected_return": "Lives nourished, community strengthened",
+      "time_horizon": "Ongoing support",
+      "liquidity": "N/A - donation",
+      "website": null,
+      "contact": null,
+      "tips": [
+        "Start with $5-20 monthly",
+        "$5 can provide one hot meal",
+        "Support local soup kitchens and meal programs",
+        "May the Lord give them one hot meal a day",
+        "Volunteer time if you can't donate money"
+      ],
+      "notes": "Community meal programs provide hot meals - one hot meal a day"
+    },
+    {
+      "project_id": "project_d223ff89",
+      "name": "Impact Investment Fund",
+      "description": "Invest in impact investment funds that support aligned businesses",
+      "investment_type": "impact",
+      "investment_level": "medium",
+      "risk_level": "moderate",
+      "minimum_investment": 1000.0,
+      "alignment_score": 0.85,
+      "frequency_contribution": 0.05,
+      "how_it_aligns": [
+        "Positive impact",
+        "No exploitation",
+        "Social good",
+        "Stewardship"
+      ],
+      "expected_return": "6-10% annually",
+      "time_horizon": "5-10 years",
+      "liquidity": "Moderate",
+      "website": null,
+      "contact": null,
+      "tips": [
+        "Start with $1,000-5,000",
+        "Diversify across multiple funds",
+        "Look for low-fee impact funds",
+        "Support aligned businesses"
+      ],
+      "notes": "Impact investing aligns capital with positive outcomes"
+    },
+    {
+      "project_id": "project_198b0b85",
+      "name": "ESG Index Fund",
+      "description": "Invest in ESG (Environmental, Social, Governance) index funds",
+      "investment_type": "esg",
+      "investment_level": "medium",
+      "risk_level": "moderate",
+      "minimum_investment": 1000.0,
+      "alignment_score": 0.82,
+      "frequency_contribution": 0.04,
+      "how_it_aligns": [
+        "ESG criteria",
+        "No exploitation",
+        "Social good",
+        "Stewardship"
+      ],
+      "expected_return": "7-10% annually",
+      "time_horizon": "5-10 years",
+      "liquidity": "High",
+      "website": null,
+      "contact": null,
+      "tips": [
+        "Start with $1,000-3,000",
+        "Look for low-fee ESG funds",
+        "Diversify across sectors",
+        "Long-term growth focus"
+      ],
+      "notes": "ESG funds align with The Table"
+    },
+    {
+      "project_id": "project_bd58296e",
+      "name": "Community Development Financial Institution (CDFI) Investment",
+      "description": "Invest in CDFIs that serve underserved communities",
+      "investment_type": "impact",
+      "investment_level": "medium",
+      "risk_level": "low",
+      "minimum_investment": 1000.0,
+      "alignment_score": 0.86,
+      "frequency_contribution": 0.05,
+      "how_it_aligns": [
+        "Community service",
+        "No exploitation",
+        "Financial inclusion",
+        "Unity"
+      ],
+      "expected_return": "2-4% annually",
+      "time_horizon": "3-5 years",
+      "liquidity": "Low",
+      "website": null,
+      "contact": null,
+      "tips": [
+        "Start with $1,000-5,000",
+        "Support underserved communities",
+        "Low risk, community impact",
+        "Helps others while earning"
+      ],
+      "notes": "CDFIs serve communities without exploitation"
+    },
+    {
+      "project_id": "project_8d1c29bb",
+      "name": "Direct Investment in Aligned Businesses",
+      "description": "Direct investment in aligned businesses (renewable energy, co-ops, etc.)",
+      "investment_type": "direct",
+      "investment_level": "large",
+      "risk_level": "high",
+      "minimum_investment": 10000.0,
+      "alignment_score": 0.88,
+      "frequency_contribution": 0.1,
+      "how_it_aligns": [
+        "Direct alignment",
+        "No exploitation",
+        "Community service",
+        "Stewardship"
+      ],
+      "expected_return": "8-15% annually",
+      "time_horizon": "5-10 years",
+      "liquidity": "Low",
+      "website": null,
+      "contact": null,
+      "tips": [
+        "Start with $10,000-25,000",
+        "Diversify across multiple businesses",
+        "Do due diligence",
+        "Support aligned businesses"
+      ],
+      "notes": "Direct investment in aligned businesses"
+    },
+    {
+      "project_id": "project_bd879611",
+      "name": "Renewable Energy Infrastructure Fund",
+      "description": "Invest in renewable energy infrastructure funds",
+      "investment_type": "fund",
+      "investment_level": "large",
+      "risk_level": "moderate",
+      "minimum_investment": 10000.0,
+      "alignment_score": 0.88,
+      "frequency_contribution": 0.1,
+      "how_it_aligns": [
+        "Renewable energy",
+        "No exploitation",
+        "Stewardship",
+        "Earth restoration"
+      ],
+      "expected_return": "7-12% annually",
+      "time_horizon": "10+ years",
+      "liquidity": "Moderate",
+      "website": null,
+      "contact": null,
+      "tips": [
+        "Start with $10,000-50,000",
+        "Long-term investment",
+        "Supports renewable energy",
+        "Earth stewardship"
+      ],
+      "notes": "Renewable energy aligns with Earth stewardship"
+    }
+  ],
+  "all_tips": [
+    {
+      "tip_id": "tip_3f702316",
+      "category": "Getting Started",
+      "title": "Start Where You Are",
+      "description": "You don't need thousands to start. Start with what you have, even if it's $10.",
+      "for_level": "small",
+      "actionable": true,
+      "examples": [
+        "Open a credit union savings account with $25",
+        "Set up automatic $10/month transfers",
+        "Join a food co-op with $50",
+        "Start a small emergency fund"
+      ],
+      "notes": "The man in the street can start small"
+    },
+    {
+      "tip_id": "tip_53a4d30a",
+      "category": "Building Wealth",
+      "title": "Pay Yourself First",
+      "description": "Before paying bills, pay yourself. Even $10/month adds up.",
+      "for_level": "small",
+      "actionable": true,
+      "examples": [
+        "Set up automatic transfer on payday",
+        "Start with $10/month, increase when you can",
+        "Treat savings like a bill",
+        "Watch it grow over time"
+      ],
+      "notes": "Small amounts compound over time"
+    },
+    {
+      "tip_id": "tip_caf99445",
+      "category": "Avoiding Exploitation",
+      "title": "Avoid High-Fee Investments",
+      "description": "Avoid investments with high fees - they drain your money. Look for low-fee options.",
+      "for_level": "small",
+      "actionable": true,
+      "examples": [
+        "Credit unions have lower fees than banks",
+        "Avoid investment products with 2%+ fees",
+        "Look for no-fee or low-fee options",
+        "Read the fine print on fees"
+      ],
+      "notes": "High fees are exploitation"
+    },
+    {
+      "tip_id": "tip_3087e909",
+      "category": "Community Investment",
+      "title": "Invest in Your Community",
+      "description": "Invest in your local community - credit unions, co-ops, local businesses.",
+      "for_level": "small",
+      "actionable": true,
+      "examples": [
+        "Join a credit union",
+        "Join a food co-op",
+        "Support local businesses",
+        "Invest in community solar"
+      ],
+      "notes": "Community investment builds unity"
+    },
+    {
+      "tip_id": "tip_51fba88e",
+      "category": "Alignment",
+      "title": "Invest in Alignment",
+      "description": "Invest in things that align with The Table - they serve, not exploit.",
+      "for_level": "small",
+      "actionable": true,
+      "examples": [
+        "Credit unions (member-owned)",
+        "Co-ops (community-owned)",
+        "Renewable energy",
+        "Local businesses"
+      ],
+      "notes": "Alignment means serving The Table"
+    },
+    {
+      "tip_id": "tip_2e3dd3be",
+      "category": "Homeless Support",
+      "title": "Help the Homeless - NO ONE GETS LEFT BEHIND",
+      "description": "Support the homeless. May the Lord give them a roof over their head and one hot meal a day.",
+      "for_level": "small",
+      "actionable": true,
+      "examples": [
+        "Donate $1-10 to local homeless shelter",
+        "Set up $5-25/month recurring donation",
+        "Support Housing First programs",
+        "Support community meal programs",
+        "Volunteer time if you can't donate money",
+        "Even $1 provides a meal"
+      ],
+      "notes": "NO ONE GETS LEFT BEHIND. May the Lord give them a roof over their head and one hot meal a day."
+    },
+    {
+      "tip_id": "tip_0a38dc34",
+      "category": "Homeless Support",
+      "title": "Start Small - Every Dollar Helps",
+      "description": "You don't need much to help. Even $1 provides a meal. Even $5 helps.",
+      "for_level": "small",
+      "actionable": true,
+      "examples": [
+        "$1 can provide a meal",
+        "$5 can provide 5 meals",
+        "$10 can provide shelter for a night",
+        "$25 can provide a week of meals",
+        "Start with what you have"
+      ],
+      "notes": "Every dollar helps. Start with what you have."
+    }
+  ],
+  "investment_guides": {
+    "small": {
+      "level": "small",
+      "total_projects": 7,
+      "total_tips": 7,
+      "projects": [
+        {
+          "name": "Local Credit Union Savings Account",
+          "description": "Open a savings account at a local credit union - member-owned, not profit-driven",
+          "investment_type": "cooperative",
+          "risk_level": "very_low",
+          "minimum_investment": 1.0,
+          "alignment_score": 0.84,
+          "tips": [
+            "Start with $25-50 if that's what you have",
+            "Set up automatic transfers of $10-20/month",
+            "Credit unions are member-owned, not profit-driven",
+            "Your money stays in your community"
+          ]
+        },
+        {
+          "name": "Community Solar Cooperative",
+          "description": "Join a community solar cooperative - own a share of local solar energy",
+          "investment_type": "cooperative",
+          "risk_level": "low",
+          "minimum_investment": 100.0,
+          "alignment_score": 0.88,
+          "tips": [
+            "Start with $100-500 if possible",
+            "Reduces your electricity bill",
+            "Supports renewable energy",
+            "Community-owned, not corporate"
+          ]
+        },
+        {
+          "name": "Local Food Cooperative Membership",
+          "description": "Join a local food cooperative - support local farmers, get better food",
+          "investment_type": "cooperative",
+          "risk_level": "very_low",
+          "minimum_investment": 50.0,
+          "alignment_score": 0.85,
+          "tips": [
+            "Start with $50-100 membership",
+            "Get discounts on food",
+            "Support local farmers",
+            "Build community connections"
+          ]
+        },
+        {
+          "name": "Micro-Lending to Aligned Businesses",
+          "description": "Lend small amounts to aligned businesses through micro-lending platforms",
+          "investment_type": "impact",
+          "risk_level": "moderate",
+          "minimum_investment": 25.0,
+          "alignment_score": 0.86,
+          "tips": [
+            "Start with $25-100",
+            "Diversify across multiple loans",
+            "Support aligned businesses",
+            "Help others while earning"
+          ]
+        },
+        {
+          "name": "Homeless Support Organizations - Direct Donation",
+          "description": "Direct donations to organizations providing housing and meals for the homeless",
+          "investment_type": "impact",
+          "risk_level": "very_low",
+          "minimum_investment": 1.0,
+          "alignment_score": 0.95,
+          "tips": [
+            "Start with $1-10 if that's what you have",
+            "Set up monthly recurring donation of $5-25",
+            "Research local homeless shelters and food programs",
+            "May the Lord give them a roof over their head and one hot meal a day",
+            "Every dollar helps - even $1 provides a meal"
+          ]
+        },
+        {
+          "name": "Housing First Programs",
+          "description": "Support Housing First programs that provide permanent housing for the homeless",
+          "investment_type": "impact",
+          "risk_level": "very_low",
+          "minimum_investment": 10.0,
+          "alignment_score": 0.94,
+          "tips": [
+            "Start with $10-50 monthly",
+            "Housing First programs are proven effective",
+            "Provides permanent housing, not just shelter",
+            "May the Lord give them a roof over their head"
+          ]
+        },
+        {
+          "name": "Community Meal Programs",
+          "description": "Support community meal programs providing hot meals for the homeless",
+          "investment_type": "impact",
+          "risk_level": "very_low",
+          "minimum_investment": 5.0,
+          "alignment_score": 0.93,
+          "tips": [
+            "Start with $5-20 monthly",
+            "$5 can provide one hot meal",
+            "Support local soup kitchens and meal programs",
+            "May the Lord give them one hot meal a day",
+            "Volunteer time if you can't donate money"
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "category": "Getting Started",
+          "title": "Start Where You Are",
+          "description": "You don't need thousands to start. Start with what you have, even if it's $10.",
+          "actionable": true,
+          "examples": [
+            "Open a credit union savings account with $25",
+            "Set up automatic $10/month transfers",
+            "Join a food co-op with $50",
+            "Start a small emergency fund"
+          ]
+        },
+        {
+          "category": "Building Wealth",
+          "title": "Pay Yourself First",
+          "description": "Before paying bills, pay yourself. Even $10/month adds up.",
+          "actionable": true,
+          "examples": [
+            "Set up automatic transfer on payday",
+            "Start with $10/month, increase when you can",
+            "Treat savings like a bill",
+            "Watch it grow over time"
+          ]
+        },
+        {
+          "category": "Avoiding Exploitation",
+          "title": "Avoid High-Fee Investments",
+          "description": "Avoid investments with high fees - they drain your money. Look for low-fee options.",
+          "actionable": true,
+          "examples": [
+            "Credit unions have lower fees than banks",
+            "Avoid investment products with 2%+ fees",
+            "Look for no-fee or low-fee options",
+            "Read the fine print on fees"
+          ]
+        },
+        {
+          "category": "Community Investment",
+          "title": "Invest in Your Community",
+          "description": "Invest in your local community - credit unions, co-ops, local businesses.",
+          "actionable": true,
+          "examples": [
+            "Join a credit union",
+            "Join a food co-op",
+            "Support local businesses",
+            "Invest in community solar"
+          ]
+        },
+        {
+          "category": "Alignment",
+          "title": "Invest in Alignment",
+          "description": "Invest in things that align with The Table - they serve, not exploit.",
+          "actionable": true,
+          "examples": [
+            "Credit unions (member-owned)",
+            "Co-ops (community-owned)",
+            "Renewable energy",
+            "Local businesses"
+          ]
+        },
+        {
+          "category": "Homeless Support",
+          "title": "Help the Homeless - NO ONE GETS LEFT BEHIND",
+          "description": "Support the homeless. May the Lord give them a roof over their head and one hot meal a day.",
+          "actionable": true,
+          "examples": [
+            "Donate $1-10 to local homeless shelter",
+            "Set up $5-25/month recurring donation",
+            "Support Housing First programs",
+            "Support community meal programs",
+            "Volunteer time if you can't donate money",
+            "Even $1 provides a meal"
+          ]
+        },
+        {
+          "category": "Homeless Support",
+          "title": "Start Small - Every Dollar Helps",
+          "description": "You don't need much to help. Even $1 provides a meal. Even $5 helps.",
+          "actionable": true,
+          "examples": [
+            "$1 can provide a meal",
+            "$5 can provide 5 meals",
+            "$10 can provide shelter for a night",
+            "$25 can provide a week of meals",
+            "Start with what you have"
+          ]
+        }
+      ]
+    },
+    "medium": {
+      "level": "medium",
+      "total_projects": 3,
+      "total_tips": 0,
+      "projects": [
+        {
+          "name": "Impact Investment Fund",
+          "description": "Invest in impact investment funds that support aligned businesses",
+          "investment_type": "impact",
+          "risk_level": "moderate",
+          "minimum_investment": 1000.0,
+          "alignment_score": 0.85,
+          "tips": [
+            "Start with $1,000-5,000",
+            "Diversify across multiple funds",
+            "Look for low-fee impact funds",
+            "Support aligned businesses"
+          ]
+        },
+        {
+          "name": "ESG Index Fund",
+          "description": "Invest in ESG (Environmental, Social, Governance) index funds",
+          "investment_type": "esg",
+          "risk_level": "moderate",
+          "minimum_investment": 1000.0,
+          "alignment_score": 0.82,
+          "tips": [
+            "Start with $1,000-3,000",
+            "Look for low-fee ESG funds",
+            "Diversify across sectors",
+            "Long-term growth focus"
+          ]
+        },
+        {
+          "name": "Community Development Financial Institution (CDFI) Investment",
+          "description": "Invest in CDFIs that serve underserved communities",
+          "investment_type": "impact",
+          "risk_level": "low",
+          "minimum_investment": 1000.0,
+          "alignment_score": 0.86,
+          "tips": [
+            "Start with $1,000-5,000",
+            "Support underserved communities",
+            "Low risk, community impact",
+            "Helps others while earning"
+          ]
+        }
+      ],
+      "tips": []
+    },
+    "large": {
+      "level": "large",
+      "total_projects": 2,
+      "total_tips": 0,
+      "projects": [
+        {
+          "name": "Direct Investment in Aligned Businesses",
+          "description": "Direct investment in aligned businesses (renewable energy, co-ops, etc.)",
+          "investment_type": "direct",
+          "risk_level": "high",
+          "minimum_investment": 10000.0,
+          "alignment_score": 0.88,
+          "tips": [
+            "Start with $10,000-25,000",
+            "Diversify across multiple businesses",
+            "Do due diligence",
+            "Support aligned businesses"
+          ]
+        },
+        {
+          "name": "Renewable Energy Infrastructure Fund",
+          "description": "Invest in renewable energy infrastructure funds",
+          "investment_type": "fund",
+          "risk_level": "moderate",
+          "minimum_investment": 10000.0,
+          "alignment_score": 0.88,
+          "tips": [
+            "Start with $10,000-50,000",
+            "Long-term investment",
+            "Supports renewable energy",
+            "Earth stewardship"
+          ]
+        }
+      ],
+      "tips": []
+    },
+    "institutional": {
+      "level": "institutional",
+      "total_projects": 0,
+      "total_tips": 0,
+      "projects": [],
+      "tips": []
+    }
+  },
+  "the_truth": {
+    "message": "THIS STARTS WITH US. HELP THE MAN IN THE STREET. GIVE THEM TIPS.",
+    "alignment": "All investments must align with The Table. They serve, not exploit.",
+    "purpose": "Help all investors at all levels invest in alignment with The Table."
+  }
+}

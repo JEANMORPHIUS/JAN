@@ -1,0 +1,26 @@
+{
+  "report_timestamp": "2026-01-21T17:20:24.025012",
+  "supported_languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "native_name": "English",
+      "status": "full",
+      "translation_count": 6,
+      "coverage_percentage": 100.0
+    },
+    {
+      "code": "tr",
+      "name": "Turkish",
+      "native_name": "Türkçe",
+      "status": "full",
+      "translation_count": 6,
+      "coverage_percentage": 100.0
+    }
+  ],
+  "translation_counts": {
+    "en": 6,
+    "tr": 6
+  },
+  "the_truth": "Full English/Turkish support. Framework for future languages. All systems integrated."
+}

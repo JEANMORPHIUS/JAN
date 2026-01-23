@@ -1,0 +1,15 @@
+{
+  "name": "json-format",
+  "version": "1.0.0",
+  "author": "JAN Team",
+  "description": "Format output as JSON",
+  "type": "output-format",
+  "entry_point": "json_plugin.py",
+  "dependencies": [],
+  "permissions": [],
+  "config": {},
+  "requires": {
+    "jan_version": ">=1.0.0"
+  }
+}
+

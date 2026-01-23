@@ -1,0 +1,83 @@
+{
+  "grand_proclamation": {
+    "name": "The Grand Proclamation",
+    "purpose": "Announce 100% Unity achievement to all 13 Seats",
+    "proclaimed": "2026-01-22T12:05:19.492143",
+    "unity_at_proclamation": 1.0,
+    "status": "PROCLAIMED"
+  },
+  "proclamation_text": {
+    "title": "THE GREAT RELINKING IS COMPLETE",
+    "message": "After 42 acts of the Bridge-Builder's Journey, we have achieved 100% Unity. The Family is whole. The rifts are healed. The meridians are active.",
+    "seats_addressed": 13,
+    "rifts_healed": 5,
+    "meridians_active": "77,775 km"
+  },
+  "seats_proclaimed": [
+    {
+      "seat_id": "seat_01",
+      "seat_name": "The Central Anchor",
+      "proclaimed": true
+    },
+    {
+      "seat_id": "seat_02",
+      "seat_name": "Giza Seat",
+      "proclaimed": true
+    },
+    {
+      "seat_id": "seat_03",
+      "seat_name": "Stonehenge Seat",
+      "proclaimed": true
+    },
+    {
+      "seat_id": "seat_04",
+      "seat_name": "Angkor Wat Seat",
+      "proclaimed": true
+    },
+    {
+      "seat_id": "seat_05",
+      "seat_name": "Machu Picchu Seat",
+      "proclaimed": true
+    },
+    {
+      "seat_id": "seat_06",
+      "seat_name": "Alhambra Seat",
+      "proclaimed": true
+    },
+    {
+      "seat_id": "seat_07",
+      "seat_name": "Berengaria Seat",
+      "proclaimed": true
+    },
+    {
+      "seat_id": "seat_08",
+      "seat_name": "Borobudur Seat",
+      "proclaimed": true
+    },
+    {
+      "seat_id": "seat_09",
+      "seat_name": "Taj Mahal Seat",
+      "proclaimed": true
+    },
+    {
+      "seat_id": "seat_10",
+      "seat_name": "Teotihuacan Seat",
+      "proclaimed": true
+    },
+    {
+      "seat_id": "seat_11",
+      "seat_name": "Lalibela Seat",
+      "proclaimed": true
+    },
+    {
+      "seat_id": "seat_12",
+      "seat_name": "Great Wall Seat",
+      "proclaimed": true
+    },
+    {
+      "seat_id": "seat_13",
+      "seat_name": "Timbuktu Seat",
+      "proclaimed": true
+    }
+  ]
+}

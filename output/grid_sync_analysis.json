@@ -1,0 +1,476 @@
+{
+  "grid_sync_timestamp": "2026-01-20T03:37:11.112538",
+  "pillars": [
+    {
+      "id": 1,
+      "name": "Berengaria Hotel",
+      "region": "Troodos Mountains",
+      "country": "Cyprus",
+      "lat": 34.9167,
+      "lon": 32.8333,
+      "field_resonance": 0.8393333333333335,
+      "field_space": 0.3855555555555556,
+      "pole_alignment": "neutral",
+      "polarity": "positive"
+    },
+    {
+      "id": 3,
+      "name": "Alhambra Palace",
+      "region": "Andalusia",
+      "country": "Spain",
+      "lat": 37.177,
+      "lon": -3.5886,
+      "field_resonance": 0.869,
+      "field_space": 0.35,
+      "pole_alignment": "neutral",
+      "polarity": "positive"
+    },
+    {
+      "id": 4,
+      "name": "Stonehenge",
+      "region": "Wiltshire",
+      "country": "England",
+      "lat": 51.1789,
+      "lon": -1.8262,
+      "field_resonance": 0.8416666666666667,
+      "field_space": 0.2611111111111111,
+      "pole_alignment": "north",
+      "polarity": "positive"
+    },
+    {
+      "id": 6,
+      "name": "Great Pyramid of Giza",
+      "region": "Giza",
+      "country": "Egypt",
+      "lat": 29.9792,
+      "lon": 31.1342,
+      "field_resonance": 0.8900000000000001,
+      "field_space": 0.5333333333333333,
+      "pole_alignment": "neutral",
+      "polarity": "neutral"
+    },
+    {
+      "id": 8,
+      "name": "Angkor Wat",
+      "region": "Siem Reap",
+      "country": "Cambodia",
+      "lat": 13.4125,
+      "lon": 103.867,
+      "field_resonance": 0.6843333333333333,
+      "field_space": 0.9111111111111111,
+      "pole_alignment": "neutral",
+      "polarity": "neutral"
+    },
+    {
+      "id": 10,
+      "name": "Machu Picchu",
+      "region": "Cusco",
+      "country": "Peru",
+      "lat": -13.1631,
+      "lon": -72.545,
+      "field_resonance": 0.5640000000000001,
+      "field_space": 0.8666666666666667,
+      "pole_alignment": "neutral",
+      "polarity": "neutral"
+    },
+    {
+      "id": 12,
+      "name": "Uluru",
+      "region": "Northern Territory",
+      "country": "Australia",
+      "lat": -25.3444,
+      "lon": 131.0369,
+      "field_resonance": 0.781969696969697,
+      "field_space": 0.28888888888888886,
+      "pole_alignment": "south",
+      "polarity": "negative"
+    }
+  ],
+  "connections": [
+    {
+      "site1": "Berengaria Hotel",
+      "site1_id": 1,
+      "site2": "Alhambra Palace",
+      "site2_id": 3,
+      "distance_km": 3264.0798233928604,
+      "connection": {
+        "avg_field_space": 0.36777777777777776,
+        "avg_resonance": 0.8541666666666667,
+        "connection_strength": 0.3141435185185185,
+        "energy_flow": 0.1635361361545723,
+        "distance_km": 3264.0798233928604,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Berengaria Hotel",
+      "site1_id": 1,
+      "site2": "Stonehenge",
+      "site2_id": 4,
+      "distance_km": 3300.685944947771,
+      "connection": {
+        "avg_field_space": 0.32333333333333336,
+        "avg_resonance": 0.8405,
+        "connection_strength": 0.2717616666666667,
+        "energy_flow": 0.14044111178446864,
+        "distance_km": 3300.685944947771,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Berengaria Hotel",
+      "site1_id": 1,
+      "site2": "Great Pyramid of Giza",
+      "site2_id": 6,
+      "distance_km": 571.6752740849402,
+      "connection": {
+        "avg_field_space": 0.45944444444444443,
+        "avg_resonance": 0.8646666666666668,
+        "connection_strength": 0.39726629629629634,
+        "energy_flow": 0.3543452684932949,
+        "distance_km": 571.6752740849402,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Berengaria Hotel",
+      "site1_id": 1,
+      "site2": "Angkor Wat",
+      "site2_id": 8,
+      "distance_km": 7441.229748834945,
+      "connection": {
+        "avg_field_space": 0.6483333333333333,
+        "avg_resonance": 0.7618333333333334,
+        "connection_strength": 0.4939219444444444,
+        "energy_flow": 0.11151192632531884,
+        "distance_km": 7441.229748834945,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Berengaria Hotel",
+      "site1_id": 1,
+      "site2": "Machu Picchu",
+      "site2_id": 10,
+      "distance_km": 12231.88097818146,
+      "connection": {
+        "avg_field_space": 0.6261111111111112,
+        "avg_resonance": 0.7016666666666668,
+        "connection_strength": 0.4393212962962964,
+        "energy_flow": 0.03804824013915857,
+        "distance_km": 12231.88097818146,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Berengaria Hotel",
+      "site1_id": 1,
+      "site2": "Uluru",
+      "site2_id": 12,
+      "distance_km": 12290.779217835474,
+      "connection": {
+        "avg_field_space": 0.3372222222222222,
+        "avg_resonance": 0.8106515151515152,
+        "connection_strength": 0.2733697053872054,
+        "energy_flow": 0.023398437992071752,
+        "distance_km": 12290.779217835474,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Alhambra Palace",
+      "site1_id": 3,
+      "site2": "Stonehenge",
+      "site2_id": 4,
+      "distance_km": 1563.1496850335525,
+      "connection": {
+        "avg_field_space": 0.3055555555555556,
+        "avg_resonance": 0.8553333333333333,
+        "connection_strength": 0.26135185185185184,
+        "energy_flow": 0.19118425594500285,
+        "distance_km": 1563.1496850335525,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Alhambra Palace",
+      "site1_id": 3,
+      "site2": "Great Pyramid of Giza",
+      "site2_id": 6,
+      "distance_km": 3295.0134505468336,
+      "connection": {
+        "avg_field_space": 0.44166666666666665,
+        "avg_resonance": 0.8795000000000001,
+        "connection_strength": 0.3884458333333333,
+        "energy_flow": 0.2009690758717325,
+        "distance_km": 3295.0134505468336,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Alhambra Palace",
+      "site1_id": 3,
+      "site2": "Angkor Wat",
+      "site2_id": 8,
+      "distance_km": 10596.538062250347,
+      "connection": {
+        "avg_field_space": 0.6305555555555555,
+        "avg_resonance": 0.7766666666666666,
+        "connection_strength": 0.48973148148148143,
+        "energy_flow": 0.058823982151559505,
+        "distance_km": 10596.538062250347,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Alhambra Palace",
+      "site1_id": 3,
+      "site2": "Machu Picchu",
+      "site2_id": 10,
+      "distance_km": 9106.372004403956,
+      "connection": {
+        "avg_field_space": 0.6083333333333334,
+        "avg_resonance": 0.7165,
+        "connection_strength": 0.4358708333333334,
+        "energy_flow": 0.07053235528525678,
+        "distance_km": 9106.372004403956,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Alhambra Palace",
+      "site1_id": 3,
+      "site2": "Uluru",
+      "site2_id": 12,
+      "distance_km": 15552.045029436906,
+      "connection": {
+        "avg_field_space": 0.3194444444444444,
+        "avg_resonance": 0.8254848484848485,
+        "connection_strength": 0.2636965488215488,
+        "energy_flow": 0.011756308614471312,
+        "distance_km": 15552.045029436906,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Stonehenge",
+      "site1_id": 4,
+      "site2": "Great Pyramid of Giza",
+      "site2_id": 6,
+      "distance_km": 3595.6059224909513,
+      "connection": {
+        "avg_field_space": 0.39722222222222225,
+        "avg_resonance": 0.8658333333333335,
+        "connection_strength": 0.3439282407407408,
+        "energy_flow": 0.16755503234490685,
+        "distance_km": 3595.6059224909513,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Stonehenge",
+      "site1_id": 4,
+      "site2": "Angkor Wat",
+      "site2_id": 8,
+      "distance_km": 9906.996303868298,
+      "connection": {
+        "avg_field_space": 0.5861111111111111,
+        "avg_resonance": 0.763,
+        "connection_strength": 0.4472027777777778,
+        "energy_flow": 0.06165860958752978,
+        "distance_km": 9906.996303868298,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Stonehenge",
+      "site1_id": 4,
+      "site2": "Machu Picchu",
+      "site2_id": 10,
+      "distance_km": 9853.718517829699,
+      "connection": {
+        "avg_field_space": 0.5638888888888889,
+        "avg_resonance": 0.7028333333333334,
+        "connection_strength": 0.39631990740740747,
+        "energy_flow": 0.05522843947802235,
+        "distance_km": 9853.718517829699,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Stonehenge",
+      "site1_id": 4,
+      "site2": "Uluru",
+      "site2_id": 12,
+      "distance_km": 15118.48278894515,
+      "connection": {
+        "avg_field_space": 0.275,
+        "avg_resonance": 0.8118181818181818,
+        "connection_strength": 0.22325,
+        "energy_flow": 0.010854672820438985,
+        "distance_km": 15118.48278894515,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Great Pyramid of Giza",
+      "site1_id": 6,
+      "site2": "Angkor Wat",
+      "site2_id": 8,
+      "distance_km": 7620.2221287231005,
+      "connection": {
+        "avg_field_space": 0.7222222222222222,
+        "avg_resonance": 0.7871666666666668,
+        "connection_strength": 0.5685092592592593,
+        "energy_flow": 0.12383786559232735,
+        "distance_km": 7620.2221287231005,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Great Pyramid of Giza",
+      "site1_id": 6,
+      "site2": "Machu Picchu",
+      "site2_id": 10,
+      "distance_km": 12037.452205850519,
+      "connection": {
+        "avg_field_space": 0.7,
+        "avg_resonance": 0.7270000000000001,
+        "connection_strength": 0.5089,
+        "energy_flow": 0.04582185187101926,
+        "distance_km": 12037.452205850519,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Great Pyramid of Giza",
+      "site1_id": 6,
+      "site2": "Uluru",
+      "site2_id": 12,
+      "distance_km": 12275.587210903768,
+      "connection": {
+        "avg_field_space": 0.4111111111111111,
+        "avg_resonance": 0.8359848484848486,
+        "connection_strength": 0.34368265993265995,
+        "energy_flow": 0.029506225920527415,
+        "distance_km": 12275.587210903768,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Angkor Wat",
+      "site1_id": 8,
+      "site2": "Machu Picchu",
+      "site2_id": 10,
+      "distance_km": 19625.815248916748,
+      "connection": {
+        "avg_field_space": 0.8888888888888888,
+        "avg_resonance": 0.6241666666666668,
+        "connection_strength": 0.5548148148148149,
+        "energy_flow": 0.010951444236214657,
+        "distance_km": 19625.815248916748,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Angkor Wat",
+      "site1_id": 8,
+      "site2": "Uluru",
+      "site2_id": 12,
+      "distance_km": 5219.123651325876,
+      "connection": {
+        "avg_field_space": 0.6,
+        "avg_resonance": 0.7331515151515151,
+        "connection_strength": 0.43989090909090905,
+        "energy_flow": 0.1548879623521967,
+        "distance_km": 5219.123651325876,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    },
+    {
+      "site1": "Machu Picchu",
+      "site1_id": 10,
+      "site2": "Uluru",
+      "site2_id": 12,
+      "distance_km": 15028.726862488636,
+      "connection": {
+        "avg_field_space": 0.5777777777777777,
+        "avg_resonance": 0.6729848484848485,
+        "connection_strength": 0.3888356902356902,
+        "energy_flow": 0.01924808339246669,
+        "distance_km": 15028.726862488636,
+        "decay_model": "exponential",
+        "half_life_distance_km": 3465.7359027997263,
+        "pathway_type": "field_space_connection"
+      }
+    }
+  ],
+  "grid_metrics": {
+    "total_connections": 21,
+    "avg_connection_strength": 0.39258167789001125,
+    "min_connection_strength": 0.22325,
+    "avg_energy_flow": 0.09733796601678847,
+    "min_energy_flow": 0.010854672820438985,
+    "avg_field_space": 0.5138095238095237,
+    "grid_stability": 0.38657131992971017,
+    "strength_variance": 0.01010404326043094,
+    "flow_variance": 0.007541733380219924,
+    "resilience": 0.568671470354629,
+    "balance_score": 0.9117711167967457,
+    "weakest_link": {
+      "site1": "Stonehenge",
+      "site2": "Uluru",
+      "connection_strength": 0.22325,
+      "energy_flow": 0.010854672820438985,
+      "distance_km": 15118.48278894515
+    }
+  },
+  "insights": {
+    "field_space_pathway": "Energy flows through the 'Everything In Between' - the field space between sites",
+    "connection_type": "Field space connections through Earth's magnetic field",
+    "grid_status": "locked",
+    "resilience_analysis": "Grid resilience: 56.87% (weakest link is 56.87% of average)",
+    "balance_analysis": "Grid balance: 91.18% (lower variance = higher balance)",
+    "weakest_link_insight": "Weakest connection: Stonehenge <-> Uluru (strength: 0.223)"
+  }
+}

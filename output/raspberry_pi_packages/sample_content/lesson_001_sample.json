@@ -1,0 +1,15 @@
+{
+  "lesson_id": "sample_lesson_001",
+  "law_number": 1,
+  "age_group": "5-7",
+  "language": "en",
+  "title": "Sample Lesson 1: Purpose Not Performance",
+  "content": {
+    "introduction": "This is a sample lesson demonstrating the package structure.",
+    "main_teaching": "Focus on purpose, not performance. Life is simple when aligned with The Table.",
+    "reflection": "How can you serve your purpose today?",
+    "activity": "Write down three ways you can focus on purpose this week."
+  },
+  "audio_script": "Welcome to lesson 1. Today we learn about purpose not performance...",
+  "visual_prompt": "Create an age-appropriate image showing purpose over performance for ages 5-7"
+}

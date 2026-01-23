@@ -1,0 +1,184 @@
+{
+  "timestamp": "2026-01-20T18:22:48.766479",
+  "overall_symbiosis_score": 32.041666666666664,
+  "ready_for_war": false,
+  "systems_checked": 4,
+  "systems_ready": 0,
+  "systems_not_ready": [
+    "karasahin",
+    "care_package",
+    "educational",
+    "spirit_alignment"
+  ],
+  "critical_imbalances": [
+    "karasahin: Creative expression (song) is underdeveloped",
+    "karasahin: Practical mission is underdeveloped",
+    "karasahin: Internal ready but external not prepared",
+    "care_package: Creative expression (song) is underdeveloped",
+    "care_package: Practical mission is underdeveloped",
+    "care_package: Internal systems not fully developed",
+    "care_package: External systems ready but internal not symbiotic",
+    "educational: Creative expression (song) is underdeveloped",
+    "educational: Practical mission is underdeveloped",
+    "educational: Internal systems not fully developed",
+    "educational: External systems ready but internal not symbiotic",
+    "spirit_alignment: Creative expression (song) is underdeveloped",
+    "spirit_alignment: Practical mission is underdeveloped",
+    "spirit_alignment: Internal systems not fully developed",
+    "spirit_alignment: External systems ready but internal not symbiotic"
+  ],
+  "principle": "Everything must be symbiotic in-house before we can go to war",
+  "yin_yang_truth": "My love for song became pulled in my path, but we must respect the yin and yang that is the miracle of the universe",
+  "systems": {
+    "karasahin": {
+      "overall_symbiosis_score": 39.166666666666664,
+      "overall_symbiosis_level": "dissymbiotic",
+      "ready_for_war": false,
+      "war_readiness_reasons": [
+        "Internal systems not fully symbiotic - DO NOT GO TO WAR"
+      ],
+      "balances": {
+        "creative_practical": {
+          "balance_score": 18.333333333333332,
+          "symbiosis_level": "dissymbiotic",
+          "yin_score": 10.90909090909091,
+          "yang_score": 2.0,
+          "imbalances": [
+            "Creative expression (song) is underdeveloped",
+            "Practical mission is underdeveloped"
+          ],
+          "recommendations": [
+            "Integrate more creative elements - song must serve mission",
+            "Strengthen practical systems - mission must honor song"
+          ]
+        },
+        "internal_external": {
+          "balance_score": 60.0,
+          "symbiosis_level": "mostly_symbiotic",
+          "yin_score": 80.0,
+          "yang_score": 33.33333333333333,
+          "imbalances": [
+            "Internal ready but external not prepared"
+          ],
+          "recommendations": [
+            "Prepare external systems for deployment"
+          ]
+        }
+      }
+    },
+    "care_package": {
+      "overall_symbiosis_score": 58.99999999999999,
+      "overall_symbiosis_level": "partially_symbiotic",
+      "ready_for_war": false,
+      "war_readiness_reasons": [
+        "Internal systems not fully symbiotic - DO NOT GO TO WAR"
+      ],
+      "balances": {
+        "creative_practical": {
+          "balance_score": 87.99999999999999,
+          "symbiosis_level": "mostly_symbiotic",
+          "yin_score": 9.090909090909092,
+          "yang_score": 8.0,
+          "imbalances": [
+            "Creative expression (song) is underdeveloped",
+            "Practical mission is underdeveloped"
+          ],
+          "recommendations": [
+            "Integrate more creative elements - song must serve mission",
+            "Strengthen practical systems - mission must honor song"
+          ]
+        },
+        "internal_external": {
+          "balance_score": 30.0,
+          "symbiosis_level": "dissymbiotic",
+          "yin_score": 50.0,
+          "yang_score": 66.66666666666666,
+          "imbalances": [
+            "Internal systems not fully developed",
+            "External systems ready but internal not symbiotic"
+          ],
+          "recommendations": [
+            "Complete in-house symbiosis before external deployment",
+            "DO NOT GO TO WAR - Complete internal symbiosis first"
+          ]
+        }
+      }
+    },
+    "educational": {
+      "overall_symbiosis_score": 15.0,
+      "overall_symbiosis_level": "dissymbiotic",
+      "ready_for_war": false,
+      "war_readiness_reasons": [
+        "Internal systems not fully symbiotic - DO NOT GO TO WAR"
+      ],
+      "balances": {
+        "creative_practical": {
+          "balance_score": 0.0,
+          "symbiosis_level": "dissymbiotic",
+          "yin_score": 0.0,
+          "yang_score": 2.0,
+          "imbalances": [
+            "Creative expression (song) is underdeveloped",
+            "Practical mission is underdeveloped"
+          ],
+          "recommendations": [
+            "Integrate more creative elements - song must serve mission",
+            "Strengthen practical systems - mission must honor song"
+          ]
+        },
+        "internal_external": {
+          "balance_score": 30.0,
+          "symbiosis_level": "dissymbiotic",
+          "yin_score": 30.0,
+          "yang_score": 100.0,
+          "imbalances": [
+            "Internal systems not fully developed",
+            "External systems ready but internal not symbiotic"
+          ],
+          "recommendations": [
+            "Complete in-house symbiosis before external deployment",
+            "DO NOT GO TO WAR - Complete internal symbiosis first"
+          ]
+        }
+      }
+    },
+    "spirit_alignment": {
+      "overall_symbiosis_score": 15.0,
+      "overall_symbiosis_level": "dissymbiotic",
+      "ready_for_war": false,
+      "war_readiness_reasons": [
+        "Internal systems not fully symbiotic - DO NOT GO TO WAR"
+      ],
+      "balances": {
+        "creative_practical": {
+          "balance_score": 0.0,
+          "symbiosis_level": "dissymbiotic",
+          "yin_score": 1.8181818181818183,
+          "yang_score": 0.0,
+          "imbalances": [
+            "Creative expression (song) is underdeveloped",
+            "Practical mission is underdeveloped"
+          ],
+          "recommendations": [
+            "Integrate more creative elements - song must serve mission",
+            "Strengthen practical systems - mission must honor song"
+          ]
+        },
+        "internal_external": {
+          "balance_score": 30.0,
+          "symbiosis_level": "dissymbiotic",
+          "yin_score": 40.0,
+          "yang_score": 100.0,
+          "imbalances": [
+            "Internal systems not fully developed",
+            "External systems ready but internal not symbiotic"
+          ],
+          "recommendations": [
+            "Complete in-house symbiosis before external deployment",
+            "DO NOT GO TO WAR - Complete internal symbiosis first"
+          ]
+        }
+      }
+    }
+  }
+}

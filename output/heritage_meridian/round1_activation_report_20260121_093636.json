@@ -1,0 +1,238 @@
+{
+  "report_timestamp": "2026-01-21T09:36:36.076060",
+  "mission": "Round 1 Activation: Tracking Covenant Acts toward 100% Unity",
+  "unity_status": {
+    "current_unity": 0.9,
+    "target_unity": 1.0,
+    "starting_unity": 0.9,
+    "gap_remaining": 0.09999999999999998,
+    "total_acts": 0,
+    "total_contributed": 0.0,
+    "progress_percentage": 0.0,
+    "acts_needed": 0
+  },
+  "seat_status": {
+    "total_seats": 13,
+    "seats": {
+      "seat_01": {
+        "seat_id": "seat_01",
+        "name": "The Central Anchor",
+        "location": "Global",
+        "coordinates": {
+          "lat": 0.0,
+          "lon": 0.0
+        },
+        "status": "phase_locked",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_02": {
+        "seat_id": "seat_02",
+        "name": "Giza Seat",
+        "location": "Egypt",
+        "coordinates": {
+          "lat": 29.9792,
+          "lon": 31.1342
+        },
+        "status": "phase_locked",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_03": {
+        "seat_id": "seat_03",
+        "name": "Stonehenge Seat",
+        "location": "United Kingdom",
+        "coordinates": {
+          "lat": 51.1789,
+          "lon": -1.8262
+        },
+        "status": "active",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_04": {
+        "seat_id": "seat_04",
+        "name": "Angkor Wat Seat",
+        "location": "Cambodia",
+        "coordinates": {
+          "lat": 13.4125,
+          "lon": 103.867
+        },
+        "status": "phase_locked",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_05": {
+        "seat_id": "seat_05",
+        "name": "Machu Picchu Seat",
+        "location": "Peru",
+        "coordinates": {
+          "lat": -13.163,
+          "lon": -72.545
+        },
+        "status": "active",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_06": {
+        "seat_id": "seat_06",
+        "name": "Alhambra Seat",
+        "location": "Spain",
+        "coordinates": {
+          "lat": 37.177,
+          "lon": -3.5886
+        },
+        "status": "active",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_07": {
+        "seat_id": "seat_07",
+        "name": "Berengaria Seat",
+        "location": "Cyprus",
+        "coordinates": {
+          "lat": 34.9167,
+          "lon": 32.8333
+        },
+        "status": "active",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_08": {
+        "seat_id": "seat_08",
+        "name": "Borobudur Seat",
+        "location": "Indonesia",
+        "coordinates": {
+          "lat": -7.6081,
+          "lon": 110.204
+        },
+        "status": "active",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_09": {
+        "seat_id": "seat_09",
+        "name": "Taj Mahal Seat",
+        "location": "India",
+        "coordinates": {
+          "lat": 27.175,
+          "lon": 78.0422
+        },
+        "status": "active",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_10": {
+        "seat_id": "seat_10",
+        "name": "Teotihuacan Seat",
+        "location": "Mexico",
+        "coordinates": {
+          "lat": 19.6925,
+          "lon": -98.8439
+        },
+        "status": "active",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_11": {
+        "seat_id": "seat_11",
+        "name": "Lalibela Seat",
+        "location": "Ethiopia",
+        "coordinates": {
+          "lat": 12.0311,
+          "lon": 39.0474
+        },
+        "status": "active",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_12": {
+        "seat_id": "seat_12",
+        "name": "Great Wall Seat",
+        "location": "China",
+        "coordinates": {
+          "lat": 40.4319,
+          "lon": 116.5704
+        },
+        "status": "active",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_13": {
+        "seat_id": "seat_13",
+        "name": "Timbuktu Seat",
+        "location": "Mali",
+        "coordinates": {
+          "lat": 16.7758,
+          "lon": -3.0094
+        },
+        "status": "active",
+        "activations": [],
+        "unity_contributed": 0.0
+      }
+    },
+    "summary": {
+      "phase_locked": 3,
+      "active": 10,
+      "total_activations": 0,
+      "total_unity_contributed": 0.0
+    }
+  },
+  "recent_acts": [],
+  "all_acts": [],
+  "covenant_act_types": {
+    "shared_table": {
+      "name": "Shared Table",
+      "description": "Breaking bread across enemy lines, borders, or divisions",
+      "unity_contribution": 0.001,
+      "example": "Turkish and Greek Cypriots sharing a meal in Nicosia"
+    },
+    "bridge_built": {
+      "name": "Bridge Built",
+      "description": "Creating connection where separation was enforced",
+      "unity_contribution": 0.002,
+      "example": "Building a project that connects London's 8 communities"
+    },
+    "common_duygu_honored": {
+      "name": "Common Duygu Honored",
+      "description": "Communicating through heart-resonance before language",
+      "unity_contribution": 0.001,
+      "example": "Understanding someone's truth without needing translation"
+    },
+    "scarcity_refused": {
+      "name": "Scarcity Refused",
+      "description": "Rejecting the lie of scarcity and acting from abundance",
+      "unity_contribution": 0.0015,
+      "example": "Sharing resources when the system says to hoard"
+    },
+    "heritage_reclaimed": {
+      "name": "Heritage Reclaimed",
+      "description": "Remembering true lineage over citizenship",
+      "unity_contribution": 0.002,
+      "example": "Identifying as a Member of Global Resonance, not just a citizen"
+    },
+    "meridian_activated": {
+      "name": "Meridian Activated",
+      "description": "Physical presence or action at a Heritage Meridian site",
+      "unity_contribution": 0.003,
+      "example": "Visiting Giza, Stonehenge, or Angkor with Pangea consciousness"
+    },
+    "rift_healed": {
+      "name": "Rift Healed",
+      "description": "Directly addressing and healing one of the Five Rifts",
+      "unity_contribution": 0.005,
+      "example": "Restoring natural time rhythm, removing border logic, reclaiming a Pillar"
+    },
+    "seat_holder_act": {
+      "name": "Seat Holder Act",
+      "description": "Action taken by someone in a 13 Seats location",
+      "unity_contribution": 0.001,
+      "example": "Any Covenant Act performed in Mexico City, Berlin, Tokyo, London, etc."
+    }
+  },
+  "the_truth": {
+    "message": "Every Covenant Act is a physical anchor for the 0.40 frequency.",
+    "principle": "Walk like the Ground is one. Act like the Family is one.",
+    "covenant": "ENERGY + LOVE = WE ALL WIN"
+  }
+}

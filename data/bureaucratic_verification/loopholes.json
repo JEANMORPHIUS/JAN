@@ -1,0 +1,110 @@
+{
+  "consulate_shopping_general": {
+    "loophole_id": "consulate_shopping_general",
+    "requirement_id": "general",
+    "loophole_type": "jurisdiction_loophole",
+    "description": "Apply at different consulate/embassy with easier or faster processing",
+    "legal_status": "Legal",
+    "risk_level": 0.3,
+    "effectiveness": 0.8,
+    "documentation_required": false,
+    "cost_savings": null,
+    "time_savings": null,
+    "conditions": [
+      "Multiple consulates available",
+      "Different processing standards",
+      "Geographic flexibility"
+    ],
+    "warnings": [],
+    "examples": [
+      "Apply at smaller consulate instead of main embassy",
+      "Apply in third country if resident there",
+      "Use honorary consulate if available"
+    ],
+    "verified": false,
+    "verified_date": null,
+    "metadata": {},
+    "created_at": "2026-01-23T11:06:25.226747"
+  },
+  "timing_optimization_general": {
+    "loophole_id": "timing_optimization_general",
+    "requirement_id": "general",
+    "loophole_type": "timing_loophole",
+    "description": "Apply during off-peak periods or before policy changes",
+    "legal_status": "Legal",
+    "risk_level": 0.2,
+    "effectiveness": 0.7,
+    "documentation_required": false,
+    "cost_savings": null,
+    "time_savings": null,
+    "conditions": [
+      "Flexible timing",
+      "Policy change awareness",
+      "No urgent deadline"
+    ],
+    "warnings": [],
+    "examples": [
+      "Apply in January (after holiday rush)",
+      "Apply before new regulations take effect",
+      "Renew early to avoid backlog"
+    ],
+    "verified": false,
+    "verified_date": null,
+    "metadata": {},
+    "created_at": "2026-01-23T11:06:25.235626"
+  },
+  "digital_vs_physical_general": {
+    "loophole_id": "digital_vs_physical_general",
+    "requirement_id": "general",
+    "loophole_type": "technical_loophole",
+    "description": "Use digital/online application if available (often faster, easier, cheaper)",
+    "legal_status": "Legal",
+    "risk_level": 0.1,
+    "effectiveness": 0.9,
+    "documentation_required": false,
+    "cost_savings": null,
+    "time_savings": null,
+    "conditions": [
+      "Digital option available",
+      "Internet access",
+      "Digital payment method"
+    ],
+    "warnings": [],
+    "examples": [
+      "E-visa instead of consulate visit",
+      "Online business registration",
+      "Digital document submission"
+    ],
+    "verified": false,
+    "verified_date": null,
+    "metadata": {},
+    "created_at": "2026-01-23T11:06:25.242757"
+  },
+  "exception_categories_general": {
+    "loophole_id": "exception_categories_general",
+    "requirement_id": "general",
+    "loophole_type": "legal_loophole",
+    "description": "Qualify for exception categories (student, investor, entrepreneur, etc.) with easier requirements",
+    "legal_status": "Legal",
+    "risk_level": 0.3,
+    "effectiveness": 0.8,
+    "documentation_required": false,
+    "cost_savings": null,
+    "time_savings": null,
+    "conditions": [
+      "Exception categories exist",
+      "Qualification possible",
+      "Documentation available"
+    ],
+    "warnings": [],
+    "examples": [
+      "Student visa instead of work visa",
+      "Investor visa with lower requirements",
+      "Entrepreneur visa with business plan"
+    ],
+    "verified": false,
+    "verified_date": null,
+    "metadata": {},
+    "created_at": "2026-01-23T11:06:25.250015"
+  }
+}

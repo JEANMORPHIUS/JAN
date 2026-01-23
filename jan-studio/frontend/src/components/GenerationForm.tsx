@@ -1,0 +1,241 @@
+import { useState, useEffect } from 'react';
+import { getPersonas } from '@/api/personas';
+import { generateContent } from '@/api/generation';
+
+interface GenerationFormProps {
+  onGenerate: (result: GenerationResult) => void;
+  onProgress?: (progress: number) => void;
+}
+
+export interface GenerationRequest {
+  persona: string;
+  prompt: string;
+  output_type: string;
+  options?: {
+    length?: string;
+    temperature?: number;
+    language?: string;
+    [key: string]: any;
+  };
+}
+
+export interface GenerationResult {
+  success: boolean;
+  content?: string;
+  persona?: string;
+  prompt?: string;
+  output_type?: string;
+  validation?: {
+    valid: boolean;
+    violations: string[];
+    warnings: string[];
+    checks_performed: { [key: string]: boolean };
+  };
+  rules_applied?: string[];
+  error?: string;
+  timestamp: string;
+}
+
+const OUTPUT_TYPES = [
+  { value: 'text', label: 'Text', description: 'General text content' },
+  { value: 'story', label: 'Story', description: 'Short story or narrative' },
+  { value: 'lyrics', label: 'Lyrics', description: 'Song lyrics' },
+  { value: 'music', label: 'Music', description: 'Music prompt (Suno)' },
+  { value: 'tts', label: 'TTS', description: 'Text-to-speech script' },
+  { value: 'explanation', label: 'Explanation', description: 'Educational content' },
+] as const;
+
+export default function GenerationForm({ onGenerate, onProgress }: GenerationFormProps) {
+  const [personas, setPersonas] = useState<string[]>([]);
+  const [formData, setFormData] = useState<GenerationRequest>({
+    persona: '',
+    prompt: '',
+    output_type: 'text',
+    options: {},
+  });
+  const [loading, setLoading] = useState(false);
+  const [progress, setProgress] = useState(0);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    loadPersonas();
+  }, []);
+
+  const loadPersonas = async () => {
+    try {
+      const data = await getPersonas();
+      setPersonas(data);
+      if (data.length > 0 && !formData.persona) {
+        setFormData({ ...formData, persona: data[0] });
+      }
+    } catch (err) {
+      console.error('Failed to load personas:', err);
+    }
+  };
+
+  const handleGenerate = async () => {
+    if (!formData.persona || !formData.prompt.trim()) {
+      setError('Persona and prompt are required');
+      return;
+    }
+
+    try {
+      setLoading(true);
+      setError(null);
+      setProgress(0);
+
+      // Simulate progress (in real implementation, this would come from the API)
+      const progressInterval = setInterval(() => {
+        setProgress((prev) => {
+          if (prev >= 90) {
+            clearInterval(progressInterval);
+            return 90;
+          }
+          return prev + 10;
+        });
+      }, 200);
+
+      if (onProgress) {
+        onProgress(0);
+      }
+
+      const result = await generateContent(formData);
+
+      clearInterval(progressInterval);
+      setProgress(100);
+
+      if (onProgress) {
+        onProgress(100);
+      }
+
+      // Add persona and prompt to result
+      const resultWithContext = {
+        ...result,
+        persona: formData.persona,
+        prompt: formData.prompt,
+        output_type: formData.output_type,
+      };
+
+      onGenerate(resultWithContext);
+    } catch (err: any) {
+      setError(err.response?.data?.detail || 'Generation failed');
+      setProgress(0);
+      if (onProgress) {
+        onProgress(0);
+      }
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <div className="card">
+      <h2>Generate Content</h2>
+
+      {error && (
+        <div className="error" style={{ marginBottom: '1rem' }}>
+          {error}
+        </div>
+      )}
+
+      <div style={{ marginBottom: '1.5rem' }}>
+        <label className="label">
+          Persona <span style={{ color: '#d32f2f' }}>*</span>
+        </label>
+        <select
+          className="input"
+          value={formData.persona}
+          onChange={(e) => setFormData({ ...formData, persona: e.target.value })}
+          disabled={loading}
+        >
+          <option value="">Select a persona...</option>
+          {personas.map((persona) => (
+            <option key={persona} value={persona}>
+              {persona}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      <div style={{ marginBottom: '1.5rem' }}>
+        <label className="label">
+          Output Type
+        </label>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.75rem' }}>
+          {OUTPUT_TYPES.map((type) => (
+            <div
+              key={type.value}
+              onClick={() => !loading && setFormData({ ...formData, output_type: type.value })}
+              style={{
+                padding: '0.75rem',
+                border: formData.output_type === type.value ? '2px solid #0070f3' : '1px solid #333',
+                borderRadius: '4px',
+                cursor: loading ? 'not-allowed' : 'pointer',
+                backgroundColor: formData.output_type === type.value ? '#1a1a1a' : '#0a0a0a',
+                opacity: loading ? 0.5 : 1,
+                transition: 'all 0.2s',
+              }}
+            >
+              <div style={{ fontWeight: 600, marginBottom: '0.25rem', fontSize: '0.875rem' }}>
+                {type.label}
+              </div>
+              <div style={{ fontSize: '0.75rem', color: '#999' }}>
+                {type.description}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div style={{ marginBottom: '1.5rem' }}>
+        <label className="label">
+          Prompt <span style={{ color: '#d32f2f' }}>*</span>
+        </label>
+        <textarea
+          className="textarea"
+          value={formData.prompt}
+          onChange={(e) => setFormData({ ...formData, prompt: e.target.value })}
+          placeholder="Enter your prompt here... Describe what you want to generate."
+          disabled={loading}
+          style={{ minHeight: '200px', fontFamily: 'inherit' }}
+        />
+        <div style={{ fontSize: '0.75rem', color: '#666', marginTop: '0.25rem' }}>
+          {formData.prompt.length} characters
+        </div>
+      </div>
+
+      {loading && (
+        <div style={{ marginBottom: '1rem' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
+            <span className="loading">Generating...</span>
+            <span style={{ fontSize: '0.875rem', color: '#999' }}>{progress}%</span>
+          </div>
+          <div style={{
+            width: '100%',
+            height: '8px',
+            backgroundColor: '#333',
+            borderRadius: '4px',
+            overflow: 'hidden',
+          }}>
+            <div style={{
+              width: `${progress}%`,
+              height: '100%',
+              backgroundColor: '#0070f3',
+              transition: 'width 0.3s',
+            }} />
+          </div>
+        </div>
+      )}
+
+      <button
+        className="button"
+        onClick={handleGenerate}
+        disabled={loading || !formData.persona || !formData.prompt.trim()}
+        style={{ width: '100%' }}
+      >
+        {loading ? 'Generating...' : 'Generate Content'}
+      </button>
+    </div>
+  );
+}
+

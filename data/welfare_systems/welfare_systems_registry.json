@@ -1,0 +1,313 @@
+{
+  "systems": [
+    {
+      "system_id": "welfare_001",
+      "name": "Roman Grain Dole (Cura Annonae)",
+      "system_type": "ancient_grain_dole",
+      "region": "Roman Empire",
+      "time_period": "Ancient (123 BCE - 330 CE)",
+      "start_year": -123,
+      "end_year": 330,
+      "description": "Free grain distribution to Roman citizens. Initially served the people, later became a tool of political control and dependency.",
+      "frequency_score": -0.3,
+      "alignment_factors": [
+        "Provided basic sustenance",
+        "Recognized citizen need"
+      ],
+      "exploitation_factors": [
+        "Created dependency on state",
+        "Used for political control",
+        "Maintained power structures"
+      ],
+      "dark_contract_indicators": [
+        "Dependency creation",
+        "Political control mechanism",
+        "Division (citizens vs non-citizens)"
+      ],
+      "light_contract_indicators": [
+        "Basic sustenance provided"
+      ],
+      "needs_breaking": true,
+      "serves_table": false,
+      "original_error_connection": true,
+      "impact_scale": 0.8,
+      "accessibility": 0.4,
+      "dignity_score": 0.3,
+      "control_mechanism": true,
+      "dependency_creation": true,
+      "division_creation": true,
+      "metadata": {
+        "historical_note": "Became a tool of imperial control",
+        "connection_to_original_error": "Created dependency patterns that persist"
+      },
+      "discovered_at": "2026-01-22T11:07:43.521612"
+    },
+    {
+      "system_id": "welfare_002",
+      "name": "English Poor Laws (1601-1834)",
+      "system_type": "medieval_poor_laws",
+      "region": "England",
+      "time_period": "Medieval/Early Modern (1601-1834)",
+      "start_year": 1601,
+      "end_year": 1834,
+      "description": "System of poor relief that distinguished between 'deserving' and 'undeserving' poor. Created deep social divisions and control mechanisms.",
+      "frequency_score": -0.5,
+      "alignment_factors": [
+        "Attempted to address poverty"
+      ],
+      "exploitation_factors": [
+        "Created 'deserving' vs 'undeserving' division",
+        "Workhouse system",
+        "Stigma and shame",
+        "Control through categorization"
+      ],
+      "dark_contract_indicators": [
+        "Division creation",
+        "Stigma",
+        "Control mechanism",
+        "Dependency creation",
+        "Shame-based system"
+      ],
+      "light_contract_indicators": [
+        "Attempted to help"
+      ],
+      "needs_breaking": true,
+      "serves_table": false,
+      "original_error_connection": true,
+      "impact_scale": 0.7,
+      "accessibility": 0.2,
+      "dignity_score": 0.1,
+      "control_mechanism": true,
+      "dependency_creation": true,
+      "division_creation": true,
+      "metadata": {
+        "historical_note": "Foundation of modern welfare stigma",
+        "connection_to_original_error": "Created 'us vs them' divisions"
+      },
+      "discovered_at": "2026-01-22T11:07:43.521643"
+    },
+    {
+      "system_id": "welfare_003",
+      "name": "Bismarck Social Insurance (1880s)",
+      "system_type": "early_social_insurance",
+      "region": "Germany",
+      "time_period": "Industrial Revolution (1880s)",
+      "start_year": 1883,
+      "end_year": null,
+      "description": "First modern social insurance system. Provided healthcare, accident, and old-age insurance. Mixed: served workers but also maintained social control.",
+      "frequency_score": 0.2,
+      "alignment_factors": [
+        "Provided healthcare",
+        "Workers' protection",
+        "Old-age security"
+      ],
+      "exploitation_factors": [
+        "Maintained class structures",
+        "State control",
+        "Limited scope"
+      ],
+      "dark_contract_indicators": [
+        "Control mechanism",
+        "Class maintenance"
+      ],
+      "light_contract_indicators": [
+        "Healthcare access",
+        "Worker protection"
+      ],
+      "needs_breaking": false,
+      "serves_table": true,
+      "original_error_connection": false,
+      "impact_scale": 0.6,
+      "accessibility": 0.5,
+      "dignity_score": 0.5,
+      "control_mechanism": true,
+      "dependency_creation": false,
+      "division_creation": true,
+      "metadata": {
+        "historical_note": "Foundation of modern welfare state",
+        "evolution_needed": true
+      },
+      "discovered_at": "2026-01-22T11:07:43.521649"
+    },
+    {
+      "system_id": "welfare_004",
+      "name": "Post-WWII Welfare State (UK, US, etc.)",
+      "system_type": "modern_welfare_state",
+      "region": "Western Nations",
+      "time_period": "Post-WWII (1945-present)",
+      "start_year": 1945,
+      "end_year": null,
+      "description": "Comprehensive welfare systems including healthcare, housing, education, unemployment. Mixed: provides support but creates dependency and division.",
+      "frequency_score": 0.1,
+      "alignment_factors": [
+        "Healthcare access",
+        "Education access",
+        "Basic security"
+      ],
+      "exploitation_factors": [
+        "Dependency creation",
+        "Bureaucratic control",
+        "Stigma",
+        "Division (taxpayers vs recipients)",
+        "Political manipulation"
+      ],
+      "dark_contract_indicators": [
+        "Dependency creation",
+        "Division creation",
+        "Control mechanism",
+        "Stigma",
+        "Political tool"
+      ],
+      "light_contract_indicators": [
+        "Basic security",
+        "Healthcare",
+        "Education"
+      ],
+      "needs_breaking": true,
+      "serves_table": false,
+      "original_error_connection": true,
+      "impact_scale": 0.9,
+      "accessibility": 0.6,
+      "dignity_score": 0.4,
+      "control_mechanism": true,
+      "dependency_creation": true,
+      "division_creation": true,
+      "metadata": {
+        "historical_note": "Created 'welfare state' dependency",
+        "connection_to_original_error": "Maintains division and dependency patterns"
+      },
+      "discovered_at": "2026-01-22T11:07:43.521653"
+    },
+    {
+      "system_id": "welfare_005",
+      "name": "Corporate Benefits Systems",
+      "system_type": "corporate_benefits",
+      "region": "Global",
+      "time_period": "Industrial to Modern (1900s-present)",
+      "start_year": 1900,
+      "end_year": null,
+      "description": "Private sector benefits (health insurance, pensions, etc.). Creates dependency on corporations, division between employed/unemployed.",
+      "frequency_score": -0.2,
+      "alignment_factors": [
+        "Provides benefits to workers"
+      ],
+      "exploitation_factors": [
+        "Corporate control",
+        "Division (employed vs unemployed)",
+        "Tied to employment",
+        "Maintains power structures"
+      ],
+      "dark_contract_indicators": [
+        "Corporate control",
+        "Division creation",
+        "Dependency on employment"
+      ],
+      "light_contract_indicators": [
+        "Worker benefits"
+      ],
+      "needs_breaking": true,
+      "serves_table": false,
+      "original_error_connection": true,
+      "impact_scale": 0.7,
+      "accessibility": 0.4,
+      "dignity_score": 0.5,
+      "control_mechanism": true,
+      "dependency_creation": true,
+      "division_creation": true,
+      "metadata": {
+        "historical_note": "Ties survival to employment",
+        "connection_to_original_error": "Creates dependency on corporations"
+      },
+      "discovered_at": "2026-01-22T11:07:43.521658"
+    },
+    {
+      "system_id": "welfare_006",
+      "name": "SNAP (Food Stamps) - US",
+      "system_type": "food_assistance",
+      "region": "United States",
+      "time_period": "Modern (1964-present)",
+      "start_year": 1964,
+      "end_year": null,
+      "description": "Food assistance program. Provides food but creates stigma, dependency, and division. Bureaucratic control mechanism.",
+      "frequency_score": -0.1,
+      "alignment_factors": [
+        "Provides food assistance"
+      ],
+      "exploitation_factors": [
+        "Stigma",
+        "Bureaucratic control",
+        "Division",
+        "Dependency",
+        "Shame-based"
+      ],
+      "dark_contract_indicators": [
+        "Stigma",
+        "Division creation",
+        "Control mechanism",
+        "Dependency",
+        "Shame"
+      ],
+      "light_contract_indicators": [
+        "Food access"
+      ],
+      "needs_breaking": true,
+      "serves_table": false,
+      "original_error_connection": true,
+      "impact_scale": 0.8,
+      "accessibility": 0.5,
+      "dignity_score": 0.3,
+      "control_mechanism": true,
+      "dependency_creation": true,
+      "division_creation": true,
+      "metadata": {
+        "historical_note": "Modern food assistance with stigma",
+        "connection_to_original_error": "Maintains division and dependency"
+      },
+      "discovered_at": "2026-01-22T11:07:43.521662"
+    },
+    {
+      "system_id": "welfare_007",
+      "name": "Universal Basic Income Experiments",
+      "system_type": "universal_basic_income",
+      "region": "Various (Finland, Canada, etc.)",
+      "time_period": "Modern Experiments (2010s-present)",
+      "start_year": 2010,
+      "end_year": null,
+      "description": "UBI experiments providing unconditional income. Higher dignity, less stigma, but still creates dependency on state. Needs evolution to serve The Table.",
+      "frequency_score": 0.4,
+      "alignment_factors": [
+        "Unconditional",
+        "Less stigma",
+        "Preserves dignity",
+        "Universal"
+      ],
+      "exploitation_factors": [
+        "Still state-dependent",
+        "Political control potential"
+      ],
+      "dark_contract_indicators": [
+        "State dependency"
+      ],
+      "light_contract_indicators": [
+        "Unconditional",
+        "Dignity-preserving",
+        "Universal"
+      ],
+      "needs_breaking": false,
+      "serves_table": true,
+      "original_error_connection": false,
+      "impact_scale": 0.3,
+      "accessibility": 0.8,
+      "dignity_score": 0.7,
+      "control_mechanism": false,
+      "dependency_creation": true,
+      "division_creation": false,
+      "metadata": {
+        "historical_note": "Modern experiments in unconditional support",
+        "evolution_needed": "Needs to evolve beyond state dependency"
+      },
+      "discovered_at": "2026-01-22T11:07:43.521666"
+    }
+  ],
+  "last_updated": "2026-01-22T11:07:43.521686"
+}

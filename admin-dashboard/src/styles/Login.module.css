@@ -1,0 +1,118 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-background-primary, #f5f5f5);
+  padding: 2rem;
+}
+
+.loginBox {
+  background: var(--color-background-secondary, #fff);
+  padding: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.loginBox h1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: var(--color-text-primary, #333);
+}
+
+.subtitle {
+  text-align: center;
+  color: var(--color-text-secondary, #666);
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.inputGroup label {
+  font-weight: 600;
+  color: var(--color-text-primary, #333);
+}
+
+.inputGroup input {
+  padding: 0.75rem;
+  border: 1px solid var(--color-border, #ddd);
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.inputGroup input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error {
+  padding: 0.75rem;
+  background: #fee;
+  border: 1px solid #fcc;
+  border-radius: 4px;
+  color: #c00;
+  text-align: center;
+}
+
+.submitButton {
+  padding: 0.75rem;
+  background: var(--color-accent, #0066cc);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.submitButton:hover:not(:disabled) {
+  opacity: 0.8;
+}
+
+.submitButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media (prefers-color-scheme: dark) {
+  .loginBox {
+    background: var(--color-background-secondary-dark, #2a2a2a);
+  }
+
+  .loginBox h1 {
+    color: var(--color-text-primary-dark, #fff);
+  }
+
+  .subtitle {
+    color: var(--color-text-secondary-dark, #ccc);
+  }
+
+  .inputGroup label {
+    color: var(--color-text-primary-dark, #fff);
+  }
+
+  .inputGroup input {
+    border-color: var(--color-border-dark, #444);
+    background: var(--color-background-primary-dark, #1a1a1a);
+    color: var(--color-text-primary-dark, #fff);
+  }
+
+  .error {
+    background: #300;
+    border-color: #600;
+    color: #f66;
+  }
+}

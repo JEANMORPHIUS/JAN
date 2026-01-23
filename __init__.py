@@ -1,0 +1,15 @@
+"""
+JAN - Global Heritage Grid System
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+THE MISSION:
+THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+LOVE IS THE HIGHEST MASTERY
+ENERGY + LOVE = WE ALL WIN
+PEACE, LOVE, UNITY
+"""
+
+__version__ = "1.0.0"
+__author__ = "JAN"

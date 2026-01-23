@@ -1,0 +1,79 @@
+{
+  "Issues": [
+    {
+      "Script": "C:\\Users\\janmu\\cd_core.ps1",
+      "Recommendation": "Update to S:\\SIYEM for consistency",
+      "Issue": "References D:\\SIYEM instead of S:\\SIYEM"
+    },
+    {
+      "Script": "C:\\Users\\janmu\\cd_prod.ps1",
+      "Recommendation": "Update to S:\\SIYEM for consistency",
+      "Issue": "References D:\\SIYEM instead of S:\\SIYEM"
+    },
+    {
+      "Script": "C:\\Users\\janmu\\cd_pub.ps1",
+      "Recommendation": "Update to S:\\SIYEM for consistency",
+      "Issue": "References D:\\SIYEM instead of S:\\SIYEM"
+    },
+    {
+      "Script": "C:\\Users\\janmu\\cd_core.ps1",
+      "Path": "D:\\SIYEM\\00_CORE\r\n",
+      "Issue": "References non-existent path"
+    },
+    {
+      "Script": "C:\\Users\\janmu\\cd_prod.ps1",
+      "Path": "D:\\SIYEM\\03_PRODUCTION\r\n",
+      "Issue": "References non-existent path"
+    },
+    {
+      "Script": "C:\\Users\\janmu\\cd_pub.ps1",
+      "Path": "D:\\SIYEM\\05_PUBLISHING\r\n",
+      "Issue": "References non-existent path"
+    }
+  ],
+  "ScriptsUpdated": [],
+  "Recommendations": [
+    {
+      "Action": "Review",
+      "Script": "C:\\Users\\janmu\\.sbx-denybin\\scp.bat",
+      "Reason": "Deny script - verify if still needed for security"
+    },
+    {
+      "Action": "Review",
+      "Script": "C:\\Users\\janmu\\.sbx-denybin\\ssh.bat",
+      "Reason": "Deny script - verify if still needed for security"
+    }
+  ],
+  "ScriptsRemoved": [],
+  "Timestamp": "2026-01-23 09:43:24",
+  "ScriptsFound": [
+    {
+      "Path": "C:\\Users\\janmu\\cd_core.ps1",
+      "Type": "Navigation",
+      "Content": "Set-Location D:\\SIYEM\\00_CORE\r\n",
+      "LastModified": "2025-11-05T21:32:25.7150855+00:00",
+      "Size": 31
+    },
+    {
+      "Path": "C:\\Users\\janmu\\cd_prod.ps1",
+      "Type": "Navigation",
+      "Content": "Set-Location D:\\SIYEM\\03_PRODUCTION\r\n",
+      "LastModified": "2025-11-05T21:32:25.7150855+00:00",
+      "Size": 37
+    },
+    {
+      "Path": "C:\\Users\\janmu\\cd_pub.ps1",
+      "Type": "Navigation",
+      "Content": "Set-Location D:\\SIYEM\\05_PUBLISHING\r\n",
+      "LastModified": "2025-11-05T21:32:25.7150855+00:00",
+      "Size": 37
+    },
+    {
+      "Path": "C:\\Users\\janmu\\OneDrive\\Documents\\Microsoft.PowerShell_profile.ps1",
+      "Type": "Profile",
+      "Content": null,
+      "LastModified": "2025-11-10T00:22:23+00:00",
+      "Size": 5223
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "sync_timestamp": "2026-01-20T04:18:08.172369",
+  "channels": {
+    "local_exports": {
+      "status": "success",
+      "files": {
+        "json": "S:\\JAN\\output\\exports\\heritage_sites_all_20260120_041808.json",
+        "csv": "S:\\JAN\\output\\exports\\heritage_sites_all_20260120_041808.csv",
+        "markdown": "S:\\JAN\\output\\exports\\heritage_sites_all_20260120_041808.md",
+        "geojson": "S:\\JAN\\output\\exports\\heritage_sites_geojson_20260120_041808.geojson",
+        "html": "S:\\JAN\\output\\exports\\heritage_sites_all_20260120_041808.html"
+      },
+      "count": 5
+    },
+    "statistics": {
+      "status": "success",
+      "total_sites": 138,
+      "timelines": 6,
+      "countries": 12,
+      "patterns": 0
+    },
+    "documentation": {
+      "status": "success",
+      "file": "S:\\JAN\\output\\docs\\exports\\HERITAGE_DATA_EXPORT_20260120.md"
+    },
+    "web_reports": {
+      "status": "success",
+      "file": "S:\\JAN\\output\\web\\heritage_index_20260120.html"
+    },
+    "api_documentation": {
+      "status": "success",
+      "file": "S:\\JAN\\output\\docs\\api\\HERITAGE_API_DOCUMENTATION_20260120.md"
+    }
+  }
+}

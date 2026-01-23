@@ -1,0 +1,313 @@
+{
+  "analysis_timestamp": "2026-01-20T13:28:10.341902",
+  "pangea_data": {
+    "name": "Pangea",
+    "type": "supercontinent",
+    "existed_from": -335000000,
+    "existed_to": -175000000,
+    "duration_million_years": 160,
+    "breakup_started": -200000000,
+    "fully_broken": -175000000,
+    "center_coordinates": {
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    "extent": {
+      "lat_range": {
+        "min": -60,
+        "max": 60
+      },
+      "lon_range": {
+        "min": -180,
+        "max": 180
+      }
+    },
+    "modern_plates": [
+      "north_american",
+      "south_american",
+      "eurasian",
+      "african",
+      "indo_australian",
+      "antarctic"
+    ],
+    "heritage_sites_on_pangea": [
+      {
+        "site_name": "Great Pyramid of Giza",
+        "modern_location": {
+          "lat": 29.9792,
+          "lon": 31.1342
+        },
+        "pangea_location": {
+          "lat": 10.0,
+          "lon": 30.0
+        },
+        "plate": "african"
+      },
+      {
+        "site_name": "Stonehenge",
+        "modern_location": {
+          "lat": 51.1789,
+          "lon": -1.8262
+        },
+        "pangea_location": {
+          "lat": 15.0,
+          "lon": -5.0
+        },
+        "plate": "eurasian"
+      },
+      {
+        "site_name": "Alhambra Palace",
+        "modern_location": {
+          "lat": 37.177,
+          "lon": -3.5886
+        },
+        "pangea_location": {
+          "lat": 12.0,
+          "lon": -8.0
+        },
+        "plate": "eurasian"
+      },
+      {
+        "site_name": "Berengaria Hotel",
+        "modern_location": {
+          "lat": 34.9167,
+          "lon": 32.8333
+        },
+        "pangea_location": {
+          "lat": 8.0,
+          "lon": 25.0
+        },
+        "plate": "eurasian"
+      }
+    ],
+    "spiritual_significance": {
+      "meaning": "The original unified continent. The Seed from which all emerged.",
+      "truth": "We all came from one place. We are all connected.",
+      "connection": "All heritage sites trace back to Pangea. All plates came from Pangea.",
+      "field_resonance": "Pangea represents the original unified field. The Seed before the Shell.",
+      "battlefield": "Pangea was the original spiritual battlefield - unified, whole, connected."
+    }
+  },
+  "pangea_events": {
+    "formation": {
+      "event_id": "tectonic_event_0001-01-01_pangea_supercontinent_formation",
+      "event_type": "tectonic_event",
+      "event_name": "Pangea Supercontinent Formation",
+      "date": "0001-01-01",
+      "location": {
+        "lat": 0.0,
+        "lon": 0.0
+      },
+      "region": "Global",
+      "country": "Pangea",
+      "tectonic_plates": [
+        "north_american",
+        "south_american",
+        "eurasian",
+        "african",
+        "indo_australian",
+        "antarctic"
+      ],
+      "magnitude": null,
+      "description": "Formation of Pangea supercontinent. All modern continents were unified into one landmass. The Seed from which all plates emerged.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": null,
+      "temporal_dimension": "primary",
+      "sources": [
+        "Geological records",
+        "Plate tectonics research"
+      ],
+      "research_notes": "Pangea existed from 335000000 million years ago to 175000000 million years ago. Duration: 160 million years.",
+      "documented_at": "2026-01-20 13:28:10.321572"
+    },
+    "breakup": {
+      "event_id": "tectonic_event_0001-01-01_pangea_supercontinent_breakup",
+      "event_type": "tectonic_event",
+      "event_name": "Pangea Supercontinent Breakup",
+      "date": "0001-01-01",
+      "location": {
+        "lat": 0.0,
+        "lon": 0.0
+      },
+      "region": "Global",
+      "country": "Pangea",
+      "tectonic_plates": [
+        "north_american",
+        "south_american",
+        "eurasian",
+        "african",
+        "indo_australian",
+        "antarctic"
+      ],
+      "magnitude": null,
+      "description": "Breakup of Pangea supercontinent. The unified continent began to split into modern plates. The Shell began to form from the Seed.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": null,
+      "temporal_dimension": "primary",
+      "sources": [
+        "Geological records",
+        "Plate tectonics research"
+      ],
+      "research_notes": "Pangea breakup began 200000000 million years ago. Fully broken by 175000000 million years ago.",
+      "documented_at": "2026-01-20 13:28:10.331535"
+    }
+  },
+  "heritage_site_mappings": {
+    "pangea_data": {
+      "name": "Pangea",
+      "type": "supercontinent",
+      "existed_from": -335000000,
+      "existed_to": -175000000,
+      "duration_million_years": 160,
+      "breakup_started": -200000000,
+      "fully_broken": -175000000,
+      "center_coordinates": {
+        "lat": 0.0,
+        "lon": 0.0
+      },
+      "extent": {
+        "lat_range": {
+          "min": -60,
+          "max": 60
+        },
+        "lon_range": {
+          "min": -180,
+          "max": 180
+        }
+      },
+      "modern_plates": [
+        "north_american",
+        "south_american",
+        "eurasian",
+        "african",
+        "indo_australian",
+        "antarctic"
+      ],
+      "heritage_sites_on_pangea": [
+        {
+          "site_name": "Great Pyramid of Giza",
+          "modern_location": {
+            "lat": 29.9792,
+            "lon": 31.1342
+          },
+          "pangea_location": {
+            "lat": 10.0,
+            "lon": 30.0
+          },
+          "plate": "african"
+        },
+        {
+          "site_name": "Stonehenge",
+          "modern_location": {
+            "lat": 51.1789,
+            "lon": -1.8262
+          },
+          "pangea_location": {
+            "lat": 15.0,
+            "lon": -5.0
+          },
+          "plate": "eurasian"
+        },
+        {
+          "site_name": "Alhambra Palace",
+          "modern_location": {
+            "lat": 37.177,
+            "lon": -3.5886
+          },
+          "pangea_location": {
+            "lat": 12.0,
+            "lon": -8.0
+          },
+          "plate": "eurasian"
+        },
+        {
+          "site_name": "Berengaria Hotel",
+          "modern_location": {
+            "lat": 34.9167,
+            "lon": 32.8333
+          },
+          "pangea_location": {
+            "lat": 8.0,
+            "lon": 25.0
+          },
+          "plate": "eurasian"
+        }
+      ],
+      "spiritual_significance": {
+        "meaning": "The original unified continent. The Seed from which all emerged.",
+        "truth": "We all came from one place. We are all connected.",
+        "connection": "All heritage sites trace back to Pangea. All plates came from Pangea.",
+        "field_resonance": "Pangea represents the original unified field. The Seed before the Shell.",
+        "battlefield": "Pangea was the original spiritual battlefield - unified, whole, connected."
+      }
+    },
+    "heritage_site_mappings": [
+      {
+        "site_name": "Great Pyramid of Giza",
+        "modern_location": {
+          "lat": 29.9792,
+          "lon": 31.1342
+        },
+        "pangea_location": {
+          "lat": 10.0,
+          "lon": 30.0
+        },
+        "plate": "african"
+      },
+      {
+        "site_name": "Stonehenge",
+        "modern_location": {
+          "lat": 51.1789,
+          "lon": -1.8262
+        },
+        "pangea_location": {
+          "lat": 15.0,
+          "lon": -5.0
+        },
+        "plate": "eurasian"
+      },
+      {
+        "site_name": "Alhambra Palace",
+        "modern_location": {
+          "lat": 37.177,
+          "lon": -3.5886
+        },
+        "pangea_location": {
+          "lat": 12.0,
+          "lon": -8.0
+        },
+        "plate": "eurasian"
+      },
+      {
+        "site_name": "Berengaria Hotel",
+        "modern_location": {
+          "lat": 34.9167,
+          "lon": 32.8333
+        },
+        "pangea_location": {
+          "lat": 8.0,
+          "lon": 25.0
+        },
+        "plate": "eurasian"
+      }
+    ],
+    "insight": "All heritage sites trace back to Pangea. They were all connected in the original unified continent.",
+    "truth": "We all came from one place. The heritage sites prove it."
+  },
+  "spiritual_battlefield": {
+    "status": "unavailable",
+    "error": "SpiritualContractsRegistry.register_battlefield() got an unexpected keyword argument 'notes'"
+  },
+  "current_events_connection": {
+    "total_events_on_pangea_plates": 141,
+    "percentage_of_all_events": 81.97674418604652,
+    "insight": "All events on modern plates trace back to Pangea. The original unified continent still influences all activity.",
+    "truth": "We are all connected. All plates came from one. All events trace back to the Seed."
+  },
+  "the_truth": {
+    "message": "We all came from one place. Pangea proves it.",
+    "connection": "All heritage sites trace back to Pangea. All plates came from Pangea.",
+    "field_resonance": "Pangea represents the original unified field. The Seed before the Shell.",
+    "spiritual": "Pangea was the original unified battlefield. Before separation, there was only unity."
+  }
+}

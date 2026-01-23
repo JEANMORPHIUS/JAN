@@ -1,0 +1,158 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #1a1a1a;
+  color: #fff;
+  overflow: hidden;
+}
+
+.kiosk-mode {
+  touch-action: pan-x pan-y;
+}
+
+.loading {
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-spinner {
+  font-size: 2rem;
+}
+
+.slide-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.slide {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.slide h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.timeline-events {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.timeline-event {
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.timeline-event h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.frequency-display {
+  margin-top: 2rem;
+}
+
+.frequency-value {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #00ff00;
+}
+
+.frequency-target {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #ccc;
+}
+
+.frequency-bar {
+  width: 100%;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.frequency-progress {
+  height: 100%;
+  background: linear-gradient(90deg, #00ff00, #ffff00);
+  transition: width 0.3s ease;
+}
+
+.site-info {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.site-info p {
+  margin: 1rem 0;
+}
+
+.slide-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.indicator.active {
+  background: #fff;
+}
+
+.touch-controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.touch-controls button {
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.touch-controls button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+  .slide h1 {
+    font-size: 2rem;
+  }
+
+  .frequency-value {
+    font-size: 3rem;
+  }
+
+  .timeline-events {
+    grid-template-columns: 1fr;
+  }
+}

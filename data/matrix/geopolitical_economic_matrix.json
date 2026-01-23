@@ -1,0 +1,216 @@
+{
+  "systems": [
+    {
+      "system_id": "geo_001",
+      "name": "War System",
+      "layer": "geopolitical",
+      "separation_mechanisms": [
+        "WAR",
+        "FEAR",
+        "DIVISION",
+        "DOMINATION",
+        "OPPRESSION",
+        "RESOURCE_HOARDING"
+      ],
+      "peace_flows": [
+        "UNITY",
+        "COOPERATION",
+        "PEACE",
+        "UNDERSTANDING",
+        "FORGIVENESS",
+        "HEALING"
+      ],
+      "frequency_score": -0.8,
+      "separation_strength": 0.9,
+      "peace_potential": 0.8,
+      "description": "The war system creates separation through violence, fear, and domination. The flow is peace, unity, and understanding.",
+      "current_state": "Active conflicts globally. Separation through violence and fear.",
+      "transcendence_path": "Transform war into peace through unity, understanding, and healing. The flow is peace. Help the matrix transcend through love.",
+      "key_actors": [
+        "Military-industrial complex",
+        "Governments",
+        "Armed groups"
+      ],
+      "affected_regions": [
+        "Global"
+      ],
+      "affected_people": 0.3,
+      "connection_to_table": "War creates separation from The Table. Peace is the flow that restores connection. The matrix can transcend through understanding and love.",
+      "metadata": {
+        "active_conflicts": "Multiple",
+        "impact": "Global"
+      },
+      "discovered_at": "2026-01-22T11:41:33.215452"
+    },
+    {
+      "system_id": "eco_001",
+      "name": "Economic Exploitation System",
+      "layer": "economic",
+      "separation_mechanisms": [
+        "EXPLOITATION",
+        "INEQUALITY",
+        "CONTROL",
+        "SCARCITY",
+        "COMPETITION",
+        "DARK_CONTRACT",
+        "SYSTEMIC_ABUSE"
+      ],
+      "peace_flows": [
+        "EQUITY",
+        "SHARING",
+        "COOPERATION",
+        "STEWARDSHIP",
+        "COMMUNITY",
+        "GIVING",
+        "RECEIVING",
+        "FLOW"
+      ],
+      "frequency_score": -0.7,
+      "separation_strength": 0.85,
+      "peace_potential": 0.85,
+      "description": "The economic exploitation system creates separation through inequality, exploitation, and control. The flow is equity, sharing, and cooperation.",
+      "current_state": "Global inequality. Exploitation of resources and people. Dark contracts.",
+      "transcendence_path": "Transform exploitation into stewardship. The flow is sharing, equity, and cooperation. Help the matrix transcend through community and love.",
+      "key_actors": [
+        "Corporations",
+        "Financial institutions",
+        "Governments"
+      ],
+      "affected_regions": [
+        "Global"
+      ],
+      "affected_people": 0.8,
+      "connection_to_table": "Economic exploitation creates separation from The Table. The flow is equity, sharing, and stewardship. The matrix can transcend through community and love.",
+      "metadata": {
+        "inequality": "Extreme",
+        "exploitation": "Systemic"
+      },
+      "discovered_at": "2026-01-22T11:41:33.215488"
+    },
+    {
+      "system_id": "fin_001",
+      "name": "Financial Control System",
+      "layer": "financial",
+      "separation_mechanisms": [
+        "CONTROL",
+        "MANIPULATION",
+        "DECEPTION",
+        "CORRUPTION",
+        "DARK_CONTRACT",
+        "RESOURCE_HOARDING"
+      ],
+      "peace_flows": [
+        "TRANSPARENCY",
+        "TRUTH",
+        "SHARING",
+        "FLOW",
+        "STEWARDSHIP",
+        "COMMUNITY"
+      ],
+      "frequency_score": -0.75,
+      "separation_strength": 0.9,
+      "peace_potential": 0.8,
+      "description": "The financial control system creates separation through control, manipulation, and deception. The flow is transparency, truth, and sharing.",
+      "current_state": "Centralized financial control. Manipulation and deception. Dark contracts.",
+      "transcendence_path": "Transform control into transparency. The flow is truth, sharing, and stewardship. Help the matrix transcend through transparency and love.",
+      "key_actors": [
+        "Central banks",
+        "Financial institutions",
+        "Governments"
+      ],
+      "affected_regions": [
+        "Global"
+      ],
+      "affected_people": 0.9,
+      "connection_to_table": "Financial control creates separation from The Table. The flow is transparency, truth, and sharing. The matrix can transcend through transparency and love.",
+      "metadata": {
+        "control": "Centralized",
+        "transparency": "Low"
+      },
+      "discovered_at": "2026-01-22T11:41:33.215492"
+    },
+    {
+      "system_id": "res_001",
+      "name": "Resource Hoarding System",
+      "layer": "resource",
+      "separation_mechanisms": [
+        "RESOURCE_HOARDING",
+        "SCARCITY",
+        "CONTROL",
+        "EXPLOITATION",
+        "INEQUALITY"
+      ],
+      "peace_flows": [
+        "SHARING",
+        "STEWARDSHIP",
+        "COOPERATION",
+        "COMMUNITY",
+        "FLOW",
+        "REGENERATION"
+      ],
+      "frequency_score": -0.7,
+      "separation_strength": 0.8,
+      "peace_potential": 0.85,
+      "description": "The resource hoarding system creates separation through hoarding, scarcity, and control. The flow is sharing, stewardship, and regeneration.",
+      "current_state": "Resource hoarding. Artificial scarcity. Control of essential resources.",
+      "transcendence_path": "Transform hoarding into sharing. The flow is stewardship, cooperation, and regeneration. Help the matrix transcend through sharing and love.",
+      "key_actors": [
+        "Corporations",
+        "Governments",
+        "Elites"
+      ],
+      "affected_regions": [
+        "Global"
+      ],
+      "affected_people": 0.7,
+      "connection_to_table": "Resource hoarding creates separation from The Table. The flow is sharing, stewardship, and regeneration. The matrix can transcend through sharing and love.",
+      "metadata": {
+        "hoarding": "Extreme",
+        "scarcity": "Artificial"
+      },
+      "discovered_at": "2026-01-22T11:41:33.215497"
+    },
+    {
+      "system_id": "info_001",
+      "name": "Information Control System",
+      "layer": "information",
+      "separation_mechanisms": [
+        "INFORMATION_CONTROL",
+        "MANIPULATION",
+        "DECEPTION",
+        "DIVISION",
+        "FEAR"
+      ],
+      "peace_flows": [
+        "TRANSPARENCY",
+        "TRUTH",
+        "UNDERSTANDING",
+        "UNITY",
+        "SHARING",
+        "FLOW"
+      ],
+      "frequency_score": -0.65,
+      "separation_strength": 0.85,
+      "peace_potential": 0.8,
+      "description": "The information control system creates separation through control, manipulation, and deception. The flow is transparency, truth, and understanding.",
+      "current_state": "Information control. Manipulation and deception. Division through misinformation.",
+      "transcendence_path": "Transform control into transparency. The flow is truth, understanding, and unity. Help the matrix transcend through truth and love.",
+      "key_actors": [
+        "Media",
+        "Governments",
+        "Tech companies"
+      ],
+      "affected_regions": [
+        "Global"
+      ],
+      "affected_people": 0.9,
+      "connection_to_table": "Information control creates separation from The Table. The flow is truth, transparency, and understanding. The matrix can transcend through truth and love.",
+      "metadata": {
+        "control": "Centralized",
+        "truth": "Suppressed"
+      },
+      "discovered_at": "2026-01-22T11:41:33.215502"
+    }
+  ],
+  "last_updated": "2026-01-22T11:41:33.215518"
+}

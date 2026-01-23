@@ -1,0 +1,46 @@
+{
+  "export_timestamp": "2026-01-20T03:40:47.658693",
+  "total_sites": 13,
+  "by_timeline": {
+    "primary": 13,
+    "parallel": 0,
+    "past_loop": 0,
+    "future_loop": 0,
+    "regeneration": 0,
+    "alternate": 0
+  },
+  "by_time_period": {
+    "modern": 2,
+    "medieval": 3,
+    "ancient": 8
+  },
+  "by_country": {
+    "Cyprus": 2,
+    "Spain": 1,
+    "Cambodia": 2,
+    "Peru": 2,
+    "Egypt": 2,
+    "England": 2,
+    "Australia": 2
+  },
+  "by_type": {
+    "Hotel": 2,
+    "Palace": 1,
+    "Temple Complex": 2,
+    "Inca Citadel": 2,
+    "Pyramid": 2,
+    "Stone Circle": 2,
+    "Sacred Monolith": 2
+  },
+  "law_41_compliance": {
+    "compliant": 7,
+    "non_compliant": 6,
+    "requires_cleansing": 6
+  },
+  "magnetic_field_stats": {
+    "sites_with_field_data": 7,
+    "avg_field_resonance": 0.7814718614718615,
+    "avg_field_space": 0.5138095238095238
+  },
+  "patterns": []
+}

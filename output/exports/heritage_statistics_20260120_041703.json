@@ -1,0 +1,57 @@
+{
+  "export_timestamp": "2026-01-20T04:17:03.694392",
+  "total_sites": 138,
+  "by_timeline": {
+    "primary": 23,
+    "parallel": 23,
+    "past_loop": 23,
+    "future_loop": 23,
+    "regeneration": 23,
+    "alternate": 23
+  },
+  "by_time_period": {
+    "renaissance": 24,
+    "modern": 24,
+    "medieval": 30,
+    "ancient": 60
+  },
+  "by_country": {
+    "India": 12,
+    "France": 12,
+    "Cyprus": 12,
+    "Italy": 12,
+    "Ireland": 6,
+    "Spain": 12,
+    "Cambodia": 12,
+    "Peru": 12,
+    "Greece": 12,
+    "Egypt": 12,
+    "England": 12,
+    "Australia": 12
+  },
+  "by_type": {
+    "Fort": 12,
+    "Chateau": 12,
+    "Hotel": 12,
+    "Hospital": 12,
+    "Castle": 6,
+    "Palace": 12,
+    "Temple Complex": 12,
+    "Inca Citadel": 12,
+    "Temple": 12,
+    "Pyramid": 12,
+    "Stone Circle": 12,
+    "Sacred Monolith": 12
+  },
+  "law_41_compliance": {
+    "compliant": 78,
+    "non_compliant": 60,
+    "requires_cleansing": 60
+  },
+  "magnetic_field_stats": {
+    "sites_with_field_data": 42,
+    "avg_field_resonance": 0.7809523809523811,
+    "avg_field_space": 0.5138095238095237
+  },
+  "patterns": []
+}

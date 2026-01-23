@@ -1,0 +1,376 @@
+.container {
+  min-height: 100vh;
+  padding: 2rem;
+  background: var(--color-background-primary, #f5f5f5);
+  color: var(--color-text-primary, #333);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--color-text-primary, #333);
+}
+
+.truth {
+  font-size: 1.2rem;
+  color: var(--color-text-secondary, #666);
+  margin: 1rem 0;
+  line-height: 1.8;
+  font-style: italic;
+}
+
+.backLink {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.backLink:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+.loading {
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.2rem;
+  color: var(--color-text-secondary, #666);
+}
+
+.visionSection {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: var(--color-background-secondary, #fff);
+  border-radius: var(--radius-lg, 12px);
+  border: 1px solid var(--color-border-light, #eee);
+  text-align: center;
+}
+
+.visionText {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--color-text-primary, #333);
+}
+
+.principle {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--color-text-secondary, #666);
+}
+
+.pathSection {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: var(--color-background-secondary, #fff);
+  border-radius: var(--radius-lg, 12px);
+  border: 1px solid var(--color-border-light, #eee);
+}
+
+.pathSection h2 {
+  margin-bottom: 1.5rem;
+  color: var(--color-text-primary, #333);
+}
+
+.currentState {
+  font-size: 1.1rem;
+  color: var(--color-error, #ff0000);
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.transformation {
+  font-size: 1.1rem;
+  color: var(--color-success, #00ff00);
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.pathSteps {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.pathStep {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: var(--color-background-primary, #f5f5f5);
+  border-radius: var(--radius-md, 8px);
+  border-left: 4px solid var(--color-primary, #0066cc);
+}
+
+.stepNumber {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-primary, #0066cc);
+  min-width: 60px;
+  text-align: center;
+}
+
+.stepContent {
+  flex: 1;
+}
+
+.stepContent h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-text-primary, #333);
+}
+
+.stepAction {
+  font-size: 1rem;
+  color: var(--color-text-secondary, #666);
+  margin-bottom: 0.5rem;
+}
+
+.stepNourishment {
+  font-size: 0.9rem;
+  color: var(--color-success, #00ff00);
+  font-weight: 500;
+}
+
+.sourcesSection,
+.scenariosSection {
+  margin-bottom: 3rem;
+}
+
+.sourcesSection h2,
+.scenariosSection h2 {
+  margin-bottom: 1rem;
+  color: var(--color-text-primary, #333);
+}
+
+.sectionIntro {
+  font-size: 1.1rem;
+  color: var(--color-text-secondary, #666);
+  margin-bottom: 2rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.sourcesGrid,
+.scenariosGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 2rem;
+}
+
+.sourceCard,
+.scenarioCard {
+  background: var(--color-background-secondary, #fff);
+  padding: 2rem;
+  border-radius: var(--radius-lg, 12px);
+  border-left: 4px solid;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.sourceCard:hover,
+.scenarioCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.sourceHeader,
+.scenarioHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.sourceHeader h3,
+.scenarioHeader h3 {
+  font-size: 1.3rem;
+  margin: 0;
+  color: var(--color-text-primary, #333);
+}
+
+.sourceType,
+.scenarioDomain {
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-full, 999px);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: white;
+}
+
+.sourceMetrics {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.metric {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.metric span:first-child {
+  color: var(--color-text-secondary, #666);
+}
+
+.hiveBenefit {
+  line-height: 1.6;
+  color: var(--color-text-secondary, #666);
+  margin-bottom: 1rem;
+}
+
+.sourceDetails,
+.scenarioDetails {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-border-light, #eee);
+}
+
+.detailSection {
+  margin-bottom: 1rem;
+}
+
+.detailSection h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-text-primary, #333);
+}
+
+.detailSection p {
+  line-height: 1.6;
+  color: var(--color-text-secondary, #666);
+}
+
+.detailSection ul {
+  margin-left: 1.5rem;
+  color: var(--color-text-secondary, #666);
+}
+
+.detailSection li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.scenarioCurrent,
+.scenarioTimeline {
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary, #666);
+}
+
+.consumptionHealingSection {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: var(--color-background-secondary, #fff);
+  border-radius: var(--radius-lg, 12px);
+  border: 1px solid var(--color-border-light, #eee);
+}
+
+.consumptionHealingSection h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--color-text-primary, #333);
+}
+
+.healingGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+}
+
+.brokenConsumption,
+.nourishmentReplacement {
+  padding: 1.5rem;
+  border-radius: var(--radius-md, 8px);
+}
+
+.brokenConsumption {
+  background: rgba(255, 0, 0, 0.1);
+  border-left: 4px solid #ff0000;
+}
+
+.nourishmentReplacement {
+  background: rgba(0, 255, 0, 0.1);
+  border-left: 4px solid #00ff00;
+}
+
+.brokenConsumption h3,
+.nourishmentReplacement h3 {
+  margin-bottom: 1rem;
+  color: var(--color-text-primary, #333);
+}
+
+.brokenConsumption ul,
+.nourishmentReplacement ul {
+  list-style: none;
+  padding: 0;
+}
+
+.brokenItem,
+.nourishmentItem {
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: var(--radius-sm, 4px);
+  line-height: 1.6;
+}
+
+.brokenItem {
+  background: rgba(255, 0, 0, 0.1);
+  color: var(--color-text-primary, #333);
+}
+
+.nourishmentItem {
+  background: rgba(0, 255, 0, 0.1);
+  color: var(--color-text-primary, #333);
+}
+
+.footer {
+  text-align: center;
+  padding: 3rem;
+  margin-top: 3rem;
+  background: var(--color-background-secondary, #fff);
+  border-radius: var(--radius-lg, 12px);
+  border: 1px solid var(--color-border-light, #eee);
+}
+
+@media (prefers-color-scheme: dark) {
+  .container {
+    background: var(--color-background-primary-dark, #1a1a1a);
+    color: var(--color-text-primary-dark, #fff);
+  }
+
+  .header h1 {
+    color: var(--color-text-primary-dark, #fff);
+  }
+
+  .truth {
+    color: var(--color-text-secondary-dark, #ccc);
+  }
+
+  .sourceCard,
+  .scenarioCard,
+  .visionSection,
+  .pathSection,
+  .consumptionHealingSection,
+  .footer {
+    background: var(--color-background-secondary-dark, #2a2a2a);
+  }
+
+  .sourceHeader h3,
+  .scenarioHeader h3,
+  .detailSection h4 {
+    color: var(--color-text-primary-dark, #fff);
+  }
+}

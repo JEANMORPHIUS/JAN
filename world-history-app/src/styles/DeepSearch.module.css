@@ -1,0 +1,306 @@
+.container {
+  min-height: 100vh;
+  padding: 2rem;
+  background: var(--color-background-primary, #f5f5f5);
+  color: var(--color-text-primary, #333);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--color-text-primary, #333);
+}
+
+.truth {
+  font-size: 1.1rem;
+  color: var(--color-text-secondary, #666);
+  margin: 1rem 0;
+  line-height: 1.8;
+  font-style: italic;
+}
+
+.backLink {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.backLink:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+.filters {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background: var(--color-background-secondary, #fff);
+  border-radius: var(--radius-lg, 12px);
+  border: 1px solid var(--color-border-light, #eee);
+}
+
+.filterRow {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.filterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+  min-width: 200px;
+}
+
+.filterGroup label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-text-secondary, #666);
+}
+
+.select,
+.input {
+  padding: 0.75rem;
+  border: 1px solid var(--color-border-light, #ddd);
+  border-radius: var(--radius-md, 8px);
+  font-size: 1rem;
+  font-family: inherit;
+  background: var(--color-background-primary, #fff);
+  color: var(--color-text-primary, #333);
+}
+
+.select:focus,
+.input:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+.searchButton {
+  padding: 0.75rem 2rem;
+  background: var(--color-primary, #0066cc);
+  color: white;
+  border: none;
+  border-radius: var(--radius-md, 8px);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.searchButton:hover {
+  background: var(--color-primary-dark, #0052a3);
+}
+
+.loading {
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.2rem;
+  color: var(--color-text-secondary, #666);
+}
+
+.stats {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: var(--color-background-secondary, #fff);
+  border-radius: var(--radius-md, 8px);
+  display: flex;
+  gap: 2rem;
+  font-weight: 500;
+}
+
+.opportunitiesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.opportunityCard {
+  background: var(--color-background-secondary, #fff);
+  padding: 2rem;
+  border-radius: var(--radius-lg, 12px);
+  border-left: 4px solid;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.opportunityCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.opportunityHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.opportunityHeader h3 {
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem 0;
+  color: var(--color-text-primary, #333);
+}
+
+.domainBadge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-full, 999px);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: white;
+}
+
+.frequencyScore {
+  font-size: 1.5rem;
+  font-weight: 700;
+  min-width: 60px;
+  text-align: right;
+}
+
+.description {
+  line-height: 1.6;
+  color: var(--color-text-secondary, #666);
+  margin-bottom: 1rem;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.metric {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.metric span:first-child {
+  color: var(--color-text-secondary, #666);
+}
+
+.metric span:last-child {
+  font-weight: 600;
+  color: var(--color-text-primary, #333);
+}
+
+.opportunityDetails {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-border-light, #eee);
+}
+
+.detailSection {
+  margin-bottom: 1rem;
+}
+
+.detailSection h4 {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-text-primary, #333);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.alignmentTags,
+.keywordTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.alignmentTag,
+.keywordTag {
+  padding: 0.25rem 0.75rem;
+  background: var(--color-background-primary, #f5f5f5);
+  border-radius: var(--radius-sm, 4px);
+  font-size: 0.85rem;
+  color: var(--color-text-secondary, #666);
+}
+
+.alignmentTag {
+  background: rgba(0, 255, 0, 0.1);
+  color: var(--color-success, #00ff00);
+  font-weight: 500;
+}
+
+.spiritualNote {
+  background: rgba(255, 215, 0, 0.1);
+  padding: 1rem;
+  border-left: 3px solid #ffd700;
+  border-radius: var(--radius-sm, 4px);
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--color-text-primary, #333);
+}
+
+.historicalNote {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary, #666);
+  line-height: 1.6;
+}
+
+.noResults {
+  text-align: center;
+  padding: 3rem;
+  color: var(--color-text-secondary, #666);
+}
+
+.footer {
+  text-align: center;
+  padding: 3rem;
+  margin-top: 3rem;
+  background: var(--color-background-secondary, #fff);
+  border-radius: var(--radius-lg, 12px);
+  border: 1px solid var(--color-border-light, #eee);
+}
+
+@media (prefers-color-scheme: dark) {
+  .container {
+    background: var(--color-background-primary-dark, #1a1a1a);
+    color: var(--color-text-primary-dark, #fff);
+  }
+
+  .header h1 {
+    color: var(--color-text-primary-dark, #fff);
+  }
+
+  .truth {
+    color: var(--color-text-secondary-dark, #ccc);
+  }
+
+  .filters,
+  .opportunityCard,
+  .stats,
+  .footer {
+    background: var(--color-background-secondary-dark, #2a2a2a);
+  }
+
+  .select,
+  .input {
+    background: var(--color-background-primary-dark, #1a1a1a);
+    color: var(--color-text-primary-dark, #fff);
+    border-color: var(--color-border-dark, #444);
+  }
+
+  .opportunityHeader h3,
+  .detailSection h4 {
+    color: var(--color-text-primary-dark, #fff);
+  }
+}

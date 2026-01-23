@@ -1,0 +1,174 @@
+{
+  "gap_analysis_framework": {
+    "name": "Gap Analysis Framework",
+    "purpose": "Systematic diagnostic tool to identify 'Intention vs. Impact' gaps",
+    "mission": "Debug where systems lost alignment and map path to restoration",
+    "philosophy": "No two people are the same - honor all paths, all forms, all journeys"
+  },
+  "diagnostic_steps": [
+    {
+      "step": 1,
+      "name": "Identify Original Intention",
+      "questions": [
+        "What was the pure, original purpose?",
+        "What problem was it meant to solve?",
+        "Who was it meant to serve?",
+        "What was the spiritual/ethical foundation?"
+      ],
+      "output": "Clear statement of original intention"
+    },
+    {
+      "step": 2,
+      "name": "Map Current Impact",
+      "questions": [
+        "What is the actual impact today?",
+        "Who is actually being served?",
+        "What problems is it creating?",
+        "What is the spiritual/ethical reality?"
+      ],
+      "output": "Clear statement of current impact"
+    },
+    {
+      "step": 3,
+      "name": "Identify the Break Point",
+      "questions": [
+        "Where did the intention and impact diverge?",
+        "What caused the break? (institutionalization, profit motive, scale, etc.)",
+        "When did it happen? (historical moment, cultural shift)",
+        "Who benefited from the break?"
+      ],
+      "output": "Clear identification of break point and cause"
+    },
+    {
+      "step": 4,
+      "name": "Find Resonance Pioneers",
+      "questions": [
+        "Who maintained alignment?",
+        "What did they do differently?",
+        "What worked in their approach?",
+        "Where did they fall short?"
+      ],
+      "output": "List of resonance pioneers and their methods"
+    },
+    {
+      "step": 5,
+      "name": "Measure the Gap",
+      "questions": [
+        "How severe is the gap? (0.0 to 1.0)",
+        "What is the cost of the gap?",
+        "Who is harmed by the gap?",
+        "What is the opportunity cost?"
+      ],
+      "output": "Gap severity score and impact assessment"
+    },
+    {
+      "step": 6,
+      "name": "Connect to Rifts",
+      "questions": [
+        "Which of the Five Rifts does this connect to?",
+        "How does this gap contribute to the rift?",
+        "How does healing this gap heal the rift?",
+        "What is the relationship to other gaps?"
+      ],
+      "output": "Rift connection and relationship mapping"
+    },
+    {
+      "step": 7,
+      "name": "Assess Yin-Yang Balance",
+      "questions": [
+        "What is the Yang (practical) function?",
+        "What is the Yin (spiritual) intention?",
+        "Is Yang dominant? Yin dominant? Balanced?",
+        "What would balance look like?"
+      ],
+      "output": "Yin-Yang assessment and balance target"
+    },
+    {
+      "step": 8,
+      "name": "Map Re-alignment Path",
+      "questions": [
+        "What is step 1 to restore intention?",
+        "What is step 2? Step 3? Step 4?",
+        "What resources are needed?",
+        "Who needs to be involved?",
+        "What are the obstacles?"
+      ],
+      "output": "Clear re-alignment path with steps and resources"
+    }
+  ],
+  "gap_severity_scale": {
+    "0.0-0.2": {
+      "description": "Minimal gap - system mostly aligned",
+      "action": "Monitor and maintain alignment"
+    },
+    "0.3-0.4": {
+      "description": "Small gap - some misalignment",
+      "action": "Minor adjustments needed"
+    },
+    "0.5-0.6": {
+      "description": "Moderate gap - significant misalignment",
+      "action": "Substantial re-alignment needed"
+    },
+    "0.7-0.8": {
+      "description": "Large gap - major misalignment",
+      "action": "Major re-alignment or restructuring"
+    },
+    "0.9-1.0": {
+      "description": "Critical gap - system inverted from intention",
+      "action": "Complete re-alignment or replacement"
+    }
+  },
+  "rift_connections": {
+    "the_tectonic_border_logic_rift": {
+      "description": "Borders of wealth, access, opportunity",
+      "connected_gaps": [
+        "Finance (wealth borders)",
+        "Education (access borders)",
+        "Healthcare (care borders)",
+        "Technology (digital borders)"
+      ]
+    },
+    "the_time_meridian_rift": {
+      "description": "Lost natural rhythm, mechanical time",
+      "connected_gaps": [
+        "Technology (addiction, lost rhythm)",
+        "Work (mechanical time over natural flow)",
+        "Media (24/7 cycle)"
+      ]
+    },
+    "the_institutional_shell_rift": {
+      "description": "Institutions over purpose",
+      "connected_gaps": [
+        "All industries (institutionalization)",
+        "Healthcare (institutions over healing)",
+        "Education (institutions over learning)"
+      ]
+    },
+    "the_language_tribalism_rift": {
+      "description": "Language as weapon, division",
+      "connected_gaps": [
+        "Media (narrative control)",
+        "Education (indoctrination)",
+        "Politics (division)"
+      ]
+    },
+    "the_heritage_erasure_rift": {
+      "description": "Lost wisdom, replaced lineage",
+      "connected_gaps": [
+        "Education (lost wisdom traditions)",
+        "Healthcare (lost traditional healing)",
+        "Media (lost oral traditions)"
+      ]
+    }
+  },
+  "universal_alignment_principles": {
+    "principle_1": "Separate pure intention from distorted outcome",
+    "principle_2": "Identify where the break occurred",
+    "principle_3": "Honor the Resonance Pioneers who maintained alignment",
+    "principle_4": "Map the Gap (intention vs impact)",
+    "principle_5": "Restore Yin-Yang balance (practical function serving spiritual intention)",
+    "principle_6": "Create re-alignment path",
+    "principle_7": "No two people are the same - honor all paths",
+    "principle_8": "Debug systematically, heal holistically"
+  }
+}

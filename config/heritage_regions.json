@@ -1,0 +1,80 @@
+{
+  "mediterranean": [
+    "Cyprus",
+    "Turkey",
+    "Greece",
+    "Italy",
+    "Malta",
+    "Sicily",
+    "Crete"
+  ],
+  "western_europe": [
+    "France",
+    "Spain",
+    "Portugal",
+    "Andorra"
+  ],
+  "british_isles": [
+    "England",
+    "Scotland",
+    "Ireland",
+    "Wales",
+    "Northern Ireland",
+    "Isle of Man"
+  ],
+  "eastern_europe": [
+    "Bulgaria",
+    "Romania",
+    "Croatia",
+    "Serbia",
+    "Bosnia",
+    "Montenegro",
+    "Albania",
+    "Macedonia"
+  ],
+  "northern_europe": [
+    "Norway",
+    "Sweden",
+    "Denmark",
+    "Finland",
+    "Iceland"
+  ],
+  "central_europe": [
+    "Germany",
+    "Austria",
+    "Switzerland",
+    "Poland",
+    "Czech Republic",
+    "Hungary"
+  ],
+  "asia": [
+    "Cambodia",
+    "Thailand",
+    "Vietnam",
+    "India",
+    "China",
+    "Japan",
+    "Indonesia"
+  ],
+  "americas": [
+    "Peru",
+    "Mexico",
+    "Guatemala",
+    "Bolivia",
+    "Ecuador",
+    "Chile"
+  ],
+  "oceania": [
+    "Australia",
+    "New Zealand",
+    "Fiji",
+    "Papua New Guinea"
+  ],
+  "africa": [
+    "Egypt",
+    "Morocco",
+    "Tunisia",
+    "Ethiopia",
+    "Zimbabwe"
+  ]
+}

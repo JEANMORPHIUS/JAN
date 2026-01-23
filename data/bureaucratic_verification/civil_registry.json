@@ -1,0 +1,58 @@
+{
+  "nc_birth_registry": {
+    "registry_id": "nc_birth_registry",
+    "jurisdiction": "North Cyprus",
+    "registry_type": "Birth Registration",
+    "required_documents": [
+      "Birth certificate from hospital",
+      "Parents' identification",
+      "Marriage certificate (if applicable)"
+    ],
+    "processing_time": "1-2 weeks",
+    "cost": 50.0,
+    "currency": "EUR",
+    "validity_period": "",
+    "renewal_required": false,
+    "digital_available": true,
+    "online_application": false,
+    "language_requirements": [
+      "Turkish",
+      "English"
+    ],
+    "notarization_required": false,
+    "apostille_required": false,
+    "translation_required": false,
+    "loopholes": [],
+    "status": "unverified",
+    "verified_date": null,
+    "metadata": {},
+    "created_at": "2026-01-23T11:03:25.606358"
+  },
+  "nc_marriage_registry": {
+    "registry_id": "nc_marriage_registry",
+    "jurisdiction": "North Cyprus",
+    "registry_type": "Marriage Registration",
+    "required_documents": [
+      "Valid passports",
+      "Birth certificates",
+      "Single status certificate",
+      "Medical certificate"
+    ],
+    "processing_time": "2-4 weeks",
+    "cost": 200.0,
+    "currency": "EUR",
+    "validity_period": "",
+    "renewal_required": false,
+    "digital_available": false,
+    "online_application": false,
+    "language_requirements": [],
+    "notarization_required": true,
+    "apostille_required": false,
+    "translation_required": true,
+    "loopholes": [],
+    "status": "unverified",
+    "verified_date": null,
+    "metadata": {},
+    "created_at": "2026-01-23T11:03:25.626387"
+  }
+}

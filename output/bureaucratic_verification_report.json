@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-01-23T11:03:25.672690",
+  "summary": {
+    "total_requirements": 3,
+    "verified_requirements": 0,
+    "unverified_requirements": 3,
+    "total_visas": 3,
+    "verified_visas": 0,
+    "total_civil_registry": 2,
+    "verified_civil_registry": 0,
+    "total_loopholes": 0,
+    "verified_loopholes": 0
+  },
+  "by_jurisdiction": {
+    "North Cyprus": {
+      "total": 2,
+      "verified": 0,
+      "unverified": 2
+    },
+    "Turkey": {
+      "total": 1,
+      "verified": 0,
+      "unverified": 1
+    }
+  },
+  "by_type": {
+    "business_registration": 2,
+    "work_permit": 1
+  },
+  "high_red_tape": [],
+  "identified_loopholes": [],
+  "requires_action": []
+}

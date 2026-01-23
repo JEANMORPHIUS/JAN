@@ -1,0 +1,46 @@
+{
+  "frontend": {
+    "homeostasis": {
+      "status": "ok",
+      "issues": [],
+      "warnings": [],
+      "path": "S:\\JAN\\homeostasis-sentinel"
+    },
+    "jan_studio": {
+      "status": "ok",
+      "issues": [],
+      "warnings": [],
+      "path": "S:\\JAN\\jan-studio\\frontend"
+    }
+  },
+  "backend": {
+    "jan_studio": {
+      "status": "ok",
+      "issues": [],
+      "warnings": [
+        ".env file not found (environment variables may not be configured)"
+      ],
+      "path": "S:\\JAN\\jan-studio\\backend"
+    }
+  },
+  "services": {
+    "siyem": {
+      "status": "ok",
+      "issues": [],
+      "warnings": [],
+      "path": "S:\\SIYEM\\services"
+    }
+  },
+  "integration": {
+    "status": "ok",
+    "issues": [],
+    "warnings": [
+      "SIYEM services importable (good)"
+    ]
+  },
+  "summary": {
+    "total_issues": 0,
+    "total_warnings": 1,
+    "status": "ok"
+  }
+}

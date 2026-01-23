@@ -1,0 +1,13 @@
+{
+  "last_run": "2026-01-23T08:53:31.952228",
+  "sources": [
+    "usgs",
+    "eonet"
+  ],
+  "ingested": 0,
+  "results": [],
+  "errors": [
+    "usgs: HTTPSConnectionPool(host='earthquake.usgs.gov', port=443): Max retries exceeded with url: /earthquakes/feed/v1.0/summary/all_day.geojson (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002E3BD5C4AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')))",
+    "eonet: HTTPSConnectionPool(host='eonet.gsfc.nasa.gov', port=443): Max retries exceeded with url: /api/v3/events?status=open (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002E3BD5BDBD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')))"
+  ]
+}

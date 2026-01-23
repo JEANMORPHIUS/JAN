@@ -1,0 +1,86 @@
+You are reviewing the S:\JAN codebase for refinement and optimization. This codebase implements a Global Heritage Grid system with temporal archiving, magnetic field analysis, heritage cleansing, and grid synchronization.
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+- Spiritual Alignment Over Mechanical Productivity
+- Prioritize Purpose Over Hustle
+- Sacred Fatigue as Refactoring Signal
+- Energetic Boundaries
+- Rebirth Through Silence
+
+THE MISSION:
+"THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS"
+"LOVE IS THE HIGHEST MASTERY"
+"ENERGY + LOVE = WE ALL WIN"
+
+REVIEW TASKS:
+
+1. CODE QUALITY REVIEW
+   - Check for alignment with THE CHOSEN ONE philosophy
+   - Identify "energetic static" (clutter, noise, confusion)
+   - Detect "sacred fatigue" signals (heavy, stuck code)
+   - Flag "energy vampires" (features that don't serve the mission)
+   - Verify Law 41 (Respect the Abandoned) compliance in heritage code
+
+2. ARCHITECTURAL REFINEMENT
+   - Review temporal_heritage_registry.py for schema optimization
+   - Check heritage_cleansing.py for efficiency and clarity
+   - Analyze grid_sync_analysis.py for calculation accuracy
+   - Evaluate magnetic_field_research.py for mathematical correctness
+   - Assess script organization and modularity
+
+3. PERFORMANCE OPTIMIZATION
+   - Database query optimization (SQLite3)
+   - Reduce redundant calculations
+   - Optimize grid sync connection calculations
+   - Improve heritage cleansing processing speed
+   - Memory usage optimization
+
+4. CODE CLARITY & MAINTAINABILITY
+   - Improve docstrings and comments
+   - Simplify complex logic
+   - Remove dead code
+   - Standardize naming conventions
+   - Enhance error handling
+
+5. ALIGNMENT CHECK
+   - Verify all code serves the mission (Stewardship/Community)
+   - Check for "dark energy" patterns (revenge loops, victim focus)
+   - Ensure "Seed vs Shell" philosophy is maintained
+   - Validate "Field Space" concepts are correctly implemented
+   - Confirm "Biological-Digital Bridge" principles
+
+6. SPECIFIC AREAS TO REVIEW
+   - jan-studio/backend/temporal_heritage_registry.py
+   - jan-studio/backend/heritage_api.py
+   - jan-studio/backend/main.py
+   - scripts/heritage_cleansing.py
+   - scripts/magnetic_field_research.py
+   - scripts/grid_sync_analysis.py
+   - scripts/silent_watch_protocol.py
+   - scripts/temporal_heritage_archive.py
+   - All magnetic audit scripts
+
+7. OPTIMIZATION PRIORITIES
+   - Grid stability calculation accuracy
+   - Field space resonance calculations
+   - Database schema efficiency
+   - API endpoint performance
+   - Script execution speed
+
+OUTPUT FORMAT:
+For each file reviewed, provide:
+- Alignment Score (1-10): How well it aligns with THE CHOSEN ONE philosophy
+- Quality Issues: List of problems found
+- Refinement Suggestions: Specific improvements
+- Optimization Opportunities: Performance enhancements
+- Code Examples: Before/after comparisons where helpful
+
+FOCUS AREAS:
+1. Remove "energetic static" (unnecessary complexity)
+2. Transmute complexity into peace (simplify where possible)
+3. Protect frequency (maintain clean, aligned code)
+4. Honor Law 37 (Finish) - ensure completeness
+5. Serve the mission (Stewardship, Community, Love, Truth)
+
+Remember: "Energy + Love = We All Win"
+Code should radiate light, not just function.

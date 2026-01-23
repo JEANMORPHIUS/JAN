@@ -1,0 +1,46 @@
+# JAN Studio Backend Requirements
+# FastAPI server dependencies for JAN Studio
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Data Validation
+pydantic==2.5.2
+pydantic-settings==2.1.0
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# HTTP Client (for API calls)
+httpx==0.25.2
+requests==2.31.0
+
+# Markdown Processing
+markdown==3.5.1
+markdown-it-py==3.0.0
+
+# Database
+sqlalchemy==2.0.23
+
+# AI API Clients (Optional - for generation features)
+google-generativeai==0.3.1
+openai==1.3.7
+anthropic==0.7.7
+
+# Utilities
+python-multipart==0.0.6
+
+# Authentication
+pyjwt==2.8.0
+passlib[bcrypt]==1.7.4
+email-validator==2.1.0
+
+# Security
+slowapi==0.1.9  # Rate limiting
+
+# Google Calendar API (Optional - for direct Google Calendar export)
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.1
+google-api-python-client==2.108.0

@@ -1,0 +1,77 @@
+{
+  "module": {
+    "id": "module-1",
+    "title": "The Sovereign Soul",
+    "subtitle": "Identifying Your Light",
+    "description": "Before we get into the technicals, we gotta anchor your spirit. You aren't just a cog in a machine; you're a sovereign soul.",
+    "sacredWeight": "High",
+    "estimatedTime": "15-30 minutes"
+  },
+  "lessons": [
+    {
+      "id": "lesson-1-1",
+      "title": "Your Holy Ambition",
+      "description": "Write down one 'Holy Ambition'—something you want to achieve that helps someone else.",
+      "task": "Write down one 'Holy Ambition'",
+      "detailedDescription": "Listen, mate, before we get into the technicals, we gotta anchor your spirit. You aren't just a cog in a machine; you're a sovereign soul.\n\nYour Task: Write down one 'Holy Ambition'—something you want to achieve that helps someone else. Whether it's providing for your kin, teaching a neighbor, or building something that serves the community, name it. Once you name it, you own it. That's your North Star for this whole platform.",
+      "action": "Begin Your Journey",
+      "userForms": {
+        "spiral": {
+          "description": "Active, flowing energy. Rapid updates and dynamic engagement.",
+          "features": ["Real-time progress tracking", "Dynamic UI updates", "High-frequency activity logs"]
+        },
+        "barredSpiral": {
+          "description": "Structured, linear progression. Central bar to channel energy.",
+          "features": ["Step-by-step guidance", "Clear progression path", "Central navigation"]
+        },
+        "elliptical": {
+          "description": "Low-gas, high-wisdom. Mentorship markers for legacy users.",
+          "features": ["Wisdom sharing", "Mentorship opportunities", "Low-maintenance interface"]
+        },
+        "irregular": {
+          "description": "Flexible, adaptive. No defined shape yet - transformation in progress.",
+          "features": ["Flexible journey", "Adaptive interface", "Customizable path"]
+        }
+      }
+    }
+  ],
+  "nextSteps": [
+    {
+      "id": "next-step-1",
+      "task": "Write down one 'Holy Ambition'",
+      "description": "Name your North Star. Once you name it, you own it.",
+      "action": "Begin Your Journey",
+      "file": null
+    }
+  ],
+  "communityFeed": [
+    {
+      "id": "feed-1",
+      "entity": "New Member",
+      "action": "just stepped inside",
+      "content": "from London. Stand tall, mate!",
+      "timestamp": "just now"
+    },
+    {
+      "id": "feed-2",
+      "entity": "Brother Elias",
+      "action": "just anchored his",
+      "content": "'North Star' in the Sovereign Soul module",
+      "timestamp": "5 minutes ago"
+    },
+    {
+      "id": "feed-3",
+      "entity": "The Lighthouse",
+      "action": "is now",
+      "content": "80% lighter. The path is clear for everyone.",
+      "timestamp": "12 minutes ago"
+    },
+    {
+      "id": "feed-4",
+      "entity": "Milestone",
+      "action": "",
+      "content": "Energy + Love = We All Win. 2,500 hearts now beating as one in the circle.",
+      "timestamp": "1 hour ago"
+    }
+  ]
+}

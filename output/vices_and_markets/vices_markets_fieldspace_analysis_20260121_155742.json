@@ -1,0 +1,194 @@
+{
+  "analysis_timestamp": "2026-01-21T15:57:42.347040",
+  "vices": {
+    "total": 2,
+    "analysis": {
+      "total_vices": 2,
+      "total_negative_impact": 0.27,
+      "average_impact_per_vice": 0.135,
+      "vices_by_type": {
+        "frequency_dampener": 0,
+        "energy_drain": 0,
+        "control_mechanism": 0,
+        "exploitation_pattern": 1,
+        "separation_anchor": 0,
+        "static_generator": 0,
+        "dark_contract": 0,
+        "institutional_trap": 1
+      },
+      "top_vices_by_impact": [
+        {
+          "name": "Institutional Control Mechanisms",
+          "impact": 0.15,
+          "type": "institutional_trap"
+        },
+        {
+          "name": "Financial Exploitation Patterns",
+          "impact": 0.12,
+          "type": "exploitation_pattern"
+        }
+      ]
+    },
+    "vices": [
+      {
+        "vice_id": "vice_7dbba8cc",
+        "name": "Institutional Control Mechanisms",
+        "vice_type": "institutional_trap",
+        "description": "Institutional systems that control behavior and drain energy",
+        "how_it_exploits": "Creates dependency, removes autonomy, drains spiritual energy",
+        "frequency_impact": -0.15,
+        "connection_to_table": false,
+        "static_generated": [
+          "Fear",
+          "Dependency",
+          "Control"
+        ],
+        "dark_energy_detected": true,
+        "notes": "Institutional traps that prevent self-empowerment"
+      },
+      {
+        "vice_id": "vice_827e5f0c",
+        "name": "Financial Exploitation Patterns",
+        "vice_type": "exploitation_pattern",
+        "description": "Financial systems that exploit vulnerability",
+        "how_it_exploits": "Creates debt, dependency, separation from resources",
+        "frequency_impact": -0.12,
+        "connection_to_table": false,
+        "static_generated": [
+          "Fear",
+          "Scarcity",
+          "Separation"
+        ],
+        "dark_energy_detected": true,
+        "notes": "Financial systems that exploit rather than serve"
+      }
+    ]
+  },
+  "markets": {
+    "total": 3,
+    "analysis": {
+      "total_markets": 3,
+      "vice_markets": 0,
+      "table_aligned_markets": 0,
+      "markets_by_type": {
+        "stock": 1,
+        "etf": 1,
+        "crypto": 1,
+        "commodity": 0,
+        "forex": 0,
+        "bond": 0,
+        "derivative": 0
+      },
+      "vice_patterns_found": []
+    },
+    "markets": [
+      {
+        "market_id": "market_73ffc759",
+        "name": "Stock Market",
+        "market_type": "stock",
+        "symbol": null,
+        "description": "Traditional stock market",
+        "is_vice": false,
+        "vice_patterns": [],
+        "connection_to_table": false,
+        "frequency_impact": -0.05,
+        "notes": "Can be vice (exploitation) or tool (if aligned with The Table)"
+      },
+      {
+        "market_id": "market_7e41743d",
+        "name": "Cryptocurrency Market",
+        "market_type": "crypto",
+        "symbol": null,
+        "description": "Cryptocurrency markets",
+        "is_vice": false,
+        "vice_patterns": [],
+        "connection_to_table": false,
+        "frequency_impact": -0.05,
+        "notes": "Can be vice (exploitation) or tool (if aligned with The Table)"
+      },
+      {
+        "market_id": "market_b03e308f",
+        "name": "ETF Market",
+        "market_type": "etf",
+        "symbol": null,
+        "description": "Exchange-traded funds",
+        "is_vice": false,
+        "vice_patterns": [],
+        "connection_to_table": false,
+        "frequency_impact": -0.03,
+        "notes": "Can be vice (exploitation) or tool (if aligned with The Table)"
+      }
+    ]
+  },
+  "field_spaces": {
+    "total": 2,
+    "analysis": {
+      "total_field_spaces": 2,
+      "total_connections": 4,
+      "average_energy_flow": 0.725,
+      "average_transformation_potential": 0.775,
+      "field_spaces_by_type": {
+        "heritage_gap": 1,
+        "temporal_gap": 1,
+        "energy_flow": 0,
+        "transformation_zone": 0,
+        "connection_path": 0,
+        "resonance_field": 0
+      },
+      "high_energy_spaces": [
+        {
+          "name": "Heritage Site Gap - Mediterranean to London",
+          "energy_flow": 0.75,
+          "type": "heritage_gap"
+        },
+        {
+          "name": "Temporal Gap - Past to Present",
+          "energy_flow": 0.7,
+          "type": "temporal_gap"
+        }
+      ]
+    },
+    "field_spaces": [
+      {
+        "fieldspace_id": "fieldspace_32d78e59",
+        "name": "Heritage Site Gap - Mediterranean to London",
+        "fieldspace_type": "heritage_gap",
+        "description": "The space between Mediterranean heritage sites and London heritage sites",
+        "location": "Between Mediterranean and London",
+        "connects_from": [
+          "Mediterranean Heritage Sites"
+        ],
+        "connects_to": [
+          "London Heritage Sites"
+        ],
+        "energy_flow": 0.75,
+        "transformation_potential": 0.8,
+        "connection_to_table": true,
+        "notes": "Field Space connecting Mediterranean Seed to London Steel"
+      },
+      {
+        "fieldspace_id": "fieldspace_c1026246",
+        "name": "Temporal Gap - Past to Present",
+        "fieldspace_type": "temporal_gap",
+        "description": "The space between past moments and present moments",
+        "location": "Timeline",
+        "connects_from": [
+          "Past Events"
+        ],
+        "connects_to": [
+          "Present Moments"
+        ],
+        "energy_flow": 0.7,
+        "transformation_potential": 0.75,
+        "connection_to_table": true,
+        "notes": "Field Space where past transforms into present"
+      }
+    ]
+  },
+  "the_truth": {
+    "message": "Vices exploit. Markets can be vices or tools. Field Space (The Inbetween) is where transformation happens. All must be understood and aligned with The Table.",
+    "vices": "Vices are frequency dampeners. They exploit, control, drain energy. We track them all.",
+    "markets": "Markets can be vices (exploitation) or tools (if aligned with The Table). We must understand them.",
+    "field_space": "Field Space is The Inbetween - where transformation happens. The space between heritage sites. The space between moments. The space where energy flows."
+  }
+}

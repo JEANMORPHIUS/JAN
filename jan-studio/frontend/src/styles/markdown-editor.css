@@ -1,0 +1,50 @@
+/* Custom styles for react-markdown-editor-lite in dark mode */
+
+.rc-md-editor {
+  background-color: #0a0a0a !important;
+  border: 1px solid #333 !important;
+  color: #e0e0e0 !important;
+}
+
+.rc-md-editor .rc-md-navigation {
+  background-color: #1a1a1a !important;
+  border-bottom: 1px solid #333 !important;
+}
+
+.rc-md-editor .rc-md-navigation .button {
+  color: #e0e0e0 !important;
+}
+
+.rc-md-editor .rc-md-navigation .button:hover {
+  background-color: #2a2a2a !important;
+}
+
+.rc-md-editor .editor-container {
+  background-color: #0a0a0a !important;
+}
+
+.rc-md-editor .editor-container .section-container {
+  background-color: #0a0a0a !important;
+}
+
+.rc-md-editor .editor-container .section-container textarea {
+  background-color: #0a0a0a !important;
+  color: #e0e0e0 !important;
+  font-family: 'Courier New', monospace !important;
+}
+
+.rc-md-editor .editor-container .section-container .custom-html-style {
+  background-color: #1a1a1a !important;
+  color: #e0e0e0 !important;
+}
+
+.rc-md-editor .editor-container .section-container .custom-html-style pre {
+  background-color: #0a0a0a !important;
+  color: #e0e0e0 !important;
+}
+
+.rc-md-editor .editor-container .section-container .custom-html-style code {
+  background-color: #0a0a0a !important;
+  color: #e0e0e0 !important;
+}
+

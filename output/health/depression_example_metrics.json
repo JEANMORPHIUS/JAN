@@ -1,0 +1,41 @@
+[
+  {
+    "timestamp": "2026-01-20T05:14:13.079678",
+    "metric_type": "symptom",
+    "metric_name": "mood_level",
+    "value": 6,
+    "unit": "scale_1_10",
+    "condition_name": "Depression",
+    "notes": null,
+    "life_event_id": null,
+    "field_resonance": null,
+    "source": "manual",
+    "confidence": 1.0
+  },
+  {
+    "timestamp": "2026-01-20T05:14:13.079678",
+    "metric_type": "symptom",
+    "metric_name": "energy_level",
+    "value": 5,
+    "unit": "scale_1_10",
+    "condition_name": "Depression",
+    "notes": null,
+    "life_event_id": null,
+    "field_resonance": null,
+    "source": "manual",
+    "confidence": 1.0
+  },
+  {
+    "timestamp": "2026-01-20T05:14:13.079678",
+    "metric_type": "activity",
+    "metric_name": "sleep_hours",
+    "value": 7.5,
+    "unit": "hours",
+    "condition_name": "Depression",
+    "notes": null,
+    "life_event_id": null,
+    "field_resonance": null,
+    "source": "manual",
+    "confidence": 1.0
+  }
+]

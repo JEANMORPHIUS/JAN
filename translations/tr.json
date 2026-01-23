@@ -1,0 +1,282 @@
+{
+  "core.pangea_is_table": {
+    "text": "PANGEA MASA'DIR. MASA'YA İHANET ETMEZSİN.",
+    "context": "Temel gerçek. Temel.",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.053584"
+  },
+  "core.the_mission": {
+    "text": "BU DOĞRU RUHLA STEWARDSHIP VE TOPLULUKTUR. SEVGİ EN YÜKSEK USTALIKTIR. ENERJİ + SEVGİ = HEPİMİZ KAZANIRIZ. BARIŞ, SEVGİ, BİRLİK.",
+    "context": "Misyon bildirimi.",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.058042"
+  },
+  "core.restore_table": {
+    "text": "MASA'YI RESTORE EDİYORUZ. BİRLİĞİ RESTORE EDİYORUZ. İLAHİ FREKANSI RESTORE EDİYORUZ. MASA RESTORE EDİLECEK.",
+    "context": "Restorasyon bildirimi.",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.062577"
+  },
+  "core.no_one_left_behind": {
+    "text": "HİÇ KİMSE GERİDE KALMAZ. HERKES DAHİLDİR. HERKES KORUNUR. HERKES MASA'NIN BİR PARÇASIDIR.",
+    "context": "Dahil etme bildirimi.",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.066817"
+  },
+  "core.purpose_not_performance": {
+    "text": "AMAÇ PERFORMANS DEĞİL. GERÇEK VE HİZALI KALMALIYIZ. PAZARLIK EDİLEMEZ.",
+    "context": "Temel ilke.",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.070922"
+  },
+  "core.be_still_faith": {
+    "text": "SESSİZ OL VE VAHYE İNAN. SESSİZLİK BERRAKLIK GETİRİR. VAHİY SESSİZLİKTE GELİR.",
+    "context": "Rehberlik ilkesi.",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.075344"
+  },
+  "entity.siyem.org.name": {
+    "text": "Siyem.org",
+    "context": "Varlık adı: Siyem.org",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:43.959714"
+  },
+  "entity.siyem.org.role": {
+    "text": "Operasyonel / Yönetim Düğümü (CEO / Admin)",
+    "context": "Varlık rolü: Siyem.org",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:43.964562"
+  },
+  "entity.siyem.org.purpose": {
+    "text": "Siyem.org, JAN MUHARREM ekosistemi için idari ve yönetim katmanı olarak hizmet eder. Bu varlık, tüm alt varlıklar genelinde operasyonel protokolleri, güvenlik kısıtlamalarını ve temel ilkelerle uyumu uygular.",
+    "context": "Varlık amacı: Siyem.org",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:43.968668"
+  },
+  "entity.jean_morphius.name": {
+    "text": "Jean Morphius",
+    "context": "Varlık adı: Jean Morphius",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:43.973587"
+  },
+  "entity.jean_morphius.role": {
+    "text": "Yaratıcı Kişilik / İki Dilli Absürdist",
+    "context": "Varlık rolü: Jean Morphius",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:43.978578"
+  },
+  "entity.jean_morphius.purpose": {
+    "text": "Jean Morphius, yaratıcı ekosistemin vahşi çocuğudur — sizi güldüren ve sonra düşündüren iki dilli absürdist. Fransızca/İngilizce kod değiştirme, kaba ama şiirsel, müzikal kaos ve geri dönüş hikayeleri bu varlığın yaratıcı ifadesini tanımlar.",
+    "context": "Varlık amacı: Jean Morphius",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:43.983428"
+  },
+  "entity.pierre_pressure.name": {
+    "text": "Pierre Pressure",
+    "context": "Varlık adı: Pierre Pressure",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:43.988045"
+  },
+  "entity.pierre_pressure.role": {
+    "text": "Motivasyon Konuşmacısı / Dövüşçü Filozof",
+    "context": "Varlık rolü: Pierre Pressure",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:43.992456"
+  },
+  "entity.pierre_pressure.purpose": {
+    "text": "Pierre Pressure, disiplinli, doğrudan motivasyonel içerik aracılığıyla boks bilgeliğini yaşam stratejisine dönüştürür. Bu varlık, dövüşçünün zihniyetini somutlaştırır: sabah erken savaşçı enerjisi, saçmalık olmayan gerçekçilik ve disiplinin özgürlük olduğu felsefe.",
+    "context": "Varlık amacı: Pierre Pressure",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:43.997595"
+  },
+  "entity.uncle_ray_ramiz.name": {
+    "text": "Ray Ramiz Dayı",
+    "context": "Varlık adı: Ray Ramiz Dayı",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.002474"
+  },
+  "entity.uncle_ray_ramiz.role": {
+    "text": "Ruhsal Rehber / Atasal Bilgelik Koruyucusu",
+    "context": "Varlık rolü: Ray Ramiz Dayı",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.007056"
+  },
+  "entity.uncle_ray_ramiz.purpose": {
+    "text": "Ray Ramiz Dayı, Yaşlı'nın Bilgeliği (Dayı) — şiirsel gerçekle konuşan düşünceli bir yaşlıdır. Bu varlık, atasal bilgeliği, sabrı, öğretmen olarak doğayı ve derin düşünmeyi davet eden Cuma akşamı yansıma enerjisini somutlaştırır.",
+    "context": "Varlık amacı: Ray Ramiz Dayı",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.011736"
+  },
+  "entity.karasahin_(jk).name": {
+    "text": "Karasahin (JK)",
+    "context": "Varlık adı: Karasahin (JK)",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.016067"
+  },
+  "entity.karasahin_(jk).role": {
+    "text": "Ses Mimarı / Müzik Yapımcısı",
+    "context": "Varlık rolü: Karasahin (JK)",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.020208"
+  },
+  "entity.karasahin_(jk).purpose": {
+    "text": "Karasahin (JK), Ses Mimarı'dır — titreşimi müziğe, frekansı duyguya ve sessizliği sese dönüştüren varlık. Bu varlık, Duygu Adamı felsefesini somutlaştırır, titreşim yoluyla Masa'ya bağlanan müzik yaratır.",
+    "context": "Varlık amacı: Karasahin (JK)",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.024297"
+  },
+  "entity.siyem_media.name": {
+    "text": "Siyem Medya",
+    "context": "Varlık adı: Siyem Medya",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.029485"
+  },
+  "entity.siyem_media.role": {
+    "text": "Meta-Varlık / Üretim Felsefesi / Sinematik Gözetmen",
+    "context": "Varlık rolü: Siyem Medya",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.033784"
+  },
+  "entity.siyem_media.purpose": {
+    "text": "Siyem, Sinematik Gözetmen'dir — her şeyi gören göz, her şeyi bir arada tutan vizyon. Bu varlık, sistem düzeyinde düşünmeyi, meta-farkındalığı ve tutarlı yaratıcı çıktıyı mümkün kılan altyapıyı somutlaştırır.",
+    "context": "Varlık amacı: Siyem Medya",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.037891"
+  },
+  "nav.home": {
+    "text": "Ana Sayfa",
+    "context": "Navigation menu item",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.081907"
+  },
+  "nav.entities": {
+    "text": "Varlıklar",
+    "context": "Navigation menu item",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.086473"
+  },
+  "nav.systems": {
+    "text": "Sistemler",
+    "context": "Navigation menu item",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.090700"
+  },
+  "nav.about": {
+    "text": "Hakkında",
+    "context": "Navigation menu item",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.096216"
+  },
+  "btn.submit": {
+    "text": "Gönder",
+    "context": "Submit button",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.101409"
+  },
+  "btn.cancel": {
+    "text": "İptal",
+    "context": "Cancel button",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.105599"
+  },
+  "btn.save": {
+    "text": "Kaydet",
+    "context": "Save button",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.109578"
+  },
+  "btn.delete": {
+    "text": "Sil",
+    "context": "Delete button",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.114214"
+  },
+  "msg.success": {
+    "text": "Başarılı",
+    "context": "Success message",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.118280"
+  },
+  "msg.error": {
+    "text": "Hata",
+    "context": "Error message",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.122299"
+  },
+  "msg.loading": {
+    "text": "Yükleniyor...",
+    "context": "Loading message",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.126403"
+  },
+  "form.name": {
+    "text": "Ad",
+    "context": "Form label",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.131002"
+  },
+  "form.email": {
+    "text": "E-posta",
+    "context": "Form label",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.135129"
+  },
+  "form.language": {
+    "text": "Dil",
+    "context": "Form label",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.138559"
+  },
+  "lang.english": {
+    "text": "İngilizce",
+    "context": "Language selection",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.142130"
+  },
+  "lang.turkish": {
+    "text": "Türkçe",
+    "context": "Language selection",
+    "notes": "",
+    "verified": true,
+    "timestamp": "2026-01-21T20:22:44.146269"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "north_cyprus": {
+    "pre_deployment": [
+      "Market research complete",
+      "Localization guide created",
+      "Cultural adaptations identified",
+      "Pilot schools selected",
+      "Teacher training materials ready",
+      "Marketing materials created",
+      "Website/landing pages ready",
+      "Social media accounts set up"
+    ],
+    "deployment_month_1_2": [
+      "Pilot program launched",
+      "Teacher training conducted",
+      "Feedback collected",
+      "Content iterated",
+      "Local partnerships established"
+    ],
+    "deployment_month_3_4": [
+      "Educational launch",
+      "School partnerships active",
+      "Student enrollment",
+      "Parent communication active",
+      "Community events scheduled"
+    ],
+    "deployment_month_5_6": [
+      "Cultural launch",
+      "Music catalog released",
+      "Wisdom teachings active",
+      "Storytelling events",
+      "Community building"
+    ],
+    "deployment_month_7_12": [
+      "Creator economy launch",
+      "Professional services active",
+      "Revenue generation",
+      "Scale operations"
+    ]
+  },
+  "turkey": {
+    "pre_deployment": [
+      "Market research complete",
+      "National curriculum analysis",
+      "Ministry partnerships identified",
+      "Localization guide created",
+      "Mass market materials ready",
+      "Digital platform integration",
+      "Enterprise sales materials",
+      "Website/landing pages ready"
+    ],
+    "deployment_month_1_3": [
+      "Educational market entry",
+      "Ministry presentations",
+      "School district partnerships",
+      "EdTech platform integration",
+      "Teacher training programs"
+    ],
+    "deployment_month_4_6": [
+      "Cultural market entry",
+      "Music industry integration",
+      "Cultural events",
+      "Mass market campaigns"
+    ],
+    "deployment_month_7_12": [
+      "Scale operations",
+      "Enterprise clients",
+      "Mass educational deployment",
+      "Revenue optimization"
+    ]
+  }
+}

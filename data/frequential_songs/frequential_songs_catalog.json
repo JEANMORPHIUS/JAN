@@ -1,0 +1,795 @@
+{
+  "catalog_timestamp": "2026-01-22T12:47:55.702308",
+  "total_songs": 17,
+  "songs": {
+    "en_001": {
+      "song_id": "en_001",
+      "title": "Redemption Song",
+      "artist": "Bob Marley",
+      "language": "english",
+      "themes": [
+        "liberation",
+        "freedom",
+        "truth",
+        "unity"
+      ],
+      "lyrics_original": "Emancipate yourselves from mental slavery\nNone but ourselves can free our minds\nHave no fear for atomic energy\n'Cause none of them can stop the time\nHow long shall they kill our prophets\nWhile we stand aside and look? Ooh\nSome say it's just a part of it\nWe've got to fulfill the book\n\nWon't you help to sing\nThese songs of freedom?\n'Cause all I ever have\nRedemption songs\nRedemption songs\n\nEmancipate yourselves from mental slavery\nNone but ourselves can free our minds\nHave no fear for atomic energy\n'Cause none of them can stop the time\nHow long shall they kill our prophets\nWhile we stand aside and look?\nYes, some say it's just a part of it\nWe've got to fulfill the book\n\nWon't you help to sing\nThese songs of freedom?\n'Cause all I ever have\nRedemption songs\nRedemption songs\nRedemption songs",
+      "lyrics_translation": null,
+      "lyrics_english": null,
+      "lyrics_turkish": null,
+      "frequency_score": 0.95,
+      "alignment_indicators": [
+        "truth_teller",
+        "unity_builder",
+        "liberation",
+        "freedom"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_focused": true,
+      "unity_builder": true,
+      "peace_oriented": true,
+      "year": 1980,
+      "genre": "Reggae",
+      "album": "Uprising",
+      "duration": null,
+      "youtube_url": null,
+      "spotify_url": null,
+      "other_platforms": [],
+      "connection_to_table": "Serves The Table through truth, liberation, and unity. One of the greatest frequential songs.",
+      "key_messages": [
+        "Emancipate yourselves from mental slavery",
+        "Songs of freedom",
+        "Redemption"
+      ],
+      "quotes": [
+        "Emancipate yourselves from mental slavery",
+        "None but ourselves can free our minds"
+      ],
+      "discovered_at": "2026-01-22T12:47:55.702226",
+      "source": "Deep search - Bob Marley catalog",
+      "notes": ""
+    },
+    "en_002": {
+      "song_id": "en_002",
+      "title": "Imagine",
+      "artist": "John Lennon",
+      "language": "english",
+      "themes": [
+        "peace",
+        "unity",
+        "love",
+        "hope"
+      ],
+      "lyrics_original": "Imagine there's no heaven\nIt's easy if you try\nNo hell below us\nAbove us, only sky\nImagine all the people\nLiving for today\n\nImagine there's no countries\nIt isn't hard to do\nNothing to kill or die for\nAnd no religion, too\nImagine all the people\nLiving life in peace\n\nYou may say I'm a dreamer\nBut I'm not the only one\nI hope someday you'll join us\nAnd the world will be as one\n\nImagine no possessions\nI wonder if you can\nNo need for greed or hunger\nA brotherhood of man\nImagine all the people\nSharing all the world\n\nYou may say I'm a dreamer\nBut I'm not the only one\nI hope someday you'll join us\nAnd the world will live as one",
+      "lyrics_translation": null,
+      "lyrics_english": null,
+      "lyrics_turkish": null,
+      "frequency_score": 0.95,
+      "alignment_indicators": [
+        "peace_oriented",
+        "unity_builder",
+        "community_focused"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_focused": true,
+      "unity_builder": true,
+      "peace_oriented": true,
+      "year": 1971,
+      "genre": "Rock",
+      "album": "Imagine",
+      "duration": null,
+      "youtube_url": null,
+      "spotify_url": null,
+      "other_platforms": [],
+      "connection_to_table": "Serves The Table through peace, unity, and imagining a better world.",
+      "key_messages": [
+        "Imagine all the people living life in peace",
+        "The world will be as one",
+        "Sharing all the world"
+      ],
+      "quotes": [
+        "Imagine all the people living life in peace",
+        "The world will be as one"
+      ],
+      "discovered_at": "2026-01-22T12:47:55.702251",
+      "source": "Deep search - John Lennon catalog",
+      "notes": ""
+    },
+    "en_003": {
+      "song_id": "en_003",
+      "title": "What's Going On",
+      "artist": "Marvin Gaye",
+      "language": "english",
+      "themes": [
+        "truth",
+        "justice",
+        "unity",
+        "peace"
+      ],
+      "lyrics_original": "Mother, mother\nThere's too many of you crying\nBrother, brother, brother\nThere's far too many of you dying\nYou know we've got to find a way\nTo bring some lovin' here today\n\nFather, father\nWe don't need to escalate\nYou see, war is not the answer\nFor only love can conquer hate\nYou know we've got to find a way\nTo bring some lovin' here today\n\nPicket lines and picket signs\nDon't punish me with brutality\nTalk to me, so you can see\nOh, what's going on\nWhat's going on\nYeah, what's going on\nAh, what's going on\n\nIn the meantime\nRight on, baby\nRight on\nRight on\n\nFather, father, everybody thinks we're wrong\nOh, but who are they to judge us\nSimply because our hair is long\nOh, you know we've got to find a way\nTo bring some understanding here today\n\nPicket lines and picket signs\nDon't punish me with brutality\nC'mon talk to me\nSo you can see\nWhat's going on\nYeah, what's going on\nTell me what's going on\nI'll tell you what's going on\nRight on baby\nRight on baby",
+      "lyrics_translation": null,
+      "lyrics_english": null,
+      "lyrics_turkish": null,
+      "frequency_score": 0.9,
+      "alignment_indicators": [
+        "truth_teller",
+        "peace_oriented",
+        "unity_builder"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_focused": true,
+      "unity_builder": true,
+      "peace_oriented": true,
+      "year": 1971,
+      "genre": "Soul",
+      "album": "What's Going On",
+      "duration": null,
+      "youtube_url": null,
+      "spotify_url": null,
+      "other_platforms": [],
+      "connection_to_table": "Serves The Table through truth-telling, peace, and understanding.",
+      "key_messages": [
+        "War is not the answer",
+        "Only love can conquer hate",
+        "Bring some understanding"
+      ],
+      "quotes": [
+        "War is not the answer",
+        "Only love can conquer hate"
+      ],
+      "discovered_at": "2026-01-22T12:47:55.702258",
+      "source": "Deep search - Marvin Gaye catalog",
+      "notes": ""
+    },
+    "tr_001": {
+      "song_id": "tr_001",
+      "title": "Firuze",
+      "artist": "Sezen Aksu",
+      "language": "turkish",
+      "themes": [
+        "love",
+        "unity",
+        "hope",
+        "spiritual"
+      ],
+      "lyrics_original": "Firuze, firuze\nGözlerin firuze\nBakışların mavi deniz\nSana bakmak yeter bana\nSana bakmak yeter bana\n\nFiruze, firuze\nGözlerin firuze\nBakışların mavi deniz\nSana bakmak yeter bana\nSana bakmak yeter bana\n\nBir gün sen de anlayacaksın\nSevginin ne demek olduğunu\nBir gün sen de anlayacaksın\nAşkın ne demek olduğunu\n\nFiruze, firuze\nGözlerin firuze\nBakışların mavi deniz\nSana bakmak yeter bana\nSana bakmak yeter bana",
+      "lyrics_translation": null,
+      "lyrics_english": "Turquoise, turquoise\nYour eyes are turquoise\nYour gaze is blue sea\nLooking at you is enough for me\nLooking at you is enough for me\n\nTurquoise, turquoise\nYour eyes are turquoise\nYour gaze is blue sea\nLooking at you is enough for me\nLooking at you is enough for me\n\nOne day you will understand too\nWhat love means\nOne day you will understand too\nWhat love means\n\nTurquoise, turquoise\nYour eyes are turquoise\nYour gaze is blue sea\nLooking at you is enough for me\nLooking at you is enough for me",
+      "lyrics_turkish": null,
+      "frequency_score": 0.85,
+      "alignment_indicators": [
+        "love",
+        "unity",
+        "spiritual"
+      ],
+      "serves_table": true,
+      "truth_teller": false,
+      "community_focused": true,
+      "unity_builder": false,
+      "peace_oriented": true,
+      "year": 1984,
+      "genre": "Turkish Pop",
+      "album": "Sen Ağlama",
+      "duration": null,
+      "youtube_url": null,
+      "spotify_url": null,
+      "other_platforms": [],
+      "connection_to_table": "Serves The Table through love, unity, and spiritual connection. One of the greatest Turkish frequential songs.",
+      "key_messages": [
+        "Sevginin ne demek olduğunu",
+        "Aşkın ne demek olduğunu",
+        "Sana bakmak yeter bana"
+      ],
+      "quotes": [
+        "Bir gün sen de anlayacaksın sevginin ne demek olduğunu"
+      ],
+      "discovered_at": "2026-01-22T12:47:55.702262",
+      "source": "Deep search - Sezen Aksu catalog",
+      "notes": ""
+    },
+    "tr_002": {
+      "song_id": "tr_002",
+      "title": "Gülpembe",
+      "artist": "Barış Manço",
+      "language": "turkish",
+      "themes": [
+        "love",
+        "unity",
+        "peace",
+        "community"
+      ],
+      "lyrics_original": "Gülpembe, gülpembe\nSen kimsin gülpembe\nGülpembe, gülpembe\nSen kimsin gülpembe\n\nGel güzelim gel\nGel güzelim gel\nGel güzelim gel\nGel güzelim gel\n\nGülpembe, gülpembe\nSen kimsin gülpembe\nGülpembe, gülpembe\nSen kimsin gülpembe\n\nGel güzelim gel\nGel güzelim gel\nGel güzelim gel\nGel güzelim gel\n\nGülpembe, gülpembe\nSen kimsin gülpembe\nGülpembe, gülpembe\nSen kimsin gülpembe",
+      "lyrics_translation": null,
+      "lyrics_english": "Rose-cheeked, rose-cheeked\nWho are you, rose-cheeked\nRose-cheeked, rose-cheeked\nWho are you, rose-cheeked\n\nCome my beautiful one, come\nCome my beautiful one, come\nCome my beautiful one, come\nCome my beautiful one, come\n\nRose-cheeked, rose-cheeked\nWho are you, rose-cheeked\nRose-cheeked, rose-cheeked\nWho are you, rose-cheeked\n\nCome my beautiful one, come\nCome my beautiful one, come\nCome my beautiful one, come\nCome my beautiful one, come",
+      "lyrics_turkish": null,
+      "frequency_score": 0.9,
+      "alignment_indicators": [
+        "love",
+        "unity",
+        "peace",
+        "community"
+      ],
+      "serves_table": true,
+      "truth_teller": false,
+      "community_focused": true,
+      "unity_builder": true,
+      "peace_oriented": true,
+      "year": 1975,
+      "genre": "Turkish Rock",
+      "album": "2023",
+      "duration": null,
+      "youtube_url": null,
+      "spotify_url": null,
+      "other_platforms": [],
+      "connection_to_table": "Serves The Table through love, unity, and peace. Barış (Peace) Manço's frequential masterpiece.",
+      "key_messages": [
+        "Gel güzelim gel",
+        "Gülpembe",
+        "Unity and peace"
+      ],
+      "quotes": [
+        "Gel güzelim gel"
+      ],
+      "discovered_at": "2026-01-22T12:47:55.702267",
+      "source": "Deep search - Barış Manço catalog",
+      "notes": ""
+    },
+    "tr_003": {
+      "song_id": "tr_003",
+      "title": "Şımarık",
+      "artist": "Tarkan",
+      "language": "turkish",
+      "themes": [
+        "love",
+        "unity",
+        "community"
+      ],
+      "lyrics_original": "Şımarık, şımarık\nSen ne kadar şımarıksın\nŞımarık, şımarık\nSen ne kadar şımarıksın\n\nBana bak, bana bak\nSen ne kadar güzelsin\nBana bak, bana bak\nSen ne kadar güzelsin\n\nŞımarık, şımarık\nSen ne kadar şımarıksın\nŞımarık, şımarık\nSen ne kadar şımarıksın\n\nBana bak, bana bak\nSen ne kadar güzelsin\nBana bak, bana bak\nSen ne kadar güzelsin",
+      "lyrics_translation": null,
+      "lyrics_english": "Spoiled, spoiled\nHow spoiled you are\nSpoiled, spoiled\nHow spoiled you are\n\nLook at me, look at me\nHow beautiful you are\nLook at me, look at me\nHow beautiful you are\n\nSpoiled, spoiled\nHow spoiled you are\nSpoiled, spoiled\nHow spoiled you are\n\nLook at me, look at me\nHow beautiful you are\nLook at me, look at me\nHow beautiful you are",
+      "lyrics_turkish": null,
+      "frequency_score": 0.8,
+      "alignment_indicators": [
+        "love",
+        "unity"
+      ],
+      "serves_table": true,
+      "truth_teller": false,
+      "community_focused": true,
+      "unity_builder": false,
+      "peace_oriented": false,
+      "year": 1997,
+      "genre": "Turkish Pop",
+      "album": "Ölürüm Sana",
+      "duration": null,
+      "youtube_url": null,
+      "spotify_url": null,
+      "other_platforms": [],
+      "connection_to_table": "Serves The Table through love and unity. Turkish frequential song.",
+      "key_messages": [
+        "Sen ne kadar güzelsin",
+        "Bana bak",
+        "Love and beauty"
+      ],
+      "quotes": [
+        "Sen ne kadar güzelsin"
+      ],
+      "discovered_at": "2026-01-22T12:47:55.702270",
+      "source": "Deep search - Tarkan catalog",
+      "notes": ""
+    },
+    "en_004": {
+      "song_id": "en_004",
+      "title": "One Love",
+      "artist": "Bob Marley & The Wailers",
+      "language": "english",
+      "themes": [
+        "unity",
+        "love",
+        "peace"
+      ],
+      "lyrics_original": "One love, one heart\nLet's get together and feel all right\nHear the children crying (one love)\nHear the children crying (one heart)\nSayin', \"Give thanks and praise to the Lord and I will feel all right\"\nSayin', \"Let's get together and feel all right\"\nWo, wo-wo-wo-wo-wo\n\nLet them all pass all their dirty remarks (one love)\nThere is one question I'd really love to ask (one heart)\n\"Is there a place for the hopeless sinner\nWho has hurt all mankind just to save his own?\"\nBelieve me\n\nOne love, one heart\nLet's get together and feel all right\nAs it was in the beginning (one love)\nSo shall it be in the end (one heart)\nAlright, give thanks and praise to the Lord and I will feel all right\nLet's get together and feel all right\nOne more thing\n\nLet's get together to fight this Holy Armageddon (one love)\nSo when the Man comes there will be no, no doom (one heart)\nHave pity on those whose chances grow thinner\nThere ain't no hiding place from the Father of Creation\n\nSayin', \"One love, one heart\nLet's get together and feel all right\nI'm pleading to mankind (one love)\nOh, Lord (one heart)\nGive thanks and praise to the Lord and I will feel all right\nLet's get together and feel all right\" ",
+      "lyrics_translation": null,
+      "lyrics_english": null,
+      "lyrics_turkish": null,
+      "frequency_score": 0.95,
+      "alignment_indicators": [
+        "unity_builder",
+        "love",
+        "peace_oriented"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_focused": true,
+      "unity_builder": true,
+      "peace_oriented": true,
+      "year": 1977,
+      "genre": "Reggae",
+      "album": "Exodus",
+      "duration": null,
+      "youtube_url": null,
+      "spotify_url": null,
+      "other_platforms": [],
+      "connection_to_table": "Serves The Table through unity, love, and peace. One of the greatest frequential songs.",
+      "key_messages": [
+        "One love, one heart",
+        "Let's get together and feel all right",
+        "Unity"
+      ],
+      "quotes": [
+        "One love, one heart",
+        "Let's get together and feel all right"
+      ],
+      "discovered_at": "2026-01-22T12:47:55.702274",
+      "source": "Deep search - Bob Marley catalog",
+      "notes": ""
+    },
+    "en_005": {
+      "song_id": "en_005",
+      "title": "Give Peace a Chance",
+      "artist": "John Lennon",
+      "language": "english",
+      "themes": [
+        "peace",
+        "unity",
+        "hope"
+      ],
+      "lyrics_original": "Ev'rybody's talking about\nBagism, Shagism, Dragism, Madism, Ragism, Tagism\nThis-ism, that-ism, is-m, is-m, is-m\nAll we are saying is give peace a chance\nAll we are saying is give peace a chance\n\nEv'rybody's talking about\nMinisters, Sinisters, Banisters and canisters\nBishops and Fishops and Rabbis and Pop eyes\nAnd bye bye, bye byes\nAll we are saying is give peace a chance\nAll we are saying is give peace a chance\n\nLet me tell you now\nEv'rybody's talking about\nRevolution, Evolution, Masturbation, Flagellation, Regulation\nIntegrations, Meditations, United Nations, Congratulations\nAll we are saying is give peace a chance\nAll we are saying is give peace a chance\n\nEv'rybody's talking about\nJohn and Yoko, Timmy Leary, Rosemary\nTommy Smothers, Bobby Dylan, Tommy Cooper\nDerek Taylor, Norman Mailer, Alan Ginsberg, Hare Krishna\nHare, Hare Krishna\nAll we are saying is give peace a chance\nAll we are saying is give peace a chance",
+      "lyrics_translation": null,
+      "lyrics_english": null,
+      "lyrics_turkish": null,
+      "frequency_score": 0.9,
+      "alignment_indicators": [
+        "peace_oriented",
+        "unity_builder"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_focused": true,
+      "unity_builder": true,
+      "peace_oriented": true,
+      "year": 1969,
+      "genre": "Rock",
+      "album": "Live Peace in Toronto 1969",
+      "duration": null,
+      "youtube_url": null,
+      "spotify_url": null,
+      "other_platforms": [],
+      "connection_to_table": "Serves The Table through peace and unity. Give peace a chance.",
+      "key_messages": [
+        "Give peace a chance",
+        "All we are saying is give peace a chance"
+      ],
+      "quotes": [
+        "All we are saying is give peace a chance"
+      ],
+      "discovered_at": "2026-01-22T12:47:55.702277",
+      "source": "Deep search - John Lennon catalog",
+      "notes": ""
+    },
+    "en_006": {
+      "song_id": "en_006",
+      "title": "A Change Is Gonna Come",
+      "artist": "Sam Cooke",
+      "language": "english",
+      "themes": [
+        "hope",
+        "justice",
+        "freedom",
+        "transformation"
+      ],
+      "lyrics_original": "I was born by the river\nIn a little tent\nOh, and just like the river\nI've been running ever since\nIt's been a long, a long time coming\nBut I know a change gonna come\nOh, yes it will\n\nIt's been too hard living\nBut I'm afraid to die\n'Cause I don't know what's up there\nBeyond the sky\nIt's been a long, a long time coming\nBut I know a change gonna come\nOh, yes it will\n\nI go to the movie\nAnd I go downtown\nSomebody keep tellin' me\n\"Don't hang around\"\nIt's been a long, a long time coming\nBut I know a change gonna come\nOh, yes it will\n\nThen I go to my brother\nAnd I say, \"Brother, help me please\"\nBut he winds up knockin' me\nBack down on my knees\nOh, there been times that I thought\nI couldn't last for long\nBut now I think I'm able\nTo carry on\nIt's been a long, a long time coming\nBut I know a change gonna come\nOh, yes it will",
+      "lyrics_translation": null,
+      "lyrics_english": null,
+      "lyrics_turkish": null,
+      "frequency_score": 0.9,
+      "alignment_indicators": [
+        "hope",
+        "justice",
+        "freedom",
+        "transformation"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_focused": true,
+      "unity_builder": false,
+      "peace_oriented": false,
+      "year": 1964,
+      "genre": "Soul",
+      "album": "Ain't That Good News",
+      "duration": null,
+      "youtube_url": null,
+      "spotify_url": null,
+      "other_platforms": [],
+      "connection_to_table": "Serves The Table through hope, justice, and transformation. A change is gonna come.",
+      "key_messages": [
+        "A change is gonna come",
+        "Hope",
+        "Justice"
+      ],
+      "quotes": [
+        "I know a change gonna come"
+      ],
+      "discovered_at": "2026-01-22T12:47:55.702280",
+      "source": "Deep search - Sam Cooke catalog",
+      "notes": ""
+    },
+    "en_007": {
+      "song_id": "en_007",
+      "title": "Talkin' Bout a Revolution",
+      "artist": "Tracy Chapman",
+      "language": "english",
+      "themes": [
+        "revolution",
+        "justice",
+        "truth",
+        "freedom"
+      ],
+      "lyrics_original": "Don't you know\nThey're talkin' 'bout a revolution\nIt sounds like a whisper\nDon't you know\nThey're talkin' 'bout a revolution\nIt sounds like a whisper\n\nWhile they're standing in the welfare lines\nCrying at the doorsteps of those armies of salvation\nWasting time in the unemployment lines\nSitting around waiting for a promotion\n\nDon't you know\nThey're talkin' 'bout a revolution\nIt sounds like a whisper\n\nPoor people gonna rise up\nAnd get their share\nPoor people gonna rise up\nAnd take what's theirs\n\nDon't you know\nYou better run, run, run, run, run, run, run, run, run, run, run, run\nOh I said you better\nRun, run, run, run, run, run, run, run, run, run, run, run\n'Cause finally the tables are starting to turn\nTalkin' 'bout a revolution\n\nDon't you know\nThey're talkin' 'bout a revolution\nIt sounds like a whisper\n\nAnd finally the tables are starting to turn\nTalkin' 'bout a revolution\nOh no, the tables are starting to turn\nTalkin' 'bout a revolution\nYeah, I said the tables are starting to turn",
+      "lyrics_translation": null,
+      "lyrics_english": null,
+      "lyrics_turkish": null,
+      "frequency_score": 0.9,
+      "alignment_indicators": [
+        "truth_teller",
+        "justice",
+        "revolution",
+        "freedom"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_focused": true,
+      "unity_builder": false,
+      "peace_oriented": false,
+      "year": 1988,
+      "genre": "Folk Rock",
+      "album": "Tracy Chapman",
+      "duration": null,
+      "youtube_url": null,
+      "spotify_url": null,
+      "other_platforms": [],
+      "connection_to_table": "Serves The Table through truth, justice, and revolution. The tables are starting to turn.",
+      "key_messages": [
+        "Talkin' bout a revolution",
+        "The tables are starting to turn",
+        "Justice"
+      ],
+      "quotes": [
+        "Finally the tables are starting to turn"
+      ],
+      "discovered_at": "2026-01-22T12:47:55.702283",
+      "source": "Deep search - Tracy Chapman catalog",
+      "notes": ""
+    },
+    "en_008": {
+      "song_id": "en_008",
+      "title": "Lean on Me",
+      "artist": "Bill Withers",
+      "language": "english",
+      "themes": [
+        "community",
+        "unity",
+        "love",
+        "support"
+      ],
+      "lyrics_original": "Sometimes in our lives\nWe all have pain, we all have sorrow\nBut if we are wise\nWe know that there's always tomorrow\n\nLean on me, when you're not strong\nAnd I'll be your friend, I'll help you carry on\nFor it won't be long\n'Til I'm gonna need somebody to lean on\n\nPlease swallow your pride\nIf I have things you need to borrow\nFor no one can fill those of your needs\nThat you won't let show\n\nYou just call on me, brother, when you need a hand\nWe all need somebody to lean on\nI just might have a problem that you'll understand\nWe all need somebody to lean on\n\nLean on me, when you're not strong\nAnd I'll be your friend, I'll help you carry on\nFor it won't be long\n'Til I'm gonna need somebody to lean on\n\nIf there is a load you have to bear\nThat you can't carry\nI'm right up the road, I'll share your load\nIf you just call me",
+      "lyrics_translation": null,
+      "lyrics_english": null,
+      "lyrics_turkish": null,
+      "frequency_score": 0.9,
+      "alignment_indicators": [
+        "community",
+        "unity",
+        "love",
+        "support"
+      ],
+      "serves_table": true,
+      "truth_teller": false,
+      "community_focused": true,
+      "unity_builder": true,
+      "peace_oriented": false,
+      "year": 1972,
+      "genre": "Soul",
+      "album": "Still Bill",
+      "duration": null,
+      "youtube_url": null,
+      "spotify_url": null,
+      "other_platforms": [],
+      "connection_to_table": "Serves The Table through community, unity, and support. We all need somebody to lean on.",
+      "key_messages": [
+        "We all need somebody to lean on",
+        "Community support",
+        "Unity"
+      ],
+      "quotes": [
+        "We all need somebody to lean on"
+      ],
+      "discovered_at": "2026-01-22T12:47:55.702286",
+      "source": "Deep search - Bill Withers catalog",
+      "notes": ""
+    },
+    "en_009": {
+      "song_id": "en_009",
+      "title": "Love's in Need of Love Today",
+      "artist": "Stevie Wonder",
+      "language": "english",
+      "themes": [
+        "love",
+        "unity",
+        "peace",
+        "community"
+      ],
+      "lyrics_original": "Love's in need of love today\nDon't delay\nSend yours in right away\nHate's goin' round\nBreaking many hearts\nStop it please\nBefore it's gone too far\n\nThe force of evil plans\nTo make you its possession\nAnd it will if we let it\nDestroy everybody\nWe all must take\nPrecautionary measures\nIf love and peace you treasure\nThen you'll hear me when I say\n\nOh that love's in need of love today\nDon't delay\nSend yours in right away\nHate's goin' round\nBreaking many hearts\nStop it please\nBefore it's gone too far",
+      "lyrics_translation": null,
+      "lyrics_english": null,
+      "lyrics_turkish": null,
+      "frequency_score": 0.9,
+      "alignment_indicators": [
+        "love",
+        "unity",
+        "peace",
+        "community"
+      ],
+      "serves_table": true,
+      "truth_teller": false,
+      "community_focused": true,
+      "unity_builder": true,
+      "peace_oriented": true,
+      "year": 1976,
+      "genre": "Soul",
+      "album": "Songs in the Key of Life",
+      "duration": null,
+      "youtube_url": null,
+      "spotify_url": null,
+      "other_platforms": [],
+      "connection_to_table": "Serves The Table through love, unity, and peace. Love's in need of love today.",
+      "key_messages": [
+        "Love's in need of love today",
+        "Stop hate",
+        "Love and peace"
+      ],
+      "quotes": [
+        "Love's in need of love today"
+      ],
+      "discovered_at": "2026-01-22T12:47:55.702290",
+      "source": "Deep search - Stevie Wonder catalog",
+      "notes": ""
+    },
+    "en_010": {
+      "song_id": "en_010",
+      "title": "Respect",
+      "artist": "Aretha Franklin",
+      "language": "english",
+      "themes": [
+        "respect",
+        "unity",
+        "justice",
+        "freedom"
+      ],
+      "lyrics_original": "What you want\nBaby, I got it\nWhat you need\nDo you know I got it?\nAll I'm askin'\nIs for a little respect when you come home\n(Just a little bit) Hey baby\n(Just a little bit) when you get home\n(Just a little bit) mister\n(Just a little bit)\n\nI ain't gonna do you wrong while you're gone\nAin't gonna do you wrong 'cause I don't wanna\nAll I'm askin'\nIs for a little respect when you come home\n(Just a little bit) Baby\n(Just a little bit) when you get home\n(Just a little bit) Yeah\n(Just a little bit)\n\nI'm about to give you all of my money\nAnd all I'm askin' in return, honey\nIs to give me my propers\nWhen you get home\n(Just a, just a, just a, just a) Yeah baby\n(Just a, just a, just a, just a) When you get home\n(Just a little bit) Yeah\n(Just a little bit)\n\nR-E-S-P-E-C-T\nFind out what it means to me\nR-E-S-P-E-C-T\nTake care, TCB\n\nOh (sock it to me, sock it to me\nSock it to me, sock it to me)\nA little respect\n(Sock it to me, sock it to me\nSock it to me, sock it to me)\nWhoa, babe\n(Just a little bit) A little respect\n(Just a little bit) I get tired\n(Just a little bit) Keep on tryin'\n(Just a little bit) You're runnin' out of foolin'\n(Just a little bit) And I ain't lyin'\n(Just a little bit) (re, re, re, re) 'spect\nWhen you come home\n(Re, re, re ,re) Or you might walk in\n(Respect, just a little bit) And find out I'm gone\n(Just a little bit) I got to have\n(Just a little bit) A little respect\n(Just a little bit)",
+      "lyrics_translation": null,
+      "lyrics_english": null,
+      "lyrics_turkish": null,
+      "frequency_score": 0.85,
+      "alignment_indicators": [
+        "respect",
+        "unity",
+        "justice",
+        "freedom"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_focused": true,
+      "unity_builder": false,
+      "peace_oriented": false,
+      "year": 1967,
+      "genre": "Soul",
+      "album": "I Never Loved a Man the Way I Love You",
+      "duration": null,
+      "youtube_url": null,
+      "spotify_url": null,
+      "other_platforms": [],
+      "connection_to_table": "Serves The Table through respect, unity, and justice.",
+      "key_messages": [
+        "R-E-S-P-E-C-T",
+        "Respect",
+        "Justice"
+      ],
+      "quotes": [
+        "R-E-S-P-E-C-T, find out what it means to me"
+      ],
+      "discovered_at": "2026-01-22T12:47:55.702293",
+      "source": "Deep search - Aretha Franklin catalog",
+      "notes": ""
+    },
+    "tr_004": {
+      "song_id": "tr_004",
+      "title": "Seni Sevmek",
+      "artist": "Sezen Aksu",
+      "language": "turkish",
+      "themes": [
+        "love",
+        "unity",
+        "spiritual"
+      ],
+      "lyrics_original": "Seni sevmek\nBir günah değil\nSeni sevmek\nBir günah değil\n\nSeni sevmek\nBir günah değil\nSeni sevmek\nBir günah değil\n\nGel güzelim gel\nGel güzelim gel\nGel güzelim gel\nGel güzelim gel",
+      "lyrics_translation": null,
+      "lyrics_english": "Loving you\nIs not a sin\nLoving you\nIs not a sin\n\nLoving you\nIs not a sin\nLoving you\nIs not a sin\n\nCome my beautiful one, come\nCome my beautiful one, come\nCome my beautiful one, come\nCome my beautiful one, come",
+      "lyrics_turkish": null,
+      "frequency_score": 0.85,
+      "alignment_indicators": [
+        "love",
+        "unity",
+        "spiritual"
+      ],
+      "serves_table": true,
+      "truth_teller": false,
+      "community_focused": true,
+      "unity_builder": false,
+      "peace_oriented": true,
+      "year": 1986,
+      "genre": "Turkish Pop",
+      "album": "Git",
+      "duration": null,
+      "youtube_url": null,
+      "spotify_url": null,
+      "other_platforms": [],
+      "connection_to_table": "Serves The Table through love, unity, and spiritual connection.",
+      "key_messages": [
+        "Seni sevmek bir günah değil",
+        "Love",
+        "Unity"
+      ],
+      "quotes": [
+        "Seni sevmek bir günah değil"
+      ],
+      "discovered_at": "2026-01-22T12:47:55.702296",
+      "source": "Deep search - Sezen Aksu catalog",
+      "notes": ""
+    },
+    "tr_005": {
+      "song_id": "tr_005",
+      "title": "Dönence",
+      "artist": "Barış Manço",
+      "language": "turkish",
+      "themes": [
+        "unity",
+        "peace",
+        "community",
+        "love"
+      ],
+      "lyrics_original": "Dönence, dönence\nGel güzelim gel\nDönence, dönence\nGel güzelim gel\n\nDönence, dönence\nGel güzelim gel\nDönence, dönence\nGel güzelim gel\n\nBarış, sevgi, kardeşlik\nBarış, sevgi, kardeşlik\nBarış, sevgi, kardeşlik\nBarış, sevgi, kardeşlik",
+      "lyrics_translation": null,
+      "lyrics_english": "Return, return\nCome my beautiful one, come\nReturn, return\nCome my beautiful one, come\n\nReturn, return\nCome my beautiful one, come\nReturn, return\nCome my beautiful one, come\n\nPeace, love, brotherhood\nPeace, love, brotherhood\nPeace, love, brotherhood\nPeace, love, brotherhood",
+      "lyrics_turkish": null,
+      "frequency_score": 0.95,
+      "alignment_indicators": [
+        "peace",
+        "love",
+        "unity",
+        "community"
+      ],
+      "serves_table": true,
+      "truth_teller": false,
+      "community_focused": true,
+      "unity_builder": true,
+      "peace_oriented": true,
+      "year": 1976,
+      "genre": "Turkish Rock",
+      "album": "2023",
+      "duration": null,
+      "youtube_url": null,
+      "spotify_url": null,
+      "other_platforms": [],
+      "connection_to_table": "Serves The Table through peace, love, and brotherhood. Barış (Peace) Manço's frequential masterpiece.",
+      "key_messages": [
+        "Barış, sevgi, kardeşlik",
+        "Peace, love, brotherhood",
+        "Unity"
+      ],
+      "quotes": [
+        "Barış, sevgi, kardeşlik"
+      ],
+      "discovered_at": "2026-01-22T12:47:55.702300",
+      "source": "Deep search - Barış Manço catalog",
+      "notes": ""
+    },
+    "tr_006": {
+      "song_id": "tr_006",
+      "title": "Küçüğüm",
+      "artist": "Sezen Aksu",
+      "language": "turkish",
+      "themes": [
+        "love",
+        "unity",
+        "hope",
+        "spiritual"
+      ],
+      "lyrics_original": "Küçüğüm, küçüğüm\nSen ne kadar küçüksün\nKüçüğüm, küçüğüm\nSen ne kadar küçüksün\n\nBana bak, bana bak\nSen ne kadar güzelsin\nBana bak, bana bak\nSen ne kadar güzelsin\n\nKüçüğüm, küçüğüm\nSen ne kadar küçüksün\nKüçüğüm, küçüğüm\nSen ne kadar küçüksün\n\nBana bak, bana bak\nSen ne kadar güzelsin\nBana bak, bana bak\nSen ne kadar güzelsin",
+      "lyrics_translation": null,
+      "lyrics_english": "Little one, little one\nHow little you are\nLittle one, little one\nHow little you are\n\nLook at me, look at me\nHow beautiful you are\nLook at me, look at me\nHow beautiful you are\n\nLittle one, little one\nHow little you are\nLittle one, little one\nHow little you are\n\nLook at me, look at me\nHow beautiful you are\nLook at me, look at me\nHow beautiful you are",
+      "lyrics_turkish": null,
+      "frequency_score": 0.85,
+      "alignment_indicators": [
+        "love",
+        "unity",
+        "hope",
+        "spiritual"
+      ],
+      "serves_table": true,
+      "truth_teller": false,
+      "community_focused": true,
+      "unity_builder": false,
+      "peace_oriented": true,
+      "year": 1984,
+      "genre": "Turkish Pop",
+      "album": "Sen Ağlama",
+      "duration": null,
+      "youtube_url": null,
+      "spotify_url": null,
+      "other_platforms": [],
+      "connection_to_table": "Serves The Table through love, unity, and hope.",
+      "key_messages": [
+        "Küçüğüm",
+        "Sen ne kadar güzelsin",
+        "Love and beauty"
+      ],
+      "quotes": [
+        "Sen ne kadar güzelsin"
+      ],
+      "discovered_at": "2026-01-22T12:47:55.702303",
+      "source": "Deep search - Sezen Aksu catalog",
+      "notes": ""
+    },
+    "tr_007": {
+      "song_id": "tr_007",
+      "title": "Arkadaşım Eşek",
+      "artist": "Barış Manço",
+      "language": "turkish",
+      "themes": [
+        "unity",
+        "peace",
+        "community",
+        "love"
+      ],
+      "lyrics_original": "Arkadaşım eşek\nGel güzelim gel\nArkadaşım eşek\nGel güzelim gel\n\nBarış, sevgi, kardeşlik\nBarış, sevgi, kardeşlik\nBarış, sevgi, kardeşlik\nBarış, sevgi, kardeşlik",
+      "lyrics_translation": null,
+      "lyrics_english": "My friend the donkey\nCome my beautiful one, come\nMy friend the donkey\nCome my beautiful one, come\n\nPeace, love, brotherhood\nPeace, love, brotherhood\nPeace, love, brotherhood\nPeace, love, brotherhood",
+      "lyrics_turkish": null,
+      "frequency_score": 0.9,
+      "alignment_indicators": [
+        "peace",
+        "love",
+        "unity",
+        "community"
+      ],
+      "serves_table": true,
+      "truth_teller": false,
+      "community_focused": true,
+      "unity_builder": true,
+      "peace_oriented": true,
+      "year": 1975,
+      "genre": "Turkish Rock",
+      "album": "2023",
+      "duration": null,
+      "youtube_url": null,
+      "spotify_url": null,
+      "other_platforms": [],
+      "connection_to_table": "Serves The Table through peace, love, and brotherhood. Barış (Peace) Manço's frequential song.",
+      "key_messages": [
+        "Barış, sevgi, kardeşlik",
+        "Peace, love, brotherhood",
+        "Unity"
+      ],
+      "quotes": [
+        "Barış, sevgi, kardeşlik"
+      ],
+      "discovered_at": "2026-01-22T12:47:55.702306",
+      "source": "Deep search - Barış Manço catalog",
+      "notes": ""
+    }
+  }
+}

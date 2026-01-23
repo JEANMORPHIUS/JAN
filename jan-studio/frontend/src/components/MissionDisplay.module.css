@@ -1,0 +1,187 @@
+.missionDisplay {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border: 2px solid #0070f3;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 112, 243, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.missionDisplay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #0070f3, #00d4ff, #0070f3);
+  animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+.missionDisplay.compact {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.missionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.missionTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.missionIcon {
+  font-size: 1.5rem;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+.missionTitle h2 {
+  margin: 0;
+  color: #00d4ff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+}
+
+.missionDisplay.compact .missionTitle h2 {
+  font-size: 1.25rem;
+}
+
+.toggleButton {
+  background: transparent;
+  border: 2px solid #0070f3;
+  color: #0070f3;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.toggleButton:hover {
+  background: #0070f3;
+  color: #000;
+  transform: scale(1.1);
+}
+
+.missionContent {
+  margin-top: 1.5rem;
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.missionPrinciples {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.principle {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  background: rgba(0, 112, 243, 0.1);
+  border: 1px solid rgba(0, 112, 243, 0.3);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.principle:hover {
+  background: rgba(0, 112, 243, 0.2);
+  border-color: #0070f3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 112, 243, 0.3);
+}
+
+.principleIcon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.principle strong {
+  display: block;
+  color: #00d4ff;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  text-shadow: 0 0 8px rgba(0, 212, 255, 0.3);
+}
+
+.principle p {
+  margin: 0;
+  color: #ccc;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.missionDetails {
+  border-top: 1px solid rgba(0, 112, 243, 0.3);
+  padding-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.detailSection {
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  border-left: 3px solid #0070f3;
+}
+
+.detailSection h3 {
+  margin: 0 0 0.5rem 0;
+  color: #0070f3;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.detailSection p {
+  margin: 0;
+  color: #ccc;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .missionPrinciples {
+    grid-template-columns: 1fr;
+  }
+  
+  .missionDetails {
+    grid-template-columns: 1fr;
+  }
+  
+  .missionTitle h2 {
+    font-size: 1.25rem;
+  }
+}

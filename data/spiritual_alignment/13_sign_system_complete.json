@@ -1,0 +1,239 @@
+{
+  "13_sign_system_complete": {
+    "name": "Complete 13-Sign Alignment System",
+    "purpose": "Map all 13 signs with updated dates and rift connections",
+    "mission": "Integration of Ophiuchus - leaving no one behind, bridging all gaps",
+    "philosophy": "Duygu Adamı way - leaving no one behind, bridging the gaps",
+    "birthday_reference": "11 June 1980 - Gemini in both systems"
+  },
+  "13_sign_meridian_map": [
+    {
+      "sign": "capricorn",
+      "dates_13_sign": "Jan 20 – Feb 16",
+      "core_energy": "The Architect",
+      "rift_healing": "The Chaos Rift",
+      "heritage_meridian": "The Great Wall Seat - architectural energy",
+      "covenant_act_strength": "Bridge Built, Heritage Reclaimed - building acts",
+      "spiritual_gift": "Architecture to structure, order to create, foundation to build"
+    },
+    {
+      "sign": "aquarius",
+      "dates_13_sign": "Feb 16 – Mar 11",
+      "core_energy": "The Visionary",
+      "rift_healing": "The Stagnation Rift",
+      "heritage_meridian": "The Central Anchor - visionary energy",
+      "covenant_act_strength": "All Acts - innovative approach",
+      "spiritual_gift": "Vision to see, innovation to create, rebellion to free"
+    },
+    {
+      "sign": "pisces",
+      "dates_13_sign": "Mar 11 – Apr 18",
+      "core_energy": "The Mystic",
+      "rift_healing": "The Separation Rift",
+      "heritage_meridian": "The Ancient Meridian System - mystical connection",
+      "covenant_act_strength": "Common Duygu Honored, Rift Healed - mystical acts",
+      "spiritual_gift": "Mysticism to connect, dreaming to envision, healing to restore"
+    },
+    {
+      "sign": "aries",
+      "dates_13_sign": "Apr 18 – May 13",
+      "core_energy": "The Catalyst",
+      "rift_healing": "The Apathy Rift",
+      "heritage_meridian": "The Northern Anchor (Giza) - catalytic energy",
+      "covenant_act_strength": "Bridge Built, Rift Healed - action-oriented",
+      "spiritual_gift": "Catalysis to initiate, courage to begin, fire to ignite"
+    },
+    {
+      "sign": "taurus",
+      "dates_13_sign": "May 13 – Jun 21",
+      "core_energy": "The Guardian",
+      "rift_healing": "The Depletion Rift",
+      "heritage_meridian": "The Ground itself - Pangea Memory",
+      "covenant_act_strength": "Heritage Reclaimed, Scarcity Refused - guarding acts",
+      "spiritual_gift": "Guardianship to protect, stability to anchor, earth to ground"
+    },
+    {
+      "sign": "gemini",
+      "dates_13_sign": "Jun 21 – Jul 20",
+      "core_energy": "The Bridge / The Twin",
+      "rift_healing": "The Language Rift",
+      "heritage_meridian": "The Mediterranean Bridge (Alhambra) - connection",
+      "covenant_act_strength": "Common Duygu Honored, Bridge Built - communication acts",
+      "spiritual_gift": "Communication to connect, curiosity to learn, duality to bridge",
+      "birthday_connection": "11 June 1980 - JAN MUHARREM's sign",
+      "special_note": "Lock, Stock style - sharp, clever, always keeping lines of communication open"
+    },
+    {
+      "sign": "cancer",
+      "dates_13_sign": "Jul 20 – Aug 10",
+      "core_energy": "The Nurturer",
+      "rift_healing": "The Abandonment Rift",
+      "heritage_meridian": "The Cypriot Anchor (Berengaria) - home energy",
+      "covenant_act_strength": "Shared Table, Heritage Reclaimed - nurturing acts",
+      "spiritual_gift": "Nurturing to heal, protection to guard, home to anchor"
+    },
+    {
+      "sign": "leo",
+      "dates_13_sign": "Aug 10 – Sep 16",
+      "core_energy": "The Sovereign",
+      "rift_healing": "The Invisibility Rift",
+      "heritage_meridian": "The Central Anchor - heart of the system",
+      "covenant_act_strength": "Meridian Activated, Rift Healed - leadership acts",
+      "spiritual_gift": "Sovereignty to lead, light to illuminate, heart to love"
+    },
+    {
+      "sign": "virgo",
+      "dates_13_sign": "Sep 16 – Oct 30",
+      "core_energy": "The Alchemist",
+      "rift_healing": "The Disorder Rift",
+      "heritage_meridian": "The Equatorial Balance (Borobudur) - alchemical balance",
+      "covenant_act_strength": "Rift Healed, Scarcity Refused - alchemical acts",
+      "spiritual_gift": "Alchemy to transform, analysis to understand, perfection to serve"
+    },
+    {
+      "sign": "libra",
+      "dates_13_sign": "Oct 30 – Nov 23",
+      "core_energy": "The Harmonizer",
+      "rift_healing": "The Injustice Rift",
+      "heritage_meridian": "The Equatorial Resonance Line - harmony",
+      "covenant_act_strength": "Shared Table, Common Duygu Honored - harmony acts",
+      "spiritual_gift": "Harmony to balance, diplomacy to connect, justice to restore"
+    },
+    {
+      "sign": "scorpio",
+      "dates_13_sign": "Nov 23 – Nov 29",
+      "core_energy": "The Transformer",
+      "rift_healing": "The Shadows Rift",
+      "heritage_meridian": "The Southern Peak (Machu Picchu) - transformation",
+      "covenant_act_strength": "Rift Healed, Heritage Reclaimed - transformation acts",
+      "spiritual_gift": "Transformation to renew, depth to understand, phoenix to rise"
+    },
+    {
+      "sign": "ophiuchus",
+      "dates_13_sign": "Nov 29 – Dec 17",
+      "core_energy": "The Healer / Serpent Bearer",
+      "rift_healing": "The Mortality/Illness Rift",
+      "heritage_meridian": "All Seven Pillars - the healer who connects all",
+      "covenant_act_strength": "Rift Healed, Meridian Activated - healing acts",
+      "spiritual_gift": "Healing to restore, wisdom to guide, serpent to transform",
+      "special_note": "Not just 'snake handlers' - they turn poison into medicine. They heal the deepest rifts of the spirit.",
+      "mortality_rift_healing": {
+        "description": "Ophiuchus specifically heals the Mortality/Illness Rift",
+        "method": "Turns poison into medicine, transforms fear of death into acceptance of transformation",
+        "connection": "The Serpent Bearer carries the wisdom of death and rebirth, illness and healing",
+        "covenant_acts": [
+          "Rift Healed - directly addressing mortality fears",
+          "Meridian Activated - connecting to healing sites",
+          "Heritage Reclaimed - remembering healing traditions",
+          "Common Duygu Honored - honoring the fear and transforming it"
+        ],
+        "heritage_meridian_sites": [
+          "Giza - ancient healing knowledge",
+          "Stonehenge - cycles of death and rebirth",
+          "Angkor Wat - temple of healing",
+          "All Seven Pillars - universal healing connection"
+        ]
+      }
+    },
+    {
+      "sign": "sagittarius",
+      "dates_13_sign": "Dec 17 – Jan 20",
+      "core_energy": "The Truth-Seeker",
+      "rift_healing": "The Ignorance Rift",
+      "heritage_meridian": "The Eastern Temple (Angkor Wat) - seeking",
+      "covenant_act_strength": "Meridian Activated, Heritage Reclaimed - seeking acts",
+      "spiritual_gift": "Seeking to find, exploring to discover, philosophy to understand"
+    }
+  ],
+  "rift_mapping": {
+    "the_chaos_rift": {
+      "sign": "capricorn",
+      "description": "Disorder, lack of structure, chaos",
+      "healing": "Architectural order, structure, foundation"
+    },
+    "the_stagnation_rift": {
+      "sign": "aquarius",
+      "description": "Stuck, no movement, no innovation",
+      "healing": "Vision, innovation, rebellion against stagnation"
+    },
+    "the_separation_rift": {
+      "sign": "pisces",
+      "description": "Feeling separate, disconnected, alone",
+      "healing": "Mystical connection, unity, oneness"
+    },
+    "the_apathy_rift": {
+      "sign": "aries",
+      "description": "No motivation, no action, no fire",
+      "healing": "Catalysis, initiation, fire to ignite"
+    },
+    "the_depletion_rift": {
+      "sign": "taurus",
+      "description": "Resources depleted, energy drained, scarcity",
+      "healing": "Guardianship, stability, abundance, grounding"
+    },
+    "the_language_rift": {
+      "sign": "gemini",
+      "description": "Language barriers, miscommunication, division",
+      "healing": "Communication, bridging, Common Duygu",
+      "connection": "The Language & Tribalism Rift from Heritage Meridian"
+    },
+    "the_abandonment_rift": {
+      "sign": "cancer",
+      "description": "Feeling abandoned, alone, without home",
+      "healing": "Nurturing, protection, home, family"
+    },
+    "the_invisibility_rift": {
+      "sign": "leo",
+      "description": "Feeling unseen, unheard, invisible",
+      "healing": "Sovereignty, light, visibility, leadership"
+    },
+    "the_disorder_rift": {
+      "sign": "virgo",
+      "description": "Chaos, disorder, lack of organization",
+      "healing": "Alchemy, order, perfection, service"
+    },
+    "the_injustice_rift": {
+      "sign": "libra",
+      "description": "Injustice, imbalance, unfairness",
+      "healing": "Harmony, balance, justice, diplomacy"
+    },
+    "the_shadows_rift": {
+      "sign": "scorpio",
+      "description": "Darkness, shadows, hidden things",
+      "healing": "Transformation, depth, phoenix rising"
+    },
+    "the_mortality_illness_rift": {
+      "sign": "ophiuchus",
+      "description": "Fear of death, illness, mortality, transformation",
+      "healing": "Healing, wisdom, turning poison into medicine",
+      "special_note": "The deepest rift of the spirit - Ophiuchus's primary domain"
+    },
+    "the_ignorance_rift": {
+      "sign": "sagittarius",
+      "description": "Lack of knowledge, ignorance, not knowing",
+      "healing": "Seeking truth, exploration, philosophy"
+    }
+  },
+  "heritage_meridian_shifts": {
+    "description": "How Heritage Meridian connections shift in 13-sign system",
+    "gemini_alhambra": {
+      "sign": "gemini",
+      "meridian": "The Mediterranean Bridge (Alhambra)",
+      "significance": "Where East meets West, geometry meets poetry, perfect for The Bridge",
+      "connection": "Lock, Stock style - sharp, clever, always keeping lines of communication open"
+    },
+    "ophiuchus_all_pillars": {
+      "sign": "ophiuchus",
+      "meridian": "All Seven Pillars",
+      "significance": "The healer who connects all, the serpent bearer who heals all rifts",
+      "connection": "Universal healing connection - no single anchor, all anchors"
+    }
+  },
+  "the_truth": {
+    "message": "ENERGY + LOVE = WE ALL WIN",
+    "principle": "Alignment over Control - no gatekeeping the stars",
+    "mission": "Show people how to connect back to the ground and heal the rifts they find",
+    "duygu_adami_way": "Leaving no one behind, bridging all gaps",
+    "covenant": "Whether traditional Leo or Ophiuchus pioneer, the goal is the same: Alignment"
+  }
+}

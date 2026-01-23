@@ -1,0 +1,295 @@
+{
+  "version": "1.0.0",
+  "description": "Tectonic Plates Data - Earth's Major and Minor Plates",
+  "last_updated": "2026-01-20",
+  
+  "major_plates": {
+    "pacific": {
+      "plate_name": "Pacific Plate",
+      "type": "major",
+      "area_km2": 103300000,
+      "movement_rate_cm_per_year": 8.0,
+      "boundary_type": "convergent, divergent, transform",
+      "ring_of_fire": true,
+      "description": "Largest tectonic plate, forms most of the Pacific Ocean floor. Part of the Ring of Fire.",
+      "heritage_sites": [
+        "Stonehenge (distant connection)",
+        "Machu Picchu (South American plate boundary)",
+        "Angkor Wat (distant connection)"
+      ],
+      "major_boundaries": [
+        {
+          "type": "convergent",
+          "with": "north_american",
+          "location": "West Coast of North America",
+          "features": ["San Andreas Fault", "Cascadia Subduction Zone"]
+        },
+        {
+          "type": "convergent",
+          "with": "eurasian",
+          "location": "Japan Trench",
+          "features": ["2011 Tohoku Earthquake"]
+        },
+        {
+          "type": "convergent",
+          "with": "philippine",
+          "location": "Philippine Trench",
+          "features": ["Deepest point on Earth - Mariana Trench"]
+        }
+      ]
+    },
+    "north_american": {
+      "plate_name": "North American Plate",
+      "type": "major",
+      "area_km2": 75900000,
+      "movement_rate_cm_per_year": 2.3,
+      "boundary_type": "divergent, transform, convergent",
+      "description": "Covers North America, Greenland, parts of Atlantic and Arctic Oceans",
+      "heritage_sites": [
+        "Stonehenge (on plate)",
+        "Various North American heritage sites"
+      ],
+      "major_boundaries": [
+        {
+          "type": "divergent",
+          "with": "eurasian",
+          "location": "Mid-Atlantic Ridge",
+          "features": ["Iceland", "Seafloor spreading"]
+        },
+        {
+          "type": "transform",
+          "with": "pacific",
+          "location": "San Andreas Fault",
+          "features": ["California earthquakes"]
+        }
+      ]
+    },
+    "eurasian": {
+      "plate_name": "Eurasian Plate",
+      "type": "major",
+      "area_km2": 67800000,
+      "movement_rate_cm_per_year": 0.7,
+      "boundary_type": "convergent, divergent",
+      "description": "Covers Europe and Asia",
+      "heritage_sites": [
+        "Stonehenge (on plate)",
+        "Alhambra Palace (on plate)",
+        "Berengaria Hotel (on plate)",
+        "Great Pyramid of Giza (on plate)",
+        "Angkor Wat (on plate)"
+      ],
+      "major_boundaries": [
+        {
+          "type": "convergent",
+          "with": "indo_australian",
+          "location": "Himalayas",
+          "features": ["Mount Everest", "Continental collision"]
+        },
+        {
+          "type": "convergent",
+          "with": "african",
+          "location": "Mediterranean",
+          "features": ["Alps", "Pyrenees"]
+        }
+      ]
+    },
+    "african": {
+      "plate_name": "African Plate",
+      "type": "major",
+      "area_km2": 61300000,
+      "movement_rate_cm_per_year": 2.15,
+      "boundary_type": "divergent, convergent",
+      "description": "Covers Africa and parts of Atlantic and Indian Oceans",
+      "heritage_sites": [
+        "Great Pyramid of Giza (on plate)"
+      ],
+      "major_boundaries": [
+        {
+          "type": "divergent",
+          "with": "north_american",
+          "location": "Mid-Atlantic Ridge (southern)",
+          "features": ["Seafloor spreading"]
+        },
+        {
+          "type": "convergent",
+          "with": "eurasian",
+          "location": "Mediterranean",
+          "features": ["Alps formation"]
+        }
+      ]
+    },
+    "indo_australian": {
+      "plate_name": "Indo-Australian Plate",
+      "type": "major",
+      "area_km2": 58000000,
+      "movement_rate_cm_per_year": 6.0,
+      "boundary_type": "convergent",
+      "description": "Covers India, Australia, parts of Indian Ocean",
+      "heritage_sites": [
+        "Angkor Wat (on plate)"
+      ],
+      "major_boundaries": [
+        {
+          "type": "convergent",
+          "with": "eurasian",
+          "location": "Himalayas",
+          "features": ["2004 Indian Ocean Earthquake", "Mount Everest"]
+        },
+        {
+          "type": "convergent",
+          "with": "pacific",
+          "location": "New Zealand",
+          "features": ["Alpine Fault"]
+        }
+      ]
+    },
+    "south_american": {
+      "plate_name": "South American Plate",
+      "type": "major",
+      "area_km2": 43400000,
+      "movement_rate_cm_per_year": 1.4,
+      "boundary_type": "convergent, divergent",
+      "description": "Covers South America and parts of Atlantic Ocean",
+      "heritage_sites": [
+        "Machu Picchu (on plate)"
+      ],
+      "major_boundaries": [
+        {
+          "type": "convergent",
+          "with": "nazca",
+          "location": "Andes Mountains",
+          "features": ["Machu Picchu region", "Volcanic activity"]
+        },
+        {
+          "type": "divergent",
+          "with": "african",
+          "location": "Mid-Atlantic Ridge (southern)",
+          "features": ["Seafloor spreading"]
+        }
+      ]
+    },
+    "antarctic": {
+      "plate_name": "Antarctic Plate",
+      "type": "major",
+      "area_km2": 16900000,
+      "movement_rate_cm_per_year": 1.0,
+      "boundary_type": "divergent",
+      "description": "Covers Antarctica and surrounding ocean",
+      "heritage_sites": [],
+      "major_boundaries": [
+        {
+          "type": "divergent",
+          "with": "south_american",
+          "location": "Scotia Sea",
+          "features": ["Seafloor spreading"]
+        }
+      ]
+    }
+  },
+  
+  "minor_plates": {
+    "nazca": {
+      "plate_name": "Nazca Plate",
+      "type": "minor",
+      "description": "Off west coast of South America",
+      "heritage_sites": [
+        "Machu Picchu (near boundary)"
+      ],
+      "major_boundaries": [
+        {
+          "type": "convergent",
+          "with": "south_american",
+          "location": "Peru-Chile Trench",
+          "features": ["Andes Mountains", "Volcanic activity"]
+        }
+      ]
+    },
+    "philippine": {
+      "plate_name": "Philippine Sea Plate",
+      "type": "minor",
+      "description": "Between Pacific and Eurasian plates",
+      "major_boundaries": [
+        {
+          "type": "convergent",
+          "with": "pacific",
+          "location": "Mariana Trench",
+          "features": ["Deepest point on Earth"]
+        }
+      ]
+    },
+    "arabian": {
+      "plate_name": "Arabian Plate",
+      "type": "minor",
+      "description": "Middle East region",
+      "major_boundaries": [
+        {
+          "type": "divergent",
+          "with": "african",
+          "location": "Red Sea Rift",
+          "features": ["Seafloor spreading"]
+        }
+      ]
+    },
+    "cocos": {
+      "plate_name": "Cocos Plate",
+      "type": "minor",
+      "description": "Off west coast of Central America",
+      "major_boundaries": [
+        {
+          "type": "convergent",
+          "with": "north_american",
+          "location": "Middle America Trench",
+          "features": ["Volcanic activity"]
+        }
+      ]
+    },
+    "caribbean": {
+      "plate_name": "Caribbean Plate",
+      "type": "minor",
+      "description": "Caribbean Sea region",
+      "major_boundaries": [
+        {
+          "type": "transform",
+          "with": "north_american",
+          "location": "Cayman Trough",
+          "features": ["Transform fault"]
+        }
+      ]
+    }
+  },
+  
+  "ring_of_fire": {
+    "description": "Pacific Ring of Fire - area of high volcanic and earthquake activity",
+    "plates_involved": ["pacific", "north_american", "south_american", "indo_australian", "philippine", "cocos", "nazca"],
+    "heritage_sites_on_ring": [
+      "Machu Picchu",
+      "Angkor Wat (distant)",
+      "Various Pacific heritage sites"
+    ],
+    "major_events": [
+      "2004 Indian Ocean Earthquake",
+      "2011 Tohoku Earthquake",
+      "2010 Chile Earthquake",
+      "Ongoing volcanic activity"
+    ]
+  },
+  
+  "research_priorities": {
+    "high_priority_events": [
+      "Major earthquakes (M7.0+)",
+      "Tsunamis",
+      "Volcanic eruptions (VEI 4+)",
+      "Major tectonic shifts"
+    ],
+    "heritage_site_connections": [
+      "Document events near heritage sites",
+      "Track field resonance changes",
+      "Map tectonic activity to site locations"
+    ],
+    "temporal_patterns": [
+      "Historical earthquake patterns",
+      "Cyclical disaster events",
+      "Civilizational rise/fall connections"
+    ]
+  }
+}

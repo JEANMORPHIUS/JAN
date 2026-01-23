@@ -1,0 +1,214 @@
+.pushSystem {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.notificationBell {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #0070f3, #00d4ff);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 112, 243, 0.4);
+  transition: all 0.3s ease;
+}
+
+.notificationBell:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(0, 112, 243, 0.6);
+}
+
+.bellIcon {
+  font-size: 1.5rem;
+  animation: ring 2s infinite;
+}
+
+@keyframes ring {
+  0%, 100% { transform: rotate(0deg); }
+  10%, 30% { transform: rotate(-10deg); }
+  20%, 40% { transform: rotate(10deg); }
+}
+
+.badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background: #ff4444;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border: 2px solid #1a1a2e;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+.statusIndicator {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #1a1a2e;
+}
+
+.statusIndicator.connected {
+  background: #00ff00;
+  box-shadow: 0 0 8px #00ff00;
+}
+
+.statusIndicator.disconnected {
+  background: #ff4444;
+  box-shadow: 0 0 8px #ff4444;
+}
+
+.notificationPanel {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 400px;
+  max-height: 600px;
+  background: #1a1a2e;
+  border: 2px solid #0070f3;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.panelHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: rgba(0, 112, 243, 0.1);
+  border-bottom: 1px solid #0070f3;
+}
+
+.panelHeader h3 {
+  margin: 0;
+  color: #00d4ff;
+  font-size: 1rem;
+}
+
+.clearButton {
+  background: transparent;
+  border: 1px solid #0070f3;
+  color: #0070f3;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: all 0.3s ease;
+}
+
+.clearButton:hover {
+  background: #0070f3;
+  color: #000;
+}
+
+.notificationList {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.notification {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(0, 112, 243, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.notification:hover {
+  background: rgba(0, 112, 243, 0.1);
+}
+
+.notification.read {
+  opacity: 0.6;
+}
+
+.notification.critical {
+  border-left: 4px solid #ff4444;
+  background: rgba(255, 68, 68, 0.1);
+}
+
+.notification.high {
+  border-left: 4px solid #ff8800;
+  background: rgba(255, 136, 0, 0.1);
+}
+
+.notification.medium {
+  border-left: 4px solid #0070f3;
+}
+
+.notification.low {
+  border-left: 4px solid #666;
+}
+
+.notificationHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.notificationHeader strong {
+  color: #00d4ff;
+  font-size: 0.875rem;
+}
+
+.priorityBadge {
+  background: rgba(0, 112, 243, 0.3);
+  color: #0070f3;
+  padding: 0.125rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.notificationMessage {
+  margin: 0 0 0.5rem 0;
+  color: #ccc;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.notificationTime {
+  color: #666;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .notificationPanel {
+    width: calc(100vw - 40px);
+    right: -20px;
+  }
+}

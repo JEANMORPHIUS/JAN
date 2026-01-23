@@ -1,0 +1,943 @@
+{
+  "report_timestamp": "2026-01-21T16:23:44.874104",
+  "total_services": 21,
+  "services_by_category": {
+    "api": 5,
+    "library": 4,
+    "framework": 4,
+    "tool": 2,
+    "platform": 2,
+    "database": 3,
+    "infrastructure": 1,
+    "utility": 0,
+    "service": 0
+  },
+  "aligned_services": 20,
+  "all_services": [
+    {
+      "service_id": "service_2dd9eb7d",
+      "name": "FastAPI",
+      "category": "framework",
+      "description": "Modern, fast web framework for building APIs with Python",
+      "source": "pypi",
+      "url": "https://fastapi.tiangolo.com",
+      "alignment_score": 0.85,
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven",
+        "No exploitation"
+      ],
+      "how_to_align": [
+        "Use for aligned APIs",
+        "Contribute to community",
+        "Share knowledge"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_4445d918",
+      "name": "Django",
+      "category": "framework",
+      "description": "High-level Python web framework for rapid development",
+      "source": "pypi",
+      "url": "https://www.djangoproject.com",
+      "alignment_score": 0.84,
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven",
+        "No exploitation"
+      ],
+      "how_to_align": [
+        "Use for aligned web applications",
+        "Contribute to community"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_c0862201",
+      "name": "Flask",
+      "category": "framework",
+      "description": "Lightweight Python web framework",
+      "source": "pypi",
+      "url": "https://flask.palletsprojects.com",
+      "alignment_score": 0.85,
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven",
+        "No exploitation"
+      ],
+      "how_to_align": [
+        "Use for aligned web applications",
+        "Contribute to community"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_2d2eef3e",
+      "name": "SQLite",
+      "category": "database",
+      "description": "Self-contained, serverless, zero-configuration SQL database engine",
+      "source": "manual",
+      "url": "https://www.sqlite.org",
+      "alignment_score": 0.9,
+      "alignment_indicators": [
+        "Public domain",
+        "Free",
+        "No exploitation",
+        "Accessible"
+      ],
+      "how_to_align": [
+        "Use for aligned databases",
+        "Support open source"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_f911e414",
+      "name": "GitHub",
+      "category": "platform",
+      "description": "Code hosting platform for version control and collaboration",
+      "source": "manual",
+      "url": "https://github.com",
+      "alignment_score": 0.75,
+      "alignment_indicators": [
+        "Free for open source",
+        "Community support",
+        "Knowledge sharing"
+      ],
+      "how_to_align": [
+        "Host aligned projects",
+        "Share aligned code",
+        "Build community"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_d77bfb15",
+      "name": "USGS Earthquake API",
+      "category": "api",
+      "description": "USGS real-time earthquake data API",
+      "source": "public_api",
+      "url": "https://earthquake.usgs.gov/earthquakes/feed/",
+      "alignment_score": 0.88,
+      "alignment_indicators": [
+        "Public data",
+        "Free",
+        "No exploitation",
+        "Earth connection"
+      ],
+      "how_to_align": [
+        "Use for real-world data",
+        "Connect to heritage sites",
+        "Track Earth events"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_fa98edab",
+      "name": "UNESCO World Heritage API",
+      "category": "api",
+      "description": "UNESCO World Heritage Centre data",
+      "source": "public_api",
+      "url": "https://whc.unesco.org",
+      "alignment_score": 0.9,
+      "alignment_indicators": [
+        "Heritage protection",
+        "Global unity",
+        "Cultural preservation",
+        "Connection to The Table"
+      ],
+      "how_to_align": [
+        "Use for heritage data",
+        "Protect heritage sites",
+        "Connect to The Table"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_ada27592",
+      "name": "Requests",
+      "category": "library",
+      "description": "Python HTTP library for making API calls",
+      "source": "pypi",
+      "url": "https://requests.readthedocs.io",
+      "alignment_score": 0.85,
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven"
+      ],
+      "how_to_align": [
+        "Use for aligned API calls",
+        "Contribute to community"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_47741e26",
+      "name": "Pydantic",
+      "category": "library",
+      "description": "Data validation using Python type annotations",
+      "source": "pypi",
+      "url": "https://pydantic.dev",
+      "alignment_score": 0.85,
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven"
+      ],
+      "how_to_align": [
+        "Use for data validation",
+        "Ensure truth in data"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_cc52d032",
+      "name": "PostgreSQL",
+      "category": "database",
+      "description": "Advanced open source relational database",
+      "source": "manual",
+      "url": "https://www.postgresql.org",
+      "alignment_score": 0.88,
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven",
+        "No exploitation"
+      ],
+      "how_to_align": [
+        "Use for aligned databases",
+        "Support open source"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_a7f64157",
+      "name": "Redis",
+      "category": "database",
+      "description": "In-memory data structure store",
+      "source": "manual",
+      "url": "https://redis.io",
+      "alignment_score": 0.85,
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven"
+      ],
+      "how_to_align": [
+        "Use for aligned caching",
+        "Support open source"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_e6169e95",
+      "name": "Docker",
+      "category": "tool",
+      "description": "Containerization platform",
+      "source": "manual",
+      "url": "https://www.docker.com",
+      "alignment_score": 0.8,
+      "alignment_indicators": [
+        "Open source core",
+        "Free",
+        "Community support"
+      ],
+      "how_to_align": [
+        "Use for aligned deployments",
+        "Support open source"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_b949c922",
+      "name": "Git",
+      "category": "tool",
+      "description": "Distributed version control system",
+      "source": "manual",
+      "url": "https://git-scm.com",
+      "alignment_score": 0.9,
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven",
+        "No exploitation"
+      ],
+      "how_to_align": [
+        "Use for version control",
+        "Support open source"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_4828e602",
+      "name": "Linux",
+      "category": "infrastructure",
+      "description": "Open source operating system",
+      "source": "manual",
+      "url": "https://www.linux.org",
+      "alignment_score": 0.92,
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven",
+        "No exploitation"
+      ],
+      "how_to_align": [
+        "Use for aligned infrastructure",
+        "Support open source"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_18885f27",
+      "name": "Python",
+      "category": "library",
+      "description": "High-level programming language",
+      "source": "manual",
+      "url": "https://www.python.org",
+      "alignment_score": 0.9,
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven",
+        "No exploitation"
+      ],
+      "how_to_align": [
+        "Use for aligned development",
+        "Support open source"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_1fc0c785",
+      "name": "Node.js",
+      "category": "platform",
+      "description": "JavaScript runtime built on Chrome's V8 engine",
+      "source": "manual",
+      "url": "https://nodejs.org",
+      "alignment_score": 0.88,
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven"
+      ],
+      "how_to_align": [
+        "Use for aligned development",
+        "Support open source"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_01fad993",
+      "name": "React",
+      "category": "library",
+      "description": "JavaScript library for building user interfaces",
+      "source": "npm",
+      "url": "https://react.dev",
+      "alignment_score": 0.85,
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven"
+      ],
+      "how_to_align": [
+        "Use for aligned UIs",
+        "Support open source"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_274b0f34",
+      "name": "Vue.js",
+      "category": "framework",
+      "description": "Progressive JavaScript framework",
+      "source": "npm",
+      "url": "https://vuejs.org",
+      "alignment_score": 0.86,
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven"
+      ],
+      "how_to_align": [
+        "Use for aligned UIs",
+        "Support open source"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_8505d8ef",
+      "name": "OpenStreetMap API",
+      "category": "api",
+      "description": "Free, editable map of the world",
+      "source": "public_api",
+      "url": "https://www.openstreetmap.org",
+      "alignment_score": 0.9,
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven",
+        "No exploitation",
+        "Global unity"
+      ],
+      "how_to_align": [
+        "Use for aligned mapping",
+        "Support open data",
+        "Connect to heritage sites"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_d6fc1649",
+      "name": "NASA APIs",
+      "category": "api",
+      "description": "NASA's public APIs for space and Earth data",
+      "source": "public_api",
+      "url": "https://api.nasa.gov",
+      "alignment_score": 0.88,
+      "alignment_indicators": [
+        "Public data",
+        "Free",
+        "No exploitation",
+        "Earth connection"
+      ],
+      "how_to_align": [
+        "Use for aligned Earth data",
+        "Connect to heritage sites"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    },
+    {
+      "service_id": "service_f0b15394",
+      "name": "World Bank Open Data API",
+      "category": "api",
+      "description": "World Bank's open data API",
+      "source": "public_api",
+      "url": "https://data.worldbank.org",
+      "alignment_score": 0.82,
+      "alignment_indicators": [
+        "Public data",
+        "Free",
+        "Global unity"
+      ],
+      "how_to_align": [
+        "Use for aligned global data",
+        "Support global unity"
+      ],
+      "integration_status": "discovered",
+      "notes": ""
+    }
+  ],
+  "alignment_analysis": [
+    {
+      "service_id": "service_2dd9eb7d",
+      "name": "FastAPI",
+      "current_score": 0.85,
+      "calculated_score": 0.8,
+      "alignment_factors": {
+        "open_source": 0.2,
+        "free": 0.2,
+        "community": 0.2,
+        "no_exploitation": 0.2,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven",
+        "No exploitation"
+      ],
+      "how_to_align": [
+        "Use for aligned APIs",
+        "Contribute to community",
+        "Share knowledge"
+      ]
+    },
+    {
+      "service_id": "service_4445d918",
+      "name": "Django",
+      "current_score": 0.84,
+      "calculated_score": 0.8,
+      "alignment_factors": {
+        "open_source": 0.2,
+        "free": 0.2,
+        "community": 0.2,
+        "no_exploitation": 0.2,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven",
+        "No exploitation"
+      ],
+      "how_to_align": [
+        "Use for aligned web applications",
+        "Contribute to community"
+      ]
+    },
+    {
+      "service_id": "service_c0862201",
+      "name": "Flask",
+      "current_score": 0.85,
+      "calculated_score": 0.8,
+      "alignment_factors": {
+        "open_source": 0.2,
+        "free": 0.2,
+        "community": 0.2,
+        "no_exploitation": 0.2,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven",
+        "No exploitation"
+      ],
+      "how_to_align": [
+        "Use for aligned web applications",
+        "Contribute to community"
+      ]
+    },
+    {
+      "service_id": "service_2d2eef3e",
+      "name": "SQLite",
+      "current_score": 0.9,
+      "calculated_score": 0.4,
+      "alignment_factors": {
+        "open_source": 0.0,
+        "free": 0.2,
+        "community": 0.0,
+        "no_exploitation": 0.2,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Public domain",
+        "Free",
+        "No exploitation",
+        "Accessible"
+      ],
+      "how_to_align": [
+        "Use for aligned databases",
+        "Support open source"
+      ]
+    },
+    {
+      "service_id": "service_f911e414",
+      "name": "GitHub",
+      "current_score": 0.75,
+      "calculated_score": 0.6000000000000001,
+      "alignment_factors": {
+        "open_source": 0.2,
+        "free": 0.2,
+        "community": 0.2,
+        "no_exploitation": 0.0,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Free for open source",
+        "Community support",
+        "Knowledge sharing"
+      ],
+      "how_to_align": [
+        "Host aligned projects",
+        "Share aligned code",
+        "Build community"
+      ]
+    },
+    {
+      "service_id": "service_d77bfb15",
+      "name": "USGS Earthquake API",
+      "current_score": 0.88,
+      "calculated_score": 0.4,
+      "alignment_factors": {
+        "open_source": 0.0,
+        "free": 0.2,
+        "community": 0.0,
+        "no_exploitation": 0.2,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Public data",
+        "Free",
+        "No exploitation",
+        "Earth connection"
+      ],
+      "how_to_align": [
+        "Use for real-world data",
+        "Connect to heritage sites",
+        "Track Earth events"
+      ]
+    },
+    {
+      "service_id": "service_fa98edab",
+      "name": "UNESCO World Heritage API",
+      "current_score": 0.9,
+      "calculated_score": 0.2,
+      "alignment_factors": {
+        "open_source": 0.0,
+        "free": 0.0,
+        "community": 0.0,
+        "no_exploitation": 0.0,
+        "heritage_connection": 0.2
+      },
+      "alignment_indicators": [
+        "Heritage protection",
+        "Global unity",
+        "Cultural preservation",
+        "Connection to The Table"
+      ],
+      "how_to_align": [
+        "Use for heritage data",
+        "Protect heritage sites",
+        "Connect to The Table"
+      ]
+    },
+    {
+      "service_id": "service_ada27592",
+      "name": "Requests",
+      "current_score": 0.85,
+      "calculated_score": 0.6000000000000001,
+      "alignment_factors": {
+        "open_source": 0.2,
+        "free": 0.2,
+        "community": 0.2,
+        "no_exploitation": 0.0,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven"
+      ],
+      "how_to_align": [
+        "Use for aligned API calls",
+        "Contribute to community"
+      ]
+    },
+    {
+      "service_id": "service_47741e26",
+      "name": "Pydantic",
+      "current_score": 0.85,
+      "calculated_score": 0.6000000000000001,
+      "alignment_factors": {
+        "open_source": 0.2,
+        "free": 0.2,
+        "community": 0.2,
+        "no_exploitation": 0.0,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven"
+      ],
+      "how_to_align": [
+        "Use for data validation",
+        "Ensure truth in data"
+      ]
+    },
+    {
+      "service_id": "service_cc52d032",
+      "name": "PostgreSQL",
+      "current_score": 0.88,
+      "calculated_score": 0.8,
+      "alignment_factors": {
+        "open_source": 0.2,
+        "free": 0.2,
+        "community": 0.2,
+        "no_exploitation": 0.2,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven",
+        "No exploitation"
+      ],
+      "how_to_align": [
+        "Use for aligned databases",
+        "Support open source"
+      ]
+    },
+    {
+      "service_id": "service_a7f64157",
+      "name": "Redis",
+      "current_score": 0.85,
+      "calculated_score": 0.6000000000000001,
+      "alignment_factors": {
+        "open_source": 0.2,
+        "free": 0.2,
+        "community": 0.2,
+        "no_exploitation": 0.0,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven"
+      ],
+      "how_to_align": [
+        "Use for aligned caching",
+        "Support open source"
+      ]
+    },
+    {
+      "service_id": "service_e6169e95",
+      "name": "Docker",
+      "current_score": 0.8,
+      "calculated_score": 0.6000000000000001,
+      "alignment_factors": {
+        "open_source": 0.2,
+        "free": 0.2,
+        "community": 0.2,
+        "no_exploitation": 0.0,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Open source core",
+        "Free",
+        "Community support"
+      ],
+      "how_to_align": [
+        "Use for aligned deployments",
+        "Support open source"
+      ]
+    },
+    {
+      "service_id": "service_b949c922",
+      "name": "Git",
+      "current_score": 0.9,
+      "calculated_score": 0.8,
+      "alignment_factors": {
+        "open_source": 0.2,
+        "free": 0.2,
+        "community": 0.2,
+        "no_exploitation": 0.2,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven",
+        "No exploitation"
+      ],
+      "how_to_align": [
+        "Use for version control",
+        "Support open source"
+      ]
+    },
+    {
+      "service_id": "service_4828e602",
+      "name": "Linux",
+      "current_score": 0.92,
+      "calculated_score": 0.8,
+      "alignment_factors": {
+        "open_source": 0.2,
+        "free": 0.2,
+        "community": 0.2,
+        "no_exploitation": 0.2,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven",
+        "No exploitation"
+      ],
+      "how_to_align": [
+        "Use for aligned infrastructure",
+        "Support open source"
+      ]
+    },
+    {
+      "service_id": "service_18885f27",
+      "name": "Python",
+      "current_score": 0.9,
+      "calculated_score": 0.8,
+      "alignment_factors": {
+        "open_source": 0.2,
+        "free": 0.2,
+        "community": 0.2,
+        "no_exploitation": 0.2,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven",
+        "No exploitation"
+      ],
+      "how_to_align": [
+        "Use for aligned development",
+        "Support open source"
+      ]
+    },
+    {
+      "service_id": "service_1fc0c785",
+      "name": "Node.js",
+      "current_score": 0.88,
+      "calculated_score": 0.6000000000000001,
+      "alignment_factors": {
+        "open_source": 0.2,
+        "free": 0.2,
+        "community": 0.2,
+        "no_exploitation": 0.0,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven"
+      ],
+      "how_to_align": [
+        "Use for aligned development",
+        "Support open source"
+      ]
+    },
+    {
+      "service_id": "service_01fad993",
+      "name": "React",
+      "current_score": 0.85,
+      "calculated_score": 0.6000000000000001,
+      "alignment_factors": {
+        "open_source": 0.2,
+        "free": 0.2,
+        "community": 0.2,
+        "no_exploitation": 0.0,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven"
+      ],
+      "how_to_align": [
+        "Use for aligned UIs",
+        "Support open source"
+      ]
+    },
+    {
+      "service_id": "service_274b0f34",
+      "name": "Vue.js",
+      "current_score": 0.86,
+      "calculated_score": 0.6000000000000001,
+      "alignment_factors": {
+        "open_source": 0.2,
+        "free": 0.2,
+        "community": 0.2,
+        "no_exploitation": 0.0,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven"
+      ],
+      "how_to_align": [
+        "Use for aligned UIs",
+        "Support open source"
+      ]
+    },
+    {
+      "service_id": "service_8505d8ef",
+      "name": "OpenStreetMap API",
+      "current_score": 0.9,
+      "calculated_score": 0.8,
+      "alignment_factors": {
+        "open_source": 0.2,
+        "free": 0.2,
+        "community": 0.2,
+        "no_exploitation": 0.2,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Open source",
+        "Free",
+        "Community-driven",
+        "No exploitation",
+        "Global unity"
+      ],
+      "how_to_align": [
+        "Use for aligned mapping",
+        "Support open data",
+        "Connect to heritage sites"
+      ]
+    },
+    {
+      "service_id": "service_d6fc1649",
+      "name": "NASA APIs",
+      "current_score": 0.88,
+      "calculated_score": 0.4,
+      "alignment_factors": {
+        "open_source": 0.0,
+        "free": 0.2,
+        "community": 0.0,
+        "no_exploitation": 0.2,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Public data",
+        "Free",
+        "No exploitation",
+        "Earth connection"
+      ],
+      "how_to_align": [
+        "Use for aligned Earth data",
+        "Connect to heritage sites"
+      ]
+    },
+    {
+      "service_id": "service_f0b15394",
+      "name": "World Bank Open Data API",
+      "current_score": 0.82,
+      "calculated_score": 0.2,
+      "alignment_factors": {
+        "open_source": 0.0,
+        "free": 0.2,
+        "community": 0.0,
+        "no_exploitation": 0.0,
+        "heritage_connection": 0.0
+      },
+      "alignment_indicators": [
+        "Public data",
+        "Free",
+        "Global unity"
+      ],
+      "how_to_align": [
+        "Use for aligned global data",
+        "Support global unity"
+      ]
+    }
+  ],
+  "the_truth": {
+    "message": "Deep search for existing utilities and services globally. Align them fully with The Table.",
+    "discovery": "We discover aligned services. We integrate them. We align them fully.",
+    "integration": "All discovered services must align with The Table. They serve, not exploit."
+  }
+}

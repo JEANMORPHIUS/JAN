@@ -1,0 +1,222 @@
+{
+  "all_signs_system": {
+    "name": "All Signs Spiritual Alignment Mapping",
+    "purpose": "Map all zodiac signs and spiritual paths - honoring all forms, all journeys",
+    "mission": "Faith in alignment, not control - every sign has a path, every path is valid",
+    "philosophy": "No two people are the same - honor all paths, all forms, all journeys",
+    "birthday_reference": "11 June 1980"
+  },
+  "traditional_12_signs": {
+    "aries": {
+      "dates": "March 21 - April 19",
+      "element": "Fire",
+      "quality": "Cardinal",
+      "ruling_planet": "Mars",
+      "core_energy": "The Pioneer, The Warrior, The Initiator",
+      "spiritual_gift": "Courage to begin, strength to lead, fire to ignite",
+      "heritage_meridian_connection": "The Northern Anchor (Giza) - pioneering energy",
+      "rift_healing": "The Institutional Shell Rift - breaks through barriers",
+      "covenant_act_strength": "Bridge Built, Rift Healed - action-oriented",
+      "yin_yang_balance": "Yang dominant - action, initiation, leadership",
+      "resonance_pioneer_energy": "The trailblazer who goes first"
+    },
+    "taurus": {
+      "dates": "April 20 - May 20",
+      "element": "Earth",
+      "quality": "Fixed",
+      "ruling_planet": "Venus",
+      "core_energy": "The Builder, The Stabilizer, The Ground",
+      "spiritual_gift": "Patience to build, stability to anchor, earth to ground",
+      "heritage_meridian_connection": "The Ground itself - Pangea Memory",
+      "rift_healing": "The Tectonic/Border Logic Rift - builds foundations",
+      "covenant_act_strength": "Heritage Reclaimed, Bridge Built - building acts",
+      "yin_yang_balance": "Yin dominant - stability, patience, building",
+      "resonance_pioneer_energy": "The builder who creates lasting structures"
+    },
+    "gemini": {
+      "dates": "May 21 - June 20",
+      "element": "Air",
+      "quality": "Mutable",
+      "ruling_planet": "Mercury",
+      "core_energy": "The Communicator, The Bridge, The Twin",
+      "spiritual_gift": "Communication to connect, curiosity to learn, duality to bridge",
+      "heritage_meridian_connection": "The Mediterranean Bridge (Alhambra) - connection",
+      "rift_healing": "The Language & Tribalism Rift - bridges through communication",
+      "covenant_act_strength": "Common Duygu Honored, Bridge Built - communication acts",
+      "yin_yang_balance": "Balanced - communication bridges both",
+      "resonance_pioneer_energy": "The communicator who builds bridges between worlds",
+      "birthday_connection": "11 June 1980 - JAN MUHARREM's sign"
+    },
+    "cancer": {
+      "dates": "June 21 - July 22",
+      "element": "Water",
+      "quality": "Cardinal",
+      "ruling_planet": "Moon",
+      "core_energy": "The Nurturer, The Protector, The Home",
+      "spiritual_gift": "Nurturing to heal, protection to guard, home to anchor",
+      "heritage_meridian_connection": "The Cypriot Anchor (Berengaria) - home energy",
+      "rift_healing": "The Heritage Erasure Rift - preserves memory and home",
+      "covenant_act_strength": "Shared Table, Heritage Reclaimed - nurturing acts",
+      "yin_yang_balance": "Yin dominant - nurturing, protection, emotional depth",
+      "resonance_pioneer_energy": "The nurturer who creates safe spaces"
+    },
+    "leo": {
+      "dates": "July 23 - August 22",
+      "element": "Fire",
+      "quality": "Fixed",
+      "ruling_planet": "Sun",
+      "core_energy": "The Leader, The Light, The Heart",
+      "spiritual_gift": "Leadership to guide, light to illuminate, heart to love",
+      "heritage_meridian_connection": "The Central Anchor - heart of the system",
+      "rift_healing": "The Institutional Shell Rift - leads with heart",
+      "covenant_act_strength": "Meridian Activated, Rift Healed - leadership acts",
+      "yin_yang_balance": "Yang dominant - leadership, expression, heart-centered action",
+      "resonance_pioneer_energy": "The leader who leads with love"
+    },
+    "virgo": {
+      "dates": "August 23 - September 22",
+      "element": "Earth",
+      "quality": "Mutable",
+      "ruling_planet": "Mercury",
+      "core_energy": "The Healer, The Analyst, The Perfectionist",
+      "spiritual_gift": "Healing to restore, analysis to understand, perfection to serve",
+      "heritage_meridian_connection": "The Equatorial Balance (Borobudur) - balance",
+      "rift_healing": "The Time Meridian Rift - restores natural rhythm",
+      "covenant_act_strength": "Rift Healed, Scarcity Refused - healing acts",
+      "yin_yang_balance": "Yin dominant - service, healing, analysis",
+      "resonance_pioneer_energy": "The healer who serves through precision"
+    },
+    "libra": {
+      "dates": "September 23 - October 22",
+      "element": "Air",
+      "quality": "Cardinal",
+      "ruling_planet": "Venus",
+      "core_energy": "The Balancer, The Diplomat, The Harmonizer",
+      "spiritual_gift": "Balance to harmonize, diplomacy to connect, justice to restore",
+      "heritage_meridian_connection": "The Equatorial Resonance Line - balance",
+      "rift_healing": "The Language & Tribalism Rift - creates harmony",
+      "covenant_act_strength": "Shared Table, Common Duygu Honored - harmony acts",
+      "yin_yang_balance": "Balanced - harmony, justice, connection",
+      "resonance_pioneer_energy": "The harmonizer who creates balance"
+    },
+    "scorpio": {
+      "dates": "October 23 - November 21",
+      "element": "Water",
+      "quality": "Fixed",
+      "ruling_planet": "Pluto",
+      "core_energy": "The Transformer, The Depth, The Phoenix",
+      "spiritual_gift": "Transformation to renew, depth to understand, phoenix to rise",
+      "heritage_meridian_connection": "The Southern Peak (Machu Picchu) - transformation",
+      "rift_healing": "The Heritage Erasure Rift - transforms through depth",
+      "covenant_act_strength": "Rift Healed, Heritage Reclaimed - transformation acts",
+      "yin_yang_balance": "Yin dominant - depth, transformation, emotional intensity",
+      "resonance_pioneer_energy": "The transformer who goes deep"
+    },
+    "sagittarius": {
+      "dates": "November 22 - December 21",
+      "element": "Fire",
+      "quality": "Mutable",
+      "ruling_planet": "Jupiter",
+      "core_energy": "The Seeker, The Explorer, The Philosopher",
+      "spiritual_gift": "Seeking to find, exploring to discover, philosophy to understand",
+      "heritage_meridian_connection": "The Eastern Temple (Angkor Wat) - seeking",
+      "rift_healing": "The Time Meridian Rift - seeks natural truth",
+      "covenant_act_strength": "Meridian Activated, Heritage Reclaimed - seeking acts",
+      "yin_yang_balance": "Yang dominant - exploration, philosophy, expansion",
+      "resonance_pioneer_energy": "The seeker who explores all paths"
+    },
+    "capricorn": {
+      "dates": "December 22 - January 19",
+      "element": "Earth",
+      "quality": "Cardinal",
+      "ruling_planet": "Saturn",
+      "core_energy": "The Builder, The Authority, The Mountain",
+      "spiritual_gift": "Building to create, authority to lead, mountain to climb",
+      "heritage_meridian_connection": "The Great Wall Seat - building energy",
+      "rift_healing": "The Institutional Shell Rift - builds new structures",
+      "covenant_act_strength": "Bridge Built, Heritage Reclaimed - building acts",
+      "yin_yang_balance": "Yang dominant - building, authority, structure",
+      "resonance_pioneer_energy": "The builder who creates lasting institutions"
+    },
+    "aquarius": {
+      "dates": "January 20 - February 18",
+      "element": "Air",
+      "quality": "Fixed",
+      "ruling_planet": "Uranus",
+      "core_energy": "The Innovator, The Rebel, The Humanitarian",
+      "spiritual_gift": "Innovation to create, rebellion to free, humanity to serve",
+      "heritage_meridian_connection": "The Central Anchor - innovation energy",
+      "rift_healing": "All Rifts - rebels against old systems",
+      "covenant_act_strength": "All Acts - innovative approach to all",
+      "yin_yang_balance": "Balanced - innovation, rebellion, humanitarian service",
+      "resonance_pioneer_energy": "The innovator who creates new systems"
+    },
+    "pisces": {
+      "dates": "February 19 - March 20",
+      "element": "Water",
+      "quality": "Mutable",
+      "ruling_planet": "Neptune",
+      "core_energy": "The Mystic, The Dreamer, The Healer",
+      "spiritual_gift": "Mysticism to connect, dreaming to envision, healing to restore",
+      "heritage_meridian_connection": "The Ancient Meridian System - mystical connection",
+      "rift_healing": "All Rifts - heals through mystical connection",
+      "covenant_act_strength": "Common Duygu Honored, Rift Healed - mystical acts",
+      "yin_yang_balance": "Yin dominant - mysticism, dreaming, healing",
+      "resonance_pioneer_energy": "The mystic who connects to the source"
+    }
+  },
+  "ophiuchus_13th_sign": {
+    "dates": "November 29 - December 17",
+    "element": "Fire/Water (Dual)",
+    "quality": "Fixed",
+    "ruling_planet": "Chiron (The Wounded Healer)",
+    "core_energy": "The Serpent Bearer, The Healer, The Wisdom Keeper",
+    "spiritual_gift": "Healing to restore, wisdom to guide, serpent to transform",
+    "heritage_meridian_connection": "All Seven Pillars - the healer who connects all",
+    "rift_healing": "All Five Rifts - the healer who heals all",
+    "covenant_act_strength": "Rift Healed, Meridian Activated - healing acts",
+    "yin_yang_balance": "Perfectly Balanced - healer who balances all",
+    "resonance_pioneer_energy": "The healer who maintains alignment",
+    "special_note": "The uninvited guest who was always there - the 13th Seat energy"
+  },
+  "spiritual_alignment_framework": {
+    "principle_1": "All signs are valid - no one sign is better than another",
+    "principle_2": "Each sign has a unique path and gift",
+    "principle_3": "Signs connect to Heritage Meridian in different ways",
+    "principle_4": "Each sign heals different Rifts",
+    "principle_5": "Each sign has preferred Covenant Act types",
+    "principle_6": "Yin-Yang balance varies by sign",
+    "principle_7": "All signs contribute to the 13 Seats",
+    "principle_8": "No two people are the same - honor all paths"
+  },
+  "heritage_meridian_connections": {
+    "description": "How each sign connects to the Heritage Meridian System",
+    "fire_signs": "Connect to the active, initiating energy of the Meridian",
+    "earth_signs": "Connect to the Ground, Pangea Memory, the physical anchors",
+    "air_signs": "Connect to the communication, bridge-building of the Meridian",
+    "water_signs": "Connect to the emotional, healing, mystical energy of the Meridian",
+    "ophiuchus": "Connects to all - the healer who bridges all elements"
+  },
+  "rift_healing_by_sign": {
+    "the_tectonic_border_logic_rift": ["Taurus", "Capricorn", "Virgo", "Ophiuchus"],
+    "the_time_meridian_rift": ["Virgo", "Sagittarius", "Ophiuchus"],
+    "the_institutional_shell_rift": ["Aries", "Leo", "Aquarius", "Ophiuchus"],
+    "the_language_tribalism_rift": ["Gemini", "Libra", "Ophiuchus"],
+    "the_heritage_erasure_rift": ["Cancer", "Scorpio", "Pisces", "Ophiuchus"]
+  },
+  "covenant_act_preferences": {
+    "description": "Each sign naturally gravitates toward certain Covenant Act types",
+    "action_oriented": ["Aries", "Leo", "Sagittarius", "Capricorn"],
+    "building_oriented": ["Taurus", "Virgo", "Capricorn"],
+    "communication_oriented": ["Gemini", "Libra", "Aquarius"],
+    "healing_oriented": ["Cancer", "Virgo", "Scorpio", "Pisces", "Ophiuchus"],
+    "transformation_oriented": ["Scorpio", "Pisces", "Ophiuchus"],
+    "all_acts": ["Aquarius", "Ophiuchus"]
+  },
+  "the_truth": {
+    "message": "All signs are valid. All paths are sacred. All journeys matter.",
+    "principle": "Faith in alignment, not control",
+    "mission": "Honor all forms, all paths, all journeys",
+    "covenant": "ENERGY + LOVE = WE ALL WIN"
+  }
+}

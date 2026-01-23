@@ -1,0 +1,26 @@
+{
+  "grid_stability": {
+    "locked_min": 0.05,
+    "stable_min": 0.03,
+    "forming_max": 0.03
+  },
+  "field_space_health": {
+    "resonant_min": 0.5,
+    "stable_min": 0.3
+  },
+  "connection_health": {
+    "strong_min": 0.35,
+    "moderate_min": 0.20,
+    "weak_max": 0.20
+  },
+  "energy_decay": {
+    "model": "exponential",
+    "constant": 0.0002,
+    "half_life_km": 3465
+  },
+  "alerts": {
+    "grid_instability": 0.02,
+    "connection_weakness": 0.15,
+    "field_space_low": 0.3
+  }
+}

@@ -1,0 +1,657 @@
+{
+  "analysis_timestamp": "2026-01-21T15:59:01.155556",
+  "vices": {
+    "total": 10,
+    "analysis": {
+      "total_vices": 10,
+      "total_negative_impact": 1.0,
+      "average_impact_per_vice": 0.1,
+      "vices_by_type": {
+        "frequency_dampener": 0,
+        "energy_drain": 1,
+        "control_mechanism": 3,
+        "exploitation_pattern": 3,
+        "separation_anchor": 0,
+        "static_generator": 1,
+        "dark_contract": 0,
+        "institutional_trap": 2
+      },
+      "top_vices_by_impact": [
+        {
+          "name": "Institutional Control Mechanisms",
+          "impact": 0.15,
+          "type": "institutional_trap"
+        },
+        {
+          "name": "Financial Exploitation Patterns",
+          "impact": 0.12,
+          "type": "exploitation_pattern"
+        },
+        {
+          "name": "Addiction Patterns",
+          "impact": 0.12,
+          "type": "energy_drain"
+        },
+        {
+          "name": "Religious Dogma as Authority",
+          "impact": 0.1,
+          "type": "static_generator"
+        },
+        {
+          "name": "Crypto Pump and Dump Schemes",
+          "impact": 0.1,
+          "type": "exploitation_pattern"
+        },
+        {
+          "name": "Social Media Algorithms",
+          "impact": 0.1,
+          "type": "control_mechanism"
+        },
+        {
+          "name": "Educational System Control",
+          "impact": 0.1,
+          "type": "institutional_trap"
+        },
+        {
+          "name": "Market Manipulation",
+          "impact": 0.08,
+          "type": "control_mechanism"
+        },
+        {
+          "name": "Consumer Culture Exploitation",
+          "impact": 0.08,
+          "type": "exploitation_pattern"
+        },
+        {
+          "name": "ETF Rebalancing Exploitation",
+          "impact": 0.05,
+          "type": "control_mechanism"
+        }
+      ]
+    },
+    "vices": [
+      {
+        "vice_id": "vice_7dbba8cc",
+        "name": "Institutional Control Mechanisms",
+        "vice_type": "institutional_trap",
+        "description": "Institutional systems that control behavior and drain energy",
+        "how_it_exploits": "Creates dependency, removes autonomy, drains spiritual energy",
+        "frequency_impact": -0.15,
+        "connection_to_table": false,
+        "static_generated": [
+          "Fear",
+          "Dependency",
+          "Control"
+        ],
+        "dark_energy_detected": true,
+        "notes": "Institutional traps that prevent self-empowerment"
+      },
+      {
+        "vice_id": "vice_430e0577",
+        "name": "Religious Dogma as Authority",
+        "vice_type": "static_generator",
+        "description": "Religious dogma presented as absolute authority",
+        "how_it_exploits": "Creates false authority, static, separation from truth",
+        "frequency_impact": -0.1,
+        "connection_to_table": false,
+        "static_generated": [
+          "Fear",
+          "Blind Obedience",
+          "Separation from Truth"
+        ],
+        "dark_energy_detected": true,
+        "notes": "We've disregarded the religion element"
+      },
+      {
+        "vice_id": "vice_827e5f0c",
+        "name": "Financial Exploitation Patterns",
+        "vice_type": "exploitation_pattern",
+        "description": "Financial systems that exploit vulnerability",
+        "how_it_exploits": "Creates debt, dependency, separation from resources",
+        "frequency_impact": -0.12,
+        "connection_to_table": false,
+        "static_generated": [
+          "Fear",
+          "Scarcity",
+          "Separation"
+        ],
+        "dark_energy_detected": true,
+        "notes": "Financial systems that exploit rather than serve"
+      },
+      {
+        "vice_id": "vice_b5b05dd6",
+        "name": "Market Manipulation",
+        "vice_type": "control_mechanism",
+        "description": "Market manipulation to control prices and behavior",
+        "how_it_exploits": "Creates artificial scarcity, controls access, drains resources",
+        "frequency_impact": -0.08,
+        "connection_to_table": false,
+        "static_generated": [
+          "Fear",
+          "Artificial Scarcity",
+          "Control"
+        ],
+        "dark_energy_detected": true,
+        "notes": "Market manipulation as control mechanism"
+      },
+      {
+        "vice_id": "vice_09e0747c",
+        "name": "Crypto Pump and Dump Schemes",
+        "vice_type": "exploitation_pattern",
+        "description": "Cryptocurrency schemes that exploit investors",
+        "how_it_exploits": "Creates false hope, drains resources, exploits vulnerability",
+        "frequency_impact": -0.1,
+        "connection_to_table": false,
+        "static_generated": [
+          "Greed",
+          "False Hope",
+          "Exploitation"
+        ],
+        "dark_energy_detected": true,
+        "notes": "Crypto exploitation patterns"
+      },
+      {
+        "vice_id": "vice_c829b7c8",
+        "name": "ETF Rebalancing Exploitation",
+        "vice_type": "control_mechanism",
+        "description": "ETF rebalancing that exploits small investors",
+        "how_it_exploits": "Creates forced trading, drains value, benefits institutions",
+        "frequency_impact": -0.05,
+        "connection_to_table": false,
+        "static_generated": [
+          "Forced Trading",
+          "Value Drain",
+          "Institutional Benefit"
+        ],
+        "dark_energy_detected": true,
+        "notes": "ETF structures that exploit rather than serve"
+      },
+      {
+        "vice_id": "vice_881efeb6",
+        "name": "Addiction Patterns",
+        "vice_type": "energy_drain",
+        "description": "Patterns that create addiction and drain energy",
+        "how_it_exploits": "Creates dependency, drains spiritual energy, prevents growth",
+        "frequency_impact": -0.12,
+        "connection_to_table": false,
+        "static_generated": [
+          "Dependency",
+          "Energy Drain",
+          "Stagnation"
+        ],
+        "dark_energy_detected": true,
+        "notes": "Addiction patterns as energy drains"
+      },
+      {
+        "vice_id": "vice_88e293ef",
+        "name": "Social Media Algorithms",
+        "vice_type": "control_mechanism",
+        "description": "Algorithms that control attention and behavior",
+        "how_it_exploits": "Creates addiction, controls attention, drains time and energy",
+        "frequency_impact": -0.1,
+        "connection_to_table": false,
+        "static_generated": [
+          "Addiction",
+          "Attention Control",
+          "Time Drain"
+        ],
+        "dark_energy_detected": true,
+        "notes": "Social media as control mechanism"
+      },
+      {
+        "vice_id": "vice_4af52d5d",
+        "name": "Consumer Culture Exploitation",
+        "vice_type": "exploitation_pattern",
+        "description": "Consumer culture that exploits desire and creates dependency",
+        "how_it_exploits": "Creates false needs, drains resources, prevents self-sufficiency",
+        "frequency_impact": -0.08,
+        "connection_to_table": false,
+        "static_generated": [
+          "False Needs",
+          "Resource Drain",
+          "Dependency"
+        ],
+        "dark_energy_detected": true,
+        "notes": "Consumer culture as exploitation pattern"
+      },
+      {
+        "vice_id": "vice_e4392c10",
+        "name": "Educational System Control",
+        "vice_type": "institutional_trap",
+        "description": "Educational systems that control knowledge and limit truth",
+        "how_it_exploits": "Limits knowledge, creates dependency on institutions, prevents self-learning",
+        "frequency_impact": -0.1,
+        "connection_to_table": false,
+        "static_generated": [
+          "Knowledge Control",
+          "Institutional Dependency",
+          "Limited Truth"
+        ],
+        "dark_energy_detected": true,
+        "notes": "Educational systems as institutional traps"
+      }
+    ]
+  },
+  "markets": {
+    "total": 9,
+    "analysis": {
+      "total_markets": 9,
+      "vice_markets": 4,
+      "table_aligned_markets": 0,
+      "markets_by_type": {
+        "stock": 2,
+        "etf": 2,
+        "crypto": 3,
+        "commodity": 1,
+        "forex": 1,
+        "bond": 0,
+        "derivative": 0
+      },
+      "vice_patterns_found": [
+        "Market manipulation",
+        "Rebalancing exploitation",
+        "Control mechanism",
+        "Exploitation",
+        "Decay mechanisms",
+        "Leverage exploitation",
+        "Institutional control",
+        "Insider trading",
+        "Fee structures",
+        "Pump and dump",
+        "Retail exploitation",
+        "Rug pulls",
+        "Price manipulation",
+        "Complexity exploitation",
+        "Exploitation schemes"
+      ]
+    },
+    "markets": [
+      {
+        "market_id": "market_dc9e1293",
+        "name": "Stock Market - Traditional",
+        "market_type": "stock",
+        "symbol": "STOCKS",
+        "description": "Traditional stock market exchanges",
+        "is_vice": false,
+        "vice_patterns": [
+          "Market manipulation",
+          "Insider trading",
+          "Exploitation"
+        ],
+        "connection_to_table": false,
+        "frequency_impact": -0.05,
+        "notes": "Can be vice (exploitation) or tool (if aligned with The Table)"
+      },
+      {
+        "market_id": "market_87ca2aca",
+        "name": "Stock Market - High-Frequency Trading",
+        "market_type": "stock",
+        "symbol": "HFT",
+        "description": "High-frequency trading systems",
+        "is_vice": true,
+        "vice_patterns": [
+          "Market manipulation",
+          "Exploitation",
+          "Control mechanism"
+        ],
+        "connection_to_table": false,
+        "frequency_impact": -0.08,
+        "notes": "HFT exploits small investors, benefits institutions"
+      },
+      {
+        "market_id": "market_2e80944c",
+        "name": "ETF Market - Broad Market",
+        "market_type": "etf",
+        "symbol": "ETFs",
+        "description": "Exchange-traded funds",
+        "is_vice": false,
+        "vice_patterns": [
+          "Rebalancing exploitation",
+          "Fee structures"
+        ],
+        "connection_to_table": false,
+        "frequency_impact": -0.03,
+        "notes": "Can be vice (exploitation) or tool (if aligned with The Table)"
+      },
+      {
+        "market_id": "market_3c82c2c5",
+        "name": "ETF Market - Leveraged/Inverse",
+        "market_type": "etf",
+        "symbol": "LETF",
+        "description": "Leveraged and inverse ETFs",
+        "is_vice": true,
+        "vice_patterns": [
+          "Complexity exploitation",
+          "Decay mechanisms"
+        ],
+        "connection_to_table": false,
+        "frequency_impact": -0.1,
+        "notes": "Leveraged ETFs exploit through complexity and decay"
+      },
+      {
+        "market_id": "market_503c55bd",
+        "name": "Cryptocurrency Market - Bitcoin",
+        "market_type": "crypto",
+        "symbol": "BTC",
+        "description": "Bitcoin cryptocurrency market",
+        "is_vice": false,
+        "vice_patterns": [
+          "Pump and dump",
+          "Market manipulation"
+        ],
+        "connection_to_table": false,
+        "frequency_impact": -0.05,
+        "notes": "Can be vice (exploitation) or tool (if aligned with The Table)"
+      },
+      {
+        "market_id": "market_2559e7a3",
+        "name": "Cryptocurrency Market - Altcoins",
+        "market_type": "crypto",
+        "symbol": "ALTS",
+        "description": "Alternative cryptocurrency markets",
+        "is_vice": true,
+        "vice_patterns": [
+          "Pump and dump",
+          "Rug pulls",
+          "Exploitation schemes"
+        ],
+        "connection_to_table": false,
+        "frequency_impact": -0.1,
+        "notes": "Many altcoins are exploitation schemes"
+      },
+      {
+        "market_id": "market_dc903b30",
+        "name": "Cryptocurrency Market - DeFi",
+        "market_type": "crypto",
+        "symbol": "DEFI",
+        "description": "Decentralized finance markets",
+        "is_vice": false,
+        "vice_patterns": [
+          "Complexity exploitation",
+          "Rug pulls"
+        ],
+        "connection_to_table": false,
+        "frequency_impact": -0.06,
+        "notes": "DeFi can be tool (if aligned) or vice (if exploitative)"
+      },
+      {
+        "market_id": "market_7fcc4b1e",
+        "name": "Commodity Market - Precious Metals",
+        "market_type": "commodity",
+        "symbol": "METALS",
+        "description": "Precious metals markets (gold, silver, etc.)",
+        "is_vice": false,
+        "vice_patterns": [
+          "Price manipulation",
+          "Institutional control"
+        ],
+        "connection_to_table": false,
+        "frequency_impact": -0.04,
+        "notes": "Can be vice (manipulation) or tool (if aligned with The Table)"
+      },
+      {
+        "market_id": "market_bf6deda4",
+        "name": "Forex Market",
+        "market_type": "forex",
+        "symbol": "FOREX",
+        "description": "Foreign exchange markets",
+        "is_vice": true,
+        "vice_patterns": [
+          "Leverage exploitation",
+          "Market manipulation",
+          "Retail exploitation"
+        ],
+        "connection_to_table": false,
+        "frequency_impact": -0.12,
+        "notes": "Forex markets highly exploitative of retail traders"
+      }
+    ]
+  },
+  "field_spaces": {
+    "total": 10,
+    "analysis": {
+      "total_field_spaces": 10,
+      "total_connections": 20,
+      "average_energy_flow": 0.796,
+      "average_transformation_potential": 0.8800000000000001,
+      "field_spaces_by_type": {
+        "heritage_gap": 3,
+        "temporal_gap": 2,
+        "energy_flow": 2,
+        "transformation_zone": 2,
+        "connection_path": 0,
+        "resonance_field": 1
+      },
+      "high_energy_spaces": [
+        {
+          "name": "Heritage Site Gap - Mediterranean to London",
+          "energy_flow": 0.75,
+          "type": "heritage_gap"
+        },
+        {
+          "name": "Heritage Site Gap - Stonehenge to Giza",
+          "energy_flow": 0.85,
+          "type": "heritage_gap"
+        },
+        {
+          "name": "Heritage Site Gap - Angkor Wat to Machu Picchu",
+          "energy_flow": 0.8,
+          "type": "heritage_gap"
+        },
+        {
+          "name": "Temporal Gap - Past to Present",
+          "energy_flow": 0.7,
+          "type": "temporal_gap"
+        },
+        {
+          "name": "Temporal Gap - Pangea to Present",
+          "energy_flow": 0.78,
+          "type": "temporal_gap"
+        },
+        {
+          "name": "Energy Flow - Ring of Fire",
+          "energy_flow": 0.9,
+          "type": "energy_flow"
+        },
+        {
+          "name": "Energy Flow - Mediterranean Basin",
+          "energy_flow": 0.75,
+          "type": "energy_flow"
+        },
+        {
+          "name": "Transformation Zone - Personal to Global",
+          "energy_flow": 0.8,
+          "type": "transformation_zone"
+        },
+        {
+          "name": "Transformation Zone - Shell to Seed",
+          "energy_flow": 0.85,
+          "type": "transformation_zone"
+        },
+        {
+          "name": "Resonance Field - Field Resonance Network",
+          "energy_flow": 0.78,
+          "type": "resonance_field"
+        }
+      ]
+    },
+    "field_spaces": [
+      {
+        "fieldspace_id": "fieldspace_32d78e59",
+        "name": "Heritage Site Gap - Mediterranean to London",
+        "fieldspace_type": "heritage_gap",
+        "description": "The space between Mediterranean heritage sites and London heritage sites",
+        "location": "Between Mediterranean and London",
+        "connects_from": [
+          "Mediterranean Heritage Sites"
+        ],
+        "connects_to": [
+          "London Heritage Sites"
+        ],
+        "energy_flow": 0.75,
+        "transformation_potential": 0.8,
+        "connection_to_table": true,
+        "notes": "Field Space connecting Mediterranean Seed to London Steel"
+      },
+      {
+        "fieldspace_id": "fieldspace_21a645e7",
+        "name": "Heritage Site Gap - Stonehenge to Giza",
+        "fieldspace_type": "heritage_gap",
+        "description": "The space between Stonehenge and Great Pyramid of Giza",
+        "location": "Between UK and Egypt",
+        "connects_from": [
+          "Stonehenge"
+        ],
+        "connects_to": [
+          "Great Pyramid of Giza"
+        ],
+        "energy_flow": 0.85,
+        "transformation_potential": 0.9,
+        "connection_to_table": true,
+        "notes": "Field Space connecting major heritage anchors"
+      },
+      {
+        "fieldspace_id": "fieldspace_a91eed04",
+        "name": "Heritage Site Gap - Angkor Wat to Machu Picchu",
+        "fieldspace_type": "heritage_gap",
+        "description": "The space between Angkor Wat and Machu Picchu",
+        "location": "Between Asia and South America",
+        "connects_from": [
+          "Angkor Wat"
+        ],
+        "connects_to": [
+          "Machu Picchu"
+        ],
+        "energy_flow": 0.8,
+        "transformation_potential": 0.85,
+        "connection_to_table": true,
+        "notes": "Field Space connecting Asian and South American heritage"
+      },
+      {
+        "fieldspace_id": "fieldspace_c1026246",
+        "name": "Temporal Gap - Past to Present",
+        "fieldspace_type": "temporal_gap",
+        "description": "The space between past moments and present moments",
+        "location": "Timeline",
+        "connects_from": [
+          "Past Events"
+        ],
+        "connects_to": [
+          "Present Moments"
+        ],
+        "energy_flow": 0.7,
+        "transformation_potential": 0.75,
+        "connection_to_table": true,
+        "notes": "Field Space where past transforms into present"
+      },
+      {
+        "fieldspace_id": "fieldspace_40a65410",
+        "name": "Temporal Gap - Pangea to Present",
+        "fieldspace_type": "temporal_gap",
+        "description": "The space between Pangea (335 MYA) and present",
+        "location": "Timeline - 335 MYA to Present",
+        "connects_from": [
+          "Pangea - The Table"
+        ],
+        "connects_to": [
+          "Present - Memory of Unity"
+        ],
+        "energy_flow": 0.78,
+        "transformation_potential": 1.0,
+        "connection_to_table": true,
+        "notes": "Field Space connecting The Table to present - where restoration happens"
+      },
+      {
+        "fieldspace_id": "fieldspace_07104b15",
+        "name": "Energy Flow - Ring of Fire",
+        "fieldspace_type": "energy_flow",
+        "description": "Energy flow zone along the Ring of Fire",
+        "location": "Pacific Ring of Fire",
+        "connects_from": [
+          "Pacific Plate Boundaries"
+        ],
+        "connects_to": [
+          "Heritage Sites on Ring of Fire"
+        ],
+        "energy_flow": 0.9,
+        "transformation_potential": 0.85,
+        "connection_to_table": true,
+        "notes": "High energy flow zone - major transformation point"
+      },
+      {
+        "fieldspace_id": "fieldspace_43d85c2a",
+        "name": "Energy Flow - Mediterranean Basin",
+        "fieldspace_type": "energy_flow",
+        "description": "Energy flow through Mediterranean basin",
+        "location": "Mediterranean Sea",
+        "connects_from": [
+          "Mediterranean Heritage Sites"
+        ],
+        "connects_to": [
+          "Global Grid"
+        ],
+        "energy_flow": 0.75,
+        "transformation_potential": 0.8,
+        "connection_to_table": true,
+        "notes": "Energy flow connecting Mediterranean Seed to Global Grid"
+      },
+      {
+        "fieldspace_id": "fieldspace_ae07dec7",
+        "name": "Transformation Zone - Personal to Global",
+        "fieldspace_type": "transformation_zone",
+        "description": "The space where personal grid transforms into global grid",
+        "location": "Between Personal and Global",
+        "connects_from": [
+          "Personal Grid"
+        ],
+        "connects_to": [
+          "Global Grid"
+        ],
+        "energy_flow": 0.8,
+        "transformation_potential": 0.9,
+        "connection_to_table": true,
+        "notes": "Field Space where personal timeline connects to The Table"
+      },
+      {
+        "fieldspace_id": "fieldspace_6a2ed279",
+        "name": "Transformation Zone - Shell to Seed",
+        "fieldspace_type": "transformation_zone",
+        "description": "The space where Shell transforms into Seed",
+        "location": "Between Shell and Seed",
+        "connects_from": [
+          "Shell (Narrative)"
+        ],
+        "connects_to": [
+          "Seed (Truth)"
+        ],
+        "energy_flow": 0.85,
+        "transformation_potential": 0.95,
+        "connection_to_table": true,
+        "notes": "Field Space where cleansing happens - Shell to Seed transformation"
+      },
+      {
+        "fieldspace_id": "fieldspace_689b9506",
+        "name": "Resonance Field - Field Resonance Network",
+        "fieldspace_type": "resonance_field",
+        "description": "The resonance field connecting all heritage sites",
+        "location": "Global",
+        "connects_from": [
+          "All Heritage Sites"
+        ],
+        "connects_to": [
+          "The Table (Pangea)"
+        ],
+        "energy_flow": 0.78,
+        "transformation_potential": 1.0,
+        "connection_to_table": true,
+        "notes": "Resonance field maintaining connection to The Table"
+      }
+    ]
+  },
+  "the_truth": {
+    "message": "Vices exploit. Markets can be vices or tools. Field Space (The Inbetween) is where transformation happens. All must be understood and aligned with The Table.",
+    "vices": "Vices are frequency dampeners. They exploit, control, drain energy. We track them all.",
+    "markets": "Markets can be vices (exploitation) or tools (if aligned with The Table). We must understand them.",
+    "field_space": "Field Space is The Inbetween - where transformation happens. The space between heritage sites. The space between moments. The space where energy flows."
+  }
+}

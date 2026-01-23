@@ -1,0 +1,1396 @@
+{
+  "export_timestamp": "2026-01-20T13:06:27.536894",
+  "total_events": 56,
+  "total_plates": 7,
+  "events": [
+    {
+      "event_id": "natural_disaster_2004-12-26_2004_indian_ocean_earthquake_and_tsunami",
+      "event_name": "2004 Indian Ocean Earthquake and Tsunami",
+      "event_type": "natural_disaster",
+      "date": "2004-12-26",
+      "location": {
+        "lat": 3.316,
+        "lon": 95.854
+      },
+      "region": "Southeast Asia",
+      "country": "Indonesia",
+      "tectonic_plates": [
+        "indo_australian",
+        "eurasian"
+      ],
+      "magnitude": 9.1,
+      "description": "Massive undersea earthquake triggered devastating tsunami across Indian Ocean",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.9099999999999999,
+      "sources": [
+        "USGS",
+        "NOAA"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2011-03-11_2011_tohoku_earthquake_and_tsunami",
+      "event_name": "2011 Tohoku Earthquake and Tsunami",
+      "event_type": "natural_disaster",
+      "date": "2011-03-11",
+      "location": {
+        "lat": 38.297,
+        "lon": 142.373
+      },
+      "region": "East Asia",
+      "country": "Japan",
+      "tectonic_plates": [
+        "pacific",
+        "eurasian"
+      ],
+      "magnitude": 9.0,
+      "description": "Massive earthquake and tsunami, triggered Fukushima nuclear disaster",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.9,
+      "sources": [
+        "USGS",
+        "JMA"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2004-12-26_2004_indian_ocean_earthquake_and_tsunami",
+      "event_name": "2004 Indian Ocean Earthquake and Tsunami",
+      "event_type": "natural_disaster",
+      "date": "2004-12-26",
+      "location": {
+        "lat": 3.316,
+        "lon": 95.854
+      },
+      "region": "Southeast Asia",
+      "country": "Indonesia",
+      "tectonic_plates": [
+        "indo_australian",
+        "eurasian"
+      ],
+      "magnitude": 9.1,
+      "description": "Massive undersea earthquake off coast of Sumatra triggered devastating tsunami across Indian Ocean. One of deadliest natural disasters in recorded history.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.9099999999999999,
+      "sources": [
+        "USGS",
+        "NOAA",
+        "UN"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2011-03-11_2011_tohoku_earthquake_and_tsunami",
+      "event_name": "2011 Tohoku Earthquake and Tsunami",
+      "event_type": "natural_disaster",
+      "date": "2011-03-11",
+      "location": {
+        "lat": 38.297,
+        "lon": 142.373
+      },
+      "region": "East Asia",
+      "country": "Japan",
+      "tectonic_plates": [
+        "pacific",
+        "eurasian"
+      ],
+      "magnitude": 9.0,
+      "description": "Most powerful earthquake ever recorded in Japan. Triggered massive tsunami and Fukushima nuclear disaster.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.9,
+      "sources": [
+        "USGS",
+        "JMA",
+        "TEPCO"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2010-01-12_2010_haiti_earthquake",
+      "event_name": "2010 Haiti Earthquake",
+      "event_type": "natural_disaster",
+      "date": "2010-01-12",
+      "location": {
+        "lat": 18.443,
+        "lon": -72.571
+      },
+      "region": "Caribbean",
+      "country": "Haiti",
+      "tectonic_plates": [
+        "caribbean",
+        "north_american"
+      ],
+      "magnitude": 7.0,
+      "description": "Devastating earthquake near Port-au-Prince. One of deadliest earthquakes in history.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.7,
+      "sources": [
+        "USGS",
+        "UN"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2008-05-12_2008_sichuan_earthquake",
+      "event_name": "2008 Sichuan Earthquake",
+      "event_type": "natural_disaster",
+      "date": "2008-05-12",
+      "location": {
+        "lat": 31.002,
+        "lon": 103.322
+      },
+      "region": "East Asia",
+      "country": "China",
+      "tectonic_plates": [
+        "eurasian"
+      ],
+      "magnitude": 7.9,
+      "description": "Massive earthquake in Sichuan province. Most destructive earthquake in China since 1976.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.79,
+      "sources": [
+        "USGS",
+        "CENC"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2005-10-08_2005_kashmir_earthquake",
+      "event_name": "2005 Kashmir Earthquake",
+      "event_type": "natural_disaster",
+      "date": "2005-10-08",
+      "location": {
+        "lat": 34.539,
+        "lon": 73.588
+      },
+      "region": "South Asia",
+      "country": "Pakistan",
+      "tectonic_plates": [
+        "eurasian",
+        "indo_australian"
+      ],
+      "magnitude": 7.6,
+      "description": "Major earthquake in Kashmir region. Affected Pakistan, India, and Afghanistan.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.76,
+      "sources": [
+        "USGS",
+        "NDMA"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_1980-05-18_1980_mount_st._helens_eruption",
+      "event_name": "1980 Mount St. Helens Eruption",
+      "event_type": "natural_disaster",
+      "date": "1980-05-18",
+      "location": {
+        "lat": 46.191,
+        "lon": -122.194
+      },
+      "region": "North America",
+      "country": "United States",
+      "tectonic_plates": [
+        "pacific",
+        "north_american"
+      ],
+      "magnitude": 5.1,
+      "description": "Most destructive volcanic eruption in US history. Part of Cascade Volcanic Arc.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.51,
+      "sources": [
+        "USGS",
+        "USFS"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_1991-06-15_1991_mount_pinatubo_eruption",
+      "event_name": "1991 Mount Pinatubo Eruption",
+      "event_type": "natural_disaster",
+      "date": "1991-06-15",
+      "location": {
+        "lat": 15.143,
+        "lon": 120.35
+      },
+      "region": "Southeast Asia",
+      "country": "Philippines",
+      "tectonic_plates": [
+        "philippine",
+        "eurasian"
+      ],
+      "magnitude": 6.1,
+      "description": "Second largest volcanic eruption of 20th century. Caused global temperature drop.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.61,
+      "sources": [
+        "USGS",
+        "PHIVOLCS"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2010-04-14_2010_eyjafjallaj\u00f6kull_eruption",
+      "event_name": "2010 Eyjafjallaj\u00f6kull Eruption",
+      "event_type": "natural_disaster",
+      "date": "2010-04-14",
+      "location": {
+        "lat": 63.633,
+        "lon": -19.622
+      },
+      "region": "Europe",
+      "country": "Iceland",
+      "tectonic_plates": [
+        "eurasian",
+        "north_american"
+      ],
+      "magnitude": 4.0,
+      "description": "Volcanic eruption in Iceland caused massive air travel disruption across Europe.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.4,
+      "sources": [
+        "IMO",
+        "Icelandic Met Office"
+      ]
+    },
+    {
+      "event_id": "historical_event_1453-05-29_fall_of_constantinople",
+      "event_name": "Fall of Constantinople",
+      "event_type": "historical_event",
+      "date": "1453-05-29",
+      "location": {
+        "lat": 41.008,
+        "lon": 28.978
+      },
+      "region": "Europe/Asia",
+      "country": "Turkey",
+      "tectonic_plates": [
+        "eurasian",
+        "african"
+      ],
+      "magnitude": null,
+      "description": "Fall of Byzantine Empire. End of Middle Ages, beginning of Renaissance.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": null,
+      "sources": [
+        "Historical records",
+        "Byzantine archives"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_1755-11-01_great_lisbon_earthquake",
+      "event_name": "Great Lisbon Earthquake",
+      "event_type": "natural_disaster",
+      "date": "1755-11-01",
+      "location": {
+        "lat": 38.722,
+        "lon": -9.139
+      },
+      "region": "Europe",
+      "country": "Portugal",
+      "tectonic_plates": [
+        "eurasian",
+        "african"
+      ],
+      "magnitude": 8.5,
+      "description": "One of deadliest earthquakes in history. Triggered tsunami and fires. Affected European philosophy and theology.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.85,
+      "sources": [
+        "Historical records",
+        "Geological surveys"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2001-01-26_2001_gujarat_earthquake",
+      "event_name": "2001 Gujarat Earthquake",
+      "event_type": "natural_disaster",
+      "date": "2001-01-26",
+      "location": {
+        "lat": 23.419,
+        "lon": 70.232
+      },
+      "region": "South Asia",
+      "country": "India",
+      "tectonic_plates": [
+        "indo_australian",
+        "eurasian"
+      ],
+      "magnitude": 7.7,
+      "description": "Major earthquake in Gujarat state. One of deadliest in India's history.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.77,
+      "sources": [
+        "USGS",
+        "GSDMA"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2003-12-26_2003_bam_earthquake",
+      "event_name": "2003 Bam Earthquake",
+      "event_type": "natural_disaster",
+      "date": "2003-12-26",
+      "location": {
+        "lat": 29.107,
+        "lon": 58.357
+      },
+      "region": "Middle East",
+      "country": "Iran",
+      "tectonic_plates": [
+        "arabian",
+        "eurasian"
+      ],
+      "magnitude": 6.6,
+      "description": "Destructive earthquake in ancient city of Bam. Destroyed historic citadel.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.6599999999999999,
+      "sources": [
+        "USGS",
+        "IIEES"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2004-12-26_2004_indian_ocean_earthquake_and_tsunami",
+      "event_name": "2004 Indian Ocean Earthquake and Tsunami",
+      "event_type": "natural_disaster",
+      "date": "2004-12-26",
+      "location": {
+        "lat": 3.316,
+        "lon": 95.854
+      },
+      "region": "Southeast Asia",
+      "country": "Indonesia",
+      "tectonic_plates": [
+        "indo_australian",
+        "eurasian"
+      ],
+      "magnitude": 9.1,
+      "description": "Massive undersea earthquake off coast of Sumatra triggered devastating tsunami across Indian Ocean. One of deadliest natural disasters in recorded history.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.9099999999999999,
+      "sources": [
+        "USGS",
+        "NOAA",
+        "UN"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2005-10-08_2005_kashmir_earthquake",
+      "event_name": "2005 Kashmir Earthquake",
+      "event_type": "natural_disaster",
+      "date": "2005-10-08",
+      "location": {
+        "lat": 34.539,
+        "lon": 73.588
+      },
+      "region": "South Asia",
+      "country": "Pakistan",
+      "tectonic_plates": [
+        "eurasian",
+        "indo_australian"
+      ],
+      "magnitude": 7.6,
+      "description": "Major earthquake in Kashmir region. Affected Pakistan, India, and Afghanistan.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.76,
+      "sources": [
+        "USGS",
+        "NDMA"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2006-05-26_2006_yogyakarta_earthquake",
+      "event_name": "2006 Yogyakarta Earthquake",
+      "event_type": "natural_disaster",
+      "date": "2006-05-26",
+      "location": {
+        "lat": -7.962,
+        "lon": 110.458
+      },
+      "region": "Southeast Asia",
+      "country": "Indonesia",
+      "tectonic_plates": [
+        "indo_australian",
+        "eurasian"
+      ],
+      "magnitude": 6.4,
+      "description": "Major earthquake in Java. Affected Yogyakarta region.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.64,
+      "sources": [
+        "USGS",
+        "BMKG"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2007-08-15_2007_peru_earthquake",
+      "event_name": "2007 Peru Earthquake",
+      "event_type": "natural_disaster",
+      "date": "2007-08-15",
+      "location": {
+        "lat": -13.354,
+        "lon": -76.511
+      },
+      "region": "South America",
+      "country": "Peru",
+      "tectonic_plates": [
+        "nazca",
+        "south_american"
+      ],
+      "magnitude": 8.0,
+      "description": "Major earthquake off coast of Peru. Triggered tsunami warnings.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.8,
+      "sources": [
+        "USGS",
+        "IGP"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2008-05-12_2008_sichuan_earthquake",
+      "event_name": "2008 Sichuan Earthquake",
+      "event_type": "natural_disaster",
+      "date": "2008-05-12",
+      "location": {
+        "lat": 31.002,
+        "lon": 103.322
+      },
+      "region": "East Asia",
+      "country": "China",
+      "tectonic_plates": [
+        "eurasian"
+      ],
+      "magnitude": 7.9,
+      "description": "Massive earthquake in Sichuan province. Most destructive earthquake in China since 1976.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.79,
+      "sources": [
+        "USGS",
+        "CENC"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2010-01-12_2010_haiti_earthquake",
+      "event_name": "2010 Haiti Earthquake",
+      "event_type": "natural_disaster",
+      "date": "2010-01-12",
+      "location": {
+        "lat": 18.443,
+        "lon": -72.571
+      },
+      "region": "Caribbean",
+      "country": "Haiti",
+      "tectonic_plates": [
+        "caribbean",
+        "north_american"
+      ],
+      "magnitude": 7.0,
+      "description": "Devastating earthquake near Port-au-Prince. One of deadliest earthquakes in history.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.7,
+      "sources": [
+        "USGS",
+        "UN"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2010-02-27_2010_chile_earthquake",
+      "event_name": "2010 Chile Earthquake",
+      "event_type": "natural_disaster",
+      "date": "2010-02-27",
+      "location": {
+        "lat": -35.846,
+        "lon": -72.719
+      },
+      "region": "South America",
+      "country": "Chile",
+      "tectonic_plates": [
+        "nazca",
+        "south_american"
+      ],
+      "magnitude": 8.8,
+      "description": "Massive earthquake off coast of Chile. Triggered tsunami across Pacific.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.8800000000000001,
+      "sources": [
+        "USGS",
+        "CSN"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2011-03-11_2011_tohoku_earthquake_and_tsunami",
+      "event_name": "2011 Tohoku Earthquake and Tsunami",
+      "event_type": "natural_disaster",
+      "date": "2011-03-11",
+      "location": {
+        "lat": 38.297,
+        "lon": 142.373
+      },
+      "region": "East Asia",
+      "country": "Japan",
+      "tectonic_plates": [
+        "pacific",
+        "eurasian"
+      ],
+      "magnitude": 9.0,
+      "description": "Most powerful earthquake ever recorded in Japan. Triggered massive tsunami and Fukushima nuclear disaster.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.9,
+      "sources": [
+        "USGS",
+        "JMA",
+        "TEPCO"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2012-04-11_2012_indian_ocean_earthquakes",
+      "event_name": "2012 Indian Ocean Earthquakes",
+      "event_type": "natural_disaster",
+      "date": "2012-04-11",
+      "location": {
+        "lat": 2.327,
+        "lon": 93.063
+      },
+      "region": "Southeast Asia",
+      "country": "Indonesia",
+      "tectonic_plates": [
+        "indo_australian",
+        "eurasian"
+      ],
+      "magnitude": 8.6,
+      "description": "Major doublet earthquakes off coast of Sumatra. Triggered tsunami warnings.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.86,
+      "sources": [
+        "USGS",
+        "BMKG"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2013-09-24_2013_pakistan_earthquake",
+      "event_name": "2013 Pakistan Earthquake",
+      "event_type": "natural_disaster",
+      "date": "2013-09-24",
+      "location": {
+        "lat": 27.008,
+        "lon": 65.901
+      },
+      "region": "South Asia",
+      "country": "Pakistan",
+      "tectonic_plates": [
+        "eurasian",
+        "indo_australian"
+      ],
+      "magnitude": 7.7,
+      "description": "Major earthquake in Balochistan province.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.77,
+      "sources": [
+        "USGS",
+        "NDMA"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2014-04-01_2014_iquique_earthquake",
+      "event_name": "2014 Iquique Earthquake",
+      "event_type": "natural_disaster",
+      "date": "2014-04-01",
+      "location": {
+        "lat": -19.61,
+        "lon": -70.769
+      },
+      "region": "South America",
+      "country": "Chile",
+      "tectonic_plates": [
+        "nazca",
+        "south_american"
+      ],
+      "magnitude": 8.2,
+      "description": "Major earthquake off coast of northern Chile. Triggered tsunami.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.82,
+      "sources": [
+        "USGS",
+        "CSN"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2015-04-25_2015_nepal_earthquake",
+      "event_name": "2015 Nepal Earthquake",
+      "event_type": "natural_disaster",
+      "date": "2015-04-25",
+      "location": {
+        "lat": 28.147,
+        "lon": 84.708
+      },
+      "region": "South Asia",
+      "country": "Nepal",
+      "tectonic_plates": [
+        "eurasian",
+        "indo_australian"
+      ],
+      "magnitude": 7.8,
+      "description": "Devastating earthquake in Nepal. Destroyed many historic sites including Kathmandu Durbar Square.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.78,
+      "sources": [
+        "USGS",
+        "NSC"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2016-04-16_2016_ecuador_earthquake",
+      "event_name": "2016 Ecuador Earthquake",
+      "event_type": "natural_disaster",
+      "date": "2016-04-16",
+      "location": {
+        "lat": 0.371,
+        "lon": -79.94
+      },
+      "region": "South America",
+      "country": "Ecuador",
+      "tectonic_plates": [
+        "nazca",
+        "south_american"
+      ],
+      "magnitude": 7.8,
+      "description": "Major earthquake in coastal Ecuador. Most powerful in decades.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.78,
+      "sources": [
+        "USGS",
+        "IGEPN"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2016-08-24_2016_central_italy_earthquakes",
+      "event_name": "2016 Central Italy Earthquakes",
+      "event_type": "natural_disaster",
+      "date": "2016-08-24",
+      "location": {
+        "lat": 42.698,
+        "lon": 13.234
+      },
+      "region": "Europe",
+      "country": "Italy",
+      "tectonic_plates": [
+        "eurasian",
+        "african"
+      ],
+      "magnitude": 6.2,
+      "description": "Series of earthquakes in central Italy. Destroyed historic towns.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.62,
+      "sources": [
+        "USGS",
+        "INGV"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2017-09-19_2017_mexico_earthquake",
+      "event_name": "2017 Mexico Earthquake",
+      "event_type": "natural_disaster",
+      "date": "2017-09-19",
+      "location": {
+        "lat": 18.584,
+        "lon": -98.399
+      },
+      "region": "North America",
+      "country": "Mexico",
+      "tectonic_plates": [
+        "cocos",
+        "north_american"
+      ],
+      "magnitude": 7.1,
+      "description": "Major earthquake in central Mexico. Coincided with 1985 earthquake anniversary.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.71,
+      "sources": [
+        "USGS",
+        "SSN"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2018-09-28_2018_indonesia_earthquake_and_tsunami",
+      "event_name": "2018 Indonesia Earthquake and Tsunami",
+      "event_type": "natural_disaster",
+      "date": "2018-09-28",
+      "location": {
+        "lat": -0.178,
+        "lon": 119.84
+      },
+      "region": "Southeast Asia",
+      "country": "Indonesia",
+      "tectonic_plates": [
+        "indo_australian",
+        "eurasian"
+      ],
+      "magnitude": 7.5,
+      "description": "Major earthquake and tsunami in Sulawesi. Devastating liquefaction.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.75,
+      "sources": [
+        "USGS",
+        "BMKG"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2019-07-04_2019_ridgecrest_earthquakes",
+      "event_name": "2019 Ridgecrest Earthquakes",
+      "event_type": "natural_disaster",
+      "date": "2019-07-04",
+      "location": {
+        "lat": 35.705,
+        "lon": -117.505
+      },
+      "region": "North America",
+      "country": "United States",
+      "tectonic_plates": [
+        "pacific",
+        "north_american"
+      ],
+      "magnitude": 7.1,
+      "description": "Major earthquake sequence in California. Largest in 20 years.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.71,
+      "sources": [
+        "USGS",
+        "Caltech"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_1906-04-18_1906_san_francisco_earthquake",
+      "event_name": "1906 San Francisco Earthquake",
+      "event_type": "natural_disaster",
+      "date": "1906-04-18",
+      "location": {
+        "lat": 37.75,
+        "lon": -122.55
+      },
+      "region": "North America",
+      "country": "United States",
+      "tectonic_plates": [
+        "pacific",
+        "north_american"
+      ],
+      "magnitude": 7.9,
+      "description": "Famous earthquake and fire in San Francisco. Led to modern earthquake science.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.79,
+      "sources": [
+        "USGS",
+        "Historical records"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_1923-09-01_1923_great_kanto_earthquake",
+      "event_name": "1923 Great Kanto Earthquake",
+      "event_type": "natural_disaster",
+      "date": "1923-09-01",
+      "location": {
+        "lat": 35.1,
+        "lon": 139.5
+      },
+      "region": "East Asia",
+      "country": "Japan",
+      "tectonic_plates": [
+        "pacific",
+        "eurasian"
+      ],
+      "magnitude": 7.9,
+      "description": "Devastating earthquake in Kanto region. Destroyed Tokyo and Yokohama.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.79,
+      "sources": [
+        "USGS",
+        "Historical records"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_1960-05-22_1960_valdivia_earthquake",
+      "event_name": "1960 Valdivia Earthquake",
+      "event_type": "natural_disaster",
+      "date": "1960-05-22",
+      "location": {
+        "lat": -38.24,
+        "lon": -73.05
+      },
+      "region": "South America",
+      "country": "Chile",
+      "tectonic_plates": [
+        "nazca",
+        "south_american"
+      ],
+      "magnitude": 9.5,
+      "description": "Most powerful earthquake ever recorded. Triggered massive tsunami.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.95,
+      "sources": [
+        "USGS",
+        "Historical records"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_1976-07-28_1976_tangshan_earthquake",
+      "event_name": "1976 Tangshan Earthquake",
+      "event_type": "natural_disaster",
+      "date": "1976-07-28",
+      "location": {
+        "lat": 39.63,
+        "lon": 118.183
+      },
+      "region": "East Asia",
+      "country": "China",
+      "tectonic_plates": [
+        "eurasian"
+      ],
+      "magnitude": 7.6,
+      "description": "One of deadliest earthquakes in history. Destroyed Tangshan city.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.76,
+      "sources": [
+        "USGS",
+        "Historical records"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_1815-04-10_1815_mount_tambora_eruption",
+      "event_name": "1815 Mount Tambora Eruption",
+      "event_type": "natural_disaster",
+      "date": "1815-04-10",
+      "location": {
+        "lat": -8.25,
+        "lon": 118.0
+      },
+      "region": "Southeast Asia",
+      "country": "Indonesia",
+      "tectonic_plates": [
+        "indo_australian",
+        "eurasian"
+      ],
+      "magnitude": 7.0,
+      "description": "Largest volcanic eruption in recorded history. Caused 'Year Without a Summer' globally.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.7,
+      "sources": [
+        "GVP",
+        "Historical records"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_1883-08-26_1883_krakatoa_eruption",
+      "event_name": "1883 Krakatoa Eruption",
+      "event_type": "natural_disaster",
+      "date": "1883-08-26",
+      "location": {
+        "lat": -6.102,
+        "lon": 105.423
+      },
+      "region": "Southeast Asia",
+      "country": "Indonesia",
+      "tectonic_plates": [
+        "indo_australian",
+        "eurasian"
+      ],
+      "magnitude": 6.0,
+      "description": "One of most violent volcanic eruptions in history. Destroyed island, triggered massive tsunamis.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.6,
+      "sources": [
+        "GVP",
+        "Historical records"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_1902-05-08_1902_mount_pel\u00e9e_eruption",
+      "event_name": "1902 Mount Pel\u00e9e Eruption",
+      "event_type": "natural_disaster",
+      "date": "1902-05-08",
+      "location": {
+        "lat": 14.817,
+        "lon": -61.167
+      },
+      "region": "Caribbean",
+      "country": "Martinique",
+      "tectonic_plates": [
+        "caribbean",
+        "north_american"
+      ],
+      "magnitude": 4.0,
+      "description": "Deadliest volcanic eruption of 20th century. Destroyed city of Saint-Pierre.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.4,
+      "sources": [
+        "GVP",
+        "Historical records"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_1980-05-18_1980_mount_st._helens_eruption",
+      "event_name": "1980 Mount St. Helens Eruption",
+      "event_type": "natural_disaster",
+      "date": "1980-05-18",
+      "location": {
+        "lat": 46.191,
+        "lon": -122.194
+      },
+      "region": "North America",
+      "country": "United States",
+      "tectonic_plates": [
+        "pacific",
+        "north_american"
+      ],
+      "magnitude": 5.1,
+      "description": "Most destructive volcanic eruption in US history. Part of Cascade Volcanic Arc.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.51,
+      "sources": [
+        "USGS",
+        "USFS"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_1985-11-13_1985_nevado_del_ruiz_eruption",
+      "event_name": "1985 Nevado del Ruiz Eruption",
+      "event_type": "natural_disaster",
+      "date": "1985-11-13",
+      "location": {
+        "lat": 4.892,
+        "lon": -75.324
+      },
+      "region": "South America",
+      "country": "Colombia",
+      "tectonic_plates": [
+        "nazca",
+        "south_american"
+      ],
+      "magnitude": 3.0,
+      "description": "Volcanic eruption triggered deadly lahars. Destroyed town of Armero.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.3,
+      "sources": [
+        "GVP",
+        "USGS"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_1991-06-15_1991_mount_pinatubo_eruption",
+      "event_name": "1991 Mount Pinatubo Eruption",
+      "event_type": "natural_disaster",
+      "date": "1991-06-15",
+      "location": {
+        "lat": 15.143,
+        "lon": 120.35
+      },
+      "region": "Southeast Asia",
+      "country": "Philippines",
+      "tectonic_plates": [
+        "philippine",
+        "eurasian"
+      ],
+      "magnitude": 6.1,
+      "description": "Second largest volcanic eruption of 20th century. Caused global temperature drop.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.61,
+      "sources": [
+        "USGS",
+        "PHIVOLCS"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2010-04-14_2010_eyjafjallaj\u00f6kull_eruption",
+      "event_name": "2010 Eyjafjallaj\u00f6kull Eruption",
+      "event_type": "natural_disaster",
+      "date": "2010-04-14",
+      "location": {
+        "lat": 63.633,
+        "lon": -19.622
+      },
+      "region": "Europe",
+      "country": "Iceland",
+      "tectonic_plates": [
+        "eurasian",
+        "north_american"
+      ],
+      "magnitude": 4.0,
+      "description": "Volcanic eruption in Iceland caused massive air travel disruption across Europe.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.4,
+      "sources": [
+        "IMO",
+        "Icelandic Met Office"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2018-05-03_2018_kilauea_eruption",
+      "event_name": "2018 Kilauea Eruption",
+      "event_type": "natural_disaster",
+      "date": "2018-05-03",
+      "location": {
+        "lat": 19.406,
+        "lon": -155.283
+      },
+      "region": "Pacific",
+      "country": "United States",
+      "tectonic_plates": [
+        "pacific"
+      ],
+      "magnitude": 3.0,
+      "description": "Major eruption of Kilauea volcano. Destroyed hundreds of homes in Hawaii.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.3,
+      "sources": [
+        "USGS",
+        "HVO"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2021-04-09_2021_la_soufri\u00e8re_eruption",
+      "event_name": "2021 La Soufri\u00e8re Eruption",
+      "event_type": "natural_disaster",
+      "date": "2021-04-09",
+      "location": {
+        "lat": 13.33,
+        "lon": -61.18
+      },
+      "region": "Caribbean",
+      "country": "Saint Vincent and the Grenadines",
+      "tectonic_plates": [
+        "caribbean",
+        "north_american"
+      ],
+      "magnitude": 4.0,
+      "description": "Major explosive eruption. Forced mass evacuations.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.4,
+      "sources": [
+        "GVP",
+        "UWI"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2022-01-15_2022_hunga_tonga-hunga_ha'apai_eruption",
+      "event_name": "2022 Hunga Tonga-Hunga Ha'apai Eruption",
+      "event_type": "natural_disaster",
+      "date": "2022-01-15",
+      "location": {
+        "lat": -20.536,
+        "lon": -175.382
+      },
+      "region": "Pacific",
+      "country": "Tonga",
+      "tectonic_plates": [
+        "pacific"
+      ],
+      "magnitude": 5.0,
+      "description": "Massive explosive eruption. Largest atmospheric explosion since Krakatoa. Triggered tsunamis across Pacific.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.5,
+      "sources": [
+        "GVP",
+        "USGS"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_0079-08-24_ad_79_mount_vesuvius_eruption",
+      "event_name": "AD 79 Mount Vesuvius Eruption",
+      "event_type": "natural_disaster",
+      "date": "0079-08-24",
+      "location": {
+        "lat": 40.822,
+        "lon": 14.428
+      },
+      "region": "Europe",
+      "country": "Italy",
+      "tectonic_plates": [
+        "eurasian",
+        "african"
+      ],
+      "magnitude": 5.0,
+      "description": "Famous eruption that destroyed Pompeii and Herculaneum. Preserved Roman cities for archaeology.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.5,
+      "sources": [
+        "Historical records",
+        "Archaeological evidence"
+      ]
+    },
+    {
+      "event_id": "historical_event_1453-05-29_fall_of_constantinople",
+      "event_name": "Fall of Constantinople",
+      "event_type": "historical_event",
+      "date": "1453-05-29",
+      "location": {
+        "lat": 41.008,
+        "lon": 28.978
+      },
+      "region": "Europe/Asia",
+      "country": "Turkey",
+      "tectonic_plates": [
+        "eurasian",
+        "african"
+      ],
+      "magnitude": null,
+      "description": "Fall of Byzantine Empire. End of Middle Ages, beginning of Renaissance.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": null,
+      "sources": [
+        "Historical records",
+        "Byzantine archives"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_1755-11-01_great_lisbon_earthquake",
+      "event_name": "Great Lisbon Earthquake",
+      "event_type": "natural_disaster",
+      "date": "1755-11-01",
+      "location": {
+        "lat": 38.722,
+        "lon": -9.139
+      },
+      "region": "Europe",
+      "country": "Portugal",
+      "tectonic_plates": [
+        "eurasian",
+        "african"
+      ],
+      "magnitude": 8.5,
+      "description": "One of deadliest earthquakes in history. Triggered tsunami and fires. Affected European philosophy and theology.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.85,
+      "sources": [
+        "Historical records",
+        "Geological surveys"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_1883-08-27_1883_krakatoa_tsunami",
+      "event_name": "1883 Krakatoa Tsunami",
+      "event_type": "natural_disaster",
+      "date": "1883-08-27",
+      "location": {
+        "lat": -6.102,
+        "lon": 105.423
+      },
+      "region": "Southeast Asia",
+      "country": "Indonesia",
+      "tectonic_plates": [
+        "indo_australian",
+        "eurasian"
+      ],
+      "magnitude": 6.0,
+      "description": "Massive tsunamis triggered by Krakatoa eruption. Waves reached 30+ meters.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.6,
+      "sources": [
+        "Historical records",
+        "GVP"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2004-12-26_2004_indian_ocean_tsunami",
+      "event_name": "2004 Indian Ocean Tsunami",
+      "event_type": "natural_disaster",
+      "date": "2004-12-26",
+      "location": {
+        "lat": 3.316,
+        "lon": 95.854
+      },
+      "region": "Southeast Asia",
+      "country": "Indonesia",
+      "tectonic_plates": [
+        "indo_australian",
+        "eurasian"
+      ],
+      "magnitude": 9.1,
+      "description": "Devastating tsunami triggered by 2004 Indian Ocean earthquake. Affected 14 countries.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.9099999999999999,
+      "sources": [
+        "NOAA",
+        "USGS"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2011-03-11_2011_tohoku_tsunami",
+      "event_name": "2011 Tohoku Tsunami",
+      "event_type": "natural_disaster",
+      "date": "2011-03-11",
+      "location": {
+        "lat": 38.297,
+        "lon": 142.373
+      },
+      "region": "East Asia",
+      "country": "Japan",
+      "tectonic_plates": [
+        "pacific",
+        "eurasian"
+      ],
+      "magnitude": 9.0,
+      "description": "Massive tsunami triggered by Tohoku earthquake. Waves reached 40+ meters. Caused Fukushima disaster.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.9,
+      "sources": [
+        "JMA",
+        "USGS"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2004-12-26_2004_indian_ocean_tsunami",
+      "event_name": "2004 Indian Ocean Tsunami",
+      "event_type": "natural_disaster",
+      "date": "2004-12-26",
+      "location": {
+        "lat": 3.316,
+        "lon": 95.854
+      },
+      "region": "Southeast Asia",
+      "country": "Indonesia",
+      "tectonic_plates": [
+        "indo_australian",
+        "eurasian"
+      ],
+      "magnitude": null,
+      "description": "Most devastating tsunami in modern history. Max wave height: 30m. Triggered by: 2004 Indian Ocean Earthquake (M9.1)",
+      "heritage_site_connections": [],
+      "field_resonance_impact": null,
+      "sources": [
+        "NOAA",
+        "USGS"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2011-03-11_2011_tohoku_tsunami",
+      "event_name": "2011 Tohoku Tsunami",
+      "event_type": "natural_disaster",
+      "date": "2011-03-11",
+      "location": {
+        "lat": 38.297,
+        "lon": 142.373
+      },
+      "region": "East Asia",
+      "country": "Japan",
+      "tectonic_plates": [
+        "pacific",
+        "eurasian"
+      ],
+      "magnitude": null,
+      "description": "Massive tsunami with waves up to 40 meters. Caused Fukushima nuclear disaster. Max wave height: 40m. Triggered by: 2011 Tohoku Earthquake (M9.0)",
+      "heritage_site_connections": [],
+      "field_resonance_impact": null,
+      "sources": [
+        "JMA",
+        "USGS"
+      ]
+    },
+    {
+      "event_id": "civilizational_0476-09-04_fall_of_roman_empire",
+      "event_name": "Fall of Roman Empire",
+      "event_type": "civilizational",
+      "date": "0476-09-04",
+      "location": {
+        "lat": 41.902,
+        "lon": 12.496
+      },
+      "region": "Europe",
+      "country": "Italy",
+      "tectonic_plates": [
+        "eurasian",
+        "african"
+      ],
+      "magnitude": null,
+      "description": "End of Western Roman Empire. Beginning of Middle Ages.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": null,
+      "sources": [
+        "Historical records"
+      ]
+    },
+    {
+      "event_id": "civilizational_1347-01-01_black_death",
+      "event_name": "Black Death",
+      "event_type": "civilizational",
+      "date": "1347-01-01",
+      "location": {
+        "lat": 41.008,
+        "lon": 28.978
+      },
+      "region": "Europe/Asia",
+      "country": "Multiple",
+      "tectonic_plates": [
+        "eurasian"
+      ],
+      "magnitude": null,
+      "description": "Pandemic that killed 30-50% of Europe's population. Major social and economic transformation.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": null,
+      "sources": [
+        "Historical records"
+      ]
+    },
+    {
+      "event_id": "civilizational_1760-01-01_industrial_revolution",
+      "event_name": "Industrial Revolution",
+      "event_type": "civilizational",
+      "date": "1760-01-01",
+      "location": {
+        "lat": 53.48,
+        "lon": -2.242
+      },
+      "region": "Europe",
+      "country": "United Kingdom",
+      "tectonic_plates": [
+        "eurasian"
+      ],
+      "magnitude": null,
+      "description": "Transformation from agrarian to industrial society. Beginning of modern era.",
+      "heritage_site_connections": [],
+      "field_resonance_impact": null,
+      "sources": [
+        "Historical records"
+      ]
+    }
+  ],
+  "tectonic_plates": {
+    "pacific": {
+      "plate_name": "pacific",
+      "plate_type": "major",
+      "movement_rate": null,
+      "total_events": 8,
+      "heritage_sites": []
+    },
+    "north_american": {
+      "plate_name": "north_american",
+      "plate_type": "major",
+      "movement_rate": null,
+      "total_events": 8,
+      "heritage_sites": []
+    },
+    "south_american": {
+      "plate_name": "south_american",
+      "plate_type": "major",
+      "movement_rate": null,
+      "total_events": 6,
+      "heritage_sites": []
+    },
+    "eurasian": {
+      "plate_name": "eurasian",
+      "plate_type": "major",
+      "movement_rate": null,
+      "total_events": 27,
+      "heritage_sites": []
+    },
+    "african": {
+      "plate_name": "african",
+      "plate_type": "major",
+      "movement_rate": null,
+      "total_events": 5,
+      "heritage_sites": []
+    },
+    "indo_australian": {
+      "plate_name": "indo_australian",
+      "plate_type": "major",
+      "movement_rate": null,
+      "total_events": 12,
+      "heritage_sites": []
+    },
+    "antarctic": {
+      "plate_name": "antarctic",
+      "plate_type": "major",
+      "movement_rate": null,
+      "total_events": 0,
+      "heritage_sites": []
+    }
+  }
+}

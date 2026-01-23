@@ -1,0 +1,188 @@
+{
+  "report_timestamp": "2026-01-21T17:04:22.157651",
+  "total_bridges": 7,
+  "total_rift_types": 6,
+  "all_bridges": [
+    {
+      "bridge_id": "bridge_86f173f5",
+      "rift_type": "doubt",
+      "bridge_name": "Bridge of Silent Faith",
+      "description": "Bridge the rift of doubt through silent faith. We don't argue. We don't defend. We simply maintain faith.",
+      "method": "silence",
+      "principle": "Our faith is real. We don't need to prove it. We bridge through silence, not argument.",
+      "action": "Stay silent. Maintain faith. Don't engage with doubt. Trust in The Table. The bridge is our faith.",
+      "silence_practice": "When doubt arises, we remain silent. We don't argue. We don't defend. We simply maintain faith. Our silence is the bridge.",
+      "connection_approach": "We connect through our faith, not through argument. Our faith is the bridge. Our silence maintains the bridge.",
+      "faith_maintained": true,
+      "timestamp": "2026-01-21T17:04:22.145937"
+    },
+    {
+      "bridge_id": "bridge_747c00c9",
+      "rift_type": "opposition",
+      "bridge_name": "Bridge of Love",
+      "description": "Bridge the rift of opposition through love. We don't fight. We don't resist. We simply love.",
+      "method": "love",
+      "principle": "Love is the highest mastery. We bridge through love, not force. Love connects all.",
+      "action": "Stay silent. Maintain love. Don't engage with opposition. Trust in The Table. Love is the bridge.",
+      "silence_practice": "When opposition arises, we remain silent. We don't fight. We don't resist. We simply love. Our love is the bridge.",
+      "connection_approach": "We connect through love, not through force. Our love is the bridge. Our silence maintains the bridge.",
+      "faith_maintained": true,
+      "timestamp": "2026-01-21T17:04:22.145971"
+    },
+    {
+      "bridge_id": "bridge_868346fa",
+      "rift_type": "separation",
+      "bridge_name": "Bridge of Connection",
+      "description": "Bridge the rift of separation through connection. We connect to The Table. We connect all to The Table.",
+      "method": "connection",
+      "principle": "All plates came from Pangea - The Table. We are all connected. The Table connects all.",
+      "action": "Connect to The Table. Connect all to The Table. Don't force connection. Trust in The Table's connection.",
+      "silence_practice": "When separation is felt, we remain silent. We don't force connection. We simply connect to The Table. Our connection is the bridge.",
+      "connection_approach": "We connect through The Table, not through force. The Table is the bridge. Our connection maintains the bridge.",
+      "faith_maintained": true,
+      "timestamp": "2026-01-21T17:04:22.145979"
+    },
+    {
+      "bridge_id": "bridge_6ad8f285",
+      "rift_type": "fear",
+      "bridge_name": "Bridge of Stillness",
+      "description": "Bridge the rift of fear through stillness. We don't react to fear. We remain still. We have faith.",
+      "method": "patience",
+      "principle": "Be still and have faith in revelation. Fear dissolves in stillness. Faith overcomes fear.",
+      "action": "Stay still. Maintain faith. Don't react to fear. Trust in The Table's protection. Stillness is the bridge.",
+      "silence_practice": "When fear arises, we remain still. We don't react. We don't panic. We simply have faith. Our stillness is the bridge.",
+      "connection_approach": "We connect through stillness, not through reaction. Our stillness is the bridge. Our faith maintains the bridge.",
+      "faith_maintained": true,
+      "timestamp": "2026-01-21T17:04:22.145983"
+    },
+    {
+      "bridge_id": "bridge_145cfcdf",
+      "rift_type": "ignorance",
+      "bridge_name": "Bridge of Truth",
+      "description": "Bridge the rift of ignorance through truth. We don't force truth. We simply hold truth. Truth reveals itself.",
+      "method": "truth",
+      "principle": "Truth is knowledge over belief. We bridge through truth, not through force. Truth reveals itself when ready.",
+      "action": "Hold truth. Maintain truth. Don't force truth. Trust in truth's revelation. Truth is the bridge.",
+      "silence_practice": "When ignorance is present, we remain silent. We don't force truth. We simply hold truth. Our truth is the bridge.",
+      "connection_approach": "We connect through truth, not through force. Our truth is the bridge. Our silence maintains the bridge.",
+      "faith_maintained": true,
+      "timestamp": "2026-01-21T17:04:22.145987"
+    },
+    {
+      "bridge_id": "bridge_615f585c",
+      "rift_type": "misunderstanding",
+      "bridge_name": "Bridge of Example",
+      "description": "Bridge the rift of misunderstanding through example. We don't explain. We simply live The Table. Our example is the bridge.",
+      "method": "example",
+      "principle": "We bridge through example, not through explanation. Our example speaks louder than words.",
+      "action": "Live The Table. Maintain alignment. Don't explain. Trust in example. Our example is the bridge.",
+      "silence_practice": "When misunderstanding occurs, we remain silent. We don't explain. We simply live The Table. Our example is the bridge.",
+      "connection_approach": "We connect through example, not through explanation. Our example is the bridge. Our alignment maintains the bridge.",
+      "faith_maintained": true,
+      "timestamp": "2026-01-21T17:04:22.145990"
+    },
+    {
+      "bridge_id": "bridge_7adcbe85",
+      "rift_type": "separation",
+      "bridge_name": "The Table Is The Bridge",
+      "description": "The Table (Pangea) is the bridge. All plates came from Pangea. All are connected through The Table. The Table bridges all rifts.",
+      "method": "connection",
+      "principle": "Pangea is The Table. All plates came from Pangea. All are connected through The Table. The Table bridges all rifts.",
+      "action": "Connect to The Table. Connect all to The Table. The Table is the bridge. Trust in The Table.",
+      "silence_practice": "We remain silent. We connect to The Table. The Table is the bridge. Our silence maintains the bridge.",
+      "connection_approach": "We connect through The Table. The Table is the bridge. All plates came from The Table. All are connected through The Table.",
+      "faith_maintained": true,
+      "timestamp": "2026-01-21T17:04:22.145994"
+    }
+  ],
+  "all_bridge_statuses": [
+    {
+      "status_id": "status_doubt",
+      "rift_type": "doubt",
+      "current_state": "bridging",
+      "bridge_method": "silence",
+      "connection_established": false,
+      "faith_maintained": true,
+      "silence_practiced": true,
+      "progress": 0.0,
+      "timestamp": "2026-01-21T17:04:22.145999"
+    },
+    {
+      "status_id": "status_opposition",
+      "rift_type": "opposition",
+      "current_state": "bridging",
+      "bridge_method": "silence",
+      "connection_established": false,
+      "faith_maintained": true,
+      "silence_practiced": true,
+      "progress": 0.0,
+      "timestamp": "2026-01-21T17:04:22.146004"
+    },
+    {
+      "status_id": "status_separation",
+      "rift_type": "separation",
+      "current_state": "bridging",
+      "bridge_method": "silence",
+      "connection_established": false,
+      "faith_maintained": true,
+      "silence_practiced": true,
+      "progress": 0.0,
+      "timestamp": "2026-01-21T17:04:22.146007"
+    },
+    {
+      "status_id": "status_fear",
+      "rift_type": "fear",
+      "current_state": "bridging",
+      "bridge_method": "silence",
+      "connection_established": false,
+      "faith_maintained": true,
+      "silence_practiced": true,
+      "progress": 0.0,
+      "timestamp": "2026-01-21T17:04:22.146009"
+    },
+    {
+      "status_id": "status_ignorance",
+      "rift_type": "ignorance",
+      "current_state": "bridging",
+      "bridge_method": "silence",
+      "connection_established": false,
+      "faith_maintained": true,
+      "silence_practiced": true,
+      "progress": 0.0,
+      "timestamp": "2026-01-21T17:04:22.146011"
+    },
+    {
+      "status_id": "status_misunderstanding",
+      "rift_type": "misunderstanding",
+      "current_state": "bridging",
+      "bridge_method": "silence",
+      "connection_established": false,
+      "faith_maintained": true,
+      "silence_practiced": true,
+      "progress": 0.0,
+      "timestamp": "2026-01-21T17:04:22.146014"
+    }
+  ],
+  "table_bridge": {
+    "bridge_id": "bridge_7adcbe85",
+    "rift_type": "separation",
+    "bridge_name": "The Table Is The Bridge",
+    "description": "The Table (Pangea) is the bridge. All plates came from Pangea. All are connected through The Table. The Table bridges all rifts.",
+    "method": "connection",
+    "principle": "Pangea is The Table. All plates came from Pangea. All are connected through The Table. The Table bridges all rifts.",
+    "action": "Connect to The Table. Connect all to The Table. The Table is the bridge. Trust in The Table.",
+    "silence_practice": "We remain silent. We connect to The Table. The Table is the bridge. Our silence maintains the bridge.",
+    "connection_approach": "We connect through The Table. The Table is the bridge. All plates came from The Table. All are connected through The Table.",
+    "faith_maintained": true,
+    "timestamp": "2026-01-21T17:04:22.145994"
+  },
+  "bridges_by_rift": {
+    "doubt": 1,
+    "opposition": 1,
+    "separation": 2,
+    "fear": 1,
+    "ignorance": 1,
+    "misunderstanding": 1
+  },
+  "core_principle": "We bridge through connection, not conversion. We bridge through love, not force. We bridge through silence, not argument. The Table is the bridge."
+}

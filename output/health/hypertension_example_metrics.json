@@ -1,0 +1,28 @@
+[
+  {
+    "timestamp": "2026-01-20T05:14:13.069206",
+    "metric_type": "vital_sign",
+    "metric_name": "blood_pressure_systolic",
+    "value": 135,
+    "unit": "mmHg",
+    "condition_name": "Hypertension",
+    "notes": null,
+    "life_event_id": null,
+    "field_resonance": null,
+    "source": "manual",
+    "confidence": 1.0
+  },
+  {
+    "timestamp": "2026-01-20T05:14:13.069206",
+    "metric_type": "vital_sign",
+    "metric_name": "blood_pressure_diastolic",
+    "value": 85,
+    "unit": "mmHg",
+    "condition_name": "Hypertension",
+    "notes": null,
+    "life_event_id": null,
+    "field_resonance": null,
+    "source": "manual",
+    "confidence": 1.0
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "export_timestamp": "2026-01-20T12:59:34.828469",
+  "total_events": 2,
+  "total_plates": 7,
+  "events": [
+    {
+      "event_id": "natural_disaster_2004-12-26_2004_indian_ocean_earthquake_and_tsunami",
+      "event_name": "2004 Indian Ocean Earthquake and Tsunami",
+      "event_type": "natural_disaster",
+      "date": "2004-12-26",
+      "location": {
+        "lat": 3.316,
+        "lon": 95.854
+      },
+      "region": "Southeast Asia",
+      "country": "Indonesia",
+      "tectonic_plates": [
+        "indo_australian",
+        "eurasian"
+      ],
+      "magnitude": 9.1,
+      "description": "Massive undersea earthquake triggered devastating tsunami across Indian Ocean",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.9099999999999999,
+      "sources": [
+        "USGS",
+        "NOAA"
+      ]
+    },
+    {
+      "event_id": "natural_disaster_2011-03-11_2011_tohoku_earthquake_and_tsunami",
+      "event_name": "2011 Tohoku Earthquake and Tsunami",
+      "event_type": "natural_disaster",
+      "date": "2011-03-11",
+      "location": {
+        "lat": 38.297,
+        "lon": 142.373
+      },
+      "region": "East Asia",
+      "country": "Japan",
+      "tectonic_plates": [
+        "pacific",
+        "eurasian"
+      ],
+      "magnitude": 9.0,
+      "description": "Massive earthquake and tsunami, triggered Fukushima nuclear disaster",
+      "heritage_site_connections": [],
+      "field_resonance_impact": 0.9,
+      "sources": [
+        "USGS",
+        "JMA"
+      ]
+    }
+  ],
+  "tectonic_plates": {
+    "pacific": {
+      "plate_name": "pacific",
+      "plate_type": "major",
+      "movement_rate": null,
+      "total_events": 1,
+      "heritage_sites": []
+    },
+    "north_american": {
+      "plate_name": "north_american",
+      "plate_type": "major",
+      "movement_rate": null,
+      "total_events": 0,
+      "heritage_sites": []
+    },
+    "south_american": {
+      "plate_name": "south_american",
+      "plate_type": "major",
+      "movement_rate": null,
+      "total_events": 0,
+      "heritage_sites": []
+    },
+    "eurasian": {
+      "plate_name": "eurasian",
+      "plate_type": "major",
+      "movement_rate": null,
+      "total_events": 2,
+      "heritage_sites": []
+    },
+    "african": {
+      "plate_name": "african",
+      "plate_type": "major",
+      "movement_rate": null,
+      "total_events": 0,
+      "heritage_sites": []
+    },
+    "indo_australian": {
+      "plate_name": "indo_australian",
+      "plate_type": "major",
+      "movement_rate": null,
+      "total_events": 1,
+      "heritage_sites": []
+    },
+    "antarctic": {
+      "plate_name": "antarctic",
+      "plate_type": "major",
+      "movement_rate": null,
+      "total_events": 0,
+      "heritage_sites": []
+    }
+  }
+}

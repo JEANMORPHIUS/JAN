@@ -1,0 +1,52 @@
+{
+  "version": "seed",
+  "access": "member-only",
+  "language": "Spiritual Sovereignty, Laws of Racon, Sacred Covenants",
+  "pages": {
+    "homepage": {
+      "header": "The Book of Racon: Operating System for Consciousness",
+      "subheader": "Spiritual Sovereignty Through Scripture Education",
+      "body": "\n376 lessons (40 Laws + 7 Divine Keys) implementing spiritual \nsovereignty through sacred covenants of honour. The Laws of Racon \nserve as the foundational operating system, ensuring every lesson \nhonors the eternal covenant.\n\nThrough spiritual sovereignty and the Laws of Racon, we honor \nsacred covenants of honour across cultures, bridging communities \nto Cyprus through the eternal covenant.\n            ",
+      "cta": "Enter the Threshold",
+      "language": "Spiritual Sovereignty, Laws of Racon, Sacred Covenants",
+      "access": "Member-only portal"
+    },
+    "about": {
+      "title": "About the Book of Racon",
+      "body": "\nThe Book of Racon serves as the operating system for consciousness, \nimplementing spiritual sovereignty through sacred covenants of honour. \nWe provide 376 lessons (40 Laws + 7 Divine Keys) that honor the \neternal covenant between teacher and student.\n\nOur mission is to build spiritual development through the Laws of \nRacon, preserving sacred wisdom while preparing children for tomorrow \nthrough scripture education.\n            ",
+      "values": [
+        "Scripture education",
+        "Spiritual development",
+        "Laws of Racon as OS",
+        "Eternal covenant preservation",
+        "Sacred truth methodology"
+      ],
+      "access": "Member-only portal"
+    },
+    "services": {
+      "title": "Our Services",
+      "services": [
+        {
+          "name": "Scripture Education",
+          "description": "376 lessons (40 Laws + 7 Divine Keys) for spiritual development through the Laws of Racon."
+        },
+        {
+          "name": "Eternal Covenant Programs",
+          "description": "Preserve sacred wisdom through intergenerational transmission of the Laws of Racon."
+        },
+        {
+          "name": "Spiritual Sovereignty Training",
+          "description": "Laws of Racon training for educators and community leaders."
+        }
+      ],
+      "access": "Member-only portal"
+    },
+    "contact": {
+      "title": "Enter the Threshold",
+      "body": "Join the community of those who honor the Laws of Racon. Connect with us to enter the threshold of spiritual sovereignty.",
+      "email": "community@siyem.org",
+      "language": "Community-facing contact information",
+      "access": "Member-only portal"
+    }
+  }
+}

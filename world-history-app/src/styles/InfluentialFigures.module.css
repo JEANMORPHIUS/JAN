@@ -1,0 +1,308 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.mission {
+  font-size: 1rem;
+  color: #888;
+  font-style: italic;
+}
+
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.tab {
+  padding: 1rem 2rem;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #666;
+  transition: all 0.3s;
+}
+
+.tab:hover {
+  color: #333;
+  background: #f5f5f5;
+}
+
+.tab.active {
+  color: #333;
+  border-bottom-color: #4a90e2;
+  font-weight: bold;
+}
+
+.filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.filterSelect,
+.filterInput {
+  padding: 0.75rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.filterSelect {
+  min-width: 200px;
+}
+
+.filterInput {
+  flex: 1;
+  max-width: 400px;
+}
+
+.content {
+  min-height: 400px;
+}
+
+.figureCard {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.figureHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.figureHeader h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0 0 0.5rem 0;
+}
+
+.meta {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.domainBadge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.currentBadge {
+  background: #4a90e2;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.frequencyBadge {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  min-width: 60px;
+  text-align: center;
+}
+
+.indicators {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.indicator {
+  background: #e7f3ff;
+  color: #4a90e2;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.keyActions {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-left: 3px solid #4a90e2;
+}
+
+.keyActions h4 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.keyActions ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.keyActions li {
+  padding: 0.5rem 0;
+  color: #666;
+  line-height: 1.6;
+}
+
+.keyActions li:before {
+  content: "• ";
+  color: #4a90e2;
+  font-weight: bold;
+}
+
+.quotes {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #fff3cd;
+  border-left: 3px solid #ffc107;
+}
+
+.quotes h4 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.quotes blockquote {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  font-style: italic;
+  color: #666;
+  border-left: 2px solid #ffc107;
+  padding-left: 1rem;
+}
+
+.connection {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #d4edda;
+  border-left: 3px solid #28a745;
+}
+
+.connection h4 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.connection p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.metrics {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0e0;
+  flex-wrap: wrap;
+}
+
+.metric {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.metricLabel {
+  font-weight: bold;
+  color: #666;
+}
+
+.platforms {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0e0;
+  align-items: center;
+}
+
+.platformLabel {
+  font-weight: bold;
+  color: #666;
+}
+
+.platformTag {
+  background: #e9ecef;
+  color: #495057;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.loading {
+  text-align: center;
+  padding: 4rem;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.empty {
+  text-align: center;
+  padding: 4rem;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid #e0e0e0;
+}
+
+.footer p {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 0.5rem 0;
+  font-weight: bold;
+}

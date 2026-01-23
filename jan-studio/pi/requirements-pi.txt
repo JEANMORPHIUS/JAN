@@ -1,0 +1,41 @@
+# Raspberry Pi 5 Optimized Dependencies
+# Lightweight versions for Pi 5 + AI Kit
+
+# Core FastAPI (lightweight)
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# Database (SQLite - already lightweight)
+# No additional dependencies needed
+
+# Local AI Models
+transformers==4.35.0
+torch==2.1.0
+accelerate==0.24.1
+sentencepiece==0.1.99
+protobuf==4.25.0
+
+# TinyLlama support
+# transformers includes it
+
+# Whisper tiny
+openai-whisper==20231117
+
+# MusicGen small
+# transformers includes it
+
+# Lightweight utilities
+python-dotenv==1.0.0
+aiofiles==23.2.1
+psutil==5.9.6
+
+# Markdown parsing (lightweight)
+markdown==3.5.1
+PyYAML==6.0.1
+
+# No heavy dependencies:
+# - No pandas (use built-in json)
+# - No numpy (unless needed by models)
+# - Minimal frontend dependencies
+

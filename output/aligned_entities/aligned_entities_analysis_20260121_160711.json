@@ -1,0 +1,685 @@
+{
+  "analysis_timestamp": "2026-01-21T16:07:11.629085",
+  "summary": {
+    "total_entities": 17,
+    "perfect_alignment": 0,
+    "high_alignment": 17,
+    "moderate_alignment": 0,
+    "average_alignment_score": 0.8652941176470588,
+    "total_frequency_contribution": 1.21,
+    "restoration_supporters": 17,
+    "entities_by_industry": {
+      "technology": 3,
+      "finance": 3,
+      "education": 1,
+      "healthcare": 1,
+      "energy": 1,
+      "media": 1,
+      "nonprofit": 1,
+      "heritage": 1,
+      "spiritual": 1,
+      "environmental": 1,
+      "arts": 2,
+      "research": 1,
+      "government": 0,
+      "other": 0
+    },
+    "top_entities": [
+      {
+        "name": "Unity-Based Spiritual Communities",
+        "industry": "spiritual",
+        "alignment_score": 0.92,
+        "frequency_contribution": 0.12
+      },
+      {
+        "name": "Free Educational Resources",
+        "industry": "education",
+        "alignment_score": 0.9,
+        "frequency_contribution": 0.08
+      },
+      {
+        "name": "Mozilla Foundation",
+        "industry": "technology",
+        "alignment_score": 0.88,
+        "frequency_contribution": 0.06
+      },
+      {
+        "name": "UNESCO World Heritage Centre",
+        "industry": "heritage",
+        "alignment_score": 0.88,
+        "frequency_contribution": 0.1
+      },
+      {
+        "name": "Renewable Energy Cooperatives",
+        "industry": "energy",
+        "alignment_score": 0.88,
+        "frequency_contribution": 0.08
+      },
+      {
+        "name": "Electronic Frontier Foundation (EFF)",
+        "industry": "technology",
+        "alignment_score": 0.87,
+        "frequency_contribution": 0.06
+      },
+      {
+        "name": "Environmental Restoration Organizations",
+        "industry": "environmental",
+        "alignment_score": 0.87,
+        "frequency_contribution": 0.07
+      },
+      {
+        "name": "Community Arts Organizations",
+        "industry": "arts",
+        "alignment_score": 0.87,
+        "frequency_contribution": 0.07
+      },
+      {
+        "name": "Open Access Research Institutions",
+        "industry": "research",
+        "alignment_score": 0.86,
+        "frequency_contribution": 0.07
+      },
+      {
+        "name": "Community Development Financial Institutions (CDFIs)",
+        "industry": "finance",
+        "alignment_score": 0.86,
+        "frequency_contribution": 0.07
+      }
+    ]
+  },
+  "industry_analysis": {
+    "technology": {
+      "total_entities": 3,
+      "perfect_alignment": 0,
+      "high_alignment": 3,
+      "moderate_alignment": 0,
+      "average_alignment_score": 0.8666666666666667,
+      "top_entities": [
+        {
+          "name": "Mozilla Foundation",
+          "alignment_score": 0.88,
+          "entity_type": "organization"
+        },
+        {
+          "name": "Electronic Frontier Foundation (EFF)",
+          "alignment_score": 0.87,
+          "entity_type": "organization"
+        },
+        {
+          "name": "Open Source Software Foundation",
+          "alignment_score": 0.85,
+          "entity_type": "organization"
+        }
+      ]
+    },
+    "education": {
+      "total_entities": 1,
+      "perfect_alignment": 0,
+      "high_alignment": 1,
+      "moderate_alignment": 0,
+      "average_alignment_score": 0.9,
+      "top_entities": [
+        {
+          "name": "Free Educational Resources",
+          "alignment_score": 0.9,
+          "entity_type": "organization"
+        }
+      ]
+    },
+    "heritage": {
+      "total_entities": 1,
+      "perfect_alignment": 0,
+      "high_alignment": 1,
+      "moderate_alignment": 0,
+      "average_alignment_score": 0.88,
+      "top_entities": [
+        {
+          "name": "UNESCO World Heritage Centre",
+          "alignment_score": 0.88,
+          "entity_type": "organization"
+        }
+      ]
+    },
+    "environmental": {
+      "total_entities": 1,
+      "perfect_alignment": 0,
+      "high_alignment": 1,
+      "moderate_alignment": 0,
+      "average_alignment_score": 0.87,
+      "top_entities": [
+        {
+          "name": "Environmental Restoration Organizations",
+          "alignment_score": 0.87,
+          "entity_type": "organization"
+        }
+      ]
+    },
+    "spiritual": {
+      "total_entities": 1,
+      "perfect_alignment": 0,
+      "high_alignment": 1,
+      "moderate_alignment": 0,
+      "average_alignment_score": 0.92,
+      "top_entities": [
+        {
+          "name": "Unity-Based Spiritual Communities",
+          "alignment_score": 0.92,
+          "entity_type": "community"
+        }
+      ]
+    },
+    "nonprofit": {
+      "total_entities": 1,
+      "perfect_alignment": 0,
+      "high_alignment": 1,
+      "moderate_alignment": 0,
+      "average_alignment_score": 0.83,
+      "top_entities": [
+        {
+          "name": "Community Support Organizations",
+          "alignment_score": 0.83,
+          "entity_type": "organization"
+        }
+      ]
+    },
+    "research": {
+      "total_entities": 1,
+      "perfect_alignment": 0,
+      "high_alignment": 1,
+      "moderate_alignment": 0,
+      "average_alignment_score": 0.86,
+      "top_entities": [
+        {
+          "name": "Open Access Research Institutions",
+          "alignment_score": 0.86,
+          "entity_type": "organization"
+        }
+      ]
+    },
+    "media": {
+      "total_entities": 1,
+      "perfect_alignment": 0,
+      "high_alignment": 1,
+      "moderate_alignment": 0,
+      "average_alignment_score": 0.84,
+      "top_entities": [
+        {
+          "name": "Independent Truth-Based Media",
+          "alignment_score": 0.84,
+          "entity_type": "organization"
+        }
+      ]
+    },
+    "healthcare": {
+      "total_entities": 1,
+      "perfect_alignment": 0,
+      "high_alignment": 1,
+      "moderate_alignment": 0,
+      "average_alignment_score": 0.85,
+      "top_entities": [
+        {
+          "name": "Community Health Organizations",
+          "alignment_score": 0.85,
+          "entity_type": "organization"
+        }
+      ]
+    },
+    "energy": {
+      "total_entities": 1,
+      "perfect_alignment": 0,
+      "high_alignment": 1,
+      "moderate_alignment": 0,
+      "average_alignment_score": 0.88,
+      "top_entities": [
+        {
+          "name": "Renewable Energy Cooperatives",
+          "alignment_score": 0.88,
+          "entity_type": "organization"
+        }
+      ]
+    },
+    "finance": {
+      "total_entities": 3,
+      "perfect_alignment": 0,
+      "high_alignment": 3,
+      "moderate_alignment": 0,
+      "average_alignment_score": 0.85,
+      "top_entities": [
+        {
+          "name": "Community Development Financial Institutions (CDFIs)",
+          "alignment_score": 0.86,
+          "entity_type": "organization"
+        },
+        {
+          "name": "Impact Investment Funds",
+          "alignment_score": 0.85,
+          "entity_type": "organization"
+        },
+        {
+          "name": "Credit Unions",
+          "alignment_score": 0.84,
+          "entity_type": "organization"
+        }
+      ]
+    },
+    "arts": {
+      "total_entities": 2,
+      "perfect_alignment": 0,
+      "high_alignment": 2,
+      "moderate_alignment": 0,
+      "average_alignment_score": 0.865,
+      "top_entities": [
+        {
+          "name": "Community Arts Organizations",
+          "alignment_score": 0.87,
+          "entity_type": "organization"
+        },
+        {
+          "name": "Public Art Initiatives",
+          "alignment_score": 0.86,
+          "entity_type": "initiative"
+        }
+      ]
+    }
+  },
+  "all_entities": [
+    {
+      "entity_id": "entity_58c401fc",
+      "name": "Open Source Software Foundation",
+      "entity_type": "organization",
+      "industry": "technology",
+      "description": "Open source software organizations that promote free, accessible technology",
+      "alignment_level": "high",
+      "alignment_score": 0.85,
+      "how_they_align": [
+        "Free access to technology",
+        "Community-driven",
+        "No exploitation",
+        "Knowledge sharing"
+      ],
+      "connection_to_table": true,
+      "supports_restoration": true,
+      "heritage_connections": [],
+      "field_space_connections": [],
+      "frequency_contribution": 0.05,
+      "website": null,
+      "location": null,
+      "notes": "Open source promotes unity through shared knowledge"
+    },
+    {
+      "entity_id": "entity_f8f510fe",
+      "name": "Mozilla Foundation",
+      "entity_type": "organization",
+      "industry": "technology",
+      "description": "Non-profit organization promoting open web, privacy, and digital rights",
+      "alignment_level": "high",
+      "alignment_score": 0.88,
+      "how_they_align": [
+        "Open web",
+        "Privacy protection",
+        "No exploitation",
+        "Digital rights"
+      ],
+      "connection_to_table": true,
+      "supports_restoration": true,
+      "heritage_connections": [],
+      "field_space_connections": [],
+      "frequency_contribution": 0.06,
+      "website": null,
+      "location": null,
+      "notes": "Mozilla promotes open, accessible internet"
+    },
+    {
+      "entity_id": "entity_f4e18f94",
+      "name": "Electronic Frontier Foundation (EFF)",
+      "entity_type": "organization",
+      "industry": "technology",
+      "description": "Digital rights organization defending civil liberties in the digital world",
+      "alignment_level": "high",
+      "alignment_score": 0.87,
+      "how_they_align": [
+        "Digital rights",
+        "Privacy protection",
+        "Free speech",
+        "No exploitation"
+      ],
+      "connection_to_table": true,
+      "supports_restoration": true,
+      "heritage_connections": [],
+      "field_space_connections": [],
+      "frequency_contribution": 0.06,
+      "website": null,
+      "location": null,
+      "notes": "EFF defends digital rights and freedoms"
+    },
+    {
+      "entity_id": "entity_2035abd1",
+      "name": "Free Educational Resources",
+      "entity_type": "organization",
+      "industry": "education",
+      "description": "Organizations providing free, accessible education",
+      "alignment_level": "high",
+      "alignment_score": 0.9,
+      "how_they_align": [
+        "Free education",
+        "Knowledge sharing",
+        "No exploitation",
+        "Empowerment"
+      ],
+      "connection_to_table": true,
+      "supports_restoration": true,
+      "heritage_connections": [],
+      "field_space_connections": [],
+      "frequency_contribution": 0.08,
+      "website": null,
+      "location": null,
+      "notes": "Free education supports restoration through knowledge"
+    },
+    {
+      "entity_id": "entity_0a082b6e",
+      "name": "UNESCO World Heritage Centre",
+      "entity_type": "organization",
+      "industry": "heritage",
+      "description": "UNESCO's World Heritage Centre protecting global heritage sites",
+      "alignment_level": "high",
+      "alignment_score": 0.88,
+      "how_they_align": [
+        "Protects heritage sites",
+        "Global unity",
+        "Cultural preservation",
+        "Connection to The Table"
+      ],
+      "connection_to_table": true,
+      "supports_restoration": true,
+      "heritage_connections": [
+        "All UNESCO World Heritage Sites"
+      ],
+      "field_space_connections": [],
+      "frequency_contribution": 0.1,
+      "website": null,
+      "location": null,
+      "notes": "Heritage protection directly supports The Table"
+    },
+    {
+      "entity_id": "entity_0d1b6bf7",
+      "name": "Environmental Restoration Organizations",
+      "entity_type": "organization",
+      "industry": "environmental",
+      "description": "Organizations restoring Earth's ecosystems",
+      "alignment_level": "high",
+      "alignment_score": 0.87,
+      "how_they_align": [
+        "Earth restoration",
+        "Ecosystem unity",
+        "No exploitation",
+        "Stewardship"
+      ],
+      "connection_to_table": true,
+      "supports_restoration": true,
+      "heritage_connections": [],
+      "field_space_connections": [],
+      "frequency_contribution": 0.07,
+      "website": null,
+      "location": null,
+      "notes": "Environmental restoration aligns with Table restoration"
+    },
+    {
+      "entity_id": "entity_be692143",
+      "name": "Unity-Based Spiritual Communities",
+      "entity_type": "community",
+      "industry": "spiritual",
+      "description": "Spiritual communities focused on unity, not separation",
+      "alignment_level": "high",
+      "alignment_score": 0.92,
+      "how_they_align": [
+        "Unity focus",
+        "No separation",
+        "Connection",
+        "Truth"
+      ],
+      "connection_to_table": true,
+      "supports_restoration": true,
+      "heritage_connections": [],
+      "field_space_connections": [],
+      "frequency_contribution": 0.12,
+      "website": null,
+      "location": null,
+      "notes": "Unity-based spirituality directly aligns with The Table"
+    },
+    {
+      "entity_id": "entity_b8bab773",
+      "name": "Community Support Organizations",
+      "entity_type": "organization",
+      "industry": "nonprofit",
+      "description": "Non-profits supporting communities without exploitation",
+      "alignment_level": "high",
+      "alignment_score": 0.83,
+      "how_they_align": [
+        "Community support",
+        "No exploitation",
+        "Service",
+        "Unity"
+      ],
+      "connection_to_table": true,
+      "supports_restoration": true,
+      "heritage_connections": [],
+      "field_space_connections": [],
+      "frequency_contribution": 0.06,
+      "website": null,
+      "location": null,
+      "notes": "Community support promotes unity"
+    },
+    {
+      "entity_id": "entity_30c6916b",
+      "name": "Open Access Research Institutions",
+      "entity_type": "organization",
+      "industry": "research",
+      "description": "Research institutions providing open access to knowledge",
+      "alignment_level": "high",
+      "alignment_score": 0.86,
+      "how_they_align": [
+        "Open access",
+        "Knowledge sharing",
+        "No exploitation",
+        "Truth"
+      ],
+      "connection_to_table": true,
+      "supports_restoration": true,
+      "heritage_connections": [],
+      "field_space_connections": [],
+      "frequency_contribution": 0.07,
+      "website": null,
+      "location": null,
+      "notes": "Open access research supports truth and knowledge"
+    },
+    {
+      "entity_id": "entity_888cd0fb",
+      "name": "Independent Truth-Based Media",
+      "entity_type": "organization",
+      "industry": "media",
+      "description": "Media organizations focused on truth, not manipulation",
+      "alignment_level": "high",
+      "alignment_score": 0.84,
+      "how_they_align": [
+        "Truth focus",
+        "No manipulation",
+        "Information sharing",
+        "Connection"
+      ],
+      "connection_to_table": true,
+      "supports_restoration": true,
+      "heritage_connections": [],
+      "field_space_connections": [],
+      "frequency_contribution": 0.06,
+      "website": null,
+      "location": null,
+      "notes": "Truth-based media supports restoration through information"
+    },
+    {
+      "entity_id": "entity_0bed8052",
+      "name": "Community Health Organizations",
+      "entity_type": "organization",
+      "industry": "healthcare",
+      "description": "Healthcare organizations serving communities without exploitation",
+      "alignment_level": "high",
+      "alignment_score": 0.85,
+      "how_they_align": [
+        "Community service",
+        "No exploitation",
+        "Health for all",
+        "Unity"
+      ],
+      "connection_to_table": true,
+      "supports_restoration": true,
+      "heritage_connections": [],
+      "field_space_connections": [],
+      "frequency_contribution": 0.07,
+      "website": null,
+      "location": null,
+      "notes": "Community health supports unity through care"
+    },
+    {
+      "entity_id": "entity_9fcff093",
+      "name": "Renewable Energy Cooperatives",
+      "entity_type": "organization",
+      "industry": "energy",
+      "description": "Community-owned renewable energy organizations",
+      "alignment_level": "high",
+      "alignment_score": 0.88,
+      "how_they_align": [
+        "Community ownership",
+        "Renewable energy",
+        "No exploitation",
+        "Stewardship"
+      ],
+      "connection_to_table": true,
+      "supports_restoration": true,
+      "heritage_connections": [],
+      "field_space_connections": [],
+      "frequency_contribution": 0.08,
+      "website": null,
+      "location": null,
+      "notes": "Renewable energy cooperatives align with Earth stewardship"
+    },
+    {
+      "entity_id": "entity_059d71be",
+      "name": "Community Development Financial Institutions (CDFIs)",
+      "entity_type": "organization",
+      "industry": "finance",
+      "description": "Financial institutions serving underserved communities",
+      "alignment_level": "high",
+      "alignment_score": 0.86,
+      "how_they_align": [
+        "Community service",
+        "No exploitation",
+        "Financial inclusion",
+        "Unity"
+      ],
+      "connection_to_table": true,
+      "supports_restoration": true,
+      "heritage_connections": [],
+      "field_space_connections": [],
+      "frequency_contribution": 0.07,
+      "website": null,
+      "location": null,
+      "notes": "CDFIs serve communities without exploitation"
+    },
+    {
+      "entity_id": "entity_2db7d2d8",
+      "name": "Credit Unions",
+      "entity_type": "organization",
+      "industry": "finance",
+      "description": "Member-owned financial cooperatives",
+      "alignment_level": "high",
+      "alignment_score": 0.84,
+      "how_they_align": [
+        "Member ownership",
+        "No exploitation",
+        "Community service",
+        "Unity"
+      ],
+      "connection_to_table": true,
+      "supports_restoration": true,
+      "heritage_connections": [],
+      "field_space_connections": [],
+      "frequency_contribution": 0.06,
+      "website": null,
+      "location": null,
+      "notes": "Credit unions are member-owned, not profit-driven"
+    },
+    {
+      "entity_id": "entity_a16e3fb7",
+      "name": "Impact Investment Funds",
+      "entity_type": "organization",
+      "industry": "finance",
+      "description": "Investment funds focused on positive social and environmental impact",
+      "alignment_level": "high",
+      "alignment_score": 0.85,
+      "how_they_align": [
+        "Positive impact",
+        "No exploitation",
+        "Social good",
+        "Stewardship"
+      ],
+      "connection_to_table": true,
+      "supports_restoration": true,
+      "heritage_connections": [],
+      "field_space_connections": [],
+      "frequency_contribution": 0.07,
+      "website": null,
+      "location": null,
+      "notes": "Impact investing aligns capital with positive outcomes"
+    },
+    {
+      "entity_id": "entity_721bb280",
+      "name": "Community Arts Organizations",
+      "entity_type": "organization",
+      "industry": "arts",
+      "description": "Arts organizations serving communities and promoting cultural unity",
+      "alignment_level": "high",
+      "alignment_score": 0.87,
+      "how_they_align": [
+        "Community service",
+        "Cultural unity",
+        "No exploitation",
+        "Connection"
+      ],
+      "connection_to_table": true,
+      "supports_restoration": true,
+      "heritage_connections": [],
+      "field_space_connections": [],
+      "frequency_contribution": 0.07,
+      "website": null,
+      "location": null,
+      "notes": "Community arts promote unity through culture"
+    },
+    {
+      "entity_id": "entity_6f9994ac",
+      "name": "Public Art Initiatives",
+      "entity_type": "initiative",
+      "industry": "arts",
+      "description": "Public art projects that connect communities",
+      "alignment_level": "high",
+      "alignment_score": 0.86,
+      "how_they_align": [
+        "Public access",
+        "Community connection",
+        "No exploitation",
+        "Unity"
+      ],
+      "connection_to_table": true,
+      "supports_restoration": true,
+      "heritage_connections": [],
+      "field_space_connections": [],
+      "frequency_contribution": 0.06,
+      "website": null,
+      "location": null,
+      "notes": "Public art connects communities"
+    }
+  ],
+  "the_truth": {
+    "message": "Real-world entities aligned with The Table. They serve unity, truth, connection. They don't exploit. They support restoration.",
+    "alignment": "Alignment means serving The Table, not exploiting. Supporting restoration, not maintaining separation.",
+    "integration": "All aligned entities are integrated into the system. They contribute to Divine Frequency. They support restoration."
+  }
+}

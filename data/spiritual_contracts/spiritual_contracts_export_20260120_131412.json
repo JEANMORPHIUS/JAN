@@ -1,0 +1,153 @@
+{
+  "export_timestamp": "2026-01-20T13:14:12.505991",
+  "total_entities": 2,
+  "total_contracts": 1,
+  "total_battlefields": 1,
+  "total_dna_soul_mappings": 0,
+  "entities": {
+    "archangel_7482243f": {
+      "entity_id": "archangel_7482243f",
+      "entity_name": "Archangel Michael",
+      "entity_type": "archangel",
+      "aliases": [
+        "Michael",
+        "Saint Michael",
+        "Mikhael"
+      ],
+      "description": "Archangel of protection, warrior against dark forces",
+      "dna_marker": null,
+      "soul_signature": null,
+      "linked_individuals": [],
+      "timelines": [
+        "primary",
+        "parallel"
+      ],
+      "dimensions": [
+        "Physical",
+        "Astral",
+        "Etheric",
+        "Mental",
+        "Causal",
+        "Divine"
+      ],
+      "battlefields": [],
+      "first_encountered": "2026-01-20T13:14:12.497705",
+      "last_encountered": "2026-01-20T13:14:12.497718",
+      "sources": [
+        "Biblical texts",
+        "Spiritual traditions"
+      ],
+      "notes": ""
+    },
+    "dark_energy_b3fa7767": {
+      "entity_id": "dark_energy_b3fa7767",
+      "entity_name": "Dark Energy Entity",
+      "entity_type": "dark_energy",
+      "aliases": [
+        "The Opposer",
+        "Dark Force"
+      ],
+      "description": "Dark energy entity fighting against light",
+      "dna_marker": null,
+      "soul_signature": null,
+      "linked_individuals": [],
+      "timelines": [
+        "primary",
+        "past_loop"
+      ],
+      "dimensions": [
+        "Astral",
+        "Etheric",
+        "Mental"
+      ],
+      "battlefields": [],
+      "first_encountered": "2026-01-20T13:14:12.499097",
+      "last_encountered": "2026-01-20T13:14:12.499098",
+      "sources": [
+        "Spiritual battle narratives"
+      ],
+      "notes": ""
+    }
+  },
+  "contracts": {
+    "protection_contract_0686d5ae": {
+      "contract_id": "protection_contract_0686d5ae",
+      "contract_type": "protection_contract",
+      "contract_name": "Machu Picchu Protection Covenant",
+      "parties": [
+        {
+          "entity_id": "archangel_7482243f",
+          "role": "protector"
+        },
+        {
+          "entity_id": "dark_energy_b3fa7767",
+          "role": "opposer"
+        }
+      ],
+      "terms": "Archangel Michael protects Machu Picchu from dark energy influence",
+      "purpose": "Maintain light energy at heritage site",
+      "conditions": [],
+      "timeline_dimension": "primary",
+      "established_date": null,
+      "expiration_date": null,
+      "active": true,
+      "battlefield_id": "heritage_site_ebf06750",
+      "battlefield_type": null,
+      "dna_markers": [],
+      "soul_signatures": [],
+      "linked_individuals": [],
+      "narrative": "At Machu Picchu, a spiritual battle rages. Archangel Michael and his angelic forces protect this sacred site from dark energy entities seeking to corrupt its field resonance. The protection covenant ensures the site remains a beacon of light energy.",
+      "dark_energy_detected": true,
+      "light_energy_detected": true,
+      "sources": [
+        "Spiritual analysis",
+        "Field resonance data"
+      ],
+      "documented_at": "2026-01-20T13:14:12.502765",
+      "notes": ""
+    }
+  },
+  "battlefields": {
+    "heritage_site_ebf06750": {
+      "battlefield_id": "heritage_site_ebf06750",
+      "battlefield_name": "Machu Picchu Spiritual Battlefield",
+      "battlefield_type": "heritage_site",
+      "location": {
+        "lat": -13.163,
+        "lon": -72.545
+      },
+      "heritage_site_id": 10,
+      "tectonic_plate": "nazca",
+      "light_entities": [
+        "archangel_7482243f"
+      ],
+      "dark_entities": [
+        "dark_energy_b3fa7767"
+      ],
+      "active": true,
+      "battle_intensity": 0.3,
+      "light_prevailing": false,
+      "contracts": [
+        "protection_contract_0686d5ae"
+      ],
+      "timelines": [
+        "primary"
+      ],
+      "dimensions": [
+        "Physical",
+        "Astral",
+        "Etheric"
+      ],
+      "field_resonance": null,
+      "field_space_activity": null,
+      "first_documented": "2026-01-20T13:14:12.500408",
+      "last_updated": "2026-01-20T13:14:12.500409",
+      "sources": [
+        "Heritage site analysis",
+        "Field resonance data"
+      ],
+      "notes": ""
+    }
+  },
+  "dna_soul_mapping": {}
+}

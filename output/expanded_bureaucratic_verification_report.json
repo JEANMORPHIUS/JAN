@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-01-23T11:06:25.256741",
+  "summary": {
+    "total_requirements": 17,
+    "verified_requirements": 0,
+    "unverified_requirements": 17,
+    "total_visas": 4,
+    "verified_visas": 0,
+    "total_civil_registry": 2,
+    "verified_civil_registry": 0,
+    "total_loopholes": 4,
+    "verified_loopholes": 0
+  },
+  "by_jurisdiction": {
+    "North Cyprus": {
+      "total": 8,
+      "verified": 0,
+      "unverified": 8
+    },
+    "Turkey": {
+      "total": 7,
+      "verified": 0,
+      "unverified": 7
+    },
+    "UK": {
+      "total": 2,
+      "verified": 0,
+      "unverified": 2
+    }
+  },
+  "by_type": {
+    "business_registration": 3,
+    "work_permit": 1,
+    "tax_registration": 3,
+    "residence_permit": 2,
+    "property_registration": 2,
+    "health_certification": 2,
+    "criminal_record_check": 2,
+    "educational_certification": 2
+  },
+  "high_red_tape": [],
+  "identified_loopholes": [
+    {
+      "loophole_id": "consulate_shopping_general",
+      "requirement_id": "general",
+      "type": "jurisdiction_loophole",
+      "description": "Apply at different consulate/embassy with easier or faster processing",
+      "risk_level": 0.3,
+      "effectiveness": 0.8
+    },
+    {
+      "loophole_id": "timing_optimization_general",
+      "requirement_id": "general",
+      "type": "timing_loophole",
+      "description": "Apply during off-peak periods or before policy changes",
+      "risk_level": 0.2,
+      "effectiveness": 0.7
+    },
+    {
+      "loophole_id": "digital_vs_physical_general",
+      "requirement_id": "general",
+      "type": "technical_loophole",
+      "description": "Use digital/online application if available (often faster, easier, cheaper)",
+      "risk_level": 0.1,
+      "effectiveness": 0.9
+    },
+    {
+      "loophole_id": "exception_categories_general",
+      "requirement_id": "general",
+      "type": "legal_loophole",
+      "description": "Qualify for exception categories (student, investor, entrepreneur, etc.) with easier requirements",
+      "risk_level": 0.3,
+      "effectiveness": 0.8
+    }
+  ],
+  "requires_action": []
+}

@@ -1,0 +1,154 @@
+{
+  "watch_timestamp": "2026-01-20T04:51:28.829953",
+  "watch_status": "active",
+  "grid_status": "locked",
+  "grid_stability": 0.3863283606500047,
+  "mission_status": "complete",
+  "global_coverage": {
+    "continents": 5,
+    "pillars": 7,
+    "connections": 21,
+    "coverage_status": "complete"
+  },
+  "pillars": [
+    {
+      "id": 1,
+      "name": "Berengaria Hotel",
+      "country": "Cyprus",
+      "field_resonance": 0.8393333333333335,
+      "field_space": 0.3855555555555556,
+      "pole_alignment": "neutral",
+      "polarity": "positive"
+    },
+    {
+      "id": 3,
+      "name": "Alhambra Palace",
+      "country": "Spain",
+      "field_resonance": 0.869,
+      "field_space": 0.35,
+      "pole_alignment": "neutral",
+      "polarity": "positive"
+    },
+    {
+      "id": 4,
+      "name": "Stonehenge",
+      "country": "England",
+      "field_resonance": 0.8416666666666667,
+      "field_space": 0.2611111111111111,
+      "pole_alignment": "north",
+      "polarity": "positive"
+    },
+    {
+      "id": 6,
+      "name": "Great Pyramid of Giza",
+      "country": "Egypt",
+      "field_resonance": 0.8900000000000001,
+      "field_space": 0.5333333333333333,
+      "pole_alignment": "neutral",
+      "polarity": "neutral"
+    },
+    {
+      "id": 8,
+      "name": "Angkor Wat",
+      "country": "Cambodia",
+      "field_resonance": 0.6843333333333333,
+      "field_space": 0.9111111111111111,
+      "pole_alignment": "neutral",
+      "polarity": "neutral"
+    },
+    {
+      "id": 10,
+      "name": "Machu Picchu",
+      "country": "Peru",
+      "field_resonance": 0.5640000000000001,
+      "field_space": 0.8666666666666667,
+      "pole_alignment": "neutral",
+      "polarity": "neutral"
+    },
+    {
+      "id": 12,
+      "name": "Uluru",
+      "country": "Australia",
+      "field_resonance": 0.7783333333333333,
+      "field_space": 0.28888888888888886,
+      "pole_alignment": "south",
+      "polarity": "negative"
+    }
+  ],
+  "grid_metrics": {
+    "total_connections": 21,
+    "avg_connection_strength": 0.3923634479717813,
+    "min_connection_strength": 0.22275000000000003,
+    "avg_energy_flow": 0.09730925296627403,
+    "min_energy_flow": 0.010830362243013592,
+    "avg_field_space": 0.5138095238095237,
+    "grid_stability": 0.3863283606500047,
+    "strength_variance": 0.01012633322105016,
+    "flow_variance": 0.007541191113734311,
+    "resilience": 0.5677134329190118,
+    "balance_score": 0.9116623783260775,
+    "weakest_link": {
+      "site1": "Stonehenge",
+      "site2": "Uluru",
+      "connection_strength": 0.22275000000000003,
+      "energy_flow": 0.010830362243013592,
+      "distance_km": 15118.48278894515
+    }
+  },
+  "strongest_connections": [
+    {
+      "site1": "Great Pyramid of Giza",
+      "site2": "Angkor Wat",
+      "connection_strength": 0.5685092592592593,
+      "field_space": 0.7222222222222222,
+      "energy_flow": 0.12383786559232735,
+      "distance_km": 7620.2221287231005
+    },
+    {
+      "site1": "Angkor Wat",
+      "site2": "Machu Picchu",
+      "connection_strength": 0.5548148148148149,
+      "field_space": 0.8888888888888888,
+      "energy_flow": 0.010951444236214657,
+      "distance_km": 19625.815248916748
+    },
+    {
+      "site1": "Great Pyramid of Giza",
+      "site2": "Machu Picchu",
+      "connection_strength": 0.5089,
+      "field_space": 0.7,
+      "energy_flow": 0.04582185187101926,
+      "distance_km": 12037.452205850519
+    },
+    {
+      "site1": "Berengaria Hotel",
+      "site2": "Angkor Wat",
+      "connection_strength": 0.4939219444444444,
+      "field_space": 0.6483333333333333,
+      "energy_flow": 0.11151192632531884,
+      "distance_km": 7441.229748834945
+    },
+    {
+      "site1": "Alhambra Palace",
+      "site2": "Angkor Wat",
+      "connection_strength": 0.48973148148148143,
+      "field_space": 0.6305555555555555,
+      "energy_flow": 0.058823982151559505,
+      "distance_km": 10596.538062250347
+    }
+  ],
+  "health_status": {
+    "field_space": "resonant",
+    "connection": "strong",
+    "grid_status": "locked",
+    "energy_flow": "active",
+    "grid_integrity": "intact",
+    "alerts": [],
+    "critical_alerts": [],
+    "warnings": [],
+    "requires_attention": false,
+    "alert_count": 0,
+    "warning_count": 0
+  },
+  "sentinel_message": "The Grid is breathing. The Bridge is anchored. The Family is gathering. All systems operational."
+}

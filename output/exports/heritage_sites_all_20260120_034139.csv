@@ -1,0 +1,14 @@
+id,site_name,site_type,region,country,coordinates_lat,coordinates_lon,timeline_dimension,time_period,year_established,year_abandoned,current_status,law_41_compliant,requires_cleansing,field_resonance_level,field_space_resonance,magnetic_pole_alignment,polarity_state,narrative_count
+1,Berengaria Hotel,Hotel,Troodos Mountains,Cyprus,34.9167,32.8333,primary,modern,1930,1984,abandoned,0,1,0.8393333333333335,0.3855555555555556,neutral,positive,1
+2,abandoned Berengaria Hotel,Hotel,Troodos Mountains,Cyprus,,,primary,modern,1930,1984,archived,1,0,,,,,2
+3,Alhambra Palace,Palace,Andalusia,Spain,37.177,-3.5886,primary,medieval,1238,,active,0,1,0.869,0.35,neutral,positive,2
+8,Angkor Wat,Temple Complex,Siem Reap,Cambodia,13.4125,103.867,primary,medieval,1150,1431,active,0,1,0.6843333333333333,0.9111111111111111,neutral,neutral,1
+9,12th century as a Hindu temple,Temple Complex,Siem Reap,Cambodia,,,primary,medieval,1150,1431,archived,1,0,,,,,2
+10,Machu Picchu,Inca Citadel,Cusco,Peru,-13.1631,-72.545,primary,ancient,1450,1572,active,0,1,0.5640000000000001,0.8666666666666667,neutral,neutral,1
+11,Heritage Property,Inca Citadel,Cusco,Peru,,,primary,ancient,1450,1572,archived,1,0,,,,,2
+6,Great Pyramid of Giza,Pyramid,Giza,Egypt,29.9792,31.1342,primary,ancient,-2580,,active,0,1,0.8900000000000001,0.5333333333333333,neutral,neutral,1
+7,Heritage Property,Pyramid,Giza,Egypt,,,primary,ancient,-2580,,archived,1,0,,,,,2
+4,Stonehenge,Stone Circle,Wiltshire,England,51.1789,-1.8262,primary,ancient,-3000,,active,0,1,0.8416666666666667,0.2611111111111111,north,positive,1
+5,Heritage Property,Stone Circle,Wiltshire,England,,,primary,ancient,-3000,,archived,1,0,,,,,2
+12,Uluru,Sacred Monolith,Northern Territory,Australia,-25.3444,131.0369,primary,ancient,-60000000,,active,1,0,0.781969696969697,0.28888888888888886,south,negative,1
+13,Heritage Property,Sacred Monolith,Northern Territory,Australia,,,primary,ancient,-60000000,,archived,1,0,,,,,2

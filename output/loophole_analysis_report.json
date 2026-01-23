@@ -1,0 +1,114 @@
+{
+  "timestamp": "2026-01-23T11:05:15.099816",
+  "identified_loopholes": [
+    {
+      "type": "timing_loophole",
+      "description": "Timing-based workaround possible with 1 year",
+      "risk_level": 0.3,
+      "effectiveness": 0.7,
+      "requirement_id": "nc_work_permit",
+      "requirement_name": "Work Permit",
+      "jurisdiction": "North Cyprus"
+    }
+  ],
+  "by_type": {
+    "timing_loophole": [
+      {
+        "type": "timing_loophole",
+        "description": "Timing-based workaround possible with 1 year",
+        "risk_level": 0.3,
+        "effectiveness": 0.7,
+        "requirement_id": "nc_work_permit",
+        "requirement_name": "Work Permit",
+        "jurisdiction": "North Cyprus"
+      }
+    ]
+  },
+  "by_risk_level": {
+    "low": [
+      {
+        "type": "timing_loophole",
+        "description": "Timing-based workaround possible with 1 year",
+        "risk_level": 0.3,
+        "effectiveness": 0.7,
+        "requirement_id": "nc_work_permit",
+        "requirement_name": "Work Permit",
+        "jurisdiction": "North Cyprus"
+      }
+    ],
+    "medium": [],
+    "high": []
+  },
+  "by_effectiveness": {
+    "high": [],
+    "medium": [
+      {
+        "type": "timing_loophole",
+        "description": "Timing-based workaround possible with 1 year",
+        "risk_level": 0.3,
+        "effectiveness": 0.7,
+        "requirement_id": "nc_work_permit",
+        "requirement_name": "Work Permit",
+        "jurisdiction": "North Cyprus"
+      }
+    ],
+    "low": []
+  },
+  "recommendations": [],
+  "common_loopholes": [
+    {
+      "name": "Consulate Shopping",
+      "type": "jurisdiction_loophole",
+      "description": "Apply at different consulate/embassy with easier requirements",
+      "risk_level": 0.4,
+      "effectiveness": 0.7,
+      "conditions": [
+        "Multiple consulates available",
+        "Different processing standards"
+      ]
+    },
+    {
+      "name": "Timing Optimization",
+      "type": "timing_loophole",
+      "description": "Apply during off-peak periods or before policy changes",
+      "risk_level": 0.2,
+      "effectiveness": 0.6,
+      "conditions": [
+        "Flexible timing",
+        "Policy change awareness"
+      ]
+    },
+    {
+      "name": "Digital vs Physical",
+      "type": "technical_loophole",
+      "description": "Use digital application if available (often faster/easier)",
+      "risk_level": 0.1,
+      "effectiveness": 0.9,
+      "conditions": [
+        "Digital option available"
+      ]
+    },
+    {
+      "name": "Interpretation Flexibility",
+      "type": "interpretation_loophole",
+      "description": "Leverage ambiguous language in requirements",
+      "risk_level": 0.6,
+      "effectiveness": 0.5,
+      "conditions": [
+        "Ambiguous wording",
+        "Discretionary approval"
+      ]
+    },
+    {
+      "name": "Exception Categories",
+      "type": "legal_loophole",
+      "description": "Qualify for exception categories (student, investor, etc.)",
+      "risk_level": 0.3,
+      "effectiveness": 0.8,
+      "conditions": [
+        "Exception categories exist",
+        "Qualification possible"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "heritage_site_ebf06750": {
+    "battlefield_id": "heritage_site_ebf06750",
+    "battlefield_name": "Machu Picchu Spiritual Battlefield",
+    "battlefield_type": "heritage_site",
+    "location": {
+      "lat": -13.163,
+      "lon": -72.545
+    },
+    "heritage_site_id": 10,
+    "tectonic_plate": "nazca",
+    "light_entities": [
+      "archangel_7482243f",
+      "aligned_tesla",
+      "aligned_einstein",
+      "aligned_curie",
+      "aligned_semmelweis",
+      "aligned_nightingale"
+    ],
+    "dark_entities": [
+      "dark_energy_b3fa7767"
+    ],
+    "active": true,
+    "battle_intensity": 0.3,
+    "light_prevailing": false,
+    "contracts": [
+      "protection_contract_0686d5ae"
+    ],
+    "timelines": [
+      "primary"
+    ],
+    "dimensions": [
+      "Physical",
+      "Astral",
+      "Etheric"
+    ],
+    "field_resonance": null,
+    "field_space_activity": null,
+    "first_documented": "2026-01-20T13:14:12.500408",
+    "last_updated": "2026-01-20T13:14:12.500409",
+    "sources": [
+      "Heritage site analysis",
+      "Field resonance data"
+    ],
+    "notes": ""
+  },
+  "tectonic_boundary_7378033b": {
+    "battlefield_id": "tectonic_boundary_7378033b",
+    "battlefield_name": "Japan Trench \u2013 Ring of Fire",
+    "battlefield_type": "tectonic_boundary",
+    "location": {
+      "lat": 38.0,
+      "lon": 143.0
+    },
+    "heritage_site_id": null,
+    "tectonic_plate": "pacific",
+    "light_entities": [
+      "archangel_7cdcc171"
+    ],
+    "dark_entities": [
+      "dark_energy_10cfed7c"
+    ],
+    "active": true,
+    "battle_intensity": 0.9,
+    "light_prevailing": false,
+    "contracts": [
+      "protection_contract_a7618ed2"
+    ],
+    "timelines": [
+      "primary",
+      "past_loop"
+    ],
+    "dimensions": [
+      "Physical",
+      "Astral",
+      "Etheric",
+      "Mental"
+    ],
+    "field_resonance": null,
+    "field_space_activity": null,
+    "first_documented": "2026-01-20T13:56:53.149300",
+    "last_updated": "2026-01-20T13:56:53.149301",
+    "sources": [
+      "USGS",
+      "RealWorldDataResearch",
+      "PatternAnalysis"
+    ],
+    "notes": ""
+  },
+  "heritage_site_35df8206": {
+    "battlefield_id": "heritage_site_35df8206",
+    "battlefield_name": "Mayan Pyramids - Plate Boundaries",
+    "battlefield_type": "heritage_site",
+    "location": "Mesoamerica - Plate boundaries",
+    "heritage_site_id": null,
+    "tectonic_plate": null,
+    "light_entities": [
+      "soul_4b26e5c9",
+      "aligned_tesla",
+      "aligned_einstein",
+      "aligned_curie",
+      "aligned_semmelweis",
+      "aligned_nightingale"
+    ],
+    "dark_entities": [
+      "dark_energy_d7a26f7e"
+    ],
+    "active": true,
+    "battle_intensity": 0.0,
+    "light_prevailing": false,
+    "contracts": [
+      "dark_pact_32557496"
+    ],
+    "timelines": [],
+    "dimensions": [],
+    "field_resonance": null,
+    "field_space_activity": null,
+    "first_documented": "2026-01-20T14:19:55.451412",
+    "last_updated": "2026-01-20T14:19:55.451413",
+    "sources": [],
+    "notes": ""
+  }
+}

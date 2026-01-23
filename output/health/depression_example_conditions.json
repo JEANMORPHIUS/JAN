@@ -1,0 +1,30 @@
+[
+  {
+    "condition_name": "Depression",
+    "category": "neurological",
+    "diagnosis_date": null,
+    "primary_metrics": [
+      "mood_level",
+      "energy_level",
+      "sleep_hours"
+    ],
+    "medication_schedule": {},
+    "target_ranges": {
+      "mood_level": {
+        "min": 5,
+        "max": 10,
+        "unit": "scale_1_10"
+      }
+    },
+    "original_narrative": "I struggle with depression and need to track my mood.",
+    "cleansed_narrative": "I struggle with depression and need to track my mood.",
+    "dark_energy_detected": false,
+    "violation_type": null,
+    "regeneration_applied": false,
+    "law_41_compliant": true,
+    "life_chapter_id": null,
+    "field_resonance": null,
+    "status": "active",
+    "notes": null
+  }
+]

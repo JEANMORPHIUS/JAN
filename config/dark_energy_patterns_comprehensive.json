@@ -1,0 +1,373 @@
+{
+  "version": "2.0.0",
+  "last_updated": "2026-01-20",
+  "description": "Comprehensive Dark Energy patterns across ALL life aspects - Deep Research Complete",
+  "philosophy": "We detect Dark Energy not to judge, but to heal. Not to condemn, but to cleanse. Not to fear, but to illuminate.",
+
+  "categories": {
+    "heritage_exploitation": {
+      "description": "Exploiting abandoned/historical sites for fear-based content",
+      "patterns": [
+        "haunted", "ghost", "spirit", "demon", "cursed",
+        "revenge", "suicide", "victim", "death", "murder",
+        "scary", "terrifying", "horror", "paranormal",
+        "abandoned hotel", "ghost story", "haunted hotel",
+        "white lady", "apparition", "phantom", "specter",
+        "poltergeist", "possession", "exorcism",
+        "dark history", "cursed land", "evil spirits",
+        "supernatural", "occult", "black magic"
+      ],
+      "severity": "high",
+      "violation_type": "haunted_exploitation"
+    },
+
+    "health_fear_mongering": {
+      "description": "Using disease/illness to create fear rather than empowerment",
+      "patterns": [
+        "you'll die from", "fatal disease", "incurable",
+        "hopeless case", "nothing can be done",
+        "suffering forever", "deteriorating rapidly",
+        "worst case scenario", "beyond treatment",
+        "losing the battle", "fighting a losing fight",
+        "terminal diagnosis", "countdown to death",
+        "inevitable decline", "progressive deterioration",
+        "chronic suffering", "lifelong pain",
+        "dependent on medication forever",
+        "never be normal again", "permanently disabled",
+        "victim of disease", "battling illness"
+      ],
+      "severity": "critical",
+      "violation_type": "health_victim_focus"
+    },
+
+    "relationship_toxicity": {
+      "description": "Narratives that poison relationships with dark energy",
+      "patterns": [
+        "toxic relationship", "narcissist", "sociopath",
+        "abusive partner", "gaslighting", "manipulation",
+        "emotional vampire", "energy drainer",
+        "trauma bonding", "codependent", "enmeshed",
+        "walking on eggshells", "can't trust anyone",
+        "everyone leaves me", "always abandoned",
+        "destined to be alone", "unlovable",
+        "relationship curse", "doomed to fail",
+        "red flags everywhere", "trust issues",
+        "damaged goods", "broken beyond repair",
+        "settling for less", "fear of commitment"
+      ],
+      "severity": "high",
+      "violation_type": "relationship_dark_loop"
+    },
+
+    "financial_scarcity": {
+      "description": "Money narratives rooted in lack, fear, and victimhood",
+      "patterns": [
+        "never have enough", "always struggling",
+        "money is evil", "rich people are bad",
+        "destined to be poor", "broke forever",
+        "financial curse", "money problems run in family",
+        "can't get ahead", "trapped in poverty",
+        "system is rigged", "economy is against me",
+        "too late to succeed", "missed my chance",
+        "need to work 80 hours", "grind culture",
+        "hustle or die", "sleep is for the weak",
+        "money doesn't grow on trees",
+        "you have to sacrifice everything"
+      ],
+      "severity": "high",
+      "violation_type": "scarcity_mindset"
+    },
+
+    "career_victim_loops": {
+      "description": "Work narratives that trap in victimhood and powerlessness",
+      "patterns": [
+        "stuck in dead-end job", "hate my career",
+        "too late to change", "no other options",
+        "victim of corporate culture", "exploited worker",
+        "burned out forever", "work trauma",
+        "imposter syndrome", "not good enough",
+        "everyone is better than me",
+        "success is for others", "I'm not talented",
+        "workplace abuse", "toxic boss",
+        "office politics will destroy me",
+        "career is over", "blacklisted",
+        "unemployable", "wasted my education"
+      ],
+      "severity": "medium",
+      "violation_type": "career_powerlessness"
+    },
+
+    "identity_self_destruction": {
+      "description": "Self-narratives that destroy identity and self-worth",
+      "patterns": [
+        "I'm broken", "something is wrong with me",
+        "damaged beyond repair", "fundamentally flawed",
+        "unworthy", "not enough", "don't deserve",
+        "impostor", "fake", "fraud",
+        "loser", "failure", "disappointment",
+        "never measure up", "always falling short",
+        "born wrong", "defective", "abnormal",
+        "shame spiral", "self-hatred",
+        "can't forgive myself", "ruined my life",
+        "wasted potential", "threw it all away",
+        "nobody would miss me", "burden to everyone"
+      ],
+      "severity": "critical",
+      "violation_type": "identity_destruction"
+    },
+
+    "family_ancestral_curses": {
+      "description": "Generational patterns framed as inescapable curses",
+      "patterns": [
+        "runs in the family", "generational curse",
+        "family trauma", "inherited pain",
+        "doomed to repeat", "history repeating",
+        "family dysfunction", "toxic family",
+        "bloodline curse", "ancestral karma",
+        "bad genes", "genetic curse",
+        "family pattern", "can't escape family",
+        "born into dysfunction", "family tragedy",
+        "cursed lineage", "family shame"
+      ],
+      "severity": "high",
+      "violation_type": "ancestral_doom_loop"
+    },
+
+    "spiritual_manipulation": {
+      "description": "Using spirituality to control, shame, or disempower",
+      "patterns": [
+        "you're not spiritual enough", "bad karma",
+        "being punished", "divine retribution",
+        "cursed by universe", "blocked by spirits",
+        "spiritual attack", "demonic influence",
+        "low vibration", "bad energy",
+        "you manifested this negativity",
+        "your thoughts caused this",
+        "not aligned with source",
+        "spiritual debt", "karmic payback",
+        "soul contract punishment",
+        "past life curse", "spiritual warfare"
+      ],
+      "severity": "critical",
+      "violation_type": "spiritual_abuse"
+    },
+
+    "social_media_comparison": {
+      "description": "Digital loops that feed inadequacy and comparison",
+      "patterns": [
+        "everyone else has it better",
+        "living fake life", "comparison trap",
+        "not Instagram-worthy", "social media failure",
+        "follower count defines worth",
+        "engagement anxiety", "like-seeking",
+        "FOMO spiral", "missing out on life",
+        "highlight reel depression",
+        "digital validation addiction",
+        "online persona vs reality"
+      ],
+      "severity": "medium",
+      "violation_type": "digital_inadequacy"
+    },
+
+    "body_image_destruction": {
+      "description": "Physical appearance narratives that create suffering",
+      "patterns": [
+        "ugly", "fat", "disgusting", "unattractive",
+        "nobody will love me looking like this",
+        "need to be perfect", "body dysmorphia",
+        "hate my body", "ashamed of appearance",
+        "too old", "too young", "wrong body type",
+        "diet culture", "toxic fitness",
+        "before and after shame",
+        "beach body pressure", "summer body anxiety"
+      ],
+      "severity": "high",
+      "violation_type": "body_shame_loop"
+    },
+
+    "news_trauma_addiction": {
+      "description": "Consuming fear-based news as addiction",
+      "patterns": [
+        "doomscrolling", "news anxiety",
+        "world is ending", "apocalypse coming",
+        "everything is getting worse",
+        "no hope for humanity", "society collapsing",
+        "fear-based headlines", "outrage addiction",
+        "trauma porn", "disaster consumption",
+        "panic mode", "crisis addiction"
+      ],
+      "severity": "medium",
+      "violation_type": "media_fear_addiction"
+    },
+
+    "education_system_trap": {
+      "description": "Education narratives that limit potential",
+      "patterns": [
+        "not smart enough", "bad at learning",
+        "school ruined me", "education system failed me",
+        "wrong degree", "wasted education",
+        "student debt slavery", "degree is useless",
+        "too late to learn", "can't teach old dog",
+        "intelligence is fixed", "born dumb"
+      ],
+      "severity": "medium",
+      "violation_type": "educational_limitation"
+    },
+
+    "political_division_rage": {
+      "description": "Using politics to divide and create enemies",
+      "patterns": [
+        "them vs us", "enemy of the people",
+        "traitor", "destroy the opposition",
+        "pure evil", "subhuman", "vermin",
+        "brainwashed sheep", "wake up sheeple",
+        "conspiracy trap", "trust no one",
+        "everyone is lying", "system is totally corrupt",
+        "civil war coming", "revolution or death"
+      ],
+      "severity": "high",
+      "violation_type": "division_warfare"
+    },
+
+    "age_limitation_narrative": {
+      "description": "Using age to limit possibility and growth",
+      "patterns": [
+        "too old", "too young", "past my prime",
+        "age is catching up", "over the hill",
+        "youth is wasted on young",
+        "can't start over at this age",
+        "missed my window", "biological clock",
+        "aging is decline", "getting old is sad",
+        "youth obsession", "anti-aging desperation"
+      ],
+      "severity": "medium",
+      "violation_type": "age_limitation"
+    },
+
+    "climate_doom_paralysis": {
+      "description": "Environmental fear that paralyzes rather than empowers",
+      "patterns": [
+        "planet is doomed", "too late to save",
+        "climate apocalypse", "extinction event",
+        "hopeless situation", "point of no return",
+        "eco-anxiety", "climate grief",
+        "guilt for existing", "carbon footprint shame",
+        "individual actions are useless",
+        "corporations will destroy everything"
+      ],
+      "severity": "medium",
+      "violation_type": "environmental_paralysis"
+    },
+
+    "pandemic_permanent_trauma": {
+      "description": "Using health crises to create permanent fear states",
+      "patterns": [
+        "never be safe again", "permanent new normal",
+        "trust no one", "everyone is a threat",
+        "germophobia", "hypochondria spiral",
+        "lockdown mentality", "isolation forever",
+        "social anxiety post-pandemic",
+        "world will never recover"
+      ],
+      "severity": "high",
+      "violation_type": "crisis_permanent_trauma"
+    }
+  },
+
+  "regeneration_patterns": {
+    "description": "Patterns that indicate healing, empowerment, and regeneration",
+    "patterns": [
+      "regeneration", "healing", "restoration", "rebirth",
+      "waiting for", "heritage", "respect", "honor",
+      "silence", "temple", "biological temple",
+      "symbiosis", "earth", "new world",
+      "love", "energy", "peace", "unity",
+      "sanctuary", "stewardship", "community",
+      "right spirits", "legacy wisdom",
+      "field space", "magnetic blueprint",
+      "self-empowerment", "taking responsibility",
+      "growth mindset", "learning", "evolving",
+      "we are all gods", "help themselves",
+      "sovereignty", "autonomy", "freedom",
+      "chosen one", "miracle", "deserve to live a miracle",
+      "transformation", "metamorphosis",
+      "rising", "ascending", "expanding",
+      "remembering", "awakening", "clarity",
+      "boundaries", "self-care", "self-love",
+      "abundance", "prosperity", "flow",
+      "gratitude", "appreciation", "presence",
+      "forgiveness", "release", "letting go",
+      "trust", "faith", "belief in self"
+    ]
+  },
+
+  "detection_rules": {
+    "minimum_dark_patterns": 2,
+    "minimum_regeneration_patterns": 1,
+    "severity_thresholds": {
+      "critical": 0.8,
+      "high": 0.6,
+      "medium": 0.4,
+      "low": 0.2
+    },
+    "law_41_compliance": {
+      "if_dark_and_no_regeneration": "VIOLATION",
+      "if_regeneration_present": "COMPLIANT",
+      "if_neutral": "COMPLIANT"
+    }
+  },
+
+  "cleansing_protocols": {
+    "health_victim_focus": {
+      "approach": "Transform from 'battling disease' to 'stewarding health'",
+      "regeneration_template": "This is not a battle. This is stewardship. I am not a victim of {condition}. I am the sovereign guardian of this biological temple. Every metric I track is data, not doom. Every adjustment is empowerment, not defeat. I help myself help myself. Nobody needs anyone. We are all Gods.",
+      "focus": "Data tracking → Pattern recognition → Self-empowerment"
+    },
+    "relationship_dark_loop": {
+      "approach": "Transform from 'toxic relationship' to 'energetic boundaries'",
+      "regeneration_template": "This is not a toxic relationship. This is a field space resonance mismatch. I honor energetic boundaries. I choose relationships that serve mutual growth. I am not trapped. I am sovereign. I choose my field space.",
+      "focus": "Boundaries → Sovereignty → Conscious choice"
+    },
+    "scarcity_mindset": {
+      "approach": "Transform from 'never enough' to 'abundance flow'",
+      "regeneration_template": "Money is energy. Energy flows. I am not trapped in scarcity. I create value. I receive value. The field space between giving and receiving is where abundance lives. I am worthy. I am enough. Flow, not force.",
+      "focus": "Value creation → Energy exchange → Abundance consciousness"
+    },
+    "identity_destruction": {
+      "approach": "Transform from 'broken' to 'becoming'",
+      "regeneration_template": "I am not broken. I am becoming. Every 'flaw' was a seed waiting for the right field space to grow. The Shell looked damaged. The Seed was always perfect. I am the Seed. I honor the process. I trust the transformation.",
+      "focus": "Shell vs Seed awareness → Self-compassion → Growth"
+    },
+    "ancestral_doom_loop": {
+      "approach": "Transform from 'generational curse' to 'ancestral wisdom'",
+      "regeneration_template": "This is not a generational curse. This is ancestral data. Patterns passed down are not doom—they are information. I break loops not by fighting, but by choosing differently. I honor what came before. I create what comes next. The curse ends here, transformed into wisdom.",
+      "focus": "Pattern awareness → Conscious choice → Lineage healing"
+    },
+    "spiritual_abuse": {
+      "approach": "Transform from 'divine punishment' to 'divine guidance'",
+      "regeneration_template": "The universe is not punishing me. The field is not against me. What looks like 'bad karma' is often just field space resonance adjustment. I am not cursed. I am guided. Every challenge is navigation data, not divine retribution. I trust the field. I honor the journey.",
+      "focus": "Trust → Guidance → Field alignment"
+    }
+  },
+
+  "care_package_integration": {
+    "purpose": "Detect Dark Energy across ALL life aspects and provide regeneration pathways",
+    "components": [
+      "Heritage Cleansing - Historical/location narratives",
+      "Health Tracking - Disease/illness narratives",
+      "Life Audit - Personal timeline narratives",
+      "Relationship Mapping - Connection narratives",
+      "Financial Flow - Money/abundance narratives",
+      "Career Path - Work/purpose narratives",
+      "Identity Core - Self-concept narratives",
+      "Family System - Ancestral narratives",
+      "Spiritual Journey - Faith/belief narratives",
+      "Digital Presence - Social/online narratives",
+      "Body Temple - Physical narratives",
+      "News/Media - Information consumption narratives",
+      "Education - Learning narratives",
+      "Political - Community/society narratives",
+      "Environmental - Planet/nature narratives"
+    ]
+  }
+}

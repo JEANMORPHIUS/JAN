@@ -1,0 +1,709 @@
+{
+  "catalog_timestamp": "2026-01-22T12:57:34.143492",
+  "total_arts_crafts": 12,
+  "arts_crafts": {
+    "pre_001": {
+      "art_id": "pre_001",
+      "title": "Lascaux Cave Paintings",
+      "artist_craftsperson": "Prehistoric Artists",
+      "medium": "painting",
+      "time_period": "prehistoric",
+      "culture_region": "Paleolithic Europe",
+      "year_created": -17000,
+      "century": "17,000 BCE",
+      "description": "Prehistoric cave paintings depicting animals, humans, and symbols. One of the earliest forms of human artistic expression.",
+      "materials": [
+        "Natural pigments",
+        "Charcoal",
+        "Ochre",
+        "Cave walls"
+      ],
+      "techniques": [
+        "Hand painting",
+        "Blowing pigment",
+        "Engraving"
+      ],
+      "frequency_score": 0.9,
+      "alignment_benefits": [
+        "serves_table",
+        "truth_teller",
+        "community_builder",
+        "cultural_preservation",
+        "spiritual"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_builder": true,
+      "unity_builder": false,
+      "peace_oriented": false,
+      "stewardship": true,
+      "how_benefits": "Preserves human connection to nature, community, and spiritual expression. Truth-telling through visual narrative.",
+      "connection_to_table": "Serves The Table through truth-telling, community connection, and spiritual expression. One of humanity's earliest frequential alignments.",
+      "key_messages": [
+        "Human connection to nature",
+        "Community expression",
+        "Spiritual truth"
+      ],
+      "themes": [
+        "nature",
+        "community",
+        "spiritual",
+        "truth"
+      ],
+      "timeline_alignment": "Prehistoric - Foundation of human artistic expression aligned with truth and community",
+      "historical_significance": "Earliest known human artistic expression, preserving connection to nature and community",
+      "cultural_impact": "Foundation of all human art and craft - truth-telling through visual narrative",
+      "location": "Lascaux, France",
+      "museum_collection": "Lascaux Cave (protected site)",
+      "current_status": "Protected UNESCO World Heritage Site",
+      "discovered_at": "2026-01-22T12:57:34.143420",
+      "source": "Deep search - Prehistoric arts",
+      "notes": ""
+    },
+    "anc_001": {
+      "art_id": "anc_001",
+      "title": "Great Pyramid of Giza",
+      "artist_craftsperson": "Ancient Egyptian Architects and Craftspeople",
+      "medium": "architecture",
+      "time_period": "ancient",
+      "culture_region": "Ancient Egypt",
+      "year_created": -2560,
+      "century": "26th century BCE",
+      "description": "Monumental architecture serving as tombs and spiritual structures. Masterpiece of ancient engineering and craft.",
+      "materials": [
+        "Limestone",
+        "Granite",
+        "Mortar"
+      ],
+      "techniques": [
+        "Precision stone cutting",
+        "Architectural engineering",
+        "Astronomical alignment"
+      ],
+      "frequency_score": 0.85,
+      "alignment_benefits": [
+        "serves_table",
+        "spiritual",
+        "stewardship",
+        "cultural_preservation",
+        "beauty"
+      ],
+      "serves_table": true,
+      "truth_teller": false,
+      "community_builder": false,
+      "unity_builder": false,
+      "peace_oriented": false,
+      "stewardship": true,
+      "how_benefits": "Demonstrates human capacity for stewardship, precision, and spiritual connection. Community effort for collective purpose.",
+      "connection_to_table": "Serves The Table through stewardship, precision, and spiritual alignment. Community effort for collective purpose.",
+      "key_messages": [
+        "Stewardship",
+        "Precision",
+        "Spiritual alignment",
+        "Community effort"
+      ],
+      "themes": [
+        "stewardship",
+        "spiritual",
+        "community",
+        "precision"
+      ],
+      "timeline_alignment": "Ancient - Stewardship and spiritual alignment through architecture",
+      "historical_significance": "One of the Seven Wonders of the Ancient World, demonstrating human capacity for stewardship and precision",
+      "cultural_impact": "Symbol of ancient Egyptian civilization, demonstrating community effort and spiritual alignment",
+      "location": "Giza, Egypt",
+      "museum_collection": "UNESCO World Heritage Site",
+      "current_status": "Protected World Heritage Site",
+      "discovered_at": "2026-01-22T12:57:34.143443",
+      "source": "Deep search - Ancient architecture",
+      "notes": ""
+    },
+    "anc_002": {
+      "art_id": "anc_002",
+      "title": "Ancient Greek Pottery",
+      "artist_craftsperson": "Ancient Greek Potters",
+      "medium": "pottery",
+      "time_period": "ancient",
+      "culture_region": "Ancient Greece",
+      "year_created": -800,
+      "century": "8th-4th century BCE",
+      "description": "Functional and decorative pottery with narrative scenes. Combines utility with artistic expression and storytelling.",
+      "materials": [
+        "Clay",
+        "Natural pigments",
+        "Glazes"
+      ],
+      "techniques": [
+        "Wheel throwing",
+        "Hand painting",
+        "Firing"
+      ],
+      "frequency_score": 0.9,
+      "alignment_benefits": [
+        "serves_table",
+        "truth_teller",
+        "community_builder",
+        "beauty",
+        "education"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_builder": true,
+      "unity_builder": false,
+      "peace_oriented": false,
+      "stewardship": false,
+      "how_benefits": "Combines utility with truth-telling through narrative scenes. Serves community through functional beauty and education.",
+      "connection_to_table": "Serves The Table through truth-telling, community utility, and beauty. Functional art serving community needs.",
+      "key_messages": [
+        "Truth through narrative",
+        "Community utility",
+        "Functional beauty"
+      ],
+      "themes": [
+        "truth",
+        "community",
+        "beauty",
+        "utility"
+      ],
+      "timeline_alignment": "Ancient - Truth-telling and community utility through functional art",
+      "historical_significance": "Preserves ancient Greek narratives, myths, and daily life through functional art",
+      "cultural_impact": "Foundation of Western art tradition, combining utility with truth-telling",
+      "location": "Various museums worldwide",
+      "museum_collection": "Metropolitan Museum of Art, British Museum, Louvre",
+      "current_status": "Preserved in museums worldwide",
+      "discovered_at": "2026-01-22T12:57:34.143449",
+      "source": "Deep search - Ancient Greek arts",
+      "notes": ""
+    },
+    "cla_001": {
+      "art_id": "cla_001",
+      "title": "Roman Mosaics",
+      "artist_craftsperson": "Roman Mosaic Artists",
+      "medium": "mixed_media",
+      "time_period": "classical",
+      "culture_region": "Roman Empire",
+      "year_created": 100,
+      "century": "1st-4th century CE",
+      "description": "Intricate floor and wall mosaics using tesserae (small pieces of stone, glass, or ceramic). Combines beauty with durability.",
+      "materials": [
+        "Stone tesserae",
+        "Glass tesserae",
+        "Ceramic tesserae",
+        "Mortar"
+      ],
+      "techniques": [
+        "Tessellation",
+        "Color gradation",
+        "Pattern design"
+      ],
+      "frequency_score": 0.85,
+      "alignment_benefits": [
+        "serves_table",
+        "beauty",
+        "community_builder",
+        "cultural_preservation",
+        "stewardship"
+      ],
+      "serves_table": true,
+      "truth_teller": false,
+      "community_builder": true,
+      "unity_builder": false,
+      "peace_oriented": false,
+      "stewardship": true,
+      "how_benefits": "Creates beauty in community spaces. Demonstrates stewardship through durable, lasting art serving community.",
+      "connection_to_table": "Serves The Table through beauty, community spaces, and stewardship. Durable art serving community.",
+      "key_messages": [
+        "Beauty in community spaces",
+        "Durability",
+        "Stewardship"
+      ],
+      "themes": [
+        "beauty",
+        "community",
+        "stewardship",
+        "durability"
+      ],
+      "timeline_alignment": "Classical - Beauty and stewardship in community spaces",
+      "historical_significance": "Preserves Roman artistic expression and community values through durable mosaic art",
+      "cultural_impact": "Demonstrates Roman commitment to beauty and community through lasting art",
+      "location": "Various Roman sites (Pompeii, Herculaneum, etc.)",
+      "museum_collection": "Museums worldwide",
+      "current_status": "Preserved in archaeological sites and museums",
+      "discovered_at": "2026-01-22T12:57:34.143455",
+      "source": "Deep search - Classical Roman arts",
+      "notes": ""
+    },
+    "med_001": {
+      "art_id": "med_001",
+      "title": "Gothic Cathedrals",
+      "artist_craftsperson": "Medieval Architects, Stonemasons, and Craftspeople",
+      "medium": "architecture",
+      "time_period": "medieval",
+      "culture_region": "Medieval Europe",
+      "year_created": 1200,
+      "century": "12th-16th century CE",
+      "description": "Soaring architectural masterpieces combining stone, glass, and light. Community effort for spiritual and community spaces.",
+      "materials": [
+        "Stone",
+        "Stained glass",
+        "Wood",
+        "Metal"
+      ],
+      "techniques": [
+        "Flying buttresses",
+        "Rib vaulting",
+        "Stained glass",
+        "Stone carving"
+      ],
+      "frequency_score": 0.95,
+      "alignment_benefits": [
+        "serves_table",
+        "spiritual",
+        "community_builder",
+        "unity_builder",
+        "stewardship",
+        "beauty"
+      ],
+      "serves_table": true,
+      "truth_teller": false,
+      "community_builder": true,
+      "unity_builder": true,
+      "peace_oriented": false,
+      "stewardship": true,
+      "how_benefits": "Creates community spaces for unity, spiritual connection, and beauty. Demonstrates community effort and stewardship.",
+      "connection_to_table": "Serves The Table through spiritual connection, community unity, and stewardship. Community effort for collective purpose.",
+      "key_messages": [
+        "Community unity",
+        "Spiritual connection",
+        "Stewardship",
+        "Beauty"
+      ],
+      "themes": [
+        "spiritual",
+        "community",
+        "unity",
+        "stewardship",
+        "beauty"
+      ],
+      "timeline_alignment": "Medieval - Community unity and spiritual connection through architecture",
+      "historical_significance": "Masterpieces of medieval architecture, demonstrating community effort and spiritual alignment",
+      "cultural_impact": "Symbols of medieval community unity and spiritual connection",
+      "location": "Chartres, Notre-Dame, Salisbury, etc.",
+      "museum_collection": "UNESCO World Heritage Sites",
+      "current_status": "Protected World Heritage Sites",
+      "discovered_at": "2026-01-22T12:57:34.143460",
+      "source": "Deep search - Medieval architecture",
+      "notes": ""
+    },
+    "med_002": {
+      "art_id": "med_002",
+      "title": "Islamic Calligraphy",
+      "artist_craftsperson": "Islamic Calligraphers",
+      "medium": "calligraphy",
+      "time_period": "medieval",
+      "culture_region": "Islamic World",
+      "year_created": 800,
+      "century": "8th-16th century CE",
+      "description": "Sacred writing as art form. Combines spiritual truth with visual beauty. Unity through shared script and meaning.",
+      "materials": [
+        "Ink",
+        "Paper",
+        "Parchment",
+        "Gold leaf"
+      ],
+      "techniques": [
+        "Arabic script",
+        "Illumination",
+        "Geometric patterns"
+      ],
+      "frequency_score": 0.95,
+      "alignment_benefits": [
+        "serves_table",
+        "spiritual",
+        "truth_teller",
+        "unity_builder",
+        "beauty",
+        "cultural_preservation"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_builder": false,
+      "unity_builder": true,
+      "peace_oriented": false,
+      "stewardship": false,
+      "how_benefits": "Preserves spiritual truth through beautiful writing. Creates unity through shared script and meaning across cultures.",
+      "connection_to_table": "Serves The Table through spiritual truth, unity, and beauty. Sacred writing as art form.",
+      "key_messages": [
+        "Spiritual truth",
+        "Unity through script",
+        "Beauty"
+      ],
+      "themes": [
+        "spiritual",
+        "truth",
+        "unity",
+        "beauty"
+      ],
+      "timeline_alignment": "Medieval - Spiritual truth and unity through calligraphy",
+      "historical_significance": "Preserves Islamic spiritual truth and creates unity through shared script",
+      "cultural_impact": "Unifies diverse cultures through shared script and spiritual meaning",
+      "location": "Museums and collections worldwide",
+      "museum_collection": "Metropolitan Museum, British Museum, Topkapi Palace",
+      "current_status": "Preserved in museums and collections",
+      "discovered_at": "2026-01-22T12:57:34.143464",
+      "source": "Deep search - Islamic arts",
+      "notes": ""
+    },
+    "ren_001": {
+      "art_id": "ren_001",
+      "title": "Renaissance Paintings",
+      "artist_craftsperson": "Renaissance Artists (Leonardo, Michelangelo, Raphael, etc.)",
+      "medium": "painting",
+      "time_period": "renaissance",
+      "culture_region": "Renaissance Europe",
+      "year_created": 1400,
+      "century": "14th-17th century CE",
+      "description": "Revival of classical ideals through painting. Truth-telling through human expression, beauty, and spiritual connection.",
+      "materials": [
+        "Oil paint",
+        "Canvas",
+        "Wood panels",
+        "Pigments"
+      ],
+      "techniques": [
+        "Oil painting",
+        "Perspective",
+        "Chiaroscuro",
+        "Sfumato"
+      ],
+      "frequency_score": 0.9,
+      "alignment_benefits": [
+        "serves_table",
+        "truth_teller",
+        "beauty",
+        "spiritual",
+        "education"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_builder": false,
+      "unity_builder": false,
+      "peace_oriented": false,
+      "stewardship": false,
+      "how_benefits": "Truth-telling through human expression and beauty. Spiritual connection through visual narrative.",
+      "connection_to_table": "Serves The Table through truth-telling, beauty, and spiritual connection. Human expression as art.",
+      "key_messages": [
+        "Truth through human expression",
+        "Beauty",
+        "Spiritual connection"
+      ],
+      "themes": [
+        "truth",
+        "beauty",
+        "spiritual",
+        "human expression"
+      ],
+      "timeline_alignment": "Renaissance - Truth and beauty through human expression",
+      "historical_significance": "Revival of classical ideals, truth-telling through human expression",
+      "cultural_impact": "Foundation of Western painting tradition, truth-telling through beauty",
+      "location": "Museums worldwide",
+      "museum_collection": "Uffizi, Louvre, National Gallery, etc.",
+      "current_status": "Preserved in museums worldwide",
+      "discovered_at": "2026-01-22T12:57:34.143469",
+      "source": "Deep search - Renaissance arts",
+      "notes": ""
+    },
+    "mod_001": {
+      "art_id": "mod_001",
+      "title": "Arts and Crafts Movement",
+      "artist_craftsperson": "William Morris, John Ruskin, and Craftspeople",
+      "medium": "mixed_media",
+      "time_period": "industrial",
+      "culture_region": "Britain, America",
+      "year_created": 1880,
+      "century": "19th-20th century CE",
+      "description": "Reaction against industrialization. Return to handcraftsmanship, truth in materials, beauty in utility. Community and stewardship.",
+      "materials": [
+        "Natural materials",
+        "Handcrafted objects",
+        "Textiles",
+        "Furniture"
+      ],
+      "techniques": [
+        "Handcraftsmanship",
+        "Traditional techniques",
+        "Honest materials"
+      ],
+      "frequency_score": 0.95,
+      "alignment_benefits": [
+        "serves_table",
+        "truth_teller",
+        "stewardship",
+        "community_builder",
+        "beauty",
+        "harmony"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_builder": true,
+      "unity_builder": false,
+      "peace_oriented": false,
+      "stewardship": true,
+      "how_benefits": "Returns to truth in materials and handcraftsmanship. Stewardship through quality, community through shared craft.",
+      "connection_to_table": "Serves The Table through truth in materials, stewardship, and community. Reaction against separation through industrialization.",
+      "key_messages": [
+        "Truth in materials",
+        "Stewardship",
+        "Community through craft"
+      ],
+      "themes": [
+        "truth",
+        "stewardship",
+        "community",
+        "beauty"
+      ],
+      "timeline_alignment": "Industrial - Truth and stewardship through handcraftsmanship",
+      "historical_significance": "Reaction against industrialization, return to truth and stewardship",
+      "cultural_impact": "Influenced modern design, emphasizing truth, stewardship, and community",
+      "location": "Museums and collections worldwide",
+      "museum_collection": "Victoria and Albert Museum, Metropolitan Museum, etc.",
+      "current_status": "Preserved in museums and continues to influence craft",
+      "discovered_at": "2026-01-22T12:57:34.143472",
+      "source": "Deep search - Arts and Crafts Movement",
+      "notes": ""
+    },
+    "con_001": {
+      "art_id": "con_001",
+      "title": "Community Art Projects",
+      "artist_craftsperson": "Community Artists and Participants",
+      "medium": "mixed_media",
+      "time_period": "contemporary",
+      "culture_region": "Global",
+      "year_created": 2000,
+      "century": "21st century CE",
+      "description": "Art created by and for communities. Unity, healing, truth-telling, and transformation through collective creation.",
+      "materials": [
+        "Various",
+        "Community participation",
+        "Shared resources"
+      ],
+      "techniques": [
+        "Collaborative creation",
+        "Community engagement",
+        "Participatory art"
+      ],
+      "frequency_score": 0.95,
+      "alignment_benefits": [
+        "serves_table",
+        "community_builder",
+        "unity_builder",
+        "healing",
+        "truth_teller",
+        "transformation"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_builder": true,
+      "unity_builder": true,
+      "peace_oriented": false,
+      "stewardship": false,
+      "how_benefits": "Creates unity and healing through collective creation. Truth-telling through community expression. Transformation through art.",
+      "connection_to_table": "Serves The Table through community unity, healing, and truth-telling. Collective creation for transformation.",
+      "key_messages": [
+        "Community unity",
+        "Healing through art",
+        "Truth-telling",
+        "Transformation"
+      ],
+      "themes": [
+        "community",
+        "unity",
+        "healing",
+        "truth",
+        "transformation"
+      ],
+      "timeline_alignment": "Contemporary - Community unity and healing through collective art",
+      "historical_significance": "Modern expression of community unity and healing through art",
+      "cultural_impact": "Demonstrates power of collective creation for unity and transformation",
+      "location": "Communities worldwide",
+      "museum_collection": "Various community spaces",
+      "current_status": "Ongoing in communities worldwide",
+      "discovered_at": "2026-01-22T12:57:34.143476",
+      "source": "Deep search - Contemporary community arts",
+      "notes": ""
+    },
+    "anc_003": {
+      "art_id": "anc_003",
+      "title": "Chinese Ceramics",
+      "artist_craftsperson": "Chinese Potters",
+      "medium": "ceramics",
+      "time_period": "ancient",
+      "culture_region": "Ancient China",
+      "year_created": -2000,
+      "century": "2nd millennium BCE",
+      "description": "Functional and decorative ceramics. Harmony, beauty, and utility. Stewardship through quality and tradition.",
+      "materials": [
+        "Clay",
+        "Glazes",
+        "Pigments"
+      ],
+      "techniques": [
+        "Wheel throwing",
+        "Glazing",
+        "Firing"
+      ],
+      "frequency_score": 0.9,
+      "alignment_benefits": [
+        "serves_table",
+        "beauty",
+        "harmony",
+        "stewardship",
+        "cultural_preservation"
+      ],
+      "serves_table": true,
+      "truth_teller": false,
+      "community_builder": false,
+      "unity_builder": false,
+      "peace_oriented": false,
+      "stewardship": true,
+      "how_benefits": "Creates harmony and beauty through functional art. Stewardship through quality and tradition.",
+      "connection_to_table": "Serves The Table through harmony, beauty, and stewardship. Functional art serving community.",
+      "key_messages": [
+        "Harmony",
+        "Beauty",
+        "Stewardship"
+      ],
+      "themes": [
+        "harmony",
+        "beauty",
+        "stewardship",
+        "utility"
+      ],
+      "timeline_alignment": "Ancient - Harmony and stewardship through ceramics",
+      "historical_significance": "Foundation of Chinese ceramic tradition, harmony and stewardship",
+      "cultural_impact": "Influenced global ceramic arts, emphasizing harmony and quality",
+      "location": "Museums worldwide",
+      "museum_collection": "Metropolitan Museum, British Museum, etc.",
+      "current_status": "Preserved in museums and continues in tradition",
+      "discovered_at": "2026-01-22T12:57:34.143480",
+      "source": "Deep search - Ancient Chinese arts",
+      "notes": ""
+    },
+    "med_003": {
+      "art_id": "med_003",
+      "title": "Byzantine Mosaics",
+      "artist_craftsperson": "Byzantine Mosaic Artists",
+      "medium": "mixed_media",
+      "time_period": "medieval",
+      "culture_region": "Byzantine Empire",
+      "year_created": 500,
+      "century": "5th-15th century CE",
+      "description": "Spiritual art through mosaic. Light, beauty, and spiritual truth. Unity through shared faith and expression.",
+      "materials": [
+        "Gold tesserae",
+        "Glass tesserae",
+        "Stone tesserae"
+      ],
+      "techniques": [
+        "Tessellation",
+        "Light reflection",
+        "Spiritual imagery"
+      ],
+      "frequency_score": 0.95,
+      "alignment_benefits": [
+        "serves_table",
+        "spiritual",
+        "truth_teller",
+        "unity_builder",
+        "beauty"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_builder": false,
+      "unity_builder": true,
+      "peace_oriented": false,
+      "stewardship": false,
+      "how_benefits": "Creates spiritual truth through light and beauty. Unity through shared faith and expression.",
+      "connection_to_table": "Serves The Table through spiritual truth, unity, and beauty. Light as spiritual expression.",
+      "key_messages": [
+        "Spiritual truth",
+        "Unity",
+        "Beauty through light"
+      ],
+      "themes": [
+        "spiritual",
+        "truth",
+        "unity",
+        "beauty"
+      ],
+      "timeline_alignment": "Medieval - Spiritual truth and unity through mosaic",
+      "historical_significance": "Preserves Byzantine spiritual truth and unity through art",
+      "cultural_impact": "Influenced Eastern Orthodox art, emphasizing spiritual truth and unity",
+      "location": "Hagia Sophia, San Vitale, etc.",
+      "museum_collection": "UNESCO World Heritage Sites",
+      "current_status": "Protected World Heritage Sites",
+      "discovered_at": "2026-01-22T12:57:34.143485",
+      "source": "Deep search - Byzantine arts",
+      "notes": ""
+    },
+    "mod_002": {
+      "art_id": "mod_002",
+      "title": "Indigenous Arts and Crafts",
+      "artist_craftsperson": "Indigenous Artists and Craftspeople",
+      "medium": "mixed_media",
+      "time_period": "modern",
+      "culture_region": "Global Indigenous Communities",
+      "year_created": 0,
+      "century": "Throughout history",
+      "description": "Traditional arts and crafts preserving cultural truth, community connection, and stewardship of land and resources.",
+      "materials": [
+        "Natural materials",
+        "Traditional resources",
+        "Community knowledge"
+      ],
+      "techniques": [
+        "Traditional techniques",
+        "Community knowledge",
+        "Stewardship practices"
+      ],
+      "frequency_score": 0.95,
+      "alignment_benefits": [
+        "serves_table",
+        "truth_teller",
+        "stewardship",
+        "community_builder",
+        "cultural_preservation",
+        "harmony"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "community_builder": true,
+      "unity_builder": false,
+      "peace_oriented": false,
+      "stewardship": true,
+      "how_benefits": "Preserves cultural truth and stewardship. Community connection through traditional arts. Harmony with nature.",
+      "connection_to_table": "Serves The Table through truth, stewardship, and community. Traditional arts preserving harmony with nature.",
+      "key_messages": [
+        "Cultural truth",
+        "Stewardship",
+        "Community",
+        "Harmony with nature"
+      ],
+      "themes": [
+        "truth",
+        "stewardship",
+        "community",
+        "harmony"
+      ],
+      "timeline_alignment": "Throughout history - Truth, stewardship, and community through traditional arts",
+      "historical_significance": "Preserves cultural truth and stewardship practices throughout history",
+      "cultural_impact": "Demonstrates harmony with nature and community through traditional arts",
+      "location": "Indigenous communities worldwide",
+      "museum_collection": "Various museums and cultural centers",
+      "current_status": "Preserved and practiced in indigenous communities",
+      "discovered_at": "2026-01-22T12:57:34.143490",
+      "source": "Deep search - Indigenous arts",
+      "notes": ""
+    }
+  }
+}

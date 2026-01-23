@@ -1,0 +1,1487 @@
+{
+  "timestamp": "2026-01-23T09:43:40.508099",
+  "summary": {
+    "total_scripts": 197,
+    "python_scripts": 192,
+    "powershell_scripts": 5,
+    "duplicate_import_patterns": 18,
+    "similar_functions": 52,
+    "potentially_unused": 0,
+    "optimization_opportunities": 18
+  },
+  "recommendations": [
+    {
+      "type": "consolidate_imports",
+      "description": "Consider creating shared import module for: datetime.datetime, json, logging, pathlib.Path, sys",
+      "scripts": [
+        "13_sign_meridian_mapper.py",
+        "energy_love_unity_peace_integration.py",
+        "first_pulse_logger.py"
+      ]
+    },
+    {
+      "type": "consolidate_imports",
+      "description": "Consider creating shared import module for: heritage_cleansing.HeritageCleanser, json, magnetic_field_research.research_heritage_site_magnetic_field, magnetic_field_research.update_site_magnetic_field, pathlib.Path",
+      "scripts": [
+        "alhambra_magnetic_audit.py",
+        "angkor_wat_super_pillar_audit.py",
+        "berengaria_magnetic_audit.py",
+        "giza_super_pillar_audit.py",
+        "machu_picchu_super_pillar_audit.py",
+        "stonehenge_magnetic_audit.py",
+        "uluru_final_pillar_audit.py"
+      ]
+    },
+    {
+      "type": "consolidate_imports",
+      "description": "Consider creating shared import module for: dataclasses.asdict, dataclasses.dataclass, dataclasses.field, datetime.date, datetime.datetime",
+      "scripts": [
+        "aligned_entities_tracker.py",
+        "return_to_table_security.py"
+      ]
+    },
+    {
+      "type": "consolidate_imports",
+      "description": "Consider creating shared import module for: datetime.datetime, json, logging, pathlib.Path, round1_activation_logger.Round1ActivationLogger",
+      "scripts": [
+        "alignment_calibration.py",
+        "bridge_builder_log_template.py"
+      ]
+    },
+    {
+      "type": "consolidate_imports",
+      "description": "Consider creating shared import module for: datetime.datetime, json, os, pathlib.Path, subprocess",
+      "scripts": [
+        "audio_synthesis_automation.py",
+        "visual_asset_generator.py"
+      ]
+    },
+    {
+      "type": "consolidate_functions",
+      "description": "Function 'main' appears in 122 scripts - consider shared utility",
+      "functions": [
+        {
+          "script": "13_sign_meridian_mapper.py",
+          "function": "main"
+        },
+        {
+          "script": "aligned_entities_tracker.py",
+          "function": "main"
+        },
+        {
+          "script": "aligned_investments.py",
+          "function": "main"
+        },
+        {
+          "script": "alignment_calibration.py",
+          "function": "main"
+        },
+        {
+          "script": "all_signs_mapper.py",
+          "function": "main"
+        },
+        {
+          "script": "analyze_hidden_spiritual_alignment.py",
+          "function": "main"
+        },
+        {
+          "script": "archive_residue.py",
+          "function": "main"
+        },
+        {
+          "script": "art_of_conversation.py",
+          "function": "main"
+        },
+        {
+          "script": "audio_synthesis_automation.py",
+          "function": "main"
+        },
+        {
+          "script": "bridge_builder_log_template.py",
+          "function": "main"
+        },
+        {
+          "script": "care_package_framework.py",
+          "function": "main"
+        },
+        {
+          "script": "check_yin_yang_symbiosis.py",
+          "function": "main"
+        },
+        {
+          "script": "complete_seed_to_movement.py",
+          "function": "main"
+        },
+        {
+          "script": "connection_ritual_first_wave.py",
+          "function": "main"
+        },
+        {
+          "script": "create_deployment_materials.py",
+          "function": "main"
+        },
+        {
+          "script": "create_resonance_chain_examples.py",
+          "function": "main"
+        },
+        {
+          "script": "database_schema_enhancements.py",
+          "function": "main"
+        },
+        {
+          "script": "data_integration_service.py",
+          "function": "main"
+        },
+        {
+          "script": "deep_search_frequency_opportunities.py",
+          "function": "main"
+        },
+        {
+          "script": "deep_search_mayan_dark_contracts.py",
+          "function": "main"
+        },
+        {
+          "script": "deep_search_spiritual_contracts_miracles.py",
+          "function": "main"
+        },
+        {
+          "script": "deploy_complete_system.py",
+          "function": "main"
+        },
+        {
+          "script": "divine_frequency.py",
+          "function": "main"
+        },
+        {
+          "script": "divine_prayers.py",
+          "function": "main"
+        },
+        {
+          "script": "duygu_toast.py",
+          "function": "main"
+        },
+        {
+          "script": "echo_completion_monitor.py",
+          "function": "main"
+        },
+        {
+          "script": "energy_love_unity_peace_integration.py",
+          "function": "main"
+        },
+        {
+          "script": "entity_content_refinement.py",
+          "function": "main"
+        },
+        {
+          "script": "eternal_pulse.py",
+          "function": "main"
+        },
+        {
+          "script": "explore_all_industries.py",
+          "function": "main"
+        },
+        {
+          "script": "faith_protection_system.py",
+          "function": "main"
+        },
+        {
+          "script": "first_pulse_logger.py",
+          "function": "main"
+        },
+        {
+          "script": "fix_instagram_handles.py",
+          "function": "main"
+        },
+        {
+          "script": "frequential_arts_crafts_timeline.py",
+          "function": "main"
+        },
+        {
+          "script": "frequential_events_registry.py",
+          "function": "main"
+        },
+        {
+          "script": "frequential_songs_catalog.py",
+          "function": "main"
+        },
+        {
+          "script": "gemini_heritage_data_collection.py",
+          "function": "main"
+        },
+        {
+          "script": "global_health_access.py",
+          "function": "main"
+        },
+        {
+          "script": "global_heritage_access.py",
+          "function": "main"
+        },
+        {
+          "script": "global_service_discovery.py",
+          "function": "main"
+        },
+        {
+          "script": "grand_proclamation.py",
+          "function": "main"
+        },
+        {
+          "script": "grid_sync_analysis.py",
+          "function": "main"
+        },
+        {
+          "script": "health_tracking_framework.py",
+          "function": "main"
+        },
+        {
+          "script": "heritage_batch_import.py",
+          "function": "main"
+        },
+        {
+          "script": "heritage_channel_sync.py",
+          "function": "main"
+        },
+        {
+          "script": "heritage_cleansing.py",
+          "function": "main"
+        },
+        {
+          "script": "heritage_data_export.py",
+          "function": "main"
+        },
+        {
+          "script": "heritage_import_everything.py",
+          "function": "main"
+        },
+        {
+          "script": "heritage_meridian_scan.py",
+          "function": "main"
+        },
+        {
+          "script": "historical_aligned_individuals.py",
+          "function": "main"
+        },
+        {
+          "script": "i18n_system.py",
+          "function": "main"
+        },
+        {
+          "script": "integrate_mayan_knowledge.py",
+          "function": "main"
+        },
+        {
+          "script": "intent_alignment_audit.py",
+          "function": "main"
+        },
+        {
+          "script": "lead_the_way.py",
+          "function": "main"
+        },
+        {
+          "script": "legacy_message_broadcast.py",
+          "function": "main"
+        },
+        {
+          "script": "lineage_contract_search.py",
+          "function": "main"
+        },
+        {
+          "script": "link_aligned_to_spiritual.py",
+          "function": "main"
+        },
+        {
+          "script": "live_data_ingest_complete.py",
+          "function": "main"
+        },
+        {
+          "script": "live_earthquake_ingest.py",
+          "function": "main"
+        },
+        {
+          "script": "live_manifestation_activation.py",
+          "function": "main"
+        },
+        {
+          "script": "live_watch_monitor.py",
+          "function": "main"
+        },
+        {
+          "script": "log_act_2_berengaria.py",
+          "function": "main"
+        },
+        {
+          "script": "log_all_remaining_acts.py",
+          "function": "main"
+        },
+        {
+          "script": "log_final_duygu_act.py",
+          "function": "main"
+        },
+        {
+          "script": "magnetic_field_research.py",
+          "function": "main"
+        },
+        {
+          "script": "manifest_gods_word.py",
+          "function": "main"
+        },
+        {
+          "script": "mayan_original_error_timeline.py",
+          "function": "main"
+        },
+        {
+          "script": "motor_transport_industry_analysis.py",
+          "function": "main"
+        },
+        {
+          "script": "nations_and_superpowers.py",
+          "function": "main"
+        },
+        {
+          "script": "nourishment_hive_system.py",
+          "function": "main"
+        },
+        {
+          "script": "optimize_workspace_scripts.py",
+          "function": "main"
+        },
+        {
+          "script": "organize_and_migrate_content.py",
+          "function": "main"
+        },
+        {
+          "script": "pangea_integration.py",
+          "function": "main"
+        },
+        {
+          "script": "pattern_analysis.py",
+          "function": "main"
+        },
+        {
+          "script": "philosophy_integration.py",
+          "function": "main"
+        },
+        {
+          "script": "raspberry_pi_package_builder.py",
+          "function": "main"
+        },
+        {
+          "script": "real_world_data_research.py",
+          "function": "main"
+        },
+        {
+          "script": "real_world_live_ingest.py",
+          "function": "main"
+        },
+        {
+          "script": "refine_s_drive_components.py",
+          "function": "main"
+        },
+        {
+          "script": "regenerate_karasahin_purpose.py",
+          "function": "main"
+        },
+        {
+          "script": "repurpose_t1d_journey_posts.py",
+          "function": "main"
+        },
+        {
+          "script": "resonance_check.py",
+          "function": "main"
+        },
+        {
+          "script": "resonance_pulse.py",
+          "function": "main"
+        },
+        {
+          "script": "restore_the_table.py",
+          "function": "main"
+        },
+        {
+          "script": "return_to_table_damage_assessment.py",
+          "function": "main"
+        },
+        {
+          "script": "return_to_table_security.py",
+          "function": "main"
+        },
+        {
+          "script": "rift_bridge_system.py",
+          "function": "main"
+        },
+        {
+          "script": "round1_activation_logger.py",
+          "function": "main"
+        },
+        {
+          "script": "sabotage_sites_neutralization.py",
+          "function": "main"
+        },
+        {
+          "script": "sabotage_sites_search.py",
+          "function": "main"
+        },
+        {
+          "script": "sanctuary_protocol.py",
+          "function": "main"
+        },
+        {
+          "script": "scheduled_ingest.py",
+          "function": "main"
+        },
+        {
+          "script": "silent_watch_protocol.py",
+          "function": "main"
+        },
+        {
+          "script": "spiritual_contracts_registry.py",
+          "function": "main"
+        },
+        {
+          "script": "spiritual_realms_framework.py",
+          "function": "main"
+        },
+        {
+          "script": "super_pillar_finder.py",
+          "function": "main"
+        },
+        {
+          "script": "system_health_and_readiness_check.py",
+          "function": "main"
+        },
+        {
+          "script": "system_health_check.py",
+          "function": "main"
+        },
+        {
+          "script": "temporal_heritage_archive.py",
+          "function": "main"
+        },
+        {
+          "script": "test_pulse_system.py",
+          "function": "main"
+        },
+        {
+          "script": "test_seed_to_movement.py",
+          "function": "main"
+        },
+        {
+          "script": "test_the_hack_pulse.py",
+          "function": "main"
+        },
+        {
+          "script": "the_calling_broadcast.py",
+          "function": "main"
+        },
+        {
+          "script": "the_hack_irregular.py",
+          "function": "main"
+        },
+        {
+          "script": "the_life_audit.py",
+          "function": "main"
+        },
+        {
+          "script": "the_one_truth_matrix.py",
+          "function": "main"
+        },
+        {
+          "script": "the_original_error_analysis.py",
+          "function": "main"
+        },
+        {
+          "script": "the_table_timeline_analysis.py",
+          "function": "main"
+        },
+        {
+          "script": "thoth_prophecy_system.py",
+          "function": "main"
+        },
+        {
+          "script": "timeline_deep_search_future_writing.py",
+          "function": "main"
+        },
+        {
+          "script": "ui_interoperability_system.py",
+          "function": "main"
+        },
+        {
+          "script": "ui_refinement.py",
+          "function": "main"
+        },
+        {
+          "script": "unified_global_access.py",
+          "function": "main"
+        },
+        {
+          "script": "unified_integration.py",
+          "function": "main"
+        },
+        {
+          "script": "universal_system_dismantling.py",
+          "function": "main"
+        },
+        {
+          "script": "update_jean_to_jean_morphius.py",
+          "function": "main"
+        },
+        {
+          "script": "vibration_check.py",
+          "function": "main"
+        },
+        {
+          "script": "vices_and_markets_tracker.py",
+          "function": "main"
+        },
+        {
+          "script": "visualize_and_schedule_2026_posts.py",
+          "function": "main"
+        },
+        {
+          "script": "visual_asset_generator.py",
+          "function": "main"
+        },
+        {
+          "script": "word_of_the_creator.py",
+          "function": "main"
+        },
+        {
+          "script": "yellowstone_heritage_audit.py",
+          "function": "main"
+        }
+      ]
+    },
+    {
+      "type": "consolidate_functions",
+      "description": "Function '__init__' appears in 102 scripts - consider shared utility",
+      "functions": [
+        {
+          "script": "13_sign_meridian_mapper.py",
+          "function": "__init__"
+        },
+        {
+          "script": "ai_execution_engine.py",
+          "function": "__init__"
+        },
+        {
+          "script": "aligned_entities_tracker.py",
+          "function": "__init__"
+        },
+        {
+          "script": "aligned_investments.py",
+          "function": "__init__"
+        },
+        {
+          "script": "alignment_calibration.py",
+          "function": "__init__"
+        },
+        {
+          "script": "all_signs_mapper.py",
+          "function": "__init__"
+        },
+        {
+          "script": "analyze_hidden_spiritual_alignment.py",
+          "function": "__init__"
+        },
+        {
+          "script": "archive_residue.py",
+          "function": "__init__"
+        },
+        {
+          "script": "art_of_conversation.py",
+          "function": "__init__"
+        },
+        {
+          "script": "audio_synthesis_automation.py",
+          "function": "__init__"
+        },
+        {
+          "script": "auto_prompt_system.py",
+          "function": "__init__"
+        },
+        {
+          "script": "bridge_builder_log_template.py",
+          "function": "__init__"
+        },
+        {
+          "script": "care_package_framework.py",
+          "function": "__init__"
+        },
+        {
+          "script": "connection_ritual_first_wave.py",
+          "function": "__init__"
+        },
+        {
+          "script": "data_integration_service.py",
+          "function": "__init__"
+        },
+        {
+          "script": "deep_search_frequency_opportunities.py",
+          "function": "__init__"
+        },
+        {
+          "script": "deep_search_mayan_dark_contracts.py",
+          "function": "__init__"
+        },
+        {
+          "script": "deep_search_spiritual_contracts_miracles.py",
+          "function": "__init__"
+        },
+        {
+          "script": "deploy_complete_system.py",
+          "function": "__init__"
+        },
+        {
+          "script": "divine_frequency.py",
+          "function": "__init__"
+        },
+        {
+          "script": "divine_prayers.py",
+          "function": "__init__"
+        },
+        {
+          "script": "echo_completion_monitor.py",
+          "function": "__init__"
+        },
+        {
+          "script": "energy_love_unity_peace_integration.py",
+          "function": "__init__"
+        },
+        {
+          "script": "entity_content_refinement.py",
+          "function": "__init__"
+        },
+        {
+          "script": "eternal_pulse.py",
+          "function": "__init__"
+        },
+        {
+          "script": "execute_cleanup.py",
+          "function": "__init__"
+        },
+        {
+          "script": "faith_protection_system.py",
+          "function": "__init__"
+        },
+        {
+          "script": "first_pulse_logger.py",
+          "function": "__init__"
+        },
+        {
+          "script": "free_will_system.py",
+          "function": "__init__"
+        },
+        {
+          "script": "frequential_arts_crafts_timeline.py",
+          "function": "__init__"
+        },
+        {
+          "script": "frequential_events_registry.py",
+          "function": "__init__"
+        },
+        {
+          "script": "frequential_influential_figures.py",
+          "function": "__init__"
+        },
+        {
+          "script": "frequential_political_figures.py",
+          "function": "__init__"
+        },
+        {
+          "script": "frequential_songs_catalog.py",
+          "function": "__init__"
+        },
+        {
+          "script": "full_s_drive_debug.py",
+          "function": "__init__"
+        },
+        {
+          "script": "geopolitical_economic_matrix.py",
+          "function": "__init__"
+        },
+        {
+          "script": "global_health_access.py",
+          "function": "__init__"
+        },
+        {
+          "script": "global_heritage_access.py",
+          "function": "__init__"
+        },
+        {
+          "script": "global_service_discovery.py",
+          "function": "__init__"
+        },
+        {
+          "script": "health_tracking_framework.py",
+          "function": "__init__"
+        },
+        {
+          "script": "heritage_audit_framework.py",
+          "function": "__init__"
+        },
+        {
+          "script": "heritage_channel_sync.py",
+          "function": "__init__"
+        },
+        {
+          "script": "heritage_cleansing.py",
+          "function": "__init__"
+        },
+        {
+          "script": "heritage_data_export.py",
+          "function": "__init__"
+        },
+        {
+          "script": "heritage_import_everything.py",
+          "function": "__init__"
+        },
+        {
+          "script": "heritage_meridian_scan.py",
+          "function": "__init__"
+        },
+        {
+          "script": "historical_aligned_individuals.py",
+          "function": "__init__"
+        },
+        {
+          "script": "i18n_system.py",
+          "function": "__init__"
+        },
+        {
+          "script": "intent_alignment_audit.py",
+          "function": "__init__"
+        },
+        {
+          "script": "lineage_contract_search.py",
+          "function": "__init__"
+        },
+        {
+          "script": "link_aligned_to_spiritual.py",
+          "function": "__init__"
+        },
+        {
+          "script": "live_manifestation_activation.py",
+          "function": "__init__"
+        },
+        {
+          "script": "live_watch_monitor.py",
+          "function": "__init__"
+        },
+        {
+          "script": "manifest_gods_word.py",
+          "function": "__init__"
+        },
+        {
+          "script": "master_life_audit.py",
+          "function": "__init__"
+        },
+        {
+          "script": "mayan_original_error_timeline.py",
+          "function": "__init__"
+        },
+        {
+          "script": "motor_transport_industry_analysis.py",
+          "function": "__init__"
+        },
+        {
+          "script": "nations_and_superpowers.py",
+          "function": "__init__"
+        },
+        {
+          "script": "nourishment_hive_system.py",
+          "function": "__init__"
+        },
+        {
+          "script": "optimize_workspace_scripts.py",
+          "function": "__init__"
+        },
+        {
+          "script": "organize_and_migrate_content.py",
+          "function": "__init__"
+        },
+        {
+          "script": "partner_vetting_system.py",
+          "function": "__init__"
+        },
+        {
+          "script": "pattern_analysis.py",
+          "function": "__init__"
+        },
+        {
+          "script": "personal_assessment_navigator.py",
+          "function": "__init__"
+        },
+        {
+          "script": "philosophy_integration.py",
+          "function": "__init__"
+        },
+        {
+          "script": "raspberry_pi_package_builder.py",
+          "function": "__init__"
+        },
+        {
+          "script": "real_world_data_research.py",
+          "function": "__init__"
+        },
+        {
+          "script": "resonance_pulse.py",
+          "function": "__init__"
+        },
+        {
+          "script": "restore_the_table.py",
+          "function": "__init__"
+        },
+        {
+          "script": "return_to_table_damage_assessment.py",
+          "function": "__init__"
+        },
+        {
+          "script": "return_to_table_security.py",
+          "function": "__init__"
+        },
+        {
+          "script": "rift_bridge_system.py",
+          "function": "__init__"
+        },
+        {
+          "script": "round1_activation_logger.py",
+          "function": "__init__"
+        },
+        {
+          "script": "sabotage_sites_neutralization.py",
+          "function": "__init__"
+        },
+        {
+          "script": "sabotage_sites_search.py",
+          "function": "__init__"
+        },
+        {
+          "script": "sanctuary_protocol.py",
+          "function": "__init__"
+        },
+        {
+          "script": "sanctuary_protocol.py",
+          "function": "__init__"
+        },
+        {
+          "script": "spiritual_contracts_registry.py",
+          "function": "__init__"
+        },
+        {
+          "script": "spiritual_realms_framework.py",
+          "function": "__init__"
+        },
+        {
+          "script": "system_cleanup_review.py",
+          "function": "__init__"
+        },
+        {
+          "script": "system_health_and_readiness_check.py",
+          "function": "__init__"
+        },
+        {
+          "script": "temporal_heritage_archive.py",
+          "function": "__init__"
+        },
+        {
+          "script": "test_the_hack_pulse.py",
+          "function": "__init__"
+        },
+        {
+          "script": "test_the_hack_pulse.py",
+          "function": "__init__"
+        },
+        {
+          "script": "the_calling_broadcast.py",
+          "function": "__init__"
+        },
+        {
+          "script": "the_hack_irregular.py",
+          "function": "__init__"
+        },
+        {
+          "script": "the_life_audit.py",
+          "function": "__init__"
+        },
+        {
+          "script": "the_one_truth_matrix.py",
+          "function": "__init__"
+        },
+        {
+          "script": "the_original_error_analysis.py",
+          "function": "__init__"
+        },
+        {
+          "script": "the_table_timeline_analysis.py",
+          "function": "__init__"
+        },
+        {
+          "script": "thoth_prophecy_system.py",
+          "function": "__init__"
+        },
+        {
+          "script": "timeline_deep_search_future_writing.py",
+          "function": "__init__"
+        },
+        {
+          "script": "ui_interoperability_system.py",
+          "function": "__init__"
+        },
+        {
+          "script": "ui_refinement.py",
+          "function": "__init__"
+        },
+        {
+          "script": "unified_global_access.py",
+          "function": "__init__"
+        },
+        {
+          "script": "unified_integration.py",
+          "function": "__init__"
+        },
+        {
+          "script": "universal_system_dismantling.py",
+          "function": "__init__"
+        },
+        {
+          "script": "vibration_check.py",
+          "function": "__init__"
+        },
+        {
+          "script": "vices_and_markets_tracker.py",
+          "function": "__init__"
+        },
+        {
+          "script": "visual_asset_generator.py",
+          "function": "__init__"
+        },
+        {
+          "script": "welfare_benefits_systems_analyzer.py",
+          "function": "__init__"
+        },
+        {
+          "script": "word_of_the_creator.py",
+          "function": "__init__"
+        }
+      ]
+    },
+    {
+      "type": "consolidate_functions",
+      "description": "Function '_load_data' appears in 8 scripts - consider shared utility",
+      "functions": [
+        {
+          "script": "13_sign_meridian_mapper.py",
+          "function": "_load_data"
+        },
+        {
+          "script": "all_signs_mapper.py",
+          "function": "_load_data"
+        },
+        {
+          "script": "energy_love_unity_peace_integration.py",
+          "function": "_load_data"
+        },
+        {
+          "script": "first_pulse_logger.py",
+          "function": "_load_data"
+        },
+        {
+          "script": "free_will_system.py",
+          "function": "_load_data"
+        },
+        {
+          "script": "heritage_meridian_scan.py",
+          "function": "_load_data"
+        },
+        {
+          "script": "round1_activation_logger.py",
+          "function": "_load_data"
+        },
+        {
+          "script": "timeline_deep_search_future_writing.py",
+          "function": "_load_data"
+        }
+      ]
+    },
+    {
+      "type": "consolidate_functions",
+      "description": "Function 'get_sign_by_date' appears in 2 scripts - consider shared utility",
+      "functions": [
+        {
+          "script": "13_sign_meridian_mapper.py",
+          "function": "get_sign_by_date"
+        },
+        {
+          "script": "all_signs_mapper.py",
+          "function": "get_sign_by_date"
+        }
+      ]
+    },
+    {
+      "type": "consolidate_functions",
+      "description": "Function 'register_entity' appears in 2 scripts - consider shared utility",
+      "functions": [
+        {
+          "script": "aligned_entities_tracker.py",
+          "function": "register_entity"
+        },
+        {
+          "script": "spiritual_contracts_registry.py",
+          "function": "register_entity"
+        }
+      ]
+    },
+    {
+      "type": "consolidate_functions",
+      "description": "Function 'get_complete_analysis' appears in 4 scripts - consider shared utility",
+      "functions": [
+        {
+          "script": "aligned_entities_tracker.py",
+          "function": "get_complete_analysis"
+        },
+        {
+          "script": "aligned_investments.py",
+          "function": "get_complete_analysis"
+        },
+        {
+          "script": "nations_and_superpowers.py",
+          "function": "get_complete_analysis"
+        },
+        {
+          "script": "vices_and_markets_tracker.py",
+          "function": "get_complete_analysis"
+        }
+      ]
+    },
+    {
+      "type": "consolidate_functions",
+      "description": "Function 'export_analysis' appears in 5 scripts - consider shared utility",
+      "functions": [
+        {
+          "script": "aligned_entities_tracker.py",
+          "function": "export_analysis"
+        },
+        {
+          "script": "aligned_investments.py",
+          "function": "export_analysis"
+        },
+        {
+          "script": "nations_and_superpowers.py",
+          "function": "export_analysis"
+        },
+        {
+          "script": "the_original_error_analysis.py",
+          "function": "export_analysis"
+        },
+        {
+          "script": "vices_and_markets_tracker.py",
+          "function": "export_analysis"
+        }
+      ]
+    },
+    {
+      "type": "consolidate_functions",
+      "description": "Function 'generate_report' appears in 4 scripts - consider shared utility",
+      "functions": [
+        {
+          "script": "analyze_hidden_spiritual_alignment.py",
+          "function": "generate_report"
+        },
+        {
+          "script": "full_s_drive_debug.py",
+          "function": "generate_report"
+        },
+        {
+          "script": "optimize_workspace_scripts.py",
+          "function": "generate_report"
+        },
+        {
+          "script": "system_cleanup_review.py",
+          "function": "generate_report"
+        }
+      ]
+    },
+    {
+      "type": "consolidate_functions",
+      "description": "Function 'audit_london_chapter' appears in 2 scripts - consider shared utility",
+      "functions": [
+        {
+          "script": "audit_london_chapter.py",
+          "function": "audit_london_chapter"
+        },
+        {
+          "script": "master_life_audit.py",
+          "function": "audit_london_chapter"
+        }
+      ]
+    },
+    {
+      "type": "consolidate_functions",
+      "description": "Function 'audit_mediterranean_chapter' appears in 2 scripts - consider shared utility",
+      "functions": [
+        {
+          "script": "audit_mediterranean_chapter.py",
+          "function": "audit_mediterranean_chapter"
+        },
+        {
+          "script": "master_life_audit.py",
+          "function": "audit_mediterranean_chapter"
+        }
+      ]
+    }
+  ],
+  "unused_scripts": [],
+  "optimizations": [
+    {
+      "script": "analyze_usefulness.py",
+      "type": "hardcoded_paths",
+      "description": "Contains 1 hardcoded paths - consider using Path or environment variables",
+      "paths": [
+        "S:\\\\JAN"
+      ]
+    },
+    {
+      "script": "archive_old_completion_docs.py",
+      "type": "hardcoded_paths",
+      "description": "Contains 1 hardcoded paths - consider using Path or environment variables",
+      "paths": [
+        "S:\\\\JAN"
+      ]
+    },
+    {
+      "script": "consolidate_completion_docs.py",
+      "type": "hardcoded_paths",
+      "description": "Contains 1 hardcoded paths - consider using Path or environment variables",
+      "paths": [
+        "S:\\\\JAN"
+      ]
+    },
+    {
+      "script": "create_deployment_materials.py",
+      "type": "hardcoded_paths",
+      "description": "Contains 1 hardcoded paths - consider using Path or environment variables",
+      "paths": [
+        "S:\\\\JAN"
+      ]
+    },
+    {
+      "script": "create_website_shell_seed_content.py",
+      "type": "hardcoded_paths",
+      "description": "Contains 1 hardcoded paths - consider using Path or environment variables",
+      "paths": [
+        "S:\\\\JAN"
+      ]
+    },
+    {
+      "script": "deep_research_collector.py",
+      "type": "repeated_blocks",
+      "description": "Contains repeated code blocks - consider extracting to functions",
+      "count": 2
+    },
+    {
+      "script": "execute_cleanup.py",
+      "type": "hardcoded_paths",
+      "description": "Contains 1 hardcoded paths - consider using Path or environment variables",
+      "paths": [
+        "S:\\\\JAN"
+      ]
+    },
+    {
+      "script": "fix_instagram_handles.py",
+      "type": "hardcoded_paths",
+      "description": "Contains 1 hardcoded paths - consider using Path or environment variables",
+      "paths": [
+        "S:\\\\JAN\\\\output\\\\2026_social_content"
+      ]
+    },
+    {
+      "script": "full_s_drive_debug.py",
+      "type": "hardcoded_paths",
+      "description": "Contains 1 hardcoded paths - consider using Path or environment variables",
+      "paths": [
+        "S:\\\\"
+      ]
+    },
+    {
+      "script": "optimize_workspace_scripts.py",
+      "type": "hardcoded_paths",
+      "description": "Contains 2 hardcoded paths - consider using Path or environment variables",
+      "paths": [
+        "S:\\\\JAN\\\\output",
+        "S:\\\\JAN\\\\scripts"
+      ]
+    },
+    {
+      "script": "refine_s_drive_components.py",
+      "type": "hardcoded_paths",
+      "description": "Contains 2 hardcoded paths - consider using Path or environment variables",
+      "paths": [
+        "S:\\\\SIYEM",
+        "S:\\\\JAN"
+      ]
+    },
+    {
+      "script": "regenerate_2026_social_content.py",
+      "type": "hardcoded_paths",
+      "description": "Contains 1 hardcoded paths - consider using Path or environment variables",
+      "paths": [
+        "S:\\\\SIYEM\\\\05_PUBLISHING"
+      ]
+    },
+    {
+      "script": "regenerate_karasahin_purpose.py",
+      "type": "hardcoded_paths",
+      "description": "Contains 1 hardcoded paths - consider using Path or environment variables",
+      "paths": [
+        "S:\\\\SIYEM"
+      ]
+    },
+    {
+      "script": "repurpose_t1d_journey_posts.py",
+      "type": "hardcoded_paths",
+      "description": "Contains 1 hardcoded paths - consider using Path or environment variables",
+      "paths": [
+        "S:\\\\SIYEM"
+      ]
+    },
+    {
+      "script": "system_cleanup_review.py",
+      "type": "hardcoded_paths",
+      "description": "Contains 1 hardcoded paths - consider using Path or environment variables",
+      "paths": [
+        "S:\\\\JAN"
+      ]
+    },
+    {
+      "script": "update_2026_posts_shell_seed.py",
+      "type": "hardcoded_paths",
+      "description": "Contains 2 hardcoded paths - consider using Path or environment variables",
+      "paths": [
+        "S:\\\\SIYEM\\\\services",
+        "S:\\\\JAN"
+      ]
+    },
+    {
+      "script": "update_jean_to_jean_morphius.py",
+      "type": "hardcoded_paths",
+      "description": "Contains 2 hardcoded paths - consider using Path or environment variables",
+      "paths": [
+        "S:\\\\JAN\\\\output\\\\2026_social_content",
+        "S:\\\\SIYEM\\\\05_PUBLISHING\\\\Jean\\\\2026-01-01\\\\Campaigns\\\\weekly_posts_2026\\\\campaign.json"
+      ]
+    },
+    {
+      "script": "visualize_and_schedule_2026_posts.py",
+      "type": "hardcoded_paths",
+      "description": "Contains 2 hardcoded paths - consider using Path or environment variables",
+      "paths": [
+        "S:\\\\JAN\\\\output\\\\2026_social_content",
+        "S:\\\\SIYEM"
+      ]
+    }
+  ],
+  "scripts_by_type": {
+    "python": [
+      "13_sign_meridian_mapper.py",
+      "ai_execution_engine.py",
+      "alhambra_magnetic_audit.py",
+      "aligned_entities_tracker.py",
+      "aligned_investments.py",
+      "alignment_calibration.py",
+      "all_signs_mapper.py",
+      "analyze_hidden_spiritual_alignment.py",
+      "analyze_usefulness.py",
+      "angkor_wat_super_pillar_audit.py",
+      "archive_old_completion_docs.py",
+      "archive_residue.py",
+      "art_of_conversation.py",
+      "audio_synthesis_automation.py",
+      "audit_london_chapter.py",
+      "audit_mediterranean_chapter.py",
+      "auto_prompt_system.py",
+      "berengaria_magnetic_audit.py",
+      "break_original_error_contract.py",
+      "bridge_builder_log_template.py",
+      "care_package_framework.py",
+      "check_yin_yang_symbiosis.py",
+      "claude_assistant.py",
+      "complete_seed_to_movement.py",
+      "connection_ritual_first_wave.py",
+      "consolidate_completion_docs.py",
+      "create_deployment_materials.py",
+      "create_resonance_chain_examples.py",
+      "create_website_shell_seed_content.py",
+      "database_schema_enhancements.py",
+      "data_integration_service.py",
+      "deep_research_collector.py",
+      "deep_search_frequency_opportunities.py",
+      "deep_search_mayan_dark_contracts.py",
+      "deep_search_spiritual_contracts_miracles.py",
+      "deploy_complete_system.py",
+      "divine_frequency.py",
+      "divine_prayers.py",
+      "duygu_toast.py",
+      "echo_completion_monitor.py",
+      "egypt_original_error_timeline.py",
+      "energy_love_unity_peace_integration.py",
+      "enhance_frontend_content.py",
+      "entity_content_refinement.py",
+      "eternal_pulse.py",
+      "execute_cleanup.py",
+      "explore_all_industries.py",
+      "faith_protection_system.py",
+      "first_pulse_logger.py",
+      "fix_instagram_handles.py",
+      "free_will_system.py",
+      "frequential_arts_crafts_timeline.py",
+      "frequential_events_registry.py",
+      "frequential_influential_figures.py",
+      "frequential_political_figures.py",
+      "frequential_songs_catalog.py",
+      "full_s_drive_debug.py",
+      "gemini_assistant.py",
+      "gemini_heritage_data_collection.py",
+      "generate_deployment_materials.py",
+      "geopolitical_economic_matrix.py",
+      "giza_super_pillar_audit.py",
+      "global_health_access.py",
+      "global_heritage_access.py",
+      "global_service_discovery.py",
+      "grand_proclamation.py",
+      "grid_sync_analysis.py",
+      "health_tracking_framework.py",
+      "heritage_audit_framework.py",
+      "heritage_batch_import.py",
+      "heritage_channel_sync.py",
+      "heritage_cleansing.py",
+      "heritage_data_export.py",
+      "heritage_import_everything.py",
+      "heritage_meridian_scan.py",
+      "heritage_quick_start.py",
+      "historical_aligned_individuals.py",
+      "i18n_system.py",
+      "integrate_mayan_knowledge.py",
+      "intent_alignment_audit.py",
+      "lead_the_way.py",
+      "legacy_message_broadcast.py",
+      "lineage_contract_search.py",
+      "link_aligned_to_spiritual.py",
+      "live_data_ingest_complete.py",
+      "live_earthquake_ingest.py",
+      "live_manifestation_activation.py",
+      "live_watch_monitor.py",
+      "log_act_2_berengaria.py",
+      "log_all_remaining_acts.py",
+      "log_bridge_builder_first_act.py",
+      "log_final_duygu_act.py",
+      "log_first_act.py",
+      "log_health_entry.py",
+      "log_multiple_health_entries.py",
+      "machu_picchu_super_pillar_audit.py",
+      "magnetic_field_research.py",
+      "manifest_gods_word.py",
+      "master_life_audit.py",
+      "mayan_original_error_timeline.py",
+      "migrate_magnetic_fields.py",
+      "motor_transport_industry_analysis.py",
+      "nations_and_superpowers.py",
+      "nourishment_hive_system.py",
+      "optimize_workspace_scripts.py",
+      "organize_and_migrate_content.py",
+      "pangea_integration.py",
+      "partner_vetting_system.py",
+      "pattern_analysis.py",
+      "personal_assessment_navigator.py",
+      "philosophy.py",
+      "philosophy_integration.py",
+      "raspberry_pi_package_builder.py",
+      "real_world_data_research.py",
+      "real_world_live_ingest.py",
+      "refine_s_drive_components.py",
+      "regenerate_2026_social_content.py",
+      "regenerate_karasahin_purpose.py",
+      "repurpose_t1d_journey_posts.py",
+      "resonance_check.py",
+      "resonance_pulse.py",
+      "restore_the_table.py",
+      "return_to_table_damage_assessment.py",
+      "return_to_table_security.py",
+      "rift_bridge_system.py",
+      "round1_activation_logger.py",
+      "sabotage_sites_neutralization.py",
+      "sabotage_sites_search.py",
+      "sanctuary_protocol.py",
+      "scheduled_ingest.py",
+      "silent_watch_protocol.py",
+      "spiritual_contracts_registry.py",
+      "spiritual_realms_framework.py",
+      "stonehenge_magnetic_audit.py",
+      "super_pillar_finder.py",
+      "sync_codebase.py",
+      "system_cleanup_review.py",
+      "system_health_and_readiness_check.py",
+      "system_health_check.py",
+      "temporal_heritage_archive.py",
+      "test_family_heritage_log.py",
+      "test_fifa_extraction_complete.py",
+      "test_fifa_glory_narrative_audit.py",
+      "test_fifa_triple_anchor_extraction.py",
+      "test_financial_complete_cycle.py",
+      "test_financial_debt_narrative_audit.py",
+      "test_financial_extraction_complete.py",
+      "test_financial_quad_anchor_extraction.py",
+      "test_global_batch_extraction.py",
+      "test_global_secondary_seed_report.py",
+      "test_heritage_cleansing.py",
+      "test_narrative_fracture_report.py",
+      "test_nasa_deep_scan_reset.py",
+      "test_nasa_double_anchor_extraction.py",
+      "test_nasa_extraction_complete.py",
+      "test_nasa_seed_search.py",
+      "test_new_domains.py",
+      "test_pulse_system.py",
+      "test_sanctuary_guardian_full.py",
+      "test_sanctuary_guardian_mode.py",
+      "test_secondary_seed_extraction.py",
+      "test_second_wave_propagation.py",
+      "test_seed_extraction.py",
+      "test_seed_to_movement.py",
+      "test_the_hack_pulse.py",
+      "test_third_wave_automated_invitation.py",
+      "the_calling_broadcast.py",
+      "the_hack_irregular.py",
+      "the_life_audit.py",
+      "the_one_truth_matrix.py",
+      "the_original_error_analysis.py",
+      "the_table_timeline_analysis.py",
+      "thoth_prophecy_system.py",
+      "timeline_deep_search_future_writing.py",
+      "ui_interoperability_system.py",
+      "ui_refinement.py",
+      "uluru_final_pillar_audit.py",
+      "unified_global_access.py",
+      "unified_integration.py",
+      "universal_system_dismantling.py",
+      "update_2026_posts_shell_seed.py",
+      "update_jean_to_jean_morphius.py",
+      "verify_completion.py",
+      "verify_no_secrets.py",
+      "vibration_check.py",
+      "vices_and_markets_tracker.py",
+      "visualize_and_schedule_2026_posts.py",
+      "visual_asset_generator.py",
+      "welfare_benefits_systems_analyzer.py",
+      "word_of_the_creator.py",
+      "yellowstone_heritage_audit.py",
+      "__init__.py"
+    ],
+    "powershell": [
+      "archive_belief_systems.ps1",
+      "c_drive_cleanup_and_optimize.ps1",
+      "daily-cleanup.ps1",
+      "notebooklm_sync.ps1",
+      "weekly-archive-check.ps1"
+    ],
+    "batch": [],
+    "shell": []
+  }
+}

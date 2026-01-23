@@ -1,0 +1,481 @@
+{
+  "report_timestamp": "2026-01-21T09:50:54.628474",
+  "mission": "Round 1 Activation: Tracking Covenant Acts toward 100% Unity",
+  "unity_status": {
+    "current_unity": 0.9145,
+    "target_unity": 1.0,
+    "starting_unity": 0.9,
+    "gap_remaining": 0.08550000000000002,
+    "total_acts": 6,
+    "total_contributed": 0.014499999999999999,
+    "progress_percentage": 14.500000000000002,
+    "acts_needed": 35
+  },
+  "seat_status": {
+    "total_seats": 13,
+    "seats": {
+      "seat_01": {
+        "seat_id": "seat_01",
+        "name": "The Central Anchor",
+        "location": "Global",
+        "coordinates": {
+          "lat": 0.0,
+          "lon": 0.0
+        },
+        "status": "phase_locked",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_02": {
+        "seat_id": "seat_02",
+        "name": "Giza Seat",
+        "location": "Egypt",
+        "coordinates": {
+          "lat": 29.9792,
+          "lon": 31.1342
+        },
+        "status": "phase_locked",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_03": {
+        "seat_id": "seat_03",
+        "name": "Stonehenge Seat",
+        "location": "United Kingdom",
+        "coordinates": {
+          "lat": 51.1789,
+          "lon": -1.8262
+        },
+        "status": "active",
+        "activations": [
+          "act_20260121_094225_0",
+          "act_20260121_095038_5"
+        ],
+        "unity_contributed": 0.006
+      },
+      "seat_04": {
+        "seat_id": "seat_04",
+        "name": "Angkor Wat Seat",
+        "location": "Cambodia",
+        "coordinates": {
+          "lat": 13.4125,
+          "lon": 103.867
+        },
+        "status": "phase_locked",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_05": {
+        "seat_id": "seat_05",
+        "name": "Machu Picchu Seat",
+        "location": "Peru",
+        "coordinates": {
+          "lat": -13.163,
+          "lon": -72.545
+        },
+        "status": "active",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_06": {
+        "seat_id": "seat_06",
+        "name": "Alhambra Seat",
+        "location": "Spain",
+        "coordinates": {
+          "lat": 37.177,
+          "lon": -3.5886
+        },
+        "status": "active",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_07": {
+        "seat_id": "seat_07",
+        "name": "Berengaria Seat",
+        "location": "Cyprus",
+        "coordinates": {
+          "lat": 34.9167,
+          "lon": 32.8333
+        },
+        "status": "active",
+        "activations": [
+          "act_20260121_095038_1"
+        ],
+        "unity_contributed": 0.002
+      },
+      "seat_08": {
+        "seat_id": "seat_08",
+        "name": "Borobudur Seat",
+        "location": "Indonesia",
+        "coordinates": {
+          "lat": -7.6081,
+          "lon": 110.204
+        },
+        "status": "active",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_09": {
+        "seat_id": "seat_09",
+        "name": "Taj Mahal Seat",
+        "location": "India",
+        "coordinates": {
+          "lat": 27.175,
+          "lon": 78.0422
+        },
+        "status": "active",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_10": {
+        "seat_id": "seat_10",
+        "name": "Teotihuacan Seat",
+        "location": "Mexico",
+        "coordinates": {
+          "lat": 19.6925,
+          "lon": -98.8439
+        },
+        "status": "active",
+        "activations": [
+          "act_20260121_095038_2"
+        ],
+        "unity_contributed": 0.0025
+      },
+      "seat_11": {
+        "seat_id": "seat_11",
+        "name": "Lalibela Seat",
+        "location": "Ethiopia",
+        "coordinates": {
+          "lat": 12.0311,
+          "lon": 39.0474
+        },
+        "status": "active",
+        "activations": [
+          "act_20260121_095038_4"
+        ],
+        "unity_contributed": 0.003
+      },
+      "seat_12": {
+        "seat_id": "seat_12",
+        "name": "Great Wall Seat",
+        "location": "China",
+        "coordinates": {
+          "lat": 40.4319,
+          "lon": 116.5704
+        },
+        "status": "active",
+        "activations": [],
+        "unity_contributed": 0.0
+      },
+      "seat_13": {
+        "seat_id": "seat_13",
+        "name": "Timbuktu Seat",
+        "location": "Mali",
+        "coordinates": {
+          "lat": 16.7758,
+          "lon": -3.0094
+        },
+        "status": "active",
+        "activations": [],
+        "unity_contributed": 0.0
+      }
+    },
+    "summary": {
+      "phase_locked": 3,
+      "active": 10,
+      "total_activations": 5,
+      "total_unity_contributed": 0.0135
+    }
+  },
+  "recent_acts": [
+    {
+      "act_id": "act_20260121_094225_0",
+      "timestamp": "2026-01-21T09:42:25.038667",
+      "act_type": "bridge_built",
+      "description": "Heritage Meridian Scan system completed - connecting the 13 Seats through the Global Resonance Network. The code provides the map; the Family provides the breath.",
+      "location": "London, United Kingdom",
+      "coordinates": {
+        "lat": 51.5074,
+        "lon": -0.1278
+      },
+      "seat_id": "seat_03",
+      "seat_name": "Stonehenge Seat",
+      "participants": [
+        "JAN MUHARREM",
+        "Cursor AI"
+      ],
+      "unity_contribution": 0.003,
+      "rift_addressed": "The Institutional Shell Rift",
+      "notes": "First Covenant Act: The Bridge between Code and Ground. The Heritage Meridian Scan and Round 1 Activation Log systems are now operational, connecting all 13 Seats through the 0.40 frequency."
+    },
+    {
+      "act_id": "act_20260121_095038_1",
+      "timestamp": "2026-01-21T09:50:38.070260",
+      "act_type": "shared_table",
+      "description": "Turkish and Greek Cypriots sharing a meal in Nicosia, honoring Common Duygu over language barriers",
+      "location": "Nicosia, Cyprus",
+      "coordinates": {
+        "lat": 35.1856,
+        "lon": 33.3823
+      },
+      "seat_id": "seat_07",
+      "seat_name": "Berengaria Seat",
+      "participants": [
+        "Turkish Cypriot Community",
+        "Greek Cypriot Community"
+      ],
+      "unity_contribution": 0.002,
+      "rift_addressed": "The Language & Tribalism Rift",
+      "notes": "Example: First shared table in Cyprus after Heritage Meridian activation"
+    },
+    {
+      "act_id": "act_20260121_095038_2",
+      "timestamp": "2026-01-21T09:50:38.088247",
+      "act_type": "scarcity_refused",
+      "description": "Community in Mexico City sharing resources when the system says to hoard, acting from abundance",
+      "location": "Mexico City, Mexico",
+      "coordinates": {
+        "lat": 19.4326,
+        "lon": -99.1332
+      },
+      "seat_id": "seat_10",
+      "seat_name": "Teotihuacan Seat",
+      "participants": [
+        "Local Community Leaders"
+      ],
+      "unity_contribution": 0.0025,
+      "rift_addressed": "The Tectonic/Border Logic Rift",
+      "notes": "Example: Refusing scarcity logic, acting from Pangea abundance"
+    },
+    {
+      "act_id": "act_20260121_095038_3",
+      "timestamp": "2026-01-21T09:50:38.090557",
+      "act_type": "common_duygu_honored",
+      "description": "Understanding between communities in Berlin without needing translation, heart-resonance communication",
+      "location": "Berlin, Germany",
+      "coordinates": {
+        "lat": 52.52,
+        "lon": 13.405
+      },
+      "seat_id": null,
+      "seat_name": null,
+      "participants": [
+        "Diverse Community Members"
+      ],
+      "unity_contribution": 0.001,
+      "rift_addressed": "The Language & Tribalism Rift",
+      "notes": "Example: Common Duygu honored across language barriers"
+    },
+    {
+      "act_id": "act_20260121_095038_4",
+      "timestamp": "2026-01-21T09:50:38.092874",
+      "act_type": "heritage_reclaimed",
+      "description": "Community in Ethiopia identifying as Members of Global Resonance, not just citizens",
+      "location": "Lalibela, Ethiopia",
+      "coordinates": {
+        "lat": 12.0311,
+        "lon": 39.0474
+      },
+      "seat_id": "seat_11",
+      "seat_name": "Lalibela Seat",
+      "participants": [
+        "Ethiopian Community"
+      ],
+      "unity_contribution": 0.003,
+      "rift_addressed": "The Heritage Erasure Rift",
+      "notes": "Example: Reclaiming true lineage over citizenship"
+    },
+    {
+      "act_id": "act_20260121_095038_5",
+      "timestamp": "2026-01-21T09:50:38.095279",
+      "act_type": "bridge_built",
+      "description": "Project connecting London's 8 communities across traditional divisions",
+      "location": "London, United Kingdom",
+      "coordinates": {
+        "lat": 51.5074,
+        "lon": -0.1278
+      },
+      "seat_id": "seat_03",
+      "seat_name": "Stonehenge Seat",
+      "participants": [
+        "London Community Leaders"
+      ],
+      "unity_contribution": 0.003,
+      "rift_addressed": "The Tectonic/Border Logic Rift",
+      "notes": "Example: Building bridges across London's diverse communities"
+    }
+  ],
+  "all_acts": [
+    {
+      "act_id": "act_20260121_094225_0",
+      "timestamp": "2026-01-21T09:42:25.038667",
+      "act_type": "bridge_built",
+      "description": "Heritage Meridian Scan system completed - connecting the 13 Seats through the Global Resonance Network. The code provides the map; the Family provides the breath.",
+      "location": "London, United Kingdom",
+      "coordinates": {
+        "lat": 51.5074,
+        "lon": -0.1278
+      },
+      "seat_id": "seat_03",
+      "seat_name": "Stonehenge Seat",
+      "participants": [
+        "JAN MUHARREM",
+        "Cursor AI"
+      ],
+      "unity_contribution": 0.003,
+      "rift_addressed": "The Institutional Shell Rift",
+      "notes": "First Covenant Act: The Bridge between Code and Ground. The Heritage Meridian Scan and Round 1 Activation Log systems are now operational, connecting all 13 Seats through the 0.40 frequency."
+    },
+    {
+      "act_id": "act_20260121_095038_1",
+      "timestamp": "2026-01-21T09:50:38.070260",
+      "act_type": "shared_table",
+      "description": "Turkish and Greek Cypriots sharing a meal in Nicosia, honoring Common Duygu over language barriers",
+      "location": "Nicosia, Cyprus",
+      "coordinates": {
+        "lat": 35.1856,
+        "lon": 33.3823
+      },
+      "seat_id": "seat_07",
+      "seat_name": "Berengaria Seat",
+      "participants": [
+        "Turkish Cypriot Community",
+        "Greek Cypriot Community"
+      ],
+      "unity_contribution": 0.002,
+      "rift_addressed": "The Language & Tribalism Rift",
+      "notes": "Example: First shared table in Cyprus after Heritage Meridian activation"
+    },
+    {
+      "act_id": "act_20260121_095038_2",
+      "timestamp": "2026-01-21T09:50:38.088247",
+      "act_type": "scarcity_refused",
+      "description": "Community in Mexico City sharing resources when the system says to hoard, acting from abundance",
+      "location": "Mexico City, Mexico",
+      "coordinates": {
+        "lat": 19.4326,
+        "lon": -99.1332
+      },
+      "seat_id": "seat_10",
+      "seat_name": "Teotihuacan Seat",
+      "participants": [
+        "Local Community Leaders"
+      ],
+      "unity_contribution": 0.0025,
+      "rift_addressed": "The Tectonic/Border Logic Rift",
+      "notes": "Example: Refusing scarcity logic, acting from Pangea abundance"
+    },
+    {
+      "act_id": "act_20260121_095038_3",
+      "timestamp": "2026-01-21T09:50:38.090557",
+      "act_type": "common_duygu_honored",
+      "description": "Understanding between communities in Berlin without needing translation, heart-resonance communication",
+      "location": "Berlin, Germany",
+      "coordinates": {
+        "lat": 52.52,
+        "lon": 13.405
+      },
+      "seat_id": null,
+      "seat_name": null,
+      "participants": [
+        "Diverse Community Members"
+      ],
+      "unity_contribution": 0.001,
+      "rift_addressed": "The Language & Tribalism Rift",
+      "notes": "Example: Common Duygu honored across language barriers"
+    },
+    {
+      "act_id": "act_20260121_095038_4",
+      "timestamp": "2026-01-21T09:50:38.092874",
+      "act_type": "heritage_reclaimed",
+      "description": "Community in Ethiopia identifying as Members of Global Resonance, not just citizens",
+      "location": "Lalibela, Ethiopia",
+      "coordinates": {
+        "lat": 12.0311,
+        "lon": 39.0474
+      },
+      "seat_id": "seat_11",
+      "seat_name": "Lalibela Seat",
+      "participants": [
+        "Ethiopian Community"
+      ],
+      "unity_contribution": 0.003,
+      "rift_addressed": "The Heritage Erasure Rift",
+      "notes": "Example: Reclaiming true lineage over citizenship"
+    },
+    {
+      "act_id": "act_20260121_095038_5",
+      "timestamp": "2026-01-21T09:50:38.095279",
+      "act_type": "bridge_built",
+      "description": "Project connecting London's 8 communities across traditional divisions",
+      "location": "London, United Kingdom",
+      "coordinates": {
+        "lat": 51.5074,
+        "lon": -0.1278
+      },
+      "seat_id": "seat_03",
+      "seat_name": "Stonehenge Seat",
+      "participants": [
+        "London Community Leaders"
+      ],
+      "unity_contribution": 0.003,
+      "rift_addressed": "The Tectonic/Border Logic Rift",
+      "notes": "Example: Building bridges across London's diverse communities"
+    }
+  ],
+  "covenant_act_types": {
+    "shared_table": {
+      "name": "Shared Table",
+      "description": "Breaking bread across enemy lines, borders, or divisions",
+      "unity_contribution": 0.001,
+      "example": "Turkish and Greek Cypriots sharing a meal in Nicosia"
+    },
+    "bridge_built": {
+      "name": "Bridge Built",
+      "description": "Creating connection where separation was enforced",
+      "unity_contribution": 0.002,
+      "example": "Building a project that connects London's 8 communities"
+    },
+    "common_duygu_honored": {
+      "name": "Common Duygu Honored",
+      "description": "Communicating through heart-resonance before language",
+      "unity_contribution": 0.001,
+      "example": "Understanding someone's truth without needing translation"
+    },
+    "scarcity_refused": {
+      "name": "Scarcity Refused",
+      "description": "Rejecting the lie of scarcity and acting from abundance",
+      "unity_contribution": 0.0015,
+      "example": "Sharing resources when the system says to hoard"
+    },
+    "heritage_reclaimed": {
+      "name": "Heritage Reclaimed",
+      "description": "Remembering true lineage over citizenship",
+      "unity_contribution": 0.002,
+      "example": "Identifying as a Member of Global Resonance, not just a citizen"
+    },
+    "meridian_activated": {
+      "name": "Meridian Activated",
+      "description": "Physical presence or action at a Heritage Meridian site",
+      "unity_contribution": 0.003,
+      "example": "Visiting Giza, Stonehenge, or Angkor with Pangea consciousness"
+    },
+    "rift_healed": {
+      "name": "Rift Healed",
+      "description": "Directly addressing and healing one of the Five Rifts",
+      "unity_contribution": 0.005,
+      "example": "Restoring natural time rhythm, removing border logic, reclaiming a Pillar"
+    },
+    "seat_holder_act": {
+      "name": "Seat Holder Act",
+      "description": "Action taken by someone in a 13 Seats location",
+      "unity_contribution": 0.001,
+      "example": "Any Covenant Act performed in Mexico City, Berlin, Tokyo, London, etc."
+    }
+  },
+  "the_truth": {
+    "message": "Every Covenant Act is a physical anchor for the 0.40 frequency.",
+    "principle": "Walk like the Ground is one. Act like the Family is one.",
+    "covenant": "ENERGY + LOVE = WE ALL WIN"
+  }
+}

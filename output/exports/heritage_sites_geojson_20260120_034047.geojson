@@ -1,0 +1,178 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "export_timestamp": "2026-01-20T03:40:47.658693",
+    "total_sites": 13,
+    "sites_with_coordinates": 7
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8333,
+          34.9167
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Berengaria Hotel",
+        "type": "Hotel",
+        "region": "Troodos Mountains",
+        "country": "Cyprus",
+        "timeline": "primary",
+        "time_period": "modern",
+        "status": "abandoned",
+        "field_resonance": 0.8393333333333335,
+        "field_space": 0.3855555555555556,
+        "pole_alignment": "neutral",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5886,
+          37.177
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Alhambra Palace",
+        "type": "Palace",
+        "region": "Andalusia",
+        "country": "Spain",
+        "timeline": "primary",
+        "time_period": "medieval",
+        "status": "active",
+        "field_resonance": 0.869,
+        "field_space": 0.35,
+        "pole_alignment": "neutral",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.867,
+          13.4125
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Angkor Wat",
+        "type": "Temple Complex",
+        "region": "Siem Reap",
+        "country": "Cambodia",
+        "timeline": "primary",
+        "time_period": "medieval",
+        "status": "active",
+        "field_resonance": 0.6843333333333333,
+        "field_space": 0.9111111111111111,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.545,
+          -13.1631
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Machu Picchu",
+        "type": "Inca Citadel",
+        "region": "Cusco",
+        "country": "Peru",
+        "timeline": "primary",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.5640000000000001,
+        "field_space": 0.8666666666666667,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1342,
+          29.9792
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Great Pyramid of Giza",
+        "type": "Pyramid",
+        "region": "Giza",
+        "country": "Egypt",
+        "timeline": "primary",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.8900000000000001,
+        "field_space": 0.5333333333333333,
+        "pole_alignment": "neutral",
+        "polarity": "neutral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8262,
+          51.1789
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Stonehenge",
+        "type": "Stone Circle",
+        "region": "Wiltshire",
+        "country": "England",
+        "timeline": "primary",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.8416666666666667,
+        "field_space": 0.2611111111111111,
+        "pole_alignment": "north",
+        "polarity": "positive"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.0369,
+          -25.3444
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Uluru",
+        "type": "Sacred Monolith",
+        "region": "Northern Territory",
+        "country": "Australia",
+        "timeline": "primary",
+        "time_period": "ancient",
+        "status": "active",
+        "field_resonance": 0.781969696969697,
+        "field_space": 0.28888888888888886,
+        "pole_alignment": "south",
+        "polarity": "negative"
+      }
+    }
+  ]
+}

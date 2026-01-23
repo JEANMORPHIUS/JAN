@@ -1,0 +1,15 @@
+{
+  "name": "blank-template",
+  "description": "Blank template - start from scratch with minimal structure",
+  "category": "basic",
+  "created_at": "2025-01-27T00:00:00",
+  "persona_data": {
+    "name": "blank-persona",
+    "files": {
+      "profile.md": "# {persona_name}: Entity Profile\n\n## Entity Identity\n\n### Name\n**{persona_name}**\n\n### Role\n[Define role]\n\n### Purpose\n[Define purpose]\n\n## Core Functions\n\n[Define core functions]\n\n## Specialization\n\n[Define specialization]\n\n## Voice\n\n[Define voice]\n\n## Constraints\n\n[Define constraints]\n",
+      "creative_rules.md": "# {persona_name}: Creative Rules\n\n## Core Principles\n\n[Define core principles]\n\n## Voice Requirements\n\n[Define voice requirements]\n\n## Prohibited Content\n\n[Define prohibited content]\n\n## Required Elements\n\n[Define required elements]\n",
+      "prompt_templates/basic_template.md": "# Basic Template: {persona_name}\n\n## Template Purpose\n[Purpose statement]\n\n## Template Structure\n\n### Core Integration\n```\nReference: profile.md\nReference: creative_rules.md\n```\n\n### Basic Prompt Template\n\n**Context Setting:**\n- Persona: {persona_name}\n- Task: {task}\n\n**Requirements:**\n[Requirements]\n\n**Output Format:**\n[Format specification]\n"
+    }
+  }
+}
+

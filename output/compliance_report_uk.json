@@ -1,0 +1,190 @@
+{
+  "timestamp": "2026-01-23T11:06:48.078942",
+  "jurisdiction": "UK",
+  "summary": {
+    "total_requirements": 3,
+    "verified": 0,
+    "unverified": 3,
+    "with_loopholes": 0,
+    "high_red_tape": 0,
+    "high_complexity": 0
+  },
+  "checklist": [
+    {
+      "requirement_id": "uk_business_registration",
+      "name": "Company Registration (Companies House)",
+      "type": "business_registration",
+      "status": "unverified",
+      "required_documents": [
+        "Company name",
+        "Registered address",
+        "Director details",
+        "Shareholder details",
+        "Memorandum of association"
+      ],
+      "processing_time": "24 hours (online)",
+      "cost": 12.0,
+      "currency": "GBP",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "uk_tax_registration",
+      "name": "Tax Registration (HMRC)",
+      "type": "tax_registration",
+      "status": "unverified",
+      "required_documents": [
+        "Company registration",
+        "Director details",
+        "Business address"
+      ],
+      "processing_time": "1-2 weeks",
+      "cost": 0.0,
+      "currency": "GBP",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "uk_innovator_visa",
+      "name": "Innovator Visa - Non-EEA",
+      "type": "visa",
+      "status": "unverified",
+      "required_documents": [
+        "Business plan",
+        "Endorsement letter",
+        "English language certificate",
+        "Financial proof (£50,000 investment)"
+      ],
+      "processing_time": "3 weeks",
+      "cost": 1021.0,
+      "duration": "3 years",
+      "verified": false,
+      "loopholes_available": false
+    }
+  ],
+  "by_type": {
+    "business_registration": [
+      {
+        "requirement_id": "uk_business_registration",
+        "name": "Company Registration (Companies House)",
+        "type": "business_registration",
+        "status": "unverified",
+        "required_documents": [
+          "Company name",
+          "Registered address",
+          "Director details",
+          "Shareholder details",
+          "Memorandum of association"
+        ],
+        "processing_time": "24 hours (online)",
+        "cost": 12.0,
+        "currency": "GBP",
+        "verified": false,
+        "loopholes_available": false,
+        "red_tape_score": 0.0,
+        "complexity_score": 0.0
+      }
+    ],
+    "tax_registration": [
+      {
+        "requirement_id": "uk_tax_registration",
+        "name": "Tax Registration (HMRC)",
+        "type": "tax_registration",
+        "status": "unverified",
+        "required_documents": [
+          "Company registration",
+          "Director details",
+          "Business address"
+        ],
+        "processing_time": "1-2 weeks",
+        "cost": 0.0,
+        "currency": "GBP",
+        "verified": false,
+        "loopholes_available": false,
+        "red_tape_score": 0.0,
+        "complexity_score": 0.0
+      }
+    ],
+    "visa": [
+      {
+        "requirement_id": "uk_innovator_visa",
+        "name": "Innovator Visa - Non-EEA",
+        "type": "visa",
+        "status": "unverified",
+        "required_documents": [
+          "Business plan",
+          "Endorsement letter",
+          "English language certificate",
+          "Financial proof (£50,000 investment)"
+        ],
+        "processing_time": "3 weeks",
+        "cost": 1021.0,
+        "duration": "3 years",
+        "verified": false,
+        "loopholes_available": false
+      }
+    ]
+  },
+  "unverified_items": [
+    {
+      "requirement_id": "uk_business_registration",
+      "name": "Company Registration (Companies House)",
+      "type": "business_registration",
+      "status": "unverified",
+      "required_documents": [
+        "Company name",
+        "Registered address",
+        "Director details",
+        "Shareholder details",
+        "Memorandum of association"
+      ],
+      "processing_time": "24 hours (online)",
+      "cost": 12.0,
+      "currency": "GBP",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "uk_tax_registration",
+      "name": "Tax Registration (HMRC)",
+      "type": "tax_registration",
+      "status": "unverified",
+      "required_documents": [
+        "Company registration",
+        "Director details",
+        "Business address"
+      ],
+      "processing_time": "1-2 weeks",
+      "cost": 0.0,
+      "currency": "GBP",
+      "verified": false,
+      "loopholes_available": false,
+      "red_tape_score": 0.0,
+      "complexity_score": 0.0
+    },
+    {
+      "requirement_id": "uk_innovator_visa",
+      "name": "Innovator Visa - Non-EEA",
+      "type": "visa",
+      "status": "unverified",
+      "required_documents": [
+        "Business plan",
+        "Endorsement letter",
+        "English language certificate",
+        "Financial proof (£50,000 investment)"
+      ],
+      "processing_time": "3 weeks",
+      "cost": 1021.0,
+      "duration": "3 years",
+      "verified": false,
+      "loopholes_available": false
+    }
+  ],
+  "high_priority_items": []
+}

@@ -1,0 +1,185 @@
+{
+  "timeline_timestamp": "2026-01-22T13:05:18.993370",
+  "total_points": 5,
+  "timeline_points": {
+    "past_001": {
+      "point_id": "past_001",
+      "era": "prehistoric",
+      "dimension": "past",
+      "time_period": "Prehistoric",
+      "year": -50000,
+      "century": "50,000+ BCE",
+      "description": "Prehistoric era - early human connection to nature, community, and truth.",
+      "what_was": "Human connection to nature, community living, truth-telling through art and story.",
+      "what_is": "Foundation of human truth - connection to nature, community, and spiritual expression.",
+      "what_must_become": "Return to connection with nature, community, and truth. Foundation for future alignment.",
+      "alignment_state": "partially_aligned",
+      "alignment_score": 0.7,
+      "serves_table": true,
+      "patterns": [
+        "Connection to nature",
+        "Community living",
+        "Truth-telling",
+        "Spiritual expression"
+      ],
+      "lessons": [
+        "Connection to nature is truth",
+        "Community is essential",
+        "Truth-telling through art"
+      ],
+      "warnings": [
+        "Separation from nature creates damage",
+        "Loss of community creates separation"
+      ],
+      "linked_points": [],
+      "related_systems": [],
+      "discovered_at": "2026-01-22T13:05:18.988888",
+      "source": "Deep search - Prehistoric timeline",
+      "notes": ""
+    },
+    "past_002": {
+      "point_id": "past_002",
+      "era": "ancient",
+      "dimension": "past",
+      "time_period": "Ancient",
+      "year": -3000,
+      "century": "3rd millennium BCE",
+      "description": "Ancient civilizations - stewardship, precision, spiritual alignment, community effort.",
+      "what_was": "Stewardship through architecture, precision in craft, spiritual alignment, community effort for collective purpose.",
+      "what_is": "Examples of stewardship, precision, and spiritual alignment. Community effort for collective purpose.",
+      "what_must_become": "Return to stewardship, precision, and spiritual alignment. Community effort for collective purpose.",
+      "alignment_state": "partially_aligned",
+      "alignment_score": 0.75,
+      "serves_table": true,
+      "patterns": [
+        "Stewardship",
+        "Precision",
+        "Spiritual alignment",
+        "Community effort"
+      ],
+      "lessons": [
+        "Stewardship serves The Table",
+        "Precision is truth",
+        "Spiritual alignment is essential"
+      ],
+      "warnings": [
+        "Loss of stewardship creates separation",
+        "Loss of precision creates damage"
+      ],
+      "linked_points": [],
+      "related_systems": [],
+      "discovered_at": "2026-01-22T13:05:18.988914",
+      "source": "Deep search - Ancient timeline",
+      "notes": ""
+    },
+    "pres_001": {
+      "point_id": "pres_001",
+      "era": "contemporary",
+      "dimension": "present",
+      "time_period": "Contemporary",
+      "year": 2024,
+      "century": "21st century CE",
+      "description": "Present moment - separation, misalignment, transition, return to truth.",
+      "what_was": "Separation from The Table, misalignment, systems built on separation, exploitation, and control.",
+      "what_is": "Transition happening. Return to truth beginning. Systems transforming. Community awakening.",
+      "what_must_become": "Complete return to The Table. Full alignment. Systems transformed. Community unified. Truth restored.",
+      "alignment_state": "transitioning",
+      "alignment_score": 0.5,
+      "serves_table": true,
+      "patterns": [
+        "Separation",
+        "Transition",
+        "Return",
+        "Transformation"
+      ],
+      "lessons": [
+        "Separation creates damage",
+        "Transition requires preparation",
+        "Return requires healing"
+      ],
+      "warnings": [
+        "Resistance expected",
+        "Damage must be prepared for",
+        "Healing required"
+      ],
+      "linked_points": [],
+      "related_systems": [],
+      "discovered_at": "2026-01-22T13:05:18.988919",
+      "source": "Deep search - Present timeline",
+      "notes": ""
+    },
+    "fut_001": {
+      "point_id": "fut_001",
+      "era": "transition",
+      "dimension": "future",
+      "time_period": "Transition",
+      "year": 2025,
+      "century": "2025-2050 CE",
+      "description": "Transition period - healing, transformation, system change, community unity.",
+      "what_was": "Separation, misalignment, damage, resistance.",
+      "what_is": "Transition happening. Healing occurring. Systems transforming. Community uniting.",
+      "what_must_become": "Full alignment. Complete healing. Systems transformed. Community unified. Truth restored.",
+      "alignment_state": "transitioning",
+      "alignment_score": 0.6,
+      "serves_table": true,
+      "patterns": [
+        "Healing",
+        "Transformation",
+        "System change",
+        "Community unity"
+      ],
+      "lessons": [
+        "Healing is essential",
+        "Transformation requires time",
+        "System change is necessary"
+      ],
+      "warnings": [
+        "Resistance continues",
+        "Damage must be healed",
+        "Protection needed"
+      ],
+      "linked_points": [],
+      "related_systems": [],
+      "discovered_at": "2026-01-22T13:05:18.988923",
+      "source": "Deep search - Future timeline",
+      "notes": ""
+    },
+    "fut_002": {
+      "point_id": "fut_002",
+      "era": "future_aligned",
+      "dimension": "future",
+      "time_period": "Future Aligned",
+      "year": 2050,
+      "century": "2050+ CE",
+      "description": "Future aligned with The Table - peace, unity, truth, stewardship, community.",
+      "what_was": "Separation, misalignment, damage, systems of separation.",
+      "what_is": "Full alignment with The Table. Peace, unity, truth, stewardship, community.",
+      "what_must_become": "Eternal alignment. Complete truth. Full peace. Perfect unity. Total stewardship. Complete community.",
+      "alignment_state": "fully_aligned",
+      "alignment_score": 0.95,
+      "serves_table": true,
+      "patterns": [
+        "Peace",
+        "Unity",
+        "Truth",
+        "Stewardship",
+        "Community"
+      ],
+      "lessons": [
+        "Alignment is possible",
+        "Truth is restored",
+        "Peace is the flow"
+      ],
+      "warnings": [
+        "Must maintain alignment",
+        "Must protect truth",
+        "Must serve The Table"
+      ],
+      "linked_points": [],
+      "related_systems": [],
+      "discovered_at": "2026-01-22T13:05:18.988926",
+      "source": "Deep search - Future aligned timeline",
+      "notes": ""
+    }
+  }
+}

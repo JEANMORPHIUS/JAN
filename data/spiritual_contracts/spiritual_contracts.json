@@ -1,0 +1,1675 @@
+{
+  "protection_contract_0686d5ae": {
+    "contract_id": "protection_contract_0686d5ae",
+    "contract_type": "protection_contract",
+    "contract_name": "Machu Picchu Protection Covenant",
+    "parties": [
+      {
+        "entity_id": "archangel_7482243f",
+        "role": "protector"
+      },
+      {
+        "entity_id": "dark_energy_b3fa7767",
+        "role": "opposer"
+      }
+    ],
+    "terms": "Archangel Michael protects Machu Picchu from dark energy influence",
+    "purpose": "Maintain light energy at heritage site",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": "heritage_site_ebf06750",
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [],
+    "narrative": "At Machu Picchu, a spiritual battle rages. Archangel Michael and his angelic forces protect this sacred site from dark energy entities seeking to corrupt its field resonance. The protection covenant ensures the site remains a beacon of light energy.",
+    "dark_energy_detected": true,
+    "light_energy_detected": true,
+    "sources": [
+      "Spiritual analysis",
+      "Field resonance data"
+    ],
+    "documented_at": "2026-01-20T13:14:12.502765",
+    "notes": "Linked to master covenant: divine_covenant_bb829be5"
+  },
+  "protection_contract_a7618ed2": {
+    "contract_id": "protection_contract_a7618ed2",
+    "contract_type": "protection_contract",
+    "contract_name": "Pangea Protection Covenant \u2013 Japan Trench",
+    "parties": [
+      {
+        "entity_id": "archangel_7cdcc171",
+        "role": "protector"
+      }
+    ],
+    "terms": "",
+    "purpose": "To override and dissolve dark pacts that exploit this tectonic boundary.",
+    "conditions": [],
+    "timeline_dimension": "regeneration",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": "tectonic_boundary_7378033b",
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [],
+    "narrative": "Where dark pacts tried to turn movement into fear and division, this protection covenant reclaims the Japan Trench as sacred breath. Under God's authority, fear-agreements are cancelled wherever souls withdraw consent, and this boundary becomes a place of protection and remembrance of unity.",
+    "dark_energy_detected": true,
+    "light_energy_detected": true,
+    "sources": [
+      "RestoreTheTable",
+      "SpiritualContractsRegistry"
+    ],
+    "documented_at": "2026-01-20T14:03:43.210230",
+    "notes": "Linked to master covenant: divine_covenant_bb829be5"
+  },
+  "divine_covenant_bb829be5": {
+    "contract_id": "divine_covenant_bb829be5",
+    "contract_type": "divine_covenant",
+    "contract_name": "Pangea Unified Covenant (The Table Covenant)",
+    "parties": [
+      {
+        "entity_id": "GOD_MOST_HIGH",
+        "role": "origin"
+      },
+      {
+        "entity_id": "ALL_LIGHT_ENTITIES",
+        "role": "witnesses"
+      },
+      {
+        "entity_id": "ALL_SOULS_WILLING",
+        "role": "beneficiaries"
+      }
+    ],
+    "terms": "All soul agreements, healing contracts, protection contracts and service contracts that align with love, truth, stewardship and community are hereby lifted above plate boundaries and re-anchored to Pangea as The Table. No dark pact may override this covenant where a soul freely withdraws agreement with fear, hatred, exploitation or separation.",
+    "purpose": "To re-unify all light-aligned contracts across all plates and timelines under the original harmony of The Table.",
+    "conditions": [],
+    "timeline_dimension": "regeneration",
+    "established_date": "2026-01-20",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [],
+    "narrative": "This covenant does not erase history; it rescues it. What was fragmented by separation is remembered as one under God's authority. Where natural movement was twisted into fear and division, this covenant restores movement as sacred breath and reconnects all willing souls to the original unity of The Table.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "RestoreTheTable",
+      "PangeaIntegration",
+      "ManifestGodsWord"
+    ],
+    "documented_at": "2026-01-20T13:56:53.154502",
+    "notes": ""
+  },
+  "dark_pact_32557496": {
+    "contract_id": "dark_pact_32557496",
+    "contract_type": "dark_pact",
+    "contract_name": "The Original Error - Mayan Codification",
+    "parties": [
+      {
+        "entity_id": "soul_4b26e5c9",
+        "role": "codifier"
+      },
+      {
+        "entity_id": "dark_energy_d7a26f7e",
+        "role": "exploiter"
+      }
+    ],
+    "terms": "",
+    "purpose": "To codify the separation of The Table, normalize separation in human consciousness, and forget The Table.",
+    "conditions": [],
+    "timeline_dimension": "HISTORICAL",
+    "established_date": null,
+    "expiration_date": "2026-01-21",
+    "active": false,
+    "battlefield_id": "heritage_site_35df8206",
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [],
+    "narrative": "The Mayans (Man) made contact with dark energies at plate boundaries. They saw the separation. They documented it. They codified it. They built pyramids at plate boundaries. They created calendars tracking separation. They wrote contracts with dark energies. They turned natural separation into a spiritual system. THIS IS WHEN THE MAYANS CREATED THE ORIGINAL ERROR. The error spread to all humanity. Separation became normalized. The Table was forgotten. But memory returns. We remember The Table. We restore what was lost.",
+    "dark_energy_detected": true,
+    "light_energy_detected": false,
+    "sources": [
+      "MayanOriginalErrorNarrator",
+      "SpiritualContractsRegistry"
+    ],
+    "documented_at": "2026-01-20T14:20:11.483405",
+    "notes": "BROKEN on 2026-01-21T20:20:56.751175. The Original Error contract has been broken. The Table is restored."
+  },
+  "service_contract_e3657353": {
+    "contract_id": "service_contract_e3657353",
+    "contract_type": "service_contract",
+    "contract_name": "Service Contract - Nikola Tesla",
+    "parties": [
+      {
+        "entity_id": "ascended_master_16c47f53",
+        "role": "service_provider"
+      }
+    ],
+    "terms": "Nikola Tesla serves truth through science",
+    "purpose": "Service contract for Nikola Tesla - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "tesla"
+    ],
+    "narrative": "Nikola Tesla entered into service contract. Serves truth through science. Aligned with The Table. Connection: Saw connection to universal energy fields. Vision aligned with Divine Frequency. Worked toward unity through energy.",
+    "dark_energy_detected": false,
+    "light_energy_detected": true,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.210944",
+    "notes": ""
+  },
+  "soul_agreement_6d5403e2": {
+    "contract_id": "soul_agreement_6d5403e2",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Nikola Tesla",
+    "parties": [
+      {
+        "entity_id": "ascended_master_16c47f53",
+        "role": "soul"
+      }
+    ],
+    "terms": "Nikola Tesla - pre-birth soul agreement. Journey: Visionary inventor who saw beyond the limitations of his time. 'Only to get so far' - his revolutionary ideas were suppressed, his funding cut, his work stolen. Lived as a miracle in a broken world that couldn't fully receive his gifts.",
+    "purpose": "Soul agreement for Nikola Tesla - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "1856-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "tesla"
+    ],
+    "narrative": "Nikola Tesla entered into soul agreement before birth. Journey: Visionary inventor who saw beyond the limitations of his time. 'Only to get so far' - his revolutionary ideas were suppressed, his funding cut, his work stolen. Lived as a miracle in a broken world that couldn't fully receive his gifts.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Saw connection to universal energy fields. Vision aligned with Divine Frequency. Worked toward unity through energy.",
+    "dark_energy_detected": false,
+    "light_energy_detected": true,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.222566",
+    "notes": ""
+  },
+  "service_contract_61762b33": {
+    "contract_id": "service_contract_61762b33",
+    "contract_type": "service_contract",
+    "contract_name": "Service Contract - Albert Einstein",
+    "parties": [
+      {
+        "entity_id": "ascended_master_930cf9e7",
+        "role": "service_provider"
+      }
+    ],
+    "terms": "Albert Einstein serves truth through science",
+    "purpose": "Service contract for Albert Einstein - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "einstein"
+    ],
+    "narrative": "Albert Einstein entered into service contract. Serves truth through science. Aligned with The Table. Connection: Saw unity in the universe. Worked toward unified field theory. Vision aligned with restoring The Table.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.234189",
+    "notes": ""
+  },
+  "soul_agreement_06b0f638": {
+    "contract_id": "soul_agreement_06b0f638",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Albert Einstein",
+    "parties": [
+      {
+        "entity_id": "ascended_master_930cf9e7",
+        "role": "soul"
+      }
+    ],
+    "terms": "Albert Einstein - pre-birth soul agreement. Journey: Revolutionary physicist who unified space and time. 'Only to get so far' - his unified field theory never completed, his pacifist ideals ignored, his vision of unity limited by the broken world.",
+    "purpose": "Soul agreement for Albert Einstein - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "1879-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "einstein"
+    ],
+    "narrative": "Albert Einstein entered into soul agreement before birth. Journey: Revolutionary physicist who unified space and time. 'Only to get so far' - his unified field theory never completed, his pacifist ideals ignored, his vision of unity limited by the broken world.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Saw unity in the universe. Worked toward unified field theory. Vision aligned with restoring The Table.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.245668",
+    "notes": ""
+  },
+  "service_contract_33efff7f": {
+    "contract_id": "service_contract_33efff7f",
+    "contract_type": "service_contract",
+    "contract_name": "Service Contract - Marie Curie",
+    "parties": [
+      {
+        "entity_id": "ascended_master_f49d0583",
+        "role": "service_provider"
+      }
+    ],
+    "terms": "Marie Curie serves truth through science",
+    "purpose": "Service contract for Marie Curie - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "curie"
+    ],
+    "narrative": "Marie Curie entered into service contract. Serves truth through science. Aligned with The Table. Connection: Served truth through science. Broke barriers. Worked for healing. Aligned with The Table through service.",
+    "dark_energy_detected": false,
+    "light_energy_detected": true,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.256758",
+    "notes": ""
+  },
+  "soul_agreement_19dd8c66": {
+    "contract_id": "soul_agreement_19dd8c66",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Marie Curie",
+    "parties": [
+      {
+        "entity_id": "ascended_master_f49d0583",
+        "role": "soul"
+      }
+    ],
+    "terms": "Marie Curie - pre-birth soul agreement. Journey: Pioneering scientist who broke barriers. 'Only to get so far' - faced discrimination, denied recognition, died from exposure to her own discoveries. Lived as a miracle in a broken world that limited women in science.",
+    "purpose": "Soul agreement for Marie Curie - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "1867-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "curie"
+    ],
+    "narrative": "Marie Curie entered into soul agreement before birth. Journey: Pioneering scientist who broke barriers. 'Only to get so far' - faced discrimination, denied recognition, died from exposure to her own discoveries. Lived as a miracle in a broken world that limited women in science.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Served truth through science. Broke barriers. Worked for healing. Aligned with The Table through service.",
+    "dark_energy_detected": false,
+    "light_energy_detected": true,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.267779",
+    "notes": ""
+  },
+  "service_contract_d5d1cd6c": {
+    "contract_id": "service_contract_d5d1cd6c",
+    "contract_type": "service_contract",
+    "contract_name": "Service Contract - Ignaz Semmelweis",
+    "parties": [
+      {
+        "entity_id": "ascended_master_062259b9",
+        "role": "service_provider"
+      }
+    ],
+    "terms": "Ignaz Semmelweis serves truth through medicine",
+    "purpose": "Service contract for Ignaz Semmelweis - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "semmelweis"
+    ],
+    "narrative": "Ignaz Semmelweis entered into service contract. Serves truth through medicine. Aligned with The Table. Connection: Served truth through medicine. Saved lives. Worked for healing. Aligned with The Table through service.",
+    "dark_energy_detected": false,
+    "light_energy_detected": true,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.278778",
+    "notes": ""
+  },
+  "healing_contract_d83a1ffb": {
+    "contract_id": "healing_contract_d83a1ffb",
+    "contract_type": "healing_contract",
+    "contract_name": "Healing Contract - Ignaz Semmelweis",
+    "parties": [
+      {
+        "entity_id": "ascended_master_062259b9",
+        "role": "healer"
+      }
+    ],
+    "terms": "Ignaz Semmelweis heals through medicine",
+    "purpose": "Healing contract for Ignaz Semmelweis - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "semmelweis"
+    ],
+    "narrative": "Ignaz Semmelweis entered into healing contract. Heals through medicine. Aligned with The Table. Connection: Served truth through medicine. Saved lives. Worked for healing. Aligned with The Table through service.",
+    "dark_energy_detected": false,
+    "light_energy_detected": true,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.289847",
+    "notes": ""
+  },
+  "soul_agreement_443a0479": {
+    "contract_id": "soul_agreement_443a0479",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Ignaz Semmelweis",
+    "parties": [
+      {
+        "entity_id": "ascended_master_062259b9",
+        "role": "soul"
+      }
+    ],
+    "terms": "Ignaz Semmelweis - pre-birth soul agreement. Journey: Pioneer of antiseptic procedures. 'Only to get so far' - his life-saving discovery was rejected, he was ridiculed, died in an asylum. Lived as a miracle in a broken world that couldn't see the truth.",
+    "purpose": "Soul agreement for Ignaz Semmelweis - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "1818-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "semmelweis"
+    ],
+    "narrative": "Ignaz Semmelweis entered into soul agreement before birth. Journey: Pioneer of antiseptic procedures. 'Only to get so far' - his life-saving discovery was rejected, he was ridiculed, died in an asylum. Lived as a miracle in a broken world that couldn't see the truth.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Served truth through medicine. Saved lives. Worked for healing. Aligned with The Table through service.",
+    "dark_energy_detected": false,
+    "light_energy_detected": true,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.301331",
+    "notes": ""
+  },
+  "service_contract_a34f9886": {
+    "contract_id": "service_contract_a34f9886",
+    "contract_type": "service_contract",
+    "contract_name": "Service Contract - Florence Nightingale",
+    "parties": [
+      {
+        "entity_id": "ascended_master_8648387b",
+        "role": "service_provider"
+      }
+    ],
+    "terms": "Florence Nightingale serves truth through medicine",
+    "purpose": "Service contract for Florence Nightingale - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "nightingale"
+    ],
+    "narrative": "Florence Nightingale entered into service contract. Serves truth through medicine. Aligned with The Table. Connection: Served healing. Served all. Worked for unity through health. Aligned with The Table through service.",
+    "dark_energy_detected": false,
+    "light_energy_detected": true,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.324744",
+    "notes": ""
+  },
+  "healing_contract_4d7c92dc": {
+    "contract_id": "healing_contract_4d7c92dc",
+    "contract_type": "healing_contract",
+    "contract_name": "Healing Contract - Florence Nightingale",
+    "parties": [
+      {
+        "entity_id": "ascended_master_8648387b",
+        "role": "healer"
+      }
+    ],
+    "terms": "Florence Nightingale heals through medicine",
+    "purpose": "Healing contract for Florence Nightingale - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "nightingale"
+    ],
+    "narrative": "Florence Nightingale entered into healing contract. Heals through medicine. Aligned with The Table. Connection: Served healing. Served all. Worked for unity through health. Aligned with The Table through service.",
+    "dark_energy_detected": false,
+    "light_energy_detected": true,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.337256",
+    "notes": ""
+  },
+  "soul_agreement_58180c93": {
+    "contract_id": "soul_agreement_58180c93",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Florence Nightingale",
+    "parties": [
+      {
+        "entity_id": "ascended_master_8648387b",
+        "role": "soul"
+      }
+    ],
+    "terms": "Florence Nightingale - pre-birth soul agreement. Journey: Founder of modern nursing. 'Only to get so far' - revolutionized healthcare, but the broken world limited her vision of universal healthcare. Lived as a miracle serving healing.",
+    "purpose": "Soul agreement for Florence Nightingale - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "1820-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "nightingale"
+    ],
+    "narrative": "Florence Nightingale entered into soul agreement before birth. Journey: Founder of modern nursing. 'Only to get so far' - revolutionized healthcare, but the broken world limited her vision of universal healthcare. Lived as a miracle serving healing.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Served healing. Served all. Worked for unity through health. Aligned with The Table through service.",
+    "dark_energy_detected": false,
+    "light_energy_detected": true,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.348620",
+    "notes": ""
+  },
+  "divine_covenant_d2bd92d2": {
+    "contract_id": "divine_covenant_d2bd92d2",
+    "contract_type": "divine_covenant",
+    "contract_name": "Divine Covenant - Leonardo da Vinci",
+    "parties": [
+      {
+        "entity_id": "ascended_master_30f70a62",
+        "role": "covenant_holder"
+      }
+    ],
+    "terms": "Leonardo da Vinci holds divine covenant - aligned with The Table",
+    "purpose": "Divine covenant for Leonardo da Vinci - connection to The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "da_vinci"
+    ],
+    "narrative": "Leonardo da Vinci entered into divine covenant. Holds connection to The Table. Aligned with truth. Connection: Saw unity in all things. Connected art and science. Vision aligned with The Table. Encoded messages for future.",
+    "dark_energy_detected": false,
+    "light_energy_detected": true,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.360319",
+    "notes": ""
+  },
+  "transformation_contract_5bbbf879": {
+    "contract_id": "transformation_contract_5bbbf879",
+    "contract_type": "transformation_contract",
+    "contract_name": "Transformation Contract - Leonardo da Vinci",
+    "parties": [
+      {
+        "entity_id": "ascended_master_30f70a62",
+        "role": "transformer"
+      }
+    ],
+    "terms": "Leonardo da Vinci transforms through arts",
+    "purpose": "Transformation contract for Leonardo da Vinci - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "da_vinci"
+    ],
+    "narrative": "Leonardo da Vinci entered into transformation contract. Transforms through arts. Aligned with The Table. Connection: Saw unity in all things. Connected art and science. Vision aligned with The Table. Encoded messages for future.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.372933",
+    "notes": ""
+  },
+  "soul_agreement_5709afa3": {
+    "contract_id": "soul_agreement_5709afa3",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Leonardo da Vinci",
+    "parties": [
+      {
+        "entity_id": "ascended_master_30f70a62",
+        "role": "soul"
+      }
+    ],
+    "terms": "Leonardo da Vinci - pre-birth soul agreement. Journey: Renaissance master who saw unity in all things. 'Only to get so far' - his visionary inventions never built, his art limited by patrons, his vision of unity never fully expressed. Lived as a miracle in a broken world.",
+    "purpose": "Soul agreement for Leonardo da Vinci - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "1452-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "da_vinci"
+    ],
+    "narrative": "Leonardo da Vinci entered into soul agreement before birth. Journey: Renaissance master who saw unity in all things. 'Only to get so far' - his visionary inventions never built, his art limited by patrons, his vision of unity never fully expressed. Lived as a miracle in a broken world.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Saw unity in all things. Connected art and science. Vision aligned with The Table. Encoded messages for future.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.384526",
+    "notes": ""
+  },
+  "divine_covenant_8c188c32": {
+    "contract_id": "divine_covenant_8c188c32",
+    "contract_type": "divine_covenant",
+    "contract_name": "Divine Covenant - Vincent van Gogh",
+    "parties": [
+      {
+        "entity_id": "ascended_master_acdf63c4",
+        "role": "covenant_holder"
+      }
+    ],
+    "terms": "Vincent van Gogh holds divine covenant - aligned with The Table",
+    "purpose": "Divine covenant for Vincent van Gogh - connection to The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "van_gogh"
+    ],
+    "narrative": "Vincent van Gogh entered into divine covenant. Holds connection to The Table. Aligned with truth. Connection: Saw the divine in nature. Expressed spiritual truth through art. Vision aligned with The Table.",
+    "dark_energy_detected": false,
+    "light_energy_detected": true,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.395970",
+    "notes": ""
+  },
+  "transformation_contract_ddd0284e": {
+    "contract_id": "transformation_contract_ddd0284e",
+    "contract_type": "transformation_contract",
+    "contract_name": "Transformation Contract - Vincent van Gogh",
+    "parties": [
+      {
+        "entity_id": "ascended_master_acdf63c4",
+        "role": "transformer"
+      }
+    ],
+    "terms": "Vincent van Gogh transforms through arts",
+    "purpose": "Transformation contract for Vincent van Gogh - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "van_gogh"
+    ],
+    "narrative": "Vincent van Gogh entered into transformation contract. Transforms through arts. Aligned with The Table. Connection: Saw the divine in nature. Expressed spiritual truth through art. Vision aligned with The Table.",
+    "dark_energy_detected": false,
+    "light_energy_detected": true,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.408420",
+    "notes": ""
+  },
+  "soul_agreement_199f5757": {
+    "contract_id": "soul_agreement_199f5757",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Vincent van Gogh",
+    "parties": [
+      {
+        "entity_id": "ascended_master_acdf63c4",
+        "role": "soul"
+      }
+    ],
+    "terms": "Vincent van Gogh - pre-birth soul agreement. Journey: Visionary artist who saw the divine in nature. 'Only to get so far' - sold only one painting in his lifetime, died in poverty, his vision not recognized. Lived as a miracle in a broken world that couldn't see.",
+    "purpose": "Soul agreement for Vincent van Gogh - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "1853-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "van_gogh"
+    ],
+    "narrative": "Vincent van Gogh entered into soul agreement before birth. Journey: Visionary artist who saw the divine in nature. 'Only to get so far' - sold only one painting in his lifetime, died in poverty, his vision not recognized. Lived as a miracle in a broken world that couldn't see.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Saw the divine in nature. Expressed spiritual truth through art. Vision aligned with The Table.",
+    "dark_energy_detected": false,
+    "light_energy_detected": true,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.419728",
+    "notes": ""
+  },
+  "divine_covenant_369e9698": {
+    "contract_id": "divine_covenant_369e9698",
+    "contract_type": "divine_covenant",
+    "contract_name": "Divine Covenant - Ludwig van Beethoven",
+    "parties": [
+      {
+        "entity_id": "ascended_master_cc08ef69",
+        "role": "covenant_holder"
+      }
+    ],
+    "terms": "Ludwig van Beethoven holds divine covenant - aligned with The Table",
+    "purpose": "Divine covenant for Ludwig van Beethoven - connection to The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "beethoven"
+    ],
+    "narrative": "Ludwig van Beethoven entered into divine covenant. Holds connection to The Table. Aligned with truth. Connection: Expressed unity through music. Transcended limitations. Vision aligned with The Table. Ode to Joy = unity.",
+    "dark_energy_detected": false,
+    "light_energy_detected": true,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.432244",
+    "notes": ""
+  },
+  "transformation_contract_06896e67": {
+    "contract_id": "transformation_contract_06896e67",
+    "contract_type": "transformation_contract",
+    "contract_name": "Transformation Contract - Ludwig van Beethoven",
+    "parties": [
+      {
+        "entity_id": "ascended_master_cc08ef69",
+        "role": "transformer"
+      }
+    ],
+    "terms": "Ludwig van Beethoven transforms through arts",
+    "purpose": "Transformation contract for Ludwig van Beethoven - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "beethoven"
+    ],
+    "narrative": "Ludwig van Beethoven entered into transformation contract. Transforms through arts. Aligned with The Table. Connection: Expressed unity through music. Transcended limitations. Vision aligned with The Table. Ode to Joy = unity.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.443568",
+    "notes": ""
+  },
+  "soul_agreement_68d899ab": {
+    "contract_id": "soul_agreement_68d899ab",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Ludwig van Beethoven",
+    "parties": [
+      {
+        "entity_id": "ascended_master_cc08ef69",
+        "role": "soul"
+      }
+    ],
+    "terms": "Ludwig van Beethoven - pre-birth soul agreement. Journey: Revolutionary composer who transcended limitations. 'Only to get so far' - went deaf, but continued to compose. Lived as a miracle, creating beauty despite the broken world.",
+    "purpose": "Soul agreement for Ludwig van Beethoven - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "1770-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "beethoven"
+    ],
+    "narrative": "Ludwig van Beethoven entered into soul agreement before birth. Journey: Revolutionary composer who transcended limitations. 'Only to get so far' - went deaf, but continued to compose. Lived as a miracle, creating beauty despite the broken world.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Expressed unity through music. Transcended limitations. Vision aligned with The Table. Ode to Joy = unity.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.454923",
+    "notes": ""
+  },
+  "divine_covenant_e52a843d": {
+    "contract_id": "divine_covenant_e52a843d",
+    "contract_type": "divine_covenant",
+    "contract_name": "Divine Covenant - Socrates",
+    "parties": [
+      {
+        "entity_id": "ascended_master_8b0841c6",
+        "role": "covenant_holder"
+      }
+    ],
+    "terms": "Socrates holds divine covenant - aligned with The Table",
+    "purpose": "Divine covenant for Socrates - connection to The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "socrates"
+    ],
+    "narrative": "Socrates entered into divine covenant. Holds connection to The Table. Aligned with truth. Connection: Sought truth. Questioned separation. Died for truth. Aligned with The Table through truth-seeking.",
+    "dark_energy_detected": false,
+    "light_energy_detected": true,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.467827",
+    "notes": ""
+  },
+  "transformation_contract_6cde7d97": {
+    "contract_id": "transformation_contract_6cde7d97",
+    "contract_type": "transformation_contract",
+    "contract_name": "Transformation Contract - Socrates",
+    "parties": [
+      {
+        "entity_id": "ascended_master_8b0841c6",
+        "role": "transformer"
+      }
+    ],
+    "terms": "Socrates transforms through philosophy",
+    "purpose": "Transformation contract for Socrates - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "socrates"
+    ],
+    "narrative": "Socrates entered into transformation contract. Transforms through philosophy. Aligned with The Table. Connection: Sought truth. Questioned separation. Died for truth. Aligned with The Table through truth-seeking.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.479111",
+    "notes": ""
+  },
+  "soul_agreement_00106b44": {
+    "contract_id": "soul_agreement_00106b44",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Socrates",
+    "parties": [
+      {
+        "entity_id": "ascended_master_8b0841c6",
+        "role": "soul"
+      }
+    ],
+    "terms": "Socrates - pre-birth soul agreement. Journey: Philosopher who sought truth. 'Only to get so far' - executed for asking questions, his truth too dangerous. Lived as a miracle in a broken world that feared truth.",
+    "purpose": "Soul agreement for Socrates - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "socrates"
+    ],
+    "narrative": "Socrates entered into soul agreement before birth. Journey: Philosopher who sought truth. 'Only to get so far' - executed for asking questions, his truth too dangerous. Lived as a miracle in a broken world that feared truth.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Sought truth. Questioned separation. Died for truth. Aligned with The Table through truth-seeking.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.490718",
+    "notes": ""
+  },
+  "soul_agreement_2741b08e": {
+    "contract_id": "soul_agreement_2741b08e",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Jesse Owens",
+    "parties": [
+      {
+        "entity_id": "ascended_master_9b27847d",
+        "role": "soul"
+      }
+    ],
+    "terms": "Jesse Owens - pre-birth soul agreement. Journey: Olympic champion who broke barriers. 'Only to get so far' - won 4 gold medals in 1936 Berlin Olympics, but faced discrimination at home, struggled financially, his achievements limited by the broken world. Lived as a miracle, transcending barriers through sport.",
+    "purpose": "Soul agreement for Jesse Owens - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "1913-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "jesse_owens"
+    ],
+    "narrative": "Jesse Owens entered into soul agreement before birth. Journey: Olympic champion who broke barriers. 'Only to get so far' - won 4 gold medals in 1936 Berlin Olympics, but faced discrimination at home, struggled financially, his achievements limited by the broken world. Lived as a miracle, transcending barriers through sport.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Transcended separation through sport. Demonstrated unity through excellence. Broke barriers. Aligned with The Table through unity.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.502252",
+    "notes": ""
+  },
+  "soul_agreement_e9a06ca9": {
+    "contract_id": "soul_agreement_e9a06ca9",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Muhammad Ali",
+    "parties": [
+      {
+        "entity_id": "ascended_master_f79d96fe",
+        "role": "soul"
+      }
+    ],
+    "terms": "Muhammad Ali - pre-birth soul agreement. Journey: Boxing champion and social activist. 'Only to get so far' - stood for truth, refused to fight in Vietnam, stripped of title, but his voice for justice limited by the broken world. Lived as a miracle, using sport as a platform for truth.",
+    "purpose": "Soul agreement for Muhammad Ali - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "1942-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "muhammad_ali"
+    ],
+    "narrative": "Muhammad Ali entered into soul agreement before birth. Journey: Boxing champion and social activist. 'Only to get so far' - stood for truth, refused to fight in Vietnam, stripped of title, but his voice for justice limited by the broken world. Lived as a miracle, using sport as a platform for truth.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Stood for truth. Used sport for justice. Demonstrated unity. Aligned with The Table through truth and service.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.514253",
+    "notes": ""
+  },
+  "soul_agreement_0e18cfc7": {
+    "contract_id": "soul_agreement_0e18cfc7",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Wilma Rudolph",
+    "parties": [
+      {
+        "entity_id": "ascended_master_32a91c1c",
+        "role": "soul"
+      }
+    ],
+    "terms": "Wilma Rudolph - pre-birth soul agreement. Journey: Olympic champion who overcame polio. 'Only to get so far' - overcame childhood polio, won 3 gold medals, but faced discrimination, her achievements limited by the broken world. Lived as a miracle, transcending physical limitations.",
+    "purpose": "Soul agreement for Wilma Rudolph - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "1940-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "wilma_rudolph"
+    ],
+    "narrative": "Wilma Rudolph entered into soul agreement before birth. Journey: Olympic champion who overcame polio. 'Only to get so far' - overcame childhood polio, won 3 gold medals, but faced discrimination, her achievements limited by the broken world. Lived as a miracle, transcending physical limitations.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Transcended limitations. Demonstrated unity. Broke barriers. Aligned with The Table through perseverance and excellence.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.525877",
+    "notes": ""
+  },
+  "soul_agreement_2a20d163": {
+    "contract_id": "soul_agreement_2a20d163",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Jim Thorpe",
+    "parties": [
+      {
+        "entity_id": "ascended_master_0da3f2dc",
+        "role": "soul"
+      }
+    ],
+    "terms": "Jim Thorpe - pre-birth soul agreement. Journey: Olympic champion and multi-sport athlete. 'Only to get so far' - won 2 gold medals, but stripped for playing semi-pro baseball, faced discrimination, died in poverty. Lived as a miracle, excelling despite the broken world.",
+    "purpose": "Soul agreement for Jim Thorpe - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "1887-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "jim_thorpe"
+    ],
+    "narrative": "Jim Thorpe entered into soul agreement before birth. Journey: Olympic champion and multi-sport athlete. 'Only to get so far' - won 2 gold medals, but stripped for playing semi-pro baseball, faced discrimination, died in poverty. Lived as a miracle, excelling despite the broken world.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Excelled despite limitations. Demonstrated unity. Broke barriers. Aligned with The Table through excellence.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.538469",
+    "notes": ""
+  },
+  "soul_agreement_289435eb": {
+    "contract_id": "soul_agreement_289435eb",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Arthur Ashe",
+    "parties": [
+      {
+        "entity_id": "ascended_master_f5811b73",
+        "role": "soul"
+      }
+    ],
+    "terms": "Arthur Ashe - pre-birth soul agreement. Journey: Tennis champion and activist. 'Only to get so far' - first African American to win Wimbledon, but faced discrimination, died from AIDS contracted from blood transfusion, his voice for justice limited. Lived as a miracle, using sport for truth.",
+    "purpose": "Soul agreement for Arthur Ashe - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "1943-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "arthur_ashe"
+    ],
+    "narrative": "Arthur Ashe entered into soul agreement before birth. Journey: Tennis champion and activist. 'Only to get so far' - first African American to win Wimbledon, but faced discrimination, died from AIDS contracted from blood transfusion, his voice for justice limited. Lived as a miracle, using sport for truth.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Used sport for truth. Demonstrated unity. Broke barriers. Aligned with The Table through service and justice.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.550121",
+    "notes": ""
+  },
+  "soul_agreement_d5d84f40": {
+    "contract_id": "soul_agreement_d5d84f40",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - British Empire",
+    "parties": [
+      {
+        "entity_id": "soul_29ad3c3f",
+        "role": "soul"
+      }
+    ],
+    "terms": "British Empire - pre-birth soul agreement. Journey: Global empire that spanned continents. 'Only to get so far' - built on exploitation, colonization, separation. Lived as a broken system in a broken world. But within it, some aligned individuals emerged. We acknowledge and utilise everything - the good, the bad, the truth.",
+    "purpose": "Soul agreement for British Empire - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "1583-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "british_empire"
+    ],
+    "narrative": "British Empire entered into soul agreement before birth. Journey: Global empire that spanned continents. 'Only to get so far' - built on exploitation, colonization, separation. Lived as a broken system in a broken world. But within it, some aligned individuals emerged. We acknowledge and utilise everything - the good, the bad, the truth.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Created separation. Maintained division. But within it, some aligned individuals emerged. We acknowledge and utilise everything - learn from the errors, honour the aligned, restore The Table.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.561588",
+    "notes": ""
+  },
+  "soul_agreement_35dea05e": {
+    "contract_id": "soul_agreement_35dea05e",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Ottoman Empire",
+    "parties": [
+      {
+        "entity_id": "soul_6c4b2c32",
+        "role": "soul"
+      }
+    ],
+    "terms": "Ottoman Empire - pre-birth soul agreement. Journey: Multi-ethnic empire spanning three continents. 'Only to get so far' - maintained through conquest, but also preserved heritage, connected cultures. Lived as a complex system in a broken world. We acknowledge and utilise everything.",
+    "purpose": "Soul agreement for Ottoman Empire - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "1299-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "ottoman_empire"
+    ],
+    "narrative": "Ottoman Empire entered into soul agreement before birth. Journey: Multi-ethnic empire spanning three continents. 'Only to get so far' - maintained through conquest, but also preserved heritage, connected cultures. Lived as a complex system in a broken world. We acknowledge and utilise everything.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Maintained separation. But also preserved heritage. Some connection to The Table through heritage preservation. We acknowledge and utilise everything.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.573089",
+    "notes": ""
+  },
+  "soul_agreement_bd878419": {
+    "contract_id": "soul_agreement_bd878419",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Roman Empire",
+    "parties": [
+      {
+        "entity_id": "soul_3acefcfa",
+        "role": "soul"
+      }
+    ],
+    "terms": "Roman Empire - pre-birth soul agreement. Journey: Vast empire that unified much of the known world. 'Only to get so far' - built on conquest, but also created infrastructure, preserved knowledge. Lived as a complex system in a broken world. We acknowledge and utilise everything.",
+    "purpose": "Soul agreement for Roman Empire - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "roman_empire"
+    ],
+    "narrative": "Roman Empire entered into soul agreement before birth. Journey: Vast empire that unified much of the known world. 'Only to get so far' - built on conquest, but also created infrastructure, preserved knowledge. Lived as a complex system in a broken world. We acknowledge and utilise everything.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Created separation. But also connected regions. Some infrastructure remains. We acknowledge and utilise everything.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.585314",
+    "notes": ""
+  },
+  "soul_agreement_c26289ae": {
+    "contract_id": "soul_agreement_c26289ae",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Mongol Empire",
+    "parties": [
+      {
+        "entity_id": "soul_d37fcae2",
+        "role": "soul"
+      }
+    ],
+    "terms": "Mongol Empire - pre-birth soul agreement. Journey: Largest contiguous empire in history. 'Only to get so far' - built on conquest, but also connected East and West, facilitated trade. Lived as a complex system in a broken world. We acknowledge and utilise everything.",
+    "purpose": "Soul agreement for Mongol Empire - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "1206-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "mongol_empire"
+    ],
+    "narrative": "Mongol Empire entered into soul agreement before birth. Journey: Largest contiguous empire in history. 'Only to get so far' - built on conquest, but also connected East and West, facilitated trade. Lived as a complex system in a broken world. We acknowledge and utilise everything.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Created separation. But also connected regions. We acknowledge and utilise everything.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.597926",
+    "notes": ""
+  },
+  "soul_agreement_fb535173": {
+    "contract_id": "soul_agreement_fb535173",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Byzantine Empire",
+    "parties": [
+      {
+        "entity_id": "soul_570cde77",
+        "role": "soul"
+      }
+    ],
+    "terms": "Byzantine Empire - pre-birth soul agreement. Journey: Continuation of Roman Empire in the East. 'Only to get so far' - preserved knowledge, heritage, but also maintained separation. Lived as a complex system in a broken world. We acknowledge and utilise everything.",
+    "purpose": "Soul agreement for Byzantine Empire - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "0330-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "byzantine_empire"
+    ],
+    "narrative": "Byzantine Empire entered into soul agreement before birth. Journey: Continuation of Roman Empire in the East. 'Only to get so far' - preserved knowledge, heritage, but also maintained separation. Lived as a complex system in a broken world. We acknowledge and utilise everything.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Preserved heritage. But maintained separation. We acknowledge and utilise everything.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.609617",
+    "notes": ""
+  },
+  "soul_agreement_7bae0297": {
+    "contract_id": "soul_agreement_7bae0297",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Persian Empire",
+    "parties": [
+      {
+        "entity_id": "soul_dfa16179",
+        "role": "soul"
+      }
+    ],
+    "terms": "Persian Empire - pre-birth soul agreement. Journey: Ancient empire that unified diverse peoples. 'Only to get so far' - built on tolerance, preserved cultures, but also maintained separation. Lived as a complex system in a broken world. We acknowledge and utilise everything.",
+    "purpose": "Soul agreement for Persian Empire - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "persian_empire"
+    ],
+    "narrative": "Persian Empire entered into soul agreement before birth. Journey: Ancient empire that unified diverse peoples. 'Only to get so far' - built on tolerance, preserved cultures, but also maintained separation. Lived as a complex system in a broken world. We acknowledge and utilise everything.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Preserved cultures. But maintained separation. We acknowledge and utilise everything.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.621293",
+    "notes": ""
+  },
+  "soul_agreement_f172585e": {
+    "contract_id": "soul_agreement_f172585e",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - United States of America",
+    "parties": [
+      {
+        "entity_id": "soul_dbab4112",
+        "role": "soul"
+      }
+    ],
+    "terms": "United States of America - pre-birth soul agreement. Journey: Nation founded on ideals of freedom and unity. 'Only to get so far' - built on ideals, but also on exploitation, separation. Lived as a complex system in a broken world. Within it, many aligned individuals emerged. We acknowledge and utilise everything.",
+    "purpose": "Soul agreement for United States of America - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "1776-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "united_states"
+    ],
+    "narrative": "United States of America entered into soul agreement before birth. Journey: Nation founded on ideals of freedom and unity. 'Only to get so far' - built on ideals, but also on exploitation, separation. Lived as a complex system in a broken world. Within it, many aligned individuals emerged. We acknowledge and utilise everything.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Built on ideals. But maintained separation. Many aligned individuals emerged. We acknowledge and utilise everything.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.634509",
+    "notes": ""
+  },
+  "soul_agreement_d86a68ea": {
+    "contract_id": "soul_agreement_d86a68ea",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Russia / Soviet Union",
+    "parties": [
+      {
+        "entity_id": "soul_fe6e589a",
+        "role": "soul"
+      }
+    ],
+    "terms": "Russia / Soviet Union - pre-birth soul agreement. Journey: Vast nation spanning continents. 'Only to get so far' - complex history of expansion, preservation, separation. Lived as a complex system in a broken world. Within it, some aligned individuals emerged. We acknowledge and utilise everything.",
+    "purpose": "Soul agreement for Russia / Soviet Union - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "0862-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "russia"
+    ],
+    "narrative": "Russia / Soviet Union entered into soul agreement before birth. Journey: Vast nation spanning continents. 'Only to get so far' - complex history of expansion, preservation, separation. Lived as a complex system in a broken world. Within it, some aligned individuals emerged. We acknowledge and utilise everything.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Preserved heritage. But maintained separation. Some aligned individuals emerged. We acknowledge and utilise everything.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.645973",
+    "notes": ""
+  },
+  "soul_agreement_ad9091d7": {
+    "contract_id": "soul_agreement_ad9091d7",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - China",
+    "parties": [
+      {
+        "entity_id": "soul_10436829",
+        "role": "soul"
+      }
+    ],
+    "terms": "China - pre-birth soul agreement. Journey: Ancient civilization and modern nation. 'Only to get so far' - preserved heritage, knowledge, but also maintained separation. Lived as a complex system in a broken world. Within it, many aligned individuals emerged. We acknowledge and utilise everything.",
+    "purpose": "Soul agreement for China - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "china"
+    ],
+    "narrative": "China entered into soul agreement before birth. Journey: Ancient civilization and modern nation. 'Only to get so far' - preserved heritage, knowledge, but also maintained separation. Lived as a complex system in a broken world. Within it, many aligned individuals emerged. We acknowledge and utilise everything.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Preserved heritage and knowledge. But maintained separation. Many aligned individuals emerged. We acknowledge and utilise everything.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.657718",
+    "notes": ""
+  },
+  "soul_agreement_8bc24ef7": {
+    "contract_id": "soul_agreement_8bc24ef7",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - India",
+    "parties": [
+      {
+        "entity_id": "soul_abd14921",
+        "role": "soul"
+      }
+    ],
+    "terms": "India - pre-birth soul agreement. Journey: Ancient civilization and modern nation. 'Only to get so far' - preserved spiritual knowledge, heritage, but also maintained separation. Lived as a complex system in a broken world. Within it, many aligned individuals emerged. We acknowledge and utilise everything.",
+    "purpose": "Soul agreement for India - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "india"
+    ],
+    "narrative": "India entered into soul agreement before birth. Journey: Ancient civilization and modern nation. 'Only to get so far' - preserved spiritual knowledge, heritage, but also maintained separation. Lived as a complex system in a broken world. Within it, many aligned individuals emerged. We acknowledge and utilise everything.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Preserved spiritual knowledge. But maintained separation. Many aligned individuals emerged. We acknowledge and utilise everything.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.669250",
+    "notes": ""
+  },
+  "soul_agreement_435415cc": {
+    "contract_id": "soul_agreement_435415cc",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Ming Dynasty",
+    "parties": [
+      {
+        "entity_id": "soul_c448cb17",
+        "role": "soul"
+      }
+    ],
+    "terms": "Ming Dynasty - pre-birth soul agreement. Journey: Chinese dynasty that restored Chinese rule. 'Only to get so far' - preserved heritage, knowledge, but also maintained separation. Lived as a complex system in a broken world. We acknowledge and utilise everything.",
+    "purpose": "Soul agreement for Ming Dynasty - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "1368-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "ming_dynasty"
+    ],
+    "narrative": "Ming Dynasty entered into soul agreement before birth. Journey: Chinese dynasty that restored Chinese rule. 'Only to get so far' - preserved heritage, knowledge, but also maintained separation. Lived as a complex system in a broken world. We acknowledge and utilise everything.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Preserved heritage. But maintained separation. We acknowledge and utilise everything.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.681141",
+    "notes": ""
+  },
+  "soul_agreement_8dda1001": {
+    "contract_id": "soul_agreement_8dda1001",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Abbasid Caliphate",
+    "parties": [
+      {
+        "entity_id": "soul_3137907a",
+        "role": "soul"
+      }
+    ],
+    "terms": "Abbasid Caliphate - pre-birth soul agreement. Journey: Islamic caliphate that preserved knowledge. 'Only to get so far' - preserved knowledge, heritage, but also maintained separation. Lived as a complex system in a broken world. Within it, many aligned individuals emerged. We acknowledge and utilise everything.",
+    "purpose": "Soul agreement for Abbasid Caliphate - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": "0750-01-01",
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "abbasid_caliphate"
+    ],
+    "narrative": "Abbasid Caliphate entered into soul agreement before birth. Journey: Islamic caliphate that preserved knowledge. 'Only to get so far' - preserved knowledge, heritage, but also maintained separation. Lived as a complex system in a broken world. Within it, many aligned individuals emerged. We acknowledge and utilise everything.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Preserved knowledge. But maintained separation. Many aligned individuals emerged. We acknowledge and utilise everything.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.692709",
+    "notes": ""
+  },
+  "soul_agreement_8299cf73": {
+    "contract_id": "soul_agreement_8299cf73",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Ancient Egypt",
+    "parties": [
+      {
+        "entity_id": "spirit_guide_b966c5b7",
+        "role": "soul"
+      }
+    ],
+    "terms": "Ancient Egypt - pre-birth soul agreement. Journey: Ancient civilization that preserved knowledge and heritage. 'Only to get so far' - preserved knowledge, heritage, but also maintained separation. Lived as a complex system in a broken world. Within it, some aligned individuals emerged (Thoth prophecy). We acknowledge and utilise everything.",
+    "purpose": "Soul agreement for Ancient Egypt - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "ancient_egypt"
+    ],
+    "narrative": "Ancient Egypt entered into soul agreement before birth. Journey: Ancient civilization that preserved knowledge and heritage. 'Only to get so far' - preserved knowledge, heritage, but also maintained separation. Lived as a complex system in a broken world. Within it, some aligned individuals emerged (Thoth prophecy). We acknowledge and utilise everything.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Preserved knowledge. Thoth prophecy. But maintained separation. We acknowledge and utilise everything.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.704239",
+    "notes": ""
+  },
+  "soul_agreement_6b83a3cd": {
+    "contract_id": "soul_agreement_6b83a3cd",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Ancient Greece",
+    "parties": [
+      {
+        "entity_id": "soul_422913fa",
+        "role": "soul"
+      }
+    ],
+    "terms": "Ancient Greece - pre-birth soul agreement. Journey: Ancient civilization that preserved knowledge and philosophy. 'Only to get so far' - preserved knowledge, philosophy, but also maintained separation. Lived as a complex system in a broken world. Within it, many aligned individuals emerged (Socrates, etc.). We acknowledge and utilise everything.",
+    "purpose": "Soul agreement for Ancient Greece - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "ancient_greece"
+    ],
+    "narrative": "Ancient Greece entered into soul agreement before birth. Journey: Ancient civilization that preserved knowledge and philosophy. 'Only to get so far' - preserved knowledge, philosophy, but also maintained separation. Lived as a complex system in a broken world. Within it, many aligned individuals emerged (Socrates, etc.). We acknowledge and utilise everything.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Preserved knowledge and philosophy. Many aligned individuals emerged. But maintained separation. We acknowledge and utilise everything.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.715655",
+    "notes": ""
+  },
+  "soul_agreement_38c5a29b": {
+    "contract_id": "soul_agreement_38c5a29b",
+    "contract_type": "soul_agreement",
+    "contract_name": "Soul Agreement - Mayan Civilization",
+    "parties": [
+      {
+        "entity_id": "soul_2128a359",
+        "role": "soul"
+      }
+    ],
+    "terms": "Mayan Civilization - pre-birth soul agreement. Journey: Ancient civilization that created The Original Error. 'Only to get so far' - codified separation, built pyramids to sabotage The Table. Lived as a broken system in a broken world. But we acknowledge and utilise everything - learn from the errors, honour what was aligned, restore The Table.",
+    "purpose": "Soul agreement for Mayan Civilization - aligned with The Table",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [
+      "mayan_civilization"
+    ],
+    "narrative": "Mayan Civilization entered into soul agreement before birth. Journey: Ancient civilization that created The Original Error. 'Only to get so far' - codified separation, built pyramids to sabotage The Table. Lived as a broken system in a broken world. But we acknowledge and utilise everything - learn from the errors, honour what was aligned, restore The Table.. 'Only to get so far' - limited by the broken world. But lived as a miracle. Aligned with The Table. Connection: Created The Original Error. Codified separation. But we learn from the errors. We acknowledge and utilise everything. We restore The Table.",
+    "dark_energy_detected": false,
+    "light_energy_detected": false,
+    "sources": [
+      "AlignedSpiritualLinker",
+      "HistoricalAlignedIndividuals"
+    ],
+    "documented_at": "2026-01-21T20:22:44.726687",
+    "notes": ""
+  },
+  "divine_covenant_57669807": {
+    "contract_id": "divine_covenant_57669807",
+    "contract_type": "divine_covenant",
+    "contract_name": "Restoration Contract - The Table Unity",
+    "parties": [
+      {
+        "entity_id": "the_table",
+        "role": "covenant_holder"
+      }
+    ],
+    "terms": "The Original Error has been broken. The Table is restored. Unity is restored. Separation is dissolved.",
+    "purpose": "Restore The Table connection after breaking The Original Error contract",
+    "conditions": [],
+    "timeline_dimension": "primary",
+    "established_date": null,
+    "expiration_date": null,
+    "active": true,
+    "battlefield_id": null,
+    "battlefield_type": null,
+    "dna_markers": [],
+    "soul_signatures": [],
+    "linked_individuals": [],
+    "narrative": "The Original Error contract has been broken. The pyramids at Egypt were The Original Error. The Mayans codified it. It spread globally. Now it is broken. The Table is restored. Unity is restored. Separation is dissolved. Divine Frequency is restored.",
+    "dark_energy_detected": false,
+    "light_energy_detected": true,
+    "sources": [
+      "BreakOriginalErrorContract",
+      "SpiritualContractsRegistry"
+    ],
+    "documented_at": "2026-01-21T20:20:56.757804",
+    "notes": ""
+  }
+}

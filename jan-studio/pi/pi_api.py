@@ -1,0 +1,112 @@
+"""
+Raspberry Pi Optimized API
+
+Lightweight FastAPI endpoints optimized for Pi 5.
+"""
+
+from fastapi import FastAPI, HTTPException
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+from pydantic import BaseModel
+from typing import Optional, Dict, Any
+import os
+from local_ai_service import get_tinyllama, get_whisper, get_musicgen
+
+app = FastAPI(title="JAN Studio Pi", version="1.0.0-pi")
+
+# Static files (lightweight frontend)
+STATIC_DIR = os.path.join(os.path.dirname(__file__), "..", "frontend", "dist")
+
+
+class GenerationRequest(BaseModel):
+    prompt: str
+    persona: Optional[Dict[str, Any]] = None
+    max_length: int = 512
+    temperature: float = 0.7
+
+
+class GenerationResponse(BaseModel):
+    content: str
+    model: str = "tinyllama"
+    tokens: Optional[int] = None
+
+
+@app.get("/")
+async def root():
+    """Serve lightweight frontend."""
+    index_path = os.path.join(STATIC_DIR, "index.html")
+    if os.path.exists(index_path):
+        return FileResponse(index_path)
+    return {"message": "JAN Studio Pi API", "status": "running"}
+
+
+@app.post("/api/generate", response_model=GenerationResponse)
+async def generate_content(request: GenerationRequest):
+    """Generate content using TinyLlama."""
+    try:
+        tinyllama = get_tinyllama()
+        content = tinyllama.generate(
+            prompt=request.prompt,
+            max_length=request.max_length,
+            temperature=request.temperature
+        )
+        
+        return GenerationResponse(
+            content=content,
+            model="tinyllama",
+            tokens=len(content.split())
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/health")
+async def health_check():
+    """Health check endpoint."""
+    return {
+        "status": "healthy",
+        "models": {
+            "tinyllama": get_tinyllama().loaded,
+            "whisper": get_whisper().loaded,
+            "musicgen": get_musicgen().loaded
+        }
+    }
+
+
+@app.get("/api/stats")
+async def get_stats():
+    """Get system statistics."""
+    import psutil
+    
+    return {
+        "memory": {
+            "used_mb": psutil.virtual_memory().used / 1024 / 1024,
+            "available_mb": psutil.virtual_memory().available / 1024 / 1024,
+            "percent": psutil.virtual_memory().percent
+        },
+        "cpu": {
+            "percent": psutil.cpu_percent(interval=1),
+            "count": psutil.cpu_count()
+        },
+        "disk": {
+            "used_gb": psutil.disk_usage("/").used / 1024 / 1024 / 1024,
+            "free_gb": psutil.disk_usage("/").free / 1024 / 1024 / 1024
+        }
+    }
+
+
+# Mount static files if they exist
+if os.path.exists(STATIC_DIR):
+    app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(
+        app,
+        host="0.0.0.0",
+        port=8000,
+        workers=1,  # Single worker for Pi
+        log_level="info"
+    )
+

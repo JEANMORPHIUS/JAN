@@ -1,0 +1,166 @@
+{
+  "timeline_name": "1996_chapter",
+  "audit_timestamp": "2026-01-20T04:36:51.918243",
+  "total_events": 3,
+  "total_pillars": 2,
+  "year_range": {
+    "start": 1996,
+    "end": 2010
+  },
+  "overall_metrics": {
+    "avg_field_resonance": 0.8333333333333334,
+    "avg_field_space_resonance": 0.95,
+    "dark_energy_events": 0,
+    "regeneration_events": 0,
+    "law_41_compliance_rate": 1.0
+  },
+  "pillars": [
+    {
+      "year": 2000,
+      "age": 29,
+      "location": "London",
+      "field_resonance": 1.0,
+      "vibration_level": "high",
+      "event_type": "spiral",
+      "grid_connection": null,
+      "cleansed_narrative": "\n        The breakthrough year. Everything came together. New career, \n        new relationship, felt like a miracle. The transformation was complete.\n        "
+    },
+    {
+      "year": 2010,
+      "age": 39,
+      "location": "London",
+      "field_resonance": 1.0,
+      "vibration_level": "high",
+      "event_type": "elliptical",
+      "grid_connection": "Extended Stable Connection (10 years)",
+      "cleansed_narrative": "\n        Another breakthrough. The work I started in 2000 finally \n        reached its full potential. This was the year I understood \n        what 1996 was really about.\n        "
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_name": "Chapter 1995-1999",
+      "start_year": 1995,
+      "end_year": 1999,
+      "event_count": 1,
+      "field_resonance_avg": 0.5,
+      "field_space_avg": null,
+      "dominant_vibration": "low",
+      "dominant_form": "irregular",
+      "pillar_count": 0,
+      "field_space_summary": null
+    },
+    {
+      "chapter_name": "Chapter 2000-2004",
+      "start_year": 2000,
+      "end_year": 2004,
+      "event_count": 1,
+      "field_resonance_avg": 1.0,
+      "field_space_avg": 0.8999999999999999,
+      "dominant_vibration": "high",
+      "dominant_form": "spiral",
+      "pillar_count": 1,
+      "field_space_summary": "Transformation period - low to high vibration. Moderate gap (4.0 years) - preparation period. Seed was growing during this period - foundation strengthening."
+    },
+    {
+      "chapter_name": "Chapter 2010-2014",
+      "start_year": 2010,
+      "end_year": 2014,
+      "event_count": 1,
+      "field_resonance_avg": 1.0,
+      "field_space_avg": 1.0,
+      "dominant_vibration": "high",
+      "dominant_form": "elliptical",
+      "pillar_count": 1,
+      "field_space_summary": "Steady state - maintaining vibration. Extended silence (10.0 years) - deep foundation building. Seed was growing during this period - foundation strengthening."
+    },
+    {
+      "chapter_name": "Chapter 1995-1999",
+      "start_year": 1995,
+      "end_year": 1999,
+      "event_count": 1,
+      "field_resonance_avg": 0.5,
+      "field_space_avg": null,
+      "dominant_vibration": "low",
+      "dominant_form": "irregular",
+      "pillar_count": 0,
+      "field_space_summary": null
+    },
+    {
+      "chapter_name": "Chapter 2000-2004",
+      "start_year": 2000,
+      "end_year": 2004,
+      "event_count": 1,
+      "field_resonance_avg": 1.0,
+      "field_space_avg": 0.8999999999999999,
+      "dominant_vibration": "high",
+      "dominant_form": "spiral",
+      "pillar_count": 1,
+      "field_space_summary": "Transformation period - low to high vibration. Moderate gap (4.0 years) - preparation period. Seed was growing during this period - foundation strengthening."
+    },
+    {
+      "chapter_name": "Chapter 2010-2014",
+      "start_year": 2010,
+      "end_year": 2014,
+      "event_count": 1,
+      "field_resonance_avg": 1.0,
+      "field_space_avg": 1.0,
+      "dominant_vibration": "high",
+      "dominant_form": "elliptical",
+      "pillar_count": 1,
+      "field_space_summary": "Steady state - maintaining vibration. Extended silence (10.0 years) - deep foundation building. Seed was growing during this period - foundation strengthening."
+    }
+  ],
+  "events": [
+    {
+      "year": 1996,
+      "age": 25,
+      "location": "London",
+      "vibration_level": "low",
+      "event_type": "irregular",
+      "field_resonance": 0.5,
+      "field_space_resonance": null,
+      "gap_before_years": null,
+      "field_space_description": null,
+      "dark_energy_detected": false,
+      "regeneration_applied": false,
+      "law_41_compliant": true,
+      "pillar_anchor": false,
+      "original_narrative": "\n        The year everything fell apart. Lost my job, relationship ended, \n        felt like a complete failure. Everyone said I was wasting my time. ...",
+      "cleansed_narrative": "\n        The year everything fell apart. Lost my job, relationship ended, \n        felt like a complete failure. Everyone said I was wasting my time. ..."
+    },
+    {
+      "year": 2000,
+      "age": 29,
+      "location": "London",
+      "vibration_level": "high",
+      "event_type": "spiral",
+      "field_resonance": 1.0,
+      "field_space_resonance": 0.8999999999999999,
+      "gap_before_years": 4,
+      "field_space_description": "Transformation period - low to high vibration. Moderate gap (4.0 years) - preparation period. Seed was growing during this period - foundation strengthening.",
+      "dark_energy_detected": false,
+      "regeneration_applied": false,
+      "law_41_compliant": true,
+      "pillar_anchor": true,
+      "original_narrative": "\n        The breakthrough year. Everything came together. New career, \n        new relationship, felt like a miracle. The transformation was complete....",
+      "cleansed_narrative": "\n        The breakthrough year. Everything came together. New career, \n        new relationship, felt like a miracle. The transformation was complete...."
+    },
+    {
+      "year": 2010,
+      "age": 39,
+      "location": "London",
+      "vibration_level": "high",
+      "event_type": "elliptical",
+      "field_resonance": 1.0,
+      "field_space_resonance": 1.0,
+      "gap_before_years": 10,
+      "field_space_description": "Steady state - maintaining vibration. Extended silence (10.0 years) - deep foundation building. Seed was growing during this period - foundation strengthening.",
+      "dark_energy_detected": false,
+      "regeneration_applied": false,
+      "law_41_compliant": true,
+      "pillar_anchor": true,
+      "original_narrative": "\n        Another breakthrough. The work I started in 2000 finally \n        reached its full potential. This was the year I understood \n        what 19...",
+      "cleansed_narrative": "\n        Another breakthrough. The work I started in 2000 finally \n        reached its full potential. This was the year I understood \n        what 19..."
+    }
+  ]
+}

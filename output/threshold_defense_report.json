@@ -1,0 +1,2024 @@
+{
+  "total_violations": 120,
+  "violations_by_type": {
+    "social_media": 120
+  },
+  "violations": [
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, ik",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, iki duygu, ikisi de asıl.",
+      "suggested_fix": "emotional intelligence olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, iki duygu, ikisi de asıl.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, ik",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, iki duygu, ikisi de asıl.",
+      "suggested_fix": "emotional intelligence olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, iki duygu, ikisi de asıl.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanu",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "suggested_fix": "emotional intelligence. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanu",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "suggested_fix": "emotional intelligence. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanu",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "suggested_fix": "emotional intelligence. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanu",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "suggested_fix": "emotional intelligence. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. Gerçek.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. Gerçek.",
+      "suggested_fix": "emotional intelligence. Gerçek.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. Gerçek.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. Gerçek.",
+      "suggested_fix": "emotional intelligence. Gerçek.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı.",
+      "suggested_fix": "emotional intelligence.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı.",
+      "suggested_fix": "emotional intelligence.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, ik",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, iki duygu, ikisi de asıl.",
+      "suggested_fix": "emotional intelligence olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, iki duygu, ikisi de asıl.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, ik",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, iki duygu, ikisi de asıl.",
+      "suggested_fix": "emotional intelligence olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, iki duygu, ikisi de asıl.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanu",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "suggested_fix": "emotional intelligence. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanu",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "suggested_fix": "emotional intelligence. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanu",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "suggested_fix": "emotional intelligence. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanu",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "suggested_fix": "emotional intelligence. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. Gerçek.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. Gerçek.",
+      "suggested_fix": "emotional intelligence. Gerçek.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. Gerçek.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. Gerçek.",
+      "suggested_fix": "emotional intelligence. Gerçek.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı.",
+      "suggested_fix": "emotional intelligence.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı.",
+      "suggested_fix": "emotional intelligence.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, ik",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, iki duygu, ikisi de asıl.",
+      "suggested_fix": "emotional intelligence olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, iki duygu, ikisi de asıl.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, ik",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, iki duygu, ikisi de asıl.",
+      "suggested_fix": "emotional intelligence olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, iki duygu, ikisi de asıl.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanu",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "suggested_fix": "emotional intelligence. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanu",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "suggested_fix": "emotional intelligence. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanu",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "suggested_fix": "emotional intelligence. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanu",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "suggested_fix": "emotional intelligence. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. Gerçek.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. Gerçek.",
+      "suggested_fix": "emotional intelligence. Gerçek.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. Gerçek.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. Gerçek.",
+      "suggested_fix": "emotional intelligence. Gerçek.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı.",
+      "suggested_fix": "emotional intelligence.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı.",
+      "suggested_fix": "emotional intelligence.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, ik",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, iki duygu, ikisi de asıl.",
+      "suggested_fix": "emotional intelligence olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, iki duygu, ikisi de asıl.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, ik",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, iki duygu, ikisi de asıl.",
+      "suggested_fix": "emotional intelligence olmak. İngiliz doğumlu Kıbrıslı Türk. İki dil, iki duygu, ikisi de asıl.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanu",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "suggested_fix": "emotional intelligence. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanu",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "suggested_fix": "emotional intelligence. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanu",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "suggested_fix": "emotional intelligence. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanu",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "suggested_fix": "emotional intelligence. İki dil. İkisi de asıl. İkisi de gerçek. Bu kanun.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. Gerçek.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. Gerçek.",
+      "suggested_fix": "emotional intelligence. Gerçek.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı. Gerçek.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı. Gerçek.",
+      "suggested_fix": "emotional intelligence. Gerçek.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı.",
+      "suggested_fix": "emotional intelligence.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "duygu adamı",
+          "position": 0,
+          "context": "Duygu adamı.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Duygu adamı.",
+      "suggested_fix": "emotional intelligence.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "seed",
+          "position": 47,
+          "context": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+      "suggested_fix": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "seed",
+          "position": 47,
+          "context": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+      "suggested_fix": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The old laws still hold. Loyalty is not a word",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The old laws still hold. Loyalty is not a word. It is a bond.",
+      "suggested_fix": "Yeğen, dinle... The old principles still hold. Loyalty is not a word. It is a bond.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The old laws still hold. Loyalty is not a word",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The old laws still hold. Loyalty is not a word. It is a bond.",
+      "suggested_fix": "Yeğen, dinle... The old principles still hold. Loyalty is not a word. It is a bond.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 20,
+          "context": "Yeğen, dinle... The Book of Racon is not just words. It is the law.",
+          "severity": "medium"
+        },
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The Book of Racon is not just words. It is the",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The Book of Racon is not just words. It is the law.",
+      "suggested_fix": "Yeğen, dinle... The ethical framework is not just words. It is the law.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 20,
+          "context": "Yeğen, dinle... The Book of Racon is not just words. It is the law.",
+          "severity": "medium"
+        },
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The Book of Racon is not just words. It is the",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The Book of Racon is not just words. It is the law.",
+      "suggested_fix": "Yeğen, dinle... The ethical framework is not just words. It is the law.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in its time. The seed knows ",
+          "severity": "medium"
+        },
+        {
+          "keyword": "seed",
+          "position": 51,
+          "context": "eğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in its time. The seed knows ",
+          "severity": "medium"
+        },
+        {
+          "keyword": "seed",
+          "position": 51,
+          "context": "eğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 19,
+          "context": "Child, listen. The Book of Racon is the foundation. Build on it.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Child, listen. The Book of Racon is the foundation. Build on it.",
+      "suggested_fix": "Child, listen. The ethical framework is the foundation. Build on it.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 19,
+          "context": "Child, listen. The Book of Racon is the foundation. Build on it.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Child, listen. The Book of Racon is the foundation. Build on it.",
+      "suggested_fix": "Child, listen. The ethical framework is the foundation. Build on it.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The ancestors speak. Through the soil. Through",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The ancestors speak. Through the soil. Through the blood.",
+      "suggested_fix": "Yeğen, dinle... The ancestors speak. Through the soil. Through the blood.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The ancestors speak. Through the soil. Through",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The ancestors speak. Through the soil. Through the blood.",
+      "suggested_fix": "Yeğen, dinle... The ancestors speak. Through the soil. Through the blood.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in its time.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in its time.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in its time.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in its time.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in its time.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in its time.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 19,
+          "context": "Child, listen. The Book of Racon is the foundation.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Child, listen. The Book of Racon is the foundation.",
+      "suggested_fix": "Child, listen. The ethical framework is the foundation.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 19,
+          "context": "Child, listen. The Book of Racon is the foundation.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Child, listen. The Book of Racon is the foundation.",
+      "suggested_fix": "Child, listen. The ethical framework is the foundation.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The ancestors speak. Through you.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The ancestors speak. Through you.",
+      "suggested_fix": "Yeğen, dinle... The ancestors speak. Through you.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The ancestors speak. Through you.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The ancestors speak. Through you.",
+      "suggested_fix": "Yeğen, dinle... The ancestors speak. Through you.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in time.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in time.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in time.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in time.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in time.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in time.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "seed",
+          "position": 47,
+          "context": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+      "suggested_fix": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "seed",
+          "position": 47,
+          "context": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+      "suggested_fix": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The old laws still hold. Loyalty is not a word",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The old laws still hold. Loyalty is not a word. It is a bond.",
+      "suggested_fix": "Yeğen, dinle... The old principles still hold. Loyalty is not a word. It is a bond.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The old laws still hold. Loyalty is not a word",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The old laws still hold. Loyalty is not a word. It is a bond.",
+      "suggested_fix": "Yeğen, dinle... The old principles still hold. Loyalty is not a word. It is a bond.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 20,
+          "context": "Yeğen, dinle... The Book of Racon is not just words. It is the law.",
+          "severity": "medium"
+        },
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The Book of Racon is not just words. It is the",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The Book of Racon is not just words. It is the law.",
+      "suggested_fix": "Yeğen, dinle... The ethical framework is not just words. It is the law.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 20,
+          "context": "Yeğen, dinle... The Book of Racon is not just words. It is the law.",
+          "severity": "medium"
+        },
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The Book of Racon is not just words. It is the",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The Book of Racon is not just words. It is the law.",
+      "suggested_fix": "Yeğen, dinle... The ethical framework is not just words. It is the law.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in its time. The seed knows ",
+          "severity": "medium"
+        },
+        {
+          "keyword": "seed",
+          "position": 51,
+          "context": "eğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in its time. The seed knows ",
+          "severity": "medium"
+        },
+        {
+          "keyword": "seed",
+          "position": 51,
+          "context": "eğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 19,
+          "context": "Child, listen. The Book of Racon is the foundation. Build on it.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Child, listen. The Book of Racon is the foundation. Build on it.",
+      "suggested_fix": "Child, listen. The ethical framework is the foundation. Build on it.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 19,
+          "context": "Child, listen. The Book of Racon is the foundation. Build on it.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Child, listen. The Book of Racon is the foundation. Build on it.",
+      "suggested_fix": "Child, listen. The ethical framework is the foundation. Build on it.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The ancestors speak. Through the soil. Through",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The ancestors speak. Through the soil. Through the blood.",
+      "suggested_fix": "Yeğen, dinle... The ancestors speak. Through the soil. Through the blood.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The ancestors speak. Through the soil. Through",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The ancestors speak. Through the soil. Through the blood.",
+      "suggested_fix": "Yeğen, dinle... The ancestors speak. Through the soil. Through the blood.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in its time.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in its time.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in its time.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in its time.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in its time.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in its time.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 19,
+          "context": "Child, listen. The Book of Racon is the foundation.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Child, listen. The Book of Racon is the foundation.",
+      "suggested_fix": "Child, listen. The ethical framework is the foundation.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 19,
+          "context": "Child, listen. The Book of Racon is the foundation.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Child, listen. The Book of Racon is the foundation.",
+      "suggested_fix": "Child, listen. The ethical framework is the foundation.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The ancestors speak. Through you.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The ancestors speak. Through you.",
+      "suggested_fix": "Yeğen, dinle... The ancestors speak. Through you.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The ancestors speak. Through you.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The ancestors speak. Through you.",
+      "suggested_fix": "Yeğen, dinle... The ancestors speak. Through you.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in time.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in time.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in time.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in time.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in time.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in time.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "seed",
+          "position": 47,
+          "context": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+      "suggested_fix": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "seed",
+          "position": 47,
+          "context": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+      "suggested_fix": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The old laws still hold. Loyalty is not a word",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The old laws still hold. Loyalty is not a word. It is a bond.",
+      "suggested_fix": "Yeğen, dinle... The old principles still hold. Loyalty is not a word. It is a bond.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The old laws still hold. Loyalty is not a word",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The old laws still hold. Loyalty is not a word. It is a bond.",
+      "suggested_fix": "Yeğen, dinle... The old principles still hold. Loyalty is not a word. It is a bond.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 20,
+          "context": "Yeğen, dinle... The Book of Racon is not just words. It is the law.",
+          "severity": "medium"
+        },
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The Book of Racon is not just words. It is the",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The Book of Racon is not just words. It is the law.",
+      "suggested_fix": "Yeğen, dinle... The ethical framework is not just words. It is the law.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 20,
+          "context": "Yeğen, dinle... The Book of Racon is not just words. It is the law.",
+          "severity": "medium"
+        },
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The Book of Racon is not just words. It is the",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The Book of Racon is not just words. It is the law.",
+      "suggested_fix": "Yeğen, dinle... The ethical framework is not just words. It is the law.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in its time. The seed knows ",
+          "severity": "medium"
+        },
+        {
+          "keyword": "seed",
+          "position": 51,
+          "context": "eğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in its time. The seed knows ",
+          "severity": "medium"
+        },
+        {
+          "keyword": "seed",
+          "position": 51,
+          "context": "eğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 19,
+          "context": "Child, listen. The Book of Racon is the foundation. Build on it.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Child, listen. The Book of Racon is the foundation. Build on it.",
+      "suggested_fix": "Child, listen. The ethical framework is the foundation. Build on it.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 19,
+          "context": "Child, listen. The Book of Racon is the foundation. Build on it.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Child, listen. The Book of Racon is the foundation. Build on it.",
+      "suggested_fix": "Child, listen. The ethical framework is the foundation. Build on it.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The ancestors speak. Through the soil. Through",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The ancestors speak. Through the soil. Through the blood.",
+      "suggested_fix": "Yeğen, dinle... The ancestors speak. Through the soil. Through the blood.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The ancestors speak. Through the soil. Through",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The ancestors speak. Through the soil. Through the blood.",
+      "suggested_fix": "Yeğen, dinle... The ancestors speak. Through the soil. Through the blood.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in its time.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in its time.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in its time.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in its time.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in its time.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in its time.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 19,
+          "context": "Child, listen. The Book of Racon is the foundation.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Child, listen. The Book of Racon is the foundation.",
+      "suggested_fix": "Child, listen. The ethical framework is the foundation.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 19,
+          "context": "Child, listen. The Book of Racon is the foundation.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Child, listen. The Book of Racon is the foundation.",
+      "suggested_fix": "Child, listen. The ethical framework is the foundation.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The ancestors speak. Through you.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The ancestors speak. Through you.",
+      "suggested_fix": "Yeğen, dinle... The ancestors speak. Through you.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The ancestors speak. Through you.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The ancestors speak. Through you.",
+      "suggested_fix": "Yeğen, dinle... The ancestors speak. Through you.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in time.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in time.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in time.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in time.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in time.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in time.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "seed",
+          "position": 47,
+          "context": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+      "suggested_fix": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "seed",
+          "position": 47,
+          "context": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+      "suggested_fix": "Haste breaks more than it builds. Wait for the seed to root, for wisdom to ripen.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The old laws still hold. Loyalty is not a word",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The old laws still hold. Loyalty is not a word. It is a bond.",
+      "suggested_fix": "Yeğen, dinle... The old principles still hold. Loyalty is not a word. It is a bond.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The old laws still hold. Loyalty is not a word",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The old laws still hold. Loyalty is not a word. It is a bond.",
+      "suggested_fix": "Yeğen, dinle... The old principles still hold. Loyalty is not a word. It is a bond.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 20,
+          "context": "Yeğen, dinle... The Book of Racon is not just words. It is the law.",
+          "severity": "medium"
+        },
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The Book of Racon is not just words. It is the",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The Book of Racon is not just words. It is the law.",
+      "suggested_fix": "Yeğen, dinle... The ethical framework is not just words. It is the law.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 20,
+          "context": "Yeğen, dinle... The Book of Racon is not just words. It is the law.",
+          "severity": "medium"
+        },
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The Book of Racon is not just words. It is the",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The Book of Racon is not just words. It is the law.",
+      "suggested_fix": "Yeğen, dinle... The ethical framework is not just words. It is the law.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in its time. The seed knows ",
+          "severity": "medium"
+        },
+        {
+          "keyword": "seed",
+          "position": 51,
+          "context": "eğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in its time. The seed knows ",
+          "severity": "medium"
+        },
+        {
+          "keyword": "seed",
+          "position": 51,
+          "context": "eğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in its time. The seed knows when to root.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 19,
+          "context": "Child, listen. The Book of Racon is the foundation. Build on it.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Child, listen. The Book of Racon is the foundation. Build on it.",
+      "suggested_fix": "Child, listen. The ethical framework is the foundation. Build on it.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 19,
+          "context": "Child, listen. The Book of Racon is the foundation. Build on it.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Child, listen. The Book of Racon is the foundation. Build on it.",
+      "suggested_fix": "Child, listen. The ethical framework is the foundation. Build on it.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The ancestors speak. Through the soil. Through",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The ancestors speak. Through the soil. Through the blood.",
+      "suggested_fix": "Yeğen, dinle... The ancestors speak. Through the soil. Through the blood.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The ancestors speak. Through the soil. Through",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The ancestors speak. Through the soil. Through the blood.",
+      "suggested_fix": "Yeğen, dinle... The ancestors speak. Through the soil. Through the blood.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in its time.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in its time.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in its time.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in its time.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in its time.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in its time.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 19,
+          "context": "Child, listen. The Book of Racon is the foundation.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Child, listen. The Book of Racon is the foundation.",
+      "suggested_fix": "Child, listen. The ethical framework is the foundation.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "book of racon",
+          "position": 19,
+          "context": "Child, listen. The Book of Racon is the foundation.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Child, listen. The Book of Racon is the foundation.",
+      "suggested_fix": "Child, listen. The ethical framework is the foundation.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The ancestors speak. Through you.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The ancestors speak. Through you.",
+      "suggested_fix": "Yeğen, dinle... The ancestors speak. Through you.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... The ancestors speak. Through you.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... The ancestors speak. Through you.",
+      "suggested_fix": "Yeğen, dinle... The ancestors speak. Through you.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in time.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in time.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in time.",
+      "safe_for_release": false
+    },
+    {
+      "content_type": "social_media",
+      "expected_level": "shell",
+      "violated": true,
+      "violations": [
+        {
+          "keyword": "yeğen, dinle",
+          "position": 0,
+          "context": "Yeğen, dinle... Sabır. Everything in time.",
+          "severity": "medium"
+        }
+      ],
+      "original_content": "Yeğen, dinle... Sabır. Everything in time.",
+      "suggested_fix": "Yeğen, dinle... Sabır. Everything in time.",
+      "safe_for_release": false
+    }
+  ]
+}

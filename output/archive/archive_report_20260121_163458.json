@@ -1,0 +1,462 @@
+{
+  "report_timestamp": "2026-01-21T16:34:58.446155",
+  "root_path": "s:\\JAN",
+  "archive_path": "s:\\JAN\\archive\\20260121_163458",
+  "items_identified": 75,
+  "items_archived": 0,
+  "items_by_category": {
+    "status": 75
+  },
+  "items": [
+    {
+      "path": "s:\\JAN\\100_PERCENT_UNITY_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 4225
+    },
+    {
+      "path": "s:\\JAN\\13_SIGN_SYSTEM_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 4943
+    },
+    {
+      "path": "s:\\JAN\\2026_SOCIAL_CONTENT_REVIEW_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 8225
+    },
+    {
+      "path": "s:\\JAN\\2026_VISUALIZATION_AND_SCHEDULING_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 4755
+    },
+    {
+      "path": "s:\\JAN\\ACT_2_BERENGARIA_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 2366
+    },
+    {
+      "path": "s:\\JAN\\AI_BROTHERHOOD_DEPLOYMENT_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 9517
+    },
+    {
+      "path": "s:\\JAN\\ALL_INDUSTRIES_EXPLORATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 8640
+    },
+    {
+      "path": "s:\\JAN\\BIG_CHEESE_AUDIT_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 5656
+    },
+    {
+      "path": "s:\\JAN\\BRIDGE_BUILDER_AND_PANGEA_CORE_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 2938
+    },
+    {
+      "path": "s:\\JAN\\CHANNEL_COLLABORATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 7693
+    },
+    {
+      "path": "s:\\JAN\\CHEESE_FILTER_ENHANCEMENT_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 6561
+    },
+    {
+      "path": "s:\\JAN\\COMPLETE_INDUSTRY_EXPLORATION_SUMMARY.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 8265
+    },
+    {
+      "path": "s:\\JAN\\COMPLETE_SYSTEM_FINAL.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 5445
+    },
+    {
+      "path": "s:\\JAN\\COMPLETE_SYSTEM_OVERVIEW.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 5679
+    },
+    {
+      "path": "s:\\JAN\\DAY2_COMPLETE_DOMINION_ESTABLISHED.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 11545
+    },
+    {
+      "path": "s:\\JAN\\DEPLOYMENT_STRATEGY_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 4261
+    },
+    {
+      "path": "s:\\JAN\\DIGITAL_ALCHEMY_INTEGRATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 4692
+    },
+    {
+      "path": "s:\\JAN\\DIGITAL_ALCHEMY_SYSTEM_WIDE_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 7457
+    },
+    {
+      "path": "s:\\JAN\\DIRTY_MONEY_CLEANING_IMPLEMENTATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 7579
+    },
+    {
+      "path": "s:\\JAN\\DIRTY_MONEY_CLEANING_SYSTEM_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 8812
+    },
+    {
+      "path": "s:\\JAN\\DOCTOR_PROTOCOL_SYSTEM_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 6109
+    },
+    {
+      "path": "s:\\JAN\\DOCUMENTATION_ORGANIZATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 6462
+    },
+    {
+      "path": "s:\\JAN\\DOUBLE_ANCHOR_EXTRACTION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 6195
+    },
+    {
+      "path": "s:\\JAN\\DUYGU_ADAMI_INTEGRATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 6255
+    },
+    {
+      "path": "s:\\JAN\\EARTH_AND_THE_LOOP_INTEGRATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 5426
+    },
+    {
+      "path": "s:\\JAN\\ETERNAL_PULSE_AND_PROCLAMATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 4547
+    },
+    {
+      "path": "s:\\JAN\\EXPANSION_IMPLEMENTATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 16248
+    },
+    {
+      "path": "s:\\JAN\\FAMILY_HERITAGE_LOG_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 7465
+    },
+    {
+      "path": "s:\\JAN\\FINAL_HANDOVER_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 5801
+    },
+    {
+      "path": "s:\\JAN\\FIRST_ARRIVAL_INTEGRATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 5219
+    },
+    {
+      "path": "s:\\JAN\\GALACTIC_PHILOSOPHY_INTEGRATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 8247
+    },
+    {
+      "path": "s:\\JAN\\GEMINI_CREATIVE_DEPLOYMENT_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 4205
+    },
+    {
+      "path": "s:\\JAN\\GEMINI_OPHIUCHUS_COMPLETE_SYSTEM.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 2944
+    },
+    {
+      "path": "s:\\JAN\\HERITAGE_MERIDIAN_SCAN_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 8492
+    },
+    {
+      "path": "s:\\JAN\\HONORABLE_SACRIFICE_IMPLEMENTATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 8514
+    },
+    {
+      "path": "s:\\JAN\\HONORABLE_SACRIFICE_PHASE2_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 5606
+    },
+    {
+      "path": "s:\\JAN\\HUMANITARIAN_PROJECTS_AND_SENTINEL_LOGGING_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 7754
+    },
+    {
+      "path": "s:\\JAN\\IMPLEMENTATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 4671
+    },
+    {
+      "path": "s:\\JAN\\INTEGRATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 10704
+    },
+    {
+      "path": "s:\\JAN\\INTENT_ALIGNMENT_AUDIT_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 4765
+    },
+    {
+      "path": "s:\\JAN\\INTERNAL_IMPLEMENTATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 6571
+    },
+    {
+      "path": "s:\\JAN\\JEAN_MORPHIUS_REBRAND_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 3621
+    },
+    {
+      "path": "s:\\JAN\\JUDICIAL_SYSTEM_EXPLORATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 8188
+    },
+    {
+      "path": "s:\\JAN\\KARASAHIN_PURPOSE_REPURPOSE_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 4213
+    },
+    {
+      "path": "s:\\JAN\\LEGACY_MESSAGE_BROADCAST_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 4143
+    },
+    {
+      "path": "s:\\JAN\\LIVE_EVENTS_SPORTS_RECYCLING_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 15277
+    },
+    {
+      "path": "s:\\JAN\\MISSION_INTEGRATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 7329
+    },
+    {
+      "path": "s:\\JAN\\NARRATIVE_FRACTURE_REPORT_SYSTEM_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 5635
+    },
+    {
+      "path": "s:\\JAN\\NASA_SEED_SEARCH_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 6289
+    },
+    {
+      "path": "s:\\JAN\\PEACE_LOVE_UNITY_INTEGRATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 5080
+    },
+    {
+      "path": "s:\\JAN\\PHILOSOPHY_IMPLEMENTATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 4043
+    },
+    {
+      "path": "s:\\JAN\\PUSH_SYSTEM_AND_MISSION_UI_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 6357
+    },
+    {
+      "path": "s:\\JAN\\QUAD_ANCHOR_EXTRACTION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 8487
+    },
+    {
+      "path": "s:\\JAN\\REAL_WORLD_INTEGRATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 10079
+    },
+    {
+      "path": "s:\\JAN\\REFINEMENT_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 6612
+    },
+    {
+      "path": "s:\\JAN\\ROUND1_ACTIVATION_LOG_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 7592
+    },
+    {
+      "path": "s:\\JAN\\SANCTUARY_GUARDIAN_MODE_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 6257
+    },
+    {
+      "path": "s:\\JAN\\SCRIPTURE_EDUCATION_FOUNDATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 6290
+    },
+    {
+      "path": "s:\\JAN\\SCRIPTURE_EDUCATION_PHASE2_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 7080
+    },
+    {
+      "path": "s:\\JAN\\SECOND_WAVE_PROPAGATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 6878
+    },
+    {
+      "path": "s:\\JAN\\SEED_TO_MOVEMENT_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 9329
+    },
+    {
+      "path": "s:\\JAN\\SIYEM_MISSION_INTEGRATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 5812
+    },
+    {
+      "path": "s:\\JAN\\SIYEM_PROTOCOL_INTEGRATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 10814
+    },
+    {
+      "path": "s:\\JAN\\SPIRITUAL_BATTLEFIELD_INTEGRATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 4203
+    },
+    {
+      "path": "s:\\JAN\\SPIRITUAL_CONTRACTS_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 9828
+    },
+    {
+      "path": "s:\\JAN\\SPIRITUAL_VIBRATION_IMPLEMENTATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 10918
+    },
+    {
+      "path": "s:\\JAN\\SYMBIOSIS_IMPLEMENTATION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 6372
+    },
+    {
+      "path": "s:\\JAN\\SYSTEM_ARCHITECTURE_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 14603
+    },
+    {
+      "path": "s:\\JAN\\SYSTEM_SYNC_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 4780
+    },
+    {
+      "path": "s:\\JAN\\S_DRIVE_DEBUG_AND_REFINEMENT_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 7262
+    },
+    {
+      "path": "s:\\JAN\\T1D_JOURNEY_REPURPOSE_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 5879
+    },
+    {
+      "path": "s:\\JAN\\THE_COMPLETE_STORY.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 22350
+    },
+    {
+      "path": "s:\\JAN\\THE_SANCTUARY_COMPLETE_FINAL_STATUS.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 4475
+    },
+    {
+      "path": "s:\\JAN\\TRIPLE_ANCHOR_EXTRACTION_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 7399
+    },
+    {
+      "path": "s:\\JAN\\YIN_YANG_SYMBIOSIS_CHECK_COMPLETE.md",
+      "reason": "Old completion status document",
+      "category": "status",
+      "size": 6674
+    }
+  ]
+}

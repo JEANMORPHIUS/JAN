@@ -1,0 +1,18 @@
+{
+  "system": "SIYEM-UK Charity Integration Bridge",
+  "timestamp": "2026-01-23T00:26:28.277501",
+  "integration_log": [
+    {
+      "timestamp": "2026-01-23T00:26:28.277015",
+      "charity_id": "charity_test_001",
+      "charity_name": "Community Mental Health First Response",
+      "alignment_check": {
+        "aligned": true,
+        "note": "Spirit alignment module not loaded"
+      },
+      "siyem_principle": "Spirit alignment over mechanical productivity"
+    }
+  ],
+  "total_checks": 1,
+  "philosophy": "Every part of the body working in harmony"
+}

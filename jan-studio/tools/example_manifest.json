@@ -1,0 +1,30 @@
+{
+  "format_version": "1.0",
+  "persona_name": "storyteller",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "description": "A creative writing persona designed for narrative generation, character development, and engaging prose.",
+  "created_at": "2025-01-27T12:00:00",
+  "jan_files": [
+    "profile.md",
+    "creative_rules.md",
+    "prompt_templates/short_story_template.md",
+    "prompt_templates/character_bio_template.md"
+  ],
+  "examples": [
+    "short_story_example.txt",
+    "character_bio_example.txt"
+  ],
+  "license": "CC-BY-4.0",
+  "requires": {
+    "jan_version": ">=1.0.0"
+  },
+  "tags": [
+    "creative",
+    "writing",
+    "storytelling"
+  ],
+  "homepage": "https://example.com/storyteller",
+  "repository": "https://github.com/example/storyteller"
+}
+

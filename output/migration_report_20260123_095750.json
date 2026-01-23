@@ -1,0 +1,3193 @@
+{
+  "timestamp": "2026-01-23T09:57:50.024044",
+  "mode": "dry_run",
+  "summary": {
+    "total_scripts": 193,
+    "migrated": 180,
+    "archived": 0,
+    "skipped": 13,
+    "failed": 0
+  },
+  "migrated": [
+    {
+      "script": "13_sign_meridian_mapper.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\13_sign_meridian_mapper.py",
+        "name": "13_sign_meridian_mapper.py",
+        "size": 5633,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "ai_execution_engine.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\ai_execution_engine.py",
+        "name": "ai_execution_engine.py",
+        "size": 17578,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "alhambra_magnetic_audit.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\alhambra_magnetic_audit.py",
+        "name": "alhambra_magnetic_audit.py",
+        "size": 9148,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "aligned_entities_tracker.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\aligned_entities_tracker.py",
+        "name": "aligned_entities_tracker.py",
+        "size": 27909,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "aligned_investments.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\aligned_investments.py",
+        "name": "aligned_investments.py",
+        "size": 29224,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "alignment_calibration.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\alignment_calibration.py",
+        "name": "alignment_calibration.py",
+        "size": 10008,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "all_signs_mapper.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\all_signs_mapper.py",
+        "name": "all_signs_mapper.py",
+        "size": 11332,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "analyze_hidden_spiritual_alignment.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\analyze_hidden_spiritual_alignment.py",
+        "name": "analyze_hidden_spiritual_alignment.py",
+        "size": 15176,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "angkor_wat_super_pillar_audit.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\angkor_wat_super_pillar_audit.py",
+        "name": "angkor_wat_super_pillar_audit.py",
+        "size": 9336,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "archive_residue.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\archive_residue.py",
+        "name": "archive_residue.py",
+        "size": 9437,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "art_of_conversation.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\art_of_conversation.py",
+        "name": "art_of_conversation.py",
+        "size": 21860,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "audio_synthesis_automation.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\audio_synthesis_automation.py",
+        "name": "audio_synthesis_automation.py",
+        "size": 22176,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "audit_london_chapter.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\audit_london_chapter.py",
+        "name": "audit_london_chapter.py",
+        "size": 5986,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "audit_mediterranean_chapter.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\audit_mediterranean_chapter.py",
+        "name": "audit_mediterranean_chapter.py",
+        "size": 5735,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "berengaria_magnetic_audit.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\berengaria_magnetic_audit.py",
+        "name": "berengaria_magnetic_audit.py",
+        "size": 8150,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "break_original_error_contract.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\break_original_error_contract.py",
+        "name": "break_original_error_contract.py",
+        "size": 6580,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "bridge_builder_log_template.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\bridge_builder_log_template.py",
+        "name": "bridge_builder_log_template.py",
+        "size": 5468,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "care_package_framework.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\care_package_framework.py",
+        "name": "care_package_framework.py",
+        "size": 20874,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "check_yin_yang_symbiosis.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\check_yin_yang_symbiosis.py",
+        "name": "check_yin_yang_symbiosis.py",
+        "size": 4668,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "complete_seed_to_movement.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\complete_seed_to_movement.py",
+        "name": "complete_seed_to_movement.py",
+        "size": 2347,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "connection_ritual_first_wave.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\connection_ritual_first_wave.py",
+        "name": "connection_ritual_first_wave.py",
+        "size": 9975,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "create_resonance_chain_examples.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\create_resonance_chain_examples.py",
+        "name": "create_resonance_chain_examples.py",
+        "size": 6996,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "create_website_shell_seed_content.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\create_website_shell_seed_content.py",
+        "name": "create_website_shell_seed_content.py",
+        "size": 9742,
+        "has_hardcoded_paths": true,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": [
+          "\"S:\\\\JAN\"",
+          "Path(\"S:\\\\JAN\""
+        ]
+      }
+    },
+    {
+      "script": "database_schema_enhancements.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\database_schema_enhancements.py",
+        "name": "database_schema_enhancements.py",
+        "size": 9705,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "data_integration_service.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\data_integration_service.py",
+        "name": "data_integration_service.py",
+        "size": 22165,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "deep_research_collector.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\deep_research_collector.py",
+        "name": "deep_research_collector.py",
+        "size": 32012,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "deep_search_frequency_opportunities.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\deep_search_frequency_opportunities.py",
+        "name": "deep_search_frequency_opportunities.py",
+        "size": 59114,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "deep_search_mayan_dark_contracts.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\deep_search_mayan_dark_contracts.py",
+        "name": "deep_search_mayan_dark_contracts.py",
+        "size": 32411,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "deep_search_spiritual_contracts_miracles.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\deep_search_spiritual_contracts_miracles.py",
+        "name": "deep_search_spiritual_contracts_miracles.py",
+        "size": 24480,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "deploy_complete_system.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\deploy_complete_system.py",
+        "name": "deploy_complete_system.py",
+        "size": 11697,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "divine_frequency.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\divine_frequency.py",
+        "name": "divine_frequency.py",
+        "size": 17853,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "divine_prayers.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\divine_prayers.py",
+        "name": "divine_prayers.py",
+        "size": 15806,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "duygu_toast.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\duygu_toast.py",
+        "name": "duygu_toast.py",
+        "size": 6363,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "echo_completion_monitor.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\echo_completion_monitor.py",
+        "name": "echo_completion_monitor.py",
+        "size": 17235,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "energy_love_unity_peace_integration.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\energy_love_unity_peace_integration.py",
+        "name": "energy_love_unity_peace_integration.py",
+        "size": 7931,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "enhance_frontend_content.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\enhance_frontend_content.py",
+        "name": "enhance_frontend_content.py",
+        "size": 4562,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "entity_content_refinement.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\entity_content_refinement.py",
+        "name": "entity_content_refinement.py",
+        "size": 20911,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "eternal_pulse.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\eternal_pulse.py",
+        "name": "eternal_pulse.py",
+        "size": 13601,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "explore_all_industries.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\explore_all_industries.py",
+        "name": "explore_all_industries.py",
+        "size": 4447,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "faith_protection_system.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\faith_protection_system.py",
+        "name": "faith_protection_system.py",
+        "size": 14995,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "first_pulse_logger.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\first_pulse_logger.py",
+        "name": "first_pulse_logger.py",
+        "size": 5997,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "fix_instagram_handles.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\fix_instagram_handles.py",
+        "name": "fix_instagram_handles.py",
+        "size": 1714,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "free_will_system.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\free_will_system.py",
+        "name": "free_will_system.py",
+        "size": 13837,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "frequential_arts_crafts_timeline.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\frequential_arts_crafts_timeline.py",
+        "name": "frequential_arts_crafts_timeline.py",
+        "size": 37422,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "frequential_events_registry.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\frequential_events_registry.py",
+        "name": "frequential_events_registry.py",
+        "size": 130240,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "frequential_influential_figures.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\frequential_influential_figures.py",
+        "name": "frequential_influential_figures.py",
+        "size": 147877,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "frequential_political_figures.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\frequential_political_figures.py",
+        "name": "frequential_political_figures.py",
+        "size": 30077,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "frequential_songs_catalog.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\frequential_songs_catalog.py",
+        "name": "frequential_songs_catalog.py",
+        "size": 42836,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "full_s_drive_debug.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\full_s_drive_debug.py",
+        "name": "full_s_drive_debug.py",
+        "size": 15026,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "gemini_heritage_data_collection.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\gemini_heritage_data_collection.py",
+        "name": "gemini_heritage_data_collection.py",
+        "size": 13701,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "generate_deployment_materials.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\generate_deployment_materials.py",
+        "name": "generate_deployment_materials.py",
+        "size": 20931,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "geopolitical_economic_matrix.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\geopolitical_economic_matrix.py",
+        "name": "geopolitical_economic_matrix.py",
+        "size": 20316,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "giza_super_pillar_audit.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\giza_super_pillar_audit.py",
+        "name": "giza_super_pillar_audit.py",
+        "size": 9118,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "global_health_access.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\global_health_access.py",
+        "name": "global_health_access.py",
+        "size": 12432,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "global_heritage_access.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\global_heritage_access.py",
+        "name": "global_heritage_access.py",
+        "size": 10658,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "global_service_discovery.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\global_service_discovery.py",
+        "name": "global_service_discovery.py",
+        "size": 20806,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "grand_proclamation.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\grand_proclamation.py",
+        "name": "grand_proclamation.py",
+        "size": 11079,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "grid_sync_analysis.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\grid_sync_analysis.py",
+        "name": "grid_sync_analysis.py",
+        "size": 17565,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "health_tracking_framework.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\health_tracking_framework.py",
+        "name": "health_tracking_framework.py",
+        "size": 23757,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "heritage_audit_framework.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\heritage_audit_framework.py",
+        "name": "heritage_audit_framework.py",
+        "size": 14204,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "heritage_batch_import.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\heritage_batch_import.py",
+        "name": "heritage_batch_import.py",
+        "size": 7699,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "heritage_channel_sync.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\heritage_channel_sync.py",
+        "name": "heritage_channel_sync.py",
+        "size": 12684,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "heritage_cleansing.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\heritage_cleansing.py",
+        "name": "heritage_cleansing.py",
+        "size": 24016,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "heritage_data_export.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\heritage_data_export.py",
+        "name": "heritage_data_export.py",
+        "size": 24701,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "heritage_import_everything.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\heritage_import_everything.py",
+        "name": "heritage_import_everything.py",
+        "size": 19266,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "heritage_meridian_scan.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\heritage_meridian_scan.py",
+        "name": "heritage_meridian_scan.py",
+        "size": 24164,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "heritage_quick_start.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\heritage_quick_start.py",
+        "name": "heritage_quick_start.py",
+        "size": 3676,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "historical_aligned_individuals.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\historical_aligned_individuals.py",
+        "name": "historical_aligned_individuals.py",
+        "size": 53045,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "i18n_system.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\i18n_system.py",
+        "name": "i18n_system.py",
+        "size": 18900,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "integrate_mayan_knowledge.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\integrate_mayan_knowledge.py",
+        "name": "integrate_mayan_knowledge.py",
+        "size": 7161,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "intent_alignment_audit.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\intent_alignment_audit.py",
+        "name": "intent_alignment_audit.py",
+        "size": 12062,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "lead_the_way.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\lead_the_way.py",
+        "name": "lead_the_way.py",
+        "size": 6003,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "legacy_message_broadcast.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\legacy_message_broadcast.py",
+        "name": "legacy_message_broadcast.py",
+        "size": 6513,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "lineage_contract_search.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\lineage_contract_search.py",
+        "name": "lineage_contract_search.py",
+        "size": 22050,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "link_aligned_to_spiritual.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\link_aligned_to_spiritual.py",
+        "name": "link_aligned_to_spiritual.py",
+        "size": 26847,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "live_data_ingest_complete.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\live_data_ingest_complete.py",
+        "name": "live_data_ingest_complete.py",
+        "size": 20158,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "live_earthquake_ingest.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\live_earthquake_ingest.py",
+        "name": "live_earthquake_ingest.py",
+        "size": 5542,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "live_manifestation_activation.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\live_manifestation_activation.py",
+        "name": "live_manifestation_activation.py",
+        "size": 14293,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "live_watch_monitor.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\live_watch_monitor.py",
+        "name": "live_watch_monitor.py",
+        "size": 10696,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "log_act_2_berengaria.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\log_act_2_berengaria.py",
+        "name": "log_act_2_berengaria.py",
+        "size": 4509,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "log_all_remaining_acts.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\log_all_remaining_acts.py",
+        "name": "log_all_remaining_acts.py",
+        "size": 15266,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "log_bridge_builder_first_act.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\log_bridge_builder_first_act.py",
+        "name": "log_bridge_builder_first_act.py",
+        "size": 2444,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "log_final_duygu_act.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\log_final_duygu_act.py",
+        "name": "log_final_duygu_act.py",
+        "size": 3970,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "log_first_act.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\log_first_act.py",
+        "name": "log_first_act.py",
+        "size": 2033,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "log_health_entry.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\log_health_entry.py",
+        "name": "log_health_entry.py",
+        "size": 3847,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "log_multiple_health_entries.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\log_multiple_health_entries.py",
+        "name": "log_multiple_health_entries.py",
+        "size": 3894,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "machu_picchu_super_pillar_audit.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\machu_picchu_super_pillar_audit.py",
+        "name": "machu_picchu_super_pillar_audit.py",
+        "size": 9346,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "magnetic_field_research.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\magnetic_field_research.py",
+        "name": "magnetic_field_research.py",
+        "size": 15239,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "manifest_gods_word.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\manifest_gods_word.py",
+        "name": "manifest_gods_word.py",
+        "size": 16960,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "master_life_audit.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\master_life_audit.py",
+        "name": "master_life_audit.py",
+        "size": 17933,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "mayan_original_error_timeline.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\mayan_original_error_timeline.py",
+        "name": "mayan_original_error_timeline.py",
+        "size": 28431,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "migrate_magnetic_fields.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\migrate_magnetic_fields.py",
+        "name": "migrate_magnetic_fields.py",
+        "size": 3565,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "motor_transport_industry_analysis.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\motor_transport_industry_analysis.py",
+        "name": "motor_transport_industry_analysis.py",
+        "size": 29069,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "nations_and_superpowers.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\nations_and_superpowers.py",
+        "name": "nations_and_superpowers.py",
+        "size": 24962,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "nourishment_hive_system.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\nourishment_hive_system.py",
+        "name": "nourishment_hive_system.py",
+        "size": 26983,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "optimize_workspace_scripts.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\optimize_workspace_scripts.py",
+        "name": "optimize_workspace_scripts.py",
+        "size": 14505,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "organize_and_migrate_content.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\organize_and_migrate_content.py",
+        "name": "organize_and_migrate_content.py",
+        "size": 21110,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "pangea_integration.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\pangea_integration.py",
+        "name": "pangea_integration.py",
+        "size": 12601,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "partner_vetting_system.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\partner_vetting_system.py",
+        "name": "partner_vetting_system.py",
+        "size": 18313,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "pattern_analysis.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\pattern_analysis.py",
+        "name": "pattern_analysis.py",
+        "size": 18344,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "personal_assessment_navigator.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\personal_assessment_navigator.py",
+        "name": "personal_assessment_navigator.py",
+        "size": 11760,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "philosophy_integration.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\philosophy_integration.py",
+        "name": "philosophy_integration.py",
+        "size": 19075,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "raspberry_pi_package_builder.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\raspberry_pi_package_builder.py",
+        "name": "raspberry_pi_package_builder.py",
+        "size": 21593,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "real_world_data_research.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\real_world_data_research.py",
+        "name": "real_world_data_research.py",
+        "size": 20138,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "real_world_live_ingest.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\real_world_live_ingest.py",
+        "name": "real_world_live_ingest.py",
+        "size": 961,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "refine_s_drive_components.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\refine_s_drive_components.py",
+        "name": "refine_s_drive_components.py",
+        "size": 9789,
+        "has_hardcoded_paths": true,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": [
+          "\"S:\\\\JAN\"",
+          "Path(\"S:\\\\JAN\""
+        ]
+      }
+    },
+    {
+      "script": "regenerate_2026_social_content.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\regenerate_2026_social_content.py",
+        "name": "regenerate_2026_social_content.py",
+        "size": 30206,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "regenerate_karasahin_purpose.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\regenerate_karasahin_purpose.py",
+        "name": "regenerate_karasahin_purpose.py",
+        "size": 10724,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "repurpose_t1d_journey_posts.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\repurpose_t1d_journey_posts.py",
+        "name": "repurpose_t1d_journey_posts.py",
+        "size": 16234,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "resonance_check.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\resonance_check.py",
+        "name": "resonance_check.py",
+        "size": 8606,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "resonance_pulse.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\resonance_pulse.py",
+        "name": "resonance_pulse.py",
+        "size": 14397,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "restore_the_table.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\restore_the_table.py",
+        "name": "restore_the_table.py",
+        "size": 26982,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "return_to_table_damage_assessment.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\return_to_table_damage_assessment.py",
+        "name": "return_to_table_damage_assessment.py",
+        "size": 31589,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "return_to_table_security.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\return_to_table_security.py",
+        "name": "return_to_table_security.py",
+        "size": 39295,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "rift_bridge_system.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\rift_bridge_system.py",
+        "name": "rift_bridge_system.py",
+        "size": 16677,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "round1_activation_logger.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\round1_activation_logger.py",
+        "name": "round1_activation_logger.py",
+        "size": 20732,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "sabotage_sites_neutralization.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\sabotage_sites_neutralization.py",
+        "name": "sabotage_sites_neutralization.py",
+        "size": 20640,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "sabotage_sites_search.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\sabotage_sites_search.py",
+        "name": "sabotage_sites_search.py",
+        "size": 20009,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "sanctuary_protocol.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\sanctuary_protocol.py",
+        "name": "sanctuary_protocol.py",
+        "size": 19269,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "scheduled_ingest.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\scheduled_ingest.py",
+        "name": "scheduled_ingest.py",
+        "size": 2972,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "silent_watch_protocol.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\silent_watch_protocol.py",
+        "name": "silent_watch_protocol.py",
+        "size": 14891,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "spiritual_contracts_registry.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\spiritual_contracts_registry.py",
+        "name": "spiritual_contracts_registry.py",
+        "size": 41082,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "spiritual_realms_framework.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\spiritual_realms_framework.py",
+        "name": "spiritual_realms_framework.py",
+        "size": 25673,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "stonehenge_magnetic_audit.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\stonehenge_magnetic_audit.py",
+        "name": "stonehenge_magnetic_audit.py",
+        "size": 9295,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "super_pillar_finder.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\super_pillar_finder.py",
+        "name": "super_pillar_finder.py",
+        "size": 9967,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "sync_codebase.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\sync_codebase.py",
+        "name": "sync_codebase.py",
+        "size": 6400,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "system_cleanup_review.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\system_cleanup_review.py",
+        "name": "system_cleanup_review.py",
+        "size": 13285,
+        "has_hardcoded_paths": true,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": [
+          "\"S:\\\\JAN\""
+        ]
+      }
+    },
+    {
+      "script": "system_health_and_readiness_check.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\system_health_and_readiness_check.py",
+        "name": "system_health_and_readiness_check.py",
+        "size": 19148,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "system_health_check.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\system_health_check.py",
+        "name": "system_health_check.py",
+        "size": 7392,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "temporal_heritage_archive.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\temporal_heritage_archive.py",
+        "name": "temporal_heritage_archive.py",
+        "size": 11904,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_family_heritage_log.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_family_heritage_log.py",
+        "name": "test_family_heritage_log.py",
+        "size": 3155,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_fifa_extraction_complete.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_fifa_extraction_complete.py",
+        "name": "test_fifa_extraction_complete.py",
+        "size": 5069,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_fifa_glory_narrative_audit.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_fifa_glory_narrative_audit.py",
+        "name": "test_fifa_glory_narrative_audit.py",
+        "size": 5462,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_fifa_triple_anchor_extraction.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_fifa_triple_anchor_extraction.py",
+        "name": "test_fifa_triple_anchor_extraction.py",
+        "size": 3684,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_financial_complete_cycle.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_financial_complete_cycle.py",
+        "name": "test_financial_complete_cycle.py",
+        "size": 7317,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_financial_debt_narrative_audit.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_financial_debt_narrative_audit.py",
+        "name": "test_financial_debt_narrative_audit.py",
+        "size": 8529,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_financial_extraction_complete.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_financial_extraction_complete.py",
+        "name": "test_financial_extraction_complete.py",
+        "size": 5536,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_financial_quad_anchor_extraction.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_financial_quad_anchor_extraction.py",
+        "name": "test_financial_quad_anchor_extraction.py",
+        "size": 7275,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_global_batch_extraction.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_global_batch_extraction.py",
+        "name": "test_global_batch_extraction.py",
+        "size": 4682,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_global_secondary_seed_report.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_global_secondary_seed_report.py",
+        "name": "test_global_secondary_seed_report.py",
+        "size": 4081,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_narrative_fracture_report.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_narrative_fracture_report.py",
+        "name": "test_narrative_fracture_report.py",
+        "size": 1989,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_nasa_deep_scan_reset.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_nasa_deep_scan_reset.py",
+        "name": "test_nasa_deep_scan_reset.py",
+        "size": 1313,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_nasa_double_anchor_extraction.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_nasa_double_anchor_extraction.py",
+        "name": "test_nasa_double_anchor_extraction.py",
+        "size": 3583,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_nasa_extraction_complete.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_nasa_extraction_complete.py",
+        "name": "test_nasa_extraction_complete.py",
+        "size": 4676,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_nasa_seed_search.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_nasa_seed_search.py",
+        "name": "test_nasa_seed_search.py",
+        "size": 3169,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_new_domains.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_new_domains.py",
+        "name": "test_new_domains.py",
+        "size": 1523,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_pulse_system.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_pulse_system.py",
+        "name": "test_pulse_system.py",
+        "size": 870,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_sanctuary_guardian_full.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_sanctuary_guardian_full.py",
+        "name": "test_sanctuary_guardian_full.py",
+        "size": 4927,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_sanctuary_guardian_mode.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_sanctuary_guardian_mode.py",
+        "name": "test_sanctuary_guardian_mode.py",
+        "size": 3251,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_secondary_seed_extraction.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_secondary_seed_extraction.py",
+        "name": "test_secondary_seed_extraction.py",
+        "size": 4420,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_second_wave_propagation.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_second_wave_propagation.py",
+        "name": "test_second_wave_propagation.py",
+        "size": 3642,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_seed_extraction.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_seed_extraction.py",
+        "name": "test_seed_extraction.py",
+        "size": 3805,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_seed_to_movement.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_seed_to_movement.py",
+        "name": "test_seed_to_movement.py",
+        "size": 2787,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_the_hack_pulse.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_the_hack_pulse.py",
+        "name": "test_the_hack_pulse.py",
+        "size": 20673,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "test_third_wave_automated_invitation.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\test_third_wave_automated_invitation.py",
+        "name": "test_third_wave_automated_invitation.py",
+        "size": 4837,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "the_calling_broadcast.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\the_calling_broadcast.py",
+        "name": "the_calling_broadcast.py",
+        "size": 8232,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "the_hack_irregular.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\the_hack_irregular.py",
+        "name": "the_hack_irregular.py",
+        "size": 12618,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "the_life_audit.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\the_life_audit.py",
+        "name": "the_life_audit.py",
+        "size": 27079,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "the_one_truth_matrix.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\the_one_truth_matrix.py",
+        "name": "the_one_truth_matrix.py",
+        "size": 22083,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "the_original_error_analysis.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\the_original_error_analysis.py",
+        "name": "the_original_error_analysis.py",
+        "size": 18359,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "the_table_timeline_analysis.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\the_table_timeline_analysis.py",
+        "name": "the_table_timeline_analysis.py",
+        "size": 24606,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "thoth_prophecy_system.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\thoth_prophecy_system.py",
+        "name": "thoth_prophecy_system.py",
+        "size": 17414,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "timeline_deep_search_future_writing.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\timeline_deep_search_future_writing.py",
+        "name": "timeline_deep_search_future_writing.py",
+        "size": 39425,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "ui_interoperability_system.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\ui_interoperability_system.py",
+        "name": "ui_interoperability_system.py",
+        "size": 19689,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "ui_refinement.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\ui_refinement.py",
+        "name": "ui_refinement.py",
+        "size": 12627,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "uluru_final_pillar_audit.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\uluru_final_pillar_audit.py",
+        "name": "uluru_final_pillar_audit.py",
+        "size": 9490,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "unified_global_access.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\unified_global_access.py",
+        "name": "unified_global_access.py",
+        "size": 11457,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "unified_integration.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\unified_integration.py",
+        "name": "unified_integration.py",
+        "size": 5681,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "universal_system_dismantling.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\universal_system_dismantling.py",
+        "name": "universal_system_dismantling.py",
+        "size": 21181,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "update_2026_posts_shell_seed.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\update_2026_posts_shell_seed.py",
+        "name": "update_2026_posts_shell_seed.py",
+        "size": 8627,
+        "has_hardcoded_paths": true,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": [
+          "\"S:\\\\JAN\"",
+          "Path(\"S:\\\\JAN\""
+        ]
+      }
+    },
+    {
+      "script": "update_jean_to_jean_morphius.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\update_jean_to_jean_morphius.py",
+        "name": "update_jean_to_jean_morphius.py",
+        "size": 4822,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "verify_completion.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\verify_completion.py",
+        "name": "verify_completion.py",
+        "size": 825,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "verify_no_secrets.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\verify_no_secrets.py",
+        "name": "verify_no_secrets.py",
+        "size": 4966,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "vibration_check.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\vibration_check.py",
+        "name": "vibration_check.py",
+        "size": 18708,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "vices_and_markets_tracker.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\vices_and_markets_tracker.py",
+        "name": "vices_and_markets_tracker.py",
+        "size": 31417,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "visualize_and_schedule_2026_posts.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\visualize_and_schedule_2026_posts.py",
+        "name": "visualize_and_schedule_2026_posts.py",
+        "size": 14811,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "visual_asset_generator.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\visual_asset_generator.py",
+        "name": "visual_asset_generator.py",
+        "size": 17081,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "welfare_benefits_systems_analyzer.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\welfare_benefits_systems_analyzer.py",
+        "name": "welfare_benefits_systems_analyzer.py",
+        "size": 24045,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "Path",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "word_of_the_creator.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\word_of_the_creator.py",
+        "name": "word_of_the_creator.py",
+        "size": 20853,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "json",
+          "datetime"
+        ],
+        "hardcoded_paths": []
+      }
+    },
+    {
+      "script": "yellowstone_heritage_audit.py",
+      "analysis": {
+        "path": "S:\\JAN\\scripts\\yellowstone_heritage_audit.py",
+        "name": "yellowstone_heritage_audit.py",
+        "size": 6389,
+        "has_hardcoded_paths": false,
+        "has_old_imports": true,
+        "has_standard_main": false,
+        "needs_migration": true,
+        "imports": [
+          "Path"
+        ],
+        "hardcoded_paths": []
+      }
+    }
+  ],
+  "archived": [],
+  "skipped": [
+    {
+      "script": "analyze_usefulness.py",
+      "reason": "Already migrated or no changes needed"
+    },
+    {
+      "script": "archive_old_completion_docs.py",
+      "reason": "Already migrated or no changes needed"
+    },
+    {
+      "script": "auto_prompt_system.py",
+      "reason": "Already migrated or no changes needed"
+    },
+    {
+      "script": "claude_assistant.py",
+      "reason": "Already migrated or no changes needed"
+    },
+    {
+      "script": "consolidate_completion_docs.py",
+      "reason": "Already migrated or no changes needed"
+    },
+    {
+      "script": "create_deployment_materials.py",
+      "reason": "Already migrated or no changes needed"
+    },
+    {
+      "script": "egypt_original_error_timeline.py",
+      "reason": "Already migrated or no changes needed"
+    },
+    {
+      "script": "execute_cleanup.py",
+      "reason": "Already migrated or no changes needed"
+    },
+    {
+      "script": "gemini_assistant.py",
+      "reason": "Already migrated or no changes needed"
+    },
+    {
+      "script": "migrate_all_scripts.py",
+      "reason": "Already migrated or no changes needed"
+    },
+    {
+      "script": "philosophy.py",
+      "reason": "Already migrated or no changes needed"
+    },
+    {
+      "script": "test_heritage_cleansing.py",
+      "reason": "Already migrated or no changes needed"
+    },
+    {
+      "script": "__init__.py",
+      "reason": "Already migrated or no changes needed"
+    }
+  ],
+  "failed": []
+}
