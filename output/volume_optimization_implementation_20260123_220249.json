@@ -1,0 +1,142 @@
+{
+  "timestamp": "2026-01-23T22:02:49.968268",
+  "implementations": [
+    {
+      "type": "backup_structure",
+      "drive": "D",
+      "result": {
+        "drive": "D",
+        "base_path": "D:\\",
+        "directories_created": [
+          "D:\\Backups",
+          "D:\\Backups\\System",
+          "D:\\Backups\\Projects",
+          "D:\\Backups\\UserData",
+          "D:\\Archives",
+          "D:\\Archives\\Projects",
+          "D:\\Archives\\Media",
+          "D:\\Workspace",
+          "D:\\Workspace\\Active",
+          "D:\\Workspace\\Temp"
+        ],
+        "directories_existing": [],
+        "errors": []
+      }
+    },
+    {
+      "type": "backup_script",
+      "drive": "D",
+      "script_path": "D:\\automated_backup.ps1"
+    },
+    {
+      "type": "backup_structure",
+      "drive": "S",
+      "result": {
+        "drive": "S",
+        "base_path": "S:\\",
+        "directories_created": [
+          "S:\\Backups",
+          "S:\\Backups\\System",
+          "S:\\Backups\\Projects",
+          "S:\\Backups\\UserData",
+          "S:\\Archives",
+          "S:\\Archives\\Projects",
+          "S:\\Archives\\Media",
+          "S:\\Workspace",
+          "S:\\Workspace\\Active",
+          "S:\\Workspace\\Temp"
+        ],
+        "directories_existing": [],
+        "errors": []
+      }
+    },
+    {
+      "type": "backup_script",
+      "drive": "S",
+      "script_path": "S:\\automated_backup.ps1"
+    },
+    {
+      "type": "backup_structure",
+      "drive": "E",
+      "result": {
+        "drive": "E",
+        "base_path": "E:\\",
+        "directories_created": [
+          "E:\\Backups",
+          "E:\\Backups\\System",
+          "E:\\Backups\\Projects",
+          "E:\\Backups\\UserData",
+          "E:\\Archives",
+          "E:\\Archives\\Projects",
+          "E:\\Archives\\Media",
+          "E:\\Workspace",
+          "E:\\Workspace\\Active",
+          "E:\\Workspace\\Temp"
+        ],
+        "directories_existing": [],
+        "errors": []
+      }
+    },
+    {
+      "type": "backup_script",
+      "drive": "E",
+      "script_path": "E:\\automated_backup.ps1"
+    },
+    {
+      "type": "migration_plan",
+      "result": {
+        "source_drive": "C:",
+        "target_drive": "D",
+        "items_to_move": [
+          {
+            "source": "C:\\Users\\janmu\\Documents",
+            "target": "D:\\UserData\\Documents",
+            "type": "folder",
+            "size_gb": 0.0
+          },
+          {
+            "source": "C:\\Users\\janmu\\Downloads",
+            "target": "D:\\UserData\\Downloads",
+            "type": "folder",
+            "size_gb": 1.15
+          },
+          {
+            "source": "C:\\Users\\janmu\\Music",
+            "target": "D:\\UserData\\Music",
+            "type": "folder",
+            "size_gb": 0.0
+          }
+        ],
+        "estimated_size_gb": 1.15,
+        "actions": [
+          "Move C:\\Users\\janmu\\Documents (0.0 GB) to D:\\UserData\\Documents",
+          "Move C:\\Users\\janmu\\Downloads (1.15 GB) to D:\\UserData\\Downloads",
+          "Move C:\\Users\\janmu\\Music (0.0 GB) to D:\\UserData\\Music"
+        ]
+      }
+    },
+    {
+      "type": "optimization",
+      "result": {
+        "actions_taken": [],
+        "space_freed_gb": 0.0,
+        "recommendations": [
+          "Clean C:\\Windows\\Temp - estimated 0.0 GB can be freed",
+          "Clean C:\\Users\\janmu\\AppData\\Local\\Temp - estimated 2.65 GB can be freed",
+          "Run: Optimize-Volume -DriveLetter C -Defrag (admin required)",
+          "Run: Cleanmgr /d C: (Disk Cleanup)",
+          "Move user data to other drives",
+          "Uninstall unused programs",
+          "Clear browser cache",
+          "Clear Windows Update cache"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "backup_structures_created": 3,
+    "backup_scripts_created": 3,
+    "migration_plans": 1,
+    "optimizations": 1
+  }
+}

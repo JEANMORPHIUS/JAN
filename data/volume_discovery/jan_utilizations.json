@@ -10,9 +10,9 @@
         "Move user data to other drives",
         "Keep free space >20% for system health",
         "Regular cleanup and optimization",
-        "[WARNING] 95.18% used - cleanup needed"
+        "[WARNING] 94.87% used - cleanup needed"
       ],
-      "notes": "System drive - keep minimal, optimize regularly High usage (95.18%) - consider cleanup or migration"
+      "notes": "System drive - keep minimal, optimize regularly High usage (94.87%) - consider cleanup or migration"
     },
     {
       "volume_id": "vol_D_20260123_214011",
