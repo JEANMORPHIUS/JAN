@@ -44,7 +44,16 @@
       "attempts": 0,
       "last_attempt": null,
       "status": "pending"
+    },
+    {
+      "queue_id": "push_20260123_192517",
+      "commit_hash": "67e514d878d33718e622e24936943e9d916defc9",
+      "branch": "master",
+      "created_at": "2026-01-23T19:25:17.966196",
+      "attempts": 0,
+      "last_attempt": null,
+      "status": "pending"
     }
   ],
-  "last_updated": "2026-01-23T19:21:35.804531"
+  "last_updated": "2026-01-23T19:25:17.968403"
 }

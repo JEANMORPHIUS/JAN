@@ -94,228 +94,34 @@ try {
 }
 
 # ============================================================================
-# 4. CREATE BACKUP PLAN
+# 3. GENERATE SSD MIGRATION PLAN
 # ============================================================================
 
 Write-Host ""
-Write-Host "[4/8] Creating backup plan..." -ForegroundColor Yellow
+Write-Host "[3/3] Generating SSD migration plan..." -ForegroundColor Yellow
 
-if ($BackupOnly -or -not $DryRun) {
-    try {
-        if (-not (Test-Path $BackupPath)) {
-            New-Item -ItemType Directory -Path $BackupPath -Force | Out-Null
-            Write-Host "  [OK] Backup directory created: $BackupPath" -ForegroundColor Green
-        }
-        
-        $backupItems = @(
-            @{Path = "$userProfile\Documents"; Name = "Documents"},
-            @{Path = "$userProfile\Desktop"; Name = "Desktop"},
-            @{Path = "$userProfile\Downloads"; Name = "Downloads"},
-            @{Path = "$userProfile\Pictures"; Name = "Pictures"},
-            @{Path = "$userProfile\Videos"; Name = "Videos"},
-            @{Path = "$userProfile\Music"; Name = "Music"},
-            @{Path = "$userProfile\.cursor"; Name = "Cursor Settings"},
-            @{Path = "$userProfile\.gitconfig"; Name = "Git Config"},
-            @{Path = "$userProfile\.ssh"; Name = "SSH Keys"}
-        )
-        
-        if ($foundPath) {
-            $backupItems += @{Path = $foundPath; Name = "JonnyDimanki Pro+ Data"}
-        }
-        
-        $backupPlan = @{
-            BackupPath = $BackupPath
-            Items = $backupItems
-            EstimatedSize = 0
-        }
-        
-        Write-Host "  [OK] Backup plan created with $($backupItems.Count) items" -ForegroundColor Green
-        $report.BackupStatus.Location = $BackupPath
-        $report.BackupStatus.Plan = $backupPlan
-        
-        if (-not $DryRun) {
-            Write-Host "  [INFO] Run backup with: Copy-Item -Path [source] -Destination [backup] -Recurse" -ForegroundColor Cyan
-        }
-    } catch {
-        Write-Host "  [ERROR] Error creating backup plan: $_" -ForegroundColor Red
-        $report.Issues += "Error creating backup plan: $_"
-    }
-} else {
-    Write-Host "  [SKIP] Backup skipped (DryRun mode)" -ForegroundColor Gray
-    $report.StepsSkipped += "Backup creation"
-}
-
-# ============================================================================
-# 5. OPTIMIZE DISK (DEFRAGMENTATION)
-# ============================================================================
-
-Write-Host ""
-Write-Host "[5/8] Optimizing disk (defragmentation)..." -ForegroundColor Yellow
-
-if ($OptimizeOnly -or -not $DryRun) {
-    try {
-        Write-Host "  [INFO] Analyzing C: drive..." -ForegroundColor Cyan
-        $analyzeResult = Optimize-Volume -DriveLetter C -Analyze -ErrorAction SilentlyContinue
-        
-        if ($analyzeResult) {
-            Write-Host "  [OK] Analysis complete" -ForegroundColor Green
-            Write-Host "  [INFO] Run 'Optimize-Volume -DriveLetter C -Defrag' to optimize" -ForegroundColor Cyan
-            
-            if (-not $DryRun) {
-                Write-Host "  [INFO] Starting optimization (this may take time)..." -ForegroundColor Yellow
-                $optimizeResult = Optimize-Volume -DriveLetter C -Defrag -ErrorAction SilentlyContinue
-                if ($optimizeResult) {
-                    Write-Host "  [OK] Optimization complete" -ForegroundColor Green
-                    $report.DiskOptimization.Status = "Optimized"
-                    $report.StepsCompleted += "Disk optimization"
-                }
-            } else {
-                Write-Host "  [DRY RUN] Would optimize C: drive" -ForegroundColor Gray
-            }
-        } else {
-            Write-Host "  [WARNING] Could not analyze C: drive (may require admin rights)" -ForegroundColor Yellow
-            $report.Issues += "Could not analyze C: drive - may require admin rights"
-        }
-    } catch {
-        Write-Host "  [ERROR] Error optimizing disk: $_" -ForegroundColor Red
-        Write-Host "  [INFO] This may require administrator privileges" -ForegroundColor Yellow
-        $report.Issues += "Error optimizing disk: $_ (may require admin)"
-    }
-} else {
-    Write-Host "  [SKIP] Optimization skipped" -ForegroundColor Gray
-    $report.StepsSkipped += "Disk optimization"
-}
-
-# ============================================================================
-# 6. CLEAN TEMP FILES
-# ============================================================================
-
-Write-Host ""
-Write-Host "[6/8] Cleaning temporary files..." -ForegroundColor Yellow
-
-if (-not $DryRun) {
-    try {
-        $tempPaths = @(
-            "$env:TEMP",
-            "$env:TMP",
-            "$env:WINDIR\Temp",
-            "$userProfile\AppData\Local\Temp"
-        )
-        
-        $totalFreed = 0
-        foreach ($tempPath in $tempPaths) {
-            if (Test-Path $tempPath) {
-                $before = (Get-ChildItem -Path $tempPath -Recurse -ErrorAction SilentlyContinue | 
-                    Measure-Object -Property Length -Sum -ErrorAction SilentlyContinue).Sum
-                
-                Get-ChildItem -Path $tempPath -Recurse -ErrorAction SilentlyContinue | 
-                    Remove-Item -Force -Recurse -ErrorAction SilentlyContinue
-                
-                $after = (Get-ChildItem -Path $tempPath -Recurse -ErrorAction SilentlyContinue | 
-                    Measure-Object -Property Length -Sum -ErrorAction SilentlyContinue).Sum
-                
-                $freed = ($before - $after) / 1MB
-                if ($freed -gt 0) {
-                    Write-Host "  [OK] Freed $([math]::Round($freed, 2)) MB from $tempPath" -ForegroundColor Green
-                    $totalFreed += $freed
-                }
-            }
-        }
-        
-        if ($totalFreed -gt 0) {
-            Write-Host "  [OK] Total freed: $([math]::Round($totalFreed, 2)) MB" -ForegroundColor Green
-            $report.StepsCompleted += "Temp file cleanup ($([math]::Round($totalFreed, 2)) MB freed)"
-        } else {
-            Write-Host "  [INFO] No temp files to clean" -ForegroundColor Cyan
-        }
-    } catch {
-        Write-Host "  [ERROR] Error cleaning temp files: $_" -ForegroundColor Red
-        $report.Issues += "Error cleaning temp files: $_"
-    }
-} else {
-    Write-Host "  [DRY RUN] Would clean temp files" -ForegroundColor Gray
-}
-
-# ============================================================================
-# 7. SYNC WITH JONNYDIMANKI PRO+ ACCOUNT
-# ============================================================================
-
-Write-Host ""
-Write-Host "[7/8] Syncing with jonnydimanki pro+ account..." -ForegroundColor Yellow
-
-if ($foundPath) {
-    try {
-        Write-Host "  [INFO] Checking sync status..." -ForegroundColor Cyan
-        
-        # Check if OneDrive sync is active
-        $oneDrivePath = "$userProfile\OneDrive"
-        if (Test-Path $oneDrivePath) {
-            Write-Host "  [OK] OneDrive path found" -ForegroundColor Green
-            
-            # Check for jonnydimanki folder in OneDrive
-            $jonnyDimankiOneDrive = "$oneDrivePath\jonnydimanki"
-            if (Test-Path $jonnyDimankiOneDrive) {
-                Write-Host "  [OK] jonnydimanki folder found in OneDrive" -ForegroundColor Green
-                $report.AccountSync.SyncStatus = "OneDrive Sync Active"
-            } else {
-                Write-Host "  [INFO] jonnydimanki folder not in OneDrive - may need manual sync" -ForegroundColor Yellow
-                $report.AccountSync.SyncStatus = "Manual Sync Required"
-                $report.Recommendations += "Consider syncing jonnydimanki folder to OneDrive for cloud backup"
-            }
-        } else {
-            Write-Host "  [WARNING] OneDrive not found - cloud sync may not be active" -ForegroundColor Yellow
-            $report.AccountSync.SyncStatus = "OneDrive Not Found"
-        }
-        
-        $report.StepsCompleted += "Account sync check"
-    } catch {
-        Write-Host "  [ERROR] Error checking sync: $_" -ForegroundColor Red
-        $report.Issues += "Error checking sync: $_"
-    }
-} else {
-    Write-Host "  [SKIP] jonnydimanki path not found - sync skipped" -ForegroundColor Gray
-    $report.StepsSkipped += "Account sync"
-}
-
-# ============================================================================
-# 8. GENERATE SSD MIGRATION PLAN
-# ============================================================================
-
-Write-Host ""
-Write-Host "[8/8] Generating SSD migration plan..." -ForegroundColor Yellow
-
-$migrationPlan = @{
-    PreMigration = @(
-        "1. Complete C: drive optimization (defragmentation)",
-        "2. Create full backup to external drive or cloud",
-        "3. Sync jonnydimanki pro+ account data",
-        "4. Document all installed applications",
-        "5. Export browser bookmarks and settings",
-        "6. Export email accounts and settings",
-        "7. Document network configurations",
-        "8. Export SSH keys and certificates"
-    )
-    Migration = @(
-        "1. Attach SSD to laptop",
-        "2. Initialize SSD (GPT partition style recommended)",
-        "3. Clone C: drive to SSD using tool (e.g., Macrium Reflect, Clonezilla)",
-        "4. Verify clone integrity",
-        "5. Set SSD as boot drive in BIOS",
-        "6. Test boot from SSD"
-    )
-    PostMigration = @(
-        "1. Verify all applications work",
-        "2. Verify jonnydimanki pro+ account sync",
-        "3. Update drivers if needed",
-        "4. Optimize SSD (TRIM enabled by default on Windows)",
-        "5. Keep C: drive as backup for 30 days",
-        "6. Format old C: drive after verification"
-    )
-}
+$report.MigrationPlan = @(
+    "PRE-MIGRATION:",
+    "  1. Run: Optimize-Volume -DriveLetter C -Defrag (admin required)",
+    "  2. Backup critical folders to external drive",
+    "  3. Sync jonnydimanki pro+ account to OneDrive/cloud",
+    "  4. Export browser bookmarks, email accounts, SSH keys",
+    "",
+    "MIGRATION:",
+    "  1. Attach SSD to laptop",
+    "  2. Initialize SSD (GPT partition style)",
+    "  3. Clone C: drive using Macrium Reflect or Clonezilla",
+    "  4. Set SSD as boot drive in BIOS",
+    "  5. Test boot from SSD",
+    "",
+    "POST-MIGRATION:",
+    "  1. Verify all applications work",
+    "  2. Verify jonnydimanki pro+ sync",
+    "  3. Keep old C: drive as backup (30 days)",
+    "  4. Format old C: drive after verification"
+)
 
 Write-Host "  [OK] Migration plan generated" -ForegroundColor Green
-$report.MigrationPlan = $migrationPlan
-$report.StepsCompleted += "Migration plan generation"
 
 # ============================================================================
 # GENERATE REPORT
