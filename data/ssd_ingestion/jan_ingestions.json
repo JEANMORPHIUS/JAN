@@ -1,0 +1,57 @@
+{
+  "ingestions": [
+    {
+      "ingestion_id": "ingestion_20260123_212517",
+      "timestamp": "2026-01-23T21:25:36.861927",
+      "ssd_count": 0,
+      "ssds": [],
+      "ingestion_method": "powershell",
+      "status": "completed",
+      "notes": "Ingested 0 SSD(s)",
+      "created_at": "2026-01-23T21:25:36.861941"
+    },
+    {
+      "ingestion_id": "ingestion_20260123_213130",
+      "timestamp": "2026-01-23T21:31:38.129232",
+      "ssd_count": 2,
+      "ssds": [
+        {
+          "ssd_id": "ssd_0_20260123_213138",
+          "model": "ST31000528AS",
+          "serial_number": "            6VP3JLXK",
+          "capacity_gb": 931.51,
+          "partition_style": "MBR",
+          "file_system": null,
+          "health_status": "Healthy",
+          "drive_letter": null,
+          "interface_type": "SATA",
+          "firmware_version": "CC38",
+          "temperature": null,
+          "wear_level": null,
+          "ingested_at": "2026-01-23T21:31:38.128998",
+          "source": "powershell"
+        },
+        {
+          "ssd_id": "ssd_2_20260123_213138",
+          "model": "HX256GSSDM2PCIE",
+          "serial_number": "0000_0000_0000_0000_0000_0100_0000_0000.",
+          "capacity_gb": 238.47,
+          "partition_style": "GPT",
+          "file_system": null,
+          "health_status": "Healthy",
+          "drive_letter": null,
+          "interface_type": "NVMe",
+          "firmware_version": "U0521A0 ",
+          "temperature": null,
+          "wear_level": null,
+          "ingested_at": "2026-01-23T21:31:38.129127",
+          "source": "powershell"
+        }
+      ],
+      "ingestion_method": "powershell",
+      "status": "completed",
+      "notes": "Ingested 2 SSD(s)",
+      "created_at": "2026-01-23T21:31:38.129239"
+    }
+  ]
+}

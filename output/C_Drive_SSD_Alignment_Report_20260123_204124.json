@@ -1,0 +1,32 @@
+{
+  "MigrationPlan": [
+    "PRE-MIGRATION:",
+    "  1. Run: Optimize-Volume -DriveLetter C -Defrag (admin required)",
+    "  2. Backup critical folders to external drive",
+    "  3. Sync jonnydimanki pro+ account to OneDrive/cloud",
+    "  4. Export browser bookmarks, email accounts, SSH keys",
+    "",
+    "MIGRATION:",
+    "  1. Attach SSD to laptop",
+    "  2. Initialize SSD (GPT partition style)",
+    "  3. Clone C: drive using Macrium Reflect or Clonezilla",
+    "  4. Set SSD as boot drive in BIOS",
+    "  5. Test boot from SSD",
+    "",
+    "POST-MIGRATION:",
+    "  1. Verify all applications work",
+    "  2. Verify jonnydimanki pro+ sync",
+    "  3. Keep old C: drive as backup (30 days)",
+    "  4. Format old C: drive after verification"
+  ],
+  "DiskInfo": {
+    "FileSystem": "NTFS",
+    "PartitionStyle": "GPT",
+    "Health": "Healthy",
+    "SizeGB": 476.94,
+    "Model": "WDC PC SN530 SDBPMPZ-512G-1101"
+  },
+  "JonnyDimankiPath": "",
+  "Phase": "C: Drive SSD Alignment",
+  "Timestamp": "2026-01-23 20:41:07"
+}
