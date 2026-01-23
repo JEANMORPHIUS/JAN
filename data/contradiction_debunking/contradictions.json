@@ -1,0 +1,630 @@
+{
+  "econ_scarcity_lie": {
+    "contradiction_id": "econ_scarcity_lie",
+    "contradiction_type": "economic_contradiction",
+    "source": "Economic Systems",
+    "claim": "Scarcity is real. We must compete for resources.",
+    "our_truth": "Abundance is the truth. Scarcity is the lie.",
+    "debunking_evidence": [
+      "Energy is abundant (sun, wind, water, Earth)",
+      "Scarcity is manufactured for profit",
+      "Natural abundance exists everywhere"
+    ],
+    "refutation_points": [
+      "Recognize natural abundance",
+      "Reject manufactured scarcity",
+      "Share resources freely",
+      "Build commons"
+    ],
+    "status": "identified",
+    "debunked_date": null,
+    "debunked_by": null,
+    "impact_level": 0.9,
+    "frequency_score": -0.8,
+    "metadata": {},
+    "created_at": "2026-01-23T14:54:40.434116",
+    "updated_at": "2026-01-23T14:54:40.434122"
+  },
+  "pol_1_percent_rule": {
+    "contradiction_id": "pol_1_percent_rule",
+    "contradiction_type": "political_contradiction",
+    "source": "Power Structures",
+    "claim": "The 1% rule the masses. This is how it works.",
+    "our_truth": "The 1% no longer rule the masses. We are one.",
+    "debunking_evidence": [
+      "Unity is the truth. Division is the lie.",
+      "We are one - no separation can hold",
+      "Power structures depend on division"
+    ],
+    "refutation_points": [
+      "Recognize we are one",
+      "Reject division",
+      "Support unity over separation",
+      "Build community power"
+    ],
+    "status": "identified",
+    "debunked_date": null,
+    "debunked_by": null,
+    "impact_level": 1.0,
+    "frequency_score": -0.9,
+    "metadata": {},
+    "created_at": "2026-01-23T14:54:40.438605",
+    "updated_at": "2026-01-23T14:54:40.438609"
+  },
+  "sys_punishment_justice": {
+    "contradiction_id": "sys_punishment_justice",
+    "contradiction_type": "system_contradiction",
+    "source": "Judicial Systems",
+    "claim": "Punishment is justice. Criminals must be punished.",
+    "our_truth": "Restoration is the truth. Punishment is the lie.",
+    "debunking_evidence": [
+      "Punishment creates more brokenness",
+      "Restoration creates healing",
+      "Community justice serves truth"
+    ],
+    "refutation_points": [
+      "Choose restoration over punishment",
+      "Support healing over control",
+      "Build community justice councils",
+      "Create restoration contracts"
+    ],
+    "status": "identified",
+    "debunked_date": null,
+    "debunked_by": null,
+    "impact_level": 0.8,
+    "frequency_score": -0.7,
+    "metadata": {},
+    "created_at": "2026-01-23T14:54:40.442698",
+    "updated_at": "2026-01-23T14:54:40.442704"
+  },
+  "auto_20260123145440": {
+    "contradiction_id": "auto_20260123145440",
+    "contradiction_type": "political_contradiction",
+    "source": "Test",
+    "claim": "War is necessary for peace.",
+    "our_truth": "Peace is the truth. War is the lie.",
+    "debunking_evidence": [
+      "War creates separation. Peace creates unity. The truth is peace. The flow is peace."
+    ],
+    "refutation_points": [
+      "Choose peace over war. Support unity over division. The flow is peace."
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:54:40.471656",
+    "debunked_by": "Auto-Debunker",
+    "impact_level": 0.5,
+    "frequency_score": -0.5,
+    "metadata": {},
+    "created_at": "2026-01-23T14:54:40.467756",
+    "updated_at": "2026-01-23T14:54:40.471660"
+  },
+  "med_profit_health": {
+    "contradiction_id": "med_profit_health",
+    "contradiction_type": "system_contradiction",
+    "source": "Medical Systems",
+    "claim": "Medical care must be profitable to be sustainable.",
+    "our_truth": "Health is truth, not profit. Healing should be free.",
+    "debunking_evidence": [
+      "Health is a right, not a commodity",
+      "Profit motive creates perverse incentives"
+    ],
+    "refutation_points": [
+      "Universal health care works",
+      "Profit creates barriers to healing"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.409569",
+    "debunked_by": "System",
+    "impact_level": 0.8,
+    "frequency_score": -0.7,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.405690",
+    "updated_at": "2026-01-23T14:56:07.409574"
+  },
+  "med_symptom_treatment": {
+    "contradiction_id": "med_symptom_treatment",
+    "contradiction_type": "system_contradiction",
+    "source": "Medical Systems",
+    "claim": "Treating symptoms is effective medicine.",
+    "our_truth": "Root causes, not symptoms. Treat the source, not the sign.",
+    "debunking_evidence": [
+      "Symptom treatment creates dependency",
+      "Root cause healing is permanent"
+    ],
+    "refutation_points": [
+      "Address root causes for true healing",
+      "Symptoms are signals, not problems"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.418102",
+    "debunked_by": "System",
+    "impact_level": 0.8,
+    "frequency_score": -0.7,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.413484",
+    "updated_at": "2026-01-23T14:56:07.418109"
+  },
+  "med_pharma_dependency": {
+    "contradiction_id": "med_pharma_dependency",
+    "contradiction_type": "system_contradiction",
+    "source": "Medical Systems",
+    "claim": "Pharmaceuticals are necessary for health.",
+    "our_truth": "Healing, not dependency. Empower self-healing, not drug dependency.",
+    "debunking_evidence": [
+      "Natural healing exists",
+      "Dependency serves profit, not health"
+    ],
+    "refutation_points": [
+      "Body heals itself when supported",
+      "Drugs support, not replace healing"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.425202",
+    "debunked_by": "System",
+    "impact_level": 0.8,
+    "frequency_score": -0.7,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.422061",
+    "updated_at": "2026-01-23T14:56:07.425207"
+  },
+  "legal_justice_sale": {
+    "contradiction_id": "legal_justice_sale",
+    "contradiction_type": "system_contradiction",
+    "source": "Legal Systems",
+    "claim": "Justice requires money. Legal outcomes can be bought.",
+    "our_truth": "Justice is truth, not profit. One standard for all.",
+    "debunking_evidence": [
+      "Justice should be universal",
+      "Money corrupts justice"
+    ],
+    "refutation_points": [
+      "Community justice councils",
+      "Restoration over punishment"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.431850",
+    "debunked_by": "System",
+    "impact_level": 0.9,
+    "frequency_score": -0.8,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.428358",
+    "updated_at": "2026-01-23T14:56:07.431856"
+  },
+  "legal_complexity_weapon": {
+    "contradiction_id": "legal_complexity_weapon",
+    "contradiction_type": "system_contradiction",
+    "source": "Legal Systems",
+    "claim": "Law must be complex to be comprehensive.",
+    "our_truth": "Simplicity, not complexity. Truth is simple.",
+    "debunking_evidence": [
+      "Complexity excludes people",
+      "Simple truth serves all"
+    ],
+    "refutation_points": [
+      "Simplify legal processes",
+      "Truth is accessible to all"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.438066",
+    "debunked_by": "System",
+    "impact_level": 0.9,
+    "frequency_score": -0.8,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.435051",
+    "updated_at": "2026-01-23T14:56:07.438070"
+  },
+  "legal_punishment_restoration": {
+    "contradiction_id": "legal_punishment_restoration",
+    "contradiction_type": "system_contradiction",
+    "source": "Legal Systems",
+    "claim": "Punishment creates justice and prevents crime.",
+    "our_truth": "Restoration is the truth. Punishment is the lie.",
+    "debunking_evidence": [
+      "Punishment creates more brokenness",
+      "Restoration creates healing"
+    ],
+    "refutation_points": [
+      "Community justice councils",
+      "Restoration contracts"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.444898",
+    "debunked_by": "System",
+    "impact_level": 0.9,
+    "frequency_score": -0.8,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.441327",
+    "updated_at": "2026-01-23T14:56:07.444903"
+  },
+  "edu_profit_learning": {
+    "contradiction_id": "edu_profit_learning",
+    "contradiction_type": "system_contradiction",
+    "source": "Educational Systems",
+    "claim": "Education must be profitable to be sustainable.",
+    "our_truth": "Learning is truth, not profit. Education should be free.",
+    "debunking_evidence": [
+      "Education is a right",
+      "Profit creates barriers"
+    ],
+    "refutation_points": [
+      "Free education for all",
+      "Learning over profit"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.452590",
+    "debunked_by": "System",
+    "impact_level": 0.7,
+    "frequency_score": -0.6,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.448773",
+    "updated_at": "2026-01-23T14:56:07.452595"
+  },
+  "edu_standardization": {
+    "contradiction_id": "edu_standardization",
+    "contradiction_type": "system_contradiction",
+    "source": "Educational Systems",
+    "claim": "Standardized education ensures quality.",
+    "our_truth": "Honor difference, not standardization. Each person learns differently.",
+    "debunking_evidence": [
+      "One size does not fit all",
+      "Standardization excludes"
+    ],
+    "refutation_points": [
+      "Personalized learning paths",
+      "Honor individual differences"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.460799",
+    "debunked_by": "System",
+    "impact_level": 0.7,
+    "frequency_score": -0.6,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.456634",
+    "updated_at": "2026-01-23T14:56:07.460804"
+  },
+  "edu_debt_freedom": {
+    "contradiction_id": "edu_debt_freedom",
+    "contradiction_type": "system_contradiction",
+    "source": "Educational Systems",
+    "claim": "Student debt is necessary for education access.",
+    "our_truth": "Freedom, not dependency. Education should be free.",
+    "debunking_evidence": [
+      "Debt creates dependency",
+      "Free education exists"
+    ],
+    "refutation_points": [
+      "Free education models",
+      "Eliminate student debt"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.469345",
+    "debunked_by": "System",
+    "impact_level": 0.7,
+    "frequency_score": -0.6,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.465403",
+    "updated_at": "2026-01-23T14:56:07.469349"
+  },
+  "pol_power_people": {
+    "contradiction_id": "pol_power_people",
+    "contradiction_type": "political_contradiction",
+    "source": "Political Systems",
+    "claim": "Power structures are necessary for order.",
+    "our_truth": "Service over power. People over systems.",
+    "debunking_evidence": [
+      "Power corrupts",
+      "Service empowers"
+    ],
+    "refutation_points": [
+      "Community governance",
+      "Service-based leadership"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.478024",
+    "debunked_by": "System",
+    "impact_level": 0.9,
+    "frequency_score": -0.8,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.473376",
+    "updated_at": "2026-01-23T14:56:07.478029"
+  },
+  "pol_division_unity": {
+    "contradiction_id": "pol_division_unity",
+    "contradiction_type": "political_contradiction",
+    "source": "Political Systems",
+    "claim": "Political parties represent different interests.",
+    "our_truth": "Unity, not division. We are one.",
+    "debunking_evidence": [
+      "Division serves power",
+      "Unity serves truth"
+    ],
+    "refutation_points": [
+      "Unified governance",
+      "Community consensus"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.487084",
+    "debunked_by": "System",
+    "impact_level": 0.9,
+    "frequency_score": -0.8,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.482882",
+    "updated_at": "2026-01-23T14:56:07.487087"
+  },
+  "pol_money_truth": {
+    "contradiction_id": "pol_money_truth",
+    "contradiction_type": "political_contradiction",
+    "source": "Political Systems",
+    "claim": "Campaign finance is necessary for democracy.",
+    "our_truth": "Truth, not money. Democracy should not be for sale.",
+    "debunking_evidence": [
+      "Money corrupts democracy",
+      "Truth serves all"
+    ],
+    "refutation_points": [
+      "Public campaign financing",
+      "Truth-based governance"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.496509",
+    "debunked_by": "System",
+    "impact_level": 0.9,
+    "frequency_score": -0.8,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.491355",
+    "updated_at": "2026-01-23T14:56:07.496515"
+  },
+  "econ_profit_people": {
+    "contradiction_id": "econ_profit_people",
+    "contradiction_type": "economic_contradiction",
+    "source": "Economic Systems",
+    "claim": "Profit is necessary for economic growth.",
+    "our_truth": "People over profit. Stewardship over exploitation.",
+    "debunking_evidence": [
+      "Profit exploits people",
+      "Stewardship serves all"
+    ],
+    "refutation_points": [
+      "Stewardship economy",
+      "People-centered economics"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.505600",
+    "debunked_by": "System",
+    "impact_level": 0.9,
+    "frequency_score": -0.8,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.501075",
+    "updated_at": "2026-01-23T14:56:07.505605"
+  },
+  "econ_scarcity_abundance": {
+    "contradiction_id": "econ_scarcity_abundance",
+    "contradiction_type": "economic_contradiction",
+    "source": "Economic Systems",
+    "claim": "Resources are scarce. We must compete.",
+    "our_truth": "Abundance is the truth. Scarcity is the lie.",
+    "debunking_evidence": [
+      "Natural abundance exists",
+      "Scarcity is manufactured"
+    ],
+    "refutation_points": [
+      "Recognize abundance",
+      "Share resources"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.515371",
+    "debunked_by": "System",
+    "impact_level": 0.9,
+    "frequency_score": -0.8,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.510851",
+    "updated_at": "2026-01-23T14:56:07.515377"
+  },
+  "econ_debt_freedom": {
+    "contradiction_id": "econ_debt_freedom",
+    "contradiction_type": "economic_contradiction",
+    "source": "Economic Systems",
+    "claim": "Debt is necessary for economic activity.",
+    "our_truth": "Freedom, not dependency. Abundance, not debt.",
+    "debunking_evidence": [
+      "Debt creates dependency",
+      "Abundance exists without debt"
+    ],
+    "refutation_points": [
+      "Debt jubilee",
+      "Abundance-based economy"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.524341",
+    "debunked_by": "System",
+    "impact_level": 0.9,
+    "frequency_score": -0.8,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.520217",
+    "updated_at": "2026-01-23T14:56:07.524347"
+  },
+  "dig_attention_hijack": {
+    "contradiction_id": "dig_attention_hijack",
+    "contradiction_type": "system_contradiction",
+    "source": "Digital Systems",
+    "claim": "Capturing attention is necessary for platform success.",
+    "our_truth": "Attention protected, not hijacked. Respect the biological temple.",
+    "debunking_evidence": [
+      "Attention hijacking is exploitation",
+      "Respect creates trust"
+    ],
+    "refutation_points": [
+      "Respect user attention",
+      "No dark patterns"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.533141",
+    "debunked_by": "System",
+    "impact_level": 0.8,
+    "frequency_score": -0.7,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.528882",
+    "updated_at": "2026-01-23T14:56:07.533146"
+  },
+  "dig_data_profit": {
+    "contradiction_id": "dig_data_profit",
+    "contradiction_type": "system_contradiction",
+    "source": "Digital Systems",
+    "claim": "User data is valuable and should be monetized.",
+    "our_truth": "Data for user, not profit. Privacy is a right.",
+    "debunking_evidence": [
+      "Data belongs to user",
+      "Privacy is fundamental"
+    ],
+    "refutation_points": [
+      "User owns data",
+      "Privacy by design"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.542081",
+    "debunked_by": "System",
+    "impact_level": 0.8,
+    "frequency_score": -0.7,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.537374",
+    "updated_at": "2026-01-23T14:56:07.542087"
+  },
+  "dig_addiction_health": {
+    "contradiction_id": "dig_addiction_health",
+    "contradiction_type": "system_contradiction",
+    "source": "Digital Systems",
+    "claim": "Engagement metrics drive platform value.",
+    "our_truth": "Health, not addiction. Empowerment, not exploitation.",
+    "debunking_evidence": [
+      "Addiction harms users",
+      "Health serves all"
+    ],
+    "refutation_points": [
+      "Health-focused design",
+      "No addiction patterns"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.553087",
+    "debunked_by": "System",
+    "impact_level": 0.8,
+    "frequency_score": -0.7,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.547721",
+    "updated_at": "2026-01-23T14:56:07.553092"
+  },
+  "soc_division_unity": {
+    "contradiction_id": "soc_division_unity",
+    "contradiction_type": "social_contradiction",
+    "source": "Social Systems",
+    "claim": "Social groups naturally divide by differences.",
+    "our_truth": "Unity is the truth. Division is the lie.",
+    "debunking_evidence": [
+      "Division serves power",
+      "Unity serves truth"
+    ],
+    "refutation_points": [
+      "Build unity",
+      "Honor differences within unity"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.563490",
+    "debunked_by": "System",
+    "impact_level": 0.8,
+    "frequency_score": -0.7,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.557952",
+    "updated_at": "2026-01-23T14:56:07.563495"
+  },
+  "soc_competition_cooperation": {
+    "contradiction_id": "soc_competition_cooperation",
+    "contradiction_type": "social_contradiction",
+    "source": "Social Systems",
+    "claim": "Competition drives innovation and progress.",
+    "our_truth": "Cooperation is the truth. Competition is the lie.",
+    "debunking_evidence": [
+      "Cooperation creates more",
+      "Competition creates separation"
+    ],
+    "refutation_points": [
+      "Build cooperation",
+      "Collaborate, don't compete"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.574425",
+    "debunked_by": "System",
+    "impact_level": 0.8,
+    "frequency_score": -0.7,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.569229",
+    "updated_at": "2026-01-23T14:56:07.574431"
+  },
+  "soc_fear_love": {
+    "contradiction_id": "soc_fear_love",
+    "contradiction_type": "social_contradiction",
+    "source": "Social Systems",
+    "claim": "Fear motivates people to act.",
+    "our_truth": "Love is the truth. Fear is the lie.",
+    "debunking_evidence": [
+      "Love creates connection",
+      "Fear creates separation"
+    ],
+    "refutation_points": [
+      "Choose love",
+      "Act from love, not fear"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.586499",
+    "debunked_by": "System",
+    "impact_level": 0.8,
+    "frequency_score": -0.7,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.580169",
+    "updated_at": "2026-01-23T14:56:07.586503"
+  },
+  "env_exploitation_stewardship": {
+    "contradiction_id": "env_exploitation_stewardship",
+    "contradiction_type": "environmental_contradiction",
+    "source": "Environmental Systems",
+    "claim": "Natural resources must be extracted for economic growth.",
+    "our_truth": "Stewardship is the truth. Exploitation is the lie.",
+    "debunking_evidence": [
+      "Stewardship preserves",
+      "Exploitation destroys"
+    ],
+    "refutation_points": [
+      "Practice stewardship",
+      "Regenerative practices"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.598021",
+    "debunked_by": "System",
+    "impact_level": 1.0,
+    "frequency_score": -0.9,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.592024",
+    "updated_at": "2026-01-23T14:56:07.598026"
+  },
+  "env_separation_connection": {
+    "contradiction_id": "env_separation_connection",
+    "contradiction_type": "environmental_contradiction",
+    "source": "Environmental Systems",
+    "claim": "Humans are separate from nature.",
+    "our_truth": "Man and Earth live symbiotically. Connection, not separation.",
+    "debunking_evidence": [
+      "We are part of Earth",
+      "Separation is the Original Error"
+    ],
+    "refutation_points": [
+      "Restore connection",
+      "Honor symbiotic relationship"
+    ],
+    "status": "debunked",
+    "debunked_date": "2026-01-23T14:56:07.608090",
+    "debunked_by": "System",
+    "impact_level": 1.0,
+    "frequency_score": -0.9,
+    "metadata": {},
+    "created_at": "2026-01-23T14:56:07.603301",
+    "updated_at": "2026-01-23T14:56:07.608097"
+  }
+}

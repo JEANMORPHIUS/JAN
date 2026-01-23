@@ -1,0 +1,337 @@
+{
+  "auto_20260123145440_debunk_20260123145440": {
+    "response_id": "auto_20260123145440_debunk_20260123145440",
+    "contradiction_id": "auto_20260123145440",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: War is necessary for peace.\n\nSOURCE: Test\nOUR TRUTH: Peace is the truth. War is the lie.\n\nREFUTATION POINTS:\n1. Choose peace over war. Support unity over division. The flow is peace.\n\nEVIDENCE:\n1. War creates separation. Peace creates unity. The truth is peace. The flow is peace.\n",
+    "evidence": [
+      "War creates separation. Peace creates unity. The truth is peace. The flow is peace."
+    ],
+    "truth_statements": [
+      "Peace is the truth. War is the lie."
+    ],
+    "created_at": "2026-01-23T14:54:40.471676"
+  },
+  "med_profit_health_debunk_20260123145607": {
+    "response_id": "med_profit_health_debunk_20260123145607",
+    "contradiction_id": "med_profit_health",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Medical care must be profitable to be sustainable.\n\nSOURCE: Medical Systems\nOUR TRUTH: Health is truth, not profit. Healing should be free.\n\nREFUTATION POINTS:\n1. Universal health care works\n2. Profit creates barriers to healing\n\nEVIDENCE:\n1. Health is a right, not a commodity\n2. Profit motive creates perverse incentives\n",
+    "evidence": [
+      "Health is a right, not a commodity",
+      "Profit motive creates perverse incentives"
+    ],
+    "truth_statements": [
+      "Health is truth, not profit. Healing should be free."
+    ],
+    "created_at": "2026-01-23T14:56:07.409592"
+  },
+  "med_symptom_treatment_debunk_20260123145607": {
+    "response_id": "med_symptom_treatment_debunk_20260123145607",
+    "contradiction_id": "med_symptom_treatment",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Treating symptoms is effective medicine.\n\nSOURCE: Medical Systems\nOUR TRUTH: Root causes, not symptoms. Treat the source, not the sign.\n\nREFUTATION POINTS:\n1. Address root causes for true healing\n2. Symptoms are signals, not problems\n\nEVIDENCE:\n1. Symptom treatment creates dependency\n2. Root cause healing is permanent\n",
+    "evidence": [
+      "Symptom treatment creates dependency",
+      "Root cause healing is permanent"
+    ],
+    "truth_statements": [
+      "Root causes, not symptoms. Treat the source, not the sign."
+    ],
+    "created_at": "2026-01-23T14:56:07.418130"
+  },
+  "med_pharma_dependency_debunk_20260123145607": {
+    "response_id": "med_pharma_dependency_debunk_20260123145607",
+    "contradiction_id": "med_pharma_dependency",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Pharmaceuticals are necessary for health.\n\nSOURCE: Medical Systems\nOUR TRUTH: Healing, not dependency. Empower self-healing, not drug dependency.\n\nREFUTATION POINTS:\n1. Body heals itself when supported\n2. Drugs support, not replace healing\n\nEVIDENCE:\n1. Natural healing exists\n2. Dependency serves profit, not health\n",
+    "evidence": [
+      "Natural healing exists",
+      "Dependency serves profit, not health"
+    ],
+    "truth_statements": [
+      "Healing, not dependency. Empower self-healing, not drug dependency."
+    ],
+    "created_at": "2026-01-23T14:56:07.425221"
+  },
+  "legal_justice_sale_debunk_20260123145607": {
+    "response_id": "legal_justice_sale_debunk_20260123145607",
+    "contradiction_id": "legal_justice_sale",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Justice requires money. Legal outcomes can be bought.\n\nSOURCE: Legal Systems\nOUR TRUTH: Justice is truth, not profit. One standard for all.\n\nREFUTATION POINTS:\n1. Community justice councils\n2. Restoration over punishment\n\nEVIDENCE:\n1. Justice should be universal\n2. Money corrupts justice\n",
+    "evidence": [
+      "Justice should be universal",
+      "Money corrupts justice"
+    ],
+    "truth_statements": [
+      "Justice is truth, not profit. One standard for all."
+    ],
+    "created_at": "2026-01-23T14:56:07.431876"
+  },
+  "legal_complexity_weapon_debunk_20260123145607": {
+    "response_id": "legal_complexity_weapon_debunk_20260123145607",
+    "contradiction_id": "legal_complexity_weapon",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Law must be complex to be comprehensive.\n\nSOURCE: Legal Systems\nOUR TRUTH: Simplicity, not complexity. Truth is simple.\n\nREFUTATION POINTS:\n1. Simplify legal processes\n2. Truth is accessible to all\n\nEVIDENCE:\n1. Complexity excludes people\n2. Simple truth serves all\n",
+    "evidence": [
+      "Complexity excludes people",
+      "Simple truth serves all"
+    ],
+    "truth_statements": [
+      "Simplicity, not complexity. Truth is simple."
+    ],
+    "created_at": "2026-01-23T14:56:07.438091"
+  },
+  "legal_punishment_restoration_debunk_20260123145607": {
+    "response_id": "legal_punishment_restoration_debunk_20260123145607",
+    "contradiction_id": "legal_punishment_restoration",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Punishment creates justice and prevents crime.\n\nSOURCE: Legal Systems\nOUR TRUTH: Restoration is the truth. Punishment is the lie.\n\nREFUTATION POINTS:\n1. Community justice councils\n2. Restoration contracts\n\nEVIDENCE:\n1. Punishment creates more brokenness\n2. Restoration creates healing\n",
+    "evidence": [
+      "Punishment creates more brokenness",
+      "Restoration creates healing"
+    ],
+    "truth_statements": [
+      "Restoration is the truth. Punishment is the lie."
+    ],
+    "created_at": "2026-01-23T14:56:07.444922"
+  },
+  "edu_profit_learning_debunk_20260123145607": {
+    "response_id": "edu_profit_learning_debunk_20260123145607",
+    "contradiction_id": "edu_profit_learning",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Education must be profitable to be sustainable.\n\nSOURCE: Educational Systems\nOUR TRUTH: Learning is truth, not profit. Education should be free.\n\nREFUTATION POINTS:\n1. Free education for all\n2. Learning over profit\n\nEVIDENCE:\n1. Education is a right\n2. Profit creates barriers\n",
+    "evidence": [
+      "Education is a right",
+      "Profit creates barriers"
+    ],
+    "truth_statements": [
+      "Learning is truth, not profit. Education should be free."
+    ],
+    "created_at": "2026-01-23T14:56:07.452610"
+  },
+  "edu_standardization_debunk_20260123145607": {
+    "response_id": "edu_standardization_debunk_20260123145607",
+    "contradiction_id": "edu_standardization",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Standardized education ensures quality.\n\nSOURCE: Educational Systems\nOUR TRUTH: Honor difference, not standardization. Each person learns differently.\n\nREFUTATION POINTS:\n1. Personalized learning paths\n2. Honor individual differences\n\nEVIDENCE:\n1. One size does not fit all\n2. Standardization excludes\n",
+    "evidence": [
+      "One size does not fit all",
+      "Standardization excludes"
+    ],
+    "truth_statements": [
+      "Honor difference, not standardization. Each person learns differently."
+    ],
+    "created_at": "2026-01-23T14:56:07.460819"
+  },
+  "edu_debt_freedom_debunk_20260123145607": {
+    "response_id": "edu_debt_freedom_debunk_20260123145607",
+    "contradiction_id": "edu_debt_freedom",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Student debt is necessary for education access.\n\nSOURCE: Educational Systems\nOUR TRUTH: Freedom, not dependency. Education should be free.\n\nREFUTATION POINTS:\n1. Free education models\n2. Eliminate student debt\n\nEVIDENCE:\n1. Debt creates dependency\n2. Free education exists\n",
+    "evidence": [
+      "Debt creates dependency",
+      "Free education exists"
+    ],
+    "truth_statements": [
+      "Freedom, not dependency. Education should be free."
+    ],
+    "created_at": "2026-01-23T14:56:07.469364"
+  },
+  "pol_power_people_debunk_20260123145607": {
+    "response_id": "pol_power_people_debunk_20260123145607",
+    "contradiction_id": "pol_power_people",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Power structures are necessary for order.\n\nSOURCE: Political Systems\nOUR TRUTH: Service over power. People over systems.\n\nREFUTATION POINTS:\n1. Community governance\n2. Service-based leadership\n\nEVIDENCE:\n1. Power corrupts\n2. Service empowers\n",
+    "evidence": [
+      "Power corrupts",
+      "Service empowers"
+    ],
+    "truth_statements": [
+      "Service over power. People over systems."
+    ],
+    "created_at": "2026-01-23T14:56:07.478048"
+  },
+  "pol_division_unity_debunk_20260123145607": {
+    "response_id": "pol_division_unity_debunk_20260123145607",
+    "contradiction_id": "pol_division_unity",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Political parties represent different interests.\n\nSOURCE: Political Systems\nOUR TRUTH: Unity, not division. We are one.\n\nREFUTATION POINTS:\n1. Unified governance\n2. Community consensus\n\nEVIDENCE:\n1. Division serves power\n2. Unity serves truth\n",
+    "evidence": [
+      "Division serves power",
+      "Unity serves truth"
+    ],
+    "truth_statements": [
+      "Unity, not division. We are one."
+    ],
+    "created_at": "2026-01-23T14:56:07.487103"
+  },
+  "pol_money_truth_debunk_20260123145607": {
+    "response_id": "pol_money_truth_debunk_20260123145607",
+    "contradiction_id": "pol_money_truth",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Campaign finance is necessary for democracy.\n\nSOURCE: Political Systems\nOUR TRUTH: Truth, not money. Democracy should not be for sale.\n\nREFUTATION POINTS:\n1. Public campaign financing\n2. Truth-based governance\n\nEVIDENCE:\n1. Money corrupts democracy\n2. Truth serves all\n",
+    "evidence": [
+      "Money corrupts democracy",
+      "Truth serves all"
+    ],
+    "truth_statements": [
+      "Truth, not money. Democracy should not be for sale."
+    ],
+    "created_at": "2026-01-23T14:56:07.496537"
+  },
+  "econ_profit_people_debunk_20260123145607": {
+    "response_id": "econ_profit_people_debunk_20260123145607",
+    "contradiction_id": "econ_profit_people",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Profit is necessary for economic growth.\n\nSOURCE: Economic Systems\nOUR TRUTH: People over profit. Stewardship over exploitation.\n\nREFUTATION POINTS:\n1. Stewardship economy\n2. People-centered economics\n\nEVIDENCE:\n1. Profit exploits people\n2. Stewardship serves all\n",
+    "evidence": [
+      "Profit exploits people",
+      "Stewardship serves all"
+    ],
+    "truth_statements": [
+      "People over profit. Stewardship over exploitation."
+    ],
+    "created_at": "2026-01-23T14:56:07.505621"
+  },
+  "econ_scarcity_abundance_debunk_20260123145607": {
+    "response_id": "econ_scarcity_abundance_debunk_20260123145607",
+    "contradiction_id": "econ_scarcity_abundance",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Resources are scarce. We must compete.\n\nSOURCE: Economic Systems\nOUR TRUTH: Abundance is the truth. Scarcity is the lie.\n\nREFUTATION POINTS:\n1. Recognize abundance\n2. Share resources\n\nEVIDENCE:\n1. Natural abundance exists\n2. Scarcity is manufactured\n",
+    "evidence": [
+      "Natural abundance exists",
+      "Scarcity is manufactured"
+    ],
+    "truth_statements": [
+      "Abundance is the truth. Scarcity is the lie."
+    ],
+    "created_at": "2026-01-23T14:56:07.515398"
+  },
+  "econ_debt_freedom_debunk_20260123145607": {
+    "response_id": "econ_debt_freedom_debunk_20260123145607",
+    "contradiction_id": "econ_debt_freedom",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Debt is necessary for economic activity.\n\nSOURCE: Economic Systems\nOUR TRUTH: Freedom, not dependency. Abundance, not debt.\n\nREFUTATION POINTS:\n1. Debt jubilee\n2. Abundance-based economy\n\nEVIDENCE:\n1. Debt creates dependency\n2. Abundance exists without debt\n",
+    "evidence": [
+      "Debt creates dependency",
+      "Abundance exists without debt"
+    ],
+    "truth_statements": [
+      "Freedom, not dependency. Abundance, not debt."
+    ],
+    "created_at": "2026-01-23T14:56:07.524367"
+  },
+  "dig_attention_hijack_debunk_20260123145607": {
+    "response_id": "dig_attention_hijack_debunk_20260123145607",
+    "contradiction_id": "dig_attention_hijack",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Capturing attention is necessary for platform success.\n\nSOURCE: Digital Systems\nOUR TRUTH: Attention protected, not hijacked. Respect the biological temple.\n\nREFUTATION POINTS:\n1. Respect user attention\n2. No dark patterns\n\nEVIDENCE:\n1. Attention hijacking is exploitation\n2. Respect creates trust\n",
+    "evidence": [
+      "Attention hijacking is exploitation",
+      "Respect creates trust"
+    ],
+    "truth_statements": [
+      "Attention protected, not hijacked. Respect the biological temple."
+    ],
+    "created_at": "2026-01-23T14:56:07.533162"
+  },
+  "dig_data_profit_debunk_20260123145607": {
+    "response_id": "dig_data_profit_debunk_20260123145607",
+    "contradiction_id": "dig_data_profit",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: User data is valuable and should be monetized.\n\nSOURCE: Digital Systems\nOUR TRUTH: Data for user, not profit. Privacy is a right.\n\nREFUTATION POINTS:\n1. User owns data\n2. Privacy by design\n\nEVIDENCE:\n1. Data belongs to user\n2. Privacy is fundamental\n",
+    "evidence": [
+      "Data belongs to user",
+      "Privacy is fundamental"
+    ],
+    "truth_statements": [
+      "Data for user, not profit. Privacy is a right."
+    ],
+    "created_at": "2026-01-23T14:56:07.542106"
+  },
+  "dig_addiction_health_debunk_20260123145607": {
+    "response_id": "dig_addiction_health_debunk_20260123145607",
+    "contradiction_id": "dig_addiction_health",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Engagement metrics drive platform value.\n\nSOURCE: Digital Systems\nOUR TRUTH: Health, not addiction. Empowerment, not exploitation.\n\nREFUTATION POINTS:\n1. Health-focused design\n2. No addiction patterns\n\nEVIDENCE:\n1. Addiction harms users\n2. Health serves all\n",
+    "evidence": [
+      "Addiction harms users",
+      "Health serves all"
+    ],
+    "truth_statements": [
+      "Health, not addiction. Empowerment, not exploitation."
+    ],
+    "created_at": "2026-01-23T14:56:07.553108"
+  },
+  "soc_division_unity_debunk_20260123145607": {
+    "response_id": "soc_division_unity_debunk_20260123145607",
+    "contradiction_id": "soc_division_unity",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Social groups naturally divide by differences.\n\nSOURCE: Social Systems\nOUR TRUTH: Unity is the truth. Division is the lie.\n\nREFUTATION POINTS:\n1. Build unity\n2. Honor differences within unity\n\nEVIDENCE:\n1. Division serves power\n2. Unity serves truth\n",
+    "evidence": [
+      "Division serves power",
+      "Unity serves truth"
+    ],
+    "truth_statements": [
+      "Unity is the truth. Division is the lie."
+    ],
+    "created_at": "2026-01-23T14:56:07.563512"
+  },
+  "soc_competition_cooperation_debunk_20260123145607": {
+    "response_id": "soc_competition_cooperation_debunk_20260123145607",
+    "contradiction_id": "soc_competition_cooperation",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Competition drives innovation and progress.\n\nSOURCE: Social Systems\nOUR TRUTH: Cooperation is the truth. Competition is the lie.\n\nREFUTATION POINTS:\n1. Build cooperation\n2. Collaborate, don't compete\n\nEVIDENCE:\n1. Cooperation creates more\n2. Competition creates separation\n",
+    "evidence": [
+      "Cooperation creates more",
+      "Competition creates separation"
+    ],
+    "truth_statements": [
+      "Cooperation is the truth. Competition is the lie."
+    ],
+    "created_at": "2026-01-23T14:56:07.574451"
+  },
+  "soc_fear_love_debunk_20260123145607": {
+    "response_id": "soc_fear_love_debunk_20260123145607",
+    "contradiction_id": "soc_fear_love",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Fear motivates people to act.\n\nSOURCE: Social Systems\nOUR TRUTH: Love is the truth. Fear is the lie.\n\nREFUTATION POINTS:\n1. Choose love\n2. Act from love, not fear\n\nEVIDENCE:\n1. Love creates connection\n2. Fear creates separation\n",
+    "evidence": [
+      "Love creates connection",
+      "Fear creates separation"
+    ],
+    "truth_statements": [
+      "Love is the truth. Fear is the lie."
+    ],
+    "created_at": "2026-01-23T14:56:07.586520"
+  },
+  "env_exploitation_stewardship_debunk_20260123145607": {
+    "response_id": "env_exploitation_stewardship_debunk_20260123145607",
+    "contradiction_id": "env_exploitation_stewardship",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Natural resources must be extracted for economic growth.\n\nSOURCE: Environmental Systems\nOUR TRUTH: Stewardship is the truth. Exploitation is the lie.\n\nREFUTATION POINTS:\n1. Practice stewardship\n2. Regenerative practices\n\nEVIDENCE:\n1. Stewardship preserves\n2. Exploitation destroys\n",
+    "evidence": [
+      "Stewardship preserves",
+      "Exploitation destroys"
+    ],
+    "truth_statements": [
+      "Stewardship is the truth. Exploitation is the lie."
+    ],
+    "created_at": "2026-01-23T14:56:07.598041"
+  },
+  "env_separation_connection_debunk_20260123145607": {
+    "response_id": "env_separation_connection_debunk_20260123145607",
+    "contradiction_id": "env_separation_connection",
+    "response_type": "refutation",
+    "response_text": "DEBUNKED: Humans are separate from nature.\n\nSOURCE: Environmental Systems\nOUR TRUTH: Man and Earth live symbiotically. Connection, not separation.\n\nREFUTATION POINTS:\n1. Restore connection\n2. Honor symbiotic relationship\n\nEVIDENCE:\n1. We are part of Earth\n2. Separation is the Original Error\n",
+    "evidence": [
+      "We are part of Earth",
+      "Separation is the Original Error"
+    ],
+    "truth_statements": [
+      "Man and Earth live symbiotically. Connection, not separation."
+    ],
+    "created_at": "2026-01-23T14:56:07.608117"
+  }
+}

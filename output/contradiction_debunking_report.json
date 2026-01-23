@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-01-23T14:54:40.475233",
+  "summary": {
+    "total_contradictions": 4,
+    "debunked": 1,
+    "identified": 3,
+    "total_responses": 1
+  },
+  "by_type": {
+    "economic_contradiction": 1,
+    "political_contradiction": 2,
+    "system_contradiction": 1
+  },
+  "by_status": {
+    "identified": 3,
+    "debunked": 1
+  },
+  "high_impact": [
+    {
+      "id": "econ_scarcity_lie",
+      "claim": "Scarcity is real. We must compete for resources.",
+      "source": "Economic Systems",
+      "impact_level": 0.9
+    },
+    {
+      "id": "pol_1_percent_rule",
+      "claim": "The 1% rule the masses. This is how it works.",
+      "source": "Power Structures",
+      "impact_level": 1.0
+    },
+    {
+      "id": "sys_punishment_justice",
+      "claim": "Punishment is justice. Criminals must be punished.",
+      "source": "Judicial Systems",
+      "impact_level": 0.8
+    }
+  ],
+  "recent_debunks": [
+    {
+      "id": "auto_20260123145440",
+      "claim": "War is necessary for peace.",
+      "debunked_date": "2026-01-23T14:54:40.471656",
+      "our_truth": "Peace is the truth. War is the lie."
+    }
+  ]
+}

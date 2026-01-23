@@ -1,0 +1,222 @@
+{
+  "timestamp": "2026-01-23T14:56:07.613614",
+  "summary": {
+    "total_contradictions": 27,
+    "debunked": 24,
+    "identified": 3,
+    "total_responses": 24
+  },
+  "by_type": {
+    "economic_contradiction": 4,
+    "political_contradiction": 5,
+    "system_contradiction": 13,
+    "social_contradiction": 3,
+    "environmental_contradiction": 2
+  },
+  "by_status": {
+    "identified": 3,
+    "debunked": 24
+  },
+  "high_impact": [
+    {
+      "id": "econ_scarcity_lie",
+      "claim": "Scarcity is real. We must compete for resources.",
+      "source": "Economic Systems",
+      "impact_level": 0.9
+    },
+    {
+      "id": "pol_1_percent_rule",
+      "claim": "The 1% rule the masses. This is how it works.",
+      "source": "Power Structures",
+      "impact_level": 1.0
+    },
+    {
+      "id": "sys_punishment_justice",
+      "claim": "Punishment is justice. Criminals must be punished.",
+      "source": "Judicial Systems",
+      "impact_level": 0.8
+    },
+    {
+      "id": "med_profit_health",
+      "claim": "Medical care must be profitable to be sustainable.",
+      "source": "Medical Systems",
+      "impact_level": 0.8
+    },
+    {
+      "id": "med_symptom_treatment",
+      "claim": "Treating symptoms is effective medicine.",
+      "source": "Medical Systems",
+      "impact_level": 0.8
+    },
+    {
+      "id": "med_pharma_dependency",
+      "claim": "Pharmaceuticals are necessary for health.",
+      "source": "Medical Systems",
+      "impact_level": 0.8
+    },
+    {
+      "id": "legal_justice_sale",
+      "claim": "Justice requires money. Legal outcomes can be bought.",
+      "source": "Legal Systems",
+      "impact_level": 0.9
+    },
+    {
+      "id": "legal_complexity_weapon",
+      "claim": "Law must be complex to be comprehensive.",
+      "source": "Legal Systems",
+      "impact_level": 0.9
+    },
+    {
+      "id": "legal_punishment_restoration",
+      "claim": "Punishment creates justice and prevents crime.",
+      "source": "Legal Systems",
+      "impact_level": 0.9
+    },
+    {
+      "id": "pol_power_people",
+      "claim": "Power structures are necessary for order.",
+      "source": "Political Systems",
+      "impact_level": 0.9
+    },
+    {
+      "id": "pol_division_unity",
+      "claim": "Political parties represent different interests.",
+      "source": "Political Systems",
+      "impact_level": 0.9
+    },
+    {
+      "id": "pol_money_truth",
+      "claim": "Campaign finance is necessary for democracy.",
+      "source": "Political Systems",
+      "impact_level": 0.9
+    },
+    {
+      "id": "econ_profit_people",
+      "claim": "Profit is necessary for economic growth.",
+      "source": "Economic Systems",
+      "impact_level": 0.9
+    },
+    {
+      "id": "econ_scarcity_abundance",
+      "claim": "Resources are scarce. We must compete.",
+      "source": "Economic Systems",
+      "impact_level": 0.9
+    },
+    {
+      "id": "econ_debt_freedom",
+      "claim": "Debt is necessary for economic activity.",
+      "source": "Economic Systems",
+      "impact_level": 0.9
+    },
+    {
+      "id": "dig_attention_hijack",
+      "claim": "Capturing attention is necessary for platform success.",
+      "source": "Digital Systems",
+      "impact_level": 0.8
+    },
+    {
+      "id": "dig_data_profit",
+      "claim": "User data is valuable and should be monetized.",
+      "source": "Digital Systems",
+      "impact_level": 0.8
+    },
+    {
+      "id": "dig_addiction_health",
+      "claim": "Engagement metrics drive platform value.",
+      "source": "Digital Systems",
+      "impact_level": 0.8
+    },
+    {
+      "id": "soc_division_unity",
+      "claim": "Social groups naturally divide by differences.",
+      "source": "Social Systems",
+      "impact_level": 0.8
+    },
+    {
+      "id": "soc_competition_cooperation",
+      "claim": "Competition drives innovation and progress.",
+      "source": "Social Systems",
+      "impact_level": 0.8
+    },
+    {
+      "id": "soc_fear_love",
+      "claim": "Fear motivates people to act.",
+      "source": "Social Systems",
+      "impact_level": 0.8
+    },
+    {
+      "id": "env_exploitation_stewardship",
+      "claim": "Natural resources must be extracted for economic growth.",
+      "source": "Environmental Systems",
+      "impact_level": 1.0
+    },
+    {
+      "id": "env_separation_connection",
+      "claim": "Humans are separate from nature.",
+      "source": "Environmental Systems",
+      "impact_level": 1.0
+    }
+  ],
+  "recent_debunks": [
+    {
+      "id": "env_separation_connection",
+      "claim": "Humans are separate from nature.",
+      "debunked_date": "2026-01-23T14:56:07.608090",
+      "our_truth": "Man and Earth live symbiotically. Connection, not separation."
+    },
+    {
+      "id": "env_exploitation_stewardship",
+      "claim": "Natural resources must be extracted for economic growth.",
+      "debunked_date": "2026-01-23T14:56:07.598021",
+      "our_truth": "Stewardship is the truth. Exploitation is the lie."
+    },
+    {
+      "id": "soc_fear_love",
+      "claim": "Fear motivates people to act.",
+      "debunked_date": "2026-01-23T14:56:07.586499",
+      "our_truth": "Love is the truth. Fear is the lie."
+    },
+    {
+      "id": "soc_competition_cooperation",
+      "claim": "Competition drives innovation and progress.",
+      "debunked_date": "2026-01-23T14:56:07.574425",
+      "our_truth": "Cooperation is the truth. Competition is the lie."
+    },
+    {
+      "id": "soc_division_unity",
+      "claim": "Social groups naturally divide by differences.",
+      "debunked_date": "2026-01-23T14:56:07.563490",
+      "our_truth": "Unity is the truth. Division is the lie."
+    },
+    {
+      "id": "dig_addiction_health",
+      "claim": "Engagement metrics drive platform value.",
+      "debunked_date": "2026-01-23T14:56:07.553087",
+      "our_truth": "Health, not addiction. Empowerment, not exploitation."
+    },
+    {
+      "id": "dig_data_profit",
+      "claim": "User data is valuable and should be monetized.",
+      "debunked_date": "2026-01-23T14:56:07.542081",
+      "our_truth": "Data for user, not profit. Privacy is a right."
+    },
+    {
+      "id": "dig_attention_hijack",
+      "claim": "Capturing attention is necessary for platform success.",
+      "debunked_date": "2026-01-23T14:56:07.533141",
+      "our_truth": "Attention protected, not hijacked. Respect the biological temple."
+    },
+    {
+      "id": "econ_debt_freedom",
+      "claim": "Debt is necessary for economic activity.",
+      "debunked_date": "2026-01-23T14:56:07.524341",
+      "our_truth": "Freedom, not dependency. Abundance, not debt."
+    },
+    {
+      "id": "econ_scarcity_abundance",
+      "claim": "Resources are scarce. We must compete.",
+      "debunked_date": "2026-01-23T14:56:07.515371",
+      "our_truth": "Abundance is the truth. Scarcity is the lie."
+    }
+  ]
+}

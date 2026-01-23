@@ -1,0 +1,320 @@
+.attackCounterContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #1a0f2e 0%, #2d1b3d 100%);
+  border-radius: 20px;
+  border: 2px solid rgba(255, 0, 100, 0.3);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #ff0066;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-shadow: 0 0 20px rgba(255, 0, 102, 0.6);
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.attackGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.attackCard {
+  padding: 1.5rem;
+  background: rgba(255, 0, 100, 0.1);
+  border: 2px solid rgba(255, 0, 100, 0.3);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.attackName {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.detectButton {
+  width: 100%;
+  padding: 0.75rem;
+  background: rgba(255, 0, 100, 0.2);
+  border: 2px solid rgba(255, 0, 100, 0.5);
+  border-radius: 10px;
+  color: #ff0066;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.85rem;
+}
+
+.detectButton:hover {
+  background: rgba(255, 0, 100, 0.3);
+  border-color: #ff0066;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 0, 100, 0.4);
+}
+
+.attacksList {
+  margin-top: 2rem;
+}
+
+.listTitle {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ff0066;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.attackItem {
+  padding: 2rem;
+  background: rgba(255, 0, 100, 0.1);
+  border-radius: 15px;
+  border: 2px solid rgba(255, 0, 100, 0.3);
+  margin-bottom: 1.5rem;
+}
+
+.attackHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.attackType {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ff0066;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.attackTime {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-style: italic;
+}
+
+.attackDescription {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.counterButton {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(135deg, #ff0066 0%, #ff4d94 100%);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.counterButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 0, 102, 0.4);
+}
+
+.counterApplied {
+  padding: 1.5rem;
+  background: rgba(0, 255, 0, 0.1);
+  border: 2px solid rgba(0, 255, 0, 0.5);
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.counterDecree {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #4ade80;
+  font-style: italic;
+  margin-bottom: 0.75rem;
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0, 255, 0, 0.05);
+  border-radius: 8px;
+}
+
+.counterAction {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.specialTool {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background: rgba(255, 215, 0, 0.1);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.peaceCheckButton {
+  width: 100%;
+  padding: 1rem;
+  background: rgba(255, 215, 0, 0.2);
+  border: 2px solid rgba(255, 215, 0, 0.5);
+  border-radius: 10px;
+  color: #ffd700;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.peaceCheckButton:hover {
+  background: rgba(255, 215, 0, 0.3);
+  border-color: #ffd700;
+}
+
+.peaceResult {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.warning {
+  margin-top: 0.5rem;
+  color: #ffd700;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.evidenceLogTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffd700;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.evidenceList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.evidenceItem {
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.9);
+  border-left: 3px solid #ffd700;
+}
+
+.evidenceInput {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.evidenceInputField {
+  flex: 1;
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 215, 0, 0.3);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.evidenceInputField:focus {
+  outline: none;
+  border-color: #ffd700;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+.evidenceInputField::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.addEvidenceButton {
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 215, 0, 0.2);
+  border: 2px solid rgba(255, 215, 0, 0.5);
+  border-radius: 8px;
+  color: #ffd700;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.addEvidenceButton:hover {
+  background: rgba(255, 215, 0, 0.3);
+  border-color: #ffd700;
+}
+
+.strategyDisplay {
+  padding: 2rem;
+  background: rgba(255, 215, 0, 0.1);
+  border-radius: 15px;
+  border: 2px solid rgba(255, 215, 0, 0.5);
+  text-align: center;
+}
+
+.strategyTitle {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffd700;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.strategyDecree {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  font-style: italic;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  background: rgba(255, 215, 0, 0.1);
+  border-radius: 10px;
+  line-height: 1.6;
+}
+
+.strategyAction {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+}

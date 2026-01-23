@@ -1,0 +1,244 @@
+.timingContainer {
+  padding: 2rem;
+  background: linear-gradient(135deg, #0f0f23 0%, #1a1a3e 100%);
+  border-radius: 20px;
+  border: 2px solid rgba(255, 215, 0, 0.2);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #ffd700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+}
+
+.timingType {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.9rem;
+}
+
+.timingType.chyros {
+  background: rgba(255, 215, 0, 0.2);
+  border-color: #ffd700;
+  color: #ffd700;
+  animation: pulse 2s infinite;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+}
+
+.timingType.moed {
+  background: rgba(255, 0, 150, 0.2);
+  border-color: #ff0096;
+  color: #ff0096;
+  animation: pulse 1.5s infinite;
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.4);
+}
+
+.currentTime {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(255, 215, 0, 0.1);
+  border-radius: 15px;
+  border: 2px solid rgba(255, 215, 0, 0.3);
+  margin-bottom: 2rem;
+}
+
+.timeLabel {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.5rem;
+}
+
+.timeValue {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #ffd700;
+  font-family: 'Courier New', monospace;
+  text-shadow: 0 0 30px rgba(255, 215, 0, 0.8);
+  margin: 1rem 0;
+}
+
+.chyrosIndicator,
+.moedIndicator {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: rgba(255, 215, 0, 0.2);
+  border-radius: 8px;
+  color: #ffd700;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.9rem;
+  animation: pulse 2s infinite;
+}
+
+.moedIndicator {
+  background: rgba(255, 0, 150, 0.2);
+  color: #ff0096;
+}
+
+.windowDisplay {
+  margin-bottom: 2rem;
+}
+
+.windowTitle {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffd700;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.windowProgress {
+  margin-bottom: 1rem;
+}
+
+.progressBar {
+  width: 100%;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, #ffd700 0%, #ffed4e 100%);
+  transition: width 0.3s ease;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+}
+
+.progressText {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.timeRemaining {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(255, 215, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.remainingLabel {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.remainingTime {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #ffd700;
+  font-family: 'Courier New', monospace;
+}
+
+.identityShift {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: rgba(255, 215, 0, 0.05);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.shiftTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffd700;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.shiftProgress {
+  margin-top: 1rem;
+}
+
+.shiftText {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.moedList {
+  margin-top: 2rem;
+}
+
+.moedTitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ff0096;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.moedItem {
+  padding: 1.5rem;
+  background: rgba(255, 0, 150, 0.1);
+  border: 2px solid rgba(255, 0, 150, 0.3);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.moedItem.completed {
+  opacity: 0.6;
+  border-color: rgba(255, 0, 150, 0.2);
+}
+
+.moedName {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ff0096;
+  margin-bottom: 0.5rem;
+}
+
+.moedTime {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Courier New', monospace;
+  margin-bottom: 0.5rem;
+}
+
+.moedSignificance {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-style: italic;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
