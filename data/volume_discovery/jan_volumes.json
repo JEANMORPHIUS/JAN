@@ -1,0 +1,72 @@
+{
+  "volumes": [
+    {
+      "volume_id": "vol_D_20260123_214011",
+      "drive_letter": "D",
+      "label": "Ringo",
+      "file_system": "NTFS",
+      "size_gb": 931.51,
+      "free_space_gb": 918.99,
+      "used_space_gb": 12.52,
+      "usage_percent": 1.34,
+      "disk_number": null,
+      "disk_model": null,
+      "disk_type": null,
+      "health_status": "Healthy",
+      "partition_style": null,
+      "interface_type": null,
+      "discovered_at": "2026-01-23T21:40:39.844831"
+    },
+    {
+      "volume_id": "vol_C_20260123_214011",
+      "drive_letter": "C",
+      "label": "",
+      "file_system": "NTFS",
+      "size_gb": 237.61,
+      "free_space_gb": 11.46,
+      "used_space_gb": 226.15,
+      "usage_percent": 95.18,
+      "disk_number": null,
+      "disk_model": null,
+      "disk_type": null,
+      "health_status": "Healthy",
+      "partition_style": null,
+      "interface_type": null,
+      "discovered_at": "2026-01-23T21:40:39.844919"
+    },
+    {
+      "volume_id": "vol_S_20260123_214011",
+      "drive_letter": "S",
+      "label": "SIYEM",
+      "file_system": "NTFS",
+      "size_gb": 1862.98,
+      "free_space_gb": 1860.96,
+      "used_space_gb": 2.02,
+      "usage_percent": 0.11,
+      "disk_number": null,
+      "disk_model": null,
+      "disk_type": null,
+      "health_status": "Healthy",
+      "partition_style": null,
+      "interface_type": null,
+      "discovered_at": "2026-01-23T21:40:39.844970"
+    },
+    {
+      "volume_id": "vol_E_20260123_214011",
+      "drive_letter": "E",
+      "label": "Mickey",
+      "file_system": "NTFS",
+      "size_gb": 931.51,
+      "free_space_gb": 665.9,
+      "used_space_gb": 265.61,
+      "usage_percent": 28.51,
+      "disk_number": null,
+      "disk_model": null,
+      "disk_type": null,
+      "health_status": "Healthy",
+      "partition_style": null,
+      "interface_type": null,
+      "discovered_at": "2026-01-23T21:40:39.845053"
+    }
+  ]
+}

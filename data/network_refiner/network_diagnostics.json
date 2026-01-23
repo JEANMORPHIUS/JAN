@@ -239,7 +239,31 @@
       "latency_ms": null,
       "error": "HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000025A9294CAD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')))",
       "details": {}
+    },
+    {
+      "timestamp": "2026-01-23T21:32:14.804670",
+      "test_type": "internet_connectivity",
+      "success": true,
+      "latency_ms": null,
+      "error": null,
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-23T21:32:14.852417",
+      "test_type": "dns_resolution",
+      "success": true,
+      "latency_ms": 47.72543907165527,
+      "error": null,
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-23T21:32:15.278619",
+      "test_type": "github_connectivity",
+      "success": true,
+      "latency_ms": 426.1810779571533,
+      "error": null,
+      "details": {}
     }
   ],
-  "last_updated": "2026-01-23T19:25:53.951795"
+  "last_updated": "2026-01-23T21:32:15.279093"
 }

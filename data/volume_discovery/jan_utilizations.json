@@ -1,0 +1,63 @@
+{
+  "utilizations": [
+    {
+      "volume_id": "vol_C_20260123_214011",
+      "drive_letter": "C",
+      "recommended_use": "system_only",
+      "priority": 10,
+      "utilization_actions": [
+        "Keep system files only",
+        "Move user data to other drives",
+        "Keep free space >20% for system health",
+        "Regular cleanup and optimization",
+        "[WARNING] 95.18% used - cleanup needed"
+      ],
+      "notes": "System drive - keep minimal, optimize regularly High usage (95.18%) - consider cleanup or migration"
+    },
+    {
+      "volume_id": "vol_D_20260123_214011",
+      "drive_letter": "D",
+      "recommended_use": "backup_archive",
+      "priority": 8,
+      "utilization_actions": [
+        "Create backup directory structure on D:",
+        "  - D:\\Backups\\System",
+        "  - D:\\Backups\\Projects",
+        "  - D:\\Archives",
+        "Set up automated backup scripts",
+        "Configure backup schedule"
+      ],
+      "notes": "Large capacity (931.51 GB) with 918.99 GB free - ideal for backups and archives"
+    },
+    {
+      "volume_id": "vol_S_20260123_214011",
+      "drive_letter": "S",
+      "recommended_use": "backup_archive",
+      "priority": 8,
+      "utilization_actions": [
+        "Create backup directory structure on S:",
+        "  - S:\\Backups\\System",
+        "  - S:\\Backups\\Projects",
+        "  - S:\\Archives",
+        "Set up automated backup scripts",
+        "Configure backup schedule"
+      ],
+      "notes": "Large capacity (1862.98 GB) with 1860.96 GB free - ideal for backups and archives"
+    },
+    {
+      "volume_id": "vol_E_20260123_214011",
+      "drive_letter": "E",
+      "recommended_use": "backup_archive",
+      "priority": 8,
+      "utilization_actions": [
+        "Create backup directory structure on E:",
+        "  - E:\\Backups\\System",
+        "  - E:\\Backups\\Projects",
+        "  - E:\\Archives",
+        "Set up automated backup scripts",
+        "Configure backup schedule"
+      ],
+      "notes": "Large capacity (931.51 GB) with 665.9 GB free - ideal for backups and archives"
+    }
+  ]
+}
