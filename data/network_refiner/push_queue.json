@@ -1,4 +1,14 @@
 {
-  "queue": [],
-  "last_updated": "2026-01-23T18:07:38.631755"
+  "queue": [
+    {
+      "queue_id": "push_20260123_182658",
+      "commit_hash": "596d06d9ba2d4259b8d4869338d91f90b5afdf2d",
+      "branch": "master",
+      "created_at": "2026-01-23T18:26:58.250522",
+      "attempts": 0,
+      "last_attempt": null,
+      "status": "pending"
+    }
+  ],
+  "last_updated": "2026-01-23T18:26:58.252961"
 }
