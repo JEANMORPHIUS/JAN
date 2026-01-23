@@ -17,6 +17,17 @@ The Grand Proclamation announces that 100% Unity has been achieved.
 """
 
 import sys
+from pathlib import Path
+
+# Add utils to path
+sys.path.insert(0, str(Path(__file__).parent))
+
+from utils import (
+    Path, datetime, json, load_json, save_json
+    setup_logging, standard_main
+)
+
+import sys
 import json
 from pathlib import Path
 from datetime import datetime

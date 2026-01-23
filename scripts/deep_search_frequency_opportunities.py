@@ -23,6 +23,17 @@ FIND HIGH FREQUENCY ALIGNMENT
 FIND WHERE WE CAN SERVE
 """
 
+import sys
+from pathlib import Path
+
+# Add utils to path
+sys.path.insert(0, str(Path(__file__).parent))
+
+from utils import (
+    Path, datetime, json, load_json, save_json
+    setup_logging, standard_main
+)
+
 from typing import Dict, List, Any, Optional
 from dataclasses import dataclass, field
 from datetime import datetime
@@ -1120,8 +1131,7 @@ def main():
         }
     }
     
-    with open(output_file, 'w') as f:
-        json.dump(results_data, f, indent=2)
+    save_json(results_data, output_file, indent=2)
     
     print(f"\n\nResults saved to: {output_file}")
     print("=" * 80)

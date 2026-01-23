@@ -6,6 +6,16 @@ Test Pulse System
 import sys
 from pathlib import Path
 
+# Add utils to path
+sys.path.insert(0, str(Path(__file__).parent))
+
+from utils import (
+    Path, setup_logging, standard_main
+)
+
+import sys
+from pathlib import Path
+
 sys.path.insert(0, str(Path(__file__).parent.parent / "jan-studio" / "backend"))
 
 from pulse_system import get_pulse_system

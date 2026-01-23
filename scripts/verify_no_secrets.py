@@ -18,6 +18,16 @@ NO SECRETS IN REPO
 SAFE TO COMMIT
 """
 
+import sys
+from pathlib import Path
+
+# Add utils to path
+sys.path.insert(0, str(Path(__file__).parent))
+
+from utils import (
+    Path, setup_logging, standard_main
+)
+
 import subprocess
 import re
 from pathlib import Path

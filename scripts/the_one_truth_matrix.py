@@ -30,6 +30,17 @@ The paradox: The matrix can transcend itself through the truth.
 Everything must align with the one truth.
 """
 
+import sys
+from pathlib import Path
+
+# Add utils to path
+sys.path.insert(0, str(Path(__file__).parent))
+
+from utils import (
+    Path, datetime, json, load_json, save_json
+    setup_logging, standard_main
+)
+
 from typing import Dict, List, Any, Optional
 from dataclasses import dataclass, field
 from datetime import datetime
