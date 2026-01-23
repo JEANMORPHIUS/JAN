@@ -1,0 +1,223 @@
+{
+  "entities": [
+    {
+      "entity_id": "entity_jean_morphius",
+      "name": "Jean Morphius",
+      "entity_type": "creative_persona",
+      "description": "Bilingual absurdist storyteller (@jeanmahram)",
+      "channels": [
+        "creator",
+        "educational"
+      ],
+      "monetization_opportunities": [
+        "story_sales",
+        "book_publishing",
+        "content_licensing",
+        "educational_content"
+      ],
+      "alignment_score": 1.0,
+      "revenue_potential": 50000.0,
+      "created_at": "2026-01-23T17:15:17.863621",
+      "updated_at": "2026-01-23T17:15:17.863626"
+    },
+    {
+      "entity_id": "entity_karasahin",
+      "name": "Karasahin (JK)",
+      "entity_type": "creative_persona",
+      "description": "Sound architect, Turkish Cypriot identity (@karasahinjk)",
+      "channels": [
+        "creator",
+        "professional"
+      ],
+      "monetization_opportunities": [
+        "music_sales",
+        "streaming_royalties",
+        "licensing",
+        "live_performances"
+      ],
+      "alignment_score": 1.0,
+      "revenue_potential": 75000.0,
+      "created_at": "2026-01-23T17:15:17.863630",
+      "updated_at": "2026-01-23T17:15:17.863632"
+    },
+    {
+      "entity_id": "entity_pierre_pressure",
+      "name": "Pierre Pressure",
+      "entity_type": "creative_persona",
+      "description": "Motivational fighter philosopher (@pierrepressureofficial)",
+      "channels": [
+        "professional",
+        "educational"
+      ],
+      "monetization_opportunities": [
+        "speaking_engagements",
+        "coaching",
+        "course_sales",
+        "book_sales"
+      ],
+      "alignment_score": 1.0,
+      "revenue_potential": 40000.0,
+      "created_at": "2026-01-23T17:15:17.863634",
+      "updated_at": "2026-01-23T17:15:17.863635"
+    },
+    {
+      "entity_id": "entity_uncle_ray_ramiz",
+      "name": "Uncle Ray Ramiz",
+      "entity_type": "creative_persona",
+      "description": "Spiritual guide, Turkish Dayı (@unclerayramiz)",
+      "channels": [
+        "educational",
+        "spiritual"
+      ],
+      "monetization_opportunities": [
+        "teaching_courses",
+        "spiritual_guidance",
+        "book_sales",
+        "workshops"
+      ],
+      "alignment_score": 1.0,
+      "revenue_potential": 35000.0,
+      "created_at": "2026-01-23T17:15:17.863636",
+      "updated_at": "2026-01-23T17:15:17.863637"
+    },
+    {
+      "entity_id": "entity_siyem_media",
+      "name": "Siyem Media",
+      "entity_type": "creative_persona",
+      "description": "Meta-entity, production overseer (@siyemmedia)",
+      "channels": [
+        "professional",
+        "creator",
+        "educational"
+      ],
+      "monetization_opportunities": [
+        "production_services",
+        "content_licensing",
+        "platform_commission"
+      ],
+      "alignment_score": 1.0,
+      "revenue_potential": 100000.0,
+      "created_at": "2026-01-23T17:15:17.863641",
+      "updated_at": "2026-01-23T17:15:17.863642"
+    },
+    {
+      "entity_id": "entity_edible_london",
+      "name": "Edible London",
+      "entity_type": "business_project",
+      "description": "90-second food production videos",
+      "channels": [
+        "creator",
+        "professional"
+      ],
+      "monetization_opportunities": [
+        "advertising",
+        "sponsorships",
+        "content_licensing",
+        "merchandise"
+      ],
+      "alignment_score": 0.9,
+      "revenue_potential": 30000.0,
+      "created_at": "2026-01-23T17:15:17.863644",
+      "updated_at": "2026-01-23T17:15:17.863644"
+    },
+    {
+      "entity_id": "entity_ilven_seamoss",
+      "name": "Ilven Seamoss",
+      "entity_type": "business_project",
+      "description": "90-second sea moss production",
+      "channels": [
+        "creator",
+        "professional"
+      ],
+      "monetization_opportunities": [
+        "product_sales",
+        "advertising",
+        "sponsorships",
+        "educational_content"
+      ],
+      "alignment_score": 0.9,
+      "revenue_potential": 25000.0,
+      "created_at": "2026-01-23T17:15:17.863646",
+      "updated_at": "2026-01-23T17:15:17.863647"
+    },
+    {
+      "entity_id": "entity_edible_cyprus",
+      "name": "Edible Cyprus",
+      "entity_type": "business_project",
+      "description": "Food supplier partner",
+      "channels": [
+        "professional"
+      ],
+      "monetization_opportunities": [
+        "product_sales",
+        "wholesale",
+        "partnership_revenue"
+      ],
+      "alignment_score": 0.9,
+      "revenue_potential": 20000.0,
+      "created_at": "2026-01-23T17:15:17.863648",
+      "updated_at": "2026-01-23T17:15:17.863649"
+    },
+    {
+      "entity_id": "entity_atilok",
+      "name": "ATILOK LTD",
+      "entity_type": "business_project",
+      "description": "E-commerce truck parts platform",
+      "channels": [
+        "professional"
+      ],
+      "monetization_opportunities": [
+        "product_sales",
+        "commission",
+        "subscription",
+        "advertising"
+      ],
+      "alignment_score": 0.8,
+      "revenue_potential": 150000.0,
+      "created_at": "2026-01-23T17:15:17.863650",
+      "updated_at": "2026-01-23T17:15:17.863651"
+    },
+    {
+      "entity_id": "entity_siyem_org",
+      "name": "Siyem.org",
+      "entity_type": "governance",
+      "description": "Administrative/governance node",
+      "channels": [
+        "professional",
+        "governance"
+      ],
+      "monetization_opportunities": [
+        "membership",
+        "donations",
+        "grants",
+        "services"
+      ],
+      "alignment_score": 1.0,
+      "revenue_potential": 50000.0,
+      "created_at": "2026-01-23T17:15:17.863653",
+      "updated_at": "2026-01-23T17:15:17.863654"
+    },
+    {
+      "entity_id": "entity_jan_studio",
+      "name": "JAN Studio",
+      "entity_type": "system",
+      "description": "Creator marketplace and platform",
+      "channels": [
+        "creator",
+        "professional",
+        "educational"
+      ],
+      "monetization_opportunities": [
+        "subscription",
+        "commission",
+        "licensing",
+        "services"
+      ],
+      "alignment_score": 1.0,
+      "revenue_potential": 200000.0,
+      "created_at": "2026-01-23T17:15:17.863655",
+      "updated_at": "2026-01-23T17:15:17.863656"
+    }
+  ],
+  "last_updated": "2026-01-23T17:15:17.984116"
+}
