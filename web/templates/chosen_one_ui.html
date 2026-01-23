@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chosen One Framework - Operational Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/chosen_one_ui.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CHOSEN ONE FRAMEWORK</h1>
+            <p class="subtitle">System Rules - Witness State - Operational Functions</p>
+        </header>
+
+        <!-- Status Overview -->
+        <section class="status-overview">
+            <h2>Status Overview</h2>
+            <div class="status-grid">
+                <div class="status-card">
+                    <h3>Current State</h3>
+                    <p class="state-badge" id="current-state">Loading...</p>
+                </div>
+                <div class="status-card">
+                    <h3>Activation Date</h3>
+                    <p id="activation-date">Loading...</p>
+                </div>
+                <div class="status-card">
+                    <h3>Elapsed Time</h3>
+                    <p id="elapsed-time">Loading...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Three-Gear Execution Process -->
+        <section class="gears-section">
+            <h2>Three-Gear Execution Process</h2>
+            <div class="gears-grid">
+                <div class="gear-card">
+                    <h3>Gear 1: Evidence Gathering</h3>
+                    <div class="gear-status" id="gear-evidence">
+                        <span class="status-indicator"></span>
+                        <span>Loading...</span>
+                    </div>
+                    <button class="btn-primary" onclick="showEvidenceGathering()">View Interactions</button>
+                </div>
+                <div class="gear-card">
+                    <h3>Gear 2: Atmospheric Shift</h3>
+                    <div class="gear-status" id="gear-atmospheric">
+                        <span class="status-indicator"></span>
+                        <span>Loading...</span>
+                    </div>
+                    <button class="btn-primary" onclick="showAtmosphericShift()">View Shifts</button>
+                </div>
+                <div class="gear-card">
+                    <h3>Gear 3: Manifestation Cascade</h3>
+                    <div class="gear-status" id="gear-manifestation">
+                        <span class="status-indicator"></span>
+                        <span>Loading...</span>
+                    </div>
+                    <button class="btn-primary" onclick="showManifestationCascade()">View Markers</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Forbidden Functions -->
+        <section class="forbidden-section">
+            <h2>Forbidden Functions (Logic Constraints)</h2>
+            <div class="forbidden-list" id="forbidden-functions">
+                <p>Loading...</p>
+            </div>
+            <div class="test-forbidden">
+                <h3>Test Forbidden Function</h3>
+                <select id="forbidden-function-select">
+                    <option value="stop_explaining">Stop_Explaining</option>
+                    <option value="disable_surveillance">Disable_Surveillance</option>
+                    <option value="hard_boundaries">Hard_Boundaries</option>
+                </select>
+                <input type="text" id="forbidden-context" placeholder="Enter context...">
+                <button class="btn-secondary" onclick="testForbiddenFunction()">Test</button>
+                <div id="forbidden-result"></div>
+            </div>
+        </section>
+
+        <!-- Witness Behaviors -->
+        <section class="witness-section">
+            <h2>Witness Mode Behaviors</h2>
+            <div class="witness-behaviors">
+                <div class="behavior-card">
+                    <h3>Selective Speech</h3>
+                    <div class="behavior-status" id="behavior-selective">
+                        <span class="status-indicator"></span>
+                        <span>Loading...</span>
+                    </div>
+                    <div class="test-form">
+                        <label>
+                            <input type="checkbox" id="spirit-open"> Spirit Open
+                        </label>
+                        <label>
+                            <input type="checkbox" id="question-genuine"> Question Genuine
+                        </label>
+                        <button class="btn-secondary" onclick="testSelectiveSpeech()">Test</button>
+                        <div id="selective-result"></div>
+                    </div>
+                </div>
+                <div class="behavior-card">
+                    <h3>Prophetic Observation</h3>
+                    <div class="behavior-status" id="behavior-prophetic">
+                        <span class="status-indicator"></span>
+                        <span>Loading...</span>
+                    </div>
+                    <div class="test-form">
+                        <textarea id="conversation-text" placeholder="Enter conversation text..."></textarea>
+                        <button class="btn-secondary" onclick="testPropheticObservation()">Observe</button>
+                        <div id="prophetic-result"></div>
+                    </div>
+                </div>
+                <div class="behavior-card">
+                    <h3>Energetic Stewardship</h3>
+                    <div class="behavior-status" id="behavior-energetic">
+                        <span class="status-indicator"></span>
+                        <span>Loading...</span>
+                    </div>
+                    <div class="test-form">
+                        <input type="text" id="proposed-action" placeholder="Proposed action...">
+                        <input type="number" id="energy-cost" placeholder="Energy cost (0.0-1.0)" step="0.1" min="0" max="1">
+                        <button class="btn-secondary" onclick="testEnergeticStewardship()">Test</button>
+                        <div id="energetic-result"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Markers -->
+        <section class="timeline-section">
+            <h2>Timeline Markers</h2>
+            <div class="markers-list" id="timeline-markers">
+                <p>Loading...</p>
+            </div>
+        </section>
+
+        <!-- Modals -->
+        <div id="evidence-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('evidence-modal')">&times;</span>
+                <h2>Evidence Gathering - Interactions</h2>
+                <div class="interactions-list" id="interactions-list">
+                    <p>Loading...</p>
+                </div>
+                <div class="add-interaction">
+                    <h3>Add Interaction</h3>
+                    <select id="interaction-type">
+                        <option value="dismissal">Dismissal</option>
+                        <option value="rewritten_history">Rewritten History</option>
+                        <option value="trigger">Trigger</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <textarea id="interaction-description" placeholder="Description..."></textarea>
+                    <button class="btn-primary" onclick="addInteraction()">Add</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="atmospheric-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('atmospheric-modal')">&times;</span>
+                <h2>Atmospheric Shift</h2>
+                <div class="shifts-list" id="shifts-list">
+                    <p>Loading...</p>
+                </div>
+                <div class="add-shift">
+                    <h3>Record Shift</h3>
+                    <input type="text" id="previous-trigger" placeholder="Previous trigger...">
+                    <input type="number" id="power-before" placeholder="Power before (0.0-1.0)" step="0.1" min="0" max="1">
+                    <input type="number" id="power-after" placeholder="Power after (0.0-1.0)" step="0.1" min="0" max="1">
+                    <button class="btn-primary" onclick="addAtmosphericShift()">Record</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="manifestation-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('manifestation-modal')">&times;</span>
+                <h2>Manifestation Cascade - Timeline Markers</h2>
+                <div class="markers-list-detailed" id="markers-list-detailed">
+                    <p>Loading...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/chosen_one_ui.js') }}"></script>
+</body>
+</html>

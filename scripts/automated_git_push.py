@@ -182,6 +182,34 @@ def git_commit(repo_path: Path, message: str, retries: int = 3):
 
 def git_push(repo_path: Path, branch: str = "master", retries: int = 5):
     """Push to remote with retry logic and network resilience"""
+    # Import network refiner for better connectivity
+    try:
+        from network_issue_refiner import NetworkIssueRefiner
+        refiner = NetworkIssueRefiner(repo_path)
+        
+        # Test connectivity before pushing
+        connectivity = refiner.test_connectivity()
+        if not connectivity.get("github"):
+            logger.warning("GitHub not reachable - queueing push for later")
+            # Get current commit hash
+            try:
+                result = subprocess.run(
+                    ["git", "rev-parse", "HEAD"],
+                    cwd=str(repo_path),
+                    capture_output=True,
+                    text=True,
+                    timeout=10
+                )
+                if result.returncode == 0:
+                    commit_hash = result.stdout.strip()
+                    refiner.queue_push(commit_hash, branch)
+                    logger.info("Push queued for later retry")
+            except:
+                pass
+            return False
+    except ImportError:
+        logger.debug("Network refiner not available - using basic retry logic")
+    
     for attempt in range(retries):
         try:
             result = subprocess.run(
@@ -217,6 +245,27 @@ def git_push(repo_path: Path, branch: str = "master", retries: int = 5):
             logger.error(f"Error in git push: {e}")
             if attempt < retries - 1:
                 time.sleep(2)
+    
+    # Queue push if all retries failed
+    try:
+        from network_issue_refiner import NetworkIssueRefiner
+        refiner = NetworkIssueRefiner(repo_path)
+        try:
+            result = subprocess.run(
+                ["git", "rev-parse", "HEAD"],
+                cwd=str(repo_path),
+                capture_output=True,
+                text=True,
+                timeout=10
+            )
+            if result.returncode == 0:
+                commit_hash = result.stdout.strip()
+                refiner.queue_push(commit_hash, branch)
+                logger.info("Push queued for automatic retry")
+        except:
+            pass
+    except ImportError:
+        pass
     
     return False
 

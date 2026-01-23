@@ -1,0 +1,279 @@
+{
+  "plans": [
+    {
+      "plan_id": "harringay_council_2026",
+      "plan_type": "harringay_council",
+      "title": "Harringay Council Action Plan",
+      "description": "Local government engagement & community transformation",
+      "status": "not_started",
+      "phases": [
+        {
+          "phase_id": "phase1_research",
+          "title": "Research & Mapping",
+          "description": "Weeks 1-2: Research council structure, map community, identify issues",
+          "start_date": null,
+          "end_date": null,
+          "status": "not_started",
+          "actions": [
+            {
+              "item_id": "research_1",
+              "title": "Map council leadership",
+              "description": "Identify key decision-makers",
+              "status": "not_started",
+              "assigned_to": null,
+              "due_date": null,
+              "completed_date": null,
+              "notes": "",
+              "dependencies": [],
+              "created_at": "2026-01-23T18:10:22.984919",
+              "updated_at": "2026-01-23T18:10:22.984920"
+            },
+            {
+              "item_id": "research_2",
+              "title": "Map community organizations",
+              "description": "Identify local groups and activists",
+              "status": "not_started",
+              "assigned_to": null,
+              "due_date": null,
+              "completed_date": null,
+              "notes": "",
+              "dependencies": [],
+              "created_at": "2026-01-23T18:10:22.984923",
+              "updated_at": "2026-01-23T18:10:22.984924"
+            },
+            {
+              "item_id": "research_3",
+              "title": "Identify key issues",
+              "description": "Document housing, education, health, etc.",
+              "status": "not_started",
+              "assigned_to": null,
+              "due_date": null,
+              "completed_date": null,
+              "notes": "",
+              "dependencies": [],
+              "created_at": "2026-01-23T18:10:22.984926",
+              "updated_at": "2026-01-23T18:10:22.984926"
+            },
+            {
+              "item_id": "research_4",
+              "title": "Assess alignment",
+              "description": "Where do our systems align with council priorities?",
+              "status": "not_started",
+              "assigned_to": null,
+              "due_date": null,
+              "completed_date": null,
+              "notes": "",
+              "dependencies": [],
+              "created_at": "2026-01-23T18:10:22.984928",
+              "updated_at": "2026-01-23T18:10:22.984929"
+            }
+          ],
+          "created_at": "2026-01-23T18:13:30.399183"
+        },
+        {
+          "phase_id": "phase2_engagement",
+          "title": "Engagement Strategy",
+          "description": "Weeks 3-4: Initial outreach, community engagement, proposal development",
+          "start_date": null,
+          "end_date": null,
+          "status": "not_started",
+          "actions": [
+            {
+              "item_id": "engage_1",
+              "title": "Contact council leadership",
+              "description": "Reach out to leader and cabinet",
+              "status": "not_started",
+              "assigned_to": null,
+              "due_date": null,
+              "completed_date": null,
+              "notes": "",
+              "dependencies": [],
+              "created_at": "2026-01-23T18:10:22.984933",
+              "updated_at": "2026-01-23T18:10:22.984933"
+            },
+            {
+              "item_id": "engage_2",
+              "title": "Organize community meeting",
+              "description": "Build local support",
+              "status": "not_started",
+              "assigned_to": null,
+              "due_date": null,
+              "completed_date": null,
+              "notes": "",
+              "dependencies": [],
+              "created_at": "2026-01-23T18:10:22.984935",
+              "updated_at": "2026-01-23T18:10:22.984935"
+            },
+            {
+              "item_id": "engage_3",
+              "title": "Develop proposals",
+              "description": "Housing, childcare, accountability, education",
+              "status": "not_started",
+              "assigned_to": null,
+              "due_date": null,
+              "completed_date": null,
+              "notes": "",
+              "dependencies": [],
+              "created_at": "2026-01-23T18:10:22.984937",
+              "updated_at": "2026-01-23T18:10:22.984937"
+            },
+            {
+              "item_id": "engage_4",
+              "title": "Build partnerships",
+              "description": "Connect with local organizations",
+              "status": "not_started",
+              "assigned_to": null,
+              "due_date": null,
+              "completed_date": null,
+              "notes": "",
+              "dependencies": [],
+              "created_at": "2026-01-23T18:10:22.984938",
+              "updated_at": "2026-01-23T18:10:22.984939"
+            }
+          ],
+          "created_at": "2026-01-23T18:13:30.399221"
+        }
+      ],
+      "created_at": "2026-01-23T18:10:22.984904",
+      "updated_at": "2026-01-23T18:13:30.399432"
+    },
+    {
+      "plan_id": "turkish_revolution_play_2026",
+      "plan_type": "turkish_revolution_play",
+      "title": "Turkish Revolution (The Play) - Action Plan",
+      "description": "Creative production: Revolution through Right Spirits",
+      "status": "not_started",
+      "phases": [
+        {
+          "phase_id": "phase1_concept",
+          "title": "Concept Development",
+          "description": "Weeks 1-4: Story, characters, musical integration, cultural authenticity",
+          "start_date": null,
+          "end_date": null,
+          "status": "not_started",
+          "actions": [
+            {
+              "item_id": "concept_1",
+              "title": "Define narrative arc",
+              "description": "Structure the story of revolution",
+              "status": "not_started",
+              "assigned_to": null,
+              "due_date": null,
+              "completed_date": null,
+              "notes": "",
+              "dependencies": [],
+              "created_at": "2026-01-23T18:10:22.984948",
+              "updated_at": "2026-01-23T18:10:22.984949"
+            },
+            {
+              "item_id": "concept_2",
+              "title": "Develop characters",
+              "description": "The Voice, Community, System, Bridge",
+              "status": "not_started",
+              "assigned_to": null,
+              "due_date": null,
+              "completed_date": null,
+              "notes": "",
+              "dependencies": [],
+              "created_at": "2026-01-23T18:10:22.984950",
+              "updated_at": "2026-01-23T18:10:22.984951"
+            },
+            {
+              "item_id": "concept_3",
+              "title": "Select Karasahin songs",
+              "description": "Integrate music with narrative",
+              "status": "not_started",
+              "assigned_to": null,
+              "due_date": null,
+              "completed_date": null,
+              "notes": "",
+              "dependencies": [],
+              "created_at": "2026-01-23T18:10:22.984952",
+              "updated_at": "2026-01-23T18:10:22.984953"
+            },
+            {
+              "item_id": "concept_4",
+              "title": "Ensure cultural authenticity",
+              "description": "Turkish Cypriot identity, bilingual",
+              "status": "not_started",
+              "assigned_to": null,
+              "due_date": null,
+              "completed_date": null,
+              "notes": "",
+              "dependencies": [],
+              "created_at": "2026-01-23T18:10:22.984954",
+              "updated_at": "2026-01-23T18:10:22.984955"
+            }
+          ],
+          "created_at": "2026-01-23T18:13:30.399251"
+        },
+        {
+          "phase_id": "phase2_script",
+          "title": "Script Development",
+          "description": "Weeks 5-8: Write script, integrate music, develop scenes",
+          "start_date": null,
+          "end_date": null,
+          "status": "not_started",
+          "actions": [
+            {
+              "item_id": "script_1",
+              "title": "Write first draft",
+              "description": "Complete full script",
+              "status": "not_started",
+              "assigned_to": null,
+              "due_date": null,
+              "completed_date": null,
+              "notes": "",
+              "dependencies": [],
+              "created_at": "2026-01-23T18:10:22.984957",
+              "updated_at": "2026-01-23T18:10:22.984958"
+            },
+            {
+              "item_id": "script_2",
+              "title": "Develop key scenes",
+              "description": "Opening, acts, climax, resolution",
+              "status": "not_started",
+              "assigned_to": null,
+              "due_date": null,
+              "completed_date": null,
+              "notes": "",
+              "dependencies": [],
+              "created_at": "2026-01-23T18:10:22.984959",
+              "updated_at": "2026-01-23T18:10:22.984960"
+            },
+            {
+              "item_id": "script_3",
+              "title": "Integrate musical moments",
+              "description": "Songs and soundscape",
+              "status": "not_started",
+              "assigned_to": null,
+              "due_date": null,
+              "completed_date": null,
+              "notes": "",
+              "dependencies": [],
+              "created_at": "2026-01-23T18:10:22.984961",
+              "updated_at": "2026-01-23T18:10:22.984961"
+            },
+            {
+              "item_id": "script_4",
+              "title": "Bilingual elements",
+              "description": "Turkish/English dialogue",
+              "status": "not_started",
+              "assigned_to": null,
+              "due_date": null,
+              "completed_date": null,
+              "notes": "",
+              "dependencies": [],
+              "created_at": "2026-01-23T18:10:22.984962",
+              "updated_at": "2026-01-23T18:10:22.984963"
+            }
+          ],
+          "created_at": "2026-01-23T18:13:30.399260"
+        }
+      ],
+      "created_at": "2026-01-23T18:10:22.984944",
+      "updated_at": "2026-01-23T18:13:30.399491"
+    }
+  ],
+  "last_updated": "2026-01-23T18:13:30.400047"
+}
