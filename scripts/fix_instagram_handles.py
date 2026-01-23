@@ -1,5 +1,5 @@
 """
-Fix Instagram account handles in CSV files to use @JEANMORPHIUS
+Fix Instagram account handles in CSV files to use @jeanmorphius
 """
 
 import sys
@@ -18,7 +18,7 @@ from pathlib import Path
 OUTPUT_ROOT = Path("S:\\JAN\\output\\2026_social_content")
 
 def fix_instagram_handles():
-    """Update Instagram account columns to @JEANMORPHIUS"""
+    """Update Instagram account columns to @jeanmorphius"""
     csv_files = list(OUTPUT_ROOT.glob("*JEAN*.csv"))
     
     for csv_file in csv_files:
@@ -39,9 +39,9 @@ def fix_instagram_handles():
             
             for row in reader:
                 if instagram_col is not None and len(row) > instagram_col:
-                    # Update Instagram account to @JEANMORPHIUS
+                    # Update Instagram account to @jeanmorphius
                     if row[instagram_col] == "instagram" or row[instagram_col] == "":
-                        row[instagram_col] = "@JEANMORPHIUS"
+                        row[instagram_col] = "@jeanmorphius"
                 rows.append(row)
         
         with open(csv_file, 'w', encoding='utf-8', newline='') as f:
@@ -53,7 +53,7 @@ def fix_instagram_handles():
 def main():
     print("\n[FIXING] Instagram handles in CSV files...\n")
     fix_instagram_handles()
-    print("\n[COMPLETE] All Instagram handles updated to @JEANMORPHIUS\n")
+    print("\n[COMPLETE] All Instagram handles updated to @jeanmorphius\n")
 
 if __name__ == "__main__":
     main()

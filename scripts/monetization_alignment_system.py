@@ -257,7 +257,7 @@ class MonetizationAlignmentSystem:
             entity_id="entity_jean_morphius",
             name="Jean Morphius",
             entity_type=EntityType.CREATIVE_PERSONA,
-            description="Bilingual absurdist storyteller (@jeanmahram)",
+            description="Bilingual absurdist storyteller (@jeanmorphius)",
             channels=["creator", "educational"],
             monetization_opportunities=["story_sales", "book_publishing", "content_licensing", "educational_content"],
             alignment_score=1.0,

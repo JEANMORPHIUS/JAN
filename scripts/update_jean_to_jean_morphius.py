@@ -42,7 +42,7 @@ def update_csv_files():
                         updated_row.append("JEAN MORPHIUS")
                     elif "instagram" in cell.lower() and "@" not in cell:
                         # Update Instagram account reference
-                        updated_row.append("@JEANMORPHIUS")
+                        updated_row.append("@jeanmorphius")
                     else:
                         updated_row.append(cell)
                 rows.append(updated_row)
@@ -149,7 +149,7 @@ def main():
     
     print("\n" + "="*80)
     print("[COMPLETE] All files updated to JEAN MORPHIUS".center(80))
-    print("Social handles: @JEANMORPHIUS (Instagram, TikTok)".center(80))
+    print("Social handles: @jeanmorphius (Instagram, TikTok)".center(80))
     print("Email unchanged: jean@siyem.org".center(80))
     print("="*80 + "\n")
 

@@ -37,8 +37,8 @@ ENTITIES = {
         "style_preset": "Glitch Noir",
         "color_scheme": "jean_primary",
         "platform": "instagram",
-        "instagram_handle": "@JEANMORPHIUS",
-        "tiktok_handle": "@JEANMORPHIUS"
+        "instagram_handle": "@jeanmorphius",
+        "tiktok_handle": "@jeanmorphius"
     },
     "PIERRE": {
         "folder": "Pierre",

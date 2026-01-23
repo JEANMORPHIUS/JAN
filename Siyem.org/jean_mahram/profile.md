@@ -41,8 +41,8 @@ This entity's creative content honors all four forms. Stories, comedy, and expre
 **Jean Morphius**
 
 ### Social Media Handles
-- **Instagram:** @JEANMORPHIUS
-- **TikTok:** @JEANMORPHIUS
+- **Instagram:** @jeanmorphius
+- **TikTok:** @jeanmorphius
 - **Email/Workspace:** jean@siyem.org (Google Workspace)
 
 ### Role

@@ -1,0 +1,1213 @@
+{
+  "assets": [
+    {
+      "asset_id": "asset_contentstudio_api",
+      "name": "ContentStudio API",
+      "description": "Free social media automation API with 14-day free trial. Supports scheduling, creating, and publishing posts across Facebook, Instagram, YouTube, LinkedIn, Pinterest, TikTok, and Threads",
+      "asset_type": "api",
+      "category": "social_media",
+      "pricing_model": "freemium",
+      "url": "https://contentstudio.io/social-media-api",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": "https://api.contentstudio.io",
+      "features": [
+        "Bulk post generation",
+        "Media uploads",
+        "Draft management",
+        "Cross-platform publishing",
+        "Scheduling"
+      ],
+      "channels": [
+        "channel_creator",
+        "channel_professional"
+      ],
+      "projects": [
+        "project_edible_london",
+        "project_ilven_seamoss"
+      ],
+      "alignment_score": 0.9,
+      "integration_difficulty": "medium",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827128",
+      "updated_at": "2026-01-23T17:43:28.827133"
+    },
+    {
+      "asset_id": "asset_hootsuite_tools",
+      "name": "Hootsuite Free Tools",
+      "description": "Free AI-powered caption generators for Instagram, TikTok, LinkedIn, Facebook, YouTube, tweet generators, and SEO optimization tools",
+      "asset_type": "tool",
+      "category": "social_media",
+      "pricing_model": "free",
+      "url": "https://www.hootsuite.com/social-media-tools",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "AI caption generation",
+        "Tweet generation",
+        "SEO optimization",
+        "Content discovery"
+      ],
+      "channels": [
+        "channel_creator",
+        "channel_professional"
+      ],
+      "projects": [
+        "project_edible_london"
+      ],
+      "alignment_score": 0.9,
+      "integration_difficulty": "easy",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827138",
+      "updated_at": "2026-01-23T17:43:28.827139"
+    },
+    {
+      "asset_id": "asset_recurpost",
+      "name": "RecurPost",
+      "description": "Free social media management platform with scheduling, analytics, social inbox, team collaboration, and multi-workspace management",
+      "asset_type": "platform",
+      "category": "social_media",
+      "pricing_model": "free",
+      "url": "https://recurpost.com",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "Scheduling",
+        "Analytics",
+        "Social inbox",
+        "Team collaboration",
+        "Multi-workspace"
+      ],
+      "channels": [
+        "channel_creator",
+        "channel_professional"
+      ],
+      "projects": [
+        "project_edible_london",
+        "project_ilven_seamoss"
+      ],
+      "alignment_score": 0.9,
+      "integration_difficulty": "easy",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827143",
+      "updated_at": "2026-01-23T17:43:28.827144"
+    },
+    {
+      "asset_id": "asset_openint",
+      "name": "OpenInt",
+      "description": "Native product integrations for AI app builders and creators, supporting 3,100+ apps and APIs. Free tier: 2,000 monthly active users",
+      "asset_type": "platform",
+      "category": "utility",
+      "pricing_model": "freemium",
+      "url": "https://openint.dev",
+      "documentation_url": null,
+      "github_url": "https://github.com/openintegrations/openint",
+      "api_endpoint": null,
+      "features": [
+        "Managed authentication",
+        "Pre-tested code snippets",
+        "Embeddable UI components",
+        "Webhook support",
+        "3,100+ app integrations"
+      ],
+      "channels": [
+        "channel_professional",
+        "channel_creator",
+        "channel_educational"
+      ],
+      "projects": [
+        "project_atilok"
+      ],
+      "alignment_score": 0.9,
+      "integration_difficulty": "medium",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827147",
+      "updated_at": "2026-01-23T17:43:28.827148"
+    },
+    {
+      "asset_id": "asset_hoppscotch",
+      "name": "Hoppscotch",
+      "description": "Open source API development ecosystem for testing and developing APIs",
+      "asset_type": "tool",
+      "category": "utility",
+      "pricing_model": "open_source",
+      "url": "https://hoppscotch.io",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "API testing",
+        "API development",
+        "Request builder",
+        "Collection management"
+      ],
+      "channels": [
+        "channel_professional"
+      ],
+      "projects": [
+        "project_atilok"
+      ],
+      "alignment_score": 1.0,
+      "integration_difficulty": "easy",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827150",
+      "updated_at": "2026-01-23T17:43:28.827151"
+    },
+    {
+      "asset_id": "asset_fusio",
+      "name": "Fusio",
+      "description": "Open source API management platform with API gateways, analytics, monetization, SDK automation, and MCP integration for AI-driven API access",
+      "asset_type": "platform",
+      "category": "utility",
+      "pricing_model": "open_source",
+      "url": "https://www.fusio-project.org",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "API gateway",
+        "Analytics",
+        "Monetization",
+        "SDK automation",
+        "MCP integration"
+      ],
+      "channels": [
+        "channel_professional"
+      ],
+      "projects": [
+        "project_atilok"
+      ],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827153",
+      "updated_at": "2026-01-23T17:43:28.827154"
+    },
+    {
+      "asset_id": "asset_amphion",
+      "name": "Amphion",
+      "description": "Open-source toolkit for audio, music, and speech generation. Supports text-to-speech, singing voice conversion, text-to-audio generation, and multiple vocoder implementations",
+      "asset_type": "library",
+      "category": "music_audio",
+      "pricing_model": "open_source",
+      "url": "https://amphion.dev",
+      "documentation_url": null,
+      "github_url": "https://github.com/open-mmlab/Amphion",
+      "api_endpoint": null,
+      "features": [
+        "Text-to-speech",
+        "Singing voice conversion",
+        "Text-to-audio",
+        "Vocoder implementations"
+      ],
+      "channels": [
+        "channel_creator"
+      ],
+      "projects": [],
+      "alignment_score": 1.0,
+      "integration_difficulty": "hard",
+      "notes": "For Karasahin music production",
+      "created_at": "2026-01-23T17:43:28.827157",
+      "updated_at": "2026-01-23T17:43:28.827158"
+    },
+    {
+      "asset_id": "asset_liquidsoap",
+      "name": "Liquidsoap",
+      "description": "Open-source tool for building complex audio and video stream generators for internet radios and webtvs. Supports file/playlist playback, FFmpeg transcoding, HLS/Icecast/Shoutcast output",
+      "asset_type": "tool",
+      "category": "music_audio",
+      "pricing_model": "open_source",
+      "url": "https://liquidsoap.info",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "Audio streaming",
+        "Video streaming",
+        "FFmpeg transcoding",
+        "HLS/Icecast/Shoutcast output",
+        "Sound processing"
+      ],
+      "channels": [
+        "channel_creator"
+      ],
+      "projects": [],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "For Karasahin streaming",
+      "created_at": "2026-01-23T17:43:28.827160",
+      "updated_at": "2026-01-23T17:43:28.827161"
+    },
+    {
+      "asset_id": "asset_switchboard",
+      "name": "Switchboard Audio SDK",
+      "description": "Cross-platform audio SDK for iOS, Android, macOS, Windows, Linux, and Web. Modular audio building blocks, browser-based visual editor, high-performance audio pipelines",
+      "asset_type": "sdk",
+      "category": "music_audio",
+      "pricing_model": "open_source",
+      "url": "https://switchboard.audio",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "Cross-platform",
+        "Modular audio blocks",
+        "Visual editor",
+        "High-performance pipelines"
+      ],
+      "channels": [
+        "channel_creator"
+      ],
+      "projects": [],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "For Karasahin audio development",
+      "created_at": "2026-01-23T17:43:28.827163",
+      "updated_at": "2026-01-23T17:43:28.827164"
+    },
+    {
+      "asset_id": "asset_lavalink",
+      "name": "Lavalink",
+      "description": "Standalone audio sending node based on Lavaplayer, providing audio streaming capabilities",
+      "asset_type": "service",
+      "category": "music_audio",
+      "pricing_model": "open_source",
+      "url": null,
+      "documentation_url": null,
+      "github_url": "https://github.com/lavalink-devs/Lavalink",
+      "api_endpoint": null,
+      "features": [
+        "Audio streaming",
+        "Lavaplayer-based",
+        "Standalone node"
+      ],
+      "channels": [
+        "channel_creator"
+      ],
+      "projects": [],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "For Karasahin music streaming",
+      "created_at": "2026-01-23T17:43:28.827166",
+      "updated_at": "2026-01-23T17:43:28.827167"
+    },
+    {
+      "asset_id": "asset_moodle",
+      "name": "Moodle",
+      "description": "Open source learning management system with comprehensive course management, assessment tools, and community features",
+      "asset_type": "platform",
+      "category": "education",
+      "pricing_model": "open_source",
+      "url": "https://moodle.org",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "Course management",
+        "Assessment tools",
+        "Community features",
+        "Mobile app",
+        "Plugins ecosystem"
+      ],
+      "channels": [
+        "channel_educational"
+      ],
+      "projects": [],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "For educational platform",
+      "created_at": "2026-01-23T17:43:28.827169",
+      "updated_at": "2026-01-23T17:43:28.827169"
+    },
+    {
+      "asset_id": "asset_openedx",
+      "name": "Open edX",
+      "description": "Open source online learning platform used by universities and organizations worldwide. Supports courses, certificates, and analytics",
+      "asset_type": "platform",
+      "category": "education",
+      "pricing_model": "open_source",
+      "url": "https://open.edx.org",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "Course creation",
+        "Certificates",
+        "Analytics",
+        "Mobile app",
+        "API access"
+      ],
+      "channels": [
+        "channel_educational"
+      ],
+      "projects": [],
+      "alignment_score": 1.0,
+      "integration_difficulty": "hard",
+      "notes": "For educational platform",
+      "created_at": "2026-01-23T17:43:28.827172",
+      "updated_at": "2026-01-23T17:43:28.827172"
+    },
+    {
+      "asset_id": "asset_woocommerce",
+      "name": "WooCommerce",
+      "description": "Open source e-commerce plugin for WordPress. Free with extensive plugin ecosystem for payments, shipping, and features",
+      "asset_type": "platform",
+      "category": "ecommerce",
+      "pricing_model": "open_source",
+      "url": "https://woocommerce.com",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "Product management",
+        "Payment gateways",
+        "Shipping options",
+        "Extensions",
+        "API access"
+      ],
+      "channels": [
+        "channel_professional"
+      ],
+      "projects": [
+        "project_atilok",
+        "project_ilven_seamoss"
+      ],
+      "alignment_score": 0.9,
+      "integration_difficulty": "medium",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827175",
+      "updated_at": "2026-01-23T17:43:28.827176"
+    },
+    {
+      "asset_id": "asset_stripe",
+      "name": "Stripe API",
+      "description": "Payment processing API with free tier for testing. Supports cards, bank transfers, and alternative payment methods globally",
+      "asset_type": "api",
+      "category": "payment",
+      "pricing_model": "freemium",
+      "url": "https://stripe.com",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": "https://api.stripe.com",
+      "features": [
+        "Payment processing",
+        "Subscription management",
+        "Global payments",
+        "Testing mode",
+        "Webhooks"
+      ],
+      "channels": [
+        "channel_professional",
+        "channel_creator",
+        "channel_educational"
+      ],
+      "projects": [
+        "project_atilok",
+        "project_ilven_seamoss",
+        "project_edible_cyprus"
+      ],
+      "alignment_score": 0.8,
+      "integration_difficulty": "medium",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827178",
+      "updated_at": "2026-01-23T17:43:28.827179"
+    },
+    {
+      "asset_id": "asset_edamam",
+      "name": "Edamam Food Database API",
+      "description": "Free tier available. Comprehensive food database with nutrition data, recipe search, and food analysis",
+      "asset_type": "api",
+      "category": "food_health",
+      "pricing_model": "freemium",
+      "url": "https://www.edamam.com",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": "https://api.edamam.com",
+      "features": [
+        "Food database",
+        "Nutrition data",
+        "Recipe search",
+        "Food analysis",
+        "Free tier"
+      ],
+      "channels": [
+        "channel_creator"
+      ],
+      "projects": [
+        "project_edible_london",
+        "project_edible_cyprus"
+      ],
+      "alignment_score": 0.9,
+      "integration_difficulty": "easy",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827181",
+      "updated_at": "2026-01-23T17:43:28.827182"
+    },
+    {
+      "asset_id": "asset_spoonacular",
+      "name": "Spoonacular API",
+      "description": "Free tier: 150 points/day. Recipe search, meal planning, food information, and nutrition analysis",
+      "asset_type": "api",
+      "category": "food_health",
+      "pricing_model": "freemium",
+      "url": "https://spoonacular.com/food-api",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": "https://api.spoonacular.com",
+      "features": [
+        "Recipe search",
+        "Meal planning",
+        "Food information",
+        "Nutrition analysis",
+        "Free tier"
+      ],
+      "channels": [
+        "channel_creator"
+      ],
+      "projects": [
+        "project_edible_london",
+        "project_edible_cyprus"
+      ],
+      "alignment_score": 0.9,
+      "integration_difficulty": "easy",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827183",
+      "updated_at": "2026-01-23T17:43:28.827184"
+    },
+    {
+      "asset_id": "asset_calibre",
+      "name": "Calibre",
+      "description": "Open source e-book library management. Convert, organize, and manage e-books. Includes e-book viewer and editor",
+      "asset_type": "tool",
+      "category": "publishing",
+      "pricing_model": "open_source",
+      "url": "https://calibre-ebook.com",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "E-book conversion",
+        "Library management",
+        "E-book viewer",
+        "E-book editor",
+        "Metadata management"
+      ],
+      "channels": [
+        "channel_creator"
+      ],
+      "projects": [],
+      "alignment_score": 1.0,
+      "integration_difficulty": "easy",
+      "notes": "For Jean Morphius publishing",
+      "created_at": "2026-01-23T17:43:28.827186",
+      "updated_at": "2026-01-23T17:43:28.827187"
+    },
+    {
+      "asset_id": "asset_pressbooks",
+      "name": "Pressbooks",
+      "description": "Open source book publishing platform. Create and export books in multiple formats (PDF, EPUB, MOBI, etc.)",
+      "asset_type": "platform",
+      "category": "publishing",
+      "pricing_model": "open_source",
+      "url": "https://pressbooks.org",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "Book creation",
+        "Multiple export formats",
+        "Collaboration",
+        "Themes",
+        "API access"
+      ],
+      "channels": [
+        "channel_creator"
+      ],
+      "projects": [],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "For Jean Morphius book publishing",
+      "created_at": "2026-01-23T17:43:28.827189",
+      "updated_at": "2026-01-23T17:43:28.827190"
+    },
+    {
+      "asset_id": "asset_matomo",
+      "name": "Matomo",
+      "description": "Open source web analytics platform. Privacy-focused alternative to Google Analytics. Self-hosted or cloud",
+      "asset_type": "platform",
+      "category": "analytics",
+      "pricing_model": "open_source",
+      "url": "https://matomo.org",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "Web analytics",
+        "Privacy-focused",
+        "Self-hosted option",
+        "API access",
+        "Custom dashboards"
+      ],
+      "channels": [
+        "channel_professional",
+        "channel_creator"
+      ],
+      "projects": [
+        "project_atilok",
+        "project_edible_london"
+      ],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827192",
+      "updated_at": "2026-01-23T17:43:28.827192"
+    },
+    {
+      "asset_id": "asset_plausible",
+      "name": "Plausible Analytics",
+      "description": "Privacy-friendly, open source web analytics. Lightweight, GDPR compliant, no cookies. Free self-hosted option",
+      "asset_type": "platform",
+      "category": "analytics",
+      "pricing_model": "open_source",
+      "url": "https://plausible.io",
+      "documentation_url": null,
+      "github_url": "https://github.com/plausible/analytics",
+      "api_endpoint": null,
+      "features": [
+        "Privacy-friendly",
+        "GDPR compliant",
+        "No cookies",
+        "Lightweight",
+        "Self-hosted"
+      ],
+      "channels": [
+        "channel_professional",
+        "channel_creator"
+      ],
+      "projects": [
+        "project_atilok"
+      ],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827194",
+      "updated_at": "2026-01-23T17:43:28.827195"
+    },
+    {
+      "asset_id": "asset_matrix",
+      "name": "Matrix",
+      "description": "Open source, decentralized, end-to-end encrypted communication protocol. Self-hosted messaging and collaboration",
+      "asset_type": "platform",
+      "category": "communication",
+      "pricing_model": "open_source",
+      "url": "https://matrix.org",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "Decentralized",
+        "End-to-end encrypted",
+        "Self-hosted",
+        "Interoperable",
+        "API access"
+      ],
+      "channels": [
+        "channel_professional",
+        "channel_educational"
+      ],
+      "projects": [],
+      "alignment_score": 1.0,
+      "integration_difficulty": "hard",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827197",
+      "updated_at": "2026-01-23T17:43:28.827198"
+    },
+    {
+      "asset_id": "asset_jitsi",
+      "name": "Jitsi",
+      "description": "Open source video conferencing platform. Self-hosted, end-to-end encrypted, no account required",
+      "asset_type": "platform",
+      "category": "communication",
+      "pricing_model": "open_source",
+      "url": "https://jitsi.org",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "Video conferencing",
+        "Self-hosted",
+        "End-to-end encrypted",
+        "No account required",
+        "API access"
+      ],
+      "channels": [
+        "channel_educational",
+        "channel_professional"
+      ],
+      "projects": [],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827200",
+      "updated_at": "2026-01-23T17:43:28.827200"
+    },
+    {
+      "asset_id": "asset_supabase",
+      "name": "Supabase",
+      "description": "Open source Firebase alternative. PostgreSQL database, authentication, storage, real-time subscriptions. Free tier available",
+      "asset_type": "platform",
+      "category": "storage",
+      "pricing_model": "freemium",
+      "url": "https://supabase.com",
+      "documentation_url": null,
+      "github_url": "https://github.com/supabase/supabase",
+      "api_endpoint": null,
+      "features": [
+        "PostgreSQL database",
+        "Authentication",
+        "Storage",
+        "Real-time",
+        "API auto-generation",
+        "Free tier"
+      ],
+      "channels": [
+        "channel_professional",
+        "channel_creator",
+        "channel_educational"
+      ],
+      "projects": [
+        "project_atilok"
+      ],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827202",
+      "updated_at": "2026-01-23T17:43:28.827203"
+    },
+    {
+      "asset_id": "asset_pocketbase",
+      "name": "PocketBase",
+      "description": "Open source backend-as-a-service. Single file executable with embedded SQLite database, authentication, file storage, and admin dashboard",
+      "asset_type": "platform",
+      "category": "storage",
+      "pricing_model": "open_source",
+      "url": "https://pocketbase.io",
+      "documentation_url": null,
+      "github_url": "https://github.com/pocketbase/pocketbase",
+      "api_endpoint": null,
+      "features": [
+        "Single file",
+        "SQLite embedded",
+        "Authentication",
+        "File storage",
+        "Admin dashboard",
+        "REST API"
+      ],
+      "channels": [
+        "channel_professional",
+        "channel_creator"
+      ],
+      "projects": [
+        "project_atilok"
+      ],
+      "alignment_score": 1.0,
+      "integration_difficulty": "easy",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827205",
+      "updated_at": "2026-01-23T17:43:28.827206"
+    },
+    {
+      "asset_id": "asset_openedx_platform",
+      "name": "Open edX Platform",
+      "description": "Open source learning management system powering 100M+ learners. Includes LMS, Studio, Analytics, eCommerce, and REST APIs with OAuth 2.0",
+      "asset_type": "platform",
+      "category": "education",
+      "pricing_model": "open_source",
+      "url": "https://openedx.org",
+      "documentation_url": null,
+      "github_url": "https://github.com/openedx/edx-platform",
+      "api_endpoint": null,
+      "features": [
+        "LMS & Studio",
+        "Analytics",
+        "eCommerce",
+        "REST APIs",
+        "OAuth 2.0",
+        "XBlocks",
+        "LTI integration"
+      ],
+      "channels": [
+        "channel_educational"
+      ],
+      "projects": [],
+      "alignment_score": 1.0,
+      "integration_difficulty": "hard",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827208",
+      "updated_at": "2026-01-23T17:43:28.827208"
+    },
+    {
+      "asset_id": "asset_medusa",
+      "name": "Medusa",
+      "description": "Open source e-commerce platform with flexible architecture. Includes payment module, admin API, store API, and workflow systems",
+      "asset_type": "platform",
+      "category": "ecommerce",
+      "pricing_model": "open_source",
+      "url": "https://medusajs.com",
+      "documentation_url": null,
+      "github_url": "https://github.com/medusajs/medusa",
+      "api_endpoint": null,
+      "features": [
+        "Payment module",
+        "Admin API",
+        "Store API",
+        "Workflow systems",
+        "Modular architecture"
+      ],
+      "channels": [
+        "channel_professional"
+      ],
+      "projects": [
+        "project_atilok",
+        "project_ilven_seamoss"
+      ],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827211",
+      "updated_at": "2026-01-23T17:43:28.827211"
+    },
+    {
+      "asset_id": "asset_usda_fooddata",
+      "name": "USDA FoodData Central API",
+      "description": "Free government API with REST access to nutrient data. Includes Standard Reference, branded foods, and Foundation Foods. 1,000 requests/hour",
+      "asset_type": "api",
+      "category": "food_health",
+      "pricing_model": "free",
+      "url": "https://fdc.nal.usda.gov",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": "https://api.nal.usda.gov/fdc",
+      "features": [
+        "Nutrient data",
+        "Standard Reference",
+        "Branded foods",
+        "Foundation Foods",
+        "Public domain data"
+      ],
+      "channels": [
+        "channel_creator"
+      ],
+      "projects": [
+        "project_edible_london",
+        "project_edible_cyprus"
+      ],
+      "alignment_score": 1.0,
+      "integration_difficulty": "easy",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827214",
+      "updated_at": "2026-01-23T17:43:28.827214"
+    },
+    {
+      "asset_id": "asset_openfoodfacts",
+      "name": "Open Food Facts API",
+      "description": "Crowdsourced food products database with open data license. Ingredient and nutritional information. 100 requests/minute",
+      "asset_type": "api",
+      "category": "food_health",
+      "pricing_model": "open_source",
+      "url": "https://world.openfoodfacts.org",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": "https://world.openfoodfacts.org/cgi",
+      "features": [
+        "Crowdsourced database",
+        "Ingredient info",
+        "Nutritional data",
+        "Open data license",
+        "Product queries"
+      ],
+      "channels": [
+        "channel_creator"
+      ],
+      "projects": [
+        "project_edible_london",
+        "project_edible_cyprus"
+      ],
+      "alignment_score": 1.0,
+      "integration_difficulty": "easy",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827216",
+      "updated_at": "2026-01-23T17:43:28.827217"
+    },
+    {
+      "asset_id": "asset_thoth",
+      "name": "Thoth",
+      "description": "Open source metadata management and dissemination platform for Open Access books. Automated distribution, DOI registration, open APIs",
+      "asset_type": "platform",
+      "category": "publishing",
+      "pricing_model": "open_source",
+      "url": "https://thoth.pub",
+      "documentation_url": null,
+      "github_url": "https://github.com/thoth-pub/thoth",
+      "api_endpoint": null,
+      "features": [
+        "Metadata management",
+        "Automated distribution",
+        "DOI registration",
+        "Open APIs",
+        "CC0-licensed output"
+      ],
+      "channels": [
+        "channel_creator"
+      ],
+      "projects": [],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "For Jean Morphius publishing",
+      "created_at": "2026-01-23T17:43:28.827219",
+      "updated_at": "2026-01-23T17:43:28.827220"
+    },
+    {
+      "asset_id": "asset_indiepubstack",
+      "name": "IndiePubStack",
+      "description": "Open source publishing platform built by developers for developers. MIT license. Infrastructure for indie publishers",
+      "asset_type": "platform",
+      "category": "publishing",
+      "pricing_model": "open_source",
+      "url": "https://github.com/IndiePubStack/IndiePubStack",
+      "documentation_url": null,
+      "github_url": "https://github.com/IndiePubStack/IndiePubStack",
+      "api_endpoint": null,
+      "features": [
+        "Indie publishing",
+        "Developer-focused",
+        "MIT license",
+        "Infrastructure management"
+      ],
+      "channels": [
+        "channel_creator"
+      ],
+      "projects": [],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "For Jean Morphius publishing",
+      "created_at": "2026-01-23T17:43:28.827222",
+      "updated_at": "2026-01-23T17:43:28.827222"
+    },
+    {
+      "asset_id": "asset_superset",
+      "name": "Apache Superset",
+      "description": "Open source data exploration and visualization platform. 40+ visualization types, SQL IDE, interactive dashboards, semantic layer",
+      "asset_type": "platform",
+      "category": "analytics",
+      "pricing_model": "open_source",
+      "url": "https://superset.apache.org",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "40+ visualization types",
+        "SQL IDE",
+        "Interactive dashboards",
+        "Data caching",
+        "Semantic layer"
+      ],
+      "channels": [
+        "channel_professional",
+        "channel_creator"
+      ],
+      "projects": [
+        "project_atilok"
+      ],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827224",
+      "updated_at": "2026-01-23T17:43:28.827225"
+    },
+    {
+      "asset_id": "asset_metabase",
+      "name": "Metabase",
+      "description": "Open source business intelligence and embedded analytics. Query builder, dashboards, SQL editor, AI features, embedded analytics SDKs",
+      "asset_type": "platform",
+      "category": "analytics",
+      "pricing_model": "open_source",
+      "url": "https://metabase.com",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "Query builder",
+        "Dashboards",
+        "SQL editor",
+        "AI features",
+        "Embedded analytics",
+        "CSV uploads"
+      ],
+      "channels": [
+        "channel_professional",
+        "channel_creator"
+      ],
+      "projects": [
+        "project_atilok"
+      ],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827227",
+      "updated_at": "2026-01-23T17:43:28.827228"
+    },
+    {
+      "asset_id": "asset_grafana",
+      "name": "Grafana",
+      "description": "Open source observability and data visualization platform. Dashboards, alerting, multi-source data integration, plugin support",
+      "asset_type": "platform",
+      "category": "analytics",
+      "pricing_model": "open_source",
+      "url": "https://grafana.com/oss/grafana",
+      "documentation_url": null,
+      "github_url": "https://github.com/grafana/grafana",
+      "api_endpoint": null,
+      "features": [
+        "Dashboards",
+        "Alerting",
+        "Multi-source integration",
+        "Plugin support",
+        "Metrics/logs/traces"
+      ],
+      "channels": [
+        "channel_professional"
+      ],
+      "projects": [
+        "project_atilok"
+      ],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827229",
+      "updated_at": "2026-01-23T17:43:28.827230"
+    },
+    {
+      "asset_id": "asset_strapi",
+      "name": "Strapi",
+      "description": "Open source headless CMS for AI-powered websites and apps. Node.js-based with REST and GraphQL APIs, AI-powered translations",
+      "asset_type": "platform",
+      "category": "content_management",
+      "pricing_model": "open_source",
+      "url": "https://strapi.io",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "REST API",
+        "GraphQL API",
+        "AI translations",
+        "Content management",
+        "Customization",
+        "Collaboration"
+      ],
+      "channels": [
+        "channel_professional",
+        "channel_creator"
+      ],
+      "projects": [
+        "project_edible_london"
+      ],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827232",
+      "updated_at": "2026-01-23T17:43:28.827233"
+    },
+    {
+      "asset_id": "asset_directus",
+      "name": "Directus",
+      "description": "Open source headless CMS and backend platform. Visual data modeling, instant GraphQL and REST APIs, policy-based authentication",
+      "asset_type": "platform",
+      "category": "content_management",
+      "pricing_model": "open_source",
+      "url": "https://directus.io",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "Visual data modeling",
+        "GraphQL API",
+        "REST API",
+        "Policy-based auth",
+        "Custom extensions",
+        "Any database"
+      ],
+      "channels": [
+        "channel_professional",
+        "channel_creator"
+      ],
+      "projects": [
+        "project_atilok"
+      ],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827235",
+      "updated_at": "2026-01-23T17:43:28.827235"
+    },
+    {
+      "asset_id": "asset_tinacms",
+      "name": "TinaCMS",
+      "description": "Open source headless CMS with visual editing, markdown support, and GitHub integration. Supports Next.js and Astro",
+      "asset_type": "platform",
+      "category": "content_management",
+      "pricing_model": "open_source",
+      "url": "https://tina.io",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "Visual editing",
+        "Markdown support",
+        "GitHub integration",
+        "Next.js support",
+        "Astro support"
+      ],
+      "channels": [
+        "channel_professional",
+        "channel_creator"
+      ],
+      "projects": [],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827237",
+      "updated_at": "2026-01-23T17:43:28.827238"
+    },
+    {
+      "asset_id": "asset_usesend",
+      "name": "useSend",
+      "description": "Open source email platform with free tier. Transactional and marketing emails, real-time analytics, SMTP relay, SDKs for TypeScript, Python, Go, PHP",
+      "asset_type": "platform",
+      "category": "communication",
+      "pricing_model": "freemium",
+      "url": "https://unsend.dev",
+      "documentation_url": null,
+      "github_url": "https://github.com/usesend/useSend",
+      "api_endpoint": null,
+      "features": [
+        "Transactional emails",
+        "Marketing emails",
+        "Real-time analytics",
+        "SMTP relay",
+        "Contact management",
+        "SDKs"
+      ],
+      "channels": [
+        "channel_professional",
+        "channel_creator"
+      ],
+      "projects": [
+        "project_atilok"
+      ],
+      "alignment_score": 1.0,
+      "integration_difficulty": "medium",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827240",
+      "updated_at": "2026-01-23T17:43:28.827240"
+    },
+    {
+      "asset_id": "asset_ahasend",
+      "name": "AhaSend Email API",
+      "description": "Free transactional email API with fast delivery (Gmail <1s, others <5s). Raw delivery logs, webhooks, message routing, multi-language support",
+      "asset_type": "api",
+      "category": "communication",
+      "pricing_model": "free",
+      "url": "https://ahasend.com",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": "https://api.ahasend.com",
+      "features": [
+        "Fast delivery",
+        "Raw delivery logs",
+        "Webhooks",
+        "Message routing",
+        "Multi-language SDKs"
+      ],
+      "channels": [
+        "channel_professional",
+        "channel_creator"
+      ],
+      "projects": [
+        "project_atilok"
+      ],
+      "alignment_score": 0.9,
+      "integration_difficulty": "easy",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827242",
+      "updated_at": "2026-01-23T17:43:28.827243"
+    },
+    {
+      "asset_id": "asset_imgcdn",
+      "name": "ImgCDN",
+      "description": "Free public image hosting API with no rate limiting on uploads. Guest-based uploads, multiple embed code options, ShareX integration",
+      "asset_type": "api",
+      "category": "storage",
+      "pricing_model": "free",
+      "url": "https://imgcdn.dev",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": "https://imgcdn.dev/api",
+      "features": [
+        "Image hosting",
+        "No rate limit",
+        "Guest uploads",
+        "Multiple embed formats",
+        "ShareX integration"
+      ],
+      "channels": [
+        "channel_creator",
+        "channel_professional"
+      ],
+      "projects": [
+        "project_edible_london"
+      ],
+      "alignment_score": 0.9,
+      "integration_difficulty": "easy",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827245",
+      "updated_at": "2026-01-23T17:43:28.827246"
+    },
+    {
+      "asset_id": "asset_imagekit",
+      "name": "ImageKit",
+      "description": "Image and video API with AI-powered features. Real-time URL transformations, automatic optimization, external storage integration",
+      "asset_type": "api",
+      "category": "storage",
+      "pricing_model": "freemium",
+      "url": "https://imagekit.io",
+      "documentation_url": null,
+      "github_url": null,
+      "api_endpoint": null,
+      "features": [
+        "Image API",
+        "Video API",
+        "AI-powered",
+        "URL transformations",
+        "Auto optimization",
+        "S3/GCS/Azure integration"
+      ],
+      "channels": [
+        "channel_creator",
+        "channel_professional"
+      ],
+      "projects": [
+        "project_edible_london"
+      ],
+      "alignment_score": 0.8,
+      "integration_difficulty": "medium",
+      "notes": "",
+      "created_at": "2026-01-23T17:43:28.827247",
+      "updated_at": "2026-01-23T17:43:28.827248"
+    }
+  ],
+  "last_updated": "2026-01-23T17:43:28.827971"
+}

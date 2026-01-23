@@ -1,0 +1,36 @@
+{
+  "sensitive_data": {
+    "name": "Sensitive Identity Data",
+    "purpose": "Private identity information - INTERNAL ONLY",
+    "visibility": "private",
+    "last_updated": "2026-01-23T17:30:00",
+    "warning": "DO NOT PUBLISH OR SHARE PUBLICLY. This is sensitive identity information."
+  },
+  "identity_connections": {
+    "core_identity": "JAN MUHARREM",
+    "entity_identities": {
+      "jean_morphius": {
+        "note": "NOT jean_mahram",
+        "identity": "Jean Morphius",
+        "connection": "All are Jan",
+        "status": "confirmed"
+      },
+      "karasahin_jk": {
+        "identity": "Karasahin (JK)",
+        "connection": "All are Jan",
+        "status": "confirmed"
+      },
+      "uncle_ray_ramiz": {
+        "identity": "Uncle Ray Ramiz",
+        "connection": "All are Jan",
+        "status": "confirmed"
+      }
+    },
+    "statement": "Jean Morphius (not mahram), JK Karasahin, and Ramiz are all Jan."
+  },
+  "notes": {
+    "telos_reference": "This information relates to telos.md - core purpose and identity",
+    "confidentiality": "This is sensitive identity data. Keep private.",
+    "purpose": "Internal reference for identity connections"
+  }
+}

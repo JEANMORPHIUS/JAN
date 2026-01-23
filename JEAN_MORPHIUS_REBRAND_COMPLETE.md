@@ -12,8 +12,8 @@
 ### **Entity Identity**
 - ✅ Name updated: **Jean Mahram** → **Jean Morphius**
 - ✅ Social handles added:
-  - **Instagram:** @JEANMORPHIUS
-  - **TikTok:** @JEANMORPHIUS
+  - **Instagram:** @jeanmorphius
+  - **TikTok:** @jeanmorphius
 - ✅ Email/Workspace unchanged: **jean@siyem.org** (Google Workspace)
 
 ---
@@ -37,15 +37,15 @@
 
 ### **Scheduler Exports (4 files)**
 - ✅ `JEAN MORPHIUS_2026_weekly_posts_later_com.csv`
-  - Instagram Accounts: **@JEANMORPHIUS**
+  - Instagram Accounts: **@jeanmorphius**
 - ✅ `JEAN MORPHIUS_2026_weekly_posts_metricool.csv`
-  - Instagram: **@JEANMORPHIUS**
+  - Instagram: **@jeanmorphius**
 - ✅ `JEAN MORPHIUS_2026_weekly_posts_publer.csv`
-  - Instagram: **@JEANMORPHIUS**
+  - Instagram: **@jeanmorphius**
 - ✅ `JEAN MORPHIUS_2026_weekly_posts_google_sheets.csv`
   - Entity: **JEAN MORPHIUS**
-  - Instagram Handle: **@JEANMORPHIUS**
-  - TikTok Handle: **@JEANMORPHIUS**
+  - Instagram Handle: **@jeanmorphius**
+  - TikTok Handle: **@jeanmorphius**
 
 ### **Master Files (2 files)**
 - ✅ `MASTER_2026_CONTENT_CALENDAR.csv`
@@ -59,7 +59,7 @@
   - Entity key: "JEAN MORPHIUS"
 - ✅ `S:\JAN\scripts\visualize_and_schedule_2026_posts.py`
   - Entity: "JEAN MORPHIUS"
-  - Instagram handle: "@JEANMORPHIUS"
+  - Instagram handle: "@jeanmorphius"
   - TikTok handle: "@JEANMORPHIUS"
 
 ---
