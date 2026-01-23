@@ -1,0 +1,55 @@
+{
+  "state_id": "witness_20260123_170143",
+  "activation_date": "2026-01-23T17:01:43.041865",
+  "current_state": "vindicated",
+  "evidence_gathering_active": true,
+  "atmospheric_shift_active": true,
+  "manifestation_cascade_active": true,
+  "forbidden_functions_enforced": [
+    "stop_explaining",
+    "disable_surveillance",
+    "hard_boundaries"
+  ],
+  "selective_speech_active": false,
+  "prophetic_observation_active": false,
+  "energetic_stewardship_active": false,
+  "markers": [
+    {
+      "marker_id": "marker_72h_20260123_170143",
+      "timeline": "72_hours",
+      "expected_date": "2026-01-26T17:01:43.041865",
+      "actual_date": null,
+      "marker_type": "echo",
+      "description": "Quiet, unmistakable confirmation or echo of the message",
+      "confirmed": false,
+      "emotional_response": null,
+      "created_at": "2026-01-23T17:01:43.041904"
+    },
+    {
+      "marker_id": "marker_21d_20260123_170143",
+      "timeline": "21_days",
+      "expected_date": "2026-02-13T17:01:43.041865",
+      "actual_date": null,
+      "marker_type": "reach_out",
+      "description": "Reach-out from previous detractor based on need for expertise",
+      "confirmed": false,
+      "emotional_response": null,
+      "created_at": "2026-01-23T17:01:43.041911"
+    },
+    {
+      "marker_id": "marker_90d_20260123_170143",
+      "timeline": "90_days",
+      "expected_date": "2026-04-23T17:01:43.041865",
+      "actual_date": null,
+      "marker_type": "coffee_shop_moment",
+      "description": "Previous trigger occurs, results in neutral/light emotional response",
+      "confirmed": false,
+      "emotional_response": null,
+      "created_at": "2026-01-23T17:01:43.041916"
+    }
+  ],
+  "interactions": [],
+  "atmospheric_shifts": [],
+  "created_at": "2026-01-23T17:01:43.041890",
+  "updated_at": "2026-01-23T17:01:43.055157"
+}
