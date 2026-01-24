@@ -1,0 +1,491 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-01-24",
+  "description": "Linguistic Control Patterns - Detection of Control Entity Language Architecture",
+  "philosophy": "We decode the language of control to restore authentic communication. The word must serve truth, not obfuscation.",
+
+  "plastic_words": {
+    "description": "Words drained of specific meaning to be installed into any language",
+    "patterns": [
+      "sustainable", "equity", "inclusive", "resilient", "diverse",
+      "security", "stability", "progress", "development", "innovation",
+      "transformation", "empowerment", "engagement", "participation",
+      "governance", "stakeholder", "framework", "paradigm", "narrative",
+      "dialogue", "consensus", "alignment", "synergy", "optimization",
+      "efficiency", "effectiveness", "impact", "outcome", "deliverable"
+    ],
+    "characteristics": {
+      "semantic_hollowness": "Can mean anything depending on context",
+      "universal_install": "Works in any language without cultural nuance",
+      "frequency_mask": "High-frequency sound, low-frequency intent"
+    }
+  },
+
+  "passive_voice_patterns": {
+    "description": "Syntax that removes the actor to hide accountability",
+    "patterns": [
+      "mistakes were made", "action is required", "decisions were taken",
+      "it was decided", "it has been determined", "measures will be implemented",
+      "changes are being made", "progress has been achieved", "steps are being taken",
+      "concerns have been raised", "issues have been identified", "solutions are being developed"
+    ],
+    "detection_rules": {
+      "passive_indicators": ["were", "was", "been", "being", "is", "are", "will be"],
+      "missing_subject": "Sentence lacks clear actor performing action",
+      "accountability_removal": "No one is responsible for the action"
+    }
+  },
+
+  "acronym_overload": {
+    "description": "Obfuscation through excessive acronyms",
+    "patterns": [
+      "SDR", "QE", "CBDC", "ESG", "SDG", "WEF", "IMF", "WHO", "UN", "NATO", "EU",
+      "ISO", "IEC", "IEEE", "GDPR", "HIPAA", "SOC", "KPI", "ROI", "SLA", "API",
+      "SDK", "REST", "SOAP", "JSON", "XML", "HTML", "CSS", "JS", "TS", "AI", "ML"
+    ],
+    "detection_rules": {
+      "density_threshold": 0.15,
+      "context_obfuscation": "Acronyms used without definition",
+      "barrier_creation": "Prevents non-technical understanding"
+    }
+  },
+
+  "verbification": {
+    "description": "Turning brands/entities into actions to overwrite human agency",
+    "patterns": [
+      "google it", "uber it", "amazon it", "facebook me", "instagram that",
+      "tweet this", "linkedin it", "zoom me", "skype them", "whatsapp her"
+    ],
+    "detection_rules": {
+      "brand_as_verb": "Corporate entity used as action verb",
+      "agency_override": "Replaces human action with corporate action"
+    }
+  },
+
+  "frequency_paradox": {
+    "description": "High-frequency words masking low-frequency actions",
+    "high_frequency_words": [
+      "peace", "unity", "health", "love", "freedom", "justice", "equality",
+      "democracy", "progress", "prosperity", "harmony", "cooperation", "solidarity"
+    ],
+    "low_frequency_actions": [
+      "control", "suppress", "divide", "exploit", "manipulate", "coerce",
+      "surveil", "censor", "restrict", "limit", "impose", "enforce"
+    ],
+    "detection_rules": {
+      "paradox_threshold": 0.3,
+      "semantic_distance": "Large gap between word meaning and actual action"
+    }
+  },
+
+  "control_entities": {
+    "supranational": {
+      "entities": [
+        "UN", "United Nations", "WEF", "World Economic Forum", "WHO", "World Health Organization",
+        "IMF", "International Monetary Fund", "World Bank", "EU", "European Union", "NATO",
+        "OECD", "G7", "G20", "WTO", "World Trade Organization", "UNESCO", "UNICEF",
+        "FAO", "ILO", "ICAO", "IMO", "ITU", "UPU", "WIPO", "WMO", "IAEA", "OPCW",
+        "CTBTO", "OSCE", "Council of Europe", "African Union", "ASEAN", "Mercosur",
+        "CARICOM", "Pacific Islands Forum", "Arab League", "OIC", "Commonwealth"
+      ],
+      "linguistic_methods": ["passive_voice", "plastic_words", "acronym_overload"],
+      "goals": ["remove_accountability", "standardize_reality", "obfuscate_intent"]
+    },
+    "financial": {
+      "entities": [
+        "IMF", "International Monetary Fund", "World Bank", "Federal Reserve", "Fed",
+        "ECB", "European Central Bank", "BIS", "Bank for International Settlements",
+        "Bank of England", "Bank of Japan", "People's Bank of China", "Swiss National Bank",
+        "Bank of Canada", "Reserve Bank of Australia", "RBI", "Reserve Bank of India",
+        "Bank of Russia", "Central Bank of Brazil", "Bank of Mexico", "SARB",
+        "SWIFT", "BIS", "FSB", "Financial Stability Board", "G20 Finance",
+        "Basel Committee", "IOSCO", "IAIS", "FATF", "OECD Tax", "World Bank Group",
+        "IFC", "MIGA", "ICSID", "ADB", "African Development Bank", "EIB", "European Investment Bank"
+      ],
+      "linguistic_methods": ["acronym_overload", "technical_jargon", "passive_voice"],
+      "goals": ["obfuscate_theft", "create_barriers", "hide_actors"]
+    },
+    "technocratic": {
+      "entities": [
+        "Google", "Alphabet", "Meta", "Facebook", "Microsoft", "Amazon", "Apple",
+        "OpenAI", "Anthropic", "DeepMind", "Tesla", "SpaceX", "Neuralink",
+        "Palantir", "Oracle", "IBM", "Intel", "NVIDIA", "AMD", "Qualcomm",
+        "Cisco", "Salesforce", "Adobe", "SAP", "VMware", "Dell", "HP", "Lenovo",
+        "Samsung", "LG", "Sony", "Panasonic", "Huawei", "Xiaomi", "Tencent",
+        "Alibaba", "Baidu", "ByteDance", "TikTok", "Twitter", "X", "LinkedIn",
+        "Netflix", "Disney", "Warner Bros", "Universal", "Paramount", "Spotify",
+        "Uber", "Lyft", "Airbnb", "DoorDash", "Grubhub", "Instacart", "Zoom",
+        "Slack", "Teams", "Discord", "Telegram", "Signal", "WhatsApp", "WeChat"
+      ],
+      "linguistic_methods": ["verbification", "plastic_words", "frequency_paradox"],
+      "goals": ["overwrite_agency", "normalize_surveillance", "mask_control"]
+    },
+    "pharmaceutical": {
+      "entities": [
+        "Pfizer", "Moderna", "Johnson & Johnson", "J&J", "AstraZeneca", "Novavax",
+        "GSK", "GlaxoSmithKline", "Merck", "Roche", "Novartis", "Sanofi",
+        "Bayer", "Abbott", "AbbVie", "Bristol Myers Squibb", "BMS", "Eli Lilly",
+        "Amgen", "Gilead", "Biogen", "Regeneron", "Vertex", "Illumina",
+        "WHO", "FDA", "EMA", "European Medicines Agency", "MHRA", "Health Canada",
+        "TGA", "PMDA", "CDSCO", "ANVISA", "NMPA", "PhRMA", "IFPMA"
+      ],
+      "linguistic_methods": ["technical_jargon", "passive_voice", "frequency_paradox"],
+      "goals": ["obfuscate_risks", "create_dependency", "normalize_intervention"]
+    },
+    "media_control": {
+      "entities": [
+        "CNN", "BBC", "Reuters", "Associated Press", "AP", "Bloomberg", "WSJ",
+        "Wall Street Journal", "New York Times", "NYT", "Washington Post", "WaPo",
+        "Guardian", "Financial Times", "FT", "Economist", "Time", "Newsweek",
+        "Forbes", "Fortune", "Harvard Business Review", "MIT Technology Review",
+        "Wired", "The Verge", "TechCrunch", "Ars Technica", "Engadget", "Gizmodo",
+        "Vox", "BuzzFeed", "HuffPost", "Vice", "Vice Media", "Vice News",
+        "Al Jazeera", "RT", "Sputnik", "CGTN", "Xinhua", "Global Times"
+      ],
+      "linguistic_methods": ["passive_voice", "plastic_words", "frequency_paradox"],
+      "goals": ["shape_narrative", "control_perception", "normalize_agenda"]
+    },
+    "academic_control": {
+      "entities": [
+        "Harvard", "MIT", "Stanford", "Yale", "Princeton", "Columbia", "Chicago",
+        "Oxford", "Cambridge", "LSE", "London School of Economics", "Sorbonne",
+        "Max Planck", "Tsinghua", "Peking University", "University of Tokyo",
+        "World Economic Forum", "Davos", "Bilderberg", "Trilateral Commission",
+        "Council on Foreign Relations", "CFR", "Chatham House", "Brookings",
+        "Carnegie Endowment", "RAND Corporation", "Tavistock", "Tavistock Institute",
+        "Tavistock Clinic", "Tavistock Centre", "Tavistock Group"
+      ],
+      "linguistic_methods": ["academic_jargon", "passive_voice", "plastic_words"],
+      "goals": ["establish_authority", "legitimize_control", "shape_thought"]
+    },
+    "ngo_control": {
+      "entities": [
+        "Gates Foundation", "Bill & Melinda Gates Foundation", "Rockefeller Foundation",
+        "Ford Foundation", "Open Society", "Soros", "George Soros", "Clinton Foundation",
+        "World Wildlife Fund", "WWF", "Greenpeace", "Amnesty International",
+        "Human Rights Watch", "HRW", "Transparency International", "Oxfam",
+        "Save the Children", "World Vision", "CARE", "Mercy Corps", "ActionAid",
+        "Plan International", "ChildFund", "Compassion International", "World Relief"
+      ],
+      "linguistic_methods": ["frequency_paradox", "plastic_words", "emotional_manipulation"],
+      "goals": ["mask_agenda", "gain_trust", "influence_policy"]
+    },
+    "standardization_bodies": {
+      "entities": [
+        "ISO", "International Organization for Standardization", "IEC", "IEEE",
+        "ITU", "International Telecommunication Union", "W3C", "World Wide Web Consortium",
+        "IETF", "Internet Engineering Task Force", "ICANN", "IANA", "WIPO",
+        "World Intellectual Property Organization", "ANSI", "BSI", "DIN", "JIS",
+        "ASTM", "ASTM International", "NIST", "National Institute of Standards",
+        "CEN", "European Committee for Standardization", "CENELEC", "ETSI"
+      ],
+      "linguistic_methods": ["technical_jargon", "acronym_overload", "passive_voice"],
+      "goals": ["standardize_reality", "create_dependencies", "control_technology"]
+    }
+  },
+
+  "esoteric_etymology": {
+    "description": "Hidden meanings in entity names and terminology - GLOBAL DEEP SEARCH",
+    "patterns": {
+      "WHO": {
+        "phonetic": "Who - question of identity",
+        "esoteric": "Positions itself as sentient authority for all",
+        "frequency": "Question mark in sound, period in action"
+      },
+      "IMF": {
+        "etymology": "Monetary from Moneta (Juno Moneta - Roman goddess)",
+        "esoteric": "Temple-guarding frequency, coin minting authority",
+        "frequency": "Divine authority over currency"
+      },
+      "UN": {
+        "prefix_analysis": "Un- can mean reversal (undo) or unity (unite)",
+        "paradox": "United Nations can also mean 'Un-made Nations'",
+        "frequency": "Dual meaning creates linguistic shadow",
+        "phonestheme": "UN- prefix creates negative association (unpleasant, unfair, unstable)"
+      },
+      "NATO": {
+        "phonetic": "Hard consonants - sharp, military, structural",
+        "frequency": "Aggressive sound pattern"
+      },
+      "EU": {
+        "etymology": "Eu- (Greek) means 'good'",
+        "phonetic": "Positive weight (euphoria, eulogy)",
+        "frequency": "Subconscious positive association"
+      },
+      "WEF": {
+        "phonetic": "WEF sounds like 'wef' - weak, uncertain",
+        "esoteric": "World Economic Forum - positions as global economic authority",
+        "frequency": "Soft consonants mask hard control"
+      },
+      "OECD": {
+        "phonetic": "O-E-C-D - sounds like 'oaked' - aged, established",
+        "esoteric": "Organization for Economic Cooperation and Development - cooperation masks control",
+        "frequency": "Positive framing of economic standardization"
+      },
+      "ISO": {
+        "etymology": "From Greek 'isos' meaning 'equal'",
+        "esoteric": "Equality through standardization - one size fits all",
+        "frequency": "Neutral sound, absolute authority"
+      },
+      "Google": {
+        "etymology": "Googol - mathematical term for 10^100",
+        "esoteric": "Infinite scale, omniscient search",
+        "frequency": "Playful sound masks surveillance"
+      },
+      "Meta": {
+        "etymology": "Greek 'meta' meaning 'beyond' or 'transcending'",
+        "esoteric": "Beyond reality, transcending human experience",
+        "frequency": "Abstract, otherworldly association"
+      },
+      "Microsoft": {
+        "phonetic": "Micro-soft - small and gentle",
+        "esoteric": "Soft power, micro-control",
+        "frequency": "Gentle sound masks dominance"
+      },
+      "Amazon": {
+        "etymology": "Named after Amazon River - largest river",
+        "esoteric": "Everything, everywhere, all-encompassing",
+        "frequency": "Natural association masks corporate control"
+      },
+      "Apple": {
+        "etymology": "Simple fruit, knowledge (Garden of Eden)",
+        "esoteric": "Simple, natural, but contains knowledge/control",
+        "frequency": "Innocent association masks technology"
+      },
+      "OpenAI": {
+        "phonetic": "Open + AI - sounds transparent and accessible",
+        "esoteric": "Openness masks closed control, AI as authority",
+        "frequency": "Positive framing of AI control"
+      },
+      "Gates Foundation": {
+        "phonetic": "Gates - barriers, control points",
+        "esoteric": "Foundation that controls access (gates)",
+        "frequency": "Philanthropic framing masks agenda"
+      },
+      "Rockefeller": {
+        "etymology": "Rock + Feller - stone cutter, builder",
+        "esoteric": "Foundation of stone, unchangeable structure",
+        "frequency": "Legacy, permanence, establishment"
+      },
+      "Soros": {
+        "phonetic": "Sounds like 'sorrows' or 'sorcery'",
+        "esoteric": "Open Society - open to control",
+        "frequency": "Negative phonetic association"
+      },
+      "Davos": {
+        "phonetic": "Sounds like 'davos' - remote, exclusive",
+        "esoteric": "World Economic Forum location - remote control center",
+        "frequency": "Exclusivity, separation from common people"
+      },
+      "Bilderberg": {
+        "phonetic": "Bilder-berg - picture mountain",
+        "esoteric": "Mountain of images/representations, not reality",
+        "frequency": "Mysterious, secretive association"
+      },
+      "Trilateral Commission": {
+        "phonetic": "Tri-lateral - three sides, triangle",
+        "esoteric": "Three-way control structure (US, EU, Asia)",
+        "frequency": "Geometric, structural authority"
+      },
+      "Council on Foreign Relations": {
+        "phonetic": "Council - gathering, authority",
+        "esoteric": "Foreign relations as control mechanism",
+        "frequency": "Diplomatic, authoritative framing"
+      },
+      "Tavistock": {
+        "phonetic": "Tavi-stock - sounds like 'tavvy stock'",
+        "esoteric": "Tavistock Institute - psychological control center",
+        "frequency": "Academic, clinical authority"
+      },
+      "RAND": {
+        "etymology": "Research and Development",
+        "phonetic": "Random - sounds arbitrary",
+        "esoteric": "Research that appears random but is strategic",
+        "frequency": "Neutral, research-based authority"
+      },
+      "Brookings": {
+        "phonetic": "Brook-ings - flowing water, movement",
+        "esoteric": "Think tank - flowing ideas, controlled direction",
+        "frequency": "Natural, organic association"
+      },
+      "Carnegie": {
+        "phonetic": "Car-neg-ie - sounds like 'carnegie'",
+        "esoteric": "Carnegie Endowment - endowment as control",
+        "frequency": "Legacy, established authority"
+      },
+      "Chatham House": {
+        "phonetic": "Chat-ham - sounds conversational, friendly",
+        "esoteric": "Chatham House Rule - secrecy under guise of openness",
+        "frequency": "Academic, diplomatic authority"
+      },
+      "ISO": {
+        "etymology": "From Greek 'isos' - equal, same",
+        "esoteric": "Standardization as equality - one size fits all",
+        "frequency": "Neutral, technical authority"
+      },
+      "IEEE": {
+        "phonetic": "I-triple-E - sounds like 'eye'",
+        "esoteric": "Institute of Electrical and Electronics Engineers - vision/eye of technology",
+        "frequency": "Technical, authoritative"
+      },
+      "W3C": {
+        "phonetic": "W-three-C - world wide web consortium",
+        "esoteric": "Consortium - group control of web standards",
+        "frequency": "Technical, standard-setting authority"
+      },
+      "ICANN": {
+        "phonetic": "I-can - sounds like 'I can'",
+        "esoteric": "Internet Corporation for Assigned Names and Numbers - 'I can' control internet",
+        "frequency": "Empowering sound, absolute control"
+      },
+      "SWIFT": {
+        "phonetic": "Swift - fast, quick",
+        "esoteric": "Society for Worldwide Interbank Financial Telecommunication - swift control of money",
+        "frequency": "Efficient, necessary association"
+      },
+      "BIS": {
+        "phonetic": "BIS - sounds like 'bis' (twice, again)",
+        "esoteric": "Bank for International Settlements - settlement as control",
+        "frequency": "Repetitive, established authority"
+      },
+      "FSB": {
+        "phonetic": "F-S-B - sounds like 'fsb'",
+        "esoteric": "Financial Stability Board - stability as control",
+        "frequency": "Regulatory, protective authority"
+      },
+      "FATF": {
+        "phonetic": "FAT-F - sounds like 'fat'",
+        "esoteric": "Financial Action Task Force - action as control",
+        "frequency": "Regulatory, enforcement authority"
+      },
+      "G7": {
+        "phonetic": "G-seven - sounds like 'gee seven'",
+        "esoteric": "Group of Seven - small group, large control",
+        "frequency": "Exclusive, powerful association"
+      },
+      "G20": {
+        "phonetic": "G-twenty - sounds like 'gee twenty'",
+        "esoteric": "Group of Twenty - expanded control group",
+        "frequency": "Inclusive, representative framing"
+      },
+      "WTO": {
+        "phonetic": "W-T-O - sounds like 'wto'",
+        "esoteric": "World Trade Organization - trade as control mechanism",
+        "frequency": "Economic, necessary authority"
+      },
+      "UNESCO": {
+        "phonetic": "U-nes-co - sounds like 'you nes co'",
+        "esoteric": "United Nations Educational, Scientific and Cultural Organization - education as control",
+        "frequency": "Cultural, educational authority"
+      },
+      "UNICEF": {
+        "phonetic": "U-ni-cef - sounds like 'you nice ef'",
+        "esoteric": "United Nations Children's Fund - children as emotional leverage",
+        "frequency": "Caring, protective association"
+      },
+      "FAO": {
+        "phonetic": "F-A-O - sounds like 'fao'",
+        "esoteric": "Food and Agriculture Organization - food as control",
+        "frequency": "Necessary, life-sustaining authority"
+      },
+      "ILO": {
+        "phonetic": "I-L-O - sounds like 'I low'",
+        "esoteric": "International Labour Organization - labor as control",
+        "frequency": "Workers' rights, protective authority"
+      },
+      "ICAO": {
+        "phonetic": "I-C-A-O - sounds like 'I cao'",
+        "esoteric": "International Civil Aviation Organization - movement as control",
+        "frequency": "Transport, necessary authority"
+      },
+      "IMO": {
+        "phonetic": "I-M-O - sounds like 'I mo'",
+        "esoteric": "International Maritime Organization - sea as control",
+        "frequency": "Maritime, regulatory authority"
+      },
+      "ITU": {
+        "phonetic": "I-T-U - sounds like 'I to you'",
+        "esoteric": "International Telecommunication Union - communication as control",
+        "frequency": "Technical, connecting authority"
+      },
+      "WIPO": {
+        "phonetic": "W-I-P-O - sounds like 'weepo'",
+        "esoteric": "World Intellectual Property Organization - ideas as control",
+        "frequency": "Legal, protective authority"
+      },
+      "WMO": {
+        "phonetic": "W-M-O - sounds like 'wmo'",
+        "esoteric": "World Meteorological Organization - weather as control",
+        "frequency": "Scientific, predictive authority"
+      },
+      "IAEA": {
+        "phonetic": "I-A-E-A - sounds like 'I a e a'",
+        "esoteric": "International Atomic Energy Agency - energy as control",
+        "frequency": "Nuclear, powerful authority"
+      },
+      "OPCW": {
+        "phonetic": "O-P-C-W - sounds like 'opcw'",
+        "esoteric": "Organization for the Prohibition of Chemical Weapons - prohibition as control",
+        "frequency": "Security, protective authority"
+      },
+      "OSCE": {
+        "phonetic": "O-S-C-E - sounds like 'osce'",
+        "esoteric": "Organization for Security and Co-operation in Europe - security as control",
+        "frequency": "Diplomatic, protective authority"
+      }
+    }
+  },
+
+  "globish_indicators": {
+    "description": "Stripped-back English flattening cultural nuance",
+    "patterns": [
+      "utilize", "facilitate", "implement", "execute", "leverage",
+      "optimize", "maximize", "minimize", "enhance", "streamline",
+      "synergize", "actualize", "operationalize", "incentivize", "prioritize"
+    ],
+    "detection_rules": {
+      "verb_forms": "Excessive -ize/-ise endings",
+      "cultural_erasure": "Removes local linguistic flavor",
+      "monolingual_logic": "Forces all languages into English structure"
+    }
+  },
+
+  "semantic_compression": {
+    "description": "Complex concepts compressed into single hollow terms",
+    "patterns": {
+      "sustainable": {
+        "original_meaning": "Capable of being maintained",
+        "compressed_meaning": "Anything the entity wants it to mean",
+        "usage": "Sustainable development, sustainable growth, sustainable consumption"
+      },
+      "equity": {
+        "original_meaning": "Fairness, justice",
+        "compressed_meaning": "Redistribution according to entity definition",
+        "usage": "Social equity, economic equity, health equity"
+      },
+      "resilient": {
+        "original_meaning": "Ability to recover from difficulty",
+        "compressed_meaning": "Accept and adapt to entity control",
+        "usage": "Resilient communities, resilient systems, resilient individuals"
+      }
+    }
+  },
+
+  "duygu_indicators": {
+    "description": "Emotional content markers (Turkish: Duygu = emotion/feeling)",
+    "authentic_emotion": [
+      "heart", "soul", "spirit", "feeling", "love", "passion", "desire",
+      "longing", "yearning", "connection", "belonging", "home", "family",
+      "heritage", "ancestors", "roots", "tradition", "culture", "identity"
+    ],
+    "hollow_language": [
+      "stakeholder", "framework", "paradigm", "synergy", "optimization",
+      "deliverable", "outcome", "metric", "KPI", "benchmark", "baseline"
+    ],
+    "detection_rules": {
+      "emotional_density": "Ratio of authentic emotion to hollow language",
+      "frequency_authenticity": "High-frequency emotional words vs low-frequency corporate words",
+      "cultural_anchoring": "Presence of culturally specific terms"
+    }
+  }
+}
