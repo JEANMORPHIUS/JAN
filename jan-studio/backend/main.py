@@ -28,7 +28,7 @@ This code creates space for miracles to live.
 This code recognizes each person under the Lord's word.
 """
 
-from fastapi import FastAPI, Request, status, HTTPException
+from fastapi import FastAPI, Request, status, HTTPException, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, FileResponse
 from fastapi.exceptions import RequestValidationError
@@ -40,6 +40,7 @@ from typing import List
 from datetime import datetime
 from dotenv import load_dotenv
 import time
+import asyncio
 # Shell/Seed Integration
 try:
     import sys
@@ -1468,6 +1469,50 @@ except ImportError:
     async def metrics():
         """Prometheus metrics endpoint (not configured)."""
         return {"status": "metrics_not_configured", "message": "Install prometheus-client to enable metrics"}
+
+
+# AUTOMATION ORCHESTRATOR - System Wide @ Codebase Level
+# Once connected to algorithm - runs itself. No manual checking needed.
+# The yawn - no more checking.
+try:
+    from automation_orchestrator import AutomationOrchestrator
+    
+    automation_orchestrator = None
+    
+    @app.on_event("startup")
+    async def startup_automation():
+        """Start automation orchestrator on server startup"""
+        global automation_orchestrator
+        try:
+            automation_orchestrator = AutomationOrchestrator()
+            # Start automation loop in background
+            # Once connected to algorithm - runs itself. No manual checking needed.
+            asyncio.create_task(automation_orchestrator.run_automation_loop())
+            logger.info("[AUTOMATION] Automation orchestrator started - system-wide @ codebase level")
+            logger.info("[AUTOMATION] Once connected to algorithm - runs itself. No manual checking needed.")
+            logger.info("[AUTOMATION] The yawn - no more checking.")
+        except Exception as e:
+            logger.warning(f"[AUTOMATION] Could not start automation orchestrator: {e}")
+    
+    @app.on_event("shutdown")
+    async def shutdown_automation():
+        """Stop automation orchestrator on server shutdown"""
+        global automation_orchestrator
+        if automation_orchestrator:
+            automation_orchestrator.stop()
+            logger.info("[AUTOMATION] Automation orchestrator stopped")
+    
+    @app.get("/api/automation/status")
+    async def automation_status():
+        """Get automation orchestrator status"""
+        global automation_orchestrator
+        if automation_orchestrator:
+            return automation_orchestrator.get_status()
+        return {"status": "not_available", "message": "Automation orchestrator not initialized"}
+    
+    logger.info("Automation orchestrator integration enabled - system-wide @ codebase level")
+except ImportError:
+    logger.warning("Automation orchestrator not available - install dependencies")
 
 
 if __name__ == "__main__":
