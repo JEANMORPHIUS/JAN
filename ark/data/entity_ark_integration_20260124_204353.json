@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-01-24T20:43:53.108503",
+  "entities": [
+    {
+      "entity": "Jean Morphius",
+      "ark_connection": "Storyteller of the ark - preservation through narrative",
+      "biblical": "Noah's story - preservation, new beginning",
+      "current": "Hotel in Cyprus - sanctuary for stories",
+      "past": "Biblical narrative preservation",
+      "present": "Modern storytelling sanctuary",
+      "significance": "Stories preserved, narratives saved",
+      "channels": [
+        "all"
+      ]
+    },
+    {
+      "entity": "Karasahin (JK)",
+      "ark_connection": "Voice of the ark - sound as sanctuary",
+      "biblical": "Noah's voice - calling to the ark",
+      "current": "Hotel in Cyprus - sound sanctuary",
+      "past": "Biblical voice calling to preservation",
+      "present": "Modern sound sanctuary",
+      "significance": "Voice preserved, sound saved",
+      "channels": [
+        "all"
+      ]
+    },
+    {
+      "entity": "Pierre Pressure",
+      "ark_connection": "Builder of the ark - structure and discipline",
+      "biblical": "Noah building the ark - preparation, discipline",
+      "current": "Hotel in Cyprus - structure, discipline",
+      "past": "Biblical building, preparation",
+      "present": "Modern structure, discipline",
+      "significance": "Structure preserved, discipline saved",
+      "channels": [
+        "all"
+      ]
+    },
+    {
+      "entity": "Uncle Ray Ramiz",
+      "ark_connection": "Teacher of the ark - wisdom and guidance",
+      "biblical": "Noah's wisdom - teaching preservation",
+      "current": "Hotel in Cyprus - teaching sanctuary",
+      "past": "Biblical wisdom, guidance",
+      "present": "Modern teaching, wisdom",
+      "significance": "Wisdom preserved, teaching saved",
+      "channels": [
+        "all"
+      ]
+    },
+    {
+      "entity": "Siyem Media",
+      "ark_connection": "Coordinator of the ark - all entities together",
+      "biblical": "Noah coordinating all life - unity",
+      "current": "Hotel in Cyprus - coordinating sanctuary",
+      "past": "Biblical coordination, unity",
+      "present": "Modern coordination, unity",
+      "significance": "Unity preserved, coordination saved",
+      "channels": [
+        "all"
+      ]
+    }
+  ],
+  "integration_strategy": {
+    "all_entities": "Ark integrated across all entities",
+    "past_present": "Both biblical and current Ark",
+    "all_channels": "All channels integrated",
+    "significance": "Preservation, sanctuary, unity"
+  },
+  "insights": [
+    "All entities connected to Ark (biblical and current)",
+    "Past: Biblical preservation, sanctuary",
+    "Present: Modern preservation, sanctuary",
+    "All channels: Creator, professional, educational",
+    "Significance: Unity preserved, sanctuary saved"
+  ]
+}

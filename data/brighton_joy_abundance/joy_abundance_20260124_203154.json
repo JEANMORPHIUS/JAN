@@ -1,0 +1,114 @@
+{
+  "timestamp": "2026-01-24T20:31:54.260311",
+  "context": {
+    "team": "Brighton & Hove Albion",
+    "season": "2025-2026",
+    "status": "Whole team close to god mode",
+    "fan_base_state": {
+      "jealousy_envy": "Crystal Palace won FA Cup last season (May 2025)",
+      "pessimism": "Many pessimistic, understandable",
+      "opportunity": "Perfect guinea pig to flip the switch"
+    },
+    "crystal_palace_context": {
+      "event": "Crystal Palace won FA Cup May 2025",
+      "impact": "Left many in Brighton fan base with jealous taste, envious at best",
+      "understanding": "Understandable - rivals won major trophy"
+    },
+    "mission": {
+      "emit": "Joy and abundance for team and fan base",
+      "flip": "Switch from jealousy/envy to joy and abundance",
+      "purpose": "Perfect test case for flipping the switch"
+    }
+  },
+  "emissions": [
+    {
+      "target": "team",
+      "message": "Brighton team is close to god mode - celebrate the journey",
+      "purpose": "Emit joy and abundance for Brighton team",
+      "timestamp": "2026-01-24T20:31:54.260286",
+      "emitted": false
+    },
+    {
+      "target": "team",
+      "message": "Whole team alignment - something special this season",
+      "purpose": "Emit joy and abundance for Brighton team",
+      "timestamp": "2026-01-24T20:31:54.260304",
+      "emitted": false
+    },
+    {
+      "target": "team",
+      "message": "Cultural bridge through football - Japanese-Turkish connection",
+      "purpose": "Emit joy and abundance for Brighton team",
+      "timestamp": "2026-01-24T20:31:54.260305",
+      "emitted": false
+    },
+    {
+      "target": "team",
+      "message": "Joy for the team - abundance for the journey",
+      "purpose": "Emit joy and abundance for Brighton team",
+      "timestamp": "2026-01-24T20:31:54.260306",
+      "emitted": false
+    },
+    {
+      "target": "fan_base",
+      "message": "Flip the switch from jealousy to joy",
+      "purpose": "Flip switch from jealousy/envy to joy/abundance",
+      "timestamp": "2026-01-24T20:31:54.260307",
+      "emitted": false
+    },
+    {
+      "target": "fan_base",
+      "message": "Crystal Palace's win doesn't diminish Brighton's journey",
+      "purpose": "Flip switch from jealousy/envy to joy/abundance",
+      "timestamp": "2026-01-24T20:31:54.260307",
+      "emitted": false
+    },
+    {
+      "target": "fan_base",
+      "message": "Emit abundance - the team is close to god mode",
+      "purpose": "Flip switch from jealousy/envy to joy/abundance",
+      "timestamp": "2026-01-24T20:31:54.260308",
+      "emitted": false
+    },
+    {
+      "target": "fan_base",
+      "message": "Joy for the fan base - abundance for the community",
+      "purpose": "Flip switch from jealousy/envy to joy/abundance",
+      "timestamp": "2026-01-24T20:31:54.260308",
+      "emitted": false
+    },
+    {
+      "target": "both",
+      "message": "Mitoma (Japanese) + Kadıoğlu (Turkish) = Cultural bridge",
+      "purpose": "Celebrate cultural bridge through football",
+      "timestamp": "2026-01-24T20:31:54.260309",
+      "emitted": false
+    },
+    {
+      "target": "both",
+      "message": "Football as cultural connector",
+      "purpose": "Celebrate cultural bridge through football",
+      "timestamp": "2026-01-24T20:31:54.260310",
+      "emitted": false
+    },
+    {
+      "target": "both",
+      "message": "Something special this season",
+      "purpose": "Celebrate cultural bridge through football",
+      "timestamp": "2026-01-24T20:31:54.260310",
+      "emitted": false
+    }
+  ],
+  "strategy": {
+    "flip_the_switch": "From jealousy/envy to joy/abundance",
+    "perfect_guinea_pig": "Brighton fan base - perfect test case",
+    "god_mode_team": "Whole team close to god mode - celebrate",
+    "cultural_bridge": "Japanese-Turkish connection through football"
+  },
+  "insights": [
+    "Emit joy and abundance for team and fan base",
+    "Flip switch from Crystal Palace jealousy to Brighton joy",
+    "Perfect guinea pig to test the switch flip",
+    "Whole team close to god mode - celebrate the journey"
+  ]
+}

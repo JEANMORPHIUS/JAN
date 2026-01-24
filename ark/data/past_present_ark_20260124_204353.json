@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-01-24T20:43:53.327623",
+  "time_dimensions": [
+    {
+      "dimension": "Past",
+      "ark": "Noah's Ark (Biblical)",
+      "time": "Genesis 6-9",
+      "location": "Mount Ararat (traditionally)",
+      "purpose": "Preservation of all life",
+      "covenant": "Rainbow promise - never again",
+      "significance": "Divine protection, new beginning",
+      "connection": "Biblical foundation"
+    },
+    {
+      "dimension": "Present",
+      "ark": "Nuh'un Gemisi (Noah's Ark Hotel)",
+      "time": "2026 - Current",
+      "location": "Bafra Turizm Bölgesi, KKTC (North Cyprus)",
+      "purpose": "Sanctuary, preservation, wellness",
+      "covenant": "Promise of unity, community",
+      "significance": "Modern ark in spiritual home",
+      "connection": "Spiritual home (Agios Theodoros, Cyprus)"
+    },
+    {
+      "dimension": "Future",
+      "ark": "Mission Ark (Return to the table)",
+      "time": "Future - Unity restored",
+      "location": "Everywhere - The Table",
+      "purpose": "Unity, preservation, sanctuary",
+      "covenant": "Return to the table",
+      "significance": "Unity restored, table whole",
+      "connection": "Pangea = The Table"
+    }
+  ],
+  "temporal_flow": {
+    "past_to_present": "Biblical Ark -> Modern Ark Hotel",
+    "present_to_future": "Modern Ark -> Mission Ark",
+    "past_to_future": "Biblical Ark -> Mission Ark",
+    "unified": "All time dimensions unified in Ark"
+  },
+  "insights": [
+    "Past: Biblical Ark - preservation, covenant",
+    "Present: Modern Ark Hotel - sanctuary in spiritual home",
+    "Future: Mission Ark - return to the table",
+    "All time dimensions unified in preservation, sanctuary, unity"
+  ]
+}

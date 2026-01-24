@@ -1,0 +1,84 @@
+{
+  "timestamp": "2026-01-24T20:38:22.615398",
+  "ark_connections": {
+    "biblical": {
+      "ark": "Noah's Ark",
+      "location": "Mount Ararat (traditionally)",
+      "purpose": "Preservation of all life",
+      "covenant": "Rainbow promise - never again",
+      "significance": "Divine protection, new beginning"
+    },
+    "current": {
+      "ark": "Nuh'un Gemisi (Noah's Ark Hotel)",
+      "location": "Bafra Turizm Bölgesi, KKTC (North Cyprus)",
+      "purpose": "Sanctuary, preservation, wellness",
+      "covenant": "Promise of unity, community",
+      "significance": "Modern ark in spiritual home"
+    },
+    "spiritual_home": {
+      "location": "Agios Theodoros, Cyprus",
+      "connection": "Hotel in Cyprus (spiritual home)",
+      "significance": "Ark in the land of promise",
+      "parallel": "Biblical ark in promised land"
+    },
+    "connections": {
+      "preservation": "Both preserve life/unity",
+      "sanctuary": "Both are sanctuaries",
+      "covenant": "Both represent promise",
+      "new_beginning": "Both represent new world",
+      "spiritual_home": "Both in land of promise"
+    }
+  },
+  "connections": [
+    {
+      "element": "Preservation",
+      "biblical": "All life preserved in ark",
+      "current": "Sanctuary, wellness, preservation of culture",
+      "connection": "Both preserve life/unity",
+      "significance": "Preservation is the purpose"
+    },
+    {
+      "element": "Sanctuary",
+      "biblical": "Ark as divine shelter",
+      "current": "Hotel as modern sanctuary",
+      "connection": "Both are sanctuaries",
+      "significance": "Sanctuary for all"
+    },
+    {
+      "element": "Covenant",
+      "biblical": "Rainbow promise - never again",
+      "current": "Promise of unity, community",
+      "connection": "Both represent promise",
+      "significance": "Divine promise, unity promise"
+    },
+    {
+      "element": "New Beginning",
+      "biblical": "World reborn, humanity preserved",
+      "current": "New world, new possibilities",
+      "connection": "Both represent new world",
+      "significance": "Fresh start, unity restored"
+    },
+    {
+      "element": "Spiritual Home",
+      "biblical": "Ark in the land of promise",
+      "current": "Hotel in Cyprus (spiritual home)",
+      "connection": "Both in land of promise",
+      "significance": "Ark in spiritual home"
+    }
+  ],
+  "deep_connections": {
+    "preservation": "Biblical ark preserved all life → Current ark preserves culture/unity",
+    "sanctuary": "Biblical ark was divine shelter → Current ark is modern sanctuary",
+    "covenant": "Biblical rainbow promise → Current promise of unity",
+    "new_beginning": "Biblical new world → Current new world order",
+    "spiritual_home": "Biblical ark in promised land → Current ark in spiritual home (Cyprus)"
+  },
+  "insights": [
+    "Noah's Ark (biblical) = Nuh'un Gemisi (current)",
+    "Preservation = Unity preserved",
+    "Sanctuary = The Table",
+    "Covenant = Return to the table",
+    "New Beginning = Unity restored",
+    "Spiritual Home = Cyprus = Land of promise"
+  ]
+}
