@@ -1,0 +1,33 @@
+# Prometheus Configuration
+# Metrics collection for JAN Studio API
+
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+  external_labels:
+    cluster: 'jan-studio'
+    environment: 'production'
+
+# Alertmanager configuration
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets: []
+
+# Load rules
+rule_files: []
+
+# Scrape configurations
+scrape_configs:
+  # FastAPI Application
+  - job_name: 'jan-studio-api'
+    static_configs:
+      - targets: ['api:8000']
+    metrics_path: '/metrics'
+    scrape_interval: 15s
+    scrape_timeout: 10s
+
+  # Prometheus itself
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']

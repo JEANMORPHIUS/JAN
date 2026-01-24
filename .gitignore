@@ -85,6 +85,8 @@ logs/
 .DS_Store
 Thumbs.db
 desktop.ini
+NUL
+**/NUL
 
 # Temporary files
 *.tmp

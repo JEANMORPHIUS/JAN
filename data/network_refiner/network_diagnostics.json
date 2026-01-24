@@ -287,7 +287,31 @@
       "latency_ms": 334.50865745544434,
       "error": null,
       "details": {}
+    },
+    {
+      "timestamp": "2026-01-23T22:03:31.776303",
+      "test_type": "internet_connectivity",
+      "success": true,
+      "latency_ms": null,
+      "error": null,
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-23T22:03:31.829372",
+      "test_type": "dns_resolution",
+      "success": true,
+      "latency_ms": 53.045034408569336,
+      "error": null,
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-23T22:03:32.174851",
+      "test_type": "github_connectivity",
+      "success": true,
+      "latency_ms": 345.4546928405762,
+      "error": null,
+      "details": {}
     }
   ],
-  "last_updated": "2026-01-23T21:41:13.534424"
+  "last_updated": "2026-01-23T22:03:32.175319"
 }

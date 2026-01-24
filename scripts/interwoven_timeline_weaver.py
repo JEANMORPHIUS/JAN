@@ -38,6 +38,7 @@ class NarrativeType(Enum):
     LITERAL = "literal"  # Historical, factual, verifiable
     SPIRITUAL = "spiritual"  # Prophetic, divine timing, activation
     GEOPHYSICAL = "geophysical"  # Tectonic, Earth cycles, natural systems
+    DIALECT = "dialect"  # Language variations, "nearly the same" languages
 
 class TimelineEra(Enum):
     """Timeline eras"""
@@ -63,6 +64,7 @@ class TimelinePoint:
     literal_evidence: List[str] = field(default_factory=list)  # Verifiable facts
     spiritual_meaning: str = ""  # Prophetic/spiritual significance
     geophysical_data: Dict[str, Any] = field(default_factory=dict)  # Tectonic/Earth data
+    dialect_data: Dict[str, Any] = field(default_factory=dict)  # Dialect information, "nearly the same" languages
     verification_sources: List[str] = field(default_factory=list)  # Sources to verify
     loose_ends: List[str] = field(default_factory=list)  # Loose ends tied up
     connected_points: List[str] = field(default_factory=list)  # Connected timeline points
@@ -215,6 +217,7 @@ class InterwovenTimelineWeaver:
         literal_evidence: List[str] = None,
         spiritual_meaning: str = "",
         geophysical_data: Dict[str, Any] = None,
+        dialect_data: Dict[str, Any] = None,
         verification_sources: List[str] = None,
         loose_ends: List[str] = None,
         connected_points: List[str] = None
@@ -230,6 +233,7 @@ class InterwovenTimelineWeaver:
             literal_evidence=literal_evidence or [],
             spiritual_meaning=spiritual_meaning,
             geophysical_data=geophysical_data or {},
+            dialect_data=dialect_data or {},
             verification_sources=verification_sources or [],
             loose_ends=loose_ends or [],
             connected_points=connected_points or []

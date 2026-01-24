@@ -37,7 +37,9 @@ import os
 import logging
 from pathlib import Path
 from typing import List
+from datetime import datetime
 from dotenv import load_dotenv
+import time
 # Shell/Seed Integration
 try:
     import sys
@@ -147,11 +149,85 @@ class SecurityHeadersMiddleware(BaseHTTPMiddleware):
             "connect-src 'self' https://api.openai.com https://api.anthropic.com https://generativelanguage.googleapis.com; "
             "frame-ancestors 'none';"
         )
+
+# MONITORING: Prometheus Metrics Middleware
+try:
+    from prometheus_metrics import record_request_metrics, ACTIVE_CONNECTIONS
+    import time
+    
+    class PrometheusMetricsMiddleware(BaseHTTPMiddleware):
+        """Track request metrics for Prometheus"""
+        async def dispatch(self, request: Request, call_next):
+            start_time = time.time()
+            ACTIVE_CONNECTIONS.inc()
+            
+            try:
+                response = await call_next(request)
+                duration = time.time() - start_time
+                
+                # Record metrics
+                record_request_metrics(
+                    method=request.method,
+                    endpoint=request.url.path,
+                    status_code=response.status_code,
+                    duration=duration
+                )
+                
+                return response
+            finally:
+                ACTIVE_CONNECTIONS.dec()
+    
+    app.add_middleware(PrometheusMetricsMiddleware)
+    logger.info("Prometheus metrics middleware enabled")
+except ImportError:
+    logger.warning("Prometheus metrics middleware not available - install prometheus-client")
         response.headers["Content-Security-Policy"] = csp_policy
         
         return response
 
 app.add_middleware(SecurityHeadersMiddleware)
+
+# MONITORING: Prometheus Metrics Middleware
+try:
+    from prometheus_metrics import record_request_metrics, ACTIVE_CONNECTIONS
+    import time
+    
+    class PrometheusMetricsMiddleware(BaseHTTPMiddleware):
+        """Track request metrics for Prometheus"""
+        async def dispatch(self, request: Request, call_next):
+            start_time = time.time()
+            ACTIVE_CONNECTIONS.inc()
+            
+            try:
+                response = await call_next(request)
+                duration = time.time() - start_time
+                
+                # Record metrics
+                record_request_metrics(
+                    method=request.method,
+                    endpoint=request.url.path,
+                    status_code=response.status_code,
+                    duration=duration
+                )
+                
+                return response
+            finally:
+                ACTIVE_CONNECTIONS.dec()
+    
+    app.add_middleware(PrometheusMetricsMiddleware)
+    logger.info("Prometheus metrics middleware enabled")
+except ImportError:
+    logger.warning("Prometheus metrics middleware not available - install prometheus-client")
+
+# ORACLE GATEWAY MIDDLEWARE: Those who come to us must read the cards
+try:
+    from oracle_gateway_middleware import OracleGatewayMiddleware
+    app.add_middleware(OracleGatewayMiddleware)
+    logger.info("Oracle Gateway Middleware enabled - Those who come to us must read the cards. The cards will speak for us.")
+except ImportError as e:
+    logger.warning(f"Oracle Gateway Middleware not available: {e}")
+except Exception as e:
+    logger.warning(f"Oracle Gateway Middleware error: {e}")
 
 # Shell/Seed Middleware for API responses
 @app.middleware("http")
@@ -236,6 +312,65 @@ except ImportError as e:
     print(f"Warning: Could not import auth_router: {e}")
 except Exception as e:
     print(f"Warning: Could not load auth_router: {e}")
+
+# Creative Oracle API
+try:
+    from oracle_api import router as oracle_router
+    app.include_router(oracle_router)
+    logger.info("Creative Oracle API enabled")
+except ImportError as e:
+    logger.warning(f"Could not import oracle_router: {e}")
+except Exception as e:
+    logger.warning(f"Could not load oracle_router: {e}")
+
+# Oracle Matrix System-Wide API
+try:
+    from oracle_matrix_api import router as oracle_matrix_router
+    app.include_router(oracle_matrix_router)
+    logger.info("Oracle Matrix System-Wide API enabled - ALL SYSTEMS JOIN THE TABLE")
+except ImportError as e:
+    logger.warning(f"Could not import oracle_matrix_router: {e}")
+except Exception as e:
+    logger.warning(f"Could not load oracle_matrix_router: {e}")
+
+# Game of Racon - Spiritual Oracle for Communication with Our Father
+try:
+    from game_of_racon_api import router as game_of_racon_router
+    app.include_router(game_of_racon_router)
+    logger.info("Game of Racon enabled - We Have Homework To Do. Communication with Our Father through the 40 Laws.")
+except ImportError as e:
+    logger.warning(f"Could not import game_of_racon_router: {e}")
+except Exception as e:
+    logger.warning(f"Could not load game_of_racon_router: {e}")
+
+# Oracle Gateway - The Cards Speak For Us
+try:
+    from oracle_gateway_api import router as oracle_gateway_router
+    app.include_router(oracle_gateway_router)
+    logger.info("Oracle Gateway enabled - Those who come to us must read the cards. We do not control. The cards will speak for us.")
+except ImportError as e:
+    logger.warning(f"Could not import oracle_gateway_router: {e}")
+except Exception as e:
+    logger.warning(f"Could not load oracle_gateway_router: {e}")
+
+# Oracle Core - Unified Oracle Engine (Serves ALL Equally)
+try:
+    from oracle_core import OracleCore, cast_universal_oracle
+    logger.info("Oracle Core enabled - Serves ALL equally. From homeless to world leaders. Purpose in abundance. Faith in victory.")
+except ImportError as e:
+    logger.warning(f"Could not import oracle_core: {e}")
+except Exception as e:
+    logger.warning(f"Could not load oracle_core: {e}")
+
+# Oracle Universal API - The Cards Speak For All
+try:
+    from oracle_universal_api import router as oracle_universal_router
+    app.include_router(oracle_universal_router)
+    logger.info("Oracle Universal API enabled - Serves ALL equally. From homeless to world leaders. The cards speak. We stay silent. Purpose in abundance.")
+except ImportError as e:
+    logger.warning(f"Could not import oracle_universal_router: {e}")
+except Exception as e:
+    logger.warning(f"Could not load oracle_universal_router: {e}")
 
 # Heritage Archive API
 try:
@@ -1201,11 +1336,138 @@ async def serve_dashboard():
 
 @app.get("/health")
 async def health():
-    """Health check endpoint."""
+    """Basic health check endpoint."""
     return {
         "status": "healthy",
-        "service": "JAN Studio API"
+        "service": "JAN Studio API",
+        "version": "1.0.0",
+        "timestamp": datetime.now().isoformat()
     }
+
+
+@app.get("/health/detailed")
+async def health_detailed():
+    """Detailed health check with system status."""
+    try:
+        import psutil
+    except ImportError:
+        psutil = None
+    
+    import sqlite3
+    from pathlib import Path
+    
+    health_status = {
+        "status": "healthy",
+        "service": "JAN Studio API",
+        "version": "1.0.0",
+        "timestamp": datetime.now().isoformat(),
+        "components": {}
+    }
+    
+    # Database health
+    try:
+        db_path = Path(__file__).parent.parent.parent / "data" / "jan_studio.db"
+        if db_path.exists():
+            conn = sqlite3.connect(str(db_path))
+            conn.execute("SELECT 1")
+            conn.close()
+            health_status["components"]["database"] = {"status": "healthy"}
+        else:
+            health_status["components"]["database"] = {"status": "not_configured"}
+    except Exception as e:
+        health_status["components"]["database"] = {"status": "unhealthy", "error": str(e)}
+        health_status["status"] = "degraded"
+    
+    # System resources
+    if psutil:
+        try:
+            cpu_percent = psutil.cpu_percent(interval=0.1)
+            memory = psutil.virtual_memory()
+            health_status["components"]["system"] = {
+                "cpu_percent": cpu_percent,
+                "memory_percent": memory.percent,
+                "memory_available_mb": memory.available / (1024 * 1024)
+            }
+        except Exception:
+            health_status["components"]["system"] = {"status": "unavailable"}
+    else:
+        health_status["components"]["system"] = {"status": "psutil_not_installed"}
+    
+    # Oracle systems
+    oracle_systems = {
+        "creative_oracle": False,
+        "game_of_racon": False,
+        "oracle_gateway": False,
+        "oracle_matrix": False,
+        "oracle_core": False
+    }
+    
+    try:
+        from creative_oracle import CreativeOracle
+        oracle_systems["creative_oracle"] = True
+    except:
+        pass
+    
+    try:
+        from game_of_racon_spiritual import GameOfRaconSpiritual
+        oracle_systems["game_of_racon"] = True
+    except:
+        pass
+    
+    try:
+        from oracle_gateway import OracleGateway
+        oracle_systems["oracle_gateway"] = True
+    except:
+        pass
+    
+    try:
+        from oracle_matrix_system_wide import OracleMatrixSystemWide
+        oracle_systems["oracle_matrix"] = True
+    except:
+        pass
+    
+    try:
+        from oracle_core import OracleCore
+        oracle_systems["oracle_core"] = True
+    except:
+        pass
+    
+    health_status["components"]["oracle_systems"] = oracle_systems
+    
+    return health_status
+
+
+@app.get("/ready")
+async def readiness():
+    """Kubernetes readiness probe."""
+    # Check if service is ready to accept traffic
+    return {"status": "ready"}
+
+
+@app.get("/live")
+async def liveness():
+    """Kubernetes liveness probe."""
+    # Check if service is alive
+    return {"status": "alive"}
+
+
+# Prometheus Metrics Endpoint
+try:
+    from prometheus_metrics import get_metrics_response
+    
+    @app.get("/metrics")
+    async def metrics():
+        """Prometheus metrics endpoint."""
+        return get_metrics_response()
+    
+    logger.info("Prometheus metrics endpoint enabled at /metrics")
+except ImportError:
+    logger.warning("Prometheus metrics not available - install prometheus-client")
+    
+    @app.get("/metrics")
+    async def metrics():
+        """Prometheus metrics endpoint (not configured)."""
+        return {"status": "metrics_not_configured", "message": "Install prometheus-client to enable metrics"}
 
 
 if __name__ == "__main__":

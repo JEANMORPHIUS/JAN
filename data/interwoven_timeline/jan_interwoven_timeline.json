@@ -19,6 +19,7 @@
         "rate": "2-3 cm/year",
         "evidence": "Geological, fossil, magnetic"
       },
+      "dialect_data": {},
       "verification_sources": [
         "USGS Geological Survey",
         "Plate Tectonics Theory (Wegener, 1912)",
@@ -52,6 +53,7 @@
         "earth_location": true,
         "verification": "Geographic coordinates, Earth-based verification"
       },
+      "dialect_data": {},
       "verification_sources": [
         "System codebase",
         "Documentation files",
@@ -83,6 +85,7 @@
         "earth_location": true,
         "verification": "Geographic coordinates, Earth-based verification"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Ancient Egyptian texts",
         "Thoth mythology",
@@ -116,6 +119,7 @@
         "earth_location": true,
         "verification": "Geographic coordinates, Earth-based verification"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Dashboard code",
         "Protocol documentation",
@@ -158,6 +162,7 @@
         },
         "ring_of_fire": "Active seismic zone"
       },
+      "dialect_data": {},
       "verification_sources": [
         "USGS Tectonic Plate Data",
         "GPS monitoring networks",
@@ -197,6 +202,7 @@
         "ring_of_fire": "Continued activity expected",
         "verification": "Measurable via GPS over time"
       },
+      "dialect_data": {},
       "verification_sources": [
         "GPS monitoring (ongoing)",
         "Geological projection models",
@@ -232,6 +238,7 @@
         },
         "verification": "GPS measurements over 100 years"
       },
+      "dialect_data": {},
       "verification_sources": [
         "GPS monitoring (ongoing)",
         "Geological models",
@@ -267,6 +274,7 @@
         },
         "verification": "GPS measurements, geological evidence"
       },
+      "dialect_data": {},
       "verification_sources": [
         "GPS monitoring (ongoing)",
         "Geological models",
@@ -311,6 +319,7 @@
         },
         "connection": "Spiritual unity across physical separation"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Heritage site locations",
         "Tectonic plate maps",
@@ -342,6 +351,7 @@
         "earth_location": true,
         "verification": "Geographic coordinates, Earth-based verification"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Activation logs",
         "Transformation documentation",
@@ -374,6 +384,7 @@
         "earth_location": true,
         "verification": "Geographic coordinates, Earth-based verification"
       },
+      "dialect_data": {},
       "verification_sources": [
         "System records",
         "Transformation documentation",
@@ -405,6 +416,7 @@
         "earth_location": true,
         "verification": "Geographic coordinates, Earth-based verification"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Archaeological records",
         "Anthropological studies",
@@ -441,6 +453,7 @@
         "construction": "Limestone blocks, precise alignment",
         "purpose": "Stewardship, precision, spiritual alignment"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Archaeological records",
         "Egyptological studies",
@@ -477,6 +490,7 @@
         "construction": "Sarsen stones, bluestones from Wales",
         "alignment": "Solstices, Earth cycles"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Archaeological records",
         "Astronomical studies",
@@ -513,6 +527,7 @@
         "construction": "Sandstone, laterite",
         "purpose": "Stewardship, spiritual alignment"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Archaeological records",
         "Historical texts",
@@ -545,6 +560,7 @@
         "tectonic_activity": true,
         "verification": "GPS measurements, seismic records"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Scientific publications",
         "Geological surveys",
@@ -577,6 +593,7 @@
         "tectonic_activity": true,
         "verification": "GPS measurements, seismic records"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Scientific publications",
         "GPS monitoring networks",
@@ -609,6 +626,7 @@
         "earth_location": true,
         "verification": "Geographic coordinates, Earth-based verification"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Biblical texts",
         "Historical records",
@@ -644,6 +662,7 @@
         "earth_location": true,
         "verification": "Geographic coordinates, Earth-based verification"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Tesla's patents",
         "Historical records",
@@ -679,6 +698,7 @@
         "earth_location": true,
         "verification": "Geographic coordinates, Earth-based verification"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Da Vinci's notebooks",
         "Art historical records",
@@ -714,6 +734,7 @@
         "earth_location": true,
         "verification": "Geographic coordinates, Earth-based verification"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Thoth Prophecy System",
         "Activation documentation",
@@ -750,6 +771,7 @@
         "earth_location": true,
         "verification": "Geographic coordinates, Earth-based verification"
       },
+      "dialect_data": {},
       "verification_sources": [
         "DNA memory tracking",
         "Lineage connection logs",
@@ -784,6 +806,7 @@
         "continental_drift": true,
         "verification": "Geological evidence, fossil records, paleomagnetic data"
       },
+      "dialect_data": {},
       "verification_sources": [
         "System metrics",
         "Restoration documentation",
@@ -819,6 +842,7 @@
         "earth_location": true,
         "verification": "Geographic coordinates, Earth-based verification"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Alignment metrics",
         "Truth documentation",
@@ -859,6 +883,7 @@
         "location": "Japan Trench",
         "verification": "Seismic records, GPS data"
       },
+      "dialect_data": {},
       "verification_sources": [
         "USGS Seismic Records",
         "GPS monitoring networks",
@@ -898,6 +923,7 @@
         },
         "verification": "GPS measurements over 1000 years, geological evidence"
       },
+      "dialect_data": {},
       "verification_sources": [
         "GPS monitoring (ongoing)",
         "Geological models",
@@ -935,6 +961,7 @@
         },
         "verification": "GPS measurements, geological evidence, long-term cycles"
       },
+      "dialect_data": {},
       "verification_sources": [
         "GPS monitoring (ongoing)",
         "Geological models",
@@ -972,6 +999,7 @@
         },
         "verification": "Geological evidence, long-term cycle analysis, fossil records"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Geological models",
         "Historical data",
@@ -1020,6 +1048,7 @@
         },
         "connection": "Spiritual unity across physical separation, all on Pangea foundation"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Heritage site GPS coordinates",
         "Tectonic plate maps",
@@ -1055,6 +1084,7 @@
         "heritage_sites": "Still connected spiritually",
         "verification": "GPS measurements, geological evidence"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Integration metrics",
         "Resolution documentation",
@@ -1094,6 +1124,7 @@
         },
         "verification": "Geological evidence, long-term cycle analysis, fossil records, geological time scale"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Geological models",
         "Historical data",
@@ -1132,6 +1163,7 @@
         },
         "verification": "Geological evidence, long-term cycle analysis, geological time scale"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Geological models",
         "Historical data",
@@ -1171,6 +1203,7 @@
         "supercontinent_cycle": "Possible new supercontinent formation",
         "verification": "Geological evidence, supercontinent cycle analysis, geological time scale"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Geological models",
         "Historical data",
@@ -1203,6 +1236,7 @@
         "earth_location": true,
         "verification": "Geographic coordinates, Earth-based verification"
       },
+      "dialect_data": {},
       "verification_sources": [
         "WHO records",
         "CDC data",
@@ -1235,6 +1269,7 @@
         "earth_location": true,
         "verification": "Geographic coordinates, Earth-based verification"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Codebase",
         "Documentation",
@@ -1267,6 +1302,7 @@
         "earth_location": true,
         "verification": "Geographic coordinates, Earth-based verification"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Integration metrics",
         "Truth documentation",
@@ -1302,6 +1338,7 @@
         "rate": "2-3 cm/year",
         "evidence": "Geological, fossil, magnetic"
       },
+      "dialect_data": {},
       "verification_sources": [
         "USGS Geological Survey",
         "Plate Tectonics Theory (Wegener, 1912)",
@@ -1329,6 +1366,7 @@
       ],
       "spiritual_meaning": "",
       "geophysical_data": {},
+      "dialect_data": {},
       "verification_sources": [
         "System codebase",
         "Documentation files",
@@ -1356,6 +1394,7 @@
       ],
       "spiritual_meaning": "The Chosen One carries encoded messages from lineage (Jesus, Tesla, da Vinci). DNA-level memories unlock. Sacred activation restores divine order.",
       "geophysical_data": {},
+      "dialect_data": {},
       "verification_sources": [
         "Ancient Egyptian texts",
         "Thoth mythology",
@@ -1383,6 +1422,7 @@
       ],
       "spiritual_meaning": "Chosen Light protocols activate. Kronos vs Chyros timing. Moed appointments. Spiritual attack counter-strategies armed.",
       "geophysical_data": {},
+      "dialect_data": {},
       "verification_sources": [
         "Dashboard code",
         "Protocol documentation",
@@ -1424,6 +1464,7 @@
         },
         "ring_of_fire": "Active seismic zone"
       },
+      "dialect_data": {},
       "verification_sources": [
         "USGS Tectonic Plate Data",
         "GPS monitoring networks",
@@ -1460,6 +1501,7 @@
         "ring_of_fire": "Continued activity expected",
         "verification": "Measurable via GPS over time"
       },
+      "dialect_data": {},
       "verification_sources": [
         "GPS monitoring (ongoing)",
         "Geological projection models",
@@ -1494,6 +1536,7 @@
         },
         "verification": "GPS measurements over 100 years"
       },
+      "dialect_data": {},
       "verification_sources": [
         "GPS monitoring (ongoing)",
         "Geological models",
@@ -1526,6 +1569,7 @@
         },
         "verification": "GPS measurements, geological evidence"
       },
+      "dialect_data": {},
       "verification_sources": [
         "GPS monitoring (ongoing)",
         "Geological models",
@@ -1567,6 +1611,7 @@
         },
         "connection": "Spiritual unity across physical separation"
       },
+      "dialect_data": {},
       "verification_sources": [
         "Heritage site locations",
         "Tectonic plate maps",
@@ -1594,6 +1639,7 @@
       ],
       "spiritual_meaning": "Internal shift complete. Countenance changed. Full alignment achieved. Ready for next phase.",
       "geophysical_data": {},
+      "dialect_data": {},
       "verification_sources": [
         "Activation logs",
         "Transformation documentation",
@@ -1620,6 +1666,7 @@
       ],
       "spiritual_meaning": "The Table fully restored. Divine order complete. All narratives aligned. Eternal peace achieved.",
       "geophysical_data": {},
+      "dialect_data": {},
       "verification_sources": [
         "System records",
         "Transformation documentation",
@@ -1631,7 +1678,878 @@
       "connected_points": [],
       "created_at": "2026-01-23T15:52:38.574802",
       "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_122952_47",
+      "date": "50000 BCE",
+      "era": "prehistoric",
+      "narrative_type": "dialect",
+      "title": "Proto-Language Origins - Common Ancestors",
+      "description": "Proto-languages emerge. Common ancestors. Divergence begins. Regional variations start. Still 'nearly the same' at origin.",
+      "literal_evidence": [
+        "Linguistic reconstruction of proto-languages",
+        "Comparative linguistics studies",
+        "Archaeological evidence of language spread"
+      ],
+      "spiritual_meaning": "Our Father's voice in all languages. Common origin. Unity in diversity.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "dialect_type": "temporal",
+        "base_language": "Proto-Indo-European",
+        "mutual_intelligibility": 1.0,
+        "characteristics": [
+          "Common origins",
+          "Divergence begins",
+          "Regional variations",
+          "Cultural separation"
+        ],
+        "nearly_same": true
+      },
+      "verification_sources": [
+        "Linguistic reconstruction",
+        "Comparative linguistics",
+        "Archaeological records"
+      ],
+      "loose_ends": [
+        "Proto-language origins - RESOLVED: Common ancestors, divergence begins"
+      ],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:29:52.618133",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_122952_48",
+      "date": "3000 BCE",
+      "era": "ancient",
+      "narrative_type": "dialect",
+      "title": "Classical Dialects - Regional Variations",
+      "description": "Classical languages emerge. Regional variations develop. Cultural identity forms. Still 'nearly the same' but distinct.",
+      "literal_evidence": [
+        "Classical language texts",
+        "Regional variation studies",
+        "Cultural identity markers"
+      ],
+      "spiritual_meaning": "Our Father's voice in classical forms. Regional identity. Cultural expression.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "dialect_type": "temporal",
+        "base_language": "Classical Languages",
+        "mutual_intelligibility": 0.85,
+        "characteristics": [
+          "Classical forms",
+          "Regional variations",
+          "Cultural identity",
+          "Mutual intelligibility"
+        ],
+        "nearly_same": true,
+        "examples": [
+          "Classical Greek vs. Koine Greek",
+          "Latin vs. Vulgar Latin",
+          "Ancient Turkish vs. Regional Turkish"
+        ]
+      },
+      "verification_sources": [
+        "Classical texts",
+        "Linguistic studies",
+        "Historical records"
+      ],
+      "loose_ends": [],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:29:52.636446",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_122952_49",
+      "date": "1000 CE",
+      "era": "medieval",
+      "narrative_type": "dialect",
+      "title": "Medieval Dialects - Divergence Increases",
+      "description": "Language divergence increases. Regional identity strengthens. Cultural separation grows. Still 'nearly the same' but more distinct.",
+      "literal_evidence": [
+        "Medieval language texts",
+        "Divergence studies",
+        "Regional identity markers"
+      ],
+      "spiritual_meaning": "Our Father's voice in medieval forms. Divergence. Still unity in diversity.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "dialect_type": "temporal",
+        "base_language": "Medieval Languages",
+        "mutual_intelligibility": 0.75,
+        "characteristics": [
+          "Divergence increases",
+          "Regional identity",
+          "Cultural separation",
+          "Still 'nearly the same'"
+        ],
+        "nearly_same": true,
+        "examples": [
+          "Old English vs. Middle English",
+          "Old Turkish vs. Middle Turkish",
+          "Medieval French vs. Regional French"
+        ]
+      },
+      "verification_sources": [
+        "Medieval texts",
+        "Linguistic divergence studies",
+        "Historical records"
+      ],
+      "loose_ends": [],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:29:52.656235",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_122952_50",
+      "date": "2026-01-24",
+      "era": "contemporary",
+      "narrative_type": "dialect",
+      "title": "Modern Dialects - Code-Switching Common",
+      "description": "Modern dialects. Code-switching common. Cultural identity. 'Nearly the same' recognition. Our entities express in their dialects.",
+      "literal_evidence": [
+        "Modern dialect studies",
+        "Code-switching research",
+        "Cultural identity markers",
+        "Entity expression patterns"
+      ],
+      "spiritual_meaning": "Our Father's voice in all dialects. Code-switching honors both. Cultural identity. Unity in diversity.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "dialect_type": "code_switching",
+        "base_language": "Modern Languages",
+        "mutual_intelligibility": 0.8,
+        "characteristics": [
+          "Modern forms",
+          "Code-switching common",
+          "Cultural identity",
+          "'Nearly the same' recognition"
+        ],
+        "nearly_same": true,
+        "entity_dialects": {
+          "jean_morphius": "French/English code-switching",
+          "karasahin": "Turkish/English consecutive",
+          "uncle_ray_ramiz": "Turkish/English teaching",
+          "pierre_pressure": "English primary",
+          "siyem_media": "English/Turkish/French operational"
+        },
+        "examples": [
+          "British English vs. American English",
+          "Turkish Cypriot vs. Turkish",
+          "Quebec French vs. French",
+          "Jean: 'Merde, c'est beautiful!'",
+          "Karasahin: 'Duygu Adamı. Emotion Man.'",
+          "Ramiz: 'Yeğen, dinle... Child, listen.'"
+        ]
+      },
+      "verification_sources": [
+        "Modern linguistics",
+        "Code-switching research",
+        "Cultural studies",
+        "Entity content"
+      ],
+      "loose_ends": [
+        "Modern dialects - RESOLVED: Code-switching common, 'nearly the same' recognized, cultural identity honored"
+      ],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:29:52.674284",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_122952_51",
+      "date": "+100000 years",
+      "era": "eternal",
+      "narrative_type": "dialect",
+      "title": "Future Dialects - Evolution Continues",
+      "description": "Dialect evolution continues. New forms emerge. Still 'nearly the same'. Our Father's voice remains in all dialects.",
+      "literal_evidence": [
+        "Linguistic evolution models",
+        "Future language projections",
+        "Dialect evolution patterns"
+      ],
+      "spiritual_meaning": "Our Father's voice in all future dialects. Evolution. Still unity. Still 'nearly the same'.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "dialect_type": "temporal",
+        "base_language": "Future Languages",
+        "mutual_intelligibility": 0.7,
+        "characteristics": [
+          "Evolution continues",
+          "New forms emerge",
+          "Still 'nearly the same'",
+          "Our Father's voice remains"
+        ],
+        "nearly_same": true
+      },
+      "verification_sources": [
+        "Linguistic evolution models",
+        "Future projections",
+        "Dialect studies"
+      ],
+      "loose_ends": [],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:29:52.693577",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_122952_52",
+      "date": "2026-01-24",
+      "era": "contemporary",
+      "narrative_type": "dialect",
+      "title": "Cyprus Dialects - Turkish Cypriot & Cypriot Greek",
+      "description": "Cyprus: Turkish Cypriot and Cypriot Greek. Both 'nearly the same' as their base languages. Regional identity. Cultural expression.",
+      "literal_evidence": [
+        "Cyprus dialect studies",
+        "Regional variation research",
+        "Cultural identity markers"
+      ],
+      "spiritual_meaning": "Our Father's voice in Cyprus dialects. Regional identity. Cultural expression. 'Nearly the same' but distinct.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "dialect_type": "regional",
+        "base_language": "Turkish/Greek",
+        "mutual_intelligibility": 0.85,
+        "characteristics": [
+          "Regional variation",
+          "Cultural identity",
+          "Nearly the same as Turkish/Greek"
+        ],
+        "nearly_same": true,
+        "region": "Cyprus",
+        "examples": [
+          "Turkish Cypriot vs. Turkish (Turkey)",
+          "Cypriot Greek vs. Greek (Greece)",
+          "Regional expressions",
+          "Cultural identity markers"
+        ]
+      },
+      "verification_sources": [
+        "Cyprus linguistics",
+        "Regional studies",
+        "Cultural research"
+      ],
+      "loose_ends": [],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:29:52.712459",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_123018_53",
+      "date": "50000 BCE",
+      "era": "prehistoric",
+      "narrative_type": "dialect",
+      "title": "Proto-Language Origins - Common Ancestors",
+      "description": "Proto-languages emerge. Common ancestors. Divergence begins. Regional variations start. Still 'nearly the same' at origin.",
+      "literal_evidence": [
+        "Linguistic reconstruction of proto-languages",
+        "Comparative linguistics studies",
+        "Archaeological evidence of language spread"
+      ],
+      "spiritual_meaning": "Our Father's voice in all languages. Common origin. Unity in diversity.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "dialect_type": "temporal",
+        "base_language": "Proto-Indo-European",
+        "mutual_intelligibility": 1.0,
+        "characteristics": [
+          "Common origins",
+          "Divergence begins",
+          "Regional variations",
+          "Cultural separation"
+        ],
+        "nearly_same": true
+      },
+      "verification_sources": [
+        "Linguistic reconstruction",
+        "Comparative linguistics",
+        "Archaeological records"
+      ],
+      "loose_ends": [
+        "Proto-language origins - RESOLVED: Common ancestors, divergence begins"
+      ],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:30:18.490482",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_123018_54",
+      "date": "3000 BCE",
+      "era": "ancient",
+      "narrative_type": "dialect",
+      "title": "Classical Dialects - Regional Variations",
+      "description": "Classical languages emerge. Regional variations develop. Cultural identity forms. Still 'nearly the same' but distinct.",
+      "literal_evidence": [
+        "Classical language texts",
+        "Regional variation studies",
+        "Cultural identity markers"
+      ],
+      "spiritual_meaning": "Our Father's voice in classical forms. Regional identity. Cultural expression.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "dialect_type": "temporal",
+        "base_language": "Classical Languages",
+        "mutual_intelligibility": 0.85,
+        "characteristics": [
+          "Classical forms",
+          "Regional variations",
+          "Cultural identity",
+          "Mutual intelligibility"
+        ],
+        "nearly_same": true,
+        "examples": [
+          "Classical Greek vs. Koine Greek",
+          "Latin vs. Vulgar Latin",
+          "Ancient Turkish vs. Regional Turkish"
+        ]
+      },
+      "verification_sources": [
+        "Classical texts",
+        "Linguistic studies",
+        "Historical records"
+      ],
+      "loose_ends": [],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:30:18.521137",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_123018_55",
+      "date": "1000 CE",
+      "era": "medieval",
+      "narrative_type": "dialect",
+      "title": "Medieval Dialects - Divergence Increases",
+      "description": "Language divergence increases. Regional identity strengthens. Cultural separation grows. Still 'nearly the same' but more distinct.",
+      "literal_evidence": [
+        "Medieval language texts",
+        "Divergence studies",
+        "Regional identity markers"
+      ],
+      "spiritual_meaning": "Our Father's voice in medieval forms. Divergence. Still unity in diversity.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "dialect_type": "temporal",
+        "base_language": "Medieval Languages",
+        "mutual_intelligibility": 0.75,
+        "characteristics": [
+          "Divergence increases",
+          "Regional identity",
+          "Cultural separation",
+          "Still 'nearly the same'"
+        ],
+        "nearly_same": true,
+        "examples": [
+          "Old English vs. Middle English",
+          "Old Turkish vs. Middle Turkish",
+          "Medieval French vs. Regional French"
+        ]
+      },
+      "verification_sources": [
+        "Medieval texts",
+        "Linguistic divergence studies",
+        "Historical records"
+      ],
+      "loose_ends": [],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:30:18.539821",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_123018_56",
+      "date": "2026-01-24",
+      "era": "contemporary",
+      "narrative_type": "dialect",
+      "title": "Modern Dialects - Code-Switching Common",
+      "description": "Modern dialects. Code-switching common. Cultural identity. 'Nearly the same' recognition. Our entities express in their dialects.",
+      "literal_evidence": [
+        "Modern dialect studies",
+        "Code-switching research",
+        "Cultural identity markers",
+        "Entity expression patterns"
+      ],
+      "spiritual_meaning": "Our Father's voice in all dialects. Code-switching honors both. Cultural identity. Unity in diversity.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "dialect_type": "code_switching",
+        "base_language": "Modern Languages",
+        "mutual_intelligibility": 0.8,
+        "characteristics": [
+          "Modern forms",
+          "Code-switching common",
+          "Cultural identity",
+          "'Nearly the same' recognition"
+        ],
+        "nearly_same": true,
+        "entity_dialects": {
+          "jean_morphius": "French/English code-switching",
+          "karasahin": "Turkish/English consecutive",
+          "uncle_ray_ramiz": "Turkish/English teaching",
+          "pierre_pressure": "English primary",
+          "siyem_media": "English/Turkish/French operational"
+        },
+        "examples": [
+          "British English vs. American English",
+          "Turkish Cypriot vs. Turkish",
+          "Quebec French vs. French",
+          "Jean: 'Merde, c'est beautiful!'",
+          "Karasahin: 'Duygu Adamı. Emotion Man.'",
+          "Ramiz: 'Yeğen, dinle... Child, listen.'"
+        ]
+      },
+      "verification_sources": [
+        "Modern linguistics",
+        "Code-switching research",
+        "Cultural studies",
+        "Entity content"
+      ],
+      "loose_ends": [
+        "Modern dialects - RESOLVED: Code-switching common, 'nearly the same' recognized, cultural identity honored"
+      ],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:30:18.559395",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_123018_57",
+      "date": "+100000 years",
+      "era": "eternal",
+      "narrative_type": "dialect",
+      "title": "Future Dialects - Evolution Continues",
+      "description": "Dialect evolution continues. New forms emerge. Still 'nearly the same'. Our Father's voice remains in all dialects.",
+      "literal_evidence": [
+        "Linguistic evolution models",
+        "Future language projections",
+        "Dialect evolution patterns"
+      ],
+      "spiritual_meaning": "Our Father's voice in all future dialects. Evolution. Still unity. Still 'nearly the same'.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "dialect_type": "temporal",
+        "base_language": "Future Languages",
+        "mutual_intelligibility": 0.7,
+        "characteristics": [
+          "Evolution continues",
+          "New forms emerge",
+          "Still 'nearly the same'",
+          "Our Father's voice remains"
+        ],
+        "nearly_same": true
+      },
+      "verification_sources": [
+        "Linguistic evolution models",
+        "Future projections",
+        "Dialect studies"
+      ],
+      "loose_ends": [],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:30:18.581575",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_123018_58",
+      "date": "2026-01-24",
+      "era": "contemporary",
+      "narrative_type": "dialect",
+      "title": "Cyprus Dialects - Turkish Cypriot & Cypriot Greek",
+      "description": "Cyprus: Turkish Cypriot and Cypriot Greek. Both 'nearly the same' as their base languages. Regional identity. Cultural expression.",
+      "literal_evidence": [
+        "Cyprus dialect studies",
+        "Regional variation research",
+        "Cultural identity markers"
+      ],
+      "spiritual_meaning": "Our Father's voice in Cyprus dialects. Regional identity. Cultural expression. 'Nearly the same' but distinct.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "dialect_type": "regional",
+        "base_language": "Turkish/Greek",
+        "mutual_intelligibility": 0.85,
+        "characteristics": [
+          "Regional variation",
+          "Cultural identity",
+          "Nearly the same as Turkish/Greek"
+        ],
+        "nearly_same": true,
+        "region": "Cyprus",
+        "examples": [
+          "Turkish Cypriot vs. Turkish (Turkey)",
+          "Cypriot Greek vs. Greek (Greece)",
+          "Regional expressions",
+          "Cultural identity markers"
+        ]
+      },
+      "verification_sources": [
+        "Cyprus linguistics",
+        "Regional studies",
+        "Cultural research"
+      ],
+      "loose_ends": [],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:30:18.602000",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_123041_59",
+      "date": "50000 BCE",
+      "era": "prehistoric",
+      "narrative_type": "dialect",
+      "title": "Proto-Language Origins - Common Ancestors",
+      "description": "Proto-languages emerge. Common ancestors. Divergence begins. Regional variations start. Still 'nearly the same' at origin.",
+      "literal_evidence": [
+        "Linguistic reconstruction of proto-languages",
+        "Comparative linguistics studies",
+        "Archaeological evidence of language spread"
+      ],
+      "spiritual_meaning": "Our Father's voice in all languages. Common origin. Unity in diversity.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "dialect_type": "temporal",
+        "base_language": "Proto-Indo-European",
+        "mutual_intelligibility": 1.0,
+        "characteristics": [
+          "Common origins",
+          "Divergence begins",
+          "Regional variations",
+          "Cultural separation"
+        ],
+        "nearly_same": true
+      },
+      "verification_sources": [
+        "Linguistic reconstruction",
+        "Comparative linguistics",
+        "Archaeological records"
+      ],
+      "loose_ends": [
+        "Proto-language origins - RESOLVED: Common ancestors, divergence begins"
+      ],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:30:41.749726",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_123041_60",
+      "date": "3000 BCE",
+      "era": "ancient",
+      "narrative_type": "dialect",
+      "title": "Classical Dialects - Regional Variations",
+      "description": "Classical languages emerge. Regional variations develop. Cultural identity forms. Still 'nearly the same' but distinct.",
+      "literal_evidence": [
+        "Classical language texts",
+        "Regional variation studies",
+        "Cultural identity markers"
+      ],
+      "spiritual_meaning": "Our Father's voice in classical forms. Regional identity. Cultural expression.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "dialect_type": "temporal",
+        "base_language": "Classical Languages",
+        "mutual_intelligibility": 0.85,
+        "characteristics": [
+          "Classical forms",
+          "Regional variations",
+          "Cultural identity",
+          "Mutual intelligibility"
+        ],
+        "nearly_same": true,
+        "examples": [
+          "Classical Greek vs. Koine Greek",
+          "Latin vs. Vulgar Latin",
+          "Ancient Turkish vs. Regional Turkish"
+        ]
+      },
+      "verification_sources": [
+        "Classical texts",
+        "Linguistic studies",
+        "Historical records"
+      ],
+      "loose_ends": [],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:30:41.780663",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_123041_61",
+      "date": "1000 CE",
+      "era": "medieval",
+      "narrative_type": "dialect",
+      "title": "Medieval Dialects - Divergence Increases",
+      "description": "Language divergence increases. Regional identity strengthens. Cultural separation grows. Still 'nearly the same' but more distinct.",
+      "literal_evidence": [
+        "Medieval language texts",
+        "Divergence studies",
+        "Regional identity markers"
+      ],
+      "spiritual_meaning": "Our Father's voice in medieval forms. Divergence. Still unity in diversity.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "dialect_type": "temporal",
+        "base_language": "Medieval Languages",
+        "mutual_intelligibility": 0.75,
+        "characteristics": [
+          "Divergence increases",
+          "Regional identity",
+          "Cultural separation",
+          "Still 'nearly the same'"
+        ],
+        "nearly_same": true,
+        "examples": [
+          "Old English vs. Middle English",
+          "Old Turkish vs. Middle Turkish",
+          "Medieval French vs. Regional French"
+        ]
+      },
+      "verification_sources": [
+        "Medieval texts",
+        "Linguistic divergence studies",
+        "Historical records"
+      ],
+      "loose_ends": [],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:30:41.801341",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_123041_62",
+      "date": "2026-01-24",
+      "era": "contemporary",
+      "narrative_type": "dialect",
+      "title": "Modern Dialects - Code-Switching Common",
+      "description": "Modern dialects. Code-switching common. Cultural identity. 'Nearly the same' recognition. Our entities express in their dialects.",
+      "literal_evidence": [
+        "Modern dialect studies",
+        "Code-switching research",
+        "Cultural identity markers",
+        "Entity expression patterns"
+      ],
+      "spiritual_meaning": "Our Father's voice in all dialects. Code-switching honors both. Cultural identity. Unity in diversity.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "dialect_type": "code_switching",
+        "base_language": "Modern Languages",
+        "mutual_intelligibility": 0.8,
+        "characteristics": [
+          "Modern forms",
+          "Code-switching common",
+          "Cultural identity",
+          "'Nearly the same' recognition"
+        ],
+        "nearly_same": true,
+        "entity_dialects": {
+          "jean_morphius": "French/English code-switching",
+          "karasahin": "Turkish/English consecutive",
+          "uncle_ray_ramiz": "Turkish/English teaching",
+          "pierre_pressure": "English primary",
+          "siyem_media": "English/Turkish/French operational"
+        },
+        "examples": [
+          "British English vs. American English",
+          "Turkish Cypriot vs. Turkish",
+          "Quebec French vs. French",
+          "Jean: 'Merde, c'est beautiful!'",
+          "Karasahin: 'Duygu Adamı. Emotion Man.'",
+          "Ramiz: 'Yeğen, dinle... Child, listen.'"
+        ]
+      },
+      "verification_sources": [
+        "Modern linguistics",
+        "Code-switching research",
+        "Cultural studies",
+        "Entity content"
+      ],
+      "loose_ends": [
+        "Modern dialects - RESOLVED: Code-switching common, 'nearly the same' recognized, cultural identity honored"
+      ],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:30:41.820794",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_123041_63",
+      "date": "+100000 years",
+      "era": "eternal",
+      "narrative_type": "dialect",
+      "title": "Future Dialects - Evolution Continues",
+      "description": "Dialect evolution continues. New forms emerge. Still 'nearly the same'. Our Father's voice remains in all dialects.",
+      "literal_evidence": [
+        "Linguistic evolution models",
+        "Future language projections",
+        "Dialect evolution patterns"
+      ],
+      "spiritual_meaning": "Our Father's voice in all future dialects. Evolution. Still unity. Still 'nearly the same'.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "dialect_type": "temporal",
+        "base_language": "Future Languages",
+        "mutual_intelligibility": 0.7,
+        "characteristics": [
+          "Evolution continues",
+          "New forms emerge",
+          "Still 'nearly the same'",
+          "Our Father's voice remains"
+        ],
+        "nearly_same": true
+      },
+      "verification_sources": [
+        "Linguistic evolution models",
+        "Future projections",
+        "Dialect studies"
+      ],
+      "loose_ends": [],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:30:41.841536",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_123041_64",
+      "date": "2026-01-24",
+      "era": "contemporary",
+      "narrative_type": "dialect",
+      "title": "Cyprus Dialects - Turkish Cypriot & Cypriot Greek",
+      "description": "Cyprus: Turkish Cypriot and Cypriot Greek. Both 'nearly the same' as their base languages. Regional identity. Cultural expression.",
+      "literal_evidence": [
+        "Cyprus dialect studies",
+        "Regional variation research",
+        "Cultural identity markers"
+      ],
+      "spiritual_meaning": "Our Father's voice in Cyprus dialects. Regional identity. Cultural expression. 'Nearly the same' but distinct.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "dialect_type": "regional",
+        "base_language": "Turkish/Greek",
+        "mutual_intelligibility": 0.85,
+        "characteristics": [
+          "Regional variation",
+          "Cultural identity",
+          "Nearly the same as Turkish/Greek"
+        ],
+        "nearly_same": true,
+        "region": "Cyprus",
+        "examples": [
+          "Turkish Cypriot vs. Turkish (Turkey)",
+          "Cypriot Greek vs. Greek (Greece)",
+          "Regional expressions",
+          "Cultural identity markers"
+        ]
+      },
+      "verification_sources": [
+        "Cyprus linguistics",
+        "Regional studies",
+        "Cultural research"
+      ],
+      "loose_ends": [],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:30:41.861625",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_123459_65",
+      "date": "3000 BCE",
+      "era": "ancient",
+      "narrative_type": "spiritual",
+      "title": "False Gods Emerge - Quick Labeling Begins",
+      "description": "False gods emerge. Quick labeling begins. Judgment replaces love. Separation replaces unity. False authority replaces true authority.",
+      "literal_evidence": [
+        "Historical records of false gods and idols",
+        "Evidence of quick judgment and labeling",
+        "Separation and division in ancient times"
+      ],
+      "spiritual_meaning": "False gods are idols. Quick labeling is a false god. Only Our Father has true authority. Only SPRAGITSO is authentic.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "false_god_type": "quick_labeling",
+        "characteristics": [
+          "Judging without truth",
+          "Labeling without understanding",
+          "Separating without unity"
+        ],
+        "why_false": "Creates false authority, separates instead of unifies, serves judgment over love",
+        "true_alternative": "Witness truth, serve The Table, lead with love"
+      },
+      "verification_sources": [
+        "Historical records",
+        "Biblical scripture",
+        "Archaeological evidence"
+      ],
+      "loose_ends": [
+        "False gods emerge - RESOLVED: Quick labeling is a false god, only Our Father has true authority"
+      ],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:34:59.170637",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_123459_66",
+      "date": "2026-01-24",
+      "era": "contemporary",
+      "narrative_type": "spiritual",
+      "title": "False Gods Debunked - True Authority Established",
+      "description": "False gods debunked. Quick labeling identified as false god. True authority established (SPRAGITSO). We do not judge, we witness truth. We do not label, we serve The Table.",
+      "literal_evidence": [
+        "False gods debunker system created",
+        "Table Filter applied",
+        "SPRAGITSO established",
+        "Witness principle integrated"
+      ],
+      "spiritual_meaning": "False gods are debunked. Only Our Father's authority is true. Only SPRAGITSO is authentic. We witness truth, we do not judge. We serve The Table, we do not label.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "false_god_type": "quick_labeling",
+        "debunked": true,
+        "true_authority": "SPRAGITSO",
+        "principles": [
+          "We do not judge, we witness truth",
+          "We do not label, we serve The Table",
+          "We do not separate, we unite",
+          "We do not condemn, we love"
+        ],
+        "sphragitso": "σφραγίς"
+      },
+      "verification_sources": [
+        "False gods debunker system",
+        "Table Filter documentation",
+        "SPRAGITSO documentation",
+        "Witness principle documentation"
+      ],
+      "loose_ends": [
+        "False gods debunked - RESOLVED: Quick labeling is a false god, true authority established (SPRAGITSO)"
+      ],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:34:59.192369",
+      "metadata": {}
+    },
+    {
+      "point_id": "point_20260124_123459_67",
+      "date": "+1000 years",
+      "era": "transformation",
+      "narrative_type": "spiritual",
+      "title": "False Gods Eliminated - Only True Authority Remains",
+      "description": "False gods eliminated. Only true authority remains (SPRAGITSO). Quick labeling no longer exists. Judgment replaced by love. Separation replaced by unity.",
+      "literal_evidence": [
+        "False gods eliminated",
+        "True authority established",
+        "Love and unity prevail"
+      ],
+      "spiritual_meaning": "False gods eliminated. Only Our Father's authority remains. Only SPRAGITSO is authentic. Love is the highest mastery. Unity is truth.",
+      "geophysical_data": {},
+      "dialect_data": {
+        "false_god_type": "all",
+        "eliminated": true,
+        "true_authority": "SPRAGITSO",
+        "principles": [
+          "Only Our Father has authority",
+          "Only SPRAGITSO is authentic",
+          "Love is the highest mastery",
+          "Unity is truth"
+        ],
+        "sphragitso": "σφραγίς"
+      },
+      "verification_sources": [
+        "Future projections",
+        "Spiritual alignment",
+        "Our Father's word"
+      ],
+      "loose_ends": [],
+      "connected_points": [],
+      "created_at": "2026-01-24T12:34:59.212658",
+      "metadata": {}
     }
   ],
-  "last_updated": "2026-01-23T15:52:38.588714"
+  "last_updated": "2026-01-24T12:34:59.216155"
 }
