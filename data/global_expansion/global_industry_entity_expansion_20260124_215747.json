@@ -1,0 +1,1178 @@
+{
+  "timestamp": "2026-01-24T21:57:47.889332",
+  "total_industries": 41,
+  "total_entities": 9,
+  "total_projects": 11,
+  "total_opportunities": 41,
+  "industries": {
+    "Agriculture": {
+      "industry": "Agriculture",
+      "entities": [
+        "edible_london"
+      ],
+      "projects": [],
+      "alignment_score": 0.7,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 1
+    },
+    "Technology": {
+      "industry": "Technology",
+      "entities": [
+        "siyem_media"
+      ],
+      "projects": [],
+      "alignment_score": 0.7,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 1
+    },
+    "Healthcare": {
+      "industry": "Healthcare",
+      "entities": [
+        "uncle_ray_ramiz",
+        "ilven_seamoss"
+      ],
+      "projects": [],
+      "alignment_score": 0.9,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 3
+    },
+    "Education": {
+      "industry": "Education",
+      "entities": [
+        "jean_morphius",
+        "karasahin",
+        "pierre_pressure",
+        "uncle_ray_ramiz"
+      ],
+      "projects": [],
+      "alignment_score": 1.0,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 5
+    },
+    "Finance": {
+      "industry": "Finance",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Energy": {
+      "industry": "Energy",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Manufacturing": {
+      "industry": "Manufacturing",
+      "entities": [
+        "atilok"
+      ],
+      "projects": [],
+      "alignment_score": 0.7,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 1
+    },
+    "Construction": {
+      "industry": "Construction",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Transportation": {
+      "industry": "Transportation",
+      "entities": [
+        "atilok"
+      ],
+      "projects": [],
+      "alignment_score": 0.7,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 1
+    },
+    "Media": {
+      "industry": "Media",
+      "entities": [
+        "jean_morphius",
+        "siyem_media"
+      ],
+      "projects": [],
+      "alignment_score": 0.9,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 3
+    },
+    "Entertainment": {
+      "industry": "Entertainment",
+      "entities": [
+        "jean_morphius",
+        "karasahin"
+      ],
+      "projects": [],
+      "alignment_score": 0.9,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 3
+    },
+    "Retail": {
+      "industry": "Retail",
+      "entities": [
+        "edible_london",
+        "ilven_seamoss",
+        "atilok",
+        "edible_cyprus"
+      ],
+      "projects": [],
+      "alignment_score": 1.0,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 5
+    },
+    "Hospitality": {
+      "industry": "Hospitality",
+      "entities": [
+        "edible_london",
+        "edible_cyprus"
+      ],
+      "projects": [],
+      "alignment_score": 0.9,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 3
+    },
+    "Real Estate": {
+      "industry": "Real Estate",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Legal": {
+      "industry": "Legal",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Consulting": {
+      "industry": "Consulting",
+      "entities": [
+        "pierre_pressure",
+        "siyem_media"
+      ],
+      "projects": [],
+      "alignment_score": 0.9,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 3
+    },
+    "Non-Profit": {
+      "industry": "Non-Profit",
+      "entities": [
+        "uncle_ray_ramiz"
+      ],
+      "projects": [],
+      "alignment_score": 0.7,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 1
+    },
+    "Government": {
+      "industry": "Government",
+      "entities": [
+        "siyem_media"
+      ],
+      "projects": [],
+      "alignment_score": 0.7,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 1
+    },
+    "Research": {
+      "industry": "Research",
+      "entities": [
+        "uncle_ray_ramiz"
+      ],
+      "projects": [],
+      "alignment_score": 0.7,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 1
+    },
+    "Art": {
+      "industry": "Art",
+      "entities": [
+        "jean_morphius"
+      ],
+      "projects": [],
+      "alignment_score": 0.7,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 1
+    },
+    "Music": {
+      "industry": "Music",
+      "entities": [
+        "karasahin"
+      ],
+      "projects": [],
+      "alignment_score": 0.7,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 1
+    },
+    "Food": {
+      "industry": "Food",
+      "entities": [
+        "edible_london",
+        "ilven_seamoss",
+        "edible_cyprus"
+      ],
+      "projects": [],
+      "alignment_score": 1.0,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 4
+    },
+    "Fashion": {
+      "industry": "Fashion",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Sports": {
+      "industry": "Sports",
+      "entities": [
+        "pierre_pressure"
+      ],
+      "projects": [],
+      "alignment_score": 0.7,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 1
+    },
+    "Tourism": {
+      "industry": "Tourism",
+      "entities": [
+        "edible_cyprus"
+      ],
+      "projects": [],
+      "alignment_score": 0.7,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 1
+    },
+    "Telecommunications": {
+      "industry": "Telecommunications",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Utilities": {
+      "industry": "Utilities",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Mining": {
+      "industry": "Mining",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Forestry": {
+      "industry": "Forestry",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Fishing": {
+      "industry": "Fishing",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Pharmaceuticals": {
+      "industry": "Pharmaceuticals",
+      "entities": [
+        "ilven_seamoss"
+      ],
+      "projects": [],
+      "alignment_score": 0.7,
+      "symbiosis_score": 0.6,
+      "opportunities_count": 1
+    },
+    "Biotechnology": {
+      "industry": "Biotechnology",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Aerospace": {
+      "industry": "Aerospace",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Defense": {
+      "industry": "Defense",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Automotive": {
+      "industry": "Automotive",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Textiles": {
+      "industry": "Textiles",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Chemicals": {
+      "industry": "Chemicals",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Plastics": {
+      "industry": "Plastics",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Electronics": {
+      "industry": "Electronics",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Software": {
+      "industry": "Software",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    },
+    "Hardware": {
+      "industry": "Hardware",
+      "entities": [],
+      "projects": [],
+      "alignment_score": 0.5,
+      "symbiosis_score": 0.4,
+      "opportunities_count": 0
+    }
+  },
+  "entities": {
+    "jean_morphius": {
+      "channels": [
+        "creator",
+        "social_media"
+      ],
+      "strengths": [
+        "comedy",
+        "bilingual",
+        "absurdist",
+        "creative"
+      ],
+      "alignment_focus": [
+        "entertainment",
+        "media",
+        "education",
+        "art"
+      ]
+    },
+    "karasahin": {
+      "channels": [
+        "creator",
+        "social_media"
+      ],
+      "strengths": [
+        "music",
+        "emotion",
+        "sound",
+        "cultural"
+      ],
+      "alignment_focus": [
+        "music",
+        "entertainment",
+        "culture",
+        "education"
+      ]
+    },
+    "pierre_pressure": {
+      "channels": [
+        "professional",
+        "social_media"
+      ],
+      "strengths": [
+        "discipline",
+        "motivation",
+        "training",
+        "philosophy"
+      ],
+      "alignment_focus": [
+        "sports",
+        "fitness",
+        "education",
+        "consulting"
+      ]
+    },
+    "uncle_ray_ramiz": {
+      "channels": [
+        "educational",
+        "social_media"
+      ],
+      "strengths": [
+        "wisdom",
+        "teaching",
+        "spiritual",
+        "nature"
+      ],
+      "alignment_focus": [
+        "education",
+        "non-profit",
+        "research",
+        "healthcare"
+      ]
+    },
+    "siyem_media": {
+      "channels": [
+        "media",
+        "social_media"
+      ],
+      "strengths": [
+        "systems",
+        "infrastructure",
+        "production",
+        "coordination"
+      ],
+      "alignment_focus": [
+        "media",
+        "technology",
+        "consulting",
+        "government"
+      ]
+    },
+    "edible_london": {
+      "channels": [
+        "business",
+        "social_media"
+      ],
+      "strengths": [
+        "food",
+        "production",
+        "community",
+        "craft"
+      ],
+      "alignment_focus": [
+        "food",
+        "agriculture",
+        "retail",
+        "hospitality"
+      ]
+    },
+    "ilven_seamoss": {
+      "channels": [
+        "business",
+        "social_media"
+      ],
+      "strengths": [
+        "health",
+        "natural",
+        "product",
+        "traditional"
+      ],
+      "alignment_focus": [
+        "healthcare",
+        "pharmaceuticals",
+        "retail",
+        "food"
+      ]
+    },
+    "atilok": {
+      "channels": [
+        "business",
+        "professional"
+      ],
+      "strengths": [
+        "supply_chain",
+        "logistics",
+        "efficiency"
+      ],
+      "alignment_focus": [
+        "manufacturing",
+        "transportation",
+        "retail",
+        "logistics"
+      ]
+    },
+    "edible_cyprus": {
+      "channels": [
+        "business",
+        "social_media"
+      ],
+      "strengths": [
+        "food",
+        "tourism",
+        "cultural",
+        "hospitality"
+      ],
+      "alignment_focus": [
+        "food",
+        "tourism",
+        "hospitality",
+        "retail"
+      ]
+    }
+  },
+  "projects": {
+    "edible_london": {
+      "type": "food_production",
+      "status": "active"
+    },
+    "ilven_seamoss": {
+      "type": "health_product",
+      "status": "active"
+    },
+    "edible_cyprus": {
+      "type": "food_tourism",
+      "status": "active"
+    },
+    "atilok": {
+      "type": "supply_chain",
+      "status": "active"
+    },
+    "admin_dashboard": {
+      "type": "infrastructure",
+      "status": "active"
+    },
+    "world_history_app": {
+      "type": "education",
+      "status": "active"
+    },
+    "pi_display": {
+      "type": "technology",
+      "status": "active"
+    },
+    "homeostasis_sentinel": {
+      "type": "health",
+      "status": "active"
+    },
+    "expansion": {
+      "type": "infrastructure",
+      "status": "active"
+    },
+    "jan_studio": {
+      "type": "creative",
+      "status": "active"
+    },
+    "siyem": {
+      "type": "media",
+      "status": "active"
+    }
+  },
+  "global_opportunities": [
+    {
+      "type": "entity_expansion",
+      "industry": "Agriculture",
+      "entity": "edible_london",
+      "description": "Edible London expands into Agriculture",
+      "strengths": [
+        "food",
+        "production",
+        "community",
+        "craft"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Technology",
+      "entity": "siyem_media",
+      "description": "Siyem Media expands into Technology",
+      "strengths": [
+        "systems",
+        "infrastructure",
+        "production",
+        "coordination"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Healthcare",
+      "entity": "uncle_ray_ramiz",
+      "description": "Uncle Ray Ramiz expands into Healthcare",
+      "strengths": [
+        "wisdom",
+        "teaching",
+        "spiritual",
+        "nature"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Healthcare",
+      "entity": "ilven_seamoss",
+      "description": "Ilven Seamoss expands into Healthcare",
+      "strengths": [
+        "health",
+        "natural",
+        "product",
+        "traditional"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "cross_entity_collaboration",
+      "industry": "Healthcare",
+      "entities": [
+        "uncle_ray_ramiz",
+        "ilven_seamoss"
+      ],
+      "description": "Multi-entity collaboration in Healthcare",
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Education",
+      "entity": "jean_morphius",
+      "description": "Jean Morphius expands into Education",
+      "strengths": [
+        "comedy",
+        "bilingual",
+        "absurdist",
+        "creative"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Education",
+      "entity": "karasahin",
+      "description": "Karasahin expands into Education",
+      "strengths": [
+        "music",
+        "emotion",
+        "sound",
+        "cultural"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Education",
+      "entity": "pierre_pressure",
+      "description": "Pierre Pressure expands into Education",
+      "strengths": [
+        "discipline",
+        "motivation",
+        "training",
+        "philosophy"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Education",
+      "entity": "uncle_ray_ramiz",
+      "description": "Uncle Ray Ramiz expands into Education",
+      "strengths": [
+        "wisdom",
+        "teaching",
+        "spiritual",
+        "nature"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "cross_entity_collaboration",
+      "industry": "Education",
+      "entities": [
+        "jean_morphius",
+        "karasahin",
+        "pierre_pressure",
+        "uncle_ray_ramiz"
+      ],
+      "description": "Multi-entity collaboration in Education",
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Manufacturing",
+      "entity": "atilok",
+      "description": "Atilok expands into Manufacturing",
+      "strengths": [
+        "supply_chain",
+        "logistics",
+        "efficiency"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Transportation",
+      "entity": "atilok",
+      "description": "Atilok expands into Transportation",
+      "strengths": [
+        "supply_chain",
+        "logistics",
+        "efficiency"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Media",
+      "entity": "jean_morphius",
+      "description": "Jean Morphius expands into Media",
+      "strengths": [
+        "comedy",
+        "bilingual",
+        "absurdist",
+        "creative"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Media",
+      "entity": "siyem_media",
+      "description": "Siyem Media expands into Media",
+      "strengths": [
+        "systems",
+        "infrastructure",
+        "production",
+        "coordination"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "cross_entity_collaboration",
+      "industry": "Media",
+      "entities": [
+        "jean_morphius",
+        "siyem_media"
+      ],
+      "description": "Multi-entity collaboration in Media",
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Entertainment",
+      "entity": "jean_morphius",
+      "description": "Jean Morphius expands into Entertainment",
+      "strengths": [
+        "comedy",
+        "bilingual",
+        "absurdist",
+        "creative"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Entertainment",
+      "entity": "karasahin",
+      "description": "Karasahin expands into Entertainment",
+      "strengths": [
+        "music",
+        "emotion",
+        "sound",
+        "cultural"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "cross_entity_collaboration",
+      "industry": "Entertainment",
+      "entities": [
+        "jean_morphius",
+        "karasahin"
+      ],
+      "description": "Multi-entity collaboration in Entertainment",
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Retail",
+      "entity": "edible_london",
+      "description": "Edible London expands into Retail",
+      "strengths": [
+        "food",
+        "production",
+        "community",
+        "craft"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Retail",
+      "entity": "ilven_seamoss",
+      "description": "Ilven Seamoss expands into Retail",
+      "strengths": [
+        "health",
+        "natural",
+        "product",
+        "traditional"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Retail",
+      "entity": "atilok",
+      "description": "Atilok expands into Retail",
+      "strengths": [
+        "supply_chain",
+        "logistics",
+        "efficiency"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Retail",
+      "entity": "edible_cyprus",
+      "description": "Edible Cyprus expands into Retail",
+      "strengths": [
+        "food",
+        "tourism",
+        "cultural",
+        "hospitality"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "cross_entity_collaboration",
+      "industry": "Retail",
+      "entities": [
+        "edible_london",
+        "ilven_seamoss",
+        "atilok",
+        "edible_cyprus"
+      ],
+      "description": "Multi-entity collaboration in Retail",
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Hospitality",
+      "entity": "edible_london",
+      "description": "Edible London expands into Hospitality",
+      "strengths": [
+        "food",
+        "production",
+        "community",
+        "craft"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Hospitality",
+      "entity": "edible_cyprus",
+      "description": "Edible Cyprus expands into Hospitality",
+      "strengths": [
+        "food",
+        "tourism",
+        "cultural",
+        "hospitality"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "cross_entity_collaboration",
+      "industry": "Hospitality",
+      "entities": [
+        "edible_london",
+        "edible_cyprus"
+      ],
+      "description": "Multi-entity collaboration in Hospitality",
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Consulting",
+      "entity": "pierre_pressure",
+      "description": "Pierre Pressure expands into Consulting",
+      "strengths": [
+        "discipline",
+        "motivation",
+        "training",
+        "philosophy"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Consulting",
+      "entity": "siyem_media",
+      "description": "Siyem Media expands into Consulting",
+      "strengths": [
+        "systems",
+        "infrastructure",
+        "production",
+        "coordination"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "cross_entity_collaboration",
+      "industry": "Consulting",
+      "entities": [
+        "pierre_pressure",
+        "siyem_media"
+      ],
+      "description": "Multi-entity collaboration in Consulting",
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Non-Profit",
+      "entity": "uncle_ray_ramiz",
+      "description": "Uncle Ray Ramiz expands into Non-Profit",
+      "strengths": [
+        "wisdom",
+        "teaching",
+        "spiritual",
+        "nature"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Government",
+      "entity": "siyem_media",
+      "description": "Siyem Media expands into Government",
+      "strengths": [
+        "systems",
+        "infrastructure",
+        "production",
+        "coordination"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Research",
+      "entity": "uncle_ray_ramiz",
+      "description": "Uncle Ray Ramiz expands into Research",
+      "strengths": [
+        "wisdom",
+        "teaching",
+        "spiritual",
+        "nature"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Art",
+      "entity": "jean_morphius",
+      "description": "Jean Morphius expands into Art",
+      "strengths": [
+        "comedy",
+        "bilingual",
+        "absurdist",
+        "creative"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Music",
+      "entity": "karasahin",
+      "description": "Karasahin expands into Music",
+      "strengths": [
+        "music",
+        "emotion",
+        "sound",
+        "cultural"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Food",
+      "entity": "edible_london",
+      "description": "Edible London expands into Food",
+      "strengths": [
+        "food",
+        "production",
+        "community",
+        "craft"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Food",
+      "entity": "ilven_seamoss",
+      "description": "Ilven Seamoss expands into Food",
+      "strengths": [
+        "health",
+        "natural",
+        "product",
+        "traditional"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Food",
+      "entity": "edible_cyprus",
+      "description": "Edible Cyprus expands into Food",
+      "strengths": [
+        "food",
+        "tourism",
+        "cultural",
+        "hospitality"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "cross_entity_collaboration",
+      "industry": "Food",
+      "entities": [
+        "edible_london",
+        "ilven_seamoss",
+        "edible_cyprus"
+      ],
+      "description": "Multi-entity collaboration in Food",
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Sports",
+      "entity": "pierre_pressure",
+      "description": "Pierre Pressure expands into Sports",
+      "strengths": [
+        "discipline",
+        "motivation",
+        "training",
+        "philosophy"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Tourism",
+      "entity": "edible_cyprus",
+      "description": "Edible Cyprus expands into Tourism",
+      "strengths": [
+        "food",
+        "tourism",
+        "cultural",
+        "hospitality"
+      ],
+      "alignment": "high"
+    },
+    {
+      "type": "entity_expansion",
+      "industry": "Pharmaceuticals",
+      "entity": "ilven_seamoss",
+      "description": "Ilven Seamoss expands into Pharmaceuticals",
+      "strengths": [
+        "health",
+        "natural",
+        "product",
+        "traditional"
+      ],
+      "alignment": "high"
+    }
+  ],
+  "expansion_path": [
+    {
+      "phase": 1,
+      "name": "High Alignment Industries",
+      "industries": [
+        "Agriculture",
+        "Technology",
+        "Healthcare",
+        "Education",
+        "Manufacturing",
+        "Transportation",
+        "Media",
+        "Entertainment",
+        "Retail",
+        "Hospitality",
+        "Consulting",
+        "Non-Profit",
+        "Government",
+        "Research",
+        "Art",
+        "Music",
+        "Food",
+        "Sports",
+        "Tourism",
+        "Pharmaceuticals"
+      ],
+      "focus": "Leverage existing strengths",
+      "timeline": "0-6 months"
+    },
+    {
+      "phase": 2,
+      "name": "Medium Alignment Expansion",
+      "industries": [
+        "Finance",
+        "Energy",
+        "Construction",
+        "Real Estate",
+        "Legal",
+        "Fashion",
+        "Telecommunications",
+        "Utilities",
+        "Mining",
+        "Forestry",
+        "Fishing",
+        "Biotechnology",
+        "Aerospace",
+        "Defense",
+        "Automotive",
+        "Textiles",
+        "Chemicals",
+        "Plastics",
+        "Electronics",
+        "Software",
+        "Hardware"
+      ],
+      "focus": "Build new capabilities",
+      "timeline": "6-12 months"
+    },
+    {
+      "phase": 3,
+      "name": "Strategic Symbiosis",
+      "industries": [],
+      "focus": "Deep integration",
+      "timeline": "12-24 months"
+    }
+  ]
+}

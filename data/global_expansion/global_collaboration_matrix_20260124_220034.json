@@ -1,0 +1,1539 @@
+{
+  "timestamp": "2026-01-24T22:00:34.060664",
+  "entity_collaborations": [
+    {
+      "entity_1": "jean_morphius",
+      "entity_2": "karasahin",
+      "collaboration_type": "creative_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Jean Morphius and Karasahin joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined jean_morphius-karasahin global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": [
+        "Entertainment",
+        "Education"
+      ]
+    },
+    {
+      "entity_1": "jean_morphius",
+      "entity_2": "pierre_pressure",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Jean Morphius and Pierre Pressure joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined jean_morphius-pierre_pressure global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": [
+        "Education"
+      ]
+    },
+    {
+      "entity_1": "jean_morphius",
+      "entity_2": "uncle_ray_ramiz",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Jean Morphius and Uncle Ray Ramiz joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined jean_morphius-uncle_ray_ramiz global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": [
+        "Education"
+      ]
+    },
+    {
+      "entity_1": "jean_morphius",
+      "entity_2": "siyem_media",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Jean Morphius and Siyem Media joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined jean_morphius-siyem_media global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": [
+        "Media"
+      ]
+    },
+    {
+      "entity_1": "jean_morphius",
+      "entity_2": "edible_london",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Jean Morphius and Edible London joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined jean_morphius-edible_london global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "jean_morphius",
+      "entity_2": "ilven_seamoss",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Jean Morphius and Ilven Seamoss joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined jean_morphius-ilven_seamoss global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "jean_morphius",
+      "entity_2": "atilok",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "Jean Morphius and Atilok joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined jean_morphius-atilok global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "jean_morphius",
+      "entity_2": "edible_cyprus",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Jean Morphius and Edible Cyprus joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined jean_morphius-edible_cyprus global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "karasahin",
+      "entity_2": "pierre_pressure",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Karasahin and Pierre Pressure joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined karasahin-pierre_pressure global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": [
+        "Education"
+      ]
+    },
+    {
+      "entity_1": "karasahin",
+      "entity_2": "uncle_ray_ramiz",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Karasahin and Uncle Ray Ramiz joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined karasahin-uncle_ray_ramiz global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": [
+        "Education"
+      ]
+    },
+    {
+      "entity_1": "karasahin",
+      "entity_2": "siyem_media",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Karasahin and Siyem Media joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined karasahin-siyem_media global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "karasahin",
+      "entity_2": "edible_london",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Karasahin and Edible London joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined karasahin-edible_london global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "karasahin",
+      "entity_2": "ilven_seamoss",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Karasahin and Ilven Seamoss joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined karasahin-ilven_seamoss global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "karasahin",
+      "entity_2": "atilok",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "Karasahin and Atilok joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined karasahin-atilok global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "karasahin",
+      "entity_2": "edible_cyprus",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Karasahin and Edible Cyprus joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined karasahin-edible_cyprus global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "pierre_pressure",
+      "entity_2": "uncle_ray_ramiz",
+      "collaboration_type": "educational_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Pierre Pressure and Uncle Ray Ramiz joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined pierre_pressure-uncle_ray_ramiz global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": [
+        "Education"
+      ]
+    },
+    {
+      "entity_1": "pierre_pressure",
+      "entity_2": "siyem_media",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Pierre Pressure and Siyem Media joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined pierre_pressure-siyem_media global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": [
+        "Consulting"
+      ]
+    },
+    {
+      "entity_1": "pierre_pressure",
+      "entity_2": "edible_london",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Pierre Pressure and Edible London joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined pierre_pressure-edible_london global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "pierre_pressure",
+      "entity_2": "ilven_seamoss",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Pierre Pressure and Ilven Seamoss joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined pierre_pressure-ilven_seamoss global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "pierre_pressure",
+      "entity_2": "atilok",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Pierre Pressure and Atilok joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined pierre_pressure-atilok global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "pierre_pressure",
+      "entity_2": "edible_cyprus",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Pierre Pressure and Edible Cyprus joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined pierre_pressure-edible_cyprus global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "uncle_ray_ramiz",
+      "entity_2": "siyem_media",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Uncle Ray Ramiz and Siyem Media joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined uncle_ray_ramiz-siyem_media global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "uncle_ray_ramiz",
+      "entity_2": "edible_london",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Uncle Ray Ramiz and Edible London joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined uncle_ray_ramiz-edible_london global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "uncle_ray_ramiz",
+      "entity_2": "ilven_seamoss",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Uncle Ray Ramiz and Ilven Seamoss joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined uncle_ray_ramiz-ilven_seamoss global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": [
+        "Healthcare"
+      ]
+    },
+    {
+      "entity_1": "uncle_ray_ramiz",
+      "entity_2": "atilok",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "Uncle Ray Ramiz and Atilok joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined uncle_ray_ramiz-atilok global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "uncle_ray_ramiz",
+      "entity_2": "edible_cyprus",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Uncle Ray Ramiz and Edible Cyprus joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined uncle_ray_ramiz-edible_cyprus global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "siyem_media",
+      "entity_2": "edible_london",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Siyem Media and Edible London joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined siyem_media-edible_london global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "siyem_media",
+      "entity_2": "ilven_seamoss",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Siyem Media and Ilven Seamoss joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined siyem_media-ilven_seamoss global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "siyem_media",
+      "entity_2": "atilok",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "Siyem Media and Atilok joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined siyem_media-atilok global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "siyem_media",
+      "entity_2": "edible_cyprus",
+      "collaboration_type": "cross_domain_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Siyem Media and Edible Cyprus joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined siyem_media-edible_cyprus global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": []
+    },
+    {
+      "entity_1": "edible_london",
+      "entity_2": "ilven_seamoss",
+      "collaboration_type": "business_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Edible London and Ilven Seamoss joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined edible_london-ilven_seamoss global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": [
+        "Food",
+        "Retail"
+      ]
+    },
+    {
+      "entity_1": "edible_london",
+      "entity_2": "atilok",
+      "collaboration_type": "business_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Edible London and Atilok joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined edible_london-atilok global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": [
+        "Retail"
+      ]
+    },
+    {
+      "entity_1": "edible_london",
+      "entity_2": "edible_cyprus",
+      "collaboration_type": "business_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Edible London and Edible Cyprus joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined edible_london-edible_cyprus global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": [
+        "Food",
+        "Retail",
+        "Hospitality"
+      ]
+    },
+    {
+      "entity_1": "ilven_seamoss",
+      "entity_2": "atilok",
+      "collaboration_type": "business_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Ilven Seamoss and Atilok joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined ilven_seamoss-atilok global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": [
+        "Retail"
+      ]
+    },
+    {
+      "entity_1": "ilven_seamoss",
+      "entity_2": "edible_cyprus",
+      "collaboration_type": "business_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Ilven Seamoss and Edible Cyprus joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined ilven_seamoss-edible_cyprus global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": [
+        "Retail",
+        "Food"
+      ]
+    },
+    {
+      "entity_1": "atilok",
+      "entity_2": "edible_cyprus",
+      "collaboration_type": "business_collaboration",
+      "synergy_score": 0.9,
+      "opportunities": [
+        "Atilok and Edible Cyprus joint content",
+        "Cross-entity collaboration in shared industries",
+        "Combined atilok-edible_cyprus global expansion",
+        "Shared infrastructure and resources"
+      ],
+      "industries": [
+        "Retail"
+      ]
+    }
+  ],
+  "project_collaborations": [
+    {
+      "project_1": "edible_london",
+      "project_2": "ilven_seamoss",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "edible_london integrates with ilven_seamoss",
+        "Shared infrastructure between edible_london and ilven_seamoss",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "edible_london",
+      "project_2": "edible_cyprus",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "edible_london integrates with edible_cyprus",
+        "Shared infrastructure between edible_london and edible_cyprus",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "edible_london",
+      "project_2": "atilok",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "edible_london integrates with atilok",
+        "Shared infrastructure between edible_london and atilok",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "edible_london",
+      "project_2": "admin_dashboard",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "edible_london integrates with admin_dashboard",
+        "Shared infrastructure between edible_london and admin_dashboard",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "edible_london",
+      "project_2": "world_history_app",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "edible_london integrates with world_history_app",
+        "Shared infrastructure between edible_london and world_history_app",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "edible_london",
+      "project_2": "pi_display",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "edible_london integrates with pi_display",
+        "Shared infrastructure between edible_london and pi_display",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "edible_london",
+      "project_2": "homeostasis_sentinel",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "edible_london integrates with homeostasis_sentinel",
+        "Shared infrastructure between edible_london and homeostasis_sentinel",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "edible_london",
+      "project_2": "expansion",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "edible_london integrates with expansion",
+        "Shared infrastructure between edible_london and expansion",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "edible_london",
+      "project_2": "jan_studio",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "edible_london integrates with jan_studio",
+        "Shared infrastructure between edible_london and jan_studio",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "edible_london",
+      "project_2": "siyem",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "edible_london integrates with siyem",
+        "Shared infrastructure between edible_london and siyem",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "ilven_seamoss",
+      "project_2": "edible_cyprus",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "ilven_seamoss integrates with edible_cyprus",
+        "Shared infrastructure between ilven_seamoss and edible_cyprus",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "ilven_seamoss",
+      "project_2": "atilok",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "ilven_seamoss integrates with atilok",
+        "Shared infrastructure between ilven_seamoss and atilok",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "ilven_seamoss",
+      "project_2": "admin_dashboard",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "ilven_seamoss integrates with admin_dashboard",
+        "Shared infrastructure between ilven_seamoss and admin_dashboard",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "ilven_seamoss",
+      "project_2": "world_history_app",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "ilven_seamoss integrates with world_history_app",
+        "Shared infrastructure between ilven_seamoss and world_history_app",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "ilven_seamoss",
+      "project_2": "pi_display",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "ilven_seamoss integrates with pi_display",
+        "Shared infrastructure between ilven_seamoss and pi_display",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "ilven_seamoss",
+      "project_2": "homeostasis_sentinel",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "ilven_seamoss integrates with homeostasis_sentinel",
+        "Shared infrastructure between ilven_seamoss and homeostasis_sentinel",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "ilven_seamoss",
+      "project_2": "expansion",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "ilven_seamoss integrates with expansion",
+        "Shared infrastructure between ilven_seamoss and expansion",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "ilven_seamoss",
+      "project_2": "jan_studio",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "ilven_seamoss integrates with jan_studio",
+        "Shared infrastructure between ilven_seamoss and jan_studio",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "ilven_seamoss",
+      "project_2": "siyem",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "ilven_seamoss integrates with siyem",
+        "Shared infrastructure between ilven_seamoss and siyem",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "edible_cyprus",
+      "project_2": "atilok",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "edible_cyprus integrates with atilok",
+        "Shared infrastructure between edible_cyprus and atilok",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "edible_cyprus",
+      "project_2": "admin_dashboard",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "edible_cyprus integrates with admin_dashboard",
+        "Shared infrastructure between edible_cyprus and admin_dashboard",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "edible_cyprus",
+      "project_2": "world_history_app",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "edible_cyprus integrates with world_history_app",
+        "Shared infrastructure between edible_cyprus and world_history_app",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "edible_cyprus",
+      "project_2": "pi_display",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "edible_cyprus integrates with pi_display",
+        "Shared infrastructure between edible_cyprus and pi_display",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "edible_cyprus",
+      "project_2": "homeostasis_sentinel",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "edible_cyprus integrates with homeostasis_sentinel",
+        "Shared infrastructure between edible_cyprus and homeostasis_sentinel",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "edible_cyprus",
+      "project_2": "expansion",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "edible_cyprus integrates with expansion",
+        "Shared infrastructure between edible_cyprus and expansion",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "edible_cyprus",
+      "project_2": "jan_studio",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "edible_cyprus integrates with jan_studio",
+        "Shared infrastructure between edible_cyprus and jan_studio",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "edible_cyprus",
+      "project_2": "siyem",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "edible_cyprus integrates with siyem",
+        "Shared infrastructure between edible_cyprus and siyem",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "atilok",
+      "project_2": "admin_dashboard",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "atilok integrates with admin_dashboard",
+        "Shared infrastructure between atilok and admin_dashboard",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "atilok",
+      "project_2": "world_history_app",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "atilok integrates with world_history_app",
+        "Shared infrastructure between atilok and world_history_app",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "atilok",
+      "project_2": "pi_display",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "atilok integrates with pi_display",
+        "Shared infrastructure between atilok and pi_display",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "atilok",
+      "project_2": "homeostasis_sentinel",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "atilok integrates with homeostasis_sentinel",
+        "Shared infrastructure between atilok and homeostasis_sentinel",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "atilok",
+      "project_2": "expansion",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "atilok integrates with expansion",
+        "Shared infrastructure between atilok and expansion",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "atilok",
+      "project_2": "jan_studio",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "atilok integrates with jan_studio",
+        "Shared infrastructure between atilok and jan_studio",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "atilok",
+      "project_2": "siyem",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "atilok integrates with siyem",
+        "Shared infrastructure between atilok and siyem",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "admin_dashboard",
+      "project_2": "world_history_app",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "admin_dashboard integrates with world_history_app",
+        "Shared infrastructure between admin_dashboard and world_history_app",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "admin_dashboard",
+      "project_2": "pi_display",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "admin_dashboard integrates with pi_display",
+        "Shared infrastructure between admin_dashboard and pi_display",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "admin_dashboard",
+      "project_2": "homeostasis_sentinel",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "admin_dashboard integrates with homeostasis_sentinel",
+        "Shared infrastructure between admin_dashboard and homeostasis_sentinel",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "admin_dashboard",
+      "project_2": "expansion",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "admin_dashboard integrates with expansion",
+        "Shared infrastructure between admin_dashboard and expansion",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "admin_dashboard",
+      "project_2": "jan_studio",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "admin_dashboard integrates with jan_studio",
+        "Shared infrastructure between admin_dashboard and jan_studio",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "admin_dashboard",
+      "project_2": "siyem",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "admin_dashboard integrates with siyem",
+        "Shared infrastructure between admin_dashboard and siyem",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "world_history_app",
+      "project_2": "pi_display",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "world_history_app integrates with pi_display",
+        "Shared infrastructure between world_history_app and pi_display",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "world_history_app",
+      "project_2": "homeostasis_sentinel",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "world_history_app integrates with homeostasis_sentinel",
+        "Shared infrastructure between world_history_app and homeostasis_sentinel",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "world_history_app",
+      "project_2": "expansion",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "world_history_app integrates with expansion",
+        "Shared infrastructure between world_history_app and expansion",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "world_history_app",
+      "project_2": "jan_studio",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "world_history_app integrates with jan_studio",
+        "Shared infrastructure between world_history_app and jan_studio",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "world_history_app",
+      "project_2": "siyem",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "world_history_app integrates with siyem",
+        "Shared infrastructure between world_history_app and siyem",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "pi_display",
+      "project_2": "homeostasis_sentinel",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "pi_display integrates with homeostasis_sentinel",
+        "Shared infrastructure between pi_display and homeostasis_sentinel",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "pi_display",
+      "project_2": "expansion",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "pi_display integrates with expansion",
+        "Shared infrastructure between pi_display and expansion",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "pi_display",
+      "project_2": "jan_studio",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "pi_display integrates with jan_studio",
+        "Shared infrastructure between pi_display and jan_studio",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "pi_display",
+      "project_2": "siyem",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "pi_display integrates with siyem",
+        "Shared infrastructure between pi_display and siyem",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "homeostasis_sentinel",
+      "project_2": "expansion",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "homeostasis_sentinel integrates with expansion",
+        "Shared infrastructure between homeostasis_sentinel and expansion",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "homeostasis_sentinel",
+      "project_2": "jan_studio",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "homeostasis_sentinel integrates with jan_studio",
+        "Shared infrastructure between homeostasis_sentinel and jan_studio",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "homeostasis_sentinel",
+      "project_2": "siyem",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "homeostasis_sentinel integrates with siyem",
+        "Shared infrastructure between homeostasis_sentinel and siyem",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "expansion",
+      "project_2": "jan_studio",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "expansion integrates with jan_studio",
+        "Shared infrastructure between expansion and jan_studio",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "expansion",
+      "project_2": "siyem",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "expansion integrates with siyem",
+        "Shared infrastructure between expansion and siyem",
+        "Cross-project content sharing"
+      ]
+    },
+    {
+      "project_1": "jan_studio",
+      "project_2": "siyem",
+      "collaboration_type": "integration",
+      "synergy_score": 0.7,
+      "opportunities": [
+        "jan_studio integrates with siyem",
+        "Shared infrastructure between jan_studio and siyem",
+        "Cross-project content sharing"
+      ]
+    }
+  ],
+  "industry_collaborations": [
+    {
+      "industry_1": "Food",
+      "industry_2": "Agriculture",
+      "collaboration_type": "cross_industry",
+      "synergy_score": 0.8,
+      "opportunities": [
+        "Food and Agriculture cross-industry collaboration",
+        "Shared market opportunities",
+        "Integrated solutions"
+      ]
+    },
+    {
+      "industry_1": "Food",
+      "industry_2": "Retail",
+      "collaboration_type": "cross_industry",
+      "synergy_score": 0.8,
+      "opportunities": [
+        "Food and Retail cross-industry collaboration",
+        "Shared market opportunities",
+        "Integrated solutions"
+      ]
+    },
+    {
+      "industry_1": "Food",
+      "industry_2": "Hospitality",
+      "collaboration_type": "cross_industry",
+      "synergy_score": 0.8,
+      "opportunities": [
+        "Food and Hospitality cross-industry collaboration",
+        "Shared market opportunities",
+        "Integrated solutions"
+      ]
+    },
+    {
+      "industry_1": "Music",
+      "industry_2": "Entertainment",
+      "collaboration_type": "cross_industry",
+      "synergy_score": 0.8,
+      "opportunities": [
+        "Music and Entertainment cross-industry collaboration",
+        "Shared market opportunities",
+        "Integrated solutions"
+      ]
+    },
+    {
+      "industry_1": "Music",
+      "industry_2": "Media",
+      "collaboration_type": "cross_industry",
+      "synergy_score": 0.8,
+      "opportunities": [
+        "Music and Media cross-industry collaboration",
+        "Shared market opportunities",
+        "Integrated solutions"
+      ]
+    },
+    {
+      "industry_1": "Education",
+      "industry_2": "Technology",
+      "collaboration_type": "cross_industry",
+      "synergy_score": 0.8,
+      "opportunities": [
+        "Education and Technology cross-industry collaboration",
+        "Shared market opportunities",
+        "Integrated solutions"
+      ]
+    },
+    {
+      "industry_1": "Healthcare",
+      "industry_2": "Technology",
+      "collaboration_type": "cross_industry",
+      "synergy_score": 0.8,
+      "opportunities": [
+        "Healthcare and Technology cross-industry collaboration",
+        "Shared market opportunities",
+        "Integrated solutions"
+      ]
+    },
+    {
+      "industry_1": "Manufacturing",
+      "industry_2": "Transportation",
+      "collaboration_type": "cross_industry",
+      "synergy_score": 0.8,
+      "opportunities": [
+        "Manufacturing and Transportation cross-industry collaboration",
+        "Shared market opportunities",
+        "Integrated solutions"
+      ]
+    }
+  ],
+  "cross_collaborations": [
+    {
+      "type": "entity_project",
+      "entity": "jean_morphius",
+      "project": "edible_london",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "jean_morphius expands edible_london globally",
+        "edible_london leverages jean_morphius capabilities",
+        "Joint jean_morphius-edible_london initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "jean_morphius",
+      "project": "ilven_seamoss",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "jean_morphius expands ilven_seamoss globally",
+        "ilven_seamoss leverages jean_morphius capabilities",
+        "Joint jean_morphius-ilven_seamoss initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "jean_morphius",
+      "project": "edible_cyprus",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "jean_morphius expands edible_cyprus globally",
+        "edible_cyprus leverages jean_morphius capabilities",
+        "Joint jean_morphius-edible_cyprus initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "jean_morphius",
+      "project": "atilok",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "jean_morphius expands atilok globally",
+        "atilok leverages jean_morphius capabilities",
+        "Joint jean_morphius-atilok initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "jean_morphius",
+      "project": "admin_dashboard",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "jean_morphius expands admin_dashboard globally",
+        "admin_dashboard leverages jean_morphius capabilities",
+        "Joint jean_morphius-admin_dashboard initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "karasahin",
+      "project": "edible_london",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "karasahin expands edible_london globally",
+        "edible_london leverages karasahin capabilities",
+        "Joint karasahin-edible_london initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "karasahin",
+      "project": "ilven_seamoss",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "karasahin expands ilven_seamoss globally",
+        "ilven_seamoss leverages karasahin capabilities",
+        "Joint karasahin-ilven_seamoss initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "karasahin",
+      "project": "edible_cyprus",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "karasahin expands edible_cyprus globally",
+        "edible_cyprus leverages karasahin capabilities",
+        "Joint karasahin-edible_cyprus initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "karasahin",
+      "project": "atilok",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "karasahin expands atilok globally",
+        "atilok leverages karasahin capabilities",
+        "Joint karasahin-atilok initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "karasahin",
+      "project": "admin_dashboard",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "karasahin expands admin_dashboard globally",
+        "admin_dashboard leverages karasahin capabilities",
+        "Joint karasahin-admin_dashboard initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "pierre_pressure",
+      "project": "edible_london",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "pierre_pressure expands edible_london globally",
+        "edible_london leverages pierre_pressure capabilities",
+        "Joint pierre_pressure-edible_london initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "pierre_pressure",
+      "project": "ilven_seamoss",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "pierre_pressure expands ilven_seamoss globally",
+        "ilven_seamoss leverages pierre_pressure capabilities",
+        "Joint pierre_pressure-ilven_seamoss initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "pierre_pressure",
+      "project": "edible_cyprus",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "pierre_pressure expands edible_cyprus globally",
+        "edible_cyprus leverages pierre_pressure capabilities",
+        "Joint pierre_pressure-edible_cyprus initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "pierre_pressure",
+      "project": "atilok",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "pierre_pressure expands atilok globally",
+        "atilok leverages pierre_pressure capabilities",
+        "Joint pierre_pressure-atilok initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "pierre_pressure",
+      "project": "admin_dashboard",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "pierre_pressure expands admin_dashboard globally",
+        "admin_dashboard leverages pierre_pressure capabilities",
+        "Joint pierre_pressure-admin_dashboard initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "uncle_ray_ramiz",
+      "project": "edible_london",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "uncle_ray_ramiz expands edible_london globally",
+        "edible_london leverages uncle_ray_ramiz capabilities",
+        "Joint uncle_ray_ramiz-edible_london initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "uncle_ray_ramiz",
+      "project": "ilven_seamoss",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "uncle_ray_ramiz expands ilven_seamoss globally",
+        "ilven_seamoss leverages uncle_ray_ramiz capabilities",
+        "Joint uncle_ray_ramiz-ilven_seamoss initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "uncle_ray_ramiz",
+      "project": "edible_cyprus",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "uncle_ray_ramiz expands edible_cyprus globally",
+        "edible_cyprus leverages uncle_ray_ramiz capabilities",
+        "Joint uncle_ray_ramiz-edible_cyprus initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "uncle_ray_ramiz",
+      "project": "atilok",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "uncle_ray_ramiz expands atilok globally",
+        "atilok leverages uncle_ray_ramiz capabilities",
+        "Joint uncle_ray_ramiz-atilok initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "uncle_ray_ramiz",
+      "project": "admin_dashboard",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "uncle_ray_ramiz expands admin_dashboard globally",
+        "admin_dashboard leverages uncle_ray_ramiz capabilities",
+        "Joint uncle_ray_ramiz-admin_dashboard initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "siyem_media",
+      "project": "edible_london",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "siyem_media expands edible_london globally",
+        "edible_london leverages siyem_media capabilities",
+        "Joint siyem_media-edible_london initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "siyem_media",
+      "project": "ilven_seamoss",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "siyem_media expands ilven_seamoss globally",
+        "ilven_seamoss leverages siyem_media capabilities",
+        "Joint siyem_media-ilven_seamoss initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "siyem_media",
+      "project": "edible_cyprus",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "siyem_media expands edible_cyprus globally",
+        "edible_cyprus leverages siyem_media capabilities",
+        "Joint siyem_media-edible_cyprus initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "siyem_media",
+      "project": "atilok",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "siyem_media expands atilok globally",
+        "atilok leverages siyem_media capabilities",
+        "Joint siyem_media-atilok initiatives"
+      ]
+    },
+    {
+      "type": "entity_project",
+      "entity": "siyem_media",
+      "project": "admin_dashboard",
+      "collaboration_type": "expansion",
+      "synergy_score": 0.75,
+      "opportunities": [
+        "siyem_media expands admin_dashboard globally",
+        "admin_dashboard leverages siyem_media capabilities",
+        "Joint siyem_media-admin_dashboard initiatives"
+      ]
+    }
+  ],
+  "global_opportunities": [
+    {
+      "type": "multi_entity",
+      "entities": [
+        "jean_morphius",
+        "karasahin",
+        "siyem_media"
+      ],
+      "description": "Creative trio collaboration - comedy, music, production",
+      "potential": "very_high"
+    },
+    {
+      "type": "multi_entity",
+      "entities": [
+        "uncle_ray_ramiz",
+        "pierre_pressure",
+        "siyem_media"
+      ],
+      "description": "Educational trio - wisdom, discipline, infrastructure",
+      "potential": "very_high"
+    },
+    {
+      "type": "multi_project",
+      "projects": [
+        "edible_london",
+        "edible_cyprus",
+        "ilven_seamoss"
+      ],
+      "description": "Food ecosystem collaboration",
+      "potential": "very_high"
+    }
+  ]
+}

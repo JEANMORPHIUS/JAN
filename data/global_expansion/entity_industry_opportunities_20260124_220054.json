@@ -1,0 +1,1027 @@
+{
+  "timestamp": "2026-01-24T22:00:54.408303",
+  "total_entities": 9,
+  "total_industries": 41,
+  "entity_opportunities": {
+    "jean_morphius": {
+      "entity": "jean_morphius",
+      "total_opportunities": 5,
+      "opportunities": [
+        {
+          "industry": "Education",
+          "entity": "jean_morphius",
+          "alignment_score": 0.8,
+          "opportunity_type": "creative_expansion",
+          "description": "Jean Morphius expands into Education leveraging comedy and creator channels",
+          "strengths_applied": [],
+          "channels": [
+            "creator",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Education market opportunities",
+            "Identify Education partners and collaborators",
+            "Develop Education-specific content/products",
+            "Launch Education expansion pilot",
+            "Scale Education operations globally"
+          ]
+        },
+        {
+          "industry": "Media",
+          "entity": "jean_morphius",
+          "alignment_score": 0.8,
+          "opportunity_type": "creative_expansion",
+          "description": "Jean Morphius expands into Media leveraging comedy and creator channels",
+          "strengths_applied": [],
+          "channels": [
+            "creator",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Media market opportunities",
+            "Identify Media partners and collaborators",
+            "Develop Media-specific content/products",
+            "Launch Media expansion pilot",
+            "Scale Media operations globally"
+          ]
+        },
+        {
+          "industry": "Entertainment",
+          "entity": "jean_morphius",
+          "alignment_score": 0.8,
+          "opportunity_type": "creative_expansion",
+          "description": "Jean Morphius expands into Entertainment leveraging comedy and creator channels",
+          "strengths_applied": [],
+          "channels": [
+            "creator",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Entertainment market opportunities",
+            "Identify Entertainment partners and collaborators",
+            "Develop Entertainment-specific content/products",
+            "Launch Entertainment expansion pilot",
+            "Scale Entertainment operations globally"
+          ]
+        },
+        {
+          "industry": "Art",
+          "entity": "jean_morphius",
+          "alignment_score": 0.8,
+          "opportunity_type": "creative_expansion",
+          "description": "Jean Morphius expands into Art leveraging comedy and creator channels",
+          "strengths_applied": [],
+          "channels": [
+            "creator",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Art market opportunities",
+            "Identify Art partners and collaborators",
+            "Develop Art-specific content/products",
+            "Launch Art expansion pilot",
+            "Scale Art operations globally"
+          ]
+        },
+        {
+          "industry": "Music",
+          "entity": "jean_morphius",
+          "alignment_score": 0.8,
+          "opportunity_type": "creative_expansion",
+          "description": "Jean Morphius expands into Music leveraging comedy and creator channels",
+          "strengths_applied": [],
+          "channels": [
+            "creator",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Music market opportunities",
+            "Identify Music partners and collaborators",
+            "Develop Music-specific content/products",
+            "Launch Music expansion pilot",
+            "Scale Music operations globally"
+          ]
+        }
+      ]
+    },
+    "karasahin": {
+      "entity": "karasahin",
+      "total_opportunities": 4,
+      "opportunities": [
+        {
+          "industry": "Education",
+          "entity": "karasahin",
+          "alignment_score": 0.8,
+          "opportunity_type": "creative_expansion",
+          "description": "Karasahin expands into Education leveraging music and creator channels",
+          "strengths_applied": [],
+          "channels": [
+            "creator",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Education market opportunities",
+            "Identify Education partners and collaborators",
+            "Develop Education-specific content/products",
+            "Launch Education expansion pilot",
+            "Scale Education operations globally"
+          ]
+        },
+        {
+          "industry": "Media",
+          "entity": "karasahin",
+          "alignment_score": 0.8,
+          "opportunity_type": "creative_expansion",
+          "description": "Karasahin expands into Media leveraging music and creator channels",
+          "strengths_applied": [],
+          "channels": [
+            "creator",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Media market opportunities",
+            "Identify Media partners and collaborators",
+            "Develop Media-specific content/products",
+            "Launch Media expansion pilot",
+            "Scale Media operations globally"
+          ]
+        },
+        {
+          "industry": "Entertainment",
+          "entity": "karasahin",
+          "alignment_score": 0.8,
+          "opportunity_type": "creative_expansion",
+          "description": "Karasahin expands into Entertainment leveraging music and creator channels",
+          "strengths_applied": [],
+          "channels": [
+            "creator",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Entertainment market opportunities",
+            "Identify Entertainment partners and collaborators",
+            "Develop Entertainment-specific content/products",
+            "Launch Entertainment expansion pilot",
+            "Scale Entertainment operations globally"
+          ]
+        },
+        {
+          "industry": "Music",
+          "entity": "karasahin",
+          "alignment_score": 1.0,
+          "opportunity_type": "creative_expansion",
+          "description": "Karasahin expands into Music leveraging music and creator channels",
+          "strengths_applied": [
+            "music"
+          ],
+          "channels": [
+            "creator",
+            "social_media"
+          ],
+          "potential": "high",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Music market opportunities",
+            "Identify Music partners and collaborators",
+            "Develop Music-specific content/products",
+            "Launch Music expansion pilot",
+            "Scale Music operations globally"
+          ]
+        }
+      ]
+    },
+    "pierre_pressure": {
+      "entity": "pierre_pressure",
+      "total_opportunities": 4,
+      "opportunities": [
+        {
+          "industry": "Education",
+          "entity": "pierre_pressure",
+          "alignment_score": 0.8,
+          "opportunity_type": "educational_expansion",
+          "description": "Pierre Pressure expands into Education leveraging discipline and professional channels",
+          "strengths_applied": [],
+          "channels": [
+            "professional",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Education market opportunities",
+            "Identify Education partners and collaborators",
+            "Develop Education-specific content/products",
+            "Launch Education expansion pilot",
+            "Scale Education operations globally"
+          ]
+        },
+        {
+          "industry": "Media",
+          "entity": "pierre_pressure",
+          "alignment_score": 0.8,
+          "opportunity_type": "educational_expansion",
+          "description": "Pierre Pressure expands into Media leveraging discipline and professional channels",
+          "strengths_applied": [],
+          "channels": [
+            "professional",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Media market opportunities",
+            "Identify Media partners and collaborators",
+            "Develop Media-specific content/products",
+            "Launch Media expansion pilot",
+            "Scale Media operations globally"
+          ]
+        },
+        {
+          "industry": "Consulting",
+          "entity": "pierre_pressure",
+          "alignment_score": 0.8,
+          "opportunity_type": "educational_expansion",
+          "description": "Pierre Pressure expands into Consulting leveraging discipline and professional channels",
+          "strengths_applied": [],
+          "channels": [
+            "professional",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Consulting market opportunities",
+            "Identify Consulting partners and collaborators",
+            "Develop Consulting-specific content/products",
+            "Launch Consulting expansion pilot",
+            "Scale Consulting operations globally"
+          ]
+        },
+        {
+          "industry": "Sports",
+          "entity": "pierre_pressure",
+          "alignment_score": 0.8,
+          "opportunity_type": "educational_expansion",
+          "description": "Pierre Pressure expands into Sports leveraging discipline and professional channels",
+          "strengths_applied": [],
+          "channels": [
+            "professional",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Sports market opportunities",
+            "Identify Sports partners and collaborators",
+            "Develop Sports-specific content/products",
+            "Launch Sports expansion pilot",
+            "Scale Sports operations globally"
+          ]
+        }
+      ]
+    },
+    "uncle_ray_ramiz": {
+      "entity": "uncle_ray_ramiz",
+      "total_opportunities": 5,
+      "opportunities": [
+        {
+          "industry": "Healthcare",
+          "entity": "uncle_ray_ramiz",
+          "alignment_score": 0.8,
+          "opportunity_type": "educational_expansion",
+          "description": "Uncle Ray Ramiz expands into Healthcare leveraging wisdom and educational channels",
+          "strengths_applied": [],
+          "channels": [
+            "educational",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Healthcare market opportunities",
+            "Identify Healthcare partners and collaborators",
+            "Develop Healthcare-specific content/products",
+            "Launch Healthcare expansion pilot",
+            "Scale Healthcare operations globally"
+          ]
+        },
+        {
+          "industry": "Education",
+          "entity": "uncle_ray_ramiz",
+          "alignment_score": 0.8,
+          "opportunity_type": "educational_expansion",
+          "description": "Uncle Ray Ramiz expands into Education leveraging wisdom and educational channels",
+          "strengths_applied": [],
+          "channels": [
+            "educational",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Education market opportunities",
+            "Identify Education partners and collaborators",
+            "Develop Education-specific content/products",
+            "Launch Education expansion pilot",
+            "Scale Education operations globally"
+          ]
+        },
+        {
+          "industry": "Media",
+          "entity": "uncle_ray_ramiz",
+          "alignment_score": 0.8,
+          "opportunity_type": "educational_expansion",
+          "description": "Uncle Ray Ramiz expands into Media leveraging wisdom and educational channels",
+          "strengths_applied": [],
+          "channels": [
+            "educational",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Media market opportunities",
+            "Identify Media partners and collaborators",
+            "Develop Media-specific content/products",
+            "Launch Media expansion pilot",
+            "Scale Media operations globally"
+          ]
+        },
+        {
+          "industry": "Non-Profit",
+          "entity": "uncle_ray_ramiz",
+          "alignment_score": 0.8,
+          "opportunity_type": "educational_expansion",
+          "description": "Uncle Ray Ramiz expands into Non-Profit leveraging wisdom and educational channels",
+          "strengths_applied": [],
+          "channels": [
+            "educational",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Non-Profit market opportunities",
+            "Identify Non-Profit partners and collaborators",
+            "Develop Non-Profit-specific content/products",
+            "Launch Non-Profit expansion pilot",
+            "Scale Non-Profit operations globally"
+          ]
+        },
+        {
+          "industry": "Research",
+          "entity": "uncle_ray_ramiz",
+          "alignment_score": 0.8,
+          "opportunity_type": "educational_expansion",
+          "description": "Uncle Ray Ramiz expands into Research leveraging wisdom and educational channels",
+          "strengths_applied": [],
+          "channels": [
+            "educational",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Research market opportunities",
+            "Identify Research partners and collaborators",
+            "Develop Research-specific content/products",
+            "Launch Research expansion pilot",
+            "Scale Research operations globally"
+          ]
+        }
+      ]
+    },
+    "siyem_media": {
+      "entity": "siyem_media",
+      "total_opportunities": 6,
+      "opportunities": [
+        {
+          "industry": "Technology",
+          "entity": "siyem_media",
+          "alignment_score": 1.0,
+          "opportunity_type": "infrastructure_expansion",
+          "description": "Siyem Media expands into Technology leveraging systems and media channels",
+          "strengths_applied": [
+            "technology"
+          ],
+          "channels": [
+            "media",
+            "social_media"
+          ],
+          "potential": "high",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Technology market opportunities",
+            "Identify Technology partners and collaborators",
+            "Develop Technology-specific content/products",
+            "Launch Technology expansion pilot",
+            "Scale Technology operations globally"
+          ]
+        },
+        {
+          "industry": "Education",
+          "entity": "siyem_media",
+          "alignment_score": 0.8,
+          "opportunity_type": "infrastructure_expansion",
+          "description": "Siyem Media expands into Education leveraging systems and media channels",
+          "strengths_applied": [],
+          "channels": [
+            "media",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Education market opportunities",
+            "Identify Education partners and collaborators",
+            "Develop Education-specific content/products",
+            "Launch Education expansion pilot",
+            "Scale Education operations globally"
+          ]
+        },
+        {
+          "industry": "Media",
+          "entity": "siyem_media",
+          "alignment_score": 0.8,
+          "opportunity_type": "infrastructure_expansion",
+          "description": "Siyem Media expands into Media leveraging systems and media channels",
+          "strengths_applied": [],
+          "channels": [
+            "media",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Media market opportunities",
+            "Identify Media partners and collaborators",
+            "Develop Media-specific content/products",
+            "Launch Media expansion pilot",
+            "Scale Media operations globally"
+          ]
+        },
+        {
+          "industry": "Consulting",
+          "entity": "siyem_media",
+          "alignment_score": 0.8,
+          "opportunity_type": "infrastructure_expansion",
+          "description": "Siyem Media expands into Consulting leveraging systems and media channels",
+          "strengths_applied": [],
+          "channels": [
+            "media",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Consulting market opportunities",
+            "Identify Consulting partners and collaborators",
+            "Develop Consulting-specific content/products",
+            "Launch Consulting expansion pilot",
+            "Scale Consulting operations globally"
+          ]
+        },
+        {
+          "industry": "Government",
+          "entity": "siyem_media",
+          "alignment_score": 0.8,
+          "opportunity_type": "infrastructure_expansion",
+          "description": "Siyem Media expands into Government leveraging systems and media channels",
+          "strengths_applied": [],
+          "channels": [
+            "media",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Government market opportunities",
+            "Identify Government partners and collaborators",
+            "Develop Government-specific content/products",
+            "Launch Government expansion pilot",
+            "Scale Government operations globally"
+          ]
+        },
+        {
+          "industry": "Biotechnology",
+          "entity": "siyem_media",
+          "alignment_score": 0.7,
+          "opportunity_type": "infrastructure_expansion",
+          "description": "Siyem Media expands into Biotechnology leveraging systems and media channels",
+          "strengths_applied": [
+            "technology"
+          ],
+          "channels": [
+            "media",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Biotechnology market opportunities",
+            "Identify Biotechnology partners and collaborators",
+            "Develop Biotechnology-specific content/products",
+            "Launch Biotechnology expansion pilot",
+            "Scale Biotechnology operations globally"
+          ]
+        }
+      ]
+    },
+    "edible_london": {
+      "entity": "edible_london",
+      "total_opportunities": 5,
+      "opportunities": [
+        {
+          "industry": "Agriculture",
+          "entity": "edible_london",
+          "alignment_score": 0.8,
+          "opportunity_type": "business_expansion",
+          "description": "Edible London expands into Agriculture leveraging food and business channels",
+          "strengths_applied": [],
+          "channels": [
+            "business",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Agriculture market opportunities",
+            "Identify Agriculture partners and collaborators",
+            "Develop Agriculture-specific content/products",
+            "Launch Agriculture expansion pilot",
+            "Scale Agriculture operations globally"
+          ]
+        },
+        {
+          "industry": "Manufacturing",
+          "entity": "edible_london",
+          "alignment_score": 0.8,
+          "opportunity_type": "business_expansion",
+          "description": "Edible London expands into Manufacturing leveraging food and business channels",
+          "strengths_applied": [],
+          "channels": [
+            "business",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Manufacturing market opportunities",
+            "Identify Manufacturing partners and collaborators",
+            "Develop Manufacturing-specific content/products",
+            "Launch Manufacturing expansion pilot",
+            "Scale Manufacturing operations globally"
+          ]
+        },
+        {
+          "industry": "Retail",
+          "entity": "edible_london",
+          "alignment_score": 0.8,
+          "opportunity_type": "business_expansion",
+          "description": "Edible London expands into Retail leveraging food and business channels",
+          "strengths_applied": [],
+          "channels": [
+            "business",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Retail market opportunities",
+            "Identify Retail partners and collaborators",
+            "Develop Retail-specific content/products",
+            "Launch Retail expansion pilot",
+            "Scale Retail operations globally"
+          ]
+        },
+        {
+          "industry": "Hospitality",
+          "entity": "edible_london",
+          "alignment_score": 0.8,
+          "opportunity_type": "business_expansion",
+          "description": "Edible London expands into Hospitality leveraging food and business channels",
+          "strengths_applied": [],
+          "channels": [
+            "business",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Hospitality market opportunities",
+            "Identify Hospitality partners and collaborators",
+            "Develop Hospitality-specific content/products",
+            "Launch Hospitality expansion pilot",
+            "Scale Hospitality operations globally"
+          ]
+        },
+        {
+          "industry": "Food",
+          "entity": "edible_london",
+          "alignment_score": 1.0,
+          "opportunity_type": "business_expansion",
+          "description": "Edible London expands into Food leveraging food and business channels",
+          "strengths_applied": [
+            "food"
+          ],
+          "channels": [
+            "business",
+            "social_media"
+          ],
+          "potential": "high",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Food market opportunities",
+            "Identify Food partners and collaborators",
+            "Develop Food-specific content/products",
+            "Launch Food expansion pilot",
+            "Scale Food operations globally"
+          ]
+        }
+      ]
+    },
+    "ilven_seamoss": {
+      "entity": "ilven_seamoss",
+      "total_opportunities": 4,
+      "opportunities": [
+        {
+          "industry": "Healthcare",
+          "entity": "ilven_seamoss",
+          "alignment_score": 1.0,
+          "opportunity_type": "business_expansion",
+          "description": "Ilven Seamoss expands into Healthcare leveraging health and business channels",
+          "strengths_applied": [
+            "health"
+          ],
+          "channels": [
+            "business",
+            "social_media"
+          ],
+          "potential": "high",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Healthcare market opportunities",
+            "Identify Healthcare partners and collaborators",
+            "Develop Healthcare-specific content/products",
+            "Launch Healthcare expansion pilot",
+            "Scale Healthcare operations globally"
+          ]
+        },
+        {
+          "industry": "Retail",
+          "entity": "ilven_seamoss",
+          "alignment_score": 0.8,
+          "opportunity_type": "business_expansion",
+          "description": "Ilven Seamoss expands into Retail leveraging health and business channels",
+          "strengths_applied": [],
+          "channels": [
+            "business",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Retail market opportunities",
+            "Identify Retail partners and collaborators",
+            "Develop Retail-specific content/products",
+            "Launch Retail expansion pilot",
+            "Scale Retail operations globally"
+          ]
+        },
+        {
+          "industry": "Food",
+          "entity": "ilven_seamoss",
+          "alignment_score": 0.8,
+          "opportunity_type": "business_expansion",
+          "description": "Ilven Seamoss expands into Food leveraging health and business channels",
+          "strengths_applied": [],
+          "channels": [
+            "business",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Food market opportunities",
+            "Identify Food partners and collaborators",
+            "Develop Food-specific content/products",
+            "Launch Food expansion pilot",
+            "Scale Food operations globally"
+          ]
+        },
+        {
+          "industry": "Pharmaceuticals",
+          "entity": "ilven_seamoss",
+          "alignment_score": 0.8,
+          "opportunity_type": "business_expansion",
+          "description": "Ilven Seamoss expands into Pharmaceuticals leveraging health and business channels",
+          "strengths_applied": [],
+          "channels": [
+            "business",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Pharmaceuticals market opportunities",
+            "Identify Pharmaceuticals partners and collaborators",
+            "Develop Pharmaceuticals-specific content/products",
+            "Launch Pharmaceuticals expansion pilot",
+            "Scale Pharmaceuticals operations globally"
+          ]
+        }
+      ]
+    },
+    "atilok": {
+      "entity": "atilok",
+      "total_opportunities": 4,
+      "opportunities": [
+        {
+          "industry": "Manufacturing",
+          "entity": "atilok",
+          "alignment_score": 0.8,
+          "opportunity_type": "logistics_expansion",
+          "description": "Atilok expands into Manufacturing leveraging supply_chain and business channels",
+          "strengths_applied": [],
+          "channels": [
+            "business",
+            "professional"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Manufacturing market opportunities",
+            "Identify Manufacturing partners and collaborators",
+            "Develop Manufacturing-specific content/products",
+            "Launch Manufacturing expansion pilot",
+            "Scale Manufacturing operations globally"
+          ]
+        },
+        {
+          "industry": "Transportation",
+          "entity": "atilok",
+          "alignment_score": 0.8,
+          "opportunity_type": "logistics_expansion",
+          "description": "Atilok expands into Transportation leveraging supply_chain and business channels",
+          "strengths_applied": [],
+          "channels": [
+            "business",
+            "professional"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Transportation market opportunities",
+            "Identify Transportation partners and collaborators",
+            "Develop Transportation-specific content/products",
+            "Launch Transportation expansion pilot",
+            "Scale Transportation operations globally"
+          ]
+        },
+        {
+          "industry": "Retail",
+          "entity": "atilok",
+          "alignment_score": 0.8,
+          "opportunity_type": "logistics_expansion",
+          "description": "Atilok expands into Retail leveraging supply_chain and business channels",
+          "strengths_applied": [],
+          "channels": [
+            "business",
+            "professional"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Retail market opportunities",
+            "Identify Retail partners and collaborators",
+            "Develop Retail-specific content/products",
+            "Launch Retail expansion pilot",
+            "Scale Retail operations globally"
+          ]
+        },
+        {
+          "industry": "Automotive",
+          "entity": "atilok",
+          "alignment_score": 1.0,
+          "opportunity_type": "logistics_expansion",
+          "description": "Atilok expands into Automotive leveraging supply_chain and business channels",
+          "strengths_applied": [
+            "automotive"
+          ],
+          "channels": [
+            "business",
+            "professional"
+          ],
+          "potential": "high",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Automotive market opportunities",
+            "Identify Automotive partners and collaborators",
+            "Develop Automotive-specific content/products",
+            "Launch Automotive expansion pilot",
+            "Scale Automotive operations globally"
+          ]
+        }
+      ]
+    },
+    "edible_cyprus": {
+      "entity": "edible_cyprus",
+      "total_opportunities": 4,
+      "opportunities": [
+        {
+          "industry": "Retail",
+          "entity": "edible_cyprus",
+          "alignment_score": 0.8,
+          "opportunity_type": "business_expansion",
+          "description": "Edible Cyprus expands into Retail leveraging food and business channels",
+          "strengths_applied": [],
+          "channels": [
+            "business",
+            "social_media"
+          ],
+          "potential": "medium",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Retail market opportunities",
+            "Identify Retail partners and collaborators",
+            "Develop Retail-specific content/products",
+            "Launch Retail expansion pilot",
+            "Scale Retail operations globally"
+          ]
+        },
+        {
+          "industry": "Hospitality",
+          "entity": "edible_cyprus",
+          "alignment_score": 1.0,
+          "opportunity_type": "business_expansion",
+          "description": "Edible Cyprus expands into Hospitality leveraging food and business channels",
+          "strengths_applied": [
+            "hospitality"
+          ],
+          "channels": [
+            "business",
+            "social_media"
+          ],
+          "potential": "high",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Hospitality market opportunities",
+            "Identify Hospitality partners and collaborators",
+            "Develop Hospitality-specific content/products",
+            "Launch Hospitality expansion pilot",
+            "Scale Hospitality operations globally"
+          ]
+        },
+        {
+          "industry": "Food",
+          "entity": "edible_cyprus",
+          "alignment_score": 1.0,
+          "opportunity_type": "business_expansion",
+          "description": "Edible Cyprus expands into Food leveraging food and business channels",
+          "strengths_applied": [
+            "food"
+          ],
+          "channels": [
+            "business",
+            "social_media"
+          ],
+          "potential": "high",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Food market opportunities",
+            "Identify Food partners and collaborators",
+            "Develop Food-specific content/products",
+            "Launch Food expansion pilot",
+            "Scale Food operations globally"
+          ]
+        },
+        {
+          "industry": "Tourism",
+          "entity": "edible_cyprus",
+          "alignment_score": 1.0,
+          "opportunity_type": "business_expansion",
+          "description": "Edible Cyprus expands into Tourism leveraging food and business channels",
+          "strengths_applied": [
+            "tourism"
+          ],
+          "channels": [
+            "business",
+            "social_media"
+          ],
+          "potential": "high",
+          "regions": [
+            "Global"
+          ],
+          "next_steps": [
+            "Research Tourism market opportunities",
+            "Identify Tourism partners and collaborators",
+            "Develop Tourism-specific content/products",
+            "Launch Tourism expansion pilot",
+            "Scale Tourism operations globally"
+          ]
+        }
+      ]
+    }
+  },
+  "summary": {
+    "total_opportunities": 41,
+    "average_per_entity": 4.555555555555555,
+    "high_potential_entities": []
+  }
+}
