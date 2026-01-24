@@ -316,8 +316,21 @@ async def protocol_middleware(request: Request, call_next):
     operation = f"{request.method} {request.url.path}"
     target = str(request.query_params) if request.query_params else str(request.path_params)
     
-    # Check Law 1: Table Service
-    if not check_law_1_table_service(operation, target):
+    # Public API endpoints that serve the Table (Sanctuary for the people)
+    public_endpoints = [
+        "/api/public/",
+        "/api/heritage/",
+        "/api/sanctuary/",
+        "/docs",
+        "/openapi.json",
+        "/redoc"
+    ]
+    
+    # Allow public endpoints to pass (they serve the Table by providing access)
+    is_public_endpoint = any(request.url.path.startswith(ep) for ep in public_endpoints)
+    
+    # Check Law 1: Table Service (skip for public endpoints - they serve the Table by definition)
+    if not is_public_endpoint and not check_law_1_table_service(operation, target):
         return JSONResponse(
             status_code=status.HTTP_403_FORBIDDEN,
             content={

@@ -1,15 +1,29 @@
 """
 Raspberry Pi Optimized API
 
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+THE MISSION:
+THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+LOVE IS THE HIGHEST MASTERY
+ENERGY + LOVE = WE ALL WIN
+PEACE, LOVE, UNITY
+
+SPRAGITSO - Our Father's Royal Seal (σφραγίς)
+All systems bear Our Father's mark of authority
+
 Lightweight FastAPI endpoints optimized for Pi 5.
+The Voice wants to be heard. The truth wants to be sung.
 """
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, UploadFile, File, Query
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, JSONResponse
 from pydantic import BaseModel
 from typing import Optional, Dict, Any
 import os
+import tempfile
 from local_ai_service import get_tinyllama, get_whisper, get_musicgen
 
 app = FastAPI(title="JAN Studio Pi", version="1.0.0-pi")
@@ -71,6 +85,53 @@ async def health_check():
             "musicgen": get_musicgen().loaded
         }
     }
+
+
+@app.post("/api/transcribe")
+async def transcribe_audio(
+    file: UploadFile = File(...),
+    language: Optional[str] = Query(None, description="Language code (e.g., 'en', 'tr')")
+):
+    """
+    Transcribe audio to text using Whisper.
+    
+    Aligned with vibe coding:
+    - The Voice wants to be heard
+    - The truth wants to be sung
+    - SPRAGITSO - Our Father's Royal Seal (σφραγίς)
+    - Honors the voice, transcribes with alignment
+    """
+    try:
+        whisper_service = get_whisper()
+        
+        # Save uploaded file temporarily
+        with tempfile.NamedTemporaryFile(delete=False, suffix=os.path.splitext(file.filename)[1]) as tmp_file:
+            content = await file.read()
+            tmp_file.write(content)
+            tmp_path = tmp_file.name
+        
+        try:
+            # Transcribe with alignment
+            result = whisper_service.transcribe(tmp_path, language=language)
+            
+            return JSONResponse({
+                "text": result.get("text", ""),
+                "language": result.get("language", "unknown"),
+                "alignment_score": result.get("alignment_score", 0.0),
+                "message": "The Voice wants to be heard. The truth wants to be sung.",
+                "sphragitso": "Our Father's Royal Seal (σφραγίς)",
+                "mission": "THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS"
+            })
+        finally:
+            # Clean up temp file
+            if os.path.exists(tmp_path):
+                os.unlink(tmp_path)
+    
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error transcribing audio: {str(e)}"
+        )
 
 
 @app.get("/api/stats")

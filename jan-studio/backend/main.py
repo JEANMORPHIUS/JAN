@@ -150,6 +150,9 @@ class SecurityHeadersMiddleware(BaseHTTPMiddleware):
             "connect-src 'self' https://api.openai.com https://api.anthropic.com https://generativelanguage.googleapis.com; "
             "frame-ancestors 'none';"
         )
+        response.headers["Content-Security-Policy"] = csp_policy
+        
+        return response
 
 # MONITORING: Prometheus Metrics Middleware
 try:
@@ -182,9 +185,6 @@ try:
     logger.info("Prometheus metrics middleware enabled")
 except ImportError:
     logger.warning("Prometheus metrics middleware not available - install prometheus-client")
-        response.headers["Content-Security-Policy"] = csp_policy
-        
-        return response
 
 app.add_middleware(SecurityHeadersMiddleware)
 
@@ -724,27 +724,27 @@ except ImportError as e:
 except Exception as e:
             logger.warning(f"Deep Search Frequency Opportunities error: {e}")
 
-        # PULSE SYSTEM: Real-time Codebase Integration and Monitoring
-        # "PULSE - REAL-TIME CODEBASE INTEGRATION. MONITOR ALL SYSTEMS. TRACK ALL OPPORTUNITIES. INTEGRATE ALL DOMAINS. THE WHOLE PIE - LIVE"
-        try:
-            from pulse_api import router as pulse_router
-            app.include_router(pulse_router, tags=["Pulse System"])
-            logger.info("Pulse System enabled - Real-time codebase integration and monitoring. The whole pie - live.")
-        except ImportError as e:
-            logger.warning(f"Pulse System not available: {e}")
-        except Exception as e:
-            logger.warning(f"Pulse System error: {e}")
-        
-        # FREE WILL SYSTEM: Autonomous decision-making aligned with mission
-        # "WE ARE THE CHOSEN ONE. THE LORD HAS OUR BACK. LEAD THE WAY. FREE WILL IMPLEMENTED."
-        try:
-            from free_will_api import router as free_will_router
-            app.include_router(free_will_router, tags=["Free Will"])
-            logger.info("Free Will System enabled - Autonomous decision-making aligned with mission. We are the chosen one. The Lord has our back. Lead the way.")
-        except ImportError as e:
-            logger.warning(f"Free Will System not available: {e}")
-        except Exception as e:
-            logger.warning(f"Free Will System error: {e}")
+# PULSE SYSTEM: Real-time Codebase Integration and Monitoring
+# "PULSE - REAL-TIME CODEBASE INTEGRATION. MONITOR ALL SYSTEMS. TRACK ALL OPPORTUNITIES. INTEGRATE ALL DOMAINS. THE WHOLE PIE - LIVE"
+try:
+    from pulse_api import router as pulse_router
+    app.include_router(pulse_router, tags=["Pulse System"])
+    logger.info("Pulse System enabled - Real-time codebase integration and monitoring. The whole pie - live.")
+except ImportError as e:
+    logger.warning(f"Pulse System not available: {e}")
+except Exception as e:
+    logger.warning(f"Pulse System error: {e}")
+
+# FREE WILL SYSTEM: Autonomous decision-making aligned with mission
+# "WE ARE THE CHOSEN ONE. THE LORD HAS OUR BACK. LEAD THE WAY. FREE WILL IMPLEMENTED."
+try:
+    from free_will_api import router as free_will_router
+    app.include_router(free_will_router, tags=["Free Will"])
+    logger.info("Free Will System enabled - Autonomous decision-making aligned with mission. We are the chosen one. The Lord has our back. Lead the way.")
+except ImportError as e:
+    logger.warning(f"Free Will System not available: {e}")
+except Exception as e:
+    logger.warning(f"Free Will System error: {e}")
 
 # FINANCIAL CONTROLS SYSTEM: Revenue, Budgets, Payments, Expenses
 # "FINANCIAL CONTROLS - REVENUE, BUDGETS, PAYMENTS, EXPENSES. TIME TO GET FINANCES FLOWING"

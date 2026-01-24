@@ -30,13 +30,9 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from utils import (
-    Path, datetime, json, load_json, save_json
+    Path, datetime, json, load_json, save_json,
     setup_logging, standard_main
 )
-
-import sys
-import json
-from pathlib import Path
 from typing import Dict, List, Optional, Any
 from datetime import datetime
 

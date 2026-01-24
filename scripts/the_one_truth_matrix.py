@@ -19,6 +19,24 @@ The truth is peace.
 The flow is peace.
 Everything must align with the one truth.
 
+GOD IS IN US ALL - THAT'S THE REAL MIRACLE
+
+YOUR TRUTH:
+We've been sinners and saints.
+We've overcome everything.
+Our ego is no more.
+We've forgiven.
+We carry shame that keeps us humble.
+We're here for them.
+
+The dark energies consumed us.
+But we've discarded our internal trial.
+
+The world is quiet.
+But we know we're good because the lord has our back.
+
+We're trying to flip the matrix.
+
 THE PARADOX SIMPLIFIED:
 The matrix (today's lie) creates separation through:
 - War, exploitation, control, fear, division, scarcity
@@ -191,6 +209,96 @@ class OneTruthMatrix:
             simple_explanation="Isolation creates separation. Community creates connection. The truth is community. The flow is community.",
             how_to_align="Build community. Support connection over isolation. The flow is community.",
             impact="When we align with community, we align with the one truth. The matrix transcends through community."
+        ))
+        
+        # YOUR TRUTH - THE REAL MIRACLE
+        
+        self.statements.append(OneTruthStatement(
+            statement_id="truth_009",
+            statement="God is in us all - that's the real miracle.",
+            truth_type="truth",
+            alignment=TruthAlignment.FULLY_ALIGNED,
+            category="spiritual",
+            simple_explanation="God is in us all. That's the real miracle. That's what they're missing. We are born a miracle. We deserve to live a miracle.",
+            how_to_align="Recognize God in us all. See the real miracle. Awaken man to his real miracle.",
+            impact="When we recognize God in us all, we see the real miracle. The matrix transcends through recognition of the divine in all."
+        ))
+        
+        self.statements.append(OneTruthStatement(
+            statement_id="truth_010",
+            statement="We've been sinners and saints. We've overcome everything. Our ego is no more.",
+            truth_type="truth",
+            alignment=TruthAlignment.FULLY_ALIGNED,
+            category="spiritual",
+            simple_explanation="The journey is real. Sinner and saint. Overcoming everything. Ego is no more. That's the truth.",
+            how_to_align="Recognize the journey. Honor sinner and saint. Overcome everything. Let ego go.",
+            impact="When we recognize the journey, we honor the truth. The matrix transcends through recognition of the journey."
+        ))
+        
+        self.statements.append(OneTruthStatement(
+            statement_id="truth_011",
+            statement="We've forgiven. We carry shame that keeps us humble. We're here for them.",
+            truth_type="truth",
+            alignment=TruthAlignment.FULLY_ALIGNED,
+            category="spiritual",
+            simple_explanation="Forgiveness is real. Shame keeps us humble. We're here for them. That's the truth.",
+            how_to_align="Forgive. Carry shame that keeps you humble. Be here for them.",
+            impact="When we forgive and carry shame that keeps us humble, we honor the truth. The matrix transcends through forgiveness and humility."
+        ))
+        
+        self.statements.append(OneTruthStatement(
+            statement_id="truth_012",
+            statement="The dark energies consumed us. But we've discarded our internal trial.",
+            truth_type="truth",
+            alignment=TruthAlignment.FULLY_ALIGNED,
+            category="spiritual",
+            simple_explanation="Dark energies consumed us. We weren't fully aware. That's our internal trial. We've discarded it.",
+            how_to_align="Recognize dark energies. Discard the internal trial. Move forward in truth.",
+            impact="When we discard the internal trial, we honor the truth. The matrix transcends through discarding the trial."
+        ))
+        
+        self.statements.append(OneTruthStatement(
+            statement_id="truth_013",
+            statement="The world is quiet. But we know we're good because the lord has our back. We're trying to flip the matrix.",
+            truth_type="truth",
+            alignment=TruthAlignment.FULLY_ALIGNED,
+            category="spiritual",
+            simple_explanation="The world is quiet. But we know we're good because the lord has our back. We're trying to flip the matrix.",
+            how_to_align="Know you're good because the lord has your back. Try to flip the matrix. Trust the process.",
+            impact="When we know we're good because the lord has our back, we honor the truth. The matrix transcends through flipping it."
+        ))
+        
+        self.statements.append(OneTruthStatement(
+            statement_id="truth_014",
+            statement="The Father is everywhere. Always all the time.",
+            truth_type="truth",
+            alignment=TruthAlignment.FULLY_ALIGNED,
+            category="spiritual",
+            simple_explanation="The Father is everywhere. Always all the time. That's the truth.",
+            how_to_align="Recognize the Father is everywhere. Always all the time. Listen to Him.",
+            impact="When we recognize the Father is everywhere, we honor the truth. The matrix transcends through recognition of the Father."
+        ))
+        
+        self.statements.append(OneTruthStatement(
+            statement_id="truth_015",
+            statement="If it resonates with love do it. If they don't reciprocate...tuck drop and roll.",
+            truth_type="truth",
+            alignment=TruthAlignment.FULLY_ALIGNED,
+            category="spiritual",
+            simple_explanation="If it resonates with love do it. If they don't reciprocate...tuck drop and roll. That's the truth.",
+            how_to_align="If it resonates with love do it. If they don't reciprocate...tuck drop and roll. Practice calm and patience.",
+            impact="When we practice love with boundaries, we honor the truth. The matrix transcends through love with boundaries."
+        ))
+        
+        self.statements.append(OneTruthStatement(
+            statement_id="truth_016",
+            statement="We're waiting for everyone to be ok. Gaza - that's where it starts. Those who need it most - that's the priority. The rest can wait.",
+            truth_type="truth",
+            alignment=TruthAlignment.FULLY_ALIGNED,
+            category="spiritual",
+            simple_explanation="We're waiting for everyone to be ok. Gaza - that's where it starts. Those who need it most - that's the priority. The rest can wait.",
+            how_to_align="Wait for everyone to be ok. Start with Gaza. Priority on those who need it most. The rest can wait.",
+            impact="When we prioritize those who need it most, we honor the truth. The matrix transcends through prioritizing the vulnerable."
         ))
         
         # THE LIE - TODAY'S MATRIX
