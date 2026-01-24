@@ -1,0 +1,150 @@
+{
+  "tasks": {
+    "oracle_matrix": {
+      "interval_seconds": 3600,
+      "enabled": true,
+      "max_retries": 3,
+      "retry_delay_seconds": 60,
+      "timeout_seconds": 300,
+      "last_run": null,
+      "next_run": "2026-01-24T13:37:40.181217",
+      "status": "pending",
+      "error_count": 0,
+      "success_count": 0
+    },
+    "timeline_integration": {
+      "interval_seconds": 1800,
+      "enabled": true,
+      "max_retries": 3,
+      "retry_delay_seconds": 60,
+      "timeout_seconds": 300,
+      "last_run": null,
+      "next_run": "2026-01-24T13:37:40.181240",
+      "status": "pending",
+      "error_count": 0,
+      "success_count": 0
+    },
+    "dialects_sync": {
+      "interval_seconds": 3600,
+      "enabled": true,
+      "max_retries": 3,
+      "retry_delay_seconds": 60,
+      "timeout_seconds": 300,
+      "last_run": null,
+      "next_run": "2026-01-24T13:37:40.181244",
+      "status": "pending",
+      "error_count": 0,
+      "success_count": 0
+    },
+    "false_gods_monitor": {
+      "interval_seconds": 7200,
+      "enabled": true,
+      "max_retries": 3,
+      "retry_delay_seconds": 60,
+      "timeout_seconds": 300,
+      "last_run": null,
+      "next_run": "2026-01-24T13:37:40.181245",
+      "status": "pending",
+      "error_count": 0,
+      "success_count": 0
+    },
+    "bridge_for_all": {
+      "interval_seconds": 3600,
+      "enabled": true,
+      "max_retries": 3,
+      "retry_delay_seconds": 60,
+      "timeout_seconds": 300,
+      "last_run": null,
+      "next_run": "2026-01-24T13:37:40.181247",
+      "status": "pending",
+      "error_count": 0,
+      "success_count": 0
+    },
+    "spiritual_roles_sync": {
+      "interval_seconds": 3600,
+      "enabled": true,
+      "max_retries": 3,
+      "retry_delay_seconds": 60,
+      "timeout_seconds": 300,
+      "last_run": null,
+      "next_run": "2026-01-24T13:37:40.181248",
+      "status": "pending",
+      "error_count": 0,
+      "success_count": 0
+    },
+    "scripture_scheduler": {
+      "interval_seconds": 86400,
+      "enabled": true,
+      "max_retries": 3,
+      "retry_delay_seconds": 60,
+      "timeout_seconds": 300,
+      "last_run": null,
+      "next_run": "2026-01-24T13:37:40.181249",
+      "status": "pending",
+      "error_count": 0,
+      "success_count": 0
+    },
+    "content_population": {
+      "interval_seconds": 3600,
+      "enabled": true,
+      "max_retries": 3,
+      "retry_delay_seconds": 60,
+      "timeout_seconds": 300,
+      "last_run": null,
+      "next_run": "2026-01-24T13:37:40.181250",
+      "status": "pending",
+      "error_count": 0,
+      "success_count": 0
+    },
+    "data_ingest": {
+      "interval_seconds": 1800,
+      "enabled": true,
+      "max_retries": 3,
+      "retry_delay_seconds": 60,
+      "timeout_seconds": 300,
+      "last_run": null,
+      "next_run": "2026-01-24T13:37:40.181251",
+      "status": "pending",
+      "error_count": 0,
+      "success_count": 0
+    },
+    "system_health": {
+      "interval_seconds": 300,
+      "enabled": true,
+      "max_retries": 3,
+      "retry_delay_seconds": 60,
+      "timeout_seconds": 300,
+      "last_run": null,
+      "next_run": "2026-01-24T13:37:40.181252",
+      "status": "pending",
+      "error_count": 0,
+      "success_count": 0
+    },
+    "metrics_export": {
+      "interval_seconds": 60,
+      "enabled": true,
+      "max_retries": 3,
+      "retry_delay_seconds": 60,
+      "timeout_seconds": 300,
+      "last_run": null,
+      "next_run": "2026-01-24T13:37:40.181253",
+      "status": "pending",
+      "error_count": 0,
+      "success_count": 0
+    },
+    "cleanup": {
+      "interval_seconds": 86400,
+      "enabled": true,
+      "max_retries": 3,
+      "retry_delay_seconds": 60,
+      "timeout_seconds": 300,
+      "last_run": null,
+      "next_run": "2026-01-24T13:37:40.181254",
+      "status": "pending",
+      "error_count": 0,
+      "success_count": 0
+    }
+  },
+  "last_updated": "2026-01-24T13:37:40.181256",
+  "sphragitso": "σφραγίς"
+}
