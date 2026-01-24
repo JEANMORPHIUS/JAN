@@ -1,0 +1,864 @@
+{
+  "timestamp": "2026-01-24T21:20:30.645091",
+  "total_materials": 50,
+  "styles": {
+    "peter_kay": 20,
+    "bill_bailey": 5,
+    "eddie_izzard": 5,
+    "sean_lock": 5,
+    "milton_jones": 8,
+    "gary_delaney": 7
+  },
+  "materials": [
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time mum's phone calls, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time mum's cooking, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time mum's advice, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time mum's reactions, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time mum's sayings, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time family gatherings, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time mum's habits, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time mum's stories, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time mum's shopping, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time mum's tv watching, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time mum's cleaning, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time mum's worrying, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time mum's cooking disasters, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time mum's sayings in two languages, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time mum's reactions to technology, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time mum's stories about the past, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time mum's advice that makes no sense, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time mum's habits that drive you crazy, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time mum's love language, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "peter_kay",
+      "category": "Observational Family Comedy",
+      "setup": "Ma mère, elle... she does this thing where...",
+      "observation": "Every time mum's way of saying things, she...",
+      "wordplay": "",
+      "punchline": "Like she's been doing this since before I was born",
+      "bilingual_delivery": "C'est ma mère... she's like...",
+      "delivery_notes": "Warm, relatable, nostalgic. Bilingual code-switching mid-observation.",
+      "tags": [
+        "family",
+        "mum",
+        "observational",
+        "bilingual",
+        "peter_kay"
+      ]
+    },
+    {
+      "style": "milton_jones",
+      "category": "One-Liner",
+      "setup": "Ma mère dit... my mum says...",
+      "observation": "",
+      "wordplay": "I'm not old, I'm vintage. Like a bottle of wine that's been open too long.",
+      "punchline": "She's not vintage, she's vinegar.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Rapid, punchy. Bilingual wordplay.",
+      "tags": [
+        "one_liner",
+        "wordplay",
+        "mum",
+        "bilingual",
+        "milton_jones"
+      ]
+    },
+    {
+      "style": "gary_delaney",
+      "category": "One-Liner (Dark)",
+      "setup": "My mum's cooking...",
+      "observation": "",
+      "wordplay": "She says it's organic. It's been organic for three weeks.",
+      "punchline": "It's not organic, it's archaeology.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Rapid, dark. Bilingual dark humor.",
+      "tags": [
+        "one_liner",
+        "dark",
+        "mum",
+        "bilingual",
+        "gary_delaney"
+      ]
+    },
+    {
+      "style": "milton_jones",
+      "category": "One-Liner",
+      "setup": "Ma mère dit... my mum says...",
+      "observation": "",
+      "wordplay": "I'm not old, I'm vintage. Like a bottle of wine that's been open too long.",
+      "punchline": "She's not vintage, she's vinegar.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Rapid, punchy. Bilingual wordplay.",
+      "tags": [
+        "one_liner",
+        "wordplay",
+        "mum",
+        "bilingual",
+        "milton_jones"
+      ]
+    },
+    {
+      "style": "gary_delaney",
+      "category": "One-Liner (Dark)",
+      "setup": "My mum's cooking...",
+      "observation": "",
+      "wordplay": "She says it's organic. It's been organic for three weeks.",
+      "punchline": "It's not organic, it's archaeology.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Rapid, dark. Bilingual dark humor.",
+      "tags": [
+        "one_liner",
+        "dark",
+        "mum",
+        "bilingual",
+        "gary_delaney"
+      ]
+    },
+    {
+      "style": "milton_jones",
+      "category": "One-Liner",
+      "setup": "Ma mère dit... my mum says...",
+      "observation": "",
+      "wordplay": "I'm not old, I'm vintage. Like a bottle of wine that's been open too long.",
+      "punchline": "She's not vintage, she's vinegar.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Rapid, punchy. Bilingual wordplay.",
+      "tags": [
+        "one_liner",
+        "wordplay",
+        "mum",
+        "bilingual",
+        "milton_jones"
+      ]
+    },
+    {
+      "style": "gary_delaney",
+      "category": "One-Liner (Dark)",
+      "setup": "My mum's cooking...",
+      "observation": "",
+      "wordplay": "She says it's organic. It's been organic for three weeks.",
+      "punchline": "It's not organic, it's archaeology.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Rapid, dark. Bilingual dark humor.",
+      "tags": [
+        "one_liner",
+        "dark",
+        "mum",
+        "bilingual",
+        "gary_delaney"
+      ]
+    },
+    {
+      "style": "milton_jones",
+      "category": "One-Liner",
+      "setup": "Ma mère dit... my mum says...",
+      "observation": "",
+      "wordplay": "I'm not old, I'm vintage. Like a bottle of wine that's been open too long.",
+      "punchline": "She's not vintage, she's vinegar.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Rapid, punchy. Bilingual wordplay.",
+      "tags": [
+        "one_liner",
+        "wordplay",
+        "mum",
+        "bilingual",
+        "milton_jones"
+      ]
+    },
+    {
+      "style": "gary_delaney",
+      "category": "One-Liner (Dark)",
+      "setup": "My mum's cooking...",
+      "observation": "",
+      "wordplay": "She says it's organic. It's been organic for three weeks.",
+      "punchline": "It's not organic, it's archaeology.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Rapid, dark. Bilingual dark humor.",
+      "tags": [
+        "one_liner",
+        "dark",
+        "mum",
+        "bilingual",
+        "gary_delaney"
+      ]
+    },
+    {
+      "style": "milton_jones",
+      "category": "One-Liner",
+      "setup": "Ma mère dit... my mum says...",
+      "observation": "",
+      "wordplay": "I'm not old, I'm vintage. Like a bottle of wine that's been open too long.",
+      "punchline": "She's not vintage, she's vinegar.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Rapid, punchy. Bilingual wordplay.",
+      "tags": [
+        "one_liner",
+        "wordplay",
+        "mum",
+        "bilingual",
+        "milton_jones"
+      ]
+    },
+    {
+      "style": "gary_delaney",
+      "category": "One-Liner (Dark)",
+      "setup": "My mum's cooking...",
+      "observation": "",
+      "wordplay": "She says it's organic. It's been organic for three weeks.",
+      "punchline": "It's not organic, it's archaeology.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Rapid, dark. Bilingual dark humor.",
+      "tags": [
+        "one_liner",
+        "dark",
+        "mum",
+        "bilingual",
+        "gary_delaney"
+      ]
+    },
+    {
+      "style": "milton_jones",
+      "category": "One-Liner",
+      "setup": "Ma mère dit... my mum says...",
+      "observation": "",
+      "wordplay": "I'm not old, I'm vintage. Like a bottle of wine that's been open too long.",
+      "punchline": "She's not vintage, she's vinegar.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Rapid, punchy. Bilingual wordplay.",
+      "tags": [
+        "one_liner",
+        "wordplay",
+        "mum",
+        "bilingual",
+        "milton_jones"
+      ]
+    },
+    {
+      "style": "gary_delaney",
+      "category": "One-Liner (Dark)",
+      "setup": "My mum's cooking...",
+      "observation": "",
+      "wordplay": "She says it's organic. It's been organic for three weeks.",
+      "punchline": "It's not organic, it's archaeology.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Rapid, dark. Bilingual dark humor.",
+      "tags": [
+        "one_liner",
+        "dark",
+        "mum",
+        "bilingual",
+        "gary_delaney"
+      ]
+    },
+    {
+      "style": "milton_jones",
+      "category": "One-Liner",
+      "setup": "Ma mère dit... my mum says...",
+      "observation": "",
+      "wordplay": "I'm not old, I'm vintage. Like a bottle of wine that's been open too long.",
+      "punchline": "She's not vintage, she's vinegar.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Rapid, punchy. Bilingual wordplay.",
+      "tags": [
+        "one_liner",
+        "wordplay",
+        "mum",
+        "bilingual",
+        "milton_jones"
+      ]
+    },
+    {
+      "style": "gary_delaney",
+      "category": "One-Liner (Dark)",
+      "setup": "My mum's cooking...",
+      "observation": "",
+      "wordplay": "She says it's organic. It's been organic for three weeks.",
+      "punchline": "It's not organic, it's archaeology.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Rapid, dark. Bilingual dark humor.",
+      "tags": [
+        "one_liner",
+        "dark",
+        "mum",
+        "bilingual",
+        "gary_delaney"
+      ]
+    },
+    {
+      "style": "milton_jones",
+      "category": "One-Liner",
+      "setup": "Ma mère dit... my mum says...",
+      "observation": "",
+      "wordplay": "I'm not old, I'm vintage. Like a bottle of wine that's been open too long.",
+      "punchline": "She's not vintage, she's vinegar.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Rapid, punchy. Bilingual wordplay.",
+      "tags": [
+        "one_liner",
+        "wordplay",
+        "mum",
+        "bilingual",
+        "milton_jones"
+      ]
+    },
+    {
+      "style": "eddie_izzard",
+      "category": "Surreal Stream-of-Consciousness",
+      "setup": "C'est comme... it's like... imagine if...",
+      "observation": "Your mum is a phone. No, wait. Your phone is a mum. No...",
+      "wordplay": "",
+      "punchline": "But the phone is also a bird. And the bird is also a mum. Logic.",
+      "bilingual_delivery": "Ma mère, elle... she's like a phone that never stops ringing...",
+      "delivery_notes": "Flowing, tangential. Seamless bilingual switching.",
+      "tags": [
+        "surreal",
+        "stream_of_consciousness",
+        "mum",
+        "bilingual",
+        "eddie_izzard"
+      ]
+    },
+    {
+      "style": "eddie_izzard",
+      "category": "Surreal Stream-of-Consciousness",
+      "setup": "C'est comme... it's like... imagine if...",
+      "observation": "Your mum is a phone. No, wait. Your phone is a mum. No...",
+      "wordplay": "",
+      "punchline": "But the phone is also a bird. And the bird is also a mum. Logic.",
+      "bilingual_delivery": "Ma mère, elle... she's like a phone that never stops ringing...",
+      "delivery_notes": "Flowing, tangential. Seamless bilingual switching.",
+      "tags": [
+        "surreal",
+        "stream_of_consciousness",
+        "mum",
+        "bilingual",
+        "eddie_izzard"
+      ]
+    },
+    {
+      "style": "eddie_izzard",
+      "category": "Surreal Stream-of-Consciousness",
+      "setup": "C'est comme... it's like... imagine if...",
+      "observation": "Your mum is a phone. No, wait. Your phone is a mum. No...",
+      "wordplay": "",
+      "punchline": "But the phone is also a bird. And the bird is also a mum. Logic.",
+      "bilingual_delivery": "Ma mère, elle... she's like a phone that never stops ringing...",
+      "delivery_notes": "Flowing, tangential. Seamless bilingual switching.",
+      "tags": [
+        "surreal",
+        "stream_of_consciousness",
+        "mum",
+        "bilingual",
+        "eddie_izzard"
+      ]
+    },
+    {
+      "style": "eddie_izzard",
+      "category": "Surreal Stream-of-Consciousness",
+      "setup": "C'est comme... it's like... imagine if...",
+      "observation": "Your mum is a phone. No, wait. Your phone is a mum. No...",
+      "wordplay": "",
+      "punchline": "But the phone is also a bird. And the bird is also a mum. Logic.",
+      "bilingual_delivery": "Ma mère, elle... she's like a phone that never stops ringing...",
+      "delivery_notes": "Flowing, tangential. Seamless bilingual switching.",
+      "tags": [
+        "surreal",
+        "stream_of_consciousness",
+        "mum",
+        "bilingual",
+        "eddie_izzard"
+      ]
+    },
+    {
+      "style": "eddie_izzard",
+      "category": "Surreal Stream-of-Consciousness",
+      "setup": "C'est comme... it's like... imagine if...",
+      "observation": "Your mum is a phone. No, wait. Your phone is a mum. No...",
+      "wordplay": "",
+      "punchline": "But the phone is also a bird. And the bird is also a mum. Logic.",
+      "bilingual_delivery": "Ma mère, elle... she's like a phone that never stops ringing...",
+      "delivery_notes": "Flowing, tangential. Seamless bilingual switching.",
+      "tags": [
+        "surreal",
+        "stream_of_consciousness",
+        "mum",
+        "bilingual",
+        "eddie_izzard"
+      ]
+    },
+    {
+      "style": "bill_bailey",
+      "category": "Musical Comedy",
+      "setup": "Ma mère chante... my mum sings...",
+      "observation": "[Beat] She sings like... [rhythm] ...a bird that's been to music school",
+      "wordplay": "",
+      "punchline": "She's not bilingual, she's bi-musical.",
+      "bilingual_delivery": "Elle chante... she sings... [beat] ...in two languages at once",
+      "delivery_notes": "Musical, rhythmic. Bilingual musical comedy.",
+      "tags": [
+        "musical",
+        "comedy",
+        "mum",
+        "bilingual",
+        "bill_bailey"
+      ]
+    },
+    {
+      "style": "bill_bailey",
+      "category": "Musical Comedy",
+      "setup": "Ma mère chante... my mum sings...",
+      "observation": "[Beat] She sings like... [rhythm] ...a bird that's been to music school",
+      "wordplay": "",
+      "punchline": "She's not bilingual, she's bi-musical.",
+      "bilingual_delivery": "Elle chante... she sings... [beat] ...in two languages at once",
+      "delivery_notes": "Musical, rhythmic. Bilingual musical comedy.",
+      "tags": [
+        "musical",
+        "comedy",
+        "mum",
+        "bilingual",
+        "bill_bailey"
+      ]
+    },
+    {
+      "style": "bill_bailey",
+      "category": "Musical Comedy",
+      "setup": "Ma mère chante... my mum sings...",
+      "observation": "[Beat] She sings like... [rhythm] ...a bird that's been to music school",
+      "wordplay": "",
+      "punchline": "She's not bilingual, she's bi-musical.",
+      "bilingual_delivery": "Elle chante... she sings... [beat] ...in two languages at once",
+      "delivery_notes": "Musical, rhythmic. Bilingual musical comedy.",
+      "tags": [
+        "musical",
+        "comedy",
+        "mum",
+        "bilingual",
+        "bill_bailey"
+      ]
+    },
+    {
+      "style": "bill_bailey",
+      "category": "Musical Comedy",
+      "setup": "Ma mère chante... my mum sings...",
+      "observation": "[Beat] She sings like... [rhythm] ...a bird that's been to music school",
+      "wordplay": "",
+      "punchline": "She's not bilingual, she's bi-musical.",
+      "bilingual_delivery": "Elle chante... she sings... [beat] ...in two languages at once",
+      "delivery_notes": "Musical, rhythmic. Bilingual musical comedy.",
+      "tags": [
+        "musical",
+        "comedy",
+        "mum",
+        "bilingual",
+        "bill_bailey"
+      ]
+    },
+    {
+      "style": "bill_bailey",
+      "category": "Musical Comedy",
+      "setup": "Ma mère chante... my mum sings...",
+      "observation": "[Beat] She sings like... [rhythm] ...a bird that's been to music school",
+      "wordplay": "",
+      "punchline": "She's not bilingual, she's bi-musical.",
+      "bilingual_delivery": "Elle chante... she sings... [beat] ...in two languages at once",
+      "delivery_notes": "Musical, rhythmic. Bilingual musical comedy.",
+      "tags": [
+        "musical",
+        "comedy",
+        "mum",
+        "bilingual",
+        "bill_bailey"
+      ]
+    },
+    {
+      "style": "sean_lock",
+      "category": "Deadpan Absurdism",
+      "setup": "C'est normal, non? It's normal, right?",
+      "observation": "My mum puts salt in everything. Even salt.",
+      "wordplay": "",
+      "punchline": "She's not seasoning food, she's preserving it for future generations.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Deadpan, straight-faced. Bilingual deadpan.",
+      "tags": [
+        "deadpan",
+        "absurdism",
+        "mum",
+        "bilingual",
+        "sean_lock"
+      ]
+    },
+    {
+      "style": "sean_lock",
+      "category": "Deadpan Absurdism",
+      "setup": "C'est normal, non? It's normal, right?",
+      "observation": "My mum puts salt in everything. Even salt.",
+      "wordplay": "",
+      "punchline": "She's not seasoning food, she's preserving it for future generations.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Deadpan, straight-faced. Bilingual deadpan.",
+      "tags": [
+        "deadpan",
+        "absurdism",
+        "mum",
+        "bilingual",
+        "sean_lock"
+      ]
+    },
+    {
+      "style": "sean_lock",
+      "category": "Deadpan Absurdism",
+      "setup": "C'est normal, non? It's normal, right?",
+      "observation": "My mum puts salt in everything. Even salt.",
+      "wordplay": "",
+      "punchline": "She's not seasoning food, she's preserving it for future generations.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Deadpan, straight-faced. Bilingual deadpan.",
+      "tags": [
+        "deadpan",
+        "absurdism",
+        "mum",
+        "bilingual",
+        "sean_lock"
+      ]
+    },
+    {
+      "style": "sean_lock",
+      "category": "Deadpan Absurdism",
+      "setup": "C'est normal, non? It's normal, right?",
+      "observation": "My mum puts salt in everything. Even salt.",
+      "wordplay": "",
+      "punchline": "She's not seasoning food, she's preserving it for future generations.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Deadpan, straight-faced. Bilingual deadpan.",
+      "tags": [
+        "deadpan",
+        "absurdism",
+        "mum",
+        "bilingual",
+        "sean_lock"
+      ]
+    },
+    {
+      "style": "sean_lock",
+      "category": "Deadpan Absurdism",
+      "setup": "C'est normal, non? It's normal, right?",
+      "observation": "My mum puts salt in everything. Even salt.",
+      "wordplay": "",
+      "punchline": "She's not seasoning food, she's preserving it for future generations.",
+      "bilingual_delivery": "",
+      "delivery_notes": "Deadpan, straight-faced. Bilingual deadpan.",
+      "tags": [
+        "deadpan",
+        "absurdism",
+        "mum",
+        "bilingual",
+        "sean_lock"
+      ]
+    }
+  ]
+}

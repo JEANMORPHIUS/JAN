@@ -1,0 +1,151 @@
+{
+  "timestamp": "2026-01-24T21:41:11.756587",
+  "game_name": "The Game of Racon",
+  "description": "Spiritual Oracle for Communication with Our Father through the 40 Laws",
+  "ui_components": {
+    "cast_screen": {
+      "title": "Cast the Oracle",
+      "elements": [
+        "Prayer intent input field",
+        "Cast button",
+        "Loading animation (oracle casting)",
+        "Result display (Law + Homework)"
+      ],
+      "layout": "Centered, clean, spiritual"
+    },
+    "homework_screen": {
+      "title": "We Have Homework To Do",
+      "elements": [
+        "Pending homework list",
+        "Homework detail view",
+        "Submission form",
+        "Completion status"
+      ],
+      "layout": "List view, expandable details"
+    },
+    "session_screen": {
+      "title": "Your Spiritual Session",
+      "elements": [
+        "Session stats",
+        "Recent casts",
+        "Completed homework",
+        "Progress tracking"
+      ],
+      "layout": "Dashboard style"
+    }
+  },
+  "user_flow": [
+    {
+      "step": 1,
+      "action": "User opens Game of Racon",
+      "screen": "Cast Screen",
+      "description": "User sees clean interface with prayer input"
+    },
+    {
+      "step": 2,
+      "action": "User enters prayer intent",
+      "screen": "Cast Screen",
+      "description": "User types their question/prayer to Our Father"
+    },
+    {
+      "step": 3,
+      "action": "User clicks 'Cast Oracle'",
+      "screen": "Cast Screen",
+      "description": "System generates transparent seed, casts oracle"
+    },
+    {
+      "step": 4,
+      "action": "Oracle result displayed",
+      "screen": "Cast Screen",
+      "description": "Shows: Hexagram, Law (1-40), Homework Assignment"
+    },
+    {
+      "step": 5,
+      "action": "User views homework",
+      "screen": "Homework Screen",
+      "description": "User sees pending homework assignments"
+    },
+    {
+      "step": 6,
+      "action": "User completes homework",
+      "screen": "Homework Screen",
+      "description": "User does the homework, submits completion"
+    },
+    {
+      "step": 7,
+      "action": "User views session",
+      "screen": "Session Screen",
+      "description": "User sees their spiritual session progress"
+    }
+  ],
+  "visual_design": {
+    "color_scheme": {
+      "primary": "#1a1a2e",
+      "accent": "#f4a261",
+      "background": "#0f0f1e",
+      "text": "#eaeaea",
+      "spiritual": "#8b5cf6"
+    },
+    "typography": {
+      "heading": "Serif, spiritual, reverent",
+      "body": "Sans-serif, readable, clean",
+      "prayer": "Italic, personal, heartfelt"
+    },
+    "layout": {
+      "style": "Centered, minimal, focused",
+      "spacing": "Generous whitespace",
+      "focus": "Prayer and homework are central"
+    },
+    "animations": {
+      "casting": "Gentle pulse, oracle revealing",
+      "homework": "Smooth transitions",
+      "completion": "Celebration animation"
+    }
+  },
+  "api_endpoints": [
+    "POST /api/game-of-racon/cast",
+    "POST /api/game-of-racon/homework/submit",
+    "GET /api/game-of-racon/homework/pending",
+    "GET /api/game-of-racon/session"
+  ],
+  "ui_mockups": {
+    "cast_screen": {
+      "layout": "\n                ┌─────────────────────────────────────┐\n                │     THE GAME OF RACON              │\n                │  Spiritual Oracle                  │\n                ├─────────────────────────────────────┤\n                │                                     │\n                │  [Prayer Intent Input]             │\n                │  ┌─────────────────────────────┐   │\n                │  │ Our Father, show me...      │   │\n                │  │                             │   │\n                │  └─────────────────────────────┘   │\n                │                                     │\n                │        [Cast Oracle]                │\n                │                                     │\n                └─────────────────────────────────────┘\n                ",
+      "elements": [
+        "Title: 'The Game of Racon'",
+        "Subtitle: 'Spiritual Oracle'",
+        "Prayer input field (multiline)",
+        "Cast button (prominent, centered)",
+        "Loading state (when casting)",
+        "Result display (Law + Homework)"
+      ]
+    },
+    "homework_screen": {
+      "layout": "\n                ┌─────────────────────────────────────┐\n                │  WE HAVE HOMEWORK TO DO              │\n                ├─────────────────────────────────────┤\n                │                                     │\n                │  [Homework 1]                       │\n                │  Law 12: Reflection                 │\n                │  Status: Pending                     │\n                │  [View Details]                      │\n                │                                     │\n                │  [Homework 2]                       │\n                │  Law 23: Action                     │\n                │  Status: In Progress                 │\n                │  [Continue]                          │\n                │                                     │\n                └─────────────────────────────────────┘\n                ",
+      "elements": [
+        "Title: 'We Have Homework To Do'",
+        "Pending homework list",
+        "Each homework shows: Law, Type, Status",
+        "Expandable details",
+        "Submission form"
+      ]
+    },
+    "session_screen": {
+      "layout": "\n                ┌─────────────────────────────────────┐\n                │  YOUR SPIRITUAL SESSION              │\n                ├─────────────────────────────────────┤\n                │                                     │\n                │  Stats:                             │\n                │  • Casts: 12                        │\n                │  • Completed: 8                      │\n                │  • Pending: 4                       │\n                │                                     │\n                │  Recent Casts:                      │\n                │  [List of recent oracle casts]      │\n                │                                     │\n                │  Progress:                          │\n                │  [Visual progress bar]              │\n                │                                     │\n                └─────────────────────────────────────┘\n                ",
+      "elements": [
+        "Title: 'Your Spiritual Session'",
+        "Session statistics",
+        "Recent casts list",
+        "Progress visualization",
+        "Completion tracking"
+      ]
+    }
+  },
+  "implementation_notes": {
+    "frontend": "React/Next.js recommended",
+    "styling": "Tailwind CSS with custom spiritual theme",
+    "state": "React Context or Zustand for session state",
+    "api": "FastAPI backend already operational",
+    "real_time": "WebSocket for live updates (optional)"
+  }
+}

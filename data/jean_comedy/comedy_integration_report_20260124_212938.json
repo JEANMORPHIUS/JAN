@@ -1,0 +1,155 @@
+{
+  "timestamp": "2026-01-24T21:29:38.099294",
+  "integration_points": [
+    {
+      "system": "content_auto_populator",
+      "integration_type": "comedy_content_generation",
+      "workflow": [
+        "1. Detect comedy content request",
+        "2. Select comedy style based on entity/context",
+        "3. Generate comedy material",
+        "4. Format for content auto-populator",
+        "5. Return generated content"
+      ],
+      "comedy_styles_available": [
+        "peter_kay",
+        "hasan_can_kaya",
+        "bill_bailey",
+        "eddie_izzard",
+        "sean_lock",
+        "milton_jones",
+        "gary_delaney"
+      ],
+      "bilingual_support": true,
+      "languages": [
+        "French",
+        "English",
+        "Turkish"
+      ],
+      "status": "ready_for_integration"
+    },
+    {
+      "system": "entity_content_refinement",
+      "integration_type": "entity_comedy_content",
+      "workflow": [
+        "1. Entity requests comedy content",
+        "2. System routes to Jean Morphius comedy generator",
+        "3. Generate material in entity voice",
+        "4. Return through entity content API"
+      ],
+      "entity": "Jean Morphius",
+      "comedy_categories": [
+        "Observational Family Comedy",
+        "One-Liner Comedy",
+        "Surreal Stream-of-Consciousness",
+        "Musical Comedy",
+        "Deadpan Absurdism",
+        "Observational Conversational Comedy"
+      ],
+      "status": "ready_for_integration"
+    }
+  ],
+  "content_auto_populator": {
+    "system": "content_auto_populator",
+    "integration_type": "comedy_content_generation",
+    "workflow": [
+      "1. Detect comedy content request",
+      "2. Select comedy style based on entity/context",
+      "3. Generate comedy material",
+      "4. Format for content auto-populator",
+      "5. Return generated content"
+    ],
+    "comedy_styles_available": [
+      "peter_kay",
+      "hasan_can_kaya",
+      "bill_bailey",
+      "eddie_izzard",
+      "sean_lock",
+      "milton_jones",
+      "gary_delaney"
+    ],
+    "bilingual_support": true,
+    "languages": [
+      "French",
+      "English",
+      "Turkish"
+    ],
+    "status": "ready_for_integration"
+  },
+  "entity_content_refinement": {
+    "system": "entity_content_refinement",
+    "integration_type": "entity_comedy_content",
+    "workflow": [
+      "1. Entity requests comedy content",
+      "2. System routes to Jean Morphius comedy generator",
+      "3. Generate material in entity voice",
+      "4. Return through entity content API"
+    ],
+    "entity": "Jean Morphius",
+    "comedy_categories": [
+      "Observational Family Comedy",
+      "One-Liner Comedy",
+      "Surreal Stream-of-Consciousness",
+      "Musical Comedy",
+      "Deadpan Absurdism",
+      "Observational Conversational Comedy"
+    ],
+    "status": "ready_for_integration"
+  },
+  "comedy_template": {
+    "template_name": "jean_comedy_content",
+    "entity": "Jean Morphius",
+    "format": "text_short",
+    "bilingual": true,
+    "languages": [
+      "French",
+      "English",
+      "Turkish"
+    ],
+    "comedy_styles": {
+      "peter_kay": {
+        "description": "Observational family comedy",
+        "use_case": "Mum-focused, relatable family observations",
+        "delivery": "Warm, nostalgic, bilingual"
+      },
+      "hasan_can_kaya": {
+        "description": "Observational conversational comedy",
+        "use_case": "Natural conversation with observational humor",
+        "delivery": "Conversational, natural flow, trilingual"
+      },
+      "milton_jones": {
+        "description": "One-liner master",
+        "use_case": "Quick, punchy jokes",
+        "delivery": "Rapid, wordplay"
+      },
+      "gary_delaney": {
+        "description": "One-liner specialist (dark)",
+        "use_case": "Quick, dark humor",
+        "delivery": "Rapid, dark, wordplay"
+      },
+      "eddie_izzard": {
+        "description": "Surreal stream-of-consciousness",
+        "use_case": "Tangential, flowing observations",
+        "delivery": "Flowing, surreal, bilingual"
+      },
+      "bill_bailey": {
+        "description": "Musical/intellectual comedy",
+        "use_case": "Comedy through music",
+        "delivery": "Musical, rhythmic, bilingual"
+      },
+      "sean_lock": {
+        "description": "Deadpan absurdism",
+        "use_case": "Straight-faced absurdity",
+        "delivery": "Deadpan, absurd, bilingual"
+      }
+    },
+    "generation_prompt": "\nGenerate comedy content for Jean Morphius in {style} style.\n\nRequirements:\n- Bilingual/trilingual (French/English/Turkish)\n- Observational and relatable\n- Authentic Jean Morphius voice\n- {style_specific_notes}\n\nTopic: {topic}\nContext: {context}\n"
+  },
+  "status": "integration_ready",
+  "next_steps": [
+    "Implement content_auto_populator integration",
+    "Add comedy content to entity_content_refinement",
+    "Create comedy content API endpoint",
+    "Test integration workflows"
+  ]
+}

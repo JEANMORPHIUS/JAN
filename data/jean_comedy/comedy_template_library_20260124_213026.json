@@ -1,0 +1,156 @@
+{
+  "timestamp": "2026-01-24T21:30:26.159421",
+  "total_templates": 7,
+  "templates": {
+    "peter_kay": {
+      "name": "Peter Kay - Observational Family Comedy",
+      "description": "Warm, relatable, nostalgic family observations",
+      "structure": {
+        "setup": "Ma mère, elle... she does this thing where...",
+        "observation": "[Mum's specific behavior or habit]",
+        "bilingual_twist": "C'est ma mère... she's like...",
+        "punchline": "[Relatable truth that everyone recognizes]"
+      },
+      "delivery_notes": {
+        "tone": "Warm, relatable, nostalgic",
+        "pace": "Conversational, not rushed",
+        "bilingual_flow": "Seamless French/English switching",
+        "emphasis": "On the relatable truth"
+      },
+      "example_material": {
+        "setup": "Ma mère, elle... she does this thing where every time I call...",
+        "observation": "She answers the phone like she's been waiting for hours",
+        "bilingual_twist": "C'est ma mère... she's like 'Allo? Allo? C'est toi?'",
+        "punchline": "Like I'm calling from 1995 and she's been holding the phone since then"
+      }
+    },
+    "hasan_can_kaya": {
+      "name": "Hasan Can Kaya - Observational Conversational Comedy",
+      "description": "Natural, flowing conversation with observational humor",
+      "structure": {
+        "conversational_setup": "Bak, şimdi... look, now... ma mère, elle...",
+        "observational_flow": "We're talking, right? Normal conversation. But then...",
+        "bilingual_conversation": "O diyor ki... she says... 'Sen ne yapıyorsun?' What are you doing?",
+        "relatable_punchline": "[Observation that everyone recognizes from conversation]"
+      },
+      "delivery_notes": {
+        "tone": "Conversational, natural, observational",
+        "pace": "Natural conversation flow",
+        "bilingual_flow": "Turkish/French/English seamless switching",
+        "emphasis": "On the natural conversation observation"
+      },
+      "example_material": {
+        "conversational_setup": "Bak, şimdi... look, now... ma mère, elle...",
+        "observational_flow": "We're talking, right? Normal conversation about nothing. But then...",
+        "bilingual_conversation": "O diyor ki... she says... 'Sen ne yapıyorsun?' What are you doing?",
+        "relatable_punchline": "Like I'm not doing anything. I'm just existing. But that's apparently suspicious."
+      }
+    },
+    "milton_jones": {
+      "name": "Milton Jones - One-Liner Master",
+      "description": "Rapid-fire one-liners with wordplay",
+      "structure": {
+        "setup": "Ma mère dit... my mum says...",
+        "wordplay": "[Clever wordplay or pun]",
+        "punchline": "[Surreal twist on the wordplay]"
+      },
+      "delivery_notes": {
+        "tone": "Rapid, punchy, surreal",
+        "pace": "Quick delivery",
+        "bilingual_flow": "Bilingual wordplay",
+        "emphasis": "On the wordplay and twist"
+      },
+      "example_material": {
+        "setup": "Ma mère dit... my mum says...",
+        "wordplay": "I'm not old, I'm vintage. Like a bottle of wine that's been open too long.",
+        "punchline": "She's not vintage, she's vinegar."
+      }
+    },
+    "gary_delaney": {
+      "name": "Gary Delaney - One-Liner Specialist (Dark)",
+      "description": "Rapid-fire dark one-liners with wordplay",
+      "structure": {
+        "setup": "My mum's [topic]...",
+        "wordplay": "[Dark wordplay or pun]",
+        "punchline": "[Dark twist on the wordplay]"
+      },
+      "delivery_notes": {
+        "tone": "Rapid, dark, punchy",
+        "pace": "Quick delivery",
+        "bilingual_flow": "Bilingual dark wordplay",
+        "emphasis": "On the dark wordplay and twist"
+      },
+      "example_material": {
+        "setup": "My mum's cooking...",
+        "wordplay": "She says it's organic. It's been organic for three weeks.",
+        "punchline": "It's not organic, it's archaeology."
+      }
+    },
+    "eddie_izzard": {
+      "name": "Eddie Izzard - Surreal Stream-of-Consciousness",
+      "description": "Surreal, flowing, tangential observations",
+      "structure": {
+        "starting_point": "C'est comme... it's like... imagine if...",
+        "tangential_flow": "[Connected absurdity, flowing logic]",
+        "bilingual_switching": "Ma mère, elle... she's like...",
+        "surreal_conclusion": "[Logical illogic conclusion]"
+      },
+      "delivery_notes": {
+        "tone": "Flowing, tangential, surreal",
+        "pace": "Natural flow, not rushed",
+        "bilingual_flow": "Seamless language switching",
+        "emphasis": "On the surreal logic flow"
+      },
+      "example_material": {
+        "starting_point": "C'est comme... it's like... imagine if...",
+        "tangential_flow": "Your mum is a phone. No, wait. Your phone is a mum. No...",
+        "bilingual_switching": "Ma mère, elle... she's like a phone that never stops ringing...",
+        "surreal_conclusion": "But the phone is also a bird. And the bird is also a mum. Logic."
+      }
+    },
+    "bill_bailey": {
+      "name": "Bill Bailey - Musical Comedy",
+      "description": "Comedy through music and rhythm",
+      "structure": {
+        "setup": "Ma mère chante... my mum sings...",
+        "musical_element": "[Beat, rhythm, melody description]",
+        "bilingual_delivery": "Elle chante... she sings... [beat] ...in two languages at once",
+        "punchline": "[Musical/comedy fusion]"
+      },
+      "delivery_notes": {
+        "tone": "Musical, rhythmic, intellectual",
+        "pace": "Rhythm-based",
+        "bilingual_flow": "Bilingual musical comedy",
+        "emphasis": "On the musical element and comedy fusion"
+      },
+      "example_material": {
+        "setup": "Ma mère chante... my mum sings...",
+        "musical_element": "[Beat] She sings like... [rhythm] ...a bird that's been to music school",
+        "bilingual_delivery": "Elle chante... she sings... [beat] ...in two languages at once",
+        "punchline": "She's not bilingual, she's bi-musical."
+      }
+    },
+    "sean_lock": {
+      "name": "Sean Lock - Deadpan Absurdism",
+      "description": "Deadpan delivery of absurd observations",
+      "structure": {
+        "setup": "C'est normal, non? It's normal, right?",
+        "absurd_twist": "[Surreal but logical observation]",
+        "deadpan_delivery": "[Straight-faced absurd conclusion]"
+      },
+      "delivery_notes": {
+        "tone": "Deadpan, straight-faced, absurd",
+        "pace": "Deliberate, not rushed",
+        "bilingual_flow": "Deadpan in French/English",
+        "emphasis": "On the deadpan delivery of absurdity"
+      },
+      "example_material": {
+        "setup": "C'est normal, non? It's normal, right?",
+        "absurd_twist": "My mum puts salt in everything. Even salt.",
+        "deadpan_delivery": "She's not seasoning food, she's preserving it for future generations."
+      }
+    }
+  },
+  "usage": "Use templates to generate comedy material in specific styles",
+  "status": "template_library_complete"
+}
