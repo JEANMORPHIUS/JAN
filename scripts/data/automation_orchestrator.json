@@ -6,11 +6,11 @@
       "max_retries": 3,
       "retry_delay_seconds": 60,
       "timeout_seconds": 300,
-      "last_run": "2026-01-24T20:46:39.488279",
-      "next_run": "2026-01-24T21:46:39.501704",
+      "last_run": "2026-01-24T21:47:01.601150",
+      "next_run": "2026-01-24T22:47:01.615968",
       "status": "completed",
       "error_count": 0,
-      "success_count": 5
+      "success_count": 6
     },
     "timeline_integration": {
       "interval_seconds": 1800,
@@ -18,11 +18,11 @@
       "max_retries": 3,
       "retry_delay_seconds": 60,
       "timeout_seconds": 300,
-      "last_run": "2026-01-24T20:46:39.503818",
-      "next_run": "2026-01-24T21:16:39.506827",
+      "last_run": "2026-01-24T22:17:12.549032",
+      "next_run": "2026-01-24T22:47:12.564068",
       "status": "completed",
       "error_count": 0,
-      "success_count": 9
+      "success_count": 12
     },
     "dialects_sync": {
       "interval_seconds": 3600,
@@ -30,11 +30,11 @@
       "max_retries": 3,
       "retry_delay_seconds": 60,
       "timeout_seconds": 300,
-      "last_run": "2026-01-24T20:46:39.508684",
-      "next_run": "2026-01-24T21:46:39.510391",
+      "last_run": "2026-01-24T21:47:01.625802",
+      "next_run": "2026-01-24T22:47:01.627401",
       "status": "completed",
       "error_count": 0,
-      "success_count": 5
+      "success_count": 6
     },
     "false_gods_monitor": {
       "interval_seconds": 7200,
@@ -54,11 +54,11 @@
       "max_retries": 3,
       "retry_delay_seconds": 60,
       "timeout_seconds": 300,
-      "last_run": "2026-01-24T20:46:39.515738",
-      "next_run": "2026-01-24T21:46:39.518023",
+      "last_run": "2026-01-24T21:47:01.629352",
+      "next_run": "2026-01-24T22:47:01.631189",
       "status": "completed",
       "error_count": 0,
-      "success_count": 5
+      "success_count": 6
     },
     "spiritual_roles_sync": {
       "interval_seconds": 3600,
@@ -66,11 +66,11 @@
       "max_retries": 3,
       "retry_delay_seconds": 60,
       "timeout_seconds": 300,
-      "last_run": "2026-01-24T20:46:39.519419",
-      "next_run": "2026-01-24T21:46:39.520889",
+      "last_run": "2026-01-24T21:47:01.633060",
+      "next_run": "2026-01-24T22:47:01.634650",
       "status": "completed",
       "error_count": 0,
-      "success_count": 5
+      "success_count": 6
     },
     "scripture_scheduler": {
       "interval_seconds": 86400,
@@ -90,11 +90,11 @@
       "max_retries": 3,
       "retry_delay_seconds": 60,
       "timeout_seconds": 300,
-      "last_run": "2026-01-24T20:46:39.522224",
-      "next_run": "2026-01-24T21:46:39.523611",
+      "last_run": "2026-01-24T21:47:01.636345",
+      "next_run": "2026-01-24T22:47:01.638194",
       "status": "completed",
       "error_count": 0,
-      "success_count": 5
+      "success_count": 6
     },
     "data_ingest": {
       "interval_seconds": 1800,
@@ -102,11 +102,11 @@
       "max_retries": 3,
       "retry_delay_seconds": 60,
       "timeout_seconds": 300,
-      "last_run": "2026-01-24T20:46:39.524998",
-      "next_run": "2026-01-24T21:16:39.526342",
+      "last_run": "2026-01-24T22:17:12.567157",
+      "next_run": "2026-01-24T22:47:12.570232",
       "status": "completed",
       "error_count": 0,
-      "success_count": 9
+      "success_count": 12
     },
     "system_health": {
       "interval_seconds": 300,
@@ -114,11 +114,11 @@
       "max_retries": 3,
       "retry_delay_seconds": 60,
       "timeout_seconds": 300,
-      "last_run": "2026-01-24T21:06:46.881696",
-      "next_run": "2026-01-24T21:11:46.894491",
+      "last_run": "2026-01-24T22:22:14.354838",
+      "next_run": "2026-01-24T22:27:14.374446",
       "status": "completed",
       "error_count": 0,
-      "success_count": 53
+      "success_count": 68
     },
     "metrics_export": {
       "interval_seconds": 60,
@@ -126,11 +126,11 @@
       "max_retries": 3,
       "retry_delay_seconds": 60,
       "timeout_seconds": 300,
-      "last_run": "2026-01-24T21:08:48.646647",
-      "next_run": "2026-01-24T21:09:48.659755",
+      "last_run": "2026-01-24T22:25:16.083564",
+      "next_run": "2026-01-24T22:26:16.098659",
       "status": "completed",
       "error_count": 0,
-      "success_count": 263
+      "success_count": 339
     },
     "cleanup": {
       "interval_seconds": 86400,
@@ -150,11 +150,11 @@
       "max_retries": 3,
       "retry_delay_seconds": 60,
       "timeout_seconds": 300,
-      "last_run": "2026-01-24T21:06:46.899786",
-      "next_run": "2026-01-24T21:11:46.901618",
+      "last_run": "2026-01-24T22:22:14.383340",
+      "next_run": "2026-01-24T22:27:14.385820",
       "status": "completed",
       "error_count": 0,
-      "success_count": 53
+      "success_count": 68
     },
     "timeline_aligned_commits": {
       "interval_seconds": 300,
@@ -162,13 +162,13 @@
       "max_retries": 3,
       "retry_delay_seconds": 60,
       "timeout_seconds": 300,
-      "last_run": "2026-01-24T21:06:46.903438",
-      "next_run": "2026-01-24T21:11:48.613843",
+      "last_run": "2026-01-24T22:22:14.388537",
+      "next_run": "2026-01-24T22:27:16.009251",
       "status": "completed",
       "error_count": 0,
-      "success_count": 53
+      "success_count": 68
     }
   },
-  "last_updated": "2026-01-24T21:08:48.659763",
+  "last_updated": "2026-01-24T22:25:16.098671",
   "sphragitso": "σφραγίς"
 }

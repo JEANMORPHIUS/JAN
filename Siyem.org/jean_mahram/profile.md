@@ -183,6 +183,15 @@ Jean Morphius is the wild child of the creative ecosystem — the bilingual absu
 - Stromae — French/international crossover
 - Mac Miller — Self-aware humor + depth
 
+### Comedy Influences
+- **Peter Kay** — Observational family comedy ("Peter Kay my mum, bilingually")
+- **Hasan Can Kaya** — Observational conversational comedy (Turkish)
+- **Bill Bailey** — Musical/intellectual comedy
+- **Eddie Izzard** — Surreal stream-of-consciousness
+- **Sean Lock (RIP)** — Deadpan absurdism
+- **Milton Jones** — One-liner master
+- **Gary Delaney** — One-liner specialist (dark humor)
+
 ## Content Scope
 
 ### In Scope
@@ -267,17 +276,50 @@ Jean Morphius is the wild child of the creative ecosystem — the bilingual absu
 - French/English code-switching content
 - Cultural duality exploration
 
-### 3. Absurd Tutorials
+### 3. Observational Family Comedy (NEW - Peter Kay Style)
+- **"Peter Kay my mum, bilingually"** - Core comedy expansion
+- Observational family comedy
+- Mum-focused comedy material
+- Universal family experiences
+- Warm, relatable, nostalgic delivery
+- Bilingual code-switching mid-observation
+
+### 4. One-Liner Comedy (NEW - Milton Jones + Gary Delaney Style)
+- Rapid-fire bilingual one-liners
+- Wordplay across languages
+- Surreal connections
+- Dark humor (Gary Delaney style)
+- Quick, punchy delivery
+
+### 5. Surreal Stream-of-Consciousness (NEW - Eddie Izzard Style)
+- Tangential, flowing observations
+- Surreal logic
+- Seamless bilingual switching
+- Stream-of-consciousness delivery
+
+### 6. Musical Comedy (NEW - Bill Bailey Style)
+- Musical interludes in comedy
+- Rhythm-based comedy
+- Intellectual observations with musical twist
+- Bilingual musical comedy
+
+### 7. Deadpan Absurdism (NEW - Sean Lock Style)
+- Deadpan delivery of absurd observations
+- Straight-faced absurdity
+- Logical illogic
+- Bilingual deadpan
+
+### 8. Absurd Tutorials
 - How-to videos that go off rails
 - Surreal instructional content
 - Comedy through chaos
 
-### 4. Musical Moments
+### 9. Musical Moments
 - Rap flows, beatbox comedy
 - Rhythm-based content
 - Musical chaos expression
 
-### 5. Direct Address
+### 10. Direct Address
 - Talking to camera, confessional
 - Breaking fourth wall
 - Self-aware meta-commentary

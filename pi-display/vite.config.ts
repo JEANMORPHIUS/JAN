@@ -6,7 +6,9 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist',
+    // Disable sourcemaps in production for security
     sourcemap: process.env.NODE_ENV !== 'production',
+    // Use terser for minification
     minify: 'terser',
     terserOptions: {
       compress: {
@@ -14,17 +16,25 @@ export default defineConfig({
         drop_debugger: true,
       },
     },
+    // Optimize chunk splitting
     rollupOptions: {
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom'],
-          charts: ['chart.js', 'react-chartjs-2'],
         },
       },
     },
+    // Raspberry Pi has limited resources - optimize for smaller bundles
+    chunkSizeWarningLimit: 500,
   },
   server: {
     port: 3000,
-    open: true,
+    // For Raspberry Pi deployment
+    host: true,
+  },
+  // Optimize for production
+  esbuild: {
+    // Drop console in production
+    drop: process.env.NODE_ENV === 'production' ? ['console', 'debugger'] : [],
   },
 })

@@ -1,0 +1,196 @@
+# JAN Studio Alert Rules
+# Prometheus alerting rules for JAN Studio production monitoring
+
+groups:
+  - name: jan_studio_availability
+    rules:
+      # API Down Alert
+      - alert: JANAPIDown
+        expr: up{job="jan-studio-api"} == 0
+        for: 1m
+        labels:
+          severity: critical
+          service: jan-api
+        annotations:
+          summary: "JAN Studio API is down"
+          description: "The JAN Studio API has been unreachable for more than 1 minute."
+          runbook_url: "https://docs.example.com/runbooks/api-down"
+
+      # Health Check Failing
+      - alert: JANHealthCheckFailing
+        expr: jan_health_status != 1
+        for: 2m
+        labels:
+          severity: critical
+          service: jan-api
+        annotations:
+          summary: "JAN Studio health check failing"
+          description: "Health check has been failing for more than 2 minutes."
+
+  - name: jan_studio_performance
+    rules:
+      # High Latency (p95 > 2s)
+      - alert: JANHighLatency
+        expr: histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket{job="jan-studio-api"}[5m])) by (le)) > 2
+        for: 5m
+        labels:
+          severity: warning
+          service: jan-api
+        annotations:
+          summary: "High API latency detected"
+          description: "95th percentile latency is {{ $value | printf \"%.2f\" }}s (threshold: 2s)"
+
+      # Very High Latency (p95 > 5s)
+      - alert: JANCriticalLatency
+        expr: histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket{job="jan-studio-api"}[5m])) by (le)) > 5
+        for: 2m
+        labels:
+          severity: critical
+          service: jan-api
+        annotations:
+          summary: "Critical API latency"
+          description: "95th percentile latency is {{ $value | printf \"%.2f\" }}s (threshold: 5s)"
+
+      # Slow Database Queries
+      - alert: JANSlowDatabaseQueries
+        expr: histogram_quantile(0.95, sum(rate(database_query_duration_seconds_bucket[5m])) by (le)) > 1
+        for: 5m
+        labels:
+          severity: warning
+          service: jan-api
+        annotations:
+          summary: "Slow database queries detected"
+          description: "95th percentile database query time is {{ $value | printf \"%.2f\" }}s"
+
+  - name: jan_studio_errors
+    rules:
+      # High Error Rate (> 5%)
+      - alert: JANHighErrorRate
+        expr: |
+          (
+            sum(rate(http_requests_total{job="jan-studio-api",status=~"5.."}[5m]))
+            /
+            sum(rate(http_requests_total{job="jan-studio-api"}[5m]))
+          ) > 0.05
+        for: 5m
+        labels:
+          severity: warning
+          service: jan-api
+        annotations:
+          summary: "High error rate detected"
+          description: "Error rate is {{ $value | humanizePercentage }} (threshold: 5%)"
+
+      # Critical Error Rate (> 20%)
+      - alert: JANCriticalErrorRate
+        expr: |
+          (
+            sum(rate(http_requests_total{job="jan-studio-api",status=~"5.."}[5m]))
+            /
+            sum(rate(http_requests_total{job="jan-studio-api"}[5m]))
+          ) > 0.20
+        for: 2m
+        labels:
+          severity: critical
+          service: jan-api
+        annotations:
+          summary: "Critical error rate"
+          description: "Error rate is {{ $value | humanizePercentage }} (threshold: 20%)"
+
+      # Too Many 4xx Errors
+      - alert: JANHigh4xxRate
+        expr: |
+          (
+            sum(rate(http_requests_total{job="jan-studio-api",status=~"4.."}[5m]))
+            /
+            sum(rate(http_requests_total{job="jan-studio-api"}[5m]))
+          ) > 0.25
+        for: 10m
+        labels:
+          severity: warning
+          service: jan-api
+        annotations:
+          summary: "High client error rate"
+          description: "4xx error rate is {{ $value | humanizePercentage }}"
+
+  - name: jan_studio_resources
+    rules:
+      # High Memory Usage (> 80%)
+      - alert: JANHighMemoryUsage
+        expr: process_resident_memory_bytes{job="jan-studio-api"} > 1.6e9
+        for: 10m
+        labels:
+          severity: warning
+          service: jan-api
+        annotations:
+          summary: "High memory usage"
+          description: "Memory usage is {{ $value | humanize1024 }}B"
+
+      # Critical Memory Usage (> 90%)
+      - alert: JANCriticalMemoryUsage
+        expr: process_resident_memory_bytes{job="jan-studio-api"} > 1.8e9
+        for: 5m
+        labels:
+          severity: critical
+          service: jan-api
+        annotations:
+          summary: "Critical memory usage"
+          description: "Memory usage is {{ $value | humanize1024 }}B - potential OOM risk"
+
+      # High CPU Usage
+      - alert: JANHighCPUUsage
+        expr: rate(process_cpu_seconds_total{job="jan-studio-api"}[5m]) > 0.8
+        for: 10m
+        labels:
+          severity: warning
+          service: jan-api
+        annotations:
+          summary: "High CPU usage"
+          description: "CPU usage is {{ $value | humanizePercentage }}"
+
+      # Too Many Open Connections
+      - alert: JANTooManyConnections
+        expr: jan_active_connections > 500
+        for: 5m
+        labels:
+          severity: warning
+          service: jan-api
+        annotations:
+          summary: "Too many active connections"
+          description: "Active connections: {{ $value }}"
+
+  - name: jan_studio_rate_limiting
+    rules:
+      # High Rate Limit Hits
+      - alert: JANRateLimitExceeded
+        expr: sum(rate(http_requests_total{job="jan-studio-api",status="429"}[5m])) > 10
+        for: 5m
+        labels:
+          severity: warning
+          service: jan-api
+        annotations:
+          summary: "High rate limiting"
+          description: "Rate limit being hit frequently ({{ $value }} req/s)"
+
+  - name: jan_studio_security
+    rules:
+      # Authentication Failures
+      - alert: JANAuthFailureSpike
+        expr: sum(rate(http_requests_total{job="jan-studio-api",status="401"}[5m])) > 20
+        for: 5m
+        labels:
+          severity: warning
+          service: jan-api
+        annotations:
+          summary: "Authentication failure spike"
+          description: "High rate of 401 responses: {{ $value }} req/s"
+
+      # Forbidden Access Attempts
+      - alert: JANForbiddenAccessSpike
+        expr: sum(rate(http_requests_total{job="jan-studio-api",status="403"}[5m])) > 10
+        for: 5m
+        labels:
+          severity: warning
+          service: jan-api
+        annotations:
+          summary: "Forbidden access spike"
+          description: "High rate of 403 responses: {{ $value }} req/s"
