@@ -389,6 +389,16 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"Could not load Heritage Archive API: {e}")
 
+# Heritage Meridian API - Mobile app endpoints for 7 Wonders and Heritage Meridian System
+try:
+    from heritage_meridian_api import router as heritage_meridian_router
+    app.include_router(heritage_meridian_router)
+    logger.info("Heritage Meridian API enabled - 7 Wonders and Heritage Meridian System")
+except ImportError as e:
+    logger.warning(f"Heritage Meridian API not available: {e}")
+except Exception as e:
+    logger.warning(f"Could not load Heritage Meridian API: {e}")
+
 # Health Tracking API
 try:
     from health_api import router as health_router
