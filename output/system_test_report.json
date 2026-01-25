@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-01-25T13:57:21.406259",
+  "tests_passed": [
+    "Health Check",
+    "API Docs",
+    "JAN Personas List",
+    "JAN Templates",
+    "Marketplace Browse",
+    "Marketplace Categories",
+    "Channel Collaboration",
+    "Present Purpose",
+    "Educational Overview"
+  ],
+  "tests_failed": [
+    "Heritage API: 404"
+  ],
+  "total_tests": 10,
+  "status": "COMPLETE",
+  "pass_rate": 90.0
+}

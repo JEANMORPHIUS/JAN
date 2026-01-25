@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-01-25T13:58:06.765298",
+  "status": "ready_for_generation",
+  "requirements": {
+    "lessons": 376,
+    "social_posts": 208,
+    "entity_profiles": 5,
+    "total_images": 589
+  },
+  "generation_script": "scripts/visual_asset_generator.py",
+  "instructions": "Run: python scripts/visual_asset_generator.py"
+}

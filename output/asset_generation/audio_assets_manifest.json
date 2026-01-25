@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-01-25T13:58:06.765317",
+  "status": "ready_for_generation",
+  "requirements": {
+    "lessons": 376,
+    "social_posts": 208,
+    "total_audio": 584
+  },
+  "generation_script": "scripts/audio_synthesis_automation.py",
+  "instructions": "Run: python scripts/audio_synthesis_automation.py"
+}
