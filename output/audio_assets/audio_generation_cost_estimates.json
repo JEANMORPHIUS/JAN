@@ -1,0 +1,91 @@
+{
+  "total_scripts": 655,
+  "total_characters": 1019493,
+  "average_characters_per_script": 1556.4778625954198,
+  "engines": {
+    "coqui_tts": {
+      "cost": 0,
+      "description": "Free, local generation",
+      "quality": "Good",
+      "requirements": "GPU recommended",
+      "pros": [
+        "Free",
+        "Unlimited",
+        "Privacy"
+      ],
+      "cons": [
+        "Lower quality",
+        "Slower",
+        "Requires setup"
+      ]
+    },
+    "google_cloud_tts": {
+      "cost_per_million_chars": 4.0,
+      "cost_wavenet_per_million_chars": 16.0,
+      "estimated_cost_standard": 4.077972,
+      "estimated_cost_wavenet": 16.311888,
+      "quality": "Excellent (WaveNet)",
+      "requirements": "Google Cloud account, API key",
+      "pros": [
+        "High quality",
+        "Multiple languages",
+        "Fast"
+      ],
+      "cons": [
+        "Paid",
+        "Requires account"
+      ]
+    },
+    "amazon_polly": {
+      "cost_per_million_chars": 4.0,
+      "cost_neural_per_million_chars": 16.0,
+      "estimated_cost_standard": 4.077972,
+      "estimated_cost_neural": 16.311888,
+      "quality": "Excellent (Neural)",
+      "requirements": "AWS account, API key",
+      "pros": [
+        "High quality",
+        "Multiple voices",
+        "Reliable"
+      ],
+      "cons": [
+        "Paid",
+        "Requires AWS"
+      ]
+    },
+    "azure_tts": {
+      "cost_per_million_chars": 4.0,
+      "cost_neural_per_million_chars": 16.0,
+      "estimated_cost_standard": 4.077972,
+      "estimated_cost_neural": 16.311888,
+      "quality": "Excellent (Neural)",
+      "requirements": "Azure account, API key",
+      "pros": [
+        "High quality",
+        "Good Turkish support"
+      ],
+      "cons": [
+        "Paid",
+        "Requires Azure"
+      ]
+    },
+    "manual_recording": {
+      "cost_per_hour": 50,
+      "estimated_hours": 21.833333333333332,
+      "estimated_cost": 1091.6666666666665,
+      "quality": "Excellent (Human)",
+      "requirements": "Voice actor, recording equipment",
+      "pros": [
+        "Best quality",
+        "Authentic",
+        "Uncle Ray Ramiz himself"
+      ],
+      "cons": [
+        "Expensive",
+        "Time-consuming",
+        "Requires talent"
+      ]
+    }
+  },
+  "recommendation": "Google Cloud TTS WaveNet for quality/cost balance"
+}

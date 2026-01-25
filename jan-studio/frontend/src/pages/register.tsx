@@ -300,5 +300,6 @@ const styles: { [key: string]: React.CSSProperties } = {
     textDecoration: 'none',
     fontWeight: '600',
     transition: 'color 150ms',
+    cursor: 'pointer',
   },
 };

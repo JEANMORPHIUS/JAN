@@ -300,11 +300,23 @@ except Exception as e:
 
 try:
     from marketplace_api import router as marketplace_router
+    from marketplace_db import init_database as init_marketplace_db
     app.include_router(marketplace_router)
+    
+    # Initialize marketplace database on startup
+    @app.on_event("startup")
+    async def init_marketplace_on_startup():
+        try:
+            init_marketplace_db()
+            logger.info("Marketplace database initialized")
+        except Exception as e:
+            logger.warning(f"Marketplace database initialization error: {e}")
+    
+    logger.info("Marketplace API enabled - Browse, submit, download, and rate JAN personas")
 except ImportError as e:
-    print(f"Warning: Could not import marketplace_router: {e}")
+    logger.warning(f"Could not import marketplace_router: {e}")
 except Exception as e:
-    print(f"Warning: Could not load marketplace_router: {e}")
+    logger.warning(f"Could not load marketplace_router: {e}")
 
 try:
     from auth_api import router as auth_router

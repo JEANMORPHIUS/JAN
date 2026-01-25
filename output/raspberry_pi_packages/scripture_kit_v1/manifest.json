@@ -1,0 +1,37 @@
+{
+  "package_name": "scripture_kit_v1",
+  "version": "1.0.0",
+  "created": "2026-01-25T11:33:10.120692",
+  "content": {
+    "scripture_lessons": 655,
+    "audio_files": 0,
+    "visual_assets": 0,
+    "expected_total": 376
+  },
+  "completion": {
+    "lessons_percent": 174.20212765957444,
+    "audio_percent": 0,
+    "visuals_percent": 0
+  },
+  "hardware": {
+    "raspberry_pi_model": "4B or later recommended",
+    "minimum_storage": "8GB",
+    "recommended_storage": "16GB",
+    "display": "7-inch touchscreen or HDMI monitor"
+  },
+  "software": {
+    "os": "Raspberry Pi OS Lite",
+    "python_version": "3.9+",
+    "flask": "2.0+",
+    "dependencies": [
+      "flask",
+      "gunicorn"
+    ]
+  },
+  "philosophy": {
+    "purpose": "Offline scripture education for all",
+    "principle": "Purpose Not Performance",
+    "mission": "No child left behind by digital divide",
+    "foundation": "We are born a miracle. We deserve to live a miracle."
+  }
+}

@@ -1,0 +1,125 @@
+.statusBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 0.875rem;
+}
+
+.statusDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.statusDot.connected {
+  background: #4ade80;
+  box-shadow: 0 0 8px rgba(74, 222, 128, 0.5);
+}
+
+.statusDot.disconnected {
+  background: #f87171;
+  box-shadow: 0 0 8px rgba(248, 113, 113, 0.5);
+}
+
+.statusDot.checking {
+  background: #fbbf24;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.statusText {
+  color: #e5e7eb;
+  font-weight: 500;
+}
+
+.statusCard {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.statusHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.statusHeader h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: #e5e7eb;
+}
+
+.refreshButton {
+  padding: 0.25rem 0.75rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  color: #e5e7eb;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.refreshButton:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.refreshButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.statusBody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.statusRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label {
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+.value {
+  color: #e5e7eb;
+  font-size: 0.875rem;
+  font-family: monospace;
+}
+
+.status {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.status.connected {
+  color: #4ade80;
+}
+
+.status.disconnected {
+  color: #f87171;
+}
+
+.status.checking {
+  color: #fbbf24;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

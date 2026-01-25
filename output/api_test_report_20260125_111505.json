@@ -1,0 +1,72 @@
+{
+  "timestamp": "2026-01-25T11:15:05.983156",
+  "base_url": "http://localhost:8000",
+  "total_tests": 9,
+  "successful": 0,
+  "failed": 9,
+  "results": [
+    {
+      "method": "GET",
+      "path": "/health",
+      "success": false,
+      "error": "Connection refused - server not running",
+      "timestamp": "2026-01-25T11:14:33.485737"
+    },
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "success": false,
+      "error": "Connection refused - server not running",
+      "timestamp": "2026-01-25T11:14:37.566872"
+    },
+    {
+      "method": "GET",
+      "path": "/api/marketplace/personas",
+      "success": false,
+      "error": "Connection refused - server not running",
+      "timestamp": "2026-01-25T11:14:41.633693"
+    },
+    {
+      "method": "GET",
+      "path": "/api/marketplace/categories",
+      "success": false,
+      "error": "Connection refused - server not running",
+      "timestamp": "2026-01-25T11:14:45.688094"
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/register",
+      "success": false,
+      "error": "Connection refused - server not running",
+      "timestamp": "2026-01-25T11:14:49.778122"
+    },
+    {
+      "method": "GET",
+      "path": "/api/content/lessons",
+      "success": false,
+      "error": "Connection refused - server not running",
+      "timestamp": "2026-01-25T11:14:53.818694"
+    },
+    {
+      "method": "GET",
+      "path": "/api/content/posts",
+      "success": false,
+      "error": "Connection refused - server not running",
+      "timestamp": "2026-01-25T11:14:57.869895"
+    },
+    {
+      "method": "GET",
+      "path": "/api/heritage/sites",
+      "success": false,
+      "error": "Connection refused - server not running",
+      "timestamp": "2026-01-25T11:15:01.926139"
+    },
+    {
+      "method": "GET",
+      "path": "/api/heritage/timeline",
+      "success": false,
+      "error": "Connection refused - server not running",
+      "timestamp": "2026-01-25T11:15:05.982843"
+    }
+  ]
+}

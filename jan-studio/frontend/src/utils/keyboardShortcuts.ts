@@ -106,11 +106,20 @@ class KeyboardShortcutsManager {
 
   /**
    * Initialize keyboard shortcuts (call this once)
+   * Only works in browser environment (client-side)
    */
   initialize(): () => void {
+    // Check if we're in a browser environment
+    if (typeof window === 'undefined') {
+      // Return a no-op cleanup function for SSR
+      return () => {};
+    }
+    
     window.addEventListener('keydown', this.handleKeyDown);
     return () => {
-      window.removeEventListener('keydown', this.handleKeyDown);
+      if (typeof window !== 'undefined') {
+        window.removeEventListener('keydown', this.handleKeyDown);
+      }
     };
   }
 }
@@ -118,8 +127,10 @@ class KeyboardShortcutsManager {
 // Singleton instance
 export const keyboardShortcuts = new KeyboardShortcutsManager();
 
-// Initialize on module load
-keyboardShortcuts.initialize();
+// Initialize only on client-side (browser)
+if (typeof window !== 'undefined') {
+  keyboardShortcuts.initialize();
+}
 
 /**
  * React hook for using keyboard shortcuts

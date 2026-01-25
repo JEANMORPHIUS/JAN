@@ -1,0 +1,12 @@
+[Unit]
+Description=Scripture Education Flask App
+After=network.target
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/scripture-kit/app
+ExecStart=/usr/bin/python3 /home/pi/scripture-kit/app/app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

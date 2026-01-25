@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
-import Link from 'next/link';
 import { getPersonaDetails, downloadPersona, ratePersona } from '@/api/marketplace';
 
 interface PersonaDetail {
@@ -134,9 +133,12 @@ export default function PersonaDetailPage() {
         <div className="container">
           <div className="card">
             <h2>Persona Not Found</h2>
-            <Link href="/marketplace">
-              <button className="button">Back to Marketplace</button>
-            </Link>
+            <button
+              className="button"
+              onClick={() => router.push('/marketplace')}
+            >
+              Back to Marketplace
+            </button>
           </div>
         </div>
       </>
@@ -158,11 +160,13 @@ export default function PersonaDetailPage() {
             <h1>{persona.name}</h1>
             <p>by {persona.author_name || 'Unknown'}</p>
           </div>
-          <Link href="/marketplace">
-            <button className="button" style={{ backgroundColor: '#666' }}>
+            <button
+              className="button"
+              style={{ backgroundColor: '#666' }}
+              onClick={() => router.push('/marketplace')}
+            >
               ← Back to Marketplace
             </button>
-          </Link>
         </div>
       </div>
 

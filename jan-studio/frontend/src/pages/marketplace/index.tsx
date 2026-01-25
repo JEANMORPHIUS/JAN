@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { getPersonas, getCategories } from '@/api/marketplace';
 
 interface Persona {
@@ -17,6 +18,7 @@ interface Persona {
 }
 
 export default function Marketplace() {
+  const router = useRouter();
   const [personas, setPersonas] = useState<Persona[]>([]);
   const [categories, setCategories] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
@@ -103,11 +105,13 @@ export default function Marketplace() {
             </div>
 
             <div>
-              <Link href="/marketplace/submit">
-                <button className="button" style={{ backgroundColor: '#2e7d32' }}>
-                  + Submit Persona
-                </button>
-              </Link>
+              <button
+                className="button"
+                style={{ backgroundColor: '#2e7d32' }}
+                onClick={() => router.push('/marketplace/submit')}
+              >
+                + Submit Persona
+              </button>
             </div>
           </div>
         </div>
@@ -129,74 +133,86 @@ export default function Marketplace() {
             gap: '1.5rem',
           }}>
             {personas.map((persona) => (
-              <Link key={persona.id} href={`/marketplace/${persona.id}`}>
-                <div className="persona-card" style={{ cursor: 'pointer', height: '100%' }}>
-                  <div style={{ marginBottom: '1rem' }}>
-                    <h3 style={{ margin: 0, marginBottom: '0.5rem', fontFamily: 'monospace' }}>
-                      {persona.name}
-                    </h3>
-                    {persona.author_name && (
-                      <div style={{ fontSize: '0.875rem', color: '#999' }}>
-                        by {persona.author_name}
-                      </div>
-                    )}
-                  </div>
-
-                  {persona.description && (
-                    <p style={{
-                      fontSize: '0.875rem',
-                      color: '#ccc',
-                      marginBottom: '1rem',
-                      display: '-webkit-box',
-                      WebkitLineClamp: 3,
-                      WebkitBoxOrient: 'vertical',
-                      overflow: 'hidden',
-                    }}>
-                      {persona.description}
-                    </p>
+              <div
+                key={persona.id}
+                className="persona-card"
+                style={{ cursor: 'pointer', height: '100%' }}
+                onClick={() => router.push(`/marketplace/${persona.id}`)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    router.push(`/marketplace/${persona.id}`);
+                  }
+                }}
+                role="link"
+                tabIndex={0}
+                aria-label={`View ${persona.name} persona`}
+              >
+                <div style={{ marginBottom: '1rem' }}>
+                  <h3 style={{ margin: 0, marginBottom: '0.5rem', fontFamily: 'monospace' }}>
+                    {persona.name}
+                  </h3>
+                  {persona.author_name && (
+                    <div style={{ fontSize: '0.875rem', color: '#999' }}>
+                      by {persona.author_name}
+                    </div>
                   )}
+                </div>
 
-                  <div style={{
-                    display: 'flex',
-                    justifyContent: 'space-between',
-                    alignItems: 'center',
-                    marginBottom: '1rem',
+                {persona.description && (
+                  <p style={{
                     fontSize: '0.875rem',
+                    color: '#ccc',
+                    marginBottom: '1rem',
+                    display: '-webkit-box',
+                    WebkitLineClamp: 3,
+                    WebkitBoxOrient: 'vertical',
+                    overflow: 'hidden',
                   }}>
-                    <div>
-                      <span style={{ color: '#999' }}>⭐ </span>
-                      <span style={{ fontWeight: 600 }}>
-                        {formatRating(persona.rating)}
-                      </span>
-                      <span style={{ color: '#666', marginLeft: '0.25rem' }}>
-                        ({persona.rating_count})
-                      </span>
-                    </div>
-                    <div style={{ color: '#999' }}>
-                      📥 {persona.downloads}
-                    </div>
+                    {persona.description}
+                  </p>
+                )}
+
+                <div style={{
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  alignItems: 'center',
+                  marginBottom: '1rem',
+                  fontSize: '0.875rem',
+                }}>
+                  <div>
+                    <span style={{ color: '#999' }}>⭐ </span>
+                    <span style={{ fontWeight: 600 }}>
+                      {formatRating(persona.rating)}
+                    </span>
+                    <span style={{ color: '#666', marginLeft: '0.25rem' }}>
+                      ({persona.rating_count})
+                    </span>
                   </div>
-
-                  {persona.category && (
-                    <div style={{
-                      display: 'inline-block',
-                      padding: '0.25rem 0.5rem',
-                      backgroundColor: '#1a1a2a',
-                      border: '1px solid #444',
-                      borderRadius: '4px',
-                      fontSize: '0.75rem',
-                      fontFamily: 'monospace',
-                      marginBottom: '0.5rem',
-                    }}>
-                      {persona.category}
-                    </div>
-                  )}
-
-                  <div style={{ fontSize: '0.75rem', color: '#666', marginTop: '0.5rem' }}>
-                    v{persona.version} • {formatDate(persona.created_at)}
+                  <div style={{ color: '#999' }}>
+                    📥 {persona.downloads}
                   </div>
                 </div>
-              </Link>
+
+                {persona.category && (
+                  <div style={{
+                    display: 'inline-block',
+                    padding: '0.25rem 0.5rem',
+                    backgroundColor: '#1a1a2a',
+                    border: '1px solid #444',
+                    borderRadius: '4px',
+                    fontSize: '0.75rem',
+                    fontFamily: 'monospace',
+                    marginBottom: '0.5rem',
+                  }}>
+                    {persona.category}
+                  </div>
+                )}
+
+                <div style={{ fontSize: '0.75rem', color: '#666', marginTop: '0.5rem' }}>
+                  v{persona.version} • {formatDate(persona.created_at)}
+                </div>
+              </div>
             ))}
           </div>
         )}

@@ -331,7 +331,22 @@ async def protocol_middleware(request: Request, call_next):
         "/api/big-cheese/",
         "/docs",
         "/openapi.json",
-        "/redoc"
+        "/redoc",
+        # Health and monitoring endpoints (serve the Table by ensuring system health)
+        "/health",
+        "/health/detailed",
+        "/ready",
+        "/live",
+        "/metrics",
+        "/api/health",
+        # Root endpoint (serves the Table by providing access)
+        "/",
+        # Marketplace endpoints (serve the Table by providing access to personas)
+        "/api/marketplace/",
+        # Authentication endpoints (serve the Table by enabling access)
+        "/api/auth/",
+        # Content endpoints (serve the Table by providing content)
+        "/api/content/"
     ]
     
     # Allow public endpoints to pass (they serve the Table by providing access)

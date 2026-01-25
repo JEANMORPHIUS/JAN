@@ -1,0 +1,5946 @@
+"""
+Stable Diffusion Image Generation Script
+Generated: 2026-01-25T11:33:08.556417
+Total Images: 655
+
+Requirements:
+pip install diffusers transformers torch pillow accelerate
+"""
+
+from diffusers import StableDiffusionPipeline
+import torch
+from pathlib import Path
+import json
+
+# Configuration
+MODEL_ID = "runwayml/stable-diffusion-v1-5"  # Or other SD model
+OUTPUT_DIR = Path("S:\JAN\output\visual_assets")
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+
+# Load prompts
+prompts = [
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_001",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Made by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_001.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_002",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Systems thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_002.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_003",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: Turkish heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_003.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_004",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Fighter philosophy meets divine truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_004.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_005",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Bilingual chaos meets eternal truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_005.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_006",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_006.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_007",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Hand-prepared.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_007.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_008",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_008.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_009",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Music is emotion.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_009.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_010",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: Merde, c'est beautiful! Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_010.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_011",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: From hand to jar, from heart to community.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_011.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_012",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_012.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_013",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Systems-level thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_013.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_014",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: Child, listen.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_014.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_015",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: Real hands.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_015.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_016",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Emotion drives the beat.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_016.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_017",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Ring strategy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_017.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_018",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: French/English code-switching for the Word:\n\n\"Whatever your hand finds to do, do it with your might.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_018.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_019",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from John 13:35: \"Scripture: John 13:35 - love_service\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_019.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_020",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Systems thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_020.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_021",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_021.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_022",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: French/English code-switching for the Word:\n\n\"Commit to the Lord whatever you do, and he will establish your plans.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_022.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_023",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: 5 AM warrior energy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_023.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_024",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: From Wood Green to the world.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_024.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_025",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: Hand-prepared.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_025.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_026",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Bilingual chaos meets eternal truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_026.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_027",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_027.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_028",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: Sound architecture built on feeling.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_028.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_029",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_029.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_030",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Ancient wisdom meets modern craft.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_030.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_031",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Infrastructure built on truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_031.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_032",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Real hands.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_032.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_033",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_033.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_034",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_034.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_035",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Discipline is freedom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_035.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_036",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_036.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_037",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_037.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_038",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Real work.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_038.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_039",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"Do everything in love.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_039.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_040",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: Fighter philosophy meets divine truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_040.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_041",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: Real hands.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_041.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_042",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Child, listen.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_042.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_043",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: French/English code-switching for the Word:\n\n\"But if we hope for what we do not yet have, we wait for it patiently.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_043.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_044",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Infrastructure for artists.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_044.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_045",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_045.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_046",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Duygu Adam\u0131.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_046.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_047",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_047.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_048",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: Seeing the whole picture.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_048.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_049",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_049.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_050",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Traditional craft, timeless wisdom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_050.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_051",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Turkish heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_051.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_052",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: Fighter philosophy meets divine truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_052.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_053",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: Merde, c'est beautiful! Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_053.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_054",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Planning a global brand on the 329 bus? Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_054.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_055",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_055.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_056",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_056.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_057",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_057.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_058",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from John 13:35: \"Scripture: John 13:35 - love_service\".\n\nKey message: Real hands.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_058.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_059",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_059.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_060",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Systems thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_060.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_061",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Hand-prepared.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_061.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_062",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_062.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_063",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_063.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_064",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_064.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_065",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Music is emotion.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_065.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_066",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_066.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_067",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Child, listen.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_067.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_068",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: Ancient wisdom meets modern craft.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_068.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_069",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: Meta-awareness meets divine purpose.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_069.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_070",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Planning a global brand on the 329 bus? Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_070.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_071",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: Bilingual chaos meets eternal truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_071.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_072",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Ring strategy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_072.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_073",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Traditional craft, timeless wisdom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_073.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_074",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_074.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_075",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: Merde, c'est beautiful! Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_075.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_076",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_076.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_077",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: Real hands.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_077.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_078",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Emotion drives the beat.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_078.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_079",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_079.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_080",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: Meta-awareness meets divine purpose.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_080.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_081",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_081.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_082",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Ring strategy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_082.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_083",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: From hand to jar, from heart to community.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_083.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_084",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: From Wood Green to the world.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_084.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_085",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Turkish heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_085.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_086",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: French/English code-switching for the Word:\n\n\"For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, pla...\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_086.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_087",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Systems thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_087.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_088",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"And let us consider how we may spur one another on toward love and good deeds, not giving up meeting toge...\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_088.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_089",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_089.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_090",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: 5 AM warrior energy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_090.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_091",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: French/English code-switching for the Word:\n\n\"Walk with the wise and become wise, for a companion of fools suffers harm.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_091.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_092",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Ring strategy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_092.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_093",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Turkish heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_093.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_094",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Traditional craft, timeless wisdom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_094.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_095",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_095.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_096",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: Real hands.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_096.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_097",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: Bilingual chaos meets eternal truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_097.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_098",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: Systems thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_098.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_099",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: Music is emotion.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_099.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_100",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: Sea moss made by hand, guided by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_100.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_101",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: Infrastructure for artists.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_101.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_102",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: Music is emotion.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_102.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_103",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_103.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_104",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: Made by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_104.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_105",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_105.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_106",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from John 13:35: \"Scripture: John 13:35 - love_service\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_106.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_107",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Sea moss made by hand, guided by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_107.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_108",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Discipline is freedom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_108.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_109",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_109.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_110",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Made by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_110.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_111",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: Duygu Adam\u0131.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_111.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_112",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Infrastructure built on truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_112.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_113",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: Emotion drives the beat.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_113.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_114",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: Discipline is freedom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_114.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_115",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"Each of you should use whatever gift you have received to serve others, as faithful stewards of God's grace.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_115.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_116",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Made by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_116.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_117",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: Infrastructure built on truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_117.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_118",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: Sea moss made by hand, guided by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_118.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_119",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Emotion drives the beat.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_119.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_120",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: Child, listen.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_120.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_121",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Bilingual chaos meets eternal truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_121.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_122",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to ...\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_122.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_123",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Child, listen.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_123.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_124",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: Real work.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_124.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_125",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Fighter philosophy meets divine truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_125.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_126",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: The graft comes first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_126.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_127",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: Infrastructure built on truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_127.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_128",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Turkish heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_128.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_129",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Bilingual chaos meets eternal truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_129.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_130",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Meta-awareness meets divine purpose.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_130.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_131",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_131.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_132",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_132.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_133",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_133.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_134",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Child, listen.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_134.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_135",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: The graft comes first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_135.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_136",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: 5 AM warrior energy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_136.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_137",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Merde, c'est beautiful! Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_137.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_138",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: Sound architecture built on feeling.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_138.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_139",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: French/English code-switching for the Word:\n\n\"Above all else, guard your heart, for everything you do flows from it.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_139.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_140",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Ring strategy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_140.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_141",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Infrastructure for artists.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_141.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_142",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_142.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_143",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Building something real? The Word says:\n\n\"So do not fear, for I am with you; do not be dismayed, for I am your God.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_143.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_144",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_144.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_145",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: Duygu Adam\u0131.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_145.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_146",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_146.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_147",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: Fighter philosophy meets divine truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_147.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_148",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_148.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_149",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Infrastructure for artists.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_149.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_150",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Ancient wisdom meets modern craft.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_150.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_151",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_151.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_152",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: Duygu Adam\u0131.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_152.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_153",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_153.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_154",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Building something real? The Word says:\n\n\"Do everything in love.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_154.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_155",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: Music is emotion.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_155.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_156",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from John 13:35: \"Scripture: John 13:35 - love_service\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_156.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_157",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_157.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_158",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Ancient wisdom meets modern craft.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_158.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_159",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Seeing the whole picture.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_159.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_160",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: From Wood Green to the world.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_160.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_161",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Duygu Adam\u0131.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_161.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_162",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_162.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_163",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Seeing the whole picture.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_163.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_164",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_164.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_165",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_165.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_166",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: Ancient wisdom meets modern craft.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_166.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_167",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Made by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_167.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_168",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_168.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_169",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Sound architecture built on feeling.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_169.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_170",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from John 13:35: \"Scripture: John 13:35 - love_service\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_170.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_171",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: The graft comes first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_171.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_172",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: Meta-awareness meets divine purpose.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_172.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_173",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: Real work.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_173.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_174",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_174.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_175",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Sound architecture built on feeling.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_175.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_176",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"Truly I tell you, if you have faith as small as a mustard seed, you can say to this mountain, 'Move from ...\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_176.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_177",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Systems thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_177.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_178",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Sea moss made by hand, guided by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_178.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_179",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: 5 AM warrior energy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_179.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_180",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: Sound architecture built on feeling.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_180.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_181",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_181.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_182",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: Building something real? The Word says:\n\n\"Desire without knowledge is not good\u2014how much more will hasty feet miss the way!\" (Proverbs 19:2)\n\nThis i...\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_182.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_183",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_183.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_184",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Turkish heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_184.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_185",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Hand-prepared.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_185.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_186",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Real hands.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_186.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_187",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Systems-level thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_187.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_188",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_188.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_189",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_189.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_190",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: Turkish heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_190.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_191",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: Discipline is freedom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_191.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_192",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Real hands.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_192.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_193",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Music is emotion.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_193.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_194",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Discipline is freedom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_194.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_195",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Bilingual chaos meets eternal truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_195.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_196",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from John 13:35: \"Scripture: John 13:35 - love_service\".\n\nKey message: Systems-level thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_196.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_197",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_197.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_198",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Discipline is freedom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_198.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_199",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_199.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_200",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_200.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_201",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: Ancient wisdom meets modern craft.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_201.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_202",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: Sound architecture built on feeling.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_202.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_203",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: From Wood Green to the world.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_203.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_204",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: Systems thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_204.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_205",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_205.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_206",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"I can do all this through him who gives me strength.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_206.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_207",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: Turkish heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_207.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_208",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Building something real? The Word says:\n\n\"Whatever your hand finds to do, do it with your might.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_208.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_209",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_209.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_210",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: Traditional craft, timeless wisdom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_210.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_211",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: Turkish heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_211.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_212",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: Seeing the whole picture.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_212.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_213",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_213.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_214",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Merde, c'est beautiful! Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_214.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_215",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Systems-level thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_215.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_216",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_216.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_217",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_217.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_218",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Real hands.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_218.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_219",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_219.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_220",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Duygu Adam\u0131.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_220.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_221",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: Fighter philosophy meets divine truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_221.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_222",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: From Wood Green to the world.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_222.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_223",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_223.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_224",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: Meta-awareness meets divine purpose.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_224.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_225",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_225.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_226",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Music is emotion.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_226.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_227",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"Wisdom is a shelter as money is a shelter, but the advantage of knowledge is this: Wisdom preserves those...\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_227.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_228",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Discipline is freedom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_228.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_229",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: French/English code-switching for the Word:\n\n\"So do not fear, for I am with you; do not be dismayed, for I am your God.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_229.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_230",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_230.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_231",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Building something real? The Word says:\n\n\"Whatever you do, work heartily, as for the Lord and not for men.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_231.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_232",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_232.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_233",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Merde, c'est beautiful! Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_233.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_234",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_234.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_235",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: Infrastructure for artists.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_235.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_236",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: From hand to jar, from heart to community.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_236.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_237",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_237.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_238",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: Child, listen.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_238.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_239",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: 5 AM warrior energy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_239.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_240",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_240.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_241",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_241.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_242",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: Real hands.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_242.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_243",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Planning a global brand on the 329 bus? Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_243.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_244",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Real work.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_244.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_245",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_245.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_246",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_246.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_247",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: Turkish heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_247.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_248",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: French/English code-switching for the Word:\n\n\"As iron sharpens iron, so one person sharpens another.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_248.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_249",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Merde, c'est beautiful! Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_249.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_250",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: Music is emotion.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_250.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_251",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_251.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_252",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: Systems thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_252.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_253",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Sound architecture built on feeling.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_253.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_254",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Real work.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_254.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_255",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_255.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_256",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Bilingual chaos meets eternal truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_256.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_257",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_257.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_258",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Infrastructure for artists.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_258.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_259",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from John 13:35: \"Scripture: John 13:35 - love_service\".\n\nKey message: Fighter philosophy meets divine truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_259.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_260",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Child, listen.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_260.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_261",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: Discipline is freedom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_261.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_262",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: Bilingual chaos meets eternal truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_262.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_263",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Emotion drives the beat.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_263.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_264",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: From Wood Green to the world.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_264.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_265",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Seeing the whole picture.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_265.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_266",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_266.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_267",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Hand-prepared.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_267.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_268",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_268.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_269",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_269.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_270",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: Sound architecture built on feeling.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_270.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_271",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from John 13:35: \"Scripture: John 13:35 - love_service\".\n\nKey message: Made by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_271.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_272",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: Duygu Adam\u0131.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_272.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_273",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: From hand to jar, from heart to community.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_273.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_274",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Child, listen.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_274.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_275",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: French/English code-switching for the Word:\n\n\"Listen to advice and accept discipline, and at the end you will be counted among the wise.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_275.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_276",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_276.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_277",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Turkish heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_277.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_278",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: Seeing the whole picture.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_278.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_279",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Sound architecture built on feeling.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_279.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_280",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_280.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_281",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_281.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_282",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Hand-prepared.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_282.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_283",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: 5 AM warrior energy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_283.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_284",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Merde, c'est beautiful! Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_284.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_285",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_285.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_286",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Sea moss made by hand, guided by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_286.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_287",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: From Wood Green to the world.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_287.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_288",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_288.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_289",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: Systems thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_289.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_290",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_290.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_291",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_291.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_292",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Bilingual chaos meets eternal truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_292.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_293",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_293.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_294",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_294.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_295",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: From hand to jar, from heart to community.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_295.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_296",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_296.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_297",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: Made by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_297.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_298",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Duygu Adam\u0131.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_298.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_299",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: Fighter philosophy meets divine truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_299.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_300",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: Merde, c'est beautiful! Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_300.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_301",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_301.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_302",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Infrastructure for artists.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_302.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_303",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Bilingual chaos meets eternal truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_303.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_304",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: The graft comes first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_304.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_305",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Merde, c'est beautiful! Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_305.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_306",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_306.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_307",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Meta-awareness meets divine purpose.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_307.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_308",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Bilingual chaos meets eternal truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_308.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_309",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: From Wood Green to the world.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_309.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_310",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: 5 AM warrior energy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_310.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_311",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"But if we hope for what we do not yet have, we wait for it patiently.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_311.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_312",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Meta-awareness meets divine purpose.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_312.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_313",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Made by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_313.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_314",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_314.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_315",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: Real work.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_315.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_316",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Duygu Adam\u0131.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_316.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_317",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: Ring strategy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_317.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_318",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: The graft comes first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_318.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_319",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: Sound architecture built on feeling.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_319.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_320",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_320.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_321",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: From hand to jar, from heart to community.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_321.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_322",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_322.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_323",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Infrastructure built on truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_323.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_324",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: Real hands.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_324.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_325",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: From hand to jar, from heart to community.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_325.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_326",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_326.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_327",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"So do not fear, for I am with you; do not be dismayed, for I am your God.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_327.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_328",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Seeing the whole picture.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_328.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_329",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_329.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_330",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"Do everything in love.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_330.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_331",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: 5 AM warrior energy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_331.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_332",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Emotion drives the beat.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_332.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_333",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: Traditional craft, timeless wisdom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_333.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_334",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_334.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_335",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"Whatever your hand finds to do, do it with your might.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_335.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_336",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_336.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_337",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Merde, c'est beautiful! Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_337.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_338",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: Infrastructure built on truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_338.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_339",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: Ancient wisdom meets modern craft.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_339.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_340",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Emotion drives the beat.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_340.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_341",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: From Wood Green to the world.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_341.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_342",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_342.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_343",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: Discipline is freedom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_343.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_344",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Made by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_344.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_345",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Traditional craft, timeless wisdom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_345.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_346",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Fighter philosophy meets divine truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_346.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_347",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_347.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_348",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: Infrastructure for artists.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_348.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_349",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: Meta-awareness meets divine purpose.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_349.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_350",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_350.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_351",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Real work.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_351.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_352",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: The graft comes first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_352.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_353",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: Sea moss made by hand, guided by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_353.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_354",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: Fighter philosophy meets divine truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_354.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_355",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Child, listen.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_355.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_356",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: 5 AM warrior energy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_356.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_357",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Duygu Adam\u0131.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_357.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_358",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Systems-level thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_358.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_359",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: Made by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_359.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_360",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_360.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_361",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Real hands.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_361.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_362",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: Turkish heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_362.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_363",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: 5 AM warrior energy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_363.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_364",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Ancient wisdom meets modern craft.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_364.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_365",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Seeing the whole picture.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_365.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_366",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: Bilingual chaos meets eternal truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_366.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_367",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: Hand-prepared.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_367.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_368",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_368.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_369",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: Discipline is freedom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_369.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_370",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: Emotion drives the beat.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_370.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_371",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Seeing the whole picture.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_371.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_372",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: French/English code-switching for the Word:\n\n\"Be patient, then, brothers and sisters, until the Lord's coming.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_372.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_373",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_373.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_374",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Hand-prepared.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_374.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_375",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Building something real? The Word says:\n\n\"Carry each other's burdens, and in this way you will fulfill the law of Christ.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_375.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_376",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_376.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_377",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_377.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_378",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_378.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_379",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_379.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_380",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: Merde, c'est beautiful! Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_380.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_381",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from John 13:35: \"Scripture: John 13:35 - love_service\".\n\nKey message: Systems thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_381.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_382",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_382.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_383",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Building something real? The Word says:\n\n\"Listen to advice and accept discipline, and at the end you will be counted among the wise.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_383.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_384",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Real work.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_384.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_385",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: Infrastructure built on truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_385.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_386",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: Fighter philosophy meets divine truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_386.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_387",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Bilingual chaos meets eternal truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_387.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_388",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: Made by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_388.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_389",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Real work.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_389.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_390",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_390.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_391",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: Systems-level thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_391.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_392",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Emotion drives the beat.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_392.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_393",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Hand-prepared.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_393.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_394",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Real hands.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_394.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_395",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: Duygu Adam\u0131.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_395.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_396",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Child, listen.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_396.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_397",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_397.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_398",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: From Wood Green to the world.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_398.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_399",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: French/English code-switching for the Word:\n\n\"Whatever you do, work heartily, as for the Lord and not for men.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_399.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_400",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: 5 AM warrior energy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_400.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_401",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from John 13:35: \"Scripture: John 13:35 - love_service\".\n\nKey message: Ancient wisdom meets modern craft.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_401.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_402",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_402.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_403",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: Seeing the whole picture.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_403.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_404",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: Fighter philosophy meets divine truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_404.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_405",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: Bilingual chaos meets eternal truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_405.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_406",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: Child, listen.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_406.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_407",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"As iron sharpens iron, so one person sharpens another.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_407.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_408",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: From hand to jar, from heart to community.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_408.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_409",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_409.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_410",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Made by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_410.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_411",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Infrastructure for artists.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_411.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_412",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_412.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_413",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Fighter philosophy meets divine truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_413.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_414",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: Ancient wisdom meets modern craft.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_414.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_415",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from John 13:35: \"Scripture: John 13:35 - love_service\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"By this everyone will know that you are my disciples, if you love one another.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_415.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_416",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: Child, listen.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_416.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_417",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: Ring strategy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_417.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_418",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Infrastructure built on truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_418.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_419",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: Building something real? The Word says:\n\n\"For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans t...\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_419.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_420",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_420.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_421",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Merde, c'est beautiful! Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_421.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_422",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Traditional craft, timeless wisdom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_422.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_423",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Fighter philosophy meets divine truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_423.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_424",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_424.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_425",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_425.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_426",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: Traditional craft, timeless wisdom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_426.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_427",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_427.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_428",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_428.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_429",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Child, listen.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_429.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_430",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"Listen to advice and accept discipline, and at the end you will be counted among the wise.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_430.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_431",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Traditional craft, timeless wisdom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_431.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_432",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Systems-level thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_432.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_433",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Duygu Adam\u0131.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_433.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_434",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Merde, c'est beautiful! Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_434.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_435",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: The graft comes first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_435.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_436",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"We love because he first loved us.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_436.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_437",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Infrastructure built on truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_437.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_438",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_438.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_439",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: Sound architecture built on feeling.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_439.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_440",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Music is emotion.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_440.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_441",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: From hand to jar, from heart to community.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_441.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_442",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"Whatever you do, work heartily, as for the Lord and not for men.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_442.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_443",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Sound architecture built on feeling.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_443.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_444",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_444.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_445",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Planning a global brand on the 329 bus? Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_445.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_446",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: Turkish heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_446.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_447",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_447.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_448",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Merde, c'est beautiful! Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_448.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_449",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: 5 AM warrior energy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_449.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_450",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Systems thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_450.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_451",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Duygu Adam\u0131.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_451.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_452",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_452.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_453",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: Real work.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_453.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_454",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: From Wood Green to the world.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_454.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_455",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: Systems-level thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_455.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_456",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_456.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_457",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_457.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_458",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: Fighter philosophy meets divine truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_458.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_459",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Infrastructure for artists.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_459.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_460",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Made by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_460.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_461",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Sound architecture built on feeling.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_461.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_462",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: Ancient wisdom meets modern craft.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_462.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_463",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Made by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_463.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_464",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_464.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_465",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from John 13:35: \"Scripture: John 13:35 - love_service\".\n\nKey message: Turkish heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_465.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_466",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Emotion drives the beat.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_466.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_467",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Merde, c'est beautiful! Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_467.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_468",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Systems-level thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_468.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_469",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_469.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_470",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: Sea moss made by hand, guided by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_470.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_471",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_471.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_472",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_472.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_473",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: Ancient wisdom meets modern craft.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_473.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_474",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_474.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_475",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: The graft comes first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_475.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_476",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Seeing the whole picture.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_476.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_477",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_477.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_478",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_478.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_479",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Ancient wisdom meets modern craft.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_479.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_480",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: The graft comes first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_480.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_481",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_481.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_482",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: Traditional craft, timeless wisdom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_482.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_483",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Systems-level thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_483.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_484",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_484.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_485",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: Real work.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_485.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_486",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: Emotion drives the beat.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_486.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_487",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Seeing the whole picture.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_487.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_488",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_488.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_489",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: French/English code-switching for the Word:\n\n\"Do everything in love.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_489.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_490",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Sound architecture built on feeling.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_490.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_491",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"Desire without knowledge is not good\u2014how much more will hasty feet miss the way!\" (Proverbs 19:2)\n\nC'est ...\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_491.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_492",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Fighter philosophy meets divine truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_492.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_493",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Sound architecture built on feeling.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_493.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_494",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Planning a global brand on the 329 bus? Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_494.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_495",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_495.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_496",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Sea moss made by hand, guided by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_496.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_497",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Systems-level thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_497.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_498",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: 5 AM warrior energy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_498.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_499",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Made by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_499.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_500",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Ancient wisdom meets modern craft.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_500.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_501",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 16:3: \"Scripture: Proverbs 16:3 - heart_purpose\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_501.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_502",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from John 13:35: \"Scripture: John 13:35 - love_service\".\n\nKey message: Music is emotion.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_502.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_503",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_503.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_504",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: From Wood Green to the world.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_504.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_505",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: French/English code-switching for the Word:\n\n\"Blessed are those who find wisdom, those who gain understanding, for she is more profitable than silver.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_505.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_506",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Sea moss made by hand, guided by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_506.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_507",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Systems thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_507.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_508",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Sound architecture built on feeling.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_508.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_509",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Child, listen.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_509.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_510",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Fighter philosophy meets divine truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_510.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_511",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Merde, c'est beautiful! Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_511.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_512",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Discipline is freedom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_512.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_513",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: Sea moss made by hand, guided by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_513.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_514",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Duygu Adam\u0131.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_514.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_515",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: Seeing the whole picture.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_515.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_516",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_516.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_517",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: French/English code-switching for the Word:\n\n\"There is a time for everything, and a season for every activity under the heavens.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_517.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_518",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: 5 AM warrior energy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_518.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_519",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Sound architecture built on feeling.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_519.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_520",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Real work.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_520.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_521",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_521.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_522",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_522.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_523",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: From Wood Green to the world.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_523.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_524",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"Carry each other's burdens, and in this way you will fulfill the law of Christ.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_524.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_525",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_525.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_526",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Seeing the whole picture.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_526.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_527",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: Emotion drives the beat.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_527.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_528",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: Infrastructure for artists.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_528.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_529",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_529.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_530",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: Traditional craft, timeless wisdom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_530.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_531",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: Real hands.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_531.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_532",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: Merde, c'est beautiful! Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_532.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_533",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Planning a global brand on the 329 bus? Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_533.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_534",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_534.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_535",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Systems thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_535.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_536",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_536.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_537",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Duygu Adam\u0131.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_537.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_538",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_538.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_539",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Planning a global brand on the 329 bus? Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_539.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_540",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Ring strategy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_540.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_541",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_541.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_542",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: The graft comes first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_542.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_543",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_543.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_544",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: From hand to jar, from heart to community.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_544.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_545",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_545.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_546",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: The graft comes first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_546.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_547",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_547.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_548",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_548.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_549",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Ancient wisdom meets modern craft.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_549.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_550",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_550.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_551",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_551.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_552",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_552.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_553",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Discipline is freedom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_553.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_554",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_554.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_555",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: Discipline is freedom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_555.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_556",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: French/English code-switching for the Word:\n\n\"And let us consider how we may spur one another on toward love and good deeds, not giving up meeting ...\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_556.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_557",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: Music is emotion.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_557.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_558",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Systems-level thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_558.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_559",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: From hand to jar, from heart to community.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_559.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_560",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: Planning a global brand on the 329 bus? Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_560.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_561",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_561.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_562",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Fighter philosophy meets divine truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_562.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_563",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: From Wood Green to the world.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_563.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_564",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Bilingual chaos meets eternal truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_564.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_565",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"For where your treasure is, there your heart will be also.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_565.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_566",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: Real work.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_566.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_567",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_567.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_568",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: Systems-level thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_568.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_569",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_569.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_570",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_570.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_571",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: Made by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_571.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_572",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_572.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_573",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: 5 AM warrior energy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_573.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_574",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Turkish heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_574.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_575",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Bilingual chaos meets eternal truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_575.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_576",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: From Wood Green to the world.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_576.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_577",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_577.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_578",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_578.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_579",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Real work.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_579.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_580",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: French/English code-switching for the Word:\n\n\"Desire without knowledge is not good\u2014how much more will hasty feet miss the way!\" (Proverbs 19:2)\n\n T...\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_580.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_581",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Music is emotion.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_581.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_582",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_582.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_583",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: The graft comes first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_583.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_584",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Traditional craft, timeless wisdom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_584.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_585",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 6:21: \"Scripture: Matthew 6:21 - heart_purpose\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_585.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_586",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Feeling first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_586.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_587",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: The graft comes first.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_587.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_588",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: Ring strategy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_588.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_589",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: Music is emotion.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_589.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_590",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Child, listen.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_590.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_591",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Real hands.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_591.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_592",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: Sea moss made by hand, guided by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_592.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_593",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_593.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_594",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Ring strategy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_594.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_595",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: Music is emotion.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_595.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_596",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Merde, c'est beautiful! Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_596.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_597",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_597.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_598",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: Real hands.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_598.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_599",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Meta-awareness meets divine purpose.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_599.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_600",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_600.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_601",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_601.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_602",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from John 13:35: \"Scripture: John 13:35 - love_service\".\n\nKey message: Sea moss made by hand, guided by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_602.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_603",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 13:20: \"Scripture: Proverbs 13:20 - wisdom_tradition\".\n\nKey message: Planning a global brand on the 329 bus? Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_603.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_604",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from John 13:35: \"Scripture: John 13:35 - love_service\".\n\nKey message: Emotion drives the beat.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_604.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_605",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: French/English code-switching for the Word:\n\n\"Wisdom is a shelter as money is a shelter, but the advantage of knowledge is this: Wisdom preserves t...\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_605.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_606",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: Meta-awareness meets divine purpose.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_606.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_607",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: Child, listen.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_607.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_608",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_608.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_609",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_609.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_610",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_610.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_611",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 22:29: \"Scripture: Proverbs 22:29 - craft_work\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_611.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_612",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: Infrastructure for artists.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_612.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_613",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Real hands.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_613.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_614",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 27:17: \"Scripture: Proverbs 27:17 - community_stewardship\".\n\nKey message: Turkish heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_614.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_615",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Ring strategy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_615.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_616",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from James 5:7: \"Scripture: James 5:7 - patience_process\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"Be patient, then, brothers and sisters, until the Lord's coming.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_616.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_617",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 John 4:19: \"Scripture: 1 John 4:19 - love_service\".\n\nKey message: Ancient wisdom meets modern craft.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_617.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_618",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_618.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_619",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Emotion drives the beat.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_619.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_620",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: Infrastructure built on truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_620.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_621",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Child, listen.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_621.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_622",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: Sea moss made by hand, guided by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_622.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_623",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Hebrews 10:24-25: \"Scripture: Hebrews 10:24-25 - community_stewardship\".\n\nKey message: Ring strategy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_623.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_624",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Je reviens, baby! The Word backs it up:\n\n\"Blessed are those who find wisdom, those who gain understanding, for she is more profitable than silver.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_624.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_625",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:5-6: \"Scripture: Proverbs 3:5-6 - faith_trust\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_625.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_626",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: Absurd? Maybe.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_626.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_627",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: From Wood Green to the world.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_627.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_628",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 9:10: \"Scripture: Ecclesiastes 9:10 - craft_work\".\n\nKey message: Listen carefully.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_628.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_629",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: From hand to jar, from heart to community.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_629.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_630",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from John 13:35: \"Scripture: John 13:35 - love_service\".\n\nKey message: 5 AM warrior energy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_630.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_631",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Meta-awareness meets divine purpose.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_631.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_632",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:20: \"Scripture: Proverbs 19:20 - wisdom_tradition\".\n\nKey message: From hand to jar, from heart to community.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_632.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_633",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: Ring strategy.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_633.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_634",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 14:23: \"Scripture: Proverbs 14:23 - craft_work\".\n\nKey message: French/English code-switching for the Word:\n\n\"In all toil there is profit, but mere talk tends only to poverty.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_634.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_635",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from John 13:35: \"Scripture: John 13:35 - love_service\".\n\nKey message: Sound architecture built on feeling.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_635.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_636",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Real hands.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_636.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_637",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Isaiah 41:10: \"Scripture: Isaiah 41:10 - faith_trust\".\n\nKey message: Child, listen.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_637.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_638",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: Systems-level thinking.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_638.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_639",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Peter 4:10: \"Scripture: 1 Peter 4:10 - community_stewardship\".\n\nKey message: Chaos meets craft, profane meets sacred.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_639.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_640",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Romans 8:25: \"Scripture: Romans 8:25 - patience_process\".\n\nKey message: Sound architecture built on feeling.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_640.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_641",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: Hand-prepared.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_641.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_642",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_642.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_643",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 5:13: \"Scripture: Galatians 5:13 - love_service\".\n\nKey message: Planning a global brand on the 329 bus? Scripture says.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_643.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_644",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Warrior mindset.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_644.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_645",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Philippians 4:13: \"Scripture: Philippians 4:13 - faith_trust\".\n\nKey message: French/English code-switching for the Word:\n\n\"I can do all this through him who gives me strength.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_645.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_646",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 3:13-14: \"Scripture: Proverbs 3:13-14 - wisdom_tradition\".\n\nKey message: Traditional craft, timeless wisdom.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_646.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_647",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 4:23: \"Scripture: Proverbs 4:23 - heart_purpose\".\n\nKey message: Building something real? The Word says:\n\n\"Above all else, guard your heart, for everything you do flows from it.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_647.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_648",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 7:12: \"Scripture: Ecclesiastes 7:12 - wisdom_tradition\".\n\nKey message: Seeing the whole picture.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_648.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_649",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Jeremiah 29:11: \"Scripture: Jeremiah 29:11 - heart_purpose\".\n\nKey message: Evlat, dikkatle dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_649.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_650",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Ecclesiastes 3:1: \"Scripture: Ecclesiastes 3:1 - patience_process\".\n\nKey message: Bilingual chaos meets eternal truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_650.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_651",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Proverbs 19:2: \"Scripture: Proverbs 19:2 - patience_process\".\n\nKey message: Fighter philosophy meets divine truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_651.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_652",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Matthew 17:20: \"Scripture: Matthew 17:20 - faith_trust\".\n\nKey message: Infrastructure built on truth.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_652.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_653",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Colossians 3:23: \"Scripture: Colossians 3:23 - craft_work\".\n\nKey message: No shortcuts.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_653.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_654",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from 1 Corinthians 16:14: \"Scripture: 1 Corinthians 16:14 - love_service\".\n\nKey message: Made by heart.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_654.png"
+  },
+  {
+    "type": "scripture_lesson",
+    "lesson_id": "lesson_655",
+    "law_number": null,
+    "age_group": "5-7",
+    "language": "en",
+    "prompt": "Create a warm, gentle, child-friendly illustration depicting the teaching from Galatians 6:2: \"Scripture: Galatians 6:2 - community_stewardship\".\n\nKey message: Ye\u011fen, dinle.\n\nStyle guidelines:\n- Age-appropriate for 5-7 years old\n- Warm, peaceful colors\n- Universal symbols (no specific religious imagery)\n- Inclusive representation\n- Inspiring and uplifting\n- Clear central focus\n\nTechnical: High resolution, suitable for social media and educational materials.",
+    "output_filename": "scripture_lesson_655.png"
+  }
+]
+
+# Initialize pipeline
+print(f"Loading Stable Diffusion model: {MODEL_ID}")
+pipe = StableDiffusionPipeline.from_pretrained(MODEL_ID, torch_dtype=torch.float16)
+pipe = pipe.to(DEVICE)
+
+# Generate images
+for i, prompt_data in enumerate(prompts, 1):
+    print(f"\nGenerating image {i}/{len(prompts)}")
+    print(f"Type: {prompt_data['type']}")
+    print(f"Output: {prompt_data['output_filename']}")
+
+    try:
+        # Generate image
+        image = pipe(
+            prompt=prompt_data['prompt'],
+            num_inference_steps=50,
+            guidance_scale=7.5
+        ).images[0]
+
+        # Save image
+        output_path = OUTPUT_DIR / prompt_data['output_filename']
+        image.save(output_path)
+        print(f"Saved: {output_path}")
+
+    except Exception as e:
+        print(f"Error generating image: {e}")
+
+print("\nGeneration complete!")

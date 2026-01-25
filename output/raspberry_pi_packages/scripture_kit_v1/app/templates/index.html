@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scripture Education - Offline</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; padding: 20px; background: #f5f5f5; }
+        h1 { color: #333; margin-bottom: 20px; }
+        .lesson-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+        .lesson-card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .lesson-card h2 { color: #2c3e50; margin-bottom: 10px; }
+        .lesson-card p { color: #666; line-height: 1.6; }
+        .philosophy { background: #2c3e50; color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="philosophy">
+        <h2>Scripture Education</h2>
+        <p>376 Lessons • Offline Access • Complete Independence</p>
+        <p><strong>Purpose Not Performance • Love Is The Highest Mastery</strong></p>
+    </div>
+
+    <h1>Scripture Lessons</h1>
+    <div class="lesson-grid" id="lessons">
+        <p>Loading lessons...</p>
+    </div>
+
+    <script>
+        fetch('/api/lessons')
+            .then(r => r.json())
+            .then(lessons => {
+                const grid = document.getElementById('lessons');
+                grid.innerHTML = lessons.map(lesson => `
+                    <div class="lesson-card">
+                        <h2>${lesson.title || 'Lesson ' + lesson.lesson_id}</h2>
+                        <p><strong>Age Group:</strong> ${lesson.age_group}</p>
+                        <p><strong>Language:</strong> ${lesson.language === 'en' ? 'English' : 'Turkish'}</p>
+                    </div>
+                `).join('');
+            });
+    </script>
+</body>
+</html>

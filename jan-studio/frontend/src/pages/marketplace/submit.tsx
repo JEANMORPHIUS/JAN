@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
-import Link from 'next/link';
 import { submitPersona } from '@/api/marketplace';
 import { getPersonas, getPersonaFiles } from '@/api/personas';
 
@@ -105,11 +104,13 @@ export default function SubmitPersona() {
             <h1>Submit Persona</h1>
             <p>Share your JAN persona with the community</p>
           </div>
-          <Link href="/marketplace">
-            <button className="button" style={{ backgroundColor: '#666' }}>
-              ← Back to Marketplace
-            </button>
-          </Link>
+          <button
+            className="button"
+            style={{ backgroundColor: '#666' }}
+            onClick={() => router.push('/marketplace')}
+          >
+            ← Back to Marketplace
+          </button>
         </div>
       </div>
 
@@ -244,9 +245,9 @@ export default function SubmitPersona() {
               >
                 {loading ? 'Submitting...' : 'Submit Persona'}
               </button>
-              <Link href="/marketplace">
-                <button
-                  type="button"
+              <button
+                type="button"
+                onClick={() => router.push('/marketplace')}
                   className="button"
                   style={{ backgroundColor: '#666' }}
                 >

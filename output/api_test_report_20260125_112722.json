@@ -1,0 +1,99 @@
+{
+  "timestamp": "2026-01-25T11:27:22.271258",
+  "base_url": "http://localhost:8000",
+  "total_tests": 9,
+  "successful": 0,
+  "failed": 9,
+  "results": [
+    {
+      "method": "GET",
+      "path": "/health",
+      "expected_status": 200,
+      "actual_status": 403,
+      "success": false,
+      "timestamp": "2026-01-25T11:27:22.236112",
+      "error": "Expected 200, got 403",
+      "response": "{\"error\":\"Code that doesn't serve the Table gets purged\",\"law\":\"Law 1: Never Betray the Table\",\"operation\":\"GET /health\"}"
+    },
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "expected_status": 200,
+      "actual_status": 403,
+      "success": false,
+      "timestamp": "2026-01-25T11:27:22.237772",
+      "error": "Expected 200, got 403",
+      "response": "{\"error\":\"Code that doesn't serve the Table gets purged\",\"law\":\"Law 1: Never Betray the Table\",\"operation\":\"GET /api/health\"}"
+    },
+    {
+      "method": "GET",
+      "path": "/api/marketplace/personas",
+      "expected_status": 200,
+      "actual_status": 403,
+      "success": false,
+      "timestamp": "2026-01-25T11:27:22.239043",
+      "error": "Expected 200, got 403",
+      "response": "{\"error\":\"Code that doesn't serve the Table gets purged\",\"law\":\"Law 1: Never Betray the Table\",\"operation\":\"GET /api/marketplace/personas\"}"
+    },
+    {
+      "method": "GET",
+      "path": "/api/marketplace/categories",
+      "expected_status": 200,
+      "actual_status": 403,
+      "success": false,
+      "timestamp": "2026-01-25T11:27:22.240204",
+      "error": "Expected 200, got 403",
+      "response": "{\"error\":\"Code that doesn't serve the Table gets purged\",\"law\":\"Law 1: Never Betray the Table\",\"operation\":\"GET /api/marketplace/categories\"}"
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/register",
+      "expected_status": 201,
+      "actual_status": 403,
+      "success": false,
+      "timestamp": "2026-01-25T11:27:22.241679",
+      "error": "Expected 201, got 403",
+      "response": "{\"error\":\"Code that doesn't serve the Table gets purged\",\"law\":\"Law 1: Never Betray the Table\",\"operation\":\"POST /api/auth/register\"}"
+    },
+    {
+      "method": "GET",
+      "path": "/api/content/lessons",
+      "expected_status": 200,
+      "actual_status": 403,
+      "success": false,
+      "timestamp": "2026-01-25T11:27:22.243916",
+      "error": "Expected 200, got 403",
+      "response": "{\"error\":\"Code that doesn't serve the Table gets purged\",\"law\":\"Law 1: Never Betray the Table\",\"operation\":\"GET /api/content/lessons\"}"
+    },
+    {
+      "method": "GET",
+      "path": "/api/content/posts",
+      "expected_status": 200,
+      "actual_status": 403,
+      "success": false,
+      "timestamp": "2026-01-25T11:27:22.245552",
+      "error": "Expected 200, got 403",
+      "response": "{\"error\":\"Code that doesn't serve the Table gets purged\",\"law\":\"Law 1: Never Betray the Table\",\"operation\":\"GET /api/content/posts\"}"
+    },
+    {
+      "method": "GET",
+      "path": "/api/heritage/sites",
+      "expected_status": 200,
+      "actual_status": 404,
+      "success": false,
+      "timestamp": "2026-01-25T11:27:22.259202",
+      "error": "Expected 200, got 404",
+      "response": "{\"detail\":\"Not Found\"}"
+    },
+    {
+      "method": "GET",
+      "path": "/api/heritage/timeline",
+      "expected_status": 200,
+      "actual_status": 404,
+      "success": false,
+      "timestamp": "2026-01-25T11:27:22.270925",
+      "error": "Expected 200, got 404",
+      "response": "{\"detail\":\"Not Found\"}"
+    }
+  ]
+}

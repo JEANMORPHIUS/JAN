@@ -30,6 +30,7 @@ import GlobalSearch, { SearchResult } from '@/components/GlobalSearch';
 import ErrorBoundary from '@/components/ErrorBoundary';
 import MissionDisplay from '@/components/MissionDisplay';
 import PushNotificationSystem from '@/components/PushNotificationSystem';
+import BackendStatus from '@/components/BackendStatus';
 
 // Lazy load heavy components for better performance
 const TemplateBrowser = lazy(() => import('@/components/TemplateBrowser'));
@@ -108,7 +109,8 @@ export default function Home() {
             <h1>JAN Studio</h1>
             <p>Creation Centre - Create and manage JAN personas</p>
           </div>
-          <div style={{ maxWidth: '400px', width: '100%' }}>
+          <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', maxWidth: '500px', width: '100%' }}>
+            <BackendStatus />
             {showSearch ? (
               <GlobalSearch
                 onSelect={handleSearchSelect}
@@ -125,7 +127,7 @@ export default function Home() {
                   color: '#999',
                   cursor: 'pointer',
                   fontSize: '0.875rem',
-                  width: '100%',
+                  flex: 1,
                   textAlign: 'left',
                 }}
                 aria-label="Open search"

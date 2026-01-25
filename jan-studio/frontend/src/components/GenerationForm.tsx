@@ -116,6 +116,14 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
         output_type: formData.output_type,
       };
 
+      // Save to history
+      try {
+        const { saveToHistory } = await import('@/api/generation');
+        await saveToHistory(resultWithContext);
+      } catch (err) {
+        console.error('Failed to save to history:', err);
+      }
+
       onGenerate(resultWithContext);
     } catch (err: any) {
       setError(err.response?.data?.detail || 'Generation failed');

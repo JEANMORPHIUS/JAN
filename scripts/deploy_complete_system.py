@@ -24,7 +24,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from utils import (
-    Path, datetime, json, load_json, save_json
+    Path, datetime, json, load_json, save_json,
     setup_logging, standard_main
 )
 
@@ -56,7 +56,7 @@ class CompleteSystemDeployment:
         print("1. Checking Python version...")
         python_version = sys.version_info
         checks['python_3_9_plus'] = python_version >= (3, 9)
-        print(f"   Python {python_version.major}.{python_version.minor}.{python_version.micro}: {'✓' if checks['python_3_9_plus'] else '✗'}")
+        print(f"   Python {python_version.major}.{python_version.minor}.{python_version.micro}: {'[OK]' if checks['python_3_9_plus'] else '[FAIL]'}")
 
         # Node.js (for frontend)
         print("2. Checking Node.js...")
@@ -64,10 +64,10 @@ class CompleteSystemDeployment:
             result = subprocess.run(['node', '--version'], capture_output=True, text=True)
             checks['nodejs'] = result.returncode == 0
             if checks['nodejs']:
-                print(f"   Node.js {result.stdout.strip()}: ✓")
+                print(f"   Node.js {result.stdout.strip()}: [OK]")
         except:
             checks['nodejs'] = False
-            print("   Node.js: ✗ (not found)")
+            print("   Node.js: [FAIL] (not found)")
 
         # Docker
         print("3. Checking Docker...")
@@ -75,10 +75,10 @@ class CompleteSystemDeployment:
             result = subprocess.run(['docker', '--version'], capture_output=True, text=True)
             checks['docker'] = result.returncode == 0
             if checks['docker']:
-                print(f"   {result.stdout.strip()}: ✓")
+                print(f"   {result.stdout.strip()}: [OK]")
         except:
             checks['docker'] = False
-            print("   Docker: ✗ (not found)")
+            print("   Docker: [FAIL] (not found)")
 
         # Git
         print("4. Checking Git...")
@@ -86,10 +86,10 @@ class CompleteSystemDeployment:
             result = subprocess.run(['git', '--version'], capture_output=True, text=True)
             checks['git'] = result.returncode == 0
             if checks['git']:
-                print(f"   {result.stdout.strip()}: ✓")
+                print(f"   {result.stdout.strip()}: [OK]")
         except:
             checks['git'] = False
-            print("   Git: ✗ (not found)")
+            print("   Git: [FAIL] (not found)")
 
         # Backend dependencies
         print("5. Checking Python packages...")
@@ -98,22 +98,22 @@ class CompleteSystemDeployment:
         for package in required_packages:
             try:
                 __import__(package)
-                print(f"   {package}: ✓")
+                print(f"   {package}: [OK]")
             except ImportError:
-                print(f"   {package}: ✗ (not installed)")
+                print(f"   {package}: [FAIL] (not installed)")
                 checks['python_packages'] = False
 
         # Check .env file
         print("6. Checking environment configuration...")
         env_file = self.jan_studio / ".env"
         checks['env_file'] = env_file.exists()
-        print(f"   .env file: {'✓' if checks['env_file'] else '✗ (missing)'}")
+        print(f"   .env file: {'[OK]' if checks['env_file'] else '[FAIL] (missing)'}")
 
         print()
         all_checks_passed = all(checks.values())
 
         if not all_checks_passed:
-            print("⚠️  Some prerequisites are missing. Installation may fail.")
+            print("[WARN]  Some prerequisites are missing. Installation may fail.")
             print("\nTo install missing prerequisites:")
             if not checks['python_packages']:
                 print("  Python packages: pip install -r jan-studio/backend/requirements.txt")
@@ -122,7 +122,7 @@ class CompleteSystemDeployment:
             if not checks['docker']:
                 print("  Docker: https://www.docker.com/")
         else:
-            print("✅ All prerequisites met!")
+            print("[OK] All prerequisites met!")
 
         return checks
 
@@ -142,12 +142,12 @@ class CompleteSystemDeployment:
             cwd=backend_dir,
             check=True
         )
-        print("   ✓ Dependencies installed\n")
+        print("   [OK] Dependencies installed\n")
 
         # Database setup
         print("2. Setting up database...")
         # This would run database migrations
-        print("   ✓ Database ready\n")
+        print("   [OK] Database ready\n")
 
         # Start backend services
         print("3. Starting backend services...")
@@ -170,12 +170,12 @@ class CompleteSystemDeployment:
         # Install dependencies
         print("1. Installing Node.js dependencies...")
         subprocess.run(['npm', 'install'], cwd=frontend_dir, check=True)
-        print("   ✓ Dependencies installed\n")
+        print("   [OK] Dependencies installed\n")
 
         # Build frontend
         print("2. Building frontend...")
         subprocess.run(['npm', 'run', 'build'], cwd=frontend_dir, check=True)
-        print("   ✓ Frontend built\n")
+        print("   [OK] Frontend built\n")
 
         # Deploy
         print("3. Frontend ready for deployment")
@@ -198,12 +198,12 @@ class CompleteSystemDeployment:
         # Build containers
         print("1. Building Docker containers...")
         subprocess.run(['docker-compose', 'build'], cwd=self.project_root, check=True)
-        print("   ✓ Containers built\n")
+        print("   [OK] Containers built\n")
 
         # Start services
         print("2. Starting services...")
         subprocess.run(['docker-compose', 'up', '-d'], cwd=self.project_root, check=True)
-        print("   ✓ Services started\n")
+        print("   [OK] Services started\n")
 
         # Show status
         print("3. Service status:")
@@ -220,12 +220,12 @@ class CompleteSystemDeployment:
         print("1. Setting up analytics...")
         print("   - Google Analytics: Configure in .env")
         print("   - Mixpanel: Configure in .env")
-        print("   ✓ Analytics framework ready\n")
+        print("   [OK] Analytics framework ready\n")
 
         print("2. Setting up logging...")
         print("   - Log directory: S:/JAN/logs/")
         print("   - Log rotation: Enabled")
-        print("   ✓ Logging configured\n")
+        print("   [OK] Logging configured\n")
 
     def generate_deployment_report(self):
         """Generate deployment status report"""
@@ -298,7 +298,7 @@ class CompleteSystemDeployment:
 
         print("System Status:")
         for component, data in report['components'].items():
-            status_symbol = "✓" if data['status'] in ['deployed', 'operational', 'configured'] else "⏳"
+            status_symbol = "[OK]" if data['status'] in ['deployed', 'operational', 'configured'] else "[...]"
             print(f"  {status_symbol} {component.capitalize()}: {data['status']}")
 
         print("\nAccess Points:")

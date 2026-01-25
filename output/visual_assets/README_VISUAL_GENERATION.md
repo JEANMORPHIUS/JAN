@@ -19,8 +19,7 @@ import openai
 import json
 
 # Load manifest
-with open('all_visual_assets_manifest.json', 'r') as f:
-    manifest = json.load(f)
+manifest = load_json('all_visual_assets_manifest.json')
 
 # Generate images
 for prompt_data in manifest['prompts']:
@@ -57,8 +56,7 @@ import requests
 import json
 
 # Load manifest
-with open('all_visual_assets_manifest.json', 'r') as f:
-    manifest = json.load(f)
+manifest = load_json('all_visual_assets_manifest.json')
 
 # API endpoint
 url = "https://api.stability.ai/v1/generation/stable-diffusion-xl-1024-v1-0/text-to-image"
