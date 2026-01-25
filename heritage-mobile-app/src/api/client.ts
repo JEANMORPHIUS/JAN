@@ -4,11 +4,10 @@
  */
 
 import axios from 'axios';
+import { API_CONFIG } from '../config/constants';
 
-// API Base URL - Change for production
-const API_BASE_URL = __DEV__ 
-  ? 'http://localhost:8000'  // Development - use your machine's IP for physical device
-  : 'https://api.yourdomain.com';  // Production
+// API Base URL - Uses environment configuration
+const API_BASE_URL = API_CONFIG.BASE_URL;
 
 export const apiClient = axios.create({
   baseURL: API_BASE_URL,

@@ -5,28 +5,36 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#8B4513"
+      "backgroundColor": "#0f0f23"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.jan.ecosystem"
+      "bundleIdentifier": "com.jan.ecosystem",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "JAN Ecosystem uses your location to find nearby heritage sites and show your position on the map.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "JAN Ecosystem uses your location to find nearby heritage sites and show your position on the map."
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#8B4513"
+        "backgroundColor": "#0f0f23"
       },
       "package": "com.jan.ecosystem",
+      "versionCode": 1,
       "permissions": [
         "ACCESS_FINE_LOCATION",
-        "ACCESS_COARSE_LOCATION"
+        "ACCESS_COARSE_LOCATION",
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
       ]
     },
     "web": {
@@ -36,9 +44,14 @@
       [
         "expo-location",
         {
-          "locationAlwaysAndWhenInUsePermission": "Allow Heritage Meridian to use your location to find nearby heritage sites."
+          "locationAlwaysAndWhenInUsePermission": "Allow JAN Ecosystem to use your location to find nearby heritage sites."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id-here"
+      }
+    }
   }
 }
