@@ -15,6 +15,7 @@ import { StatusBar } from 'expo-status-bar';
 import HeritageScreen from './src/screens/HeritageScreen';
 import WonderDetailScreen from './src/screens/WonderDetailScreen';
 import HeritageMapScreen from './src/screens/HeritageMapScreen';
+import NearbySitesScreen from './src/screens/NearbySitesScreen';
 import EntitiesScreen from './src/screens/EntitiesScreen';
 import ProjectsScreen from './src/screens/ProjectsScreen';
 import ChannelsScreen from './src/screens/ChannelsScreen';
@@ -51,6 +52,11 @@ function HeritageStack() {
         name="HeritageMap" 
         component={HeritageMapScreen}
         options={{ title: 'Heritage Map' }}
+      />
+      <Stack.Screen 
+        name="NearbySites" 
+        component={NearbySitesScreen}
+        options={{ title: 'Nearby Sites' }}
       />
     </Stack.Navigator>
   );

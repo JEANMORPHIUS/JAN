@@ -12,6 +12,8 @@ import {
   ActivityIndicator,
   TouchableOpacity,
   Alert,
+  Share,
+  Linking,
 } from 'react-native';
 import { useRoute, useNavigation } from '@react-navigation/native';
 import { getWonder, getWonderConnections } from '../api/wonders';
@@ -217,9 +219,44 @@ export default function WonderDetailScreen() {
         {activeTab === 'shell' && renderShell()}
         {activeTab === 'seed' && renderSeed()}
         {activeTab === 'connections' && renderConnections()}
+
+        {/* Action Buttons */}
+        <View style={styles.actionsContainer}>
+          <TouchableOpacity
+            style={styles.actionButton}
+            onPress={handleShare}
+          >
+            <Text style={styles.actionButtonText}>Share</Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={[styles.actionButton, styles.actionButtonPrimary]}
+            onPress={handleDirections}
+          >
+            <Text style={styles.actionButtonText}>Get Directions</Text>
+          </TouchableOpacity>
+        </View>
       </ScrollView>
     </View>
   );
+
+  const handleShare = async () => {
+    try {
+      await Share.share({
+        message: `${wonder.name}\n\n${wonder.location}\n\nField Resonance: ${(wonder.field_resonance * 100).toFixed(0)}%\n\n${wonder.spiritual_significance}`,
+        title: wonder.name,
+      });
+    } catch (error) {
+      console.error('Error sharing:', error);
+    }
+  };
+
+  const handleDirections = () => {
+    const url = `https://www.google.com/maps/dir/?api=1&destination=${wonder.coordinates.lat},${wonder.coordinates.lon}`;
+    Linking.openURL(url).catch((err) => {
+      console.error('Error opening directions:', err);
+      Alert.alert('Error', 'Could not open directions');
+    });
+  };
 }
 
 const styles = StyleSheet.create({
@@ -447,5 +484,28 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 15,
     lineHeight: 24,
+  },
+  actionsContainer: {
+    flexDirection: 'row',
+    padding: 20,
+    gap: 12,
+    backgroundColor: '#1a1a2e',
+    borderTopWidth: 1,
+    borderTopColor: '#16213e',
+  },
+  actionButton: {
+    flex: 1,
+    paddingVertical: 14,
+    borderRadius: 8,
+    backgroundColor: '#16213e',
+    alignItems: 'center',
+  },
+  actionButtonPrimary: {
+    backgroundColor: '#e94560',
+  },
+  actionButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
   },
 });

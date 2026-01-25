@@ -13,6 +13,7 @@ import {
   ActivityIndicator,
   Alert,
   Button,
+  RefreshControl,
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -20,7 +21,7 @@ import { getWonders } from '../api/wonders';
 import { getPillars } from '../api/heritage';
 import type { Wonder } from '../api/wonders';
 import PillarsScreen from './PillarsScreen';
-import { loadWonders, saveWonders, getSyncStatus } from '../utils/offlineStorage';
+import { loadWonders, saveWonders, getSyncStatus, isDataStale } from '../utils/offlineStorage';
 import NetInfo from '@react-native-community/netinfo';
 
 export default function HeritageScreen() {
@@ -30,6 +31,7 @@ export default function HeritageScreen() {
   const [activeTab, setActiveTab] = useState<'wonders' | 'pillars'>('wonders');
   const [isOffline, setIsOffline] = useState(false);
   const [syncStatus, setSyncStatus] = useState<any>(null);
+  const [refreshing, setRefreshing] = useState(false);
 
   useEffect(() => {
     checkNetworkAndLoad();
@@ -76,6 +78,12 @@ export default function HeritageScreen() {
     } finally {
       setLoading(false);
     }
+  };
+
+  const handleRefresh = async () => {
+    setRefreshing(true);
+    await loadWondersData();
+    setRefreshing(false);
   };
 
   const renderWonder = ({ item }: { item: Wonder }) => (
@@ -140,6 +148,12 @@ export default function HeritageScreen() {
         >
           <Text style={styles.mapButtonText}>🗺️ Map</Text>
         </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.mapButton}
+          onPress={() => navigation.navigate('NearbySites' as never)}
+        >
+          <Text style={styles.mapButtonText}>📍 Nearby</Text>
+        </TouchableOpacity>
       </View>
 
       {/* Content */}
@@ -149,6 +163,13 @@ export default function HeritageScreen() {
           renderItem={renderWonder}
           keyExtractor={(item) => item.wonder_id}
           contentContainerStyle={styles.list}
+          refreshControl={
+            <RefreshControl
+              refreshing={refreshing}
+              onRefresh={handleRefresh}
+              tintColor="#e94560"
+            />
+          }
           ListEmptyComponent={
             <View style={styles.center}>
               <Text style={styles.emptyText}>No wonders found</Text>

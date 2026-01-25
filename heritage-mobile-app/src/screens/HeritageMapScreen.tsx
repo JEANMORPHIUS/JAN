@@ -12,7 +12,8 @@ import {
   Alert,
   TouchableOpacity,
 } from 'react-native';
-import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
+import MapView, { Marker, PROVIDER_GOOGLE, Polyline } from 'react-native-maps';
+import * as Location from 'expo-location';
 import { getWonders } from '../api/wonders';
 import { getPillars } from '../api/heritage';
 import type { Wonder } from '../api/wonders';
@@ -34,10 +35,28 @@ export default function HeritageMapScreen() {
   const [loading, setLoading] = useState(true);
   const [mapType, setMapType] = useState<'standard' | 'satellite'>('standard');
   const [selectedType, setSelectedType] = useState<'all' | 'wonders' | 'pillars'>('all');
+  const [showMeridians, setShowMeridians] = useState(false);
+  const [userLocation, setUserLocation] = useState<{ lat: number; lon: number } | null>(null);
 
   useEffect(() => {
     loadMapData();
+    requestUserLocation();
   }, [selectedType]);
+
+  const requestUserLocation = async () => {
+    try {
+      const { status } = await Location.requestForegroundPermissionsAsync();
+      if (status === 'granted') {
+        const location = await Location.getCurrentPositionAsync();
+        setUserLocation({
+          lat: location.coords.latitude,
+          lon: location.coords.longitude,
+        });
+      }
+    } catch (error) {
+      console.error('Error getting user location:', error);
+    }
+  };
 
   const loadMapData = async () => {
     try {
@@ -158,6 +177,14 @@ export default function HeritageMapScreen() {
             {mapType === 'standard' ? 'Satellite' : 'Standard'}
           </Text>
         </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.mapTypeButton, showMeridians && styles.mapTypeButtonActive]}
+          onPress={() => setShowMeridians(!showMeridians)}
+        >
+          <Text style={[styles.mapTypeText, showMeridians && styles.mapTypeTextActive]}>
+            {showMeridians ? 'Hide' : 'Show'} Lines
+          </Text>
+        </TouchableOpacity>
       </View>
 
       {/* Map */}
@@ -167,6 +194,34 @@ export default function HeritageMapScreen() {
         initialRegion={getInitialRegion()}
         mapType={mapType}
       >
+        {/* User Location */}
+        {userLocation && (
+          <Marker
+            coordinate={userLocation}
+            title="Your Location"
+            pinColor="#4ade80"
+          />
+        )}
+
+        {/* Meridian Lines */}
+        {showMeridians && markers.length > 1 && (
+          <>
+            {markers.map((marker1, i) =>
+              markers.slice(i + 1).map((marker2) => (
+                <Polyline
+                  key={`${marker1.id}-${marker2.id}`}
+                  coordinates={[marker1.coordinate, marker2.coordinate]}
+                  strokeColor="#e94560"
+                  strokeWidth={1}
+                  lineDashPattern={[5, 5]}
+                  opacity={0.5}
+                />
+              ))
+            )}
+          </>
+        )}
+
+        {/* Site Markers */}
         {markers.map((marker) => (
           <Marker
             key={marker.id}
@@ -263,6 +318,13 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 14,
     fontWeight: '500',
+  },
+  mapTypeButtonActive: {
+    backgroundColor: '#e94560',
+  },
+  mapTypeTextActive: {
+    color: '#fff',
+    fontWeight: 'bold',
   },
   map: {
     flex: 1,
