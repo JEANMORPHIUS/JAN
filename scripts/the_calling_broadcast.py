@@ -72,6 +72,54 @@ PILLARS = {
     }
 }
 
+# The New 7 Wonders of the World (2007)
+NEW_7_WONDERS = {
+    "great_wall": {
+        "name": "Great Wall of China",
+        "location": "China",
+        "coordinates": {"lat": 40.4319, "lon": 116.5704},
+        "status": "wonder_anchor",
+        "wonder_id": "wonder_01"
+    },
+    "petra": {
+        "name": "Petra",
+        "location": "Jordan",
+        "coordinates": {"lat": 30.3285, "lon": 35.4444},
+        "status": "wonder_anchor",
+        "wonder_id": "wonder_02"
+    },
+    "colosseum": {
+        "name": "Colosseum",
+        "location": "Rome, Italy",
+        "coordinates": {"lat": 41.8902, "lon": 12.4922},
+        "status": "wonder_anchor",
+        "wonder_id": "wonder_03"
+    },
+    "chichen_itza": {
+        "name": "Chichén Itzá",
+        "location": "Yucatán, Mexico",
+        "coordinates": {"lat": 20.6843, "lon": -88.5678},
+        "status": "wonder_anchor",
+        "wonder_id": "wonder_04"
+    },
+    "taj_mahal": {
+        "name": "Taj Mahal",
+        "location": "Agra, India",
+        "coordinates": {"lat": 27.1750, "lon": 78.0422},
+        "status": "wonder_anchor",
+        "wonder_id": "wonder_06",
+        "note": "Also Seat 09 in 13 Seats system"
+    },
+    "christ_the_redeemer": {
+        "name": "Christ the Redeemer",
+        "location": "Rio de Janeiro, Brazil",
+        "coordinates": {"lat": -22.9519, "lon": -43.2105},
+        "status": "wonder_anchor",
+        "wonder_id": "wonder_07"
+    }
+    # Note: Machu Picchu is already in PILLARS, so not duplicated here
+}
+
 # Broadcast parameters
 BROADCAST_CONFIG = {
     "frequency": "maximum_resonance",
