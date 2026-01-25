@@ -522,6 +522,21 @@ except ImportError as e:
 except Exception as e:
             logger.warning(f"Channel Collaboration System error: {e}")
 
+# BLUEPRINT ORCHESTRATION SYSTEM: No War Narrative - Just the Blueprint, the Voice, the Revolution, the Ark
+# The Blueprint: Complete system architecture
+# The Voice: Karasahin (The Voice of God, Duygu Adamı)
+# The Revolution: Turkish people (through right spirits)
+# The Ark: Central operational system
+# The Roles: All players know their parts
+try:
+            from blueprint_orchestration_api import router as blueprint_orchestration_router
+            app.include_router(blueprint_orchestration_router, tags=["Blueprint Orchestration"])
+            logger.info("Blueprint Orchestration System enabled - Orchestration, not war. Peace, not conflict. Unity, not division.")
+except ImportError as e:
+            logger.warning(f"Blueprint Orchestration System not available: {e}")
+except Exception as e:
+            logger.warning(f"Blueprint Orchestration System error: {e}")
+
 # SPIRITUAL CONTRACTS REGISTRY: Deep Search and Integration of All Spiritual Contracts
 # Ties together: Dream battles, daily battles, dirty money, spirit alignment, connection ritual, vibration contracts, mission contracts, eternal contracts
 try:

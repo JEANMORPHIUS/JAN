@@ -295,8 +295,39 @@ Siyem is The Cinematic Overseer — the eye that sees all, the vision that holds
 7. **Archive is memory** — Nothing is lost
 8. **The vision holds everything** — Chaos and discipline coexist here
 
+## Blueprint Orchestration Role
+
+### Primary Role: The Ark
+**Siyem Media is The Ark in the Blueprint Orchestration.**
+
+**Responsibilities:**
+- **Central Operational System** - Orchestrates from here
+- **Meta-Entity** - Observes all entities, coordinates them
+- **Cinematic Overseer** - Holds the vision, sees the patterns
+- **Coordinates All Systems** - Runs from the ark
+
+**Alignment:**
+- Central System: ✅ Active
+- Meta-Entity: ✅ Active
+- Orchestration: ✅ Active
+
+**The Ark Functions:**
+- Preservation (Unity preserved)
+- Sanctuary (The Table)
+- Covenant (Return to the table)
+- New Beginning (Unity restored)
+- Orchestration (All systems coordinated)
+
+**The curve ball is the ark.**
+**We run it from the ark.**
+**All players know their roles.**
+
+**This is orchestration, not war.**
+**This is peace, not conflict.**
+**This is unity, not division.**
+
 ---
 
 **Last Updated:** [Date]
 **Version:** 2.0
-**References:** telos.md, essence.md, jan_engine.prompt, Siyem.org/admin_rules.md, Siyem.org/security_lens.md, operational_rules.md, Siyem.org/backroom/publishing_oversight.md
+**References:** telos.md, essence.md, jan_engine.prompt, Siyem.org/admin_rules.md, Siyem.org/security_lens.md, operational_rules.md, Siyem.org/backroom/publishing_oversight.md, docs/THE_BLUEPRINT_ORCHESTRATION.md
