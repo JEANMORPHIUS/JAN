@@ -1,0 +1,13 @@
+{
+  "launched_at": "2026-01-25T15:11:18.092256",
+  "program_name": "educational_launch",
+  "program_data": {
+    "name": "Educational Launch Pilot",
+    "target_schools": 5,
+    "status": "launched",
+    "onboarding": "automated"
+  },
+  "status": "launched",
+  "onboarding": "automated",
+  "feedback_collection": "active"
+}

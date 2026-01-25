@@ -1,0 +1,13 @@
+{
+  "setup_at": "2026-01-25T15:11:36.194868",
+  "system_name": "partner_outreach",
+  "system_data": {
+    "targets": [
+      "schools",
+      "educators",
+      "organizations"
+    ],
+    "status": "ready_for_outreach"
+  },
+  "status": "ready"
+}

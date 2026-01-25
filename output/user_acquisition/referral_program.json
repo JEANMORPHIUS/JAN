@@ -1,0 +1,9 @@
+{
+  "setup_at": "2026-01-25T15:11:36.197167",
+  "system_name": "referral_program",
+  "system_data": {
+    "structure": "automated",
+    "status": "ready_for_setup"
+  },
+  "status": "ready"
+}

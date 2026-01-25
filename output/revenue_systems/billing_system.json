@@ -1,0 +1,13 @@
+{
+  "setup_at": "2026-01-25T15:11:46.106347",
+  "system_name": "billing_system",
+  "system_data": {
+    "features": [
+      "subscriptions",
+      "one-time",
+      "invoices"
+    ],
+    "status": "ready_for_setup"
+  },
+  "status": "ready"
+}

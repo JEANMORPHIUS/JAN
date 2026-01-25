@@ -1,6 +1,6 @@
 """
 Coqui TTS Audio Generation Script
-Generated: 2026-01-25T11:33:08.759853
+Generated: 2026-01-25T15:11:10.028966
 Total Audio Files: 655
 
 Requirements:

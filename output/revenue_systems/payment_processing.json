@@ -1,0 +1,12 @@
+{
+  "setup_at": "2026-01-25T15:11:46.102984",
+  "system_name": "payment_processing",
+  "system_data": {
+    "providers": [
+      "stripe",
+      "paypal"
+    ],
+    "status": "ready_for_integration"
+  },
+  "status": "ready"
+}

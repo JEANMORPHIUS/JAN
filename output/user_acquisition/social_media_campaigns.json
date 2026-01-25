@@ -1,0 +1,13 @@
+{
+  "setup_at": "2026-01-25T15:11:36.192626",
+  "system_name": "social_media_campaigns",
+  "system_data": {
+    "campaigns": [
+      "launch",
+      "beta",
+      "community"
+    ],
+    "status": "ready_for_launch"
+  },
+  "status": "ready"
+}

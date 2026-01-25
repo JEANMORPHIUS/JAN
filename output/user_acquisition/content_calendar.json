@@ -1,0 +1,9 @@
+{
+  "setup_at": "2026-01-25T15:11:36.190501",
+  "system_name": "content_calendar",
+  "system_data": {
+    "frequency": "daily",
+    "status": "ready_for_creation"
+  },
+  "status": "ready"
+}

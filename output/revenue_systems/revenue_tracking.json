@@ -1,0 +1,14 @@
+{
+  "setup_at": "2026-01-25T15:11:46.108063",
+  "system_name": "revenue_tracking",
+  "system_data": {
+    "metrics": [
+      "mrr",
+      "arr",
+      "cac",
+      "ltv"
+    ],
+    "status": "ready_for_implementation"
+  },
+  "status": "ready"
+}

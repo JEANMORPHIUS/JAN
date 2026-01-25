@@ -1,0 +1,13 @@
+{
+  "launched_at": "2026-01-25T15:11:18.087173",
+  "program_name": "jan_studio_marketplace",
+  "program_data": {
+    "name": "JAN Studio Marketplace Beta",
+    "target_users": 50,
+    "status": "launched",
+    "onboarding": "automated"
+  },
+  "status": "launched",
+  "onboarding": "automated",
+  "feedback_collection": "active"
+}

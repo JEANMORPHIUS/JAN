@@ -1,0 +1,14 @@
+{
+  "setup_at": "2026-01-25T15:11:46.104744",
+  "system_name": "pricing_tiers",
+  "system_data": {
+    "tiers": [
+      "free",
+      "basic",
+      "premium",
+      "enterprise"
+    ],
+    "status": "ready_for_configuration"
+  },
+  "status": "ready"
+}
