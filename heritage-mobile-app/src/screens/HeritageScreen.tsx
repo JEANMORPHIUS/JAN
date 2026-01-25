@@ -12,36 +12,67 @@ import {
   TouchableOpacity,
   ActivityIndicator,
   Alert,
+  Button,
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { getWonders } from '../api/wonders';
 import { getPillars } from '../api/heritage';
 import type { Wonder } from '../api/wonders';
+import PillarsScreen from './PillarsScreen';
+import { loadWonders, saveWonders, getSyncStatus } from '../utils/offlineStorage';
+import NetInfo from '@react-native-community/netinfo';
 
 export default function HeritageScreen() {
   const navigation = useNavigation();
   const [wonders, setWonders] = useState<Wonder[]>([]);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState<'wonders' | 'pillars'>('wonders');
+  const [isOffline, setIsOffline] = useState(false);
+  const [syncStatus, setSyncStatus] = useState<any>(null);
 
   useEffect(() => {
-    loadData();
+    checkNetworkAndLoad();
   }, [activeTab]);
 
-  const loadData = async () => {
+  const checkNetworkAndLoad = async () => {
+    const netInfo = await NetInfo.fetch();
+    setIsOffline(!netInfo.isConnected);
+
+    if (activeTab === 'wonders') {
+      await loadWondersData();
+    }
+  };
+
+  const loadWondersData = async () => {
     try {
       setLoading(true);
-      if (activeTab === 'wonders') {
-        const data = await getWonders();
-        setWonders(data);
-      } else {
-        // Load pillars
-        const data = await getPillars();
-        // TODO: Set pillars state when interface is defined
+      
+      // Try to load from offline storage first
+      const offlineData = await loadWonders();
+      if (offlineData && offlineData.length > 0) {
+        setWonders(offlineData);
+        setSyncStatus(await getSyncStatus());
+      }
+
+      // Try to fetch from API if online
+      const netInfo = await NetInfo.fetch();
+      if (netInfo.isConnected) {
+        try {
+          const data = await getWonders();
+          setWonders(data);
+          await saveWonders(data); // Cache for offline
+          setSyncStatus(await getSyncStatus());
+        } catch (apiError) {
+          console.error('API error, using offline data:', apiError);
+          // Keep offline data if API fails
+        }
       }
     } catch (error) {
-      console.error('Error loading heritage data:', error);
-      Alert.alert('Error', 'Failed to load heritage data. Please check your connection.');
+      console.error('Error loading wonders:', error);
+      if (wonders.length === 0) {
+        Alert.alert('Error', 'Failed to load wonders. Please check your connection.');
+      }
     } finally {
       setLoading(false);
     }
@@ -51,8 +82,10 @@ export default function HeritageScreen() {
     <TouchableOpacity
       style={styles.card}
       onPress={() => {
-        // TODO: Navigate to wonder detail screen
-        Alert.alert(item.name, `Field Resonance: ${item.field_resonance}`);
+        navigation.navigate('WonderDetail' as never, {
+          wonderId: item.wonder_id,
+          wonder: item, // Pre-load data for faster display
+        } as never);
       }}
     >
       <Text style={styles.cardTitle}>{item.name}</Text>
@@ -77,6 +110,12 @@ export default function HeritageScreen() {
 
   return (
     <View style={styles.container}>
+      {/* Offline Indicator */}
+      {isOffline && (
+        <View style={styles.offlineBanner}>
+          <Text style={styles.offlineText}>📡 Offline Mode - Showing cached data</Text>
+        </View>
+      )}
       {/* Tab Switcher */}
       <View style={styles.tabContainer}>
         <TouchableOpacity
@@ -95,6 +134,12 @@ export default function HeritageScreen() {
             Seven Pillars
           </Text>
         </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.mapButton}
+          onPress={() => navigation.navigate('HeritageMap' as never)}
+        >
+          <Text style={styles.mapButtonText}>🗺️ Map</Text>
+        </TouchableOpacity>
       </View>
 
       {/* Content */}
@@ -111,9 +156,7 @@ export default function HeritageScreen() {
           }
         />
       ) : (
-        <View style={styles.center}>
-          <Text style={styles.comingSoon}>Seven Pillars view coming soon</Text>
-        </View>
+        <PillarsScreen />
       )}
     </View>
   );
@@ -141,6 +184,7 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
     borderBottomWidth: 1,
     borderBottomColor: '#16213e',
+    alignItems: 'center',
   },
   tab: {
     flex: 1,
@@ -160,6 +204,18 @@ const styles = StyleSheet.create({
   activeTabText: {
     color: '#e94560',
     fontWeight: 'bold',
+  },
+  mapButton: {
+    marginLeft: 8,
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    backgroundColor: '#16213e',
+    borderRadius: 6,
+  },
+  mapButtonText: {
+    color: '#fff',
+    fontSize: 14,
+    fontWeight: '600',
   },
   list: {
     padding: 16,
@@ -206,5 +262,15 @@ const styles = StyleSheet.create({
     color: '#8b8b9e',
     fontSize: 16,
     fontStyle: 'italic',
+  },
+  offlineBanner: {
+    backgroundColor: '#f59e0b',
+    padding: 8,
+    alignItems: 'center',
+  },
+  offlineText: {
+    color: '#fff',
+    fontSize: 14,
+    fontWeight: '600',
   },
 });

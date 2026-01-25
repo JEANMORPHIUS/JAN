@@ -8,16 +8,53 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { StatusBar } from 'expo-status-bar';
 
-// Screens (to be created)
+// Screens
 import HeritageScreen from './src/screens/HeritageScreen';
+import WonderDetailScreen from './src/screens/WonderDetailScreen';
+import HeritageMapScreen from './src/screens/HeritageMapScreen';
 import EntitiesScreen from './src/screens/EntitiesScreen';
 import ProjectsScreen from './src/screens/ProjectsScreen';
 import ChannelsScreen from './src/screens/ChannelsScreen';
 import SystemsScreen from './src/screens/SystemsScreen';
 
 const Tab = createBottomTabNavigator();
+const Stack = createNativeStackNavigator();
+
+// Heritage Stack (for detail screens)
+function HeritageStack() {
+  return (
+    <Stack.Navigator
+      screenOptions={{
+        headerStyle: {
+          backgroundColor: '#1a1a2e',
+        },
+        headerTintColor: '#fff',
+        headerTitleStyle: {
+          fontWeight: 'bold',
+        },
+      }}
+    >
+      <Stack.Screen 
+        name="HeritageList" 
+        component={HeritageScreen}
+        options={{ title: 'Heritage & Wonders' }}
+      />
+      <Stack.Screen 
+        name="WonderDetail" 
+        component={WonderDetailScreen}
+        options={{ title: 'Wonder Details' }}
+      />
+      <Stack.Screen 
+        name="HeritageMap" 
+        component={HeritageMapScreen}
+        options={{ title: 'Heritage Map' }}
+      />
+    </Stack.Navigator>
+  );
+}
 
 export default function App() {
   return (
@@ -42,8 +79,9 @@ export default function App() {
       >
         <Tab.Screen 
           name="Heritage" 
-          component={HeritageScreen}
+          component={HeritageStack}
           options={{
+            headerShown: false,
             title: 'Heritage & Wonders',
             tabBarLabel: 'Heritage',
           }}
