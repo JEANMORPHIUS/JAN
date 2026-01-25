@@ -1,0 +1,16 @@
+{
+  "channel_id": "channel_professional",
+  "name": "Professional Platform",
+  "channel_type": "professional",
+  "entities": [],
+  "projects": [],
+  "content_items": [],
+  "monetization_streams": [],
+  "alignment_score": 0.0,
+  "revenue_potential": 0.0,
+  "expansion_seeds": [
+    "seed_channel_channel_professional"
+  ],
+  "migrated_at": "2026-01-25T07:30:05.649057",
+  "spragitso_applied": true
+}

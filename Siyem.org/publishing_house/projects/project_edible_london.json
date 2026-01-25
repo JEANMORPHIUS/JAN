@@ -1,0 +1,16 @@
+{
+  "project_id": "project_edible_london",
+  "name": "Edible London",
+  "description": "London-based food business",
+  "entity_owner": "entity_edible_london",
+  "channels": [],
+  "content_items": [],
+  "monetization_opportunities": [],
+  "alignment_score": 0.0,
+  "revenue_potential": 0.0,
+  "expansion_seeds": [
+    "seed_project_project_edible_london"
+  ],
+  "migrated_at": "2026-01-25T07:30:05.679703",
+  "spragitso_applied": true
+}

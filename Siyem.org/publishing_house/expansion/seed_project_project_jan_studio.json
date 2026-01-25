@@ -1,0 +1,17 @@
+{
+  "seed_id": "seed_project_project_jan_studio",
+  "name": "Expand JAN Studio",
+  "description": "Expand JAN Studio functionality and reach",
+  "seed_type": "project",
+  "parent_item_id": "content_project_jan_studio",
+  "expansion_level": 2,
+  "requirements": [
+    "Feature development",
+    "User testing",
+    "Market validation"
+  ],
+  "potential_impact": "Medium - Enhances project value",
+  "alignment_score": 1.0,
+  "status": "pending",
+  "created_at": "2026-01-25T07:30:05.755765"
+}

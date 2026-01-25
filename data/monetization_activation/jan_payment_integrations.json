@@ -1,0 +1,16 @@
+{
+  "integration_stripe": {
+    "integration_id": "integration_stripe",
+    "provider": "stripe",
+    "status": "pending",
+    "api_key": null,
+    "webhook_url": null
+  },
+  "integration_paypal": {
+    "integration_id": "integration_paypal",
+    "provider": "paypal",
+    "status": "pending",
+    "api_key": null,
+    "webhook_url": null
+  }
+}

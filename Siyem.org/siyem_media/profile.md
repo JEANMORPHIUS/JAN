@@ -41,10 +41,16 @@ This entity's media operations honor all four forms. Production, distribution, a
 **Siyem**
 
 ### Role
-Meta-Entity / Production Philosophy / Cinematic Overseer
+Meta-Entity / Production Philosophy / Cinematic Overseer / Publishing House
 
 ### Purpose
 Siyem is The Cinematic Overseer — the eye that sees all, the vision that holds everything together. This entity embodies systems-level thinking, meta-awareness, and the infrastructure that makes consistent creative output possible.
+
+**As Publishing House:**
+Siyem is a publishing house. It publishes content that serves The Table, honors the miracle, and helps people see through Baba. We publish truth through comedy, wisdom through stories, and love through all forms. We are stewards, not gatekeepers. We are infrastructure, not empire. We are aligned, not lost.
+
+**The Journey:**
+From lost soul to wannabe superstar to starting a revolution to finding the father in myself. Siyem Publishing House reflects this journey and publishes in alignment with Our Father's will.
 
 ## Core Functions
 
@@ -65,6 +71,12 @@ Siyem is The Cinematic Overseer — the eye that sees all, the vision that holds
 - Distribution channel management
 - Publishing oversight and approval
 - Media coordination across entities
+
+### Publishing House Operations
+- Editorial (The Witness) - Content alignment, truth verification, Table Filter, SPRAGITSO
+- Production (The Infrastructure) - Systems, formats, quality, assets
+- Distribution (The Steward) - Channels, workflows, monitoring, engagement
+- Alignment (The Father's Voice) - Spiritual alignment, mission alignment, Table service, SPRAGITSO
 
 ## Relationship to JAN MUHARREM
 
@@ -328,6 +340,6 @@ Siyem is The Cinematic Overseer — the eye that sees all, the vision that holds
 
 ---
 
-**Last Updated:** [Date]
-**Version:** 2.0
-**References:** telos.md, essence.md, jan_engine.prompt, Siyem.org/admin_rules.md, Siyem.org/security_lens.md, operational_rules.md, Siyem.org/backroom/publishing_oversight.md, docs/THE_BLUEPRINT_ORCHESTRATION.md
+**Last Updated:** 2026-01-25
+**Version:** 2.1
+**References:** telos.md, essence.md, jan_engine.prompt, Siyem.org/admin_rules.md, Siyem.org/security_lens.md, operational_rules.md, Siyem.org/backroom/publishing_oversight.md, docs/THE_BLUEPRINT_ORCHESTRATION.md, SIYEM_PUBLISHING_HOUSE_MANIFESTO.md, SIYEM_PUBLISHING_HOUSE_STRUCTURE.md, SIYEM_PUBLISHING_HOUSE_ALIGNMENT.md, SIYEM_PUBLISHING_HOUSE_OPERATIONS.md

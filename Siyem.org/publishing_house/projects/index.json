@@ -1,0 +1,54 @@
+{
+  "total_projects": 8,
+  "projects": [
+    {
+      "project_id": "project_edible_london",
+      "name": "Edible London",
+      "entity_owner": "entity_edible_london",
+      "file": "project_edible_london.json"
+    },
+    {
+      "project_id": "project_ilven_seamoss",
+      "name": "ILVEN Sea Moss",
+      "entity_owner": "entity_ilven_seamoss",
+      "file": "project_ilven_seamoss.json"
+    },
+    {
+      "project_id": "project_edible_cyprus",
+      "name": "Edible Cyprus",
+      "entity_owner": "entity_edible_cyprus",
+      "file": "project_edible_cyprus.json"
+    },
+    {
+      "project_id": "project_atilok",
+      "name": "ATILOK LTD",
+      "entity_owner": "entity_atilok",
+      "file": "project_atilok.json"
+    },
+    {
+      "project_id": "project_world_history_app",
+      "name": "World History App",
+      "entity_owner": "entity_siyem_media",
+      "file": "project_world_history_app.json"
+    },
+    {
+      "project_id": "project_pi_display",
+      "name": "PI Display",
+      "entity_owner": "entity_siyem_media",
+      "file": "project_pi_display.json"
+    },
+    {
+      "project_id": "project_admin_dashboard",
+      "name": "Admin Dashboard",
+      "entity_owner": "entity_siyem_media",
+      "file": "project_admin_dashboard.json"
+    },
+    {
+      "project_id": "project_jan_studio",
+      "name": "JAN Studio",
+      "entity_owner": "entity_jan_studio",
+      "file": "project_jan_studio.json"
+    }
+  ],
+  "created_at": "2026-01-25T07:30:05.769839"
+}

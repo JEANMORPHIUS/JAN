@@ -1,0 +1,17 @@
+{
+  "seed_id": "seed_system_ai",
+  "name": "AI Integration",
+  "description": "Integrate advanced AI capabilities",
+  "seed_type": "system",
+  "parent_item_id": "system_root",
+  "expansion_level": 2,
+  "requirements": [
+    "AI research",
+    "Model training",
+    "Integration testing"
+  ],
+  "potential_impact": "High - System-wide transformation",
+  "alignment_score": 1.0,
+  "status": "pending",
+  "created_at": "2026-01-25T07:30:05.761440"
+}

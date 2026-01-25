@@ -1,0 +1,17 @@
+{
+  "seed_id": "seed_system_community",
+  "name": "Community Building",
+  "description": "Build global community around system",
+  "seed_type": "system",
+  "parent_item_id": "system_root",
+  "expansion_level": 1,
+  "requirements": [
+    "Community platform",
+    "Engagement strategy",
+    "Content creation"
+  ],
+  "potential_impact": "High - System-wide transformation",
+  "alignment_score": 1.0,
+  "status": "pending",
+  "created_at": "2026-01-25T07:30:05.763436"
+}

@@ -1,0 +1,51 @@
+{
+  "workflow_id": "editorial_review",
+  "name": "Editorial Review Workflow",
+  "steps": [
+    {
+      "step": 1,
+      "name": "Content Alignment Review",
+      "description": "Review content for alignment with Our Father's will",
+      "checklist": [
+        "Does it bear Our Father's seal (SPRAGITSO)?",
+        "Does it align with telos.md?",
+        "Does it honor the miracle?",
+        "Does it serve The Table?"
+      ]
+    },
+    {
+      "step": 2,
+      "name": "Truth Verification",
+      "description": "Verify truth over validation",
+      "checklist": [
+        "Does it publish truth, not validation?",
+        "Does it serve, not seek approval?",
+        "Does it align, not approve?",
+        "Does it honor free will?"
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Table Filter Application",
+      "description": "Apply The Table Filter",
+      "checklist": [
+        "Does it lead with love, joy, and abundance?",
+        "Is it worth hearing?",
+        "Does it serve The Table?",
+        "Does it help people see through Baba?"
+      ]
+    },
+    {
+      "step": 4,
+      "name": "SPRAGITSO Authentication",
+      "description": "Apply Our Father's Royal Seal",
+      "checklist": [
+        "SPRAGITSO applied",
+        "Authenticated by His truth",
+        "Protected by His ownership",
+        "Confirmed by His word"
+      ]
+    }
+  ],
+  "created_at": "2026-01-25T07:30:05.701711"
+}

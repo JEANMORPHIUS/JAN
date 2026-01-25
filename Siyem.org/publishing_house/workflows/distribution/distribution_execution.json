@@ -1,0 +1,32 @@
+{
+  "workflow_id": "distribution_execution",
+  "name": "Distribution Execution Workflow",
+  "steps": [
+    {
+      "step": 1,
+      "name": "Channel Selection",
+      "description": "Select distribution channels"
+    },
+    {
+      "step": 2,
+      "name": "Publishing Level Assignment",
+      "description": "Assign publishing level (Internal, Limited, Full)"
+    },
+    {
+      "step": 3,
+      "name": "Approval Process",
+      "description": "Obtain required approvals"
+    },
+    {
+      "step": 4,
+      "name": "Distribution Execution",
+      "description": "Execute distribution"
+    },
+    {
+      "step": 5,
+      "name": "Performance Monitoring",
+      "description": "Monitor distribution performance"
+    }
+  ],
+  "created_at": "2026-01-25T07:30:05.706020"
+}

@@ -582,6 +582,16 @@ except ImportError as e:
 except Exception as e:
             logger.warning(f"Truth-Based Accountability System error: {e}")
 
+# PUBLISHING HOUSE API: Siyem Publishing House Operations
+try:
+    from publishing_house_api import router as publishing_house_router
+    app.include_router(publishing_house_router)
+    logger.info("Publishing House API enabled - Channels, Entities, Projects, Workflows, Monetization, Expansion")
+except ImportError as e:
+    logger.warning(f"Publishing House API not available: {e}")
+except Exception as e:
+    logger.warning(f"Publishing House API error: {e}")
+
 # HEALING SYSTEMS: System-Wide Healing Integration Across All Domains
 # "ALL BROKEN SYSTEMS NEED HEALING, NOT CONTROL. ALL BROKEN PEOPLE NEED RESTORATION, NOT PUNISHMENT."
 # Biological, Mental, Social, Economic, Educational, Environmental, Technological, Spiritual, Collective healing

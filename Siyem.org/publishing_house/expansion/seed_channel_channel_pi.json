@@ -1,0 +1,17 @@
+{
+  "seed_id": "seed_channel_channel_pi",
+  "name": "Expand PI (Private Investigation)",
+  "description": "Expand PI (Private Investigation) to new markets and audiences",
+  "seed_type": "channel",
+  "parent_item_id": "content_channel_pi",
+  "expansion_level": 1,
+  "requirements": [
+    "Market research",
+    "Content development",
+    "Distribution setup"
+  ],
+  "potential_impact": "High - Opens new revenue streams",
+  "alignment_score": 1.0,
+  "status": "pending",
+  "created_at": "2026-01-25T07:30:05.718489"
+}

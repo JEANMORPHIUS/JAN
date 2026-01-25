@@ -1,0 +1,100 @@
+{
+  "channel_professional": {
+    "channel_id": "channel_professional",
+    "name": "Professional Platform",
+    "channel_type": "professional",
+    "entities": [],
+    "projects": [],
+    "content_items": [],
+    "monetization_streams": [],
+    "alignment_score": 0.0,
+    "revenue_potential": 0.0,
+    "expansion_seeds": [
+      "seed_channel_channel_professional"
+    ]
+  },
+  "channel_creator": {
+    "channel_id": "channel_creator",
+    "name": "Creator Economy Platform",
+    "channel_type": "creator",
+    "entities": [],
+    "projects": [],
+    "content_items": [],
+    "monetization_streams": [],
+    "alignment_score": 0.0,
+    "revenue_potential": 0.0,
+    "expansion_seeds": [
+      "seed_channel_channel_creator"
+    ]
+  },
+  "channel_educational": {
+    "channel_id": "channel_educational",
+    "name": "Educational Platform",
+    "channel_type": "educational",
+    "entities": [],
+    "projects": [],
+    "content_items": [],
+    "monetization_streams": [],
+    "alignment_score": 0.0,
+    "revenue_potential": 0.0,
+    "expansion_seeds": [
+      "seed_channel_channel_educational"
+    ]
+  },
+  "channel_pi": {
+    "channel_id": "channel_pi",
+    "name": "PI (Private Investigation)",
+    "channel_type": "pi",
+    "entities": [],
+    "projects": [],
+    "content_items": [],
+    "monetization_streams": [],
+    "alignment_score": 0.0,
+    "revenue_potential": 0.0,
+    "expansion_seeds": [
+      "seed_channel_channel_pi"
+    ]
+  },
+  "channel_spiritual": {
+    "channel_id": "channel_spiritual",
+    "name": "Spiritual Alignment",
+    "channel_type": "spiritual",
+    "entities": [],
+    "projects": [],
+    "content_items": [],
+    "monetization_streams": [],
+    "alignment_score": 0.0,
+    "revenue_potential": 0.0,
+    "expansion_seeds": [
+      "seed_channel_channel_spiritual"
+    ]
+  },
+  "channel_financial": {
+    "channel_id": "channel_financial",
+    "name": "Financial Systems",
+    "channel_type": "financial",
+    "entities": [],
+    "projects": [],
+    "content_items": [],
+    "monetization_streams": [],
+    "alignment_score": 0.0,
+    "revenue_potential": 0.0,
+    "expansion_seeds": [
+      "seed_channel_channel_financial"
+    ]
+  },
+  "channel_community": {
+    "channel_id": "channel_community",
+    "name": "Community Building",
+    "channel_type": "community",
+    "entities": [],
+    "projects": [],
+    "content_items": [],
+    "monetization_streams": [],
+    "alignment_score": 0.0,
+    "revenue_potential": 0.0,
+    "expansion_seeds": [
+      "seed_channel_channel_community"
+    ]
+  }
+}

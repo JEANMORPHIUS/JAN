@@ -1,0 +1,17 @@
+{
+  "seed_id": "seed_entity_entity_jk",
+  "name": "Expand Jk",
+  "description": "Expand Jk to new channels and formats",
+  "seed_type": "entity",
+  "parent_item_id": "content_entity_jk",
+  "expansion_level": 1,
+  "requirements": [
+    "Content creation",
+    "Channel integration",
+    "Format expansion"
+  ],
+  "potential_impact": "Medium - Increases entity reach",
+  "alignment_score": 1.0,
+  "status": "pending",
+  "created_at": "2026-01-25T07:30:05.731205"
+}

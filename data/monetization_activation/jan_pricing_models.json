@@ -1,0 +1,118 @@
+{
+  "pricing_enterprise_license": {
+    "model_id": "pricing_enterprise_license",
+    "name": "Enterprise License",
+    "pricing_type": "subscription",
+    "base_price": 50000.0,
+    "currency": "USD",
+    "tiers": [
+      {
+        "name": "Basic",
+        "price": 25000.0,
+        "features": [
+          "Basic access",
+          "Standard support"
+        ]
+      },
+      {
+        "name": "Professional",
+        "price": 50000.0,
+        "features": [
+          "Full access",
+          "Priority support"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": 100000.0,
+        "features": [
+          "Full access",
+          "Dedicated support",
+          "Custom integration"
+        ]
+      }
+    ],
+    "alignment_score": 1.0
+  },
+  "pricing_marketplace_commission": {
+    "model_id": "pricing_marketplace_commission",
+    "name": "Marketplace Commission",
+    "pricing_type": "commission",
+    "base_price": 0.15,
+    "currency": "USD",
+    "tiers": [
+      {
+        "name": "Standard",
+        "commission": 0.15
+      },
+      {
+        "name": "Premium",
+        "commission": 0.2
+      }
+    ],
+    "alignment_score": 1.0
+  },
+  "pricing_content_sales": {
+    "model_id": "pricing_content_sales",
+    "name": "Content Sales",
+    "pricing_type": "one_time",
+    "base_price": 29.0,
+    "currency": "USD",
+    "tiers": [
+      {
+        "name": "Single",
+        "price": 29.0
+      },
+      {
+        "name": "Bundle",
+        "price": 99.0,
+        "items": 5
+      }
+    ],
+    "alignment_score": 1.0
+  },
+  "pricing_licensing": {
+    "model_id": "pricing_licensing",
+    "name": "Content Licensing",
+    "pricing_type": "licensing",
+    "base_price": 500.0,
+    "currency": "USD",
+    "tiers": [
+      {
+        "name": "Single Use",
+        "price": 500.0
+      },
+      {
+        "name": "Multi Use",
+        "price": 2000.0
+      },
+      {
+        "name": "Unlimited",
+        "price": 10000.0
+      }
+    ],
+    "alignment_score": 1.0
+  },
+  "pricing_project_services": {
+    "model_id": "pricing_project_services",
+    "name": "Project Services",
+    "pricing_type": "one_time",
+    "base_price": 2000.0,
+    "currency": "USD",
+    "tiers": [
+      {
+        "name": "Basic",
+        "price": 2000.0
+      },
+      {
+        "name": "Standard",
+        "price": 5000.0
+      },
+      {
+        "name": "Premium",
+        "price": 10000.0
+      }
+    ],
+    "alignment_score": 1.0
+  }
+}

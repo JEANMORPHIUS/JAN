@@ -1,0 +1,327 @@
+{
+  "migration_date": "2026-01-25T07:28:12.104003",
+  "summary": {
+    "total_content_items": 1067,
+    "total_channels": 7,
+    "total_entities": 5,
+    "total_projects": 8,
+    "total_alignments": 1067,
+    "total_monetizations": 20,
+    "total_expansion_seeds": 23
+  },
+  "channels": {
+    "channel_professional": {
+      "channel_id": "channel_professional",
+      "name": "Professional Platform",
+      "channel_type": "professional",
+      "entities": [],
+      "projects": [],
+      "content_items": [],
+      "monetization_streams": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_channel_channel_professional"
+      ]
+    },
+    "channel_creator": {
+      "channel_id": "channel_creator",
+      "name": "Creator Economy Platform",
+      "channel_type": "creator",
+      "entities": [],
+      "projects": [],
+      "content_items": [],
+      "monetization_streams": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_channel_channel_creator"
+      ]
+    },
+    "channel_educational": {
+      "channel_id": "channel_educational",
+      "name": "Educational Platform",
+      "channel_type": "educational",
+      "entities": [],
+      "projects": [],
+      "content_items": [],
+      "monetization_streams": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_channel_channel_educational"
+      ]
+    },
+    "channel_pi": {
+      "channel_id": "channel_pi",
+      "name": "PI (Private Investigation)",
+      "channel_type": "pi",
+      "entities": [],
+      "projects": [],
+      "content_items": [],
+      "monetization_streams": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_channel_channel_pi"
+      ]
+    },
+    "channel_spiritual": {
+      "channel_id": "channel_spiritual",
+      "name": "Spiritual Alignment",
+      "channel_type": "spiritual",
+      "entities": [],
+      "projects": [],
+      "content_items": [],
+      "monetization_streams": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_channel_channel_spiritual"
+      ]
+    },
+    "channel_financial": {
+      "channel_id": "channel_financial",
+      "name": "Financial Systems",
+      "channel_type": "financial",
+      "entities": [],
+      "projects": [],
+      "content_items": [],
+      "monetization_streams": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_channel_channel_financial"
+      ]
+    },
+    "channel_community": {
+      "channel_id": "channel_community",
+      "name": "Community Building",
+      "channel_type": "community",
+      "entities": [],
+      "projects": [],
+      "content_items": [],
+      "monetization_streams": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_channel_channel_community"
+      ]
+    }
+  },
+  "entities": {
+    "entity_jean_mahram": {
+      "entity_id": "entity_jean_mahram",
+      "name": "Jean Mahram",
+      "entity_type": "creative_persona",
+      "channels": [],
+      "projects": [],
+      "content_items": [],
+      "monetization_opportunities": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_entity_entity_jean_mahram"
+      ]
+    },
+    "entity_jk": {
+      "entity_id": "entity_jk",
+      "name": "Jk",
+      "entity_type": "creative_persona",
+      "channels": [],
+      "projects": [],
+      "content_items": [],
+      "monetization_opportunities": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_entity_entity_jk"
+      ]
+    },
+    "entity_pierre_pressure": {
+      "entity_id": "entity_pierre_pressure",
+      "name": "Pierre Pressure",
+      "entity_type": "creative_persona",
+      "channels": [],
+      "projects": [],
+      "content_items": [],
+      "monetization_opportunities": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_entity_entity_pierre_pressure"
+      ]
+    },
+    "entity_siyem_media": {
+      "entity_id": "entity_siyem_media",
+      "name": "Siyem Media",
+      "entity_type": "meta_entity",
+      "channels": [],
+      "projects": [],
+      "content_items": [],
+      "monetization_opportunities": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_entity_entity_siyem_media"
+      ]
+    },
+    "entity_uncle_ray_ramiz": {
+      "entity_id": "entity_uncle_ray_ramiz",
+      "name": "Uncle Ray Ramiz",
+      "entity_type": "creative_persona",
+      "channels": [],
+      "projects": [],
+      "content_items": [],
+      "monetization_opportunities": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_entity_entity_uncle_ray_ramiz"
+      ]
+    }
+  },
+  "projects": {
+    "project_edible_london": {
+      "project_id": "project_edible_london",
+      "name": "Edible London",
+      "description": "London-based food business",
+      "entity_owner": "entity_edible_london",
+      "channels": [],
+      "content_items": [],
+      "monetization_opportunities": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_project_project_edible_london"
+      ]
+    },
+    "project_ilven_seamoss": {
+      "project_id": "project_ilven_seamoss",
+      "name": "ILVEN Sea Moss",
+      "description": "Sea moss product business",
+      "entity_owner": "entity_ilven_seamoss",
+      "channels": [],
+      "content_items": [],
+      "monetization_opportunities": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_project_project_ilven_seamoss"
+      ]
+    },
+    "project_edible_cyprus": {
+      "project_id": "project_edible_cyprus",
+      "name": "Edible Cyprus",
+      "description": "Cyprus-based food business",
+      "entity_owner": "entity_edible_cyprus",
+      "channels": [],
+      "content_items": [],
+      "monetization_opportunities": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_project_project_edible_cyprus"
+      ]
+    },
+    "project_atilok": {
+      "project_id": "project_atilok",
+      "name": "ATILOK LTD",
+      "description": "E-commerce platform",
+      "entity_owner": "entity_atilok",
+      "channels": [],
+      "content_items": [],
+      "monetization_opportunities": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_project_project_atilok"
+      ]
+    },
+    "project_world_history_app": {
+      "project_id": "project_world_history_app",
+      "name": "World History App",
+      "description": "Next.js world history visualization app",
+      "entity_owner": "entity_siyem_media",
+      "channels": [],
+      "content_items": [],
+      "monetization_opportunities": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_project_project_world_history_app"
+      ]
+    },
+    "project_pi_display": {
+      "project_id": "project_pi_display",
+      "name": "PI Display",
+      "description": "Vite/React kiosk display app",
+      "entity_owner": "entity_siyem_media",
+      "channels": [],
+      "content_items": [],
+      "monetization_opportunities": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_project_project_pi_display"
+      ]
+    },
+    "project_admin_dashboard": {
+      "project_id": "project_admin_dashboard",
+      "name": "Admin Dashboard",
+      "description": "React admin dashboard",
+      "entity_owner": "entity_siyem_media",
+      "channels": [],
+      "content_items": [],
+      "monetization_opportunities": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_project_project_admin_dashboard"
+      ]
+    },
+    "project_jan_studio": {
+      "project_id": "project_jan_studio",
+      "name": "JAN Studio",
+      "description": "FastAPI backend system",
+      "entity_owner": "entity_jan_studio",
+      "channels": [],
+      "content_items": [],
+      "monetization_opportunities": [],
+      "alignment_score": 0.0,
+      "revenue_potential": 0.0,
+      "expansion_seeds": [
+        "seed_project_project_jan_studio"
+      ]
+    }
+  },
+  "alignment_summary": {
+    "average_alignment_score": 1.0,
+    "spragitso_applied_count": 1067,
+    "table_filter_passed_count": 1067
+  },
+  "monetization_summary": {
+    "total_revenue_potential": 660000.0,
+    "monetization_types": [
+      "services",
+      "subscription",
+      "sales",
+      "licensing"
+    ],
+    "average_revenue_potential": 33000.0
+  },
+  "expansion_summary": {
+    "total_seeds": 23,
+    "seeds_by_level": {
+      "1": 13,
+      "2": 9,
+      "3": 1
+    },
+    "seeds_by_type": {
+      "channel": 7,
+      "entity": 5,
+      "project": 8,
+      "system": 3
+    }
+  }
+}

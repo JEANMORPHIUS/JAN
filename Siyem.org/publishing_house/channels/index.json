@@ -1,0 +1,48 @@
+{
+  "total_channels": 7,
+  "channels": [
+    {
+      "channel_id": "channel_professional",
+      "name": "Professional Platform",
+      "channel_type": "professional",
+      "file": "channel_professional.json"
+    },
+    {
+      "channel_id": "channel_creator",
+      "name": "Creator Economy Platform",
+      "channel_type": "creator",
+      "file": "channel_creator.json"
+    },
+    {
+      "channel_id": "channel_educational",
+      "name": "Educational Platform",
+      "channel_type": "educational",
+      "file": "channel_educational.json"
+    },
+    {
+      "channel_id": "channel_pi",
+      "name": "PI (Private Investigation)",
+      "channel_type": "pi",
+      "file": "channel_pi.json"
+    },
+    {
+      "channel_id": "channel_spiritual",
+      "name": "Spiritual Alignment",
+      "channel_type": "spiritual",
+      "file": "channel_spiritual.json"
+    },
+    {
+      "channel_id": "channel_financial",
+      "name": "Financial Systems",
+      "channel_type": "financial",
+      "file": "channel_financial.json"
+    },
+    {
+      "channel_id": "channel_community",
+      "name": "Community Building",
+      "channel_type": "community",
+      "file": "channel_community.json"
+    }
+  ],
+  "created_at": "2026-01-25T07:30:05.766102"
+}

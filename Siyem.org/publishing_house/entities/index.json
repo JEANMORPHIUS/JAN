@@ -1,0 +1,36 @@
+{
+  "total_entities": 5,
+  "entities": [
+    {
+      "entity_id": "entity_jean_mahram",
+      "name": "Jean Mahram",
+      "entity_type": "creative_persona",
+      "file": "entity_jean_mahram.json"
+    },
+    {
+      "entity_id": "entity_jk",
+      "name": "Jk",
+      "entity_type": "creative_persona",
+      "file": "entity_jk.json"
+    },
+    {
+      "entity_id": "entity_pierre_pressure",
+      "name": "Pierre Pressure",
+      "entity_type": "creative_persona",
+      "file": "entity_pierre_pressure.json"
+    },
+    {
+      "entity_id": "entity_siyem_media",
+      "name": "Siyem Media",
+      "entity_type": "meta_entity",
+      "file": "entity_siyem_media.json"
+    },
+    {
+      "entity_id": "entity_uncle_ray_ramiz",
+      "name": "Uncle Ray Ramiz",
+      "entity_type": "creative_persona",
+      "file": "entity_uncle_ray_ramiz.json"
+    }
+  ],
+  "created_at": "2026-01-25T07:30:05.768008"
+}

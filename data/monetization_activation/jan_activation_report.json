@@ -1,0 +1,22 @@
+{
+  "activation_date": "2026-01-25T07:31:47.200609",
+  "pricing_models": 5,
+  "revenue_streams": {
+    "total": 0,
+    "active": 0,
+    "pending": 0,
+    "total_revenue_potential": 0
+  },
+  "payment_integrations": {
+    "total": 2,
+    "providers": [
+      "stripe",
+      "paypal"
+    ]
+  },
+  "by_source_type": {
+    "channels": 0,
+    "entities": 0,
+    "projects": 0
+  }
+}

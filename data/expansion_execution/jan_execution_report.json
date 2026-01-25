@@ -1,0 +1,16 @@
+{
+  "report_date": "2026-01-25T07:32:46.327434",
+  "total_plans": 23,
+  "by_status": {
+    "planned": 5,
+    "pending": 18
+  },
+  "by_level": {
+    "1": 13,
+    "2": 9,
+    "3": 1
+  },
+  "immediate_ready": 8,
+  "short_term_ready": 9,
+  "long_term_ready": 1
+}

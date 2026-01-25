@@ -1,0 +1,17 @@
+{
+  "seed_id": "seed_system_global",
+  "name": "Global Expansion",
+  "description": "Expand system globally to new markets",
+  "seed_type": "system",
+  "parent_item_id": "system_root",
+  "expansion_level": 3,
+  "requirements": [
+    "International partnerships",
+    "Localization",
+    "Compliance"
+  ],
+  "potential_impact": "High - System-wide transformation",
+  "alignment_score": 1.0,
+  "status": "pending",
+  "created_at": "2026-01-25T07:30:05.758923"
+}

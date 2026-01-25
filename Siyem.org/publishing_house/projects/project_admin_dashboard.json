@@ -1,0 +1,16 @@
+{
+  "project_id": "project_admin_dashboard",
+  "name": "Admin Dashboard",
+  "description": "React admin dashboard",
+  "entity_owner": "entity_siyem_media",
+  "channels": [],
+  "content_items": [],
+  "monetization_opportunities": [],
+  "alignment_score": 0.0,
+  "revenue_potential": 0.0,
+  "expansion_seeds": [
+    "seed_project_project_admin_dashboard"
+  ],
+  "migrated_at": "2026-01-25T07:30:05.696822",
+  "spragitso_applied": true
+}

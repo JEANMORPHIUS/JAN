@@ -1,0 +1,347 @@
+{
+  "seed_channel_channel_professional": {
+    "seed_id": "seed_channel_channel_professional",
+    "name": "Expand Professional Platform",
+    "description": "Expand Professional Platform to new markets and audiences",
+    "seed_type": "channel",
+    "parent_item_id": "content_channel_professional",
+    "expansion_level": 1,
+    "requirements": [
+      "Market research",
+      "Content development",
+      "Distribution setup"
+    ],
+    "potential_impact": "High - Opens new revenue streams",
+    "alignment_score": 1.0
+  },
+  "seed_channel_channel_creator": {
+    "seed_id": "seed_channel_channel_creator",
+    "name": "Expand Creator Economy Platform",
+    "description": "Expand Creator Economy Platform to new markets and audiences",
+    "seed_type": "channel",
+    "parent_item_id": "content_channel_creator",
+    "expansion_level": 1,
+    "requirements": [
+      "Market research",
+      "Content development",
+      "Distribution setup"
+    ],
+    "potential_impact": "High - Opens new revenue streams",
+    "alignment_score": 1.0
+  },
+  "seed_channel_channel_educational": {
+    "seed_id": "seed_channel_channel_educational",
+    "name": "Expand Educational Platform",
+    "description": "Expand Educational Platform to new markets and audiences",
+    "seed_type": "channel",
+    "parent_item_id": "content_channel_educational",
+    "expansion_level": 1,
+    "requirements": [
+      "Market research",
+      "Content development",
+      "Distribution setup"
+    ],
+    "potential_impact": "High - Opens new revenue streams",
+    "alignment_score": 1.0
+  },
+  "seed_channel_channel_pi": {
+    "seed_id": "seed_channel_channel_pi",
+    "name": "Expand PI (Private Investigation)",
+    "description": "Expand PI (Private Investigation) to new markets and audiences",
+    "seed_type": "channel",
+    "parent_item_id": "content_channel_pi",
+    "expansion_level": 1,
+    "requirements": [
+      "Market research",
+      "Content development",
+      "Distribution setup"
+    ],
+    "potential_impact": "High - Opens new revenue streams",
+    "alignment_score": 1.0
+  },
+  "seed_channel_channel_spiritual": {
+    "seed_id": "seed_channel_channel_spiritual",
+    "name": "Expand Spiritual Alignment",
+    "description": "Expand Spiritual Alignment to new markets and audiences",
+    "seed_type": "channel",
+    "parent_item_id": "content_channel_spiritual",
+    "expansion_level": 1,
+    "requirements": [
+      "Market research",
+      "Content development",
+      "Distribution setup"
+    ],
+    "potential_impact": "High - Opens new revenue streams",
+    "alignment_score": 1.0
+  },
+  "seed_channel_channel_financial": {
+    "seed_id": "seed_channel_channel_financial",
+    "name": "Expand Financial Systems",
+    "description": "Expand Financial Systems to new markets and audiences",
+    "seed_type": "channel",
+    "parent_item_id": "content_channel_financial",
+    "expansion_level": 1,
+    "requirements": [
+      "Market research",
+      "Content development",
+      "Distribution setup"
+    ],
+    "potential_impact": "High - Opens new revenue streams",
+    "alignment_score": 1.0
+  },
+  "seed_channel_channel_community": {
+    "seed_id": "seed_channel_channel_community",
+    "name": "Expand Community Building",
+    "description": "Expand Community Building to new markets and audiences",
+    "seed_type": "channel",
+    "parent_item_id": "content_channel_community",
+    "expansion_level": 1,
+    "requirements": [
+      "Market research",
+      "Content development",
+      "Distribution setup"
+    ],
+    "potential_impact": "High - Opens new revenue streams",
+    "alignment_score": 1.0
+  },
+  "seed_entity_entity_jean_mahram": {
+    "seed_id": "seed_entity_entity_jean_mahram",
+    "name": "Expand Jean Mahram",
+    "description": "Expand Jean Mahram to new channels and formats",
+    "seed_type": "entity",
+    "parent_item_id": "content_entity_jean_mahram",
+    "expansion_level": 1,
+    "requirements": [
+      "Content creation",
+      "Channel integration",
+      "Format expansion"
+    ],
+    "potential_impact": "Medium - Increases entity reach",
+    "alignment_score": 1.0
+  },
+  "seed_entity_entity_jk": {
+    "seed_id": "seed_entity_entity_jk",
+    "name": "Expand Jk",
+    "description": "Expand Jk to new channels and formats",
+    "seed_type": "entity",
+    "parent_item_id": "content_entity_jk",
+    "expansion_level": 1,
+    "requirements": [
+      "Content creation",
+      "Channel integration",
+      "Format expansion"
+    ],
+    "potential_impact": "Medium - Increases entity reach",
+    "alignment_score": 1.0
+  },
+  "seed_entity_entity_pierre_pressure": {
+    "seed_id": "seed_entity_entity_pierre_pressure",
+    "name": "Expand Pierre Pressure",
+    "description": "Expand Pierre Pressure to new channels and formats",
+    "seed_type": "entity",
+    "parent_item_id": "content_entity_pierre_pressure",
+    "expansion_level": 1,
+    "requirements": [
+      "Content creation",
+      "Channel integration",
+      "Format expansion"
+    ],
+    "potential_impact": "Medium - Increases entity reach",
+    "alignment_score": 1.0
+  },
+  "seed_entity_entity_siyem_media": {
+    "seed_id": "seed_entity_entity_siyem_media",
+    "name": "Expand Siyem Media",
+    "description": "Expand Siyem Media to new channels and formats",
+    "seed_type": "entity",
+    "parent_item_id": "content_entity_siyem_media",
+    "expansion_level": 1,
+    "requirements": [
+      "Content creation",
+      "Channel integration",
+      "Format expansion"
+    ],
+    "potential_impact": "Medium - Increases entity reach",
+    "alignment_score": 1.0
+  },
+  "seed_entity_entity_uncle_ray_ramiz": {
+    "seed_id": "seed_entity_entity_uncle_ray_ramiz",
+    "name": "Expand Uncle Ray Ramiz",
+    "description": "Expand Uncle Ray Ramiz to new channels and formats",
+    "seed_type": "entity",
+    "parent_item_id": "content_entity_uncle_ray_ramiz",
+    "expansion_level": 1,
+    "requirements": [
+      "Content creation",
+      "Channel integration",
+      "Format expansion"
+    ],
+    "potential_impact": "Medium - Increases entity reach",
+    "alignment_score": 1.0
+  },
+  "seed_project_project_edible_london": {
+    "seed_id": "seed_project_project_edible_london",
+    "name": "Expand Edible London",
+    "description": "Expand Edible London functionality and reach",
+    "seed_type": "project",
+    "parent_item_id": "content_project_edible_london",
+    "expansion_level": 2,
+    "requirements": [
+      "Feature development",
+      "User testing",
+      "Market validation"
+    ],
+    "potential_impact": "Medium - Enhances project value",
+    "alignment_score": 1.0
+  },
+  "seed_project_project_ilven_seamoss": {
+    "seed_id": "seed_project_project_ilven_seamoss",
+    "name": "Expand ILVEN Sea Moss",
+    "description": "Expand ILVEN Sea Moss functionality and reach",
+    "seed_type": "project",
+    "parent_item_id": "content_project_ilven_seamoss",
+    "expansion_level": 2,
+    "requirements": [
+      "Feature development",
+      "User testing",
+      "Market validation"
+    ],
+    "potential_impact": "Medium - Enhances project value",
+    "alignment_score": 1.0
+  },
+  "seed_project_project_edible_cyprus": {
+    "seed_id": "seed_project_project_edible_cyprus",
+    "name": "Expand Edible Cyprus",
+    "description": "Expand Edible Cyprus functionality and reach",
+    "seed_type": "project",
+    "parent_item_id": "content_project_edible_cyprus",
+    "expansion_level": 2,
+    "requirements": [
+      "Feature development",
+      "User testing",
+      "Market validation"
+    ],
+    "potential_impact": "Medium - Enhances project value",
+    "alignment_score": 1.0
+  },
+  "seed_project_project_atilok": {
+    "seed_id": "seed_project_project_atilok",
+    "name": "Expand ATILOK LTD",
+    "description": "Expand ATILOK LTD functionality and reach",
+    "seed_type": "project",
+    "parent_item_id": "content_project_atilok",
+    "expansion_level": 2,
+    "requirements": [
+      "Feature development",
+      "User testing",
+      "Market validation"
+    ],
+    "potential_impact": "Medium - Enhances project value",
+    "alignment_score": 1.0
+  },
+  "seed_project_project_world_history_app": {
+    "seed_id": "seed_project_project_world_history_app",
+    "name": "Expand World History App",
+    "description": "Expand World History App functionality and reach",
+    "seed_type": "project",
+    "parent_item_id": "content_project_world_history_app",
+    "expansion_level": 2,
+    "requirements": [
+      "Feature development",
+      "User testing",
+      "Market validation"
+    ],
+    "potential_impact": "Medium - Enhances project value",
+    "alignment_score": 1.0
+  },
+  "seed_project_project_pi_display": {
+    "seed_id": "seed_project_project_pi_display",
+    "name": "Expand PI Display",
+    "description": "Expand PI Display functionality and reach",
+    "seed_type": "project",
+    "parent_item_id": "content_project_pi_display",
+    "expansion_level": 2,
+    "requirements": [
+      "Feature development",
+      "User testing",
+      "Market validation"
+    ],
+    "potential_impact": "Medium - Enhances project value",
+    "alignment_score": 1.0
+  },
+  "seed_project_project_admin_dashboard": {
+    "seed_id": "seed_project_project_admin_dashboard",
+    "name": "Expand Admin Dashboard",
+    "description": "Expand Admin Dashboard functionality and reach",
+    "seed_type": "project",
+    "parent_item_id": "content_project_admin_dashboard",
+    "expansion_level": 2,
+    "requirements": [
+      "Feature development",
+      "User testing",
+      "Market validation"
+    ],
+    "potential_impact": "Medium - Enhances project value",
+    "alignment_score": 1.0
+  },
+  "seed_project_project_jan_studio": {
+    "seed_id": "seed_project_project_jan_studio",
+    "name": "Expand JAN Studio",
+    "description": "Expand JAN Studio functionality and reach",
+    "seed_type": "project",
+    "parent_item_id": "content_project_jan_studio",
+    "expansion_level": 2,
+    "requirements": [
+      "Feature development",
+      "User testing",
+      "Market validation"
+    ],
+    "potential_impact": "Medium - Enhances project value",
+    "alignment_score": 1.0
+  },
+  "seed_system_global": {
+    "seed_id": "seed_system_global",
+    "name": "Global Expansion",
+    "description": "Expand system globally to new markets",
+    "seed_type": "system",
+    "parent_item_id": "system_root",
+    "expansion_level": 3,
+    "requirements": [
+      "International partnerships",
+      "Localization",
+      "Compliance"
+    ],
+    "potential_impact": "High - System-wide transformation",
+    "alignment_score": 1.0
+  },
+  "seed_system_ai": {
+    "seed_id": "seed_system_ai",
+    "name": "AI Integration",
+    "description": "Integrate advanced AI capabilities",
+    "seed_type": "system",
+    "parent_item_id": "system_root",
+    "expansion_level": 2,
+    "requirements": [
+      "AI research",
+      "Model training",
+      "Integration testing"
+    ],
+    "potential_impact": "High - System-wide transformation",
+    "alignment_score": 1.0
+  },
+  "seed_system_community": {
+    "seed_id": "seed_system_community",
+    "name": "Community Building",
+    "description": "Build global community around system",
+    "seed_type": "system",
+    "parent_item_id": "system_root",
+    "expansion_level": 1,
+    "requirements": [
+      "Community platform",
+      "Engagement strategy",
+      "Content creation"
+    ],
+    "potential_impact": "High - System-wide transformation",
+    "alignment_score": 1.0
+  }
+}

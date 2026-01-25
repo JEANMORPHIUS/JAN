@@ -1,0 +1,114 @@
+{
+  "project_edible_london": {
+    "project_id": "project_edible_london",
+    "name": "Edible London",
+    "description": "London-based food business",
+    "entity_owner": "entity_edible_london",
+    "channels": [],
+    "content_items": [],
+    "monetization_opportunities": [],
+    "alignment_score": 0.0,
+    "revenue_potential": 0.0,
+    "expansion_seeds": [
+      "seed_project_project_edible_london"
+    ]
+  },
+  "project_ilven_seamoss": {
+    "project_id": "project_ilven_seamoss",
+    "name": "ILVEN Sea Moss",
+    "description": "Sea moss product business",
+    "entity_owner": "entity_ilven_seamoss",
+    "channels": [],
+    "content_items": [],
+    "monetization_opportunities": [],
+    "alignment_score": 0.0,
+    "revenue_potential": 0.0,
+    "expansion_seeds": [
+      "seed_project_project_ilven_seamoss"
+    ]
+  },
+  "project_edible_cyprus": {
+    "project_id": "project_edible_cyprus",
+    "name": "Edible Cyprus",
+    "description": "Cyprus-based food business",
+    "entity_owner": "entity_edible_cyprus",
+    "channels": [],
+    "content_items": [],
+    "monetization_opportunities": [],
+    "alignment_score": 0.0,
+    "revenue_potential": 0.0,
+    "expansion_seeds": [
+      "seed_project_project_edible_cyprus"
+    ]
+  },
+  "project_atilok": {
+    "project_id": "project_atilok",
+    "name": "ATILOK LTD",
+    "description": "E-commerce platform",
+    "entity_owner": "entity_atilok",
+    "channels": [],
+    "content_items": [],
+    "monetization_opportunities": [],
+    "alignment_score": 0.0,
+    "revenue_potential": 0.0,
+    "expansion_seeds": [
+      "seed_project_project_atilok"
+    ]
+  },
+  "project_world_history_app": {
+    "project_id": "project_world_history_app",
+    "name": "World History App",
+    "description": "Next.js world history visualization app",
+    "entity_owner": "entity_siyem_media",
+    "channels": [],
+    "content_items": [],
+    "monetization_opportunities": [],
+    "alignment_score": 0.0,
+    "revenue_potential": 0.0,
+    "expansion_seeds": [
+      "seed_project_project_world_history_app"
+    ]
+  },
+  "project_pi_display": {
+    "project_id": "project_pi_display",
+    "name": "PI Display",
+    "description": "Vite/React kiosk display app",
+    "entity_owner": "entity_siyem_media",
+    "channels": [],
+    "content_items": [],
+    "monetization_opportunities": [],
+    "alignment_score": 0.0,
+    "revenue_potential": 0.0,
+    "expansion_seeds": [
+      "seed_project_project_pi_display"
+    ]
+  },
+  "project_admin_dashboard": {
+    "project_id": "project_admin_dashboard",
+    "name": "Admin Dashboard",
+    "description": "React admin dashboard",
+    "entity_owner": "entity_siyem_media",
+    "channels": [],
+    "content_items": [],
+    "monetization_opportunities": [],
+    "alignment_score": 0.0,
+    "revenue_potential": 0.0,
+    "expansion_seeds": [
+      "seed_project_project_admin_dashboard"
+    ]
+  },
+  "project_jan_studio": {
+    "project_id": "project_jan_studio",
+    "name": "JAN Studio",
+    "description": "FastAPI backend system",
+    "entity_owner": "entity_jan_studio",
+    "channels": [],
+    "content_items": [],
+    "monetization_opportunities": [],
+    "alignment_score": 0.0,
+    "revenue_potential": 0.0,
+    "expansion_seeds": [
+      "seed_project_project_jan_studio"
+    ]
+  }
+}

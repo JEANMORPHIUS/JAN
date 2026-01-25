@@ -1,0 +1,212 @@
+{
+  "generated_at": "2026-01-25T07:32:46.321824",
+  "total_plans": 23,
+  "by_level": {
+    "1": [
+      {
+        "plan_id": "plan_seed_channel_channel_community",
+        "name": "Expand Community Building",
+        "priority": 1,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_channel_channel_creator",
+        "name": "Expand Creator Economy Platform",
+        "priority": 2,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_channel_channel_educational",
+        "name": "Expand Educational Platform",
+        "priority": 3,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_channel_channel_financial",
+        "name": "Expand Financial Systems",
+        "priority": 4,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_channel_channel_pi",
+        "name": "Expand PI (Private Investigation)",
+        "priority": 5,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_channel_channel_professional",
+        "name": "Expand Professional Platform",
+        "priority": 6,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_channel_channel_spiritual",
+        "name": "Expand Spiritual Alignment",
+        "priority": 7,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_entity_entity_jean_mahram",
+        "name": "Expand Jean Mahram",
+        "priority": 8,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_entity_entity_jk",
+        "name": "Expand Jk",
+        "priority": 9,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_entity_entity_pierre_pressure",
+        "name": "Expand Pierre Pressure",
+        "priority": 10,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_entity_entity_siyem_media",
+        "name": "Expand Siyem Media",
+        "priority": 11,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_entity_entity_uncle_ray_ramiz",
+        "name": "Expand Uncle Ray Ramiz",
+        "priority": 12,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_system_community",
+        "name": "Community Building",
+        "priority": 13,
+        "status": "pending"
+      }
+    ],
+    "2": [
+      {
+        "plan_id": "plan_seed_project_project_admin_dashboard",
+        "name": "Expand Admin Dashboard",
+        "priority": 14,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_project_project_atilok",
+        "name": "Expand ATILOK LTD",
+        "priority": 15,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_project_project_edible_cyprus",
+        "name": "Expand Edible Cyprus",
+        "priority": 16,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_project_project_edible_london",
+        "name": "Expand Edible London",
+        "priority": 17,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_project_project_ilven_seamoss",
+        "name": "Expand ILVEN Sea Moss",
+        "priority": 18,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_project_project_jan_studio",
+        "name": "Expand JAN Studio",
+        "priority": 19,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_project_project_pi_display",
+        "name": "Expand PI Display",
+        "priority": 20,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_project_project_world_history_app",
+        "name": "Expand World History App",
+        "priority": 21,
+        "status": "pending"
+      },
+      {
+        "plan_id": "plan_seed_system_ai",
+        "name": "AI Integration",
+        "priority": 22,
+        "status": "pending"
+      }
+    ],
+    "3": [
+      {
+        "plan_id": "plan_seed_system_global",
+        "name": "Global Expansion",
+        "priority": 23,
+        "status": "pending"
+      }
+    ]
+  },
+  "by_priority": {
+    "high": [
+      "plan_seed_channel_channel_community",
+      "plan_seed_channel_channel_creator"
+    ],
+    "medium": [
+      "plan_seed_channel_channel_educational",
+      "plan_seed_channel_channel_financial"
+    ],
+    "low": [
+      "plan_seed_channel_channel_pi",
+      "plan_seed_channel_channel_professional",
+      "plan_seed_channel_channel_spiritual",
+      "plan_seed_entity_entity_jean_mahram",
+      "plan_seed_entity_entity_jk",
+      "plan_seed_entity_entity_pierre_pressure",
+      "plan_seed_entity_entity_siyem_media",
+      "plan_seed_entity_entity_uncle_ray_ramiz",
+      "plan_seed_project_project_admin_dashboard",
+      "plan_seed_project_project_atilok",
+      "plan_seed_project_project_edible_cyprus",
+      "plan_seed_project_project_edible_london",
+      "plan_seed_project_project_ilven_seamoss",
+      "plan_seed_project_project_jan_studio",
+      "plan_seed_project_project_pi_display",
+      "plan_seed_project_project_world_history_app",
+      "plan_seed_system_ai",
+      "plan_seed_system_community",
+      "plan_seed_system_global"
+    ]
+  },
+  "execution_timeline": {
+    "immediate": [
+      "plan_seed_channel_channel_community",
+      "plan_seed_channel_channel_creator",
+      "plan_seed_channel_channel_educational",
+      "plan_seed_channel_channel_financial",
+      "plan_seed_channel_channel_pi",
+      "plan_seed_channel_channel_professional",
+      "plan_seed_channel_channel_spiritual",
+      "plan_seed_entity_entity_jean_mahram",
+      "plan_seed_entity_entity_jk",
+      "plan_seed_entity_entity_pierre_pressure",
+      "plan_seed_entity_entity_siyem_media",
+      "plan_seed_entity_entity_uncle_ray_ramiz",
+      "plan_seed_system_community"
+    ],
+    "short_term": [
+      "plan_seed_project_project_admin_dashboard",
+      "plan_seed_project_project_atilok",
+      "plan_seed_project_project_edible_cyprus",
+      "plan_seed_project_project_edible_london",
+      "plan_seed_project_project_ilven_seamoss",
+      "plan_seed_project_project_jan_studio",
+      "plan_seed_project_project_pi_display",
+      "plan_seed_project_project_world_history_app",
+      "plan_seed_system_ai"
+    ],
+    "long_term": [
+      "plan_seed_system_global"
+    ]
+  }
+}

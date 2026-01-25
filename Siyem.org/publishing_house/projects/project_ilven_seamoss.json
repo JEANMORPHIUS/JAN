@@ -1,0 +1,16 @@
+{
+  "project_id": "project_ilven_seamoss",
+  "name": "ILVEN Sea Moss",
+  "description": "Sea moss product business",
+  "entity_owner": "entity_ilven_seamoss",
+  "channels": [],
+  "content_items": [],
+  "monetization_opportunities": [],
+  "alignment_score": 0.0,
+  "revenue_potential": 0.0,
+  "expansion_seeds": [
+    "seed_project_project_ilven_seamoss"
+  ],
+  "migrated_at": "2026-01-25T07:30:05.682333",
+  "spragitso_applied": true
+}

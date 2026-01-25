@@ -1,0 +1,27 @@
+{
+  "workflow_id": "alignment_verification",
+  "name": "Alignment Verification Workflow",
+  "steps": [
+    {
+      "step": 1,
+      "name": "Spiritual Alignment Check",
+      "description": "Check alignment with Our Father's will"
+    },
+    {
+      "step": 2,
+      "name": "Mission Alignment Verification",
+      "description": "Verify mission alignment"
+    },
+    {
+      "step": 3,
+      "name": "Table Service Verification",
+      "description": "Verify Table service"
+    },
+    {
+      "step": 4,
+      "name": "SPRAGITSO Application",
+      "description": "Apply Our Father's Royal Seal"
+    }
+  ],
+  "created_at": "2026-01-25T07:30:05.707677"
+}
