@@ -1,0 +1,109 @@
+{
+  "context": {
+    "ai_role": "jean_morphius",
+    "genre_fusion": "uptempo_retro_pop_funk",
+    "theme": "vibration_motivation_absurdist",
+    "bpm": 125,
+    "section": null,
+    "timestamp": "2026-01-25T00:00:00.000000",
+    "custom_context": "High-energy pop-funk anthem with smooth vocals, absurdist humor, and social media virality potential"
+  },
+  "english_lyrics": {
+    "title": "Vibration for a Reason",
+    "sections": {
+      "verse_1": [
+        "They say it's about vibration",
+        "That tingling sensation",
+        "Flying through the atmosphere",
+        "Finding its way here"
+      ],
+      "chorus": [
+        "It happens for a reason",
+        "Regardless of the season",
+        "To wake up and say \"Today is the day\""
+      ],
+      "bridge": [
+        "Be it work, rest or play",
+        "Rolling in the hay",
+        "Feeling fine",
+        "Come rain or shine"
+      ],
+      "verse_2": [
+        "So get up,",
+        "Get out",
+        "Don't make me shout",
+        "Stop picking your nose",
+        "Your brain might fall out!"
+      ],
+      "chorus_final": [
+        "Here have a rose",
+        "Go with your flows",
+        "Maybe you're the reason",
+        "My universe chose"
+      ]
+    },
+    "jean_morphius_voice": {
+      "signature_phrases": [
+        "It happens for a reason",
+        "Today is the day",
+        "Your brain might fall out"
+      ],
+      "metaphors": [
+        "Vibration",
+        "Universe chose",
+        "Brain falling out (absurdist)"
+      ],
+      "cadence": "smooth_charismatic_to_playful_absurdist",
+      "vocal_dynamics": {
+        "verse_1": "confident_smooth_male_vocalist",
+        "chorus": "energetic_group_chant",
+        "bridge": "humorous_slowed_tempo",
+        "verse_2": "shouted_playful_whisper",
+        "chorus_final": "uplifting_full_energy"
+      }
+    }
+  },
+  "production_notes": {
+    "genre": "Uptempo, Retro-Pop Funk",
+    "instrumentation": {
+      "bass": "Clean, plucky funk bassline",
+      "keys": "Bright Wurlitzer keys",
+      "drums": "Crisp electronic drums",
+      "guitar": "Wah-wah electric guitar accents",
+      "synth": "Synth pad swells (final chorus)"
+    },
+    "production_style": {
+      "fusion": "Perfect fusion of warm, analog 70s funk grooves and modern, polished Indie-Pop shine",
+      "quality": "Professional, radio-ready, irresistibly catchy",
+      "target": "Instant memorability and social media virality",
+      "vocal_contrast": "Smooth, charismatic conviction for inspirational lyrics; playful, tongue-in-cheek delivery for absurdist humor"
+    },
+    "tempo_changes": {
+      "verse_1": "Full tempo (125 BPM)",
+      "chorus": "Upbeat, driving rhythm (125 BPM)",
+      "bridge": "Slows slightly - bass and light drum beat only",
+      "verse_2": "Builds back up with surprise punchline",
+      "chorus_final": "Full energy, all instruments back in, synth pad swells and fades out"
+    }
+  },
+  "metadata": {
+    "generation_time": "2026-01-25T00:00:00.000000",
+    "entity": "Jean Morphius",
+    "ai_role": "jean_morphius",
+    "genre": "uptempo_retro_pop_funk",
+    "status": "catalogued",
+    "commercial_viability": {
+      "radio_ready": true,
+      "social_media_viral_potential": true,
+      "memorability": "high",
+      "catchiness": "irresistible"
+    },
+    "mission_alignment": {
+      "stewardship": true,
+      "right_spirits": true,
+      "love": true,
+      "energy_love": true,
+      "description": "High-energy motivation with absurdist humor - vibration, reason, and universal connection through playful expression"
+    }
+  }
+}

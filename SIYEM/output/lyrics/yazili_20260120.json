@@ -81,6 +81,20 @@
     "independent_streams": true,
     "status": "catalogued",
     "note": "Original version - football anthem is derivative",
+    "features": {
+      "uncle_ray_ramiz": {
+        "role": "Featured artist",
+        "contribution": "Ancestral wisdom, contemplative elder voice (Ramiz Dayı)"
+      }
+    },
+    "ai_creation_note": {
+      "selen_sarikaya": {
+        "name": "Selen Sarıkaya",
+        "type": "AI-created character",
+        "role": "The girl in 'Yazılı'",
+        "description": "Selen Sarıkaya is an AI-created character featured in the song 'Yazılı'"
+      }
+    },
     "mission_alignment": {
       "right_spirits": true,
       "spiritual_battle": true,

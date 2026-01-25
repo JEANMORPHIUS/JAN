@@ -1,0 +1,200 @@
+{
+  "context": {
+    "ai_role": "pierre_pressure_jean_morphius_collaboration",
+    "genre_fusion": "cinematic_uk_hiphop_soul_rap",
+    "theme": "resurrection_triumph_reflection_spiritual",
+    "bpm": 92,
+    "key": "D minor",
+    "section": null,
+    "timestamp": "2026-01-25T00:00:00.000000",
+    "custom_context": "Cinematic UK hip-hop/soul rap duet with Cockney street grit and London R&B warmth - triumphant, reflective, raw, spiritual"
+  },
+  "english_lyrics": {
+    "title": "Corner Resurrection",
+    "sections": {
+      "intro": [
+        "Every man's got a corner… mine just used to talk back."
+      ],
+      "hook": [
+        "I don't run no more, I stand tall,",
+        "I've been down before, but I want it all.",
+        "Every bruise, every fall, made me recall —",
+        "What I am… ain't small."
+      ],
+      "verse_1": [
+        "Yeah… this ain't no rehab rap, this a resurrection,",
+        "Shadowboxin' my reflection, tryna pattern direction.",
+        "Heart like London concrete, cracked but it holds,",
+        "Every setback taught me how to re-write the scrolls.",
+        "",
+        "Used to drown pain in a liquid belief,",
+        "But I breathe through storms now, my calm ain't brief.",
+        "Didn't pick this war, but I claimed the strain,",
+        "Turned withdrawal into wisdom, loss into gain.",
+        "",
+        "Every trigger tried to pull, but I cut that chord,",
+        "Let silence answer what I once adored.",
+        "Now I walk cleaner, mind leaner, truth keener —",
+        "Used to fade to black, now the frame's clearer.",
+        "",
+        "This ain't pride — this is peace reclaimed,",
+        "From chaos I carved a life unnamed.",
+        "I was my own crowd, my own corner call —",
+        "Every round survived reshaped it all."
+      ],
+      "bridge": [
+        "The pain that tried to drown you — became your tide,",
+        "The fight that tried to end you — kept you alive.",
+        "",
+        "I ain't battlin' demons — I'm raisin' light,",
+        "Every scar's a map — how I earned my right.",
+        "",
+        "Hold that line — never fold that mind,",
+        "Every loss was just a redesign."
+      ],
+      "verse_2": [
+        "Now I talk to temptation like, \"Know your lane,\"",
+        "You fed off fear, now you starve off shame.",
+        "Used to chase numb — now I chase breath,",
+        "Used to fear quiet — now I call it depth.",
+        "",
+        "If pain's the teacher, then lesson learned,",
+        "I passed exams in the fire I burned.",
+        "I don't claim clean — I claim clear sight,",
+        "I tell the truth — I don't stage the fight.",
+        "",
+        "Twelve rounds deep and my soul intact,",
+        "No relapse — just rematch with fact.",
+        "Tell Addiction he trained me well —",
+        "He built my hell so I could rebel.",
+        "",
+        "Now I face the mirror — scarred but free,",
+        "The man I was is still rooting for me."
+      ],
+      "final_hook": [
+        "I don't run no more, I stand tall,",
+        "I've been down before, but I want it all.",
+        "Every bruise, every fall, made me recall —",
+        "What I am… ain't small.",
+        "",
+        "Rise again, brother… we don't fall — we learn.",
+        "The twelfth round never ends."
+      ],
+      "outro": [
+        "The silence after the fight… that's where victory breathes."
+      ]
+    },
+    "vocal_assignments": {
+      "intro": {
+        "performer": "Pierre Pressure",
+        "style": "spoken",
+        "delivery": "low, controlled, close mic"
+      },
+      "hook": {
+        "performer": "Jean Morphius",
+        "style": "soulful, calm, chant-like",
+        "delivery": "smooth, emotional, melodic - British soul phrasing, close-mic, soft plate reverb"
+      },
+      "verse_1": {
+        "performer": "Pierre Pressure",
+        "style": "low controlled rap",
+        "delivery": "close mic, grounded spoken-rap with Cockney cadence, dry mix, intimate breath detail"
+      },
+      "bridge": {
+        "performer": "Duet",
+        "style": "layered call-and-response",
+        "delivery": {
+          "jean": "soft, soulful",
+          "pierre": "spoken→light rap",
+          "together": "unison swell"
+        }
+      },
+      "verse_2": {
+        "performer": "Pierre Pressure",
+        "style": "energy lifted, crisp cadence",
+        "delivery": "Cockney rap, controlled intensity"
+      },
+      "final_hook": {
+        "performer": "Jean (stronger) + Pierre (underbreath commentary)",
+        "style": "layered, call-and-response",
+        "delivery": {
+          "jean": "stronger tone, ad-lib: 'Rise again, brother… we don't fall — we learn.'",
+          "pierre": "whisper: 'The twelfth round never ends.'"
+        }
+      },
+      "outro": {
+        "performer": "Pierre Pressure",
+        "style": "spoken, reflective",
+        "delivery": "intimate, final statement"
+      }
+    }
+  },
+  "production_notes": {
+    "genre": "Cinematic UK hip-hop / soul rap / British R&B / conscious rap",
+    "tempo": 92,
+    "key": "D minor",
+    "mood": "triumphant, reflective, gritty, spiritual",
+    "weirdness": 31,
+    "style_influence": 69,
+    "instrumentation": {
+      "drums": {
+        "kick": "muted 808 kick, dusty",
+        "snare": "dusty UK rim-snare swing",
+        "hats": "brushed hats"
+      },
+      "bass": "warm saturated bass, wide reverb",
+      "keys": "warm Rhodes chords",
+      "guitar": "low electric guitar riff repeating A-C-D-F | A-G-F-D",
+      "strings": "rising strings, slow-building",
+      "brass": "subtle brass swells",
+      "ambience": "faint boxing gym ambience, heartbeat thump, boxing bell"
+    },
+    "vocal_production": {
+      "jean_morphius": {
+        "style": "smooth, emotional, melodic",
+        "phrasing": "British soul phrasing",
+        "mic_technique": "close-mic",
+        "reverb": "soft plate reverb",
+        "mix": "forward and personal"
+      },
+      "pierre_pressure": {
+        "style": "grounded spoken-rap",
+        "cadence": "Cockney cadence",
+        "mic_technique": "close-mic, intimate breath detail",
+        "mix": "dry mix, forward and personal"
+      }
+    },
+    "arrangement": {
+      "intro": "ambient gym air, foot shuffle, gloves tapping, low bell ring",
+      "verse_1": "beat drops, vocals forward",
+      "hook": "full instrumentation, strings subtle",
+      "bridge": "string swell, duet layers",
+      "verse_2": "energy lifted, crisp",
+      "final_hook": "layered call-and-response, full energy",
+      "outro": "heartbeat thump → air still → final boxing bell fade"
+    },
+    "cinematic_elements": {
+      "strings": "slow-building, rising",
+      "brass": "subtle swells for lift",
+      "ambience": "boxing gym atmosphere throughout",
+      "finale": "heartbeat + gym bell fading"
+    }
+  },
+  "metadata": {
+    "generation_time": "2026-01-25T00:00:00.000000",
+    "entity": "Pierre Pressure + Jean Morphius (Collaboration)",
+    "ai_role": "pierre_pressure_jean_morphius_collaboration",
+    "genre": "cinematic_uk_hiphop_soul_rap",
+    "status": "catalogued",
+    "collaboration_type": "duet",
+    "mission_alignment": {
+      "stewardship": true,
+      "spiritual_battle": true,
+      "right_spirits": true,
+      "love": true,
+      "resurrection": true,
+      "triumph": true,
+      "description": "Resurrection narrative - from addiction to triumph, from chaos to peace, spiritual victory through discipline and self-reclamation"
+    }
+  }
+}

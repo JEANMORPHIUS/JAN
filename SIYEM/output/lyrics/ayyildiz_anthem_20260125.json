@@ -1,0 +1,187 @@
+{
+  "context": {
+    "ai_role": "jean_morphius",
+    "genre_fusion": "ottoman_mariachi_fusion",
+    "theme": "triumphant_anthem_national_pride_football",
+    "bpm": 96,
+    "key": "D Minor → D Major (Final Chorus)",
+    "section": null,
+    "timestamp": "2026-01-25T00:00:00.000000",
+    "custom_context": "Triumphant Ottoman-Mariachi fusion anthem built for stadium-sized impact - Turkish football pride, unity, victory"
+  },
+  "turkish_lyrics": {
+    "title": "Ayyıldız Anthem",
+    "sections": {
+      "intro": [
+        "Düsünce siper",
+        "Hayal zaferdir",
+        "Kalbin nereye fısıldarsa orası vatandır",
+        "2002'de çocuktuk",
+        "Bugün yine inandık",
+        "Bir milletin duası terle birleşir",
+        "Bayrağın altında kalp hiç bitmez",
+        "Zafer rakibe değil",
+        "Kendine yenilmemektir"
+      ],
+      "verse_1": [
+        "Dünya döner içimizde yanar",
+        "Bir tarih uyanır sesler çınlar",
+        "Biz dedik gökte yankı olur",
+        "Geçeriz biz geriye toz duman kalır"
+      ],
+      "chorus": [
+        "Kore'de yanan ateş bizde",
+        "Doğan güneş yüreğimizde",
+        "Kenan koşar Barış durmaz",
+        "Arda ve Hakan'la inan susmaz",
+        "Zincirle değil kalbe sar bizim",
+        "Toprağın altında gök vardır bizim",
+        "Üç ülke bir hayal yola koyulduk yine",
+        "MetLife'a biz can deriz bekle",
+        "Geliriz"
+      ],
+      "spoken_interlude": [
+        "Siz de babaya sorun",
+        "Kimiz biz",
+        "Ayyıldızız biz"
+      ],
+      "bridge": [
+        "Tozdan geldik dumandan doğduk",
+        "Sahada bir olduk",
+        "Kupanın kalbinde bir umut olduk",
+        "Üç ülke görsün",
+        "Dünya duysun",
+        "Bizim olan"
+      ],
+      "chorus_final": [
+        "Zincirle değil kalbe sar bizim",
+        "Toprağın altında gök vardır bizim",
+        "Üç ülke bir hayal yola koyultduk yine",
+        "MetLife'a biz can deriz bekle",
+        "Geliriz"
+      ],
+      "outro": [
+        "[Long trumpet sustain + duduk fading + bowed bass]"
+      ]
+    },
+    "jean_morphius_voice": {
+      "signature_phrases": [
+        "Ayyıldızız biz",
+        "Üç ülke bir hayal",
+        "MetLife'a biz can deriz bekle"
+      ],
+      "metaphors": [
+        "Düsünce siper / Hayal zaferdir",
+        "Toprağın altında gök vardır",
+        "Tozdan geldik dumandan doğduk"
+      ],
+      "cadence": "commanding_anthemic_rising_intensity",
+      "vocal_dynamics": {
+        "intro": "deep davul pulse + nylon guitar tremolo + muted trumpets swelling",
+        "verse_1": "warm male vocal, slight rasp",
+        "chorus": "stacked harmonies, bright trumpets + davul accents",
+        "spoken_interlude": "deep baritone",
+        "bridge": "cinematic strings + mariachi trumpet duet",
+        "chorus_final": "full ensemble, modulated lift",
+        "outro": "long trumpet sustain + duduk fading + bowed bass"
+      }
+    }
+  },
+  "production_notes": {
+    "genre": "Ottoman–Mariachi Fusion",
+    "tempo": 96,
+    "key": "D Minor → D Major (Final Chorus)",
+    "mood": "triumphant, anthemic, stadium-sized, heroic",
+    "weirdness": 11,
+    "style_influence": 31,
+    "audio_influence": 69,
+    "target": "Global sports broadcasts, heroic storytelling, stadium anthems",
+    "instrumentation": {
+      "mariachi": {
+        "trumpets": "bold mariachi trumpets, zurna-inspired trumpet lines",
+        "vihuela": "vihuela strums",
+        "guitarron": "deep guitarrón bass"
+      },
+      "ottoman": {
+        "davul": "deep davul pulse, Ottoman-style davul patterns",
+        "zurna": "zurna-inspired trumpet lines",
+        "qanun": "qanun arpeggios",
+        "duduk": "duduk (outro)"
+      },
+      "orchestral": {
+        "strings": "cinematic strings, pizzicato strings, bowed bass",
+        "brass": "heroic main motifs, brass leads",
+        "choir": "choir pads reinforce unity and scale"
+      },
+      "percussion": {
+        "snare": "sharp snare rolls",
+        "alternating": "Mexican festival flair and Ottoman mehter-style power"
+      },
+      "guitar": {
+        "nylon": "nylon guitar tremolo (intro)"
+      }
+    },
+    "rhythm": {
+      "style": "marching, energetic, forward-driving",
+      "fusion": "Latin gallop patterns with Turkish military cadence",
+      "pulse": "unstoppable pulse"
+    },
+    "vocal_production": {
+      "style": "commanding, anthemic",
+      "delivery": "rising intensity",
+      "backing": "group shouts and crowd-style backing vocals",
+      "phrasing": "Turkish ornamentation with mariachi expressiveness",
+      "effect": "ignites national pride"
+    },
+    "arrangement": {
+      "intro": "deep davul pulse + nylon guitar tremolo + muted trumpets swelling",
+      "verse_1": "warm male vocal, slight rasp",
+      "chorus": "stacked harmonies, bright trumpets + davul accents",
+      "spoken_interlude": "deep baritone",
+      "bridge": "cinematic strings + mariachi trumpet duet",
+      "chorus_final": "full ensemble, modulated lift (D Major)",
+      "outro": "long trumpet sustain + duduk fading + bowed bass"
+    },
+    "mix": {
+      "width": "wide",
+      "punch": "punchy",
+      "drama": "dramatic",
+      "target": "global sports broadcasts and heroic storytelling"
+    },
+    "cultural_fusion": {
+      "balance": "balancing cultural fusion, emotional uplift, and unstoppable momentum",
+      "elements": "Ottoman military power + Mariachi celebration",
+      "unity": "three countries, one dream (Türkiye, Cyprus, diaspora)"
+    }
+  },
+  "metadata": {
+    "generation_time": "2026-01-25T00:00:00.000000",
+    "entity": "Jean Morphius",
+    "ai_role": "jean_morphius",
+    "genre": "ottoman_mariachi_fusion",
+    "status": "catalogued",
+    "language": "turkish",
+    "theme": "football_anthem_national_pride",
+    "song_type": "World Cup Anthem for Türkiye",
+    "features": {
+      "uncle_ray_ramiz": {
+        "role": "Featured artist",
+        "contribution": "Ancestral wisdom, contemplative elder voice (Ramiz Dayı), spoken interlude"
+      }
+    },
+    "references": {
+      "world_cup_2002": "Kore'de yanan ateş (2002 World Cup in Korea/Japan)",
+      "players": "Kenan, Barış, Arda, Hakan (Turkish football players)",
+      "metlife": "MetLife Stadium (future World Cup reference)",
+      "three_countries": "Üç ülke (Türkiye, Cyprus, diaspora)"
+    },
+    "mission_alignment": {
+      "stewardship": true,
+      "right_spirits": true,
+      "love": true,
+      "unity": true,
+      "triumph": true,
+      "description": "Triumphant anthem celebrating Turkish football pride, unity across three countries, victory through determination, and national identity through sport"
+    }
+  }
+}
