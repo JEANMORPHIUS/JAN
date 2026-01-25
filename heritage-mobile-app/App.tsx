@@ -10,6 +10,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { StatusBar } from 'expo-status-bar';
+import { ErrorBoundary } from './src/components/ErrorBoundary';
 
 // Screens
 import HeritageScreen from './src/screens/HeritageScreen';
@@ -64,9 +65,10 @@ function HeritageStack() {
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <StatusBar style="auto" />
-      <Tab.Navigator
+    <ErrorBoundary>
+      <NavigationContainer>
+        <StatusBar style="light" />
+        <Tab.Navigator
         screenOptions={{
           headerStyle: {
             backgroundColor: '#1a1a2e',
@@ -125,6 +127,7 @@ export default function App() {
           }}
         />
       </Tab.Navigator>
-    </NavigationContainer>
+      </NavigationContainer>
+    </ErrorBoundary>
   );
 }

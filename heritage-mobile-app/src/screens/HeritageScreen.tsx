@@ -23,6 +23,9 @@ import type { Wonder } from '../api/wonders';
 import PillarsScreen from './PillarsScreen';
 import { loadWonders, saveWonders, getSyncStatus, isDataStale } from '../utils/offlineStorage';
 import NetInfo from '@react-native-community/netinfo';
+import LoadingSpinner from '../components/LoadingSpinner';
+import EmptyState from '../components/EmptyState';
+import ResonanceBar from '../components/ResonanceBar';
 
 export default function HeritageScreen() {
   const navigation = useNavigation();
@@ -99,21 +102,14 @@ export default function HeritageScreen() {
       <Text style={styles.cardTitle}>{item.name}</Text>
       <Text style={styles.cardLocation}>{item.location}</Text>
       <View style={styles.cardFooter}>
-        <Text style={styles.resonance}>
-          Resonance: {(item.field_resonance * 100).toFixed(0)}%
-        </Text>
+        <ResonanceBar resonance={item.field_resonance} />
         <Text style={styles.type}>{item.wonder_type}</Text>
       </View>
     </TouchableOpacity>
   );
 
   if (loading) {
-    return (
-      <View style={styles.center}>
-        <ActivityIndicator size="large" color="#e94560" />
-        <Text style={styles.loadingText}>Loading heritage data...</Text>
-      </View>
-    );
+    return <LoadingSpinner message="Loading heritage data..." />;
   }
 
   return (
@@ -171,9 +167,12 @@ export default function HeritageScreen() {
             />
           }
           ListEmptyComponent={
-            <View style={styles.center}>
-              <Text style={styles.emptyText}>No wonders found</Text>
-            </View>
+            <EmptyState
+              title="No Wonders Found"
+              message="Unable to load wonders. Please check your connection and try again."
+              actionLabel="Retry"
+              onAction={handleRefresh}
+            />
           }
         />
       ) : (
