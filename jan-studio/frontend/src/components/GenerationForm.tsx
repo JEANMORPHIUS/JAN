@@ -345,6 +345,41 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
         <div id="prompt-char-count" style={{ fontSize: '0.75rem', color: '#666', marginTop: '0.25rem' }} aria-live="polite">
           {formData.prompt.length} {t('characters')}
         </div>
+        {languageSuggestion && languageSuggestion.lang !== language && (
+          <div style={{
+            marginTop: '0.75rem',
+            padding: '0.75rem',
+            backgroundColor: '#1a1a2a',
+            border: '1px solid #0070f3',
+            borderRadius: '4px',
+            fontSize: '0.875rem',
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+          }}>
+            <span>
+              🌍 {t('language_detected')}: <strong>{languageSuggestion.lang.toUpperCase()}</strong> ({Math.round(languageSuggestion.confidence * 100)}% {t('confidence')})
+            </span>
+            <button
+              type="button"
+              onClick={() => {
+                setLanguage(languageSuggestion.lang as any);
+                setLanguageSuggestion(null);
+              }}
+              style={{
+                padding: '0.25rem 0.75rem',
+                fontSize: '0.75rem',
+                backgroundColor: '#0070f3',
+                border: 'none',
+                borderRadius: '4px',
+                color: '#fff',
+                cursor: 'pointer',
+              }}
+            >
+              {t('switch_language')}
+            </button>
+          </div>
+        )}
       </div>
 
       {loading && (

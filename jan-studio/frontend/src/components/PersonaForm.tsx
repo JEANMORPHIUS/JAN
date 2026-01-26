@@ -118,7 +118,69 @@ export default function PersonaForm({ onSubmit, onCancel, initialData }: Persona
         </div>
 
         <div style={{ marginBottom: '1.5rem' }}>
-          <label className="label">Template</label>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
+            <label className="label">Template</label>
+            {languagePresets.length > 0 && (
+              <button
+                type="button"
+                onClick={() => setShowLanguagePresets(!showLanguagePresets)}
+                style={{
+                  padding: '0.25rem 0.75rem',
+                  fontSize: '0.75rem',
+                  backgroundColor: showLanguagePresets ? '#0070f3' : '#1a1a1a',
+                  border: '1px solid #333',
+                  borderRadius: '4px',
+                  color: '#e0e0e0',
+                  cursor: 'pointer',
+                }}
+              >
+                🌍 {t('language_presets')} ({languagePresets.length})
+              </button>
+            )}
+          </div>
+          
+          {showLanguagePresets && languagePresets.length > 0 && (
+            <div className="card" style={{ marginBottom: '1rem', padding: '1rem', backgroundColor: '#1a1a2a', border: '1px solid #0070f3' }}>
+              <h3 style={{ marginTop: 0, marginBottom: '0.5rem', fontSize: '1rem' }}>
+                🌍 {t('language_specific_presets')} ({language.toUpperCase()})
+              </h3>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                {languagePresets.map((preset) => (
+                  <button
+                    key={preset.id}
+                    type="button"
+                    onClick={() => {
+                      setFormData({
+                        ...formData,
+                        name: preset.name,
+                        description: preset.description,
+                      });
+                      // Store preset data for later use
+                      (window as any).__selectedLanguagePreset = preset;
+                      setShowLanguagePresets(false);
+                    }}
+                    style={{
+                      padding: '0.75rem',
+                      backgroundColor: '#0a0a0a',
+                      border: '1px solid #333',
+                      borderRadius: '4px',
+                      color: '#e0e0e0',
+                      textAlign: 'left',
+                      cursor: 'pointer',
+                      fontSize: '0.875rem',
+                    }}
+                  >
+                    <div style={{ fontWeight: 600, marginBottom: '0.25rem' }}>{preset.nativeName}</div>
+                    <div style={{ fontSize: '0.75rem', color: '#999' }}>{preset.description}</div>
+                    <div style={{ fontSize: '0.7rem', color: '#666', marginTop: '0.25rem' }}>
+                      {t('recommended_for')}: {preset.recommendedFor.join(', ')}
+                    </div>
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+          
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem' }}>
             {TEMPLATES.map((template) => (
               <div
