@@ -1,0 +1,933 @@
+{
+  "timestamp": "2026-01-26T10:06:57.683185",
+  "title": "Unified Content Distribution Report",
+  "total_content_discovered": 2567,
+  "total_content_routed": 2567,
+  "content_by_channel": {
+    "professional": 0,
+    "creator": 1912,
+    "educational": 655
+  },
+  "content_by_entity": {
+    "ramiz": 655,
+    "unknown": 941,
+    "all_entities": 941,
+    "karasahin": 30
+  },
+  "content_by_type": {
+    "social_post": 955,
+    "scripture_post": 655,
+    "educational": 0,
+    "music": 0,
+    "story": 0,
+    "video": 0,
+    "audio": 1,
+    "image": 0,
+    "bilingual": 956,
+    "scheduled": 0
+  },
+  "bilingual_content_count": 956,
+  "scheduled_content_count": 0,
+  "content_items": [
+    {
+      "content_id": "social_all_entities_001",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_002",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_003",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_004",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_005",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_006",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_007",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_008",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_009",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_010",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_011",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_012",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_013",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_014",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_015",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_016",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_017",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_018",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_019",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_020",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_021",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_022",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_023",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_024",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_025",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_026",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_027",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_028",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_029",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_030",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_031",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_032",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_033",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_034",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_035",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_036",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_037",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_038",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_039",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_040",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_041",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_042",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_043",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_044",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_045",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_046",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_047",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_048",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_049",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_050",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_051",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_052",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_053",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_054",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_055",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_056",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_057",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_058",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_059",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_060",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_061",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_062",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_063",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_064",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_065",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_066",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_067",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_068",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_069",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_070",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_071",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_072",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_073",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_074",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_075",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_076",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_077",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_078",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_079",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_080",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_081",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_082",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_083",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_084",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_085",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_086",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_087",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_088",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_089",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_090",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_091",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_092",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_093",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_094",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_095",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_096",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_097",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_098",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_099",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    },
+    {
+      "content_id": "social_all_entities_100",
+      "entity": "unknown",
+      "content_type": "social_post",
+      "channel": "creator",
+      "bilingual": false,
+      "scheduled": false,
+      "distribution_status": "routed"
+    }
+  ]
+}
