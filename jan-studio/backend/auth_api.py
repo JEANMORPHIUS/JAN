@@ -40,6 +40,10 @@ import auth_utils
 from datetime import datetime, timedelta
 import jwt
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 # Rate limiting (if available)
 try:
     from slowapi import Limiter

@@ -26,6 +26,10 @@ from fastapi import APIRouter, HTTPException, Query
 from typing import List, Optional, Dict, Any
 from pathlib import Path
 import json
+
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
 from datetime import datetime
 
 router = APIRouter(prefix="/api/publishing-house", tags=["Publishing House"])

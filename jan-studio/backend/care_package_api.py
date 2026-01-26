@@ -17,6 +17,10 @@ from typing import Optional, Dict, List, Any
 from pydantic import BaseModel
 import logging
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 from care_package_system import (
     get_care_package_system,
     PoliticalAlignment,

@@ -25,6 +25,10 @@ from fastapi import APIRouter, HTTPException, Body, Query
 from typing import Optional, Dict, Any
 import logging
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 from seed_to_movement import (
     get_seed_to_movement_system,
     RevolutionType

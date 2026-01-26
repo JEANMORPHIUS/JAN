@@ -30,6 +30,10 @@ from api_error_handler import heritage_api_error_handler
 import logging
 import sys
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/api/heritage", tags=["heritage"])

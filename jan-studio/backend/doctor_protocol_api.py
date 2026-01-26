@@ -22,6 +22,10 @@ from typing import Optional, Dict, Any, List
 from datetime import date
 import logging
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 from doctor_protocol import (
     get_doctor_protocol_system,
     ProtocolType,

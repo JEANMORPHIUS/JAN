@@ -18,6 +18,10 @@ from fastapi import APIRouter, HTTPException, Body
 from typing import Optional, Dict, Any
 import logging
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 from sanctuary_guardian import get_sanctuary_guardian
 
 logger = logging.getLogger(__name__)

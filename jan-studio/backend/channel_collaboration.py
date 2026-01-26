@@ -419,3 +419,7 @@ def get_channel_collaboration_system() -> ChannelCollaborationSystem:
     if _collaboration_system is None:
         _collaboration_system = ChannelCollaborationSystem()
     return _collaboration_system
+
+
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, activate_stealth_mode, upgrade_identity

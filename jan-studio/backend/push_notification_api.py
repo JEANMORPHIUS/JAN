@@ -24,6 +24,10 @@ from typing import Optional, List
 import logging
 import json
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 from push_notification_system import (
     get_push_system,
     NotificationType,

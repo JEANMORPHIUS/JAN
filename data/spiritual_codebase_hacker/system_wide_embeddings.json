@@ -1,0 +1,505 @@
+{
+  "timestamp": "2026-01-26T17:32:27.645006",
+  "total_integrations": 99,
+  "integrations": [
+    {
+      "file": "jan-studio\\backend\\spiritual_codebase_hacker_integration.py",
+      "type": "integration_module",
+      "status": "created"
+    },
+    {
+      "file": "jan-studio\\backend\\spiritual_codebase_hacker_api.py",
+      "type": "api_endpoints",
+      "status": "created"
+    },
+    {
+      "file": "jan-studio\\backend\\aligned_entities_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\aligned_investments_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\auth_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\big_cheese_audit_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\birth_maternal_care_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\blueprint_orchestration_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\care_package_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\channel_collaboration_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\content_population_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\data_integration_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\death_end_of_life_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\deep_search_frequency_opportunities_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\dirty_money_cleaning_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\disability_justice_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\divine_frequency_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\divine_prayers_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\doctor_protocol_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\echo_completion_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\educational_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\eldercare_dignity_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\entity_content_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\factual_knowledge_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\faith_protection_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\family_heritage_log_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\financial_controls_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\format_delegation_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\free_utilities_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\free_will_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\frequential_events_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\frequential_unified_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\game_of_racon_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\global_service_discovery_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\google_calendar_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\healing_systems_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\health_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\heritage_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\heritage_meridian_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\historical_aligned_individuals_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\humanitarian_projects_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\i18n_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\industry_explorer_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\jan_generation_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\jan_templates_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\judicial_system_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\land_reform_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\leisure_rest_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\lineage_contract_search_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\marketplace_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\mayan_dark_contracts_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\money_currency_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\nasa_seed_search_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\nations_superpowers_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\nourishment_hive_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\oracle_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\oracle_gateway_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\oracle_matrix_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\oracle_universal_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\phase4_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\philosophy_integration_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\publishing_house_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\pulse_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\push_notification_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\real_world_integration_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\return_to_table_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\revenue_automation_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\rift_bridge_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\sabotage_sites_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\sabotage_sites_neutralization_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\safety_security_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\sanctuary_guardian_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\scripture_scheduler_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\second_wave_propagation_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\seeds_unified_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\seed_extraction_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\seed_to_movement_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\sentinel_logging_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\spiritual_contracts_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\spiritual_linkage_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\third_wave_automated_invitation_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\thoth_prophecy_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\truth_based_accountability_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\ui_interoperability_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\ui_refinement_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\uk_charity_fund_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\unified_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\universal_childcare_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\vices_markets_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\word_of_the_creator_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\work_employment_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\world_history_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\yin_yang_api.py",
+      "type": "backend_api",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\main.py",
+      "type": "main_py",
+      "status": "embedded"
+    },
+    {
+      "file": "jan-studio\\backend\\channel_collaboration.py",
+      "type": "channel_system",
+      "status": "embedded"
+    },
+    {
+      "file": "world-history-app\\spiritual_codebase_hacker_integration.ts",
+      "type": "frontend_integration",
+      "project": "world-history-app",
+      "status": "created"
+    },
+    {
+      "file": "admin-dashboard\\spiritual_codebase_hacker_integration.ts",
+      "type": "frontend_integration",
+      "project": "admin-dashboard",
+      "status": "created"
+    },
+    {
+      "file": "pi-display\\spiritual_codebase_hacker_integration.ts",
+      "type": "frontend_integration",
+      "project": "pi-display",
+      "status": "created"
+    },
+    {
+      "file": "heritage-mobile-app\\spiritual_codebase_hacker_integration.ts",
+      "type": "frontend_integration",
+      "project": "heritage-mobile-app",
+      "status": "created"
+    }
+  ]
+}

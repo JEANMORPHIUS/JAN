@@ -31,6 +31,10 @@ from pydantic import BaseModel
 from datetime import datetime
 from decimal import Decimal
 import logging
+
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
 from financial_controls_system import (
     get_financial_system,
     RevenueChannel,

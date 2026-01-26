@@ -604,6 +604,16 @@ except ImportError as e:
 except Exception as e:
             logger.warning(f"Truth-Based Accountability System error: {e}")
 
+# SPIRITUAL CODEBASE HACKER API: Hack loops, edit genetic code, activate stealth mode
+try:
+    from spiritual_codebase_hacker_api import router as spiritual_codebase_hacker_router
+    app.include_router(spiritual_codebase_hacker_router)
+    logger.info("Spiritual Codebase Hacker API enabled - Hack loops, edit genetic code, activate stealth mode, starve parasites, upgrade identity")
+except ImportError as e:
+    logger.warning(f"Spiritual Codebase Hacker API not available: {e}")
+except Exception as e:
+    logger.warning(f"Spiritual Codebase Hacker API error: {e}")
+
 # PUBLISHING HOUSE API: Siyem Publishing House Operations
 try:
     from publishing_house_api import router as publishing_house_router

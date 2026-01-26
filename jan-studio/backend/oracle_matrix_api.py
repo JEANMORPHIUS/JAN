@@ -15,6 +15,10 @@ from typing import Optional, List
 from enum import Enum
 import logging
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 from oracle_matrix_system_wide import (
     OracleMatrixSystemWide,
     SystemType,

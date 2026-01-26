@@ -38,6 +38,10 @@ from pydantic import BaseModel
 import sys
 import os
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 # Add scripts directory to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "../../scripts"))
 

@@ -26,6 +26,10 @@ from pydantic import BaseModel, Field
 from typing import List, Dict, Optional, Any
 import asyncio
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 from content_auto_populator import ContentAutoPopulator
 
 router = APIRouter(prefix="/api/content-population", tags=["content-population"])

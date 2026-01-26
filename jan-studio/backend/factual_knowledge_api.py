@@ -28,6 +28,10 @@ import json
 import uuid
 import logging
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 router = APIRouter(prefix="/api/knowledge", tags=["Factual Knowledge"])
 logger = logging.getLogger(__name__)
 

@@ -24,6 +24,10 @@ from typing import Optional, List, Dict, Any
 from datetime import datetime
 import marketplace_db as db
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 router = APIRouter(prefix="/api/marketplace", tags=["Marketplace"])
 
 

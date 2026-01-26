@@ -21,6 +21,10 @@ from fastapi import APIRouter, HTTPException, Query
 from typing import Optional
 import logging
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 from humanitarian_projects_registry import (
     get_humanitarian_projects_registry,
     ProjectType,

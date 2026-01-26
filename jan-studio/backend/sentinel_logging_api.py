@@ -23,6 +23,10 @@ from datetime import datetime
 import logging
 import json
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 from sentinel_logging_system import (
     get_sentinel_logging_system,
     LogCategory,

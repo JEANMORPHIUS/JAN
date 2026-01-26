@@ -28,6 +28,10 @@ THE REST IS UP TO BABA X."""
 from fastapi import APIRouter, HTTPException
 from typing import Dict, Any
 import logging
+
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
 from revenue_automation import get_revenue_automation
 from financial_controls_system import RevenueChannel
 from decimal import Decimal

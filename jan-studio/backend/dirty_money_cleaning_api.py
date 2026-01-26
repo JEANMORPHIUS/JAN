@@ -22,6 +22,10 @@ THE REST IS UP TO BABA X."""
 from fastapi import APIRouter, HTTPException, Body, Query
 from typing import Optional, Dict, Any, List
 import logging
+
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
 from datetime import datetime
 
 from dirty_money_cleaning import (

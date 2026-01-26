@@ -15,6 +15,10 @@ import json
 import uuid
 import hashlib
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 router = APIRouter(prefix="/api/frequential", tags=["Frequential Alignment"])
 logger = logging.getLogger(__name__)
 

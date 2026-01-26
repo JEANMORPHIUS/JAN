@@ -21,6 +21,10 @@ from fastapi import APIRouter, HTTPException, Query, Body
 from typing import Optional, Dict, Any
 import logging
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 from big_cheese_audit import (
     get_big_cheese_audit_system,
     OrganizationType,

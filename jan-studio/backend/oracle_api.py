@@ -41,6 +41,10 @@ from pydantic import BaseModel, Field
 from typing import Optional
 import logging
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 from creative_oracle import CreativeOracle, record_oracle_cast, get_user_session
 
 logger = logging.getLogger(__name__)

@@ -26,6 +26,10 @@ from typing import Dict, List, Any
 from pathlib import Path
 import sys
 import logging
+
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
 from datetime import datetime
 
 # Add scripts to path

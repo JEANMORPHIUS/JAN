@@ -28,6 +28,10 @@ from datetime import datetime, timezone, timedelta
 import json
 import random
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 from scripture_scheduler_2026 import (
     ScriptureScheduler,
     generate_2026_scripture_schedule,

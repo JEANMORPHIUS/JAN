@@ -32,6 +32,10 @@ from typing import Optional, Dict, List, Any
 from pydantic import BaseModel
 import logging
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 from yin_yang_symbiosis import (
     get_yin_yang_framework,
     BalanceType,

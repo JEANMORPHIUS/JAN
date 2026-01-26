@@ -25,6 +25,10 @@ from fastapi import APIRouter, HTTPException, Query
 from typing import Optional
 import logging
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 from hollywood_music_industry_explorer import (
     get_industry_explorer,
     IndustryType,

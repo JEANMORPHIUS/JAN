@@ -24,6 +24,10 @@ import sys
 import os
 import logging
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 # Import Phase 4 services
 try:
     from collaborative_editing import get_collaborative_service, EditOperation

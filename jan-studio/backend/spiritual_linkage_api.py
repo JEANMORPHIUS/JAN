@@ -40,6 +40,10 @@ except ImportError as e:
     SPIRITUAL_LINKAGE_AVAILABLE = False
 
 import logging
+
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
 logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/api/spiritual-linkage", tags=["spiritual-linkage"])

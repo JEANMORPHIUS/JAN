@@ -39,6 +39,10 @@ except ImportError as e:
     FREQUENTIAL_EVENTS_AVAILABLE = False
 
 import logging
+
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
 logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/api/frequential-events", tags=["frequential-events"])

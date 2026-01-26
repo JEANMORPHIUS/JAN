@@ -21,6 +21,10 @@ from fastapi import APIRouter, HTTPException
 from typing import Dict, Any
 import logging
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 from family_heritage_log import get_family_heritage_logger
 
 logger = logging.getLogger(__name__)

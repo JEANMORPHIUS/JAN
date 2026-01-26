@@ -41,6 +41,10 @@ router = APIRouter(prefix="/api/jan", tags=["JAN Generation"])
 
 # Import JAN services
 import sys
+
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 try:

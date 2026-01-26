@@ -28,6 +28,10 @@ from pydantic import BaseModel, Field
 from typing import Optional
 import logging
 
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
+
 from oracle_core import OracleCore, cast_universal_oracle
 
 logger = logging.getLogger(__name__)

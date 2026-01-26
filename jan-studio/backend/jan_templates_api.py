@@ -23,6 +23,10 @@ from pydantic import BaseModel
 from typing import List, Dict, Any, Optional
 import os
 import json
+
+# Spiritual Codebase Hacker Integration
+from spiritual_codebase_hacker_integration import HACKER_AVAILABLE, hack_loop, perform_genetic_edit, activate_stealth_mode
+
 from pathlib import Path
 from datetime import datetime
 
