@@ -38,7 +38,7 @@ interface HistoryPanelProps {
 }
 
 export default function HistoryPanel({ onSelectHistory, onCompare, currentResult }: HistoryPanelProps) {
-  const { t } = useI18n();
+  const { t, language } = useI18n();
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
   const [filterPersona, setFilterPersona] = useState<string>('');
   const [filterType, setFilterType] = useState<string>('');
@@ -47,6 +47,9 @@ export default function HistoryPanel({ onSelectHistory, onCompare, currentResult
   // Use React Query for data fetching
   const { data: history = [], isLoading: loading, error: queryError, refetch } = useGenerationHistory();
   const saveToHistoryMutation = useSaveToHistory();
+  
+  // Import regional formatting utilities
+  const { formatDateRegional, formatTimeRegional } = require('@/utils/regionalFormats');
 
   useEffect(() => {
     if (currentResult) {
@@ -183,7 +186,8 @@ export default function HistoryPanel({ onSelectHistory, onCompare, currentResult
   const formatDate = (timestamp: string) => {
     try {
       const date = new Date(timestamp);
-      return date.toLocaleDateString() + ' ' + date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+      // Use regional formatting based on current language
+      return formatDateRegional(date, language) + ' ' + formatTimeRegional(date, language);
     } catch {
       return timestamp;
     }

@@ -19,6 +19,8 @@
  */
 
 import { useState, useMemo, useEffect } from 'react';
+import { useI18n } from '@/contexts/I18nContext';
+import { REGIONAL_TEMPLATES, getTemplatesByLanguage, type RegionalTemplate } from '@/data/regionalTemplates';
 
 interface PromptTemplate {
   name: string;
@@ -73,11 +75,13 @@ interface PromptTemplatesProps {
 }
 
 export default function PromptTemplates({ persona, onSelect, onClose }: PromptTemplatesProps) {
+  const { t, language } = useI18n();
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [savedTemplates, setSavedTemplates] = useState<PromptTemplate[]>([]);
   const [showSaveForm, setShowSaveForm] = useState(false);
   const [newTemplate, setNewTemplate] = useState<Partial<PromptTemplate>>({});
+  const [showRegional, setShowRegional] = useState(false);
   
   // Load saved templates from localStorage
   useEffect(() => {
@@ -96,9 +100,20 @@ export default function PromptTemplates({ persona, onSelect, onClose }: PromptTe
     return ['all', ...cats];
   }, []);
 
+  // Get regional templates for current language
+  const regionalTemplates = useMemo(() => {
+    return getTemplatesByLanguage(language).map(rt => ({
+      name: rt.name,
+      description: rt.description,
+      content: rt.content,
+      variables: rt.variables,
+      category: rt.category,
+    } as PromptTemplate));
+  }, [language]);
+
   const allTemplates = useMemo(() => {
-    return [...DEFAULT_TEMPLATES, ...savedTemplates];
-  }, [savedTemplates]);
+    return [...DEFAULT_TEMPLATES, ...regionalTemplates, ...savedTemplates];
+  }, [savedTemplates, regionalTemplates]);
 
   const filteredTemplates = useMemo(() => {
     let filtered = allTemplates;
@@ -156,27 +171,78 @@ export default function PromptTemplates({ persona, onSelect, onClose }: PromptTe
   return (
     <div className="card" style={{ maxHeight: '600px', overflowY: 'auto' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-        <h2>Prompt Templates</h2>
-        <div style={{ display: 'flex', gap: '0.5rem' }}>
+        <h2>{t('prompt_templates')}</h2>
+        <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+          <button
+            className="button"
+            onClick={() => setShowRegional(!showRegional)}
+            style={{ 
+              padding: '0.5rem 1rem', 
+              fontSize: '0.875rem',
+              backgroundColor: showRegional ? '#0070f3' : '#1a1a1a',
+            }}
+            aria-label={t('show_regional_templates')}
+          >
+            🌍 {t('regional')}
+          </button>
           <button
             className="button"
             onClick={() => setShowSaveForm(!showSaveForm)}
             style={{ padding: '0.5rem 1rem', fontSize: '0.875rem' }}
-            aria-label="Save new template"
+            aria-label={t('save_new_template')}
           >
-            + Save Template
+            + {t('save_template')}
           </button>
           {onClose && (
             <button
               className="button"
               onClick={onClose}
-              aria-label="Close templates"
+              aria-label={t('close')}
             >
-              Close
+              {t('close')}
             </button>
           )}
         </div>
       </div>
+      
+      {showRegional && regionalTemplates.length > 0 && (
+        <div className="card" style={{ marginBottom: '1rem', padding: '1rem', backgroundColor: '#1a1a2a', border: '1px solid #0070f3' }}>
+          <h3 style={{ marginTop: 0, marginBottom: '0.5rem', fontSize: '1rem' }}>
+            🌍 {t('regional_templates')} ({language.toUpperCase()})
+          </h3>
+          <p style={{ fontSize: '0.875rem', color: '#999', marginBottom: '0.5rem' }}>
+            {t('regional_templates_description')}
+          </p>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+            {regionalTemplates.map((template, idx) => (
+              <button
+                key={idx}
+                onClick={() => {
+                  onSelect({
+                    ...template,
+                    content: processTemplate(template),
+                  });
+                  setShowRegional(false);
+                }}
+                style={{
+                  padding: '0.75rem',
+                  backgroundColor: '#0a0a0a',
+                  border: '1px solid #333',
+                  borderRadius: '4px',
+                  color: '#e0e0e0',
+                  textAlign: 'left',
+                  cursor: 'pointer',
+                  fontSize: '0.875rem',
+                }}
+                aria-label={`${t('select_template')}: ${template.name}`}
+              >
+                <div style={{ fontWeight: 600, marginBottom: '0.25rem' }}>{template.name}</div>
+                <div style={{ fontSize: '0.75rem', color: '#999' }}>{template.description}</div>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
       
       {showSaveForm && (
         <div className="card" style={{ marginBottom: '1rem', padding: '1rem' }}>
@@ -248,11 +314,11 @@ export default function PromptTemplates({ persona, onSelect, onClose }: PromptTe
       <input
         type="text"
         className="input"
-        placeholder="Search templates..."
+        placeholder={t('search_templates')}
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
         style={{ marginBottom: '1rem' }}
-        aria-label="Search prompt templates"
+        aria-label={t('search_prompt_templates')}
       />
 
       {/* Category Filter */}
@@ -372,7 +438,7 @@ export default function PromptTemplates({ persona, onSelect, onClose }: PromptTe
 
       {filteredTemplates.length === 0 && (
         <p style={{ color: '#999', textAlign: 'center', padding: '2rem' }}>
-          No templates found matching your search.
+          {t('no_templates_found')}
         </p>
       )}
     </div>
