@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-01-26T12:36:46.717493",
+  "title": "Divine Call Processing - second_call",
+  "call_history": [
+    {
+      "timestamp": "2026-01-26T12:36:46.715671",
+      "call_type": "first_call",
+      "call_number": 1,
+      "context": {},
+      "meaning": "Invitation",
+      "status": "received",
+      "response_required": true
+    },
+    {
+      "timestamp": "2026-01-26T12:36:46.717485",
+      "call_type": "second_call",
+      "call_number": 2,
+      "context": {},
+      "meaning": "Confirmation",
+      "status": "received",
+      "response_required": true
+    }
+  ],
+  "current_call_count": 2,
+  "third_call_activated": false,
+  "chyros_time_active": false,
+  "blueprint_state": "active"
+}

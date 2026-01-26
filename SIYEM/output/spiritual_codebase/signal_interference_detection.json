@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-01-26T12:36:46.711140",
+  "title": "Signal Interference Detection - Triad of Static",
+  "signal_status": "being_sent",
+  "perception_status": "may_be_clouded",
+  "interference_detected": {
+    "survival_noise": {
+      "active": false,
+      "intensity": 0.0,
+      "sources": []
+    },
+    "social_noise": {
+      "active": false,
+      "intensity": 0.0,
+      "sources": []
+    },
+    "inner_static": {
+      "active": false,
+      "intensity": 0.0,
+      "sources": []
+    }
+  },
+  "total_interference_intensity": 0.0,
+  "signal_clarity": 1.0,
+  "recommendation": "Signal clear"
+}
