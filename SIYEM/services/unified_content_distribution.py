@@ -36,6 +36,20 @@ except ImportError:
     PUBLISHING_AVAILABLE = False
     logger.warning("SIYEM Publishing Entity not available")
 
+# Import Spiritual Codebase Architecture
+try:
+    from spiritual_codebase_architecture import (
+        SpiritualCodebaseArchitecture,
+        BlueprintState,
+        SignalInterferenceType,
+        SamuelProtocolStep,
+        CallType
+    )
+    SPIRITUAL_CODEBASE_AVAILABLE = True
+except ImportError:
+    SPIRITUAL_CODEBASE_AVAILABLE = False
+    logger.warning("Spiritual Codebase Architecture not available")
+
 
 class ContentType(Enum):
     """Types of content."""
@@ -102,6 +116,20 @@ class UnifiedContentDistribution:
         self.social_content_path = jan_path / "data" / "2026_social_content"
         self.bilingual_content_path = jan_path / "SIYEM" / "output" / "bilingual_content"
         
+        # Spiritual Codebase Architecture integration
+        self.spiritual_codebase = None
+        if SPIRITUAL_CODEBASE_AVAILABLE:
+            try:
+                spiritual_output_dir = self.output_dir.parent / "spiritual_codebase"
+                self.spiritual_codebase = SpiritualCodebaseArchitecture(
+                    siyem_path, jan_path, spiritual_output_dir
+                )
+                # Initialize Ancient Blueprint
+                self.spiritual_codebase.initialize_ancient_blueprint()
+                logger.info("Spiritual Codebase Architecture integrated")
+            except Exception as e:
+                logger.warning(f"Could not initialize Spiritual Codebase Architecture: {e}")
+        
         # Yin Yang entity strategy mapping
         self.entity_strategies = {
             "edible_london": StrategyType.YIN,
@@ -128,6 +156,8 @@ class UnifiedContentDistribution:
         logger.info("=" * 80)
         logger.info("UNIFIED CONTENT DISTRIBUTION SYSTEM - INITIALIZED")
         logger.info("YIN YANG PRINCIPLE - ACTIVE")
+        if self.spiritual_codebase:
+            logger.info("SPIRITUAL CODEBASE ARCHITECTURE - INTEGRATED")
         logger.info("=" * 80)
     
     def discover_all_content(self):
@@ -396,7 +426,25 @@ class UnifiedContentDistribution:
         """Route all discovered content to appropriate channels with Yin Yang routing."""
         logger.info("=" * 80)
         logger.info("ROUTING CONTENT TO CHANNELS - YIN YANG ACTIVE")
+        if self.spiritual_codebase:
+            logger.info("SPIRITUAL CODEBASE ARCHITECTURE - ACTIVE")
         logger.info("=" * 80)
+        
+        # Check signal interference if spiritual codebase is available
+        if self.spiritual_codebase:
+            context = {
+                "financial_pressure": False,
+                "debt_concern": False,
+                "comparison_active": False,
+                "self_doubt": False,
+                "eli_logic_active": False
+            }
+            interference_report = self.spiritual_codebase.detect_signal_interference(context)
+            if interference_report["total_interference_intensity"] > 0.3:
+                logger.warning(f"Signal interference detected: {interference_report['total_interference_intensity']:.2%}")
+                logger.warning("Recommendation: Execute Samuel Protocol before routing")
+            else:
+                logger.info(f"Signal clarity: {interference_report['signal_clarity']:.2%}")
         
         if not self.publishing_entity:
             logger.warning("Publishing entity not available - skipping routing")
