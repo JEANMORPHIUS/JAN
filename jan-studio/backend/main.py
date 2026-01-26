@@ -634,6 +634,16 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"Superpower Debunking API error: {e}")
 
+# AFRICAN-TURKISH YIN-YANG SYMBIOSIS API: African Yin to Turkish Yang symbiosis
+try:
+    from african_turkish_yin_yang_api import router as african_turkish_yin_yang_router
+    app.include_router(african_turkish_yin_yang_router)
+    logger.info("African-Turkish Yin-Yang Symbiosis API enabled - African Yin to Turkish Yang, perfect symbiosis, the miracle of the universe, The Table, all roads lead to The Ark")
+except ImportError as e:
+    logger.warning(f"African-Turkish Yin-Yang Symbiosis API not available: {e}")
+except Exception as e:
+    logger.warning(f"African-Turkish Yin-Yang Symbiosis API error: {e}")
+
 # PUBLISHING HOUSE API: Siyem Publishing House Operations
 try:
     from publishing_house_api import router as publishing_house_router

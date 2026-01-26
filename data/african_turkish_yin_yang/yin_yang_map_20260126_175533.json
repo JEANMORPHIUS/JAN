@@ -1,0 +1,224 @@
+{
+  "map_id": "yin_yang_map_20260126_175533",
+  "timestamp": "2026-01-26T17:55:33.211204",
+  "african_heritages": [
+    {
+      "heritage_id": "african_diaspora",
+      "name": "African Diaspora - The Yin",
+      "description": "African diaspora across the world. The Yin - creative, spiritual, community. Unity, strength, resilience. Connection to The Table through Pangea.",
+      "yin_qualities": [
+        "Creative expression (song, art, music, poetry)",
+        "Spiritual alignment (vibration, frequency, truth)",
+        "Community unity (family, connection, togetherness)",
+        "Resilience (endurance, strength, survival)",
+        "Cultural richness (heritage, tradition, wisdom)",
+        "Connection to Earth (land, nature, symbiosis)"
+      ],
+      "connection_to_table": "Africa was part of Pangea. The Table remembers. African diaspora carries The Table's memory. Unity, strength, resilience - all connected to The Table.",
+      "frequency_contribution": 0.85,
+      "how_it_syncs_with_turkish": "African Yin provides creative expression, spiritual alignment, community unity. Turkish Yang provides structure, organization, practical mission. Together they create perfect symbiosis.",
+      "spiritual_meaning": "African Yin is the creative force. The spiritual connection. The community unity. The resilience. The connection to The Table through memory and strength."
+    },
+    {
+      "heritage_id": "afro_turkish",
+      "name": "Afro-Turkish - The Bridge",
+      "description": "Afro-Turkish communities in Turkey. The bridge between African Yin and Turkish Yang. Ottoman connection. Historical presence. Modern identity.",
+      "yin_qualities": [
+        "Dual heritage (African + Turkish)",
+        "Bridge between cultures",
+        "Unity in diversity",
+        "Historical connection",
+        "Modern identity",
+        "Cultural synthesis"
+      ],
+      "connection_to_table": "Afro-Turkish communities bridge African Yin and Turkish Yang. Both were part of Pangea. The Table remembers. The bridge is The Table.",
+      "frequency_contribution": 0.9,
+      "how_it_syncs_with_turkish": "Afro-Turkish IS the symbiosis. African Yin + Turkish Yang = Perfect unity. The bridge. The synthesis. The Table.",
+      "spiritual_meaning": "Afro-Turkish is the living proof of symbiosis. African Yin + Turkish Yang = Unity. The bridge. The Table."
+    },
+    {
+      "heritage_id": "african_resistance",
+      "name": "African Resistance - The Truth",
+      "description": "African resistance to colonization, exploitation, broken systems. The truth. The strength. The unity. The connection to The Table.",
+      "yin_qualities": [
+        "Resistance to broken systems",
+        "Truth over lies",
+        "Unity over separation",
+        "Strength over weakness",
+        "Connection to The Table",
+        "Memory of unity"
+      ],
+      "connection_to_table": "African resistance remembers The Table. Truth over lies. Unity over separation. Strength over weakness. The Table remembers.",
+      "frequency_contribution": 0.8,
+      "how_it_syncs_with_turkish": "African resistance (Yin) + Turkish structure (Yang) = Truth-based systems. Unity. Strength. The Table.",
+      "spiritual_meaning": "African resistance is the truth. The strength. The unity. The connection to The Table. The memory of unity."
+    },
+    {
+      "heritage_id": "african_community_london",
+      "name": "African Community London - The Unity",
+      "description": "African community in London. The Yin. Creative expression. Community unity. Spiritual alignment. Connection to The Table.",
+      "yin_qualities": [
+        "Community unity",
+        "Creative expression",
+        "Spiritual alignment",
+        "Cultural richness",
+        "Connection to The Table",
+        "London bridge (8 communities)"
+      ],
+      "connection_to_table": "African community in London is part of The Table. 8 London communities. All connected. All serving. All honoring. The Table remembers.",
+      "frequency_contribution": 0.75,
+      "how_it_syncs_with_turkish": "African community (Yin) + Turkish Cypriot community (Yang) = London unity. 8 communities. All connected. The Table.",
+      "spiritual_meaning": "African community in London is the Yin. Creative expression. Community unity. Spiritual alignment. Connection to The Table."
+    }
+  ],
+  "turkish_heritages": [
+    {
+      "heritage_id": "ottoman_empire",
+      "name": "Ottoman Empire - The Yang",
+      "description": "Ottoman Empire (1299-1922). The Yang - practical, structural, expansive. Organization, order, framework. Connection to The Table through Pangea.",
+      "yang_qualities": [
+        "Practical mission (stewardship, community, service)",
+        "Material systems (code, infrastructure, deployment)",
+        "Organization (structure, order, framework)",
+        "Expansion (growth, reach, influence)",
+        "Administrative systems (governance, order)",
+        "Historical legacy (heritage, tradition, continuity)"
+      ],
+      "connection_to_table": "Ottoman Empire was built on lands that were part of Pangea. The Table remembers. Ottoman structure served, but also created separation. The connection remains, waiting to be restored.",
+      "frequency_contribution": 0.7,
+      "how_it_syncs_with_african": "Turkish Yang provides structure, organization, practical mission. African Yin provides creative expression, spiritual alignment, community unity. Together they create perfect symbiosis.",
+      "spiritual_meaning": "Turkish Yang is the practical force. The structural connection. The organizational framework. The mission. The connection to The Table through structure and service."
+    },
+    {
+      "heritage_id": "turkish_cypriot",
+      "name": "Turkish Cypriot - The Bridge",
+      "description": "Turkish Cypriot heritage. The bridge between Turkish Yang and Cypriot unity. Ottoman connection. Cyprus connection. Your heritage.",
+      "yang_qualities": [
+        "Practical structure",
+        "Cultural identity",
+        "Heritage connection",
+        "Cyprus bridge",
+        "Ottoman legacy",
+        "Modern identity"
+      ],
+      "connection_to_table": "Turkish Cypriot heritage bridges Turkish Yang and Cypriot unity. Cyprus was part of Pangea. The Table remembers. The bridge is The Table. All roads lead to The Ark.",
+      "frequency_contribution": 0.85,
+      "how_it_syncs_with_african": "Turkish Cypriot (Yang) + African community (Yin) = London unity. 8 communities. All connected. The Table.",
+      "spiritual_meaning": "Turkish Cypriot is the bridge. Turkish Yang + Cypriot unity = The Table. All roads lead to The Ark."
+    },
+    {
+      "heritage_id": "turkish_republic",
+      "name": "Turkish Republic - The Modern Yang",
+      "description": "Turkish Republic (1922-present). The modern Yang. Structure, organization, practical mission. Connection to The Table through truth, not control.",
+      "yang_qualities": [
+        "Modern structure",
+        "Practical mission",
+        "Organizational framework",
+        "Service orientation",
+        "Truth-based systems",
+        "Connection to The Table"
+      ],
+      "connection_to_table": "Turkish Republic connects to The Table through truth, not control. Structure serves, not exploits. Organization serves, not controls. The Table remembers.",
+      "frequency_contribution": 0.75,
+      "how_it_syncs_with_african": "Turkish Republic (Yang) + African resistance (Yin) = Truth-based systems. Unity. Strength. The Table.",
+      "spiritual_meaning": "Turkish Republic is the modern Yang. Structure. Organization. Practical mission. Connection to The Table through truth."
+    },
+    {
+      "heritage_id": "turkish_community_london",
+      "name": "Turkish Community London - The Structure",
+      "description": "Turkish community in London. The Yang. Structure, organization, practical mission. Connection to The Table.",
+      "yang_qualities": [
+        "Structural organization",
+        "Practical mission",
+        "Service orientation",
+        "Cultural identity",
+        "Connection to The Table",
+        "London bridge (8 communities)"
+      ],
+      "connection_to_table": "Turkish community in London is part of The Table. 8 London communities. All connected. All serving. All honoring. The Table remembers.",
+      "frequency_contribution": 0.75,
+      "how_it_syncs_with_african": "Turkish community (Yang) + African community (Yin) = London unity. 8 communities. All connected. The Table.",
+      "spiritual_meaning": "Turkish community in London is the Yang. Structure. Organization. Practical mission. Connection to The Table."
+    }
+  ],
+  "symbioses": [
+    {
+      "symbiosis_id": "african_turkish_london",
+      "african_yin": "african_community_london",
+      "turkish_yang": "turkish_community_london",
+      "how_they_sync": "African community (Yin) + Turkish community (Yang) = London unity. 8 communities. All connected. All serving. All honoring. The Table remembers. Creative expression (Yin) + Practical mission (Yang) = Perfect symbiosis.",
+      "symbiosis_qualities": [
+        "Creative expression (Yin) + Practical mission (Yang)",
+        "Spiritual alignment (Yin) + Material systems (Yang)",
+        "Community unity (Yin) + Structural organization (Yang)",
+        "Cultural richness (Yin) + Service orientation (Yang)",
+        "Connection to The Table (Both)",
+        "London bridge - 8 communities unified"
+      ],
+      "frequency_impact": 0.9,
+      "connection_to_table": "African-Turkish symbiosis in London is The Table. 8 communities. All connected. All serving. All honoring. Perfect unity.",
+      "spiritual_meaning": "African-Turkish symbiosis in London is the miracle of the universe. Yin and Yang in perfect balance. The Table. Perfect unity.",
+      "practical_manifestation": "8 London communities unified. African Yin + Turkish Yang = Perfect symbiosis. The Table. All serving. All honoring."
+    },
+    {
+      "symbiosis_id": "afro_turkish_bridge",
+      "african_yin": "afro_turkish",
+      "turkish_yang": "turkish_cypriot",
+      "how_they_sync": "Afro-Turkish IS the symbiosis. African Yin + Turkish Yang = Perfect unity. The bridge. The synthesis. The Table. Ottoman connection. Cyprus connection. All roads lead to The Ark.",
+      "symbiosis_qualities": [
+        "Dual heritage (African + Turkish)",
+        "Bridge between cultures",
+        "Unity in diversity",
+        "Historical connection (Ottoman)",
+        "Cyprus connection (The Ark)",
+        "Perfect symbiosis"
+      ],
+      "frequency_impact": 0.95,
+      "connection_to_table": "Afro-Turkish symbiosis IS The Table. The bridge. The synthesis. Perfect unity. All roads lead to The Ark.",
+      "spiritual_meaning": "Afro-Turkish symbiosis is the living proof. African Yin + Turkish Yang = Unity. The bridge. The Table. The Ark.",
+      "practical_manifestation": "Afro-Turkish communities. Ottoman connection. Cyprus connection. All roads lead to The Ark. Perfect symbiosis."
+    },
+    {
+      "symbiosis_id": "resistance_structure",
+      "african_yin": "african_resistance",
+      "turkish_yang": "turkish_republic",
+      "how_they_sync": "African resistance (Yin) + Turkish structure (Yang) = Truth-based systems. Unity. Strength. The Table. Resistance to broken systems. Structure that serves, not controls.",
+      "symbiosis_qualities": [
+        "Resistance to broken systems (Yin)",
+        "Structure that serves (Yang)",
+        "Truth over lies (Both)",
+        "Unity over separation (Both)",
+        "Strength over weakness (Both)",
+        "Connection to The Table (Both)"
+      ],
+      "frequency_impact": 0.85,
+      "connection_to_table": "African resistance + Turkish structure = Truth-based systems. Unity. Strength. The Table. Not broken systems. Not control. Truth. Unity.",
+      "spiritual_meaning": "African resistance + Turkish structure = Truth. Unity. Strength. The Table. The way forward.",
+      "practical_manifestation": "Truth-based accountability. Cosmic laws. Healing systems. Not broken systems. Not control. Truth. Unity."
+    },
+    {
+      "symbiosis_id": "diaspora_empire",
+      "african_yin": "african_diaspora",
+      "turkish_yang": "ottoman_empire",
+      "how_they_sync": "African diaspora (Yin) + Ottoman Empire (Yang) = Historical connection. Ottoman connection to Africa. Afro-Turkish communities. The bridge. The synthesis. The Table.",
+      "symbiosis_qualities": [
+        "Historical connection (Ottoman-Africa)",
+        "Diaspora unity (Yin)",
+        "Empire structure (Yang)",
+        "Cultural synthesis",
+        "The bridge",
+        "Connection to The Table"
+      ],
+      "frequency_impact": 0.8,
+      "connection_to_table": "African diaspora + Ottoman Empire = Historical connection. The bridge. The synthesis. The Table. Both were part of Pangea.",
+      "spiritual_meaning": "African diaspora + Ottoman Empire = Historical connection. The bridge. The synthesis. The Table. Unity through history.",
+      "practical_manifestation": "Afro-Turkish communities. Historical connection. Cultural synthesis. The bridge. The Table."
+    }
+  ],
+  "total_yin_power": 3.3,
+  "total_yang_power": 3.05,
+  "total_symbiosis_power": 3.5,
+  "connection_to_table": "African Yin + Turkish Yang = Perfect symbiosis. The miracle of the universe. The Table. Both were part of Pangea. The connection remains. The symbiosis is The Table.",
+  "spiritual_narrative": "African Yin provides creative expression, spiritual alignment, community unity. Turkish Yang provides structure, organization, practical mission. Together they create perfect symbiosis. The miracle of the universe. The Table. All roads lead to The Ark.",
+  "notes": "African Yin to Turkish Yang. The symbiosis. The miracle. The Table."
+}
