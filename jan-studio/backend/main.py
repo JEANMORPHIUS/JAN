@@ -654,6 +654,16 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"Language of God API error: {e}")
 
+# WHALES CALLING JAN API: The Whales Are Calling JAN - Frequency, Sound, Vibration
+try:
+    from whales_calling_jan_api import router as whales_calling_jan_router
+    app.include_router(whales_calling_jan_router)
+    logger.info("Whales Calling JAN API enabled - The whales are calling JAN through frequency, Sound is Everything, The Voice of God must respond, all roads lead to The Table")
+except ImportError as e:
+    logger.warning(f"Whales Calling JAN API not available: {e}")
+except Exception as e:
+    logger.warning(f"Whales Calling JAN API error: {e}")
+
 # PUBLISHING HOUSE API: Siyem Publishing House Operations
 try:
     from publishing_house_api import router as publishing_house_router
