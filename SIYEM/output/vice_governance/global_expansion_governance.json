@@ -1,0 +1,114 @@
+{
+  "timestamp": "2026-01-26T12:03:09.447061",
+  "title": "Global Expansion Governance Framework",
+  "status": "CREATED",
+  "expansion_principles": {
+    "principle_1_respect_local_context": {
+      "name": "Respect Local Context",
+      "description": "Respect local cultures, laws, and contexts",
+      "application": "Adapt governance to local contexts while maintaining core principles"
+    },
+    "principle_2_coordinate_globally": {
+      "name": "Coordinate Globally",
+      "description": "Coordinate governance across countries and regions",
+      "application": "Work together globally while respecting local contexts"
+    },
+    "principle_3_educate_globally": {
+      "name": "Educate Globally",
+      "description": "Educate people globally about risks and governance",
+      "application": "Provide education that respects local contexts"
+    },
+    "principle_4_protect_globally": {
+      "name": "Protect Globally",
+      "description": "Protect people globally from harm",
+      "application": "Implement protection mechanisms that work globally"
+    },
+    "principle_5_adapt_globally": {
+      "name": "Adapt Globally",
+      "description": "Adapt governance to changing global conditions",
+      "application": "Monitor and adapt governance as conditions change"
+    }
+  },
+  "regional_approaches": {
+    "north_america": {
+      "region": "North America",
+      "approaches": {
+        "alcohol": "Regulated, age restrictions, public health education",
+        "tobacco": "Heavily regulated, strict advertising bans, high taxation",
+        "drugs": "Varies by country, some decriminalization, treatment focus",
+        "dark_web": "Law enforcement focus, privacy protection",
+        "crypto": "Evolving regulation, consumer protection focus"
+      }
+    },
+    "europe": {
+      "region": "Europe",
+      "approaches": {
+        "alcohol": "Regulated, cultural acceptance, public health education",
+        "tobacco": "Heavily regulated, EU-wide standards, high taxation",
+        "drugs": "Varies by country, some decriminalization, harm reduction focus",
+        "dark_web": "Privacy protection focus, law enforcement coordination",
+        "crypto": "Evolving regulation, consumer protection focus"
+      }
+    },
+    "asia": {
+      "region": "Asia",
+      "approaches": {
+        "alcohol": "Varies by country, cultural contexts, some restrictions",
+        "tobacco": "Varies by country, some strict regulation, cultural contexts",
+        "drugs": "Strict prohibition in most countries, severe penalties",
+        "dark_web": "Varies by country, some strict monitoring",
+        "crypto": "Varies by country, some bans, some regulation"
+      }
+    },
+    "africa": {
+      "region": "Africa",
+      "approaches": {
+        "alcohol": "Varies by country, cultural contexts, some restrictions",
+        "tobacco": "Varies by country, some regulation, public health focus",
+        "drugs": "Varies by country, some strict prohibition, treatment focus",
+        "dark_web": "Limited infrastructure, law enforcement challenges",
+        "crypto": "Emerging markets, some adoption, regulatory uncertainty"
+      }
+    },
+    "south_america": {
+      "region": "South America",
+      "approaches": {
+        "alcohol": "Regulated, cultural acceptance, public health education",
+        "tobacco": "Regulated, public health focus, some advertising restrictions",
+        "drugs": "Varies by country, some decriminalization, treatment focus",
+        "dark_web": "Law enforcement focus, privacy protection",
+        "crypto": "Evolving regulation, some adoption, consumer protection focus"
+      }
+    },
+    "oceania": {
+      "region": "Oceania",
+      "approaches": {
+        "alcohol": "Regulated, age restrictions, public health education",
+        "tobacco": "Heavily regulated, strict advertising bans, high taxation",
+        "drugs": "Varies by country, some decriminalization, treatment focus",
+        "dark_web": "Law enforcement focus, privacy protection",
+        "crypto": "Evolving regulation, consumer protection focus"
+      }
+    }
+  },
+  "coordination_mechanisms": {
+    "international_organizations": [
+      "WHO (World Health Organization) - Substance abuse",
+      "UNODC (UN Office on Drugs and Crime) - Drug control",
+      "FATF (Financial Action Task Force) - Crypto regulation",
+      "Interpol - Dark web law enforcement"
+    ],
+    "regional_cooperation": [
+      "Regional trade agreements",
+      "Regional health organizations",
+      "Regional law enforcement cooperation",
+      "Regional regulatory coordination"
+    ],
+    "bilateral_cooperation": [
+      "Bilateral trade agreements",
+      "Bilateral law enforcement cooperation",
+      "Bilateral regulatory coordination",
+      "Bilateral information sharing"
+    ]
+  }
+}

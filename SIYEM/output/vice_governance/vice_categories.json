@@ -1,0 +1,111 @@
+{
+  "timestamp": "2026-01-26T12:03:09.439722",
+  "title": "Vice Categories and Governance Framework",
+  "status": "DEFINED",
+  "vice_categories": {
+    "substance_vices": {
+      "category": "Substance Vices",
+      "description": "Physical substances that can be harmful or addictive",
+      "items": {
+        "alcohol": {
+          "name": "Alcohol",
+          "nature": "Legal substance, cultural significance, potential for abuse",
+          "global_status": "Legal in most countries, regulated differently",
+          "governance_needs": [
+            "Regulation of production and distribution",
+            "Age restrictions",
+            "Public health education",
+            "Treatment for addiction",
+            "Cultural sensitivity"
+          ],
+          "governance_approach": "Regulate, educate, treat, respect culture"
+        },
+        "tobacco": {
+          "name": "Tobacco",
+          "nature": "Legal substance, highly addictive, health risks",
+          "global_status": "Legal in most countries, heavily regulated",
+          "governance_needs": [
+            "Strict regulation of production and distribution",
+            "Age restrictions",
+            "Public health warnings",
+            "Treatment for addiction",
+            "Taxation for public health"
+          ],
+          "governance_approach": "Regulate strictly, educate, treat, tax appropriately"
+        },
+        "drugs": {
+          "name": "Drugs",
+          "nature": "Illegal substances, highly addictive, health and social risks",
+          "global_status": "Illegal in most countries, varies by substance",
+          "governance_needs": [
+            "Prevention of production and distribution",
+            "Treatment for addiction",
+            "Harm reduction programs",
+            "Public health education",
+            "Criminal justice reform"
+          ],
+          "governance_approach": "Prevent, treat, reduce harm, educate, reform justice"
+        }
+      }
+    },
+    "digital_vices": {
+      "category": "Digital Vices",
+      "description": "Digital platforms and technologies that can be harmful",
+      "items": {
+        "dark_web": {
+          "name": "The Dark Web",
+          "nature": "Hidden internet, anonymity, potential for illegal activity",
+          "global_status": "Exists globally, unregulated, used for both legal and illegal purposes",
+          "governance_needs": [
+            "Understanding of technology",
+            "Monitoring of illegal activity",
+            "Protection of privacy rights",
+            "Education about risks",
+            "Law enforcement coordination"
+          ],
+          "governance_approach": "Understand, monitor, protect privacy, educate, coordinate enforcement"
+        },
+        "crypto_volatility": {
+          "name": "Crypto and Uncertainty Volatility",
+          "nature": "Cryptocurrency, blockchain, high volatility, uncertain regulation",
+          "global_status": "Varies by country, evolving regulation, high volatility",
+          "governance_needs": [
+            "Regulatory clarity",
+            "Consumer protection",
+            "Market stability measures",
+            "Education about risks",
+            "International coordination"
+          ],
+          "governance_approach": "Clarify regulation, protect consumers, stabilize markets, educate, coordinate globally"
+        }
+      }
+    }
+  },
+  "governance_principles": {
+    "principle_1_harm_reduction": {
+      "name": "Harm Reduction",
+      "description": "Reduce harm to individuals and society while respecting autonomy",
+      "application": "Focus on reducing harm rather than prohibition where appropriate"
+    },
+    "principle_2_education": {
+      "name": "Education",
+      "description": "Educate people about risks and consequences",
+      "application": "Provide accurate information to enable informed decisions"
+    },
+    "principle_3_treatment": {
+      "name": "Treatment",
+      "description": "Provide treatment and support for addiction and harm",
+      "application": "Make treatment accessible and effective"
+    },
+    "principle_4_regulation": {
+      "name": "Regulation",
+      "description": "Regulate appropriately based on risk and context",
+      "application": "Balance regulation with individual freedom and cultural context"
+    },
+    "principle_5_global_coordination": {
+      "name": "Global Coordination",
+      "description": "Coordinate governance across countries and regions",
+      "application": "Work together globally while respecting local contexts"
+    }
+  }
+}

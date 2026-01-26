@@ -1,0 +1,134 @@
+{
+  "timestamp": "2026-01-26T12:03:09.442341",
+  "title": "Global Governance Framework for Vices",
+  "status": "CREATED",
+  "governance_framework": {
+    "alcohol_governance": {
+      "global_approach": "Regulate, educate, treat, respect culture",
+      "regulatory_levels": {
+        "production": "Regulate production quality and safety",
+        "distribution": "Regulate distribution channels and licensing",
+        "consumption": "Regulate age restrictions and public consumption",
+        "advertising": "Regulate advertising to prevent targeting vulnerable populations"
+      },
+      "education_programs": {
+        "public_health": "Public health education about risks",
+        "responsible_consumption": "Education about responsible consumption",
+        "cultural_context": "Respect cultural contexts and traditions"
+      },
+      "treatment_support": {
+        "addiction_treatment": "Accessible addiction treatment programs",
+        "harm_reduction": "Harm reduction programs",
+        "support_services": "Support services for affected individuals and families"
+      },
+      "global_coordination": {
+        "international_standards": "International standards for production and safety",
+        "cross_border_cooperation": "Cross-border cooperation on regulation",
+        "cultural_sensitivity": "Respect for cultural differences"
+      }
+    },
+    "tobacco_governance": {
+      "global_approach": "Regulate strictly, educate, treat, tax appropriately",
+      "regulatory_levels": {
+        "production": "Strict regulation of production and additives",
+        "distribution": "Strict regulation of distribution and sales",
+        "consumption": "Strict age restrictions and public consumption bans",
+        "advertising": "Strict advertising bans and packaging warnings"
+      },
+      "education_programs": {
+        "public_health": "Public health education about health risks",
+        "prevention": "Prevention programs for youth",
+        "cessation": "Cessation support programs"
+      },
+      "treatment_support": {
+        "addiction_treatment": "Accessible addiction treatment programs",
+        "cessation_support": "Cessation support services",
+        "harm_reduction": "Harm reduction for those who cannot quit"
+      },
+      "global_coordination": {
+        "who_framework": "WHO Framework Convention on Tobacco Control",
+        "international_cooperation": "International cooperation on regulation",
+        "taxation_coordination": "Coordination on taxation for public health"
+      }
+    },
+    "drugs_governance": {
+      "global_approach": "Prevent, treat, reduce harm, educate, reform justice",
+      "regulatory_levels": {
+        "prevention": "Prevent production and distribution",
+        "law_enforcement": "Law enforcement coordination",
+        "decriminalization": "Consider decriminalization for personal use",
+        "legalization": "Consider legalization for medical use where appropriate"
+      },
+      "education_programs": {
+        "prevention": "Prevention programs for youth",
+        "public_health": "Public health education about risks",
+        "harm_reduction": "Harm reduction education"
+      },
+      "treatment_support": {
+        "addiction_treatment": "Accessible addiction treatment programs",
+        "harm_reduction": "Harm reduction programs (needle exchange, safe consumption)",
+        "support_services": "Support services for affected individuals and families"
+      },
+      "global_coordination": {
+        "un_conventions": "UN drug control conventions",
+        "international_cooperation": "International cooperation on prevention and treatment",
+        "justice_reform": "Criminal justice reform coordination"
+      }
+    },
+    "dark_web_governance": {
+      "global_approach": "Understand, monitor, protect privacy, educate, coordinate enforcement",
+      "regulatory_levels": {
+        "technology_understanding": "Understand technology and its uses",
+        "monitoring": "Monitor illegal activity while protecting privacy",
+        "law_enforcement": "Coordinate law enforcement across borders",
+        "privacy_protection": "Protect legitimate privacy rights"
+      },
+      "education_programs": {
+        "technology_education": "Education about technology and risks",
+        "safety_education": "Education about online safety",
+        "legal_education": "Education about legal and illegal uses"
+      },
+      "treatment_support": {
+        "victim_support": "Support for victims of dark web crimes",
+        "rehabilitation": "Rehabilitation for those involved in illegal activity",
+        "prevention": "Prevention programs"
+      },
+      "global_coordination": {
+        "international_cooperation": "International cooperation on law enforcement",
+        "privacy_coordination": "Coordination on privacy protection",
+        "technology_sharing": "Sharing of technology and best practices"
+      }
+    },
+    "crypto_governance": {
+      "global_approach": "Clarify regulation, protect consumers, stabilize markets, educate, coordinate globally",
+      "regulatory_levels": {
+        "regulatory_clarity": "Clarify regulation and legal status",
+        "consumer_protection": "Protect consumers from fraud and volatility",
+        "market_stability": "Measures to stabilize markets and reduce volatility",
+        "taxation": "Clarify taxation and reporting requirements"
+      },
+      "education_programs": {
+        "technology_education": "Education about blockchain and cryptocurrency",
+        "risk_education": "Education about risks and volatility",
+        "investment_education": "Education about responsible investment"
+      },
+      "treatment_support": {
+        "consumer_protection": "Consumer protection mechanisms",
+        "dispute_resolution": "Dispute resolution mechanisms",
+        "support_services": "Support for those affected by fraud or volatility"
+      },
+      "global_coordination": {
+        "regulatory_coordination": "Coordination on regulation across countries",
+        "market_coordination": "Coordination on market stability measures",
+        "taxation_coordination": "Coordination on taxation and reporting"
+      }
+    }
+  },
+  "governance_principles": {
+    "harm_reduction": "Reduce harm to individuals and society",
+    "education": "Educate people about risks and consequences",
+    "treatment": "Provide treatment and support",
+    "regulation": "Regulate appropriately based on risk and context",
+    "global_coordination": "Coordinate governance across countries and regions"
+  }
+}
