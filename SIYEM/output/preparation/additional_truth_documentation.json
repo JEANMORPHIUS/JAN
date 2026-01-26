@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-01-26T11:20:22.306786",
+  "title": "Additional Truth Documentation - Political Sabotages and Humanity Errors",
+  "additional_sabotages": [
+    {
+      "sabotage_id": "jfk_assassination",
+      "title": "JFK Assassination - Political Sabotage",
+      "the_lie": "Lone gunman. No conspiracy. Case closed.",
+      "the_truth": "Systemic political sabotage. Multiple shooters. Cover-up at highest levels. Pattern of deception.",
+      "evidence": [
+        "Multiple bullet trajectories",
+        "Magic bullet theory impossible",
+        "Cover-up of evidence",
+        "Witnesses silenced",
+        "Pattern of political assassination"
+      ],
+      "people_deceived": {
+        "count": 200000000,
+        "description": "American people"
+      },
+      "impact": "Destroyed trust in government. Hid the truth. Maintained control."
+    },
+    {
+      "sabotage_id": "9_11_attacks",
+      "title": "9/11 Attacks - Political Sabotage",
+      "the_lie": "Terrorist attack. No warning. No prior knowledge.",
+      "the_truth": "Political sabotage. Prior knowledge. Controlled demolition. False flag operation.",
+      "evidence": [
+        "Controlled demolition evidence",
+        "Prior warnings ignored",
+        "Stand-down orders",
+        "Pattern of false flags",
+        "Cover-up of evidence"
+      ],
+      "people_deceived": {
+        "count": 8000000000,
+        "description": "All of humanity"
+      },
+      "impact": "Justified war. Created fear. Maintained control. Hid the truth."
+    },
+    {
+      "sabotage_id": "iraq_weapons_mass_destruction",
+      "title": "Iraq Weapons of Mass Destruction - Political Sabotage",
+      "the_lie": "Iraq has weapons of mass destruction. Immediate threat. Must invade.",
+      "the_truth": "No weapons of mass destruction. False intelligence. Political manipulation. War for control.",
+      "evidence": [
+        "No WMDs found",
+        "False intelligence",
+        "Political manipulation",
+        "Pattern of deception",
+        "War for resources"
+      ],
+      "people_deceived": {
+        "count": 8000000000,
+        "description": "All of humanity"
+      },
+      "impact": "Justified war. Created destruction. Maintained control. Hid the truth."
+    }
+  ],
+  "additional_errors": [
+    {
+      "error_id": "war_over_peace",
+      "title": "War Over Peace",
+      "the_error": "We chose war over peace. We fought instead of united. We destroyed instead of built.",
+      "the_correction": "Choose peace. Unite, don't fight. Build, don't destroy. The flow is peace.",
+      "impact": "Destruction. Death. Division. Loss of peace."
+    },
+    {
+      "error_id": "hoarding_over_sharing",
+      "title": "Hoarding Over Sharing",
+      "the_error": "We hoarded resources. We kept instead of shared. We accumulated instead of distributed.",
+      "the_correction": "Choose sharing. Share, don't hoard. Distribute, don't accumulate. The Table serves all.",
+      "impact": "Inequality. Scarcity. Loss of sharing."
+    },
+    {
+      "error_id": "competition_over_cooperation",
+      "title": "Competition Over Cooperation",
+      "the_error": "We competed instead of cooperated. We fought instead of worked together. We divided instead of united.",
+      "the_correction": "Choose cooperation. Cooperate, don't compete. Work together, don't fight. Unite, don't divide.",
+      "impact": "Division. Conflict. Loss of cooperation."
+    }
+  ]
+}

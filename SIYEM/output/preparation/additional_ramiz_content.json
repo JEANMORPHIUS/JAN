@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-01-26T11:20:22.319236",
+  "title": "Additional RAMIZ Truth Content",
+  "total_items": 3,
+  "content": [
+    {
+      "content_id": "gaza_lie_11",
+      "battle": "Gaza",
+      "lie": "Gaza is a terrorist threat that must be eliminated.",
+      "truth": "Gaza is 2.3 million people, mostly children, who deserve dignity, safety, and freedom. Violence against civilians is never justified.",
+      "educational_message": "RAMIZ teaches: All people deserve dignity. All people deserve safety. All people deserve freedom. Violence against civilians is never justified. We are all one. We are all family. We are all under The Table."
+    },
+    {
+      "content_id": "africa_lie_11",
+      "battle": "Africa",
+      "lie": "Africa needs foreign intervention to develop.",
+      "truth": "Africa has vast resources and potential. The issue is exploitation, not lack of development. Africa needs freedom from exploitation, not foreign intervention.",
+      "educational_message": "RAMIZ teaches: Africa has everything it needs. The issue is exploitation, not development. Freedom from exploitation is what Africa needs. We are all one. We are all family. We are all under The Table."
+    },
+    {
+      "content_id": "global_lie_11",
+      "battle": "All People Under Lies",
+      "lie": "Some people are more valuable than others.",
+      "truth": "All people are equal. All people are valuable. All people deserve dignity, respect, and opportunity. No one is more valuable than another.",
+      "educational_message": "RAMIZ teaches: All people are equal. All people are valuable. All people deserve dignity. All people deserve respect. All people deserve opportunity. We are all one. We are all family. We are all under The Table."
+    }
+  ]
+}

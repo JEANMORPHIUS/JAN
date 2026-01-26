@@ -1,0 +1,109 @@
+{
+  "timestamp": "2026-01-26T11:20:22.321311",
+  "title": "Truth Content Database Structure",
+  "schema": {
+    "political_sabotages": {
+      "fields": [
+        "sabotage_id",
+        "title",
+        "the_lie",
+        "the_truth",
+        "evidence",
+        "people_deceived",
+        "impact",
+        "exposure_status",
+        "timestamp"
+      ],
+      "indexes": [
+        "sabotage_id",
+        "title",
+        "exposure_status"
+      ],
+      "search_fields": [
+        "title",
+        "the_lie",
+        "the_truth",
+        "evidence"
+      ]
+    },
+    "humanity_errors": {
+      "fields": [
+        "error_id",
+        "title",
+        "the_error",
+        "the_correction",
+        "impact",
+        "correction_status",
+        "timestamp"
+      ],
+      "indexes": [
+        "error_id",
+        "title",
+        "correction_status"
+      ],
+      "search_fields": [
+        "title",
+        "the_error",
+        "the_correction"
+      ]
+    },
+    "ramiz_truth_content": {
+      "fields": [
+        "content_id",
+        "battle",
+        "lie",
+        "truth",
+        "educational_message",
+        "languages",
+        "timestamp"
+      ],
+      "indexes": [
+        "content_id",
+        "battle",
+        "languages"
+      ],
+      "search_fields": [
+        "battle",
+        "lie",
+        "truth",
+        "educational_message"
+      ]
+    },
+    "space_debunking": {
+      "fields": [
+        "evidence_id",
+        "evidence_type",
+        "description",
+        "technical_details",
+        "historical_context",
+        "scientific_evidence",
+        "timestamp"
+      ],
+      "indexes": [
+        "evidence_id",
+        "evidence_type"
+      ],
+      "search_fields": [
+        "description",
+        "technical_details",
+        "scientific_evidence"
+      ]
+    }
+  },
+  "features": {
+    "search": "Full-text search across all content",
+    "categorization": "Automatic categorization by type, topic, region",
+    "tagging": "Tag-based organization and filtering",
+    "multilingual": "Support for Turkish, English, Arabic, French, and more",
+    "distribution": "Ready for distribution when stage opens"
+  },
+  "status": "structure_created",
+  "next_steps": [
+    "Implement database schema",
+    "Add search functionality",
+    "Implement categorization",
+    "Add tagging system",
+    "Add multilingual support",
+    "Prepare for distribution"
+  ]
+}
