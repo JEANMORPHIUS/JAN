@@ -22,6 +22,7 @@ import { retryWithBackoff, getUserFriendlyError } from '@/utils/errorHandling';
 import { VirtualizedList } from './VirtualizedList';
 import { useGenerationHistory, useSaveToHistory } from '@/hooks/useGenerationHistory';
 import LoadingState from './LoadingState';
+import { useI18n } from '@/contexts/I18nContext';
 
 export interface HistoryEntry extends GenerationResult {
   id: string;
@@ -37,6 +38,7 @@ interface HistoryPanelProps {
 }
 
 export default function HistoryPanel({ onSelectHistory, onCompare, currentResult }: HistoryPanelProps) {
+  const { t } = useI18n();
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
   const [filterPersona, setFilterPersona] = useState<string>('');
   const [filterType, setFilterType] = useState<string>('');
@@ -118,7 +120,7 @@ export default function HistoryPanel({ onSelectHistory, onCompare, currentResult
 
   const handleCompare = () => {
     if (selectedIds.size < 2) {
-      alert('Select at least 2 entries to compare');
+      alert(t('select_at_least_two_to_compare'));
       return;
     }
 
@@ -130,11 +132,11 @@ export default function HistoryPanel({ onSelectHistory, onCompare, currentResult
   
   const handleBulkDelete = () => {
     if (selectedIds.size === 0) {
-      alert('Select entries to delete');
+      alert(t('select_entries_to_delete'));
       return;
     }
     
-    if (confirm(`Delete ${selectedIds.size} selected entries?`)) {
+    if (confirm(t('confirm_delete_entries', { count: selectedIds.size }))) {
       // Remove from localStorage
       try {
         const stored = localStorage.getItem('jan-generation-history');
@@ -147,14 +149,14 @@ export default function HistoryPanel({ onSelectHistory, onCompare, currentResult
         }
       } catch (err) {
         console.error('Failed to delete entries:', err);
-        alert('Failed to delete entries');
+        alert(t('failed_to_delete_entries'));
       }
     }
   };
   
   const handleBulkExport = () => {
     if (selectedIds.size === 0) {
-      alert('Select entries to export');
+      alert(t('select_entries_to_export'));
       return;
     }
     
@@ -195,7 +197,7 @@ export default function HistoryPanel({ onSelectHistory, onCompare, currentResult
   return (
     <div className="card">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '0.5rem' }}>
-        <h2 style={{ margin: 0 }}>Generation History</h2>
+        <h2 style={{ margin: 0 }}>{t('generation_history')}</h2>
         {selectedIds.size > 0 && (
           <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
             {selectedIds.size >= 2 && (
@@ -203,34 +205,34 @@ export default function HistoryPanel({ onSelectHistory, onCompare, currentResult
                 className="button"
                 onClick={handleCompare}
                 style={{ padding: '0.5rem 1rem', fontSize: '0.875rem' }}
-                aria-label={`Compare ${selectedIds.size} entries`}
+                aria-label={t('compare_entries', { count: selectedIds.size })}
               >
-                Compare ({selectedIds.size})
+                {t('compare')} ({selectedIds.size})
               </button>
             )}
             <button
               className="button"
               onClick={handleBulkExport}
               style={{ padding: '0.5rem 1rem', fontSize: '0.875rem', backgroundColor: '#0070f3' }}
-              aria-label={`Export ${selectedIds.size} entries`}
+              aria-label={t('export_entries', { count: selectedIds.size })}
             >
-              Export ({selectedIds.size})
+              {t('export')} ({selectedIds.size})
             </button>
             <button
               className="button"
               onClick={handleBulkDelete}
               style={{ padding: '0.5rem 1rem', fontSize: '0.875rem', backgroundColor: '#d32f2f' }}
-              aria-label={`Delete ${selectedIds.size} entries`}
+              aria-label={t('delete_entries', { count: selectedIds.size })}
             >
-              Delete ({selectedIds.size})
+              {t('delete')} ({selectedIds.size})
             </button>
             <button
               className="button"
               onClick={() => setSelectedIds(new Set())}
               style={{ padding: '0.5rem 1rem', fontSize: '0.875rem', backgroundColor: '#666' }}
-              aria-label="Clear selection"
+              aria-label={t('clear_selection')}
             >
-              Clear
+              {t('clear')}
             </button>
           </div>
         )}
@@ -246,7 +248,7 @@ export default function HistoryPanel({ onSelectHistory, onCompare, currentResult
             style={{ flex: 1, minWidth: '120px', padding: '0.5rem', fontSize: '0.875rem' }}
             aria-label="Filter by persona"
           >
-            <option value="">All Personas</option>
+            <option value="">{t('all_personas')}</option>
             {uniquePersonas.map(persona => (
               <option key={persona} value={persona}>{persona}</option>
             ))}
@@ -258,7 +260,7 @@ export default function HistoryPanel({ onSelectHistory, onCompare, currentResult
             style={{ flex: 1, minWidth: '120px', padding: '0.5rem', fontSize: '0.875rem' }}
             aria-label="Filter by output type"
           >
-            <option value="">All Types</option>
+            <option value="">{t('all_types')}</option>
             {uniqueTypes.map(type => (
               <option key={type} value={type}>{type}</option>
             ))}
@@ -311,12 +313,12 @@ export default function HistoryPanel({ onSelectHistory, onCompare, currentResult
       )}
 
       {loading ? (
-        <LoadingState message="Loading history..." size="small" />
+        <LoadingState message={t('loading_history')} size="small" />
       ) : filteredHistory.length === 0 ? (
         <p style={{ color: '#999', fontSize: '0.875rem', textAlign: 'center' }}>
           {history.length === 0 
-            ? 'No generation history yet'
-            : `No entries match filters (${history.length} total)`}
+            ? t('no_generation_history')
+            : t('no_entries_match_filters', { total: history.length })}
         </p>
       ) : needsVirtualization ? (
         <div style={{ height: '600px' }}>

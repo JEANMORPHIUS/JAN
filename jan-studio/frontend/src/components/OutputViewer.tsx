@@ -20,6 +20,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import ExportOptions from './ExportOptions';
 import { getUserFriendlyError } from '@/utils/errorHandling';
+import { useI18n } from '@/contexts/I18nContext';
 
 interface OutputViewerProps {
   result: GenerationResult;
@@ -29,6 +30,7 @@ interface OutputViewerProps {
 }
 
 function OutputViewer({ result, personaName, onEditPersona, onRegenerate }: OutputViewerProps) {
+  const { t } = useI18n();
   const [copied, setCopied] = useState(false);
   const [showExport, setShowExport] = useState(false);
   
@@ -68,18 +70,18 @@ function OutputViewer({ result, personaName, onEditPersona, onRegenerate }: Outp
   if (!result.success) {
     return (
       <div className="card">
-        <h2>Generation Failed</h2>
+        <h2>{t('generation_failed')}</h2>
         <div className="error" style={{ marginTop: '1rem', padding: '0.75rem' }} role="alert" aria-live="assertive">
-          {getUserFriendlyError(result.error || new Error('Unknown error occurred'))}
+          {getUserFriendlyError(result.error || new Error(t('unknown_error')))}
         </div>
         {onRegenerate && (
           <button 
             className="button" 
             onClick={onRegenerate} 
             style={{ marginTop: '1rem' }}
-            aria-label="Try generating again"
+            aria-label={t('try_again')}
           >
-            Try Again
+            {t('try_again')}
           </button>
         )}
       </div>
@@ -90,11 +92,11 @@ function OutputViewer({ result, personaName, onEditPersona, onRegenerate }: Outp
     <div className="card">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
         <div>
-          <h2 style={{ margin: 0, marginBottom: '0.25rem' }}>Generated Content</h2>
+          <h2 style={{ margin: 0, marginBottom: '0.25rem' }}>{t('generated_content')}</h2>
           <div style={{ fontSize: '0.75rem', color: '#666', display: 'flex', gap: '1rem' }}>
-            <span>{stats.words} words</span>
-            <span>{stats.characters} characters</span>
-            <span>~{stats.readingTime} min read</span>
+            <span>{stats.words} {t('words')}</span>
+            <span>{stats.characters} {t('characters')}</span>
+            <span>~{stats.readingTime} {t('min_read')}</span>
           </div>
         </div>
         <div style={{ display: 'flex', gap: '0.5rem' }}>
@@ -102,17 +104,17 @@ function OutputViewer({ result, personaName, onEditPersona, onRegenerate }: Outp
             className="button"
             onClick={handleCopy}
             style={{ padding: '0.5rem 1rem', fontSize: '0.875rem' }}
-            aria-label="Copy content to clipboard"
+            aria-label={t('copy_to_clipboard')}
           >
-            {copied ? '✓ Copied' : 'Copy'}
+            {copied ? `✓ ${t('copied')}` : t('copy')}
           </button>
           <button
             className="button"
             onClick={() => setShowExport(!showExport)}
             style={{ padding: '0.5rem 1rem', fontSize: '0.875rem', backgroundColor: '#2e7d32' }}
-            aria-label="Show export options"
+            aria-label={t('show_export_options')}
           >
-            {showExport ? 'Hide Export' : 'Export'}
+            {showExport ? t('hide_export') : t('export')}
           </button>
         </div>
       </div>
@@ -264,7 +266,7 @@ function OutputViewer({ result, personaName, onEditPersona, onRegenerate }: Outp
       </div>
 
       <div style={{ marginTop: '1rem', fontSize: '0.75rem', color: '#666' }}>
-        Generated: {new Date(result.timestamp).toLocaleString()} | Persona: {personaName}
+        {t('generated')}: {new Date(result.timestamp).toLocaleString()} | {t('persona')}: {personaName}
       </div>
     </div>
   );

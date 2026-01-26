@@ -15,7 +15,7 @@
  * THE REST IS UP TO BABA X.*/
 
 import { useState, memo } from 'react';
-
+import { useI18n } from '@/contexts/I18nContext';
 import type { PersonaInfo } from '@/api/personas';
 
 interface PersonaCardProps {
@@ -65,9 +65,9 @@ function PersonaCard({ persona, onEdit, onDelete, isSelected = false }: PersonaC
             className="button"
             onClick={() => onEdit(persona.name)}
             style={{ padding: '0.25rem 0.75rem', fontSize: '0.75rem' }}
-            aria-label={`Edit persona ${persona.name}`}
+            aria-label={t('edit_persona', { name: persona.name })}
           >
-            Edit
+            {t('edit')}
           </button>
           <button
             className="button"
@@ -77,24 +77,24 @@ function PersonaCard({ persona, onEdit, onDelete, isSelected = false }: PersonaC
               fontSize: '0.75rem',
               backgroundColor: showDeleteConfirm ? '#d32f2f' : '#666',
             }}
-            aria-label={showDeleteConfirm ? `Confirm delete persona ${persona.name}` : `Delete persona ${persona.name}`}
+            aria-label={showDeleteConfirm ? t('confirm_delete_persona', { name: persona.name }) : t('delete_persona', { name: persona.name })}
           >
-            {showDeleteConfirm ? 'Confirm' : 'Delete'}
+            {showDeleteConfirm ? t('confirm') : t('delete')}
           </button>
         </div>
       </div>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1rem', fontSize: '0.875rem' }}>
         <div>
-          <div style={{ color: '#999', marginBottom: '0.25rem' }}>Files</div>
+          <div style={{ color: '#999', marginBottom: '0.25rem' }}>{t('files')}</div>
           <div style={{ fontFamily: 'monospace' }}>{persona.fileCount || 0}</div>
         </div>
         <div>
-          <div style={{ color: '#999', marginBottom: '0.25rem' }}>Rules</div>
+          <div style={{ color: '#999', marginBottom: '0.25rem' }}>{t('rules')}</div>
           <div style={{ fontFamily: 'monospace' }}>{persona.ruleCount || 0}</div>
         </div>
         <div>
-          <div style={{ color: '#999', marginBottom: '0.25rem' }}>Modified</div>
+          <div style={{ color: '#999', marginBottom: '0.25rem' }}>{t('modified')}</div>
           <div style={{ fontFamily: 'monospace', fontSize: '0.75rem' }}>
             {formatDate(persona.lastModified)}
           </div>
@@ -110,7 +110,7 @@ function PersonaCard({ persona, onEdit, onDelete, isSelected = false }: PersonaC
           borderRadius: '4px',
           fontSize: '0.875rem',
         }}>
-          Are you sure? This will delete all files for this persona.
+          {t('delete_persona_confirmation')}
         </div>
       )}
     </div>

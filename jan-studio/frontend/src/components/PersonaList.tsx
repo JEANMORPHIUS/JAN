@@ -23,6 +23,7 @@ import { debounce, shouldVirtualize } from '@/utils/performance';
 import { VirtualizedList } from './VirtualizedList';
 import { usePersonas, useCreatePersona, useDeletePersona } from '@/hooks/usePersonas';
 import LoadingState from './LoadingState';
+import { useI18n } from '@/contexts/I18nContext';
 
 interface PersonaListProps {
   selectedPersona: string | null;
@@ -37,6 +38,7 @@ export default function PersonaList({
   loading,
   onRefresh,
 }: PersonaListProps) {
+  const { t } = useI18n();
   const [showCreateForm, setShowCreateForm] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [debouncedSearchQuery, setDebouncedSearchQuery] = useState('');
@@ -145,22 +147,22 @@ export default function PersonaList({
   return (
     <div>
       <div className="card" style={{ marginBottom: '1.5rem' }}>
-        <h2>Personas</h2>
+        <h2>{t('personas')}</h2>
         
         {/* Search Input */}
         <input
           type="text"
           className="input"
-          placeholder="Search personas..."
+          placeholder={t('search_personas')}
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           style={{ marginBottom: '0.75rem' }}
-          aria-label="Search personas"
+          aria-label={t('search_personas')}
           aria-describedby="search-help"
         />
         {needsVirtualization && (
           <div id="search-help" style={{ fontSize: '0.75rem', color: '#666', marginTop: '0.25rem' }}>
-            Large list detected - virtualization active
+            {t('virtualization_active')}
           </div>
         )}
 
@@ -170,7 +172,7 @@ export default function PersonaList({
             htmlFor="sort-select"
             style={{ fontSize: '0.75rem', color: '#999', alignSelf: 'center' }}
           >
-            Sort by:
+            {t('sort_by')}:
           </label>
           <select
             id="sort-select"
@@ -178,11 +180,11 @@ export default function PersonaList({
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value as 'name' | 'date' | 'files')}
             style={{ flex: 1, padding: '0.5rem', fontSize: '0.875rem' }}
-            aria-label="Sort personas"
+            aria-label={t('sort_personas')}
           >
-            <option value="name">Name</option>
-            <option value="files">File Count</option>
-            <option value="date">Date</option>
+            <option value="name">{t('name')}</option>
+            <option value="files">{t('file_count')}</option>
+            <option value="date">{t('date')}</option>
           </select>
         </div>
 
@@ -190,20 +192,20 @@ export default function PersonaList({
           className="button"
           onClick={() => setShowCreateForm(true)}
           style={{ width: '100%' }}
-          aria-label="Create new persona"
+          aria-label={t('create_new_persona')}
         >
-          + Create New Persona
+          + {t('create_new_persona')}
         </button>
       </div>
 
       {loadingPersonas ? (
-        <LoadingState message="Loading personas..." size="small" />
+        <LoadingState message={t('loading_personas')} size="small" />
       ) : filteredAndSortedPersonas.length === 0 ? (
         <div className="card">
           <p style={{ color: '#999', fontSize: '0.875rem', textAlign: 'center' }}>
             {searchQuery.trim()
-              ? `No personas found matching "${searchQuery}"`
-              : 'No personas found. Create one to get started.'}
+              ? t('no_personas_matching', { query: searchQuery })
+              : t('no_personas_create_one')}
           </p>
         </div>
       ) : (
@@ -239,7 +241,7 @@ export default function PersonaList({
                   textAlign: 'center',
                 }}
               >
-                Showing {filteredAndSortedPersonas.length} of {personas.length} personas
+                {t('showing_personas', { count: filteredAndSortedPersonas.length, total: personas.length })}
               </div>
             )}
             {filteredAndSortedPersonas.map((persona) => (
