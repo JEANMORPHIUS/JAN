@@ -644,6 +644,17 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"African-Turkish Yin-Yang Symbiosis API error: {e}")
 
+# LEGAL CONTRACTUAL FRAMEWORK API: Comprehensive Legal & Contractual System for All Channels, Entities, Projects
+# Everything must be above board. Even if it's not X (external), it must be above board. Connect the yin with the yang.
+try:
+    from legal_contractual_api import router as legal_contractual_router
+    app.include_router(legal_contractual_router, tags=["Legal & Contractual"])
+    logger.info("Legal Contractual Framework API enabled - PRS copyright, agreements, contracts, compliance - Everything above board across all channels, entities, projects")
+except ImportError as e:
+    logger.warning(f"Legal Contractual Framework API not available: {e}")
+except Exception as e:
+    logger.warning(f"Legal Contractual Framework API error: {e}")
+
 # LANGUAGE OF GOD API: What is the Language of God? Sound, Frequency, Vibration
 try:
     from language_of_god_api import router as language_of_god_router
