@@ -320,10 +320,10 @@ class EntrepreneurialDocumentationFramework:
             blueprints_data = {
                 "blueprints": [
                     {
-                        **blueprint.__dict__,
+                        **{k: v.value if hasattr(v, 'value') else v for k, v in blueprint.__dict__.items()},
                         "created_at": blueprint.created_at.isoformat(),
                         "updated_at": blueprint.updated_at.isoformat(),
-                        "entity_type": blueprint.entity_type.value
+                        "entity_type": blueprint.entity_type.value if hasattr(blueprint.entity_type, 'value') else str(blueprint.entity_type)
                     }
                     for blueprint in self.blueprints.values()
                 ]

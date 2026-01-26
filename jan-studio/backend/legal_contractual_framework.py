@@ -184,13 +184,13 @@ class LegalContractualFramework:
             agreements_data = {
                 "agreements": [
                     {
-                        **agreement.__dict__,
+                        **{k: v.value if hasattr(v, 'value') else (v.isoformat() if isinstance(v, datetime) else v) for k, v in agreement.__dict__.items()},
                         "effective_date": agreement.effective_date.isoformat() if agreement.effective_date else None,
                         "expiration_date": agreement.expiration_date.isoformat() if agreement.expiration_date else None,
                         "created_at": agreement.created_at.isoformat(),
                         "updated_at": agreement.updated_at.isoformat(),
-                        "agreement_type": agreement.agreement_type.value,
-                        "channel": agreement.channel.value
+                        "agreement_type": agreement.agreement_type.value if hasattr(agreement.agreement_type, 'value') else str(agreement.agreement_type),
+                        "channel": agreement.channel.value if hasattr(agreement.channel, 'value') else str(agreement.channel)
                     }
                     for agreement in self.agreements.values()
                 ]
@@ -203,10 +203,10 @@ class LegalContractualFramework:
             prs_data = {
                 "prs_records": [
                     {
-                        **record.__dict__,
+                        **{k: v.value if hasattr(v, 'value') else (v.isoformat() if isinstance(v, datetime) else v) for k, v in record.__dict__.items()},
                         "compliance_date": record.compliance_date.isoformat() if record.compliance_date else None,
                         "created_at": record.created_at.isoformat(),
-                        "channel": record.channel.value
+                        "channel": record.channel.value if hasattr(record.channel, 'value') else str(record.channel)
                     }
                     for record in self.prs_records.values()
                 ]

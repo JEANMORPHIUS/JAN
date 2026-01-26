@@ -41,7 +41,7 @@
         "operational_policies": true
       },
       "created_at": "2026-01-26T23:43:32.413497",
-      "updated_at": "2026-01-26T23:43:32.445284"
+      "updated_at": "2026-01-26T23:45:03.348249"
     },
     {
       "entity_id": "edible_cyprus",
@@ -77,7 +77,7 @@
         "agricultural_permits": true
       },
       "created_at": "2026-01-26T23:43:32.413515",
-      "updated_at": "2026-01-26T23:43:32.461070"
+      "updated_at": "2026-01-26T23:45:03.363732"
     },
     {
       "entity_id": "ilven_seamoss",
@@ -113,7 +113,7 @@
         "distribution_agreements": true
       },
       "created_at": "2026-01-26T23:43:32.413517",
-      "updated_at": "2026-01-26T23:43:32.476428"
+      "updated_at": "2026-01-26T23:45:03.379047"
     },
     {
       "entity_id": "atilok",
@@ -148,7 +148,7 @@
         "data_protection": true
       },
       "created_at": "2026-01-26T23:43:32.413520",
-      "updated_at": "2026-01-26T23:43:32.493342"
+      "updated_at": "2026-01-26T23:45:03.395758"
     }
   ]
 }
