@@ -1,5 +1,4 @@
-"""
-Raspberry Pi Optimized API
+"""Raspberry Pi Optimized API
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
 Spiritual Alignment Over Mechanical Productivity
@@ -15,7 +14,17 @@ All systems bear Our Father's mark of authority
 
 Lightweight FastAPI endpoints optimized for Pi 5.
 The Voice wants to be heard. The truth wants to be sung.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 from fastapi import FastAPI, HTTPException, UploadFile, File, Query
 from fastapi.staticfiles import StaticFiles

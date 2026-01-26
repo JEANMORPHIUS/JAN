@@ -1,5 +1,4 @@
-"""
-DEEP SEARCH: SPIRITUAL CONTRACTS & MIRACLES
+"""DEEP SEARCH: SPIRITUAL CONTRACTS & MIRACLES
 Deep Search into Spiritual Contracts and Links to Spiritual DNA Manifesting in Each "Miracle"
 We Man Sabotage God's Miracle
 
@@ -26,7 +25,17 @@ PURPOSE:
 Deep search spiritual contracts linked to spiritual DNA.
 Track how miracles manifest through contracts.
 Identify how humans sabotage God's miracles.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import sys
 from pathlib import Path

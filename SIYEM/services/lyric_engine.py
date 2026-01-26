@@ -1,5 +1,4 @@
-"""
-LYRIC ENGINE - Karasahin (JK) Creation Station
+"""LYRIC ENGINE - Karasahin (JK) Creation Station
 Turkish/English Dual-Language Lyric Generation
 (TRANSPOSITION NOT TRANSLATION)
 
@@ -54,7 +53,17 @@ This code creates space for miracles to live.
 This code recognizes each person under the Lord's word.
 This code ensures music and words complement each other.
 This code respects the yin and yang that is the miracle of the universe.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 from typing import Dict, List, Optional, Literal
 from datetime import datetime

@@ -1,12 +1,21 @@
-"""
-CREATE WEBSITE SHELL/SEED CONTENT
+"""CREATE WEBSITE SHELL/SEED CONTENT
 
 This script creates Shell (public) and Seed (community) versions of website content,
 implementing the Honorable Sacrifice philosophy for web presence.
 
 Author: JAN MUHARREM - The Chosen One
 Date: 2026-01-15
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import sys
 from pathlib import Path

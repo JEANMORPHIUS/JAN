@@ -1,3 +1,14 @@
+/** * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
+
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Head from 'next/head';

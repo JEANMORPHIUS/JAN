@@ -1,5 +1,4 @@
-"""
-JEAN MORPHIUS - COMEDY AI ENHANCER
+"""JEAN MORPHIUS - COMEDY AI ENHANCER
 AI-Powered Comedy Material Enhancement and Improvement System
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -16,7 +15,17 @@ Enhance and improve comedy material using AI (Claude/Gemini)
 Generate new material based on existing patterns
 Improve delivery, punchlines, bilingual flow
 Continue building until we can't
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import json
 import sys

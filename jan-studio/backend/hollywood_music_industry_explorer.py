@@ -1,5 +1,4 @@
-"""
-HOLLYWOOD & MUSIC INDUSTRY EXPLORER
+"""HOLLYWOOD & MUSIC INDUSTRY EXPLORER
 Understanding the industries through mission lens
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -20,7 +19,17 @@ Exploring Hollywood and music industry:
 - How does mission honor them? (Yin - Creative)
 - What are the spiritual battles?
 - How do we navigate with right spirits?
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 from typing import Dict, List, Optional, Any
 from dataclasses import dataclass, field

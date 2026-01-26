@@ -1,7 +1,16 @@
-"""
-Heritage Meridian API
+"""Heritage Meridian API
 Mobile app endpoints for Heritage Meridian System and 7 Wonders
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 from fastapi import APIRouter, HTTPException
 from typing import List, Dict, Any

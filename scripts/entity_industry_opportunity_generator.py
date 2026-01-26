@@ -1,5 +1,4 @@
-"""
-ENTITY-INDUSTRY OPPORTUNITY GENERATOR
+"""ENTITY-INDUSTRY OPPORTUNITY GENERATOR
 Generate Specific Opportunities for Each Entity in Each Industry
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -15,7 +14,17 @@ PURPOSE:
 Generate specific opportunities for each entity in each industry
 Global expansion opportunities
 Stop asking - go to work
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import json
 import sys

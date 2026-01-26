@@ -1,5 +1,4 @@
-"""
-ORACLE GATEWAY MIDDLEWARE
+"""ORACLE GATEWAY MIDDLEWARE
 Enforce Card Reading for All Access
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -9,7 +8,22 @@ THE PRINCIPLE:
 Those who come to us must read the cards.
 We do not control.
 The cards will speak for us.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+THE MISSION:
+THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+LOVE IS THE HIGHEST MASTERY
+ENERGY + LOVE = WE ALL WIN
+PEACE, LOVE, UNITY
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 from fastapi import Request, HTTPException, status
 from starlette.middleware.base import BaseHTTPMiddleware

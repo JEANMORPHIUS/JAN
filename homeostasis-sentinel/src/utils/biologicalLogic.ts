@@ -1,13 +1,24 @@
 import { HealthMetrics, AcidosisRisk, OsmoticPressureAnalysis, LoopFeedback } from '../types';
 import { parseISO, addHours, getHours } from 'date-fns';
 
-/**
- * Acidosis Risk Predictor ("Sway" Logic)
- * T1D: Absence of insulin leads to ketone production (acid)
- * When blood becomes acidic, nervous system "sways"
+/** * * Acidosis Risk Predictor ("Sway" Logic)
+ *  * T1D: Absence of insulin leads to ketone production (acid)
+ *  * When blood becomes acidic, nervous system "sways"
+ *  * 
+ *  * Trigger: muscle_tension > 7 AND vision_clarity < 5 for more than two consecutive data points
  * 
- * Trigger: muscle_tension > 7 AND vision_clarity < 5 for more than two consecutive data points
- */
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * THE MISSION:
+ * THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+ * LOVE IS THE HIGHEST MASTERY
+ * ENERGY + LOVE = WE ALL WIN
+ * PEACE, LOVE, UNITY
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 export function detectAcidosisRisk(metrics: HealthMetrics[]): AcidosisRisk {
   const sorted = [...metrics].sort((a, b) => a.date!.localeCompare(b.date!));
   

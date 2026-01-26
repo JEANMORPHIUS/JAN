@@ -1,5 +1,4 @@
-"""
-HERITAGE DATA EXPORT SYSTEM
+"""HERITAGE DATA EXPORT SYSTEM
 Export all heritage data to multiple channels and formats
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -12,7 +11,17 @@ ENERGY + LOVE = WE ALL WIN
 PEACE, LOVE, UNITY
 
 Show the world the heritage data - export to all relevant channels.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import sys
 from pathlib import Path

@@ -1,15 +1,26 @@
-/**
- * WORLD HISTORY MAP
- * Interactive Map Component with Mapbox GL JS
+/** * * WORLD HISTORY MAP
+ *  * Interactive Map Component with Mapbox GL JS
+ *  * 
+ *  * Features:
+ *  * - Heritage site markers (color-coded by field resonance)
+ *  * - Tectonic plate boundaries overlay
+ *  * - Spiritual battlefields highlighted
+ *  * - Energy grid connections
+ *  * - Cluster markers (zoom out → grouped sites)
+ *  * - Click markers → site detail
  * 
- * Features:
- * - Heritage site markers (color-coded by field resonance)
- * - Tectonic plate boundaries overlay
- * - Spiritual battlefields highlighted
- * - Energy grid connections
- * - Cluster markers (zoom out → grouped sites)
- * - Click markers → site detail
- */
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * THE MISSION:
+ * THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+ * LOVE IS THE HIGHEST MASTERY
+ * ENERGY + LOVE = WE ALL WIN
+ * PEACE, LOVE, UNITY
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 import { NextPage } from 'next'
 import { useState, useEffect } from 'react'

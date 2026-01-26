@@ -1,5 +1,4 @@
-"""
-SUNO PROMPT ENGINE - Karasahin (JK)
+"""SUNO PROMPT ENGINE - Karasahin (JK)
 Builds web-ready Suno AI prompts using the CODED Framework
 
 CODED Framework:
@@ -59,7 +58,17 @@ Galactic Philosophy Integration:
 - Cosmic Truth: "Galaxies come in different forms, each shaped by gravity, time, and cosmic interactions"
 - Supports both English and Turkish language outputs
 - All lyrics include proper rhyme schemes (AABB, ABAB, etc.) marked clearly
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 from typing import Dict, List, Optional, Literal
 from datetime import datetime

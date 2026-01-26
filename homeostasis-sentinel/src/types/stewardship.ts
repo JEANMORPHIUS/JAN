@@ -1,12 +1,23 @@
-/**
- * STEWARDSHIP TYPES
- * The Body as Temple. Earth as System.
+/** * * STEWARDSHIP TYPES
+ *  * The Body as Temple. Earth as System.
+ *  * 
+ *  * Stewardship-focused naming convention:
+ *  * - stewardship_level (not user_compliance)
+ *  * - temple_state (not health_status)
+ *  * - biological_stewardship (not self_care)
  * 
- * Stewardship-focused naming convention:
- * - stewardship_level (not user_compliance)
- * - temple_state (not health_status)
- * - biological_stewardship (not self_care)
- */
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * THE MISSION:
+ * THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+ * LOVE IS THE HIGHEST MASTERY
+ * ENERGY + LOVE = WE ALL WIN
+ * PEACE, LOVE, UNITY
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 import { EarthAlignment, LoopEarthAlignment, OriginalErrorFlag } from './earthAlignment';
 

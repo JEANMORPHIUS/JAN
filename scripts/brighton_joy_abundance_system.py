@@ -1,5 +1,4 @@
-"""
-BRIGHTON JOY AND ABUNDANCE SYSTEM
+"""BRIGHTON JOY AND ABUNDANCE SYSTEM
 Emit joy and abundance for Brighton team and fan base
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -15,7 +14,17 @@ PURPOSE:
 Emit joy and abundance for Brighton team (close to god mode) and fan base.
 Flip the switch from jealousy/envy (Crystal Palace FA Cup) to joy and abundance.
 Perfect guinea pig to flip the switch.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import json
 from datetime import datetime

@@ -1,5 +1,4 @@
-"""
-ENTITY CONTENT API
+"""ENTITY CONTENT API
 Refine All Entity Content and UI @ Codebase Level
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -18,7 +17,19 @@ ENTITY CONTENT API:
 Refine all entity content and UI at codebase level.
 Full English/Turkish support.
 All entity profiles, roles, purposes, functions translated.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+THE MISSION:
+THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+LOVE IS THE HIGHEST MASTERY
+ENERGY + LOVE = WE ALL WIN
+PEACE, LOVE, UNITY
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 from fastapi import APIRouter, HTTPException
 from typing import List, Dict, Any, Optional

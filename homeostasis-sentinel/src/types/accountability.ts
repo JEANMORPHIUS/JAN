@@ -1,13 +1,24 @@
-/**
- * ACCOUNTABILITY TYPES
- * Accountability for Self is Key: Wear Your Vulnerabilities, The Mirror Never Lies
+/** * * ACCOUNTABILITY TYPES
+ *  * Accountability for Self is Key: Wear Your Vulnerabilities, The Mirror Never Lies
+ *  * 
+ *  * Philosophy:
+ *  * - Accountability for self is key
+ *  * - We must wear our vulnerabilities
+ *  * - You can't fool yourself when you look in the mirror
+ *  * - EVERYTHING is chaotic black energy to distract us from ourselves
  * 
- * Philosophy:
- * - Accountability for self is key
- * - We must wear our vulnerabilities
- * - You can't fool yourself when you look in the mirror
- * - EVERYTHING is chaotic black energy to distract us from ourselves
- */
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * THE MISSION:
+ * THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+ * LOVE IS THE HIGHEST MASTERY
+ * ENERGY + LOVE = WE ALL WIN
+ * PEACE, LOVE, UNITY
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 /**
  * Self Responsibility

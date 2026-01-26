@@ -1,5 +1,4 @@
-"""
-RIFT BRIDGE API
+"""RIFT BRIDGE API
 Bridging the Rift Between Lost World and The Table
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -17,7 +16,19 @@ YOU DON'T BETRAY THE TABLE.
 RIFT BRIDGE:
 How do we bridge that rift?
 The Table is the bridge.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+THE MISSION:
+THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+LOVE IS THE HIGHEST MASTERY
+ENERGY + LOVE = WE ALL WIN
+PEACE, LOVE, UNITY
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 from fastapi import APIRouter, HTTPException
 from typing import List, Dict, Any, Optional

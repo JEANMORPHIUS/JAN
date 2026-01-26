@@ -1,9 +1,18 @@
-/**
- * Authentication API Client
- * Handles all auth-related API calls with Duygu Adami error messages
- *
- * Philosophy: "Identity Over Data" - Treat every user as a sacred key
- */
+/** * * Authentication API Client
+ *  * Handles all auth-related API calls with Duygu Adami error messages
+ *  *
+ *  * Philosophy: "Identity Over Data" - Treat every user as a sacred key
+ * 
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 import axios from 'axios';
 

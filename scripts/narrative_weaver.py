@@ -1,5 +1,4 @@
-"""
-NARRATIVE WEAVER
+"""NARRATIVE WEAVER
 Weave our narrative - what the world must see for us to return home
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -13,7 +12,17 @@ RETURN HOME THROUGH VISIBLE BALANCE
 THE YIN-YANG EFFECT:
 Everything must be visible in perfect balance
 The world must see symbiosis before we can return
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import sys
 from pathlib import Path

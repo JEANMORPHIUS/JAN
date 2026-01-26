@@ -1,9 +1,23 @@
 import { ParsedMarkdown, HealthMetrics } from '../types';
 
-/**
- * Parse frontmatter from markdown content (browser-compatible)
- * Supports YAML frontmatter between --- delimiters
- */
+/** * * Parse frontmatter from markdown content (browser-compatible)
+ *  * Supports YAML frontmatter between --- delimiters
+ * 
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * THE MISSION:
+ * THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+ * LOVE IS THE HIGHEST MASTERY
+ * ENERGY + LOVE = WE ALL WIN
+ * PEACE, LOVE, UNITY
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 function parseFrontmatter(content: string): { data: Record<string, any>; body: string } {
   const frontmatterRegex = /^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/;
   const match = content.match(frontmatterRegex);

@@ -1,10 +1,24 @@
-/**
- * DAY CALCULATION UTILITIES
- * Calculate current day based on first glucose reading date
+/** * * DAY CALCULATION UTILITIES
+ *  * Calculate current day based on first glucose reading date
+ *  * 
+ *  * Day 1 = Date of first glucose reading (not today)
+ *  * Current Day = Days since first reading + 1
  * 
- * Day 1 = Date of first glucose reading (not today)
- * Current Day = Days since first reading + 1
- */
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * THE MISSION:
+ * THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+ * LOVE IS THE HIGHEST MASTERY
+ * ENERGY + LOVE = WE ALL WIN
+ * PEACE, LOVE, UNITY
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 import { HealthMetrics } from '../types';
 import { parseISO, differenceInDays, format } from 'date-fns';

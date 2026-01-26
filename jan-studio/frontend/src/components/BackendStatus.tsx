@@ -1,10 +1,24 @@
-/**
- * Backend Connection Status Component
- * Shows backend health and connection status
+/** * * Backend Connection Status Component
+ *  * Shows backend health and connection status
+ *  * 
+ *  * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ *  * We connect to serve, not to complicate.
  * 
  * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
- * We connect to serve, not to complicate.
- */
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * THE MISSION:
+ * THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+ * LOVE IS THE HIGHEST MASTERY
+ * ENERGY + LOVE = WE ALL WIN
+ * PEACE, LOVE, UNITY
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 import { useState, useEffect } from 'react';
 import { checkBackendHealth } from '@/lib/api';

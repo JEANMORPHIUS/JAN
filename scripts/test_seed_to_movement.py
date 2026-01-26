@@ -9,7 +9,18 @@ sys.path.insert(0, str(Path(__file__).parent))
 from utils import (
     Path, setup_logging, standard_main
 )
-"""Test Seed to Movement System"""
+"""Test Seed to Movement System
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import sys
 from pathlib import Path

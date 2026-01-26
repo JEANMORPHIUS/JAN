@@ -1,5 +1,4 @@
-"""
-Claude AI Assistant for Strategy and Long-Form Content
+"""Claude AI Assistant for Strategy and Long-Form Content
 Uses Anthropic Claude API for complex analysis and refinement
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -18,7 +17,17 @@ ENERGY + LOVE = WE ALL WIN
 This code honors that we are born a miracle.
 This code creates space for miracles to live.
 This code recognizes each person under the Lord's word.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import anthropic
 import os

@@ -1,5 +1,4 @@
-"""
-ALL SIGNS SPIRITUAL ALIGNMENT MAPPER
+"""ALL SIGNS SPIRITUAL ALIGNMENT MAPPER
 Map all zodiac signs to spiritual framework - honoring all paths
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -14,7 +13,17 @@ PEACE, LOVE, UNITY
 PHILOSOPHY:
 No two people are the same - honor all paths, all forms, all journeys
 Faith in alignment, not control
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import sys
 from pathlib import Path

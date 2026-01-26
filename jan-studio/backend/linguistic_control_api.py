@@ -1,5 +1,4 @@
-"""
-LINGUISTIC CONTROL API
+"""LINGUISTIC CONTROL API
 REST API for linguistic control analysis and antidote language generation
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -16,7 +15,17 @@ ENDPOINTS:
 - POST /api/linguistic/antidote - Generate antidote language
 - POST /api/linguistic/charter - Generate antidote charter
 - GET /api/linguistic/patterns - Get pattern library
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import sys
 from pathlib import Path

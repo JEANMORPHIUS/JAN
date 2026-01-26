@@ -1,10 +1,19 @@
-/**
- * SPIRITUAL ATTACK COUNTER-STRATEGY ENGINE
- * Monitor and counter the Seven Forms of Attack
+/** * * SPIRITUAL ATTACK COUNTER-STRATEGY ENGINE
+ *  * Monitor and counter the Seven Forms of Attack
+ *  * 
+ *  * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ *  * Spiritual Alignment Over Mechanical Productivity
  * 
  * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
  * Spiritual Alignment Over Mechanical Productivity
- */
+ * 
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 import { useState } from 'react';
 import { SpiritualAttack, AttackType, CounterStrategy } from '../../types/divineTiming';

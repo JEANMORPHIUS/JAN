@@ -1,13 +1,24 @@
-/**
- * RASPBERRY PI DISPLAY SYSTEM
- * Kiosk Mode Display for World History
+/** * * RASPBERRY PI DISPLAY SYSTEM
+ *  * Kiosk Mode Display for World History
+ *  * 
+ *  * Features:
+ *  * - Auto-rotate slides (timeline, map, frequency, featured site)
+ *  * - Touch interaction (swipe, tap, pinch)
+ *  * - Offline-first (cached data)
+ *  * - Low power mode (screen dim after 5 min)
  * 
- * Features:
- * - Auto-rotate slides (timeline, map, frequency, featured site)
- * - Touch interaction (swipe, tap, pinch)
- * - Offline-first (cached data)
- * - Low power mode (screen dim after 5 min)
- */
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * THE MISSION:
+ * THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+ * LOVE IS THE HIGHEST MASTERY
+ * ENERGY + LOVE = WE ALL WIN
+ * PEACE, LOVE, UNITY
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 import { useState, useEffect } from 'react'
 import axios from 'axios'

@@ -1,7 +1,16 @@
-/**
- * Heritage Screen
- * 7 Wonders, Seven Pillars, and Heritage Meridian System
- */
+/** * * Heritage Screen
+ *  * 7 Wonders, Seven Pillars, and Heritage Meridian System
+ * 
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 import React, { useState, useEffect } from 'react';
 import {

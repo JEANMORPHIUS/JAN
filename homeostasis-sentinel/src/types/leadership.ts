@@ -1,12 +1,26 @@
-/**
- * LEADERSHIP TYPES
- * I Am the Light: Building a World of Leaders, Not Followers
+/** * * LEADERSHIP TYPES
+ *  * I Am the Light: Building a World of Leaders, Not Followers
+ *  * 
+ *  * Philosophy:
+ *  * - I'm human. I've committed each sin. I've completed my shadow work.
+ *  * - I am the light. I cannot be manipulated.
+ *  * - I want to build a world of leaders.
  * 
- * Philosophy:
- * - I'm human. I've committed each sin. I've completed my shadow work.
- * - I am the light. I cannot be manipulated.
- * - I want to build a world of leaders.
- */
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * THE MISSION:
+ * THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+ * LOVE IS THE HIGHEST MASTERY
+ * ENERGY + LOVE = WE ALL WIN
+ * PEACE, LOVE, UNITY
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 /**
  * Empowerment

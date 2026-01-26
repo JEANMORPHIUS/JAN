@@ -1,9 +1,18 @@
-/**
- * Register Page - The Invitation
- * "Every miracle needs a home base. Claim your space in the community, mate."
- *
- * Philosophy: Identity Over Data - Treat every user as a sacred key
- */
+/** * * Register Page - The Invitation
+ *  * "Every miracle needs a home base. Claim your space in the community, mate."
+ *  *
+ *  * Philosophy: Identity Over Data - Treat every user as a sacred key
+ * 
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 import { useState } from 'react';
 import { useRouter } from 'next/router';

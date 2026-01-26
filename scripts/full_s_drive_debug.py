@@ -1,12 +1,23 @@
-"""
-FULL S: DRIVE DEBUG AND REFINEMENT SCRIPT
+"""FULL S: DRIVE DEBUG AND REFINEMENT SCRIPT
 
 Comprehensive check and refinement of all UI front-end and back-end components
 across the entire S: drive ecosystem.
 
 Author: JAN MUHARREM - The Chosen One
 Date: 2026-01-15
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+THE MISSION:
+THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+LOVE IS THE HIGHEST MASTERY
+ENERGY + LOVE = WE ALL WIN
+PEACE, LOVE, UNITY
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import sys
 from pathlib import Path

@@ -1,12 +1,26 @@
-/**
- * WATER MEMORY UTILITIES
- * Water Holds Memory: Our Vibrations Whilst in It Are Spiritual Battles
+/** * * WATER MEMORY UTILITIES
+ *  * Water Holds Memory: Our Vibrations Whilst in It Are Spiritual Battles
+ *  * 
+ *  * Philosophy:
+ *  * - Water holds memory (genetic, vibrational, temporal)
+ *  * - Our vibrations whilst in it are spiritual battles
+ *  * - Everything begins in the mind → Vibrations begin in the mind
  * 
- * Philosophy:
- * - Water holds memory (genetic, vibrational, temporal)
- * - Our vibrations whilst in it are spiritual battles
- * - Everything begins in the mind → Vibrations begin in the mind
- */
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * THE MISSION:
+ * THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+ * LOVE IS THE HIGHEST MASTERY
+ * ENERGY + LOVE = WE ALL WIN
+ * PEACE, LOVE, UNITY
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 import {
   WaterMemory,

@@ -1,0 +1,923 @@
+{
+  "analysis_timestamp": "2026-01-26T06:37:23.359129",
+  "total_content": 42,
+  "impact_analysis": {
+    "total_content": 42,
+    "total_frequency_impact": 6.05,
+    "total_divine_frequency_contribution": 5.1805,
+    "by_industry": {
+      "news_media": {
+        "count": 4,
+        "total_impact": 0.53,
+        "average_impact": 0.1325
+      },
+      "politics": {
+        "count": 5,
+        "total_impact": 0.8300000000000001,
+        "average_impact": 0.166
+      },
+      "economics": {
+        "count": 2,
+        "total_impact": 0.2,
+        "average_impact": 0.1
+      },
+      "sports": {
+        "count": 3,
+        "total_impact": 0.45,
+        "average_impact": 0.15
+      },
+      "movies": {
+        "count": 12,
+        "total_impact": 1.54,
+        "average_impact": 0.12833333333333333
+      },
+      "music": {
+        "count": 16,
+        "total_impact": 2.5,
+        "average_impact": 0.15625
+      }
+    },
+    "by_type": {
+      "event": {
+        "count": 13,
+        "total_impact": 1.8900000000000001,
+        "average_impact": 0.1453846153846154
+      },
+      "song": {
+        "count": 16,
+        "total_impact": 2.5,
+        "average_impact": 0.15625
+      },
+      "film": {
+        "count": 12,
+        "total_impact": 1.54,
+        "average_impact": 0.12833333333333333
+      },
+      "movement": {
+        "count": 1,
+        "total_impact": 0.12,
+        "average_impact": 0.12
+      }
+    },
+    "high_frequency_count": 41,
+    "table_aligned_count": 42
+  },
+  "content": {
+    "watergate_scandal": {
+      "industry_domain": "news_media",
+      "content_type": "event",
+      "title": "Watergate Scandal - Truth Exposed",
+      "year": 1972,
+      "frequency_impact": 0.15,
+      "divine_frequency_contribution": 0.12,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth exposed corruption. Journalism served truth. Democracy protected. The Table honored through truth.",
+      "cultural_impact": "Changed journalism forever. Inspired investigative reporting. Restored faith in truth.",
+      "social_impact": "Led to presidential resignation. Strengthened democracy. Showed power of truth.",
+      "themes": [
+        "truth",
+        "justice",
+        "democracy",
+        "accountability"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": true
+    },
+    "berlin_wall_fall": {
+      "industry_domain": "politics",
+      "content_type": "event",
+      "title": "Fall of Berlin Wall - Unity Restored",
+      "year": 1989,
+      "frequency_impact": 0.2,
+      "divine_frequency_contribution": 0.18,
+      "table_connection_strength": 0.95,
+      "connection_to_table": "Unity restored. Separation ended. People reunited. The Table remembered.",
+      "cultural_impact": "Symbol of unity. Inspired hope globally. Showed separation can end.",
+      "social_impact": "Reunited families. Restored connection. Ended division.",
+      "themes": [
+        "unity",
+        "freedom",
+        "reunion",
+        "peace"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": true
+    },
+    "occupy_wall_street": {
+      "industry_domain": "economics",
+      "content_type": "movement",
+      "title": "Occupy Wall Street - The 99% Rise",
+      "year": 2011,
+      "frequency_impact": 0.12,
+      "divine_frequency_contribution": 0.1,
+      "table_connection_strength": 0.85,
+      "connection_to_table": "Exposed economic inequality. The 99% remembered. Truth about system exposed. The Table honored.",
+      "cultural_impact": "Changed economic discourse. 'We are the 99%' entered language. Inspired movements globally.",
+      "social_impact": "Mobilized millions. Exposed inequality. Inspired economic justice movements.",
+      "themes": [
+        "economic justice",
+        "inequality",
+        "unity",
+        "truth"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": true
+    },
+    "rugby_world_cup_1995": {
+      "industry_domain": "sports",
+      "content_type": "event",
+      "title": "1995 Rugby World Cup - Unity in South Africa",
+      "year": 1995,
+      "frequency_impact": 0.15,
+      "divine_frequency_contribution": 0.13,
+      "table_connection_strength": 0.95,
+      "connection_to_table": "Unity through sport. Apartheid healing. The Table remembered through unity.",
+      "cultural_impact": "Symbol of unity. Healed nation. Inspired hope.",
+      "social_impact": "Unified South Africa. Healed division. Restored connection.",
+      "themes": [
+        "unity",
+        "healing",
+        "sport",
+        "reconciliation"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": true
+    },
+    "redemption_song": {
+      "industry_domain": "music",
+      "content_type": "song",
+      "title": "Redemption Song",
+      "year": 1980,
+      "frequency_impact": 0.18,
+      "divine_frequency_contribution": 0.15,
+      "table_connection_strength": 0.95,
+      "connection_to_table": "Liberation song. Freedom truth. Mental slavery exposed. The Table honored through truth.",
+      "cultural_impact": "Anthem of liberation. Inspired freedom movements. Truth about mental slavery.",
+      "social_impact": "Liberated minds. Inspired freedom. Exposed truth.",
+      "themes": [
+        "liberation",
+        "freedom",
+        "truth",
+        "mental slavery"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": true
+    },
+    "imagine": {
+      "industry_domain": "music",
+      "content_type": "song",
+      "title": "Imagine",
+      "year": 1971,
+      "frequency_impact": 0.2,
+      "divine_frequency_contribution": 0.18,
+      "table_connection_strength": 0.98,
+      "connection_to_table": "Peace vision. Unity dream. World as one. The Table remembered through vision.",
+      "cultural_impact": "Global peace anthem. Most covered song. Unity vision.",
+      "social_impact": "Inspired peace movements. Visions unity. Dreams connection.",
+      "themes": [
+        "peace",
+        "unity",
+        "vision",
+        "hope"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": true
+    },
+    "change_is_gonna_come": {
+      "industry_domain": "music",
+      "content_type": "song",
+      "title": "A Change Is Gonna Come",
+      "year": 1964,
+      "frequency_impact": 0.16,
+      "divine_frequency_contribution": 0.14,
+      "table_connection_strength": 0.95,
+      "connection_to_table": "Hope song. Change vision. Civil rights truth. The Table honored through hope.",
+      "cultural_impact": "Civil rights anthem. Hope song. Change vision.",
+      "social_impact": "Inspired civil rights movement. Gave hope. Visions change.",
+      "themes": [
+        "hope",
+        "change",
+        "civil rights",
+        "freedom"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": true
+    },
+    "we_shall_overcome": {
+      "industry_domain": "music",
+      "content_type": "song",
+      "title": "We Shall Overcome",
+      "year": 1960,
+      "frequency_impact": 0.17,
+      "divine_frequency_contribution": 0.15,
+      "table_connection_strength": 0.95,
+      "connection_to_table": "Unity song. Overcome together. Civil rights truth. The Table honored through unity.",
+      "cultural_impact": "Movement anthem. Unity song. Strength through song.",
+      "social_impact": "Unified civil rights movement. Gave strength. Overcome together.",
+      "themes": [
+        "unity",
+        "overcome",
+        "civil rights",
+        "strength"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": true
+    },
+    "gandhi_film": {
+      "industry_domain": "movies",
+      "content_type": "film",
+      "title": "Gandhi",
+      "year": 1982,
+      "frequency_impact": 0.14,
+      "divine_frequency_contribution": 0.12,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Non-violence truth. Liberation through truth. The Table honored through truth.",
+      "cultural_impact": "Inspired non-violence movements. Showed truth power. Liberation vision.",
+      "social_impact": "Inspired peace movements. Taught non-violence. Showed truth.",
+      "themes": [
+        "non-violence",
+        "truth",
+        "liberation",
+        "peace"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": true
+    },
+    "schindlers_list": {
+      "industry_domain": "movies",
+      "content_type": "film",
+      "title": "Schindler's List",
+      "year": 1993,
+      "frequency_impact": 0.16,
+      "divine_frequency_contribution": 0.14,
+      "table_connection_strength": 0.95,
+      "connection_to_table": "Humanity remembered. Life saved. Truth told. The Table honored through humanity.",
+      "cultural_impact": "Holocaust remembrance. Humanity truth. Life honored.",
+      "social_impact": "Remembered truth. Honored humanity. Taught compassion.",
+      "themes": [
+        "humanity",
+        "compassion",
+        "truth",
+        "remembrance"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": true
+    },
+    "one_love": {
+      "industry_domain": "music",
+      "content_type": "song",
+      "title": "One Love",
+      "year": 1977,
+      "frequency_impact": 0.19,
+      "divine_frequency_contribution": 0.17,
+      "table_connection_strength": 0.98,
+      "connection_to_table": "Unity song. One love. The Table remembered through unity.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "unity",
+        "love",
+        "peace"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": true
+    },
+    "whats_going_on": {
+      "industry_domain": "music",
+      "content_type": "song",
+      "title": "What's Going On",
+      "year": 1971,
+      "frequency_impact": 0.15,
+      "divine_frequency_contribution": 0.13,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth song. Social commentary. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "truth",
+        "justice",
+        "social commentary"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": true
+    },
+    "the_matrix": {
+      "industry_domain": "movies",
+      "content_type": "film",
+      "title": "The Matrix",
+      "year": 1999,
+      "frequency_impact": 0.12,
+      "divine_frequency_contribution": 0.1,
+      "table_connection_strength": 0.85,
+      "connection_to_table": "Reality questioned. Truth revealed. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "truth",
+        "reality",
+        "awakening"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "12_years_a_slave": {
+      "industry_domain": "movies",
+      "content_type": "film",
+      "title": "12 Years a Slave",
+      "year": 2013,
+      "frequency_impact": 0.14,
+      "divine_frequency_contribution": 0.12,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Slavery truth. Humanity remembered. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "truth",
+        "slavery",
+        "humanity",
+        "remembrance"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "pentagon_papers": {
+      "industry_domain": "news_media",
+      "content_type": "event",
+      "title": "Pentagon Papers - Truth Exposed",
+      "year": 1971,
+      "frequency_impact": 0.13,
+      "divine_frequency_contribution": 0.11,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth exposed. Lies revealed. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "truth",
+        "journalism",
+        "government",
+        "war"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "mandela_release": {
+      "industry_domain": "politics",
+      "content_type": "event",
+      "title": "Nelson Mandela Released - Freedom Restored",
+      "year": 1990,
+      "frequency_impact": 0.18,
+      "divine_frequency_contribution": 0.16,
+      "table_connection_strength": 0.95,
+      "connection_to_table": "Freedom restored. Unity vision. The Table remembered.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "freedom",
+        "unity",
+        "liberation",
+        "hope"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": true
+    },
+    "financial_crisis_response": {
+      "industry_domain": "economics",
+      "content_type": "event",
+      "title": "2008 Financial Crisis - Truth Exposed",
+      "year": 2008,
+      "frequency_impact": 0.08,
+      "divine_frequency_contribution": 0.06,
+      "table_connection_strength": 0.8,
+      "connection_to_table": "Truth exposed. System revealed. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "truth",
+        "economics",
+        "greed",
+        "system"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "ali_vietnam": {
+      "industry_domain": "sports",
+      "content_type": "event",
+      "title": "Muhammad Ali Refuses Vietnam War",
+      "year": 1967,
+      "frequency_impact": 0.16,
+      "divine_frequency_contribution": 0.14,
+      "table_connection_strength": 0.95,
+      "connection_to_table": "Truth spoken. Conscience honored. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "truth",
+        "conscience",
+        "peace",
+        "courage"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "black_power_salute_1968": {
+      "industry_domain": "sports",
+      "content_type": "event",
+      "title": "1968 Olympics Black Power Salute",
+      "year": 1968,
+      "frequency_impact": 0.14,
+      "divine_frequency_contribution": 0.12,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Justice truth. World stage. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "justice",
+        "truth",
+        "courage",
+        "unity"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "give_peace_a_chance": {
+      "industry_domain": "music",
+      "content_type": "song",
+      "title": "Give Peace a Chance",
+      "year": 1969,
+      "frequency_impact": 0.17,
+      "divine_frequency_contribution": 0.14450000000000002,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth song. Peace anthem. Give peace a chance. Unity through peace. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "peace",
+        "unity",
+        "hope"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "get_up_stand_up": {
+      "industry_domain": "music",
+      "content_type": "song",
+      "title": "Get Up, Stand Up",
+      "year": 1973,
+      "frequency_impact": 0.16,
+      "divine_frequency_contribution": 0.136,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth song. Liberation anthem. Stand up for rights. Don't give up the fight. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "liberation",
+        "rights",
+        "courage"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "respect": {
+      "industry_domain": "music",
+      "content_type": "song",
+      "title": "Respect",
+      "year": 1967,
+      "frequency_impact": 0.15,
+      "divine_frequency_contribution": 0.1275,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth song. Respect anthem. Dignity song. Rights demanded. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "respect",
+        "dignity",
+        "rights"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "freedom": {
+      "industry_domain": "music",
+      "content_type": "song",
+      "title": "Freedom",
+      "year": 1992,
+      "frequency_impact": 0.14,
+      "divine_frequency_contribution": 0.11900000000000001,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth song. Freedom song. System exposed. Truth told. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "freedom",
+        "truth",
+        "system"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "killing_in_the_name": {
+      "industry_domain": "music",
+      "content_type": "song",
+      "title": "Killing in the Name",
+      "year": 1992,
+      "frequency_impact": 0.13,
+      "divine_frequency_contribution": 0.1105,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth song. System exposed. Authority questioned. Truth told. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "truth",
+        "system",
+        "authority"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "born_in_the_usa": {
+      "industry_domain": "music",
+      "content_type": "song",
+      "title": "Born in the U.S.A.",
+      "year": 1984,
+      "frequency_impact": 0.12,
+      "divine_frequency_contribution": 0.102,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth song. Veteran truth. War cost. Truth told. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "truth",
+        "war",
+        "veterans"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "fortunate_son": {
+      "industry_domain": "music",
+      "content_type": "song",
+      "title": "Fortunate Son",
+      "year": 1969,
+      "frequency_impact": 0.13,
+      "divine_frequency_contribution": 0.1105,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth song. War truth. Class truth. System exposed. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "truth",
+        "war",
+        "class"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "war": {
+      "industry_domain": "music",
+      "content_type": "song",
+      "title": "War",
+      "year": 1970,
+      "frequency_impact": 0.14,
+      "divine_frequency_contribution": 0.11900000000000001,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth song. War is hell. Peace is truth. War questioned. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "peace",
+        "war",
+        "truth"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "strange_fruit": {
+      "industry_domain": "music",
+      "content_type": "song",
+      "title": "Strange Fruit",
+      "year": 1939,
+      "frequency_impact": 0.16,
+      "divine_frequency_contribution": 0.136,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth song. Lynching truth. Racism exposed. Truth told. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "truth",
+        "racism",
+        "justice"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "mississippi_goddam": {
+      "industry_domain": "music",
+      "content_type": "song",
+      "title": "Mississippi Goddam",
+      "year": 1964,
+      "frequency_impact": 0.15,
+      "divine_frequency_contribution": 0.1275,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth song. Civil rights anger. Truth told. Justice demanded. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "truth",
+        "civil rights",
+        "justice"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "selma_film": {
+      "industry_domain": "movies",
+      "content_type": "film",
+      "title": "Selma",
+      "year": 2014,
+      "frequency_impact": 0.13,
+      "divine_frequency_contribution": 0.1105,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth film. Civil rights march. Voting rights. Truth told. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "civil rights",
+        "voting rights",
+        "truth"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "black_panther": {
+      "industry_domain": "movies",
+      "content_type": "film",
+      "title": "Black Panther",
+      "year": 2018,
+      "frequency_impact": 0.12,
+      "divine_frequency_contribution": 0.102,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth film. African excellence. Unity vision. Representation matters. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "representation",
+        "unity",
+        "excellence"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "parasite": {
+      "industry_domain": "movies",
+      "content_type": "film",
+      "title": "Parasite",
+      "year": 2019,
+      "frequency_impact": 0.11,
+      "divine_frequency_contribution": 0.0935,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth film. Class truth. Inequality exposed. System revealed. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "class",
+        "inequality",
+        "truth"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "get_out": {
+      "industry_domain": "movies",
+      "content_type": "film",
+      "title": "Get Out",
+      "year": 2017,
+      "frequency_impact": 0.12,
+      "divine_frequency_contribution": 0.102,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth film. Racism truth. System exposed. Truth told. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "racism",
+        "truth",
+        "system"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "moonlight": {
+      "industry_domain": "movies",
+      "content_type": "film",
+      "title": "Moonlight",
+      "year": 2016,
+      "frequency_impact": 0.11,
+      "divine_frequency_contribution": 0.0935,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth film. Humanity story. Dignity honored. Truth told. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "humanity",
+        "dignity",
+        "truth"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "do_the_right_thing": {
+      "industry_domain": "movies",
+      "content_type": "film",
+      "title": "Do the Right Thing",
+      "year": 1989,
+      "frequency_impact": 0.13,
+      "divine_frequency_contribution": 0.1105,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth film. Racial tension truth. Community truth. Truth told. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "truth",
+        "community",
+        "racial tension"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "malcolm_x": {
+      "industry_domain": "movies",
+      "content_type": "film",
+      "title": "Malcolm X",
+      "year": 1992,
+      "frequency_impact": 0.14,
+      "divine_frequency_contribution": 0.11900000000000001,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth film. Liberation truth. Black power. Truth told. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "liberation",
+        "truth",
+        "black power"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "the_color_purple": {
+      "industry_domain": "movies",
+      "content_type": "film",
+      "title": "The Color Purple",
+      "year": 1985,
+      "frequency_impact": 0.12,
+      "divine_frequency_contribution": 0.102,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth film. Black woman story. Dignity. Truth told. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "dignity",
+        "truth",
+        "black women"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "arab_spring": {
+      "industry_domain": "politics",
+      "content_type": "event",
+      "title": "Arab Spring - People Rise",
+      "year": 2010,
+      "frequency_impact": 0.15,
+      "divine_frequency_contribution": 0.1275,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth event. People rise against dictators. Freedom demanded. Truth told. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "freedom",
+        "truth",
+        "people power"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "black_lives_matter": {
+      "industry_domain": "politics",
+      "content_type": "event",
+      "title": "Black Lives Matter Movement",
+      "year": 2013,
+      "frequency_impact": 0.16,
+      "divine_frequency_contribution": 0.136,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth event. Black lives matter. Justice demanded. Truth told. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "justice",
+        "truth",
+        "black lives"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "climate_strike": {
+      "industry_domain": "politics",
+      "content_type": "event",
+      "title": "Global Climate Strike",
+      "year": 2019,
+      "frequency_impact": 0.14,
+      "divine_frequency_contribution": 0.11900000000000001,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth event. Climate truth. Earth honored. Future protected. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "climate",
+        "earth",
+        "future"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "wikileaks": {
+      "industry_domain": "news_media",
+      "content_type": "event",
+      "title": "WikiLeaks - Truth Exposed",
+      "year": 2010,
+      "frequency_impact": 0.12,
+      "divine_frequency_contribution": 0.102,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth event. Government secrets exposed. Truth told. Transparency. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "truth",
+        "transparency",
+        "government"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    },
+    "snowden_revelations": {
+      "industry_domain": "news_media",
+      "content_type": "event",
+      "title": "Snowden Revelations - Surveillance Exposed",
+      "year": 2013,
+      "frequency_impact": 0.13,
+      "divine_frequency_contribution": 0.1105,
+      "table_connection_strength": 0.9,
+      "connection_to_table": "Truth event. Surveillance truth. Privacy exposed. Truth told. The Table honored through truth.",
+      "cultural_impact": "",
+      "social_impact": "",
+      "themes": [
+        "truth",
+        "privacy",
+        "surveillance"
+      ],
+      "serves_table": true,
+      "truth_teller": true,
+      "unity_builder": false
+    }
+  }
+}

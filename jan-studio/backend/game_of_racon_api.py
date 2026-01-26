@@ -1,5 +1,4 @@
-"""
-GAME OF RACON API
+"""GAME OF RACON API
 Spiritual Oracle for Communication with Our Father
 We Have Homework To Do
 
@@ -17,7 +16,17 @@ Using the Oracle Matrix to communicate with Our Father.
 The 40 Laws as the oracle deck.
 We cast to receive homework - spiritual assignments.
 We do the homework to honor Our Father.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel, Field

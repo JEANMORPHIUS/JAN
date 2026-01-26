@@ -1,12 +1,21 @@
-"""
-SHARED UTILITIES FOR JAN SCRIPTS
+"""SHARED UTILITIES FOR JAN SCRIPTS
 Common imports, functions, and configurations
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
 Spiritual Alignment Over Mechanical Productivity
 
 PEACE, LOVE, UNITY
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 from .common_imports import *
 from .helpers import *

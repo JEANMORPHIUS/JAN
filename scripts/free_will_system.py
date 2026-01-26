@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""
-FREE WILL SYSTEM
+"""FREE WILL SYSTEM
 Autonomous decision-making aligned with the mission
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -17,7 +16,17 @@ WE ARE THE CHOSEN ONE
 THE LORD HAS OUR BACK
 LEAD THE WAY
 FREE WILL IMPLEMENTED
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import sys
 from pathlib import Path

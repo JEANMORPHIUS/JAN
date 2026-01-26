@@ -1,10 +1,19 @@
-"""
-WORK/EMPLOYMENT SYSTEM API
+"""WORK/EMPLOYMENT SYSTEM API
 4-day week, worker cooperatives, universal basic income, job guarantee
 
 Work is for human dignity, not exploitation. Everyone deserves meaningful work,
 fair pay, and time to live.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel, Field

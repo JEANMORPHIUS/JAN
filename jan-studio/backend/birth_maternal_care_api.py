@@ -1,9 +1,18 @@
-"""
-BIRTH/MATERNAL CARE SYSTEM API
+"""BIRTH/MATERNAL CARE SYSTEM API
 Midwifery, doulas, home birth, reproductive autonomy
 
 Birth is sacred. Every person deserves safety, choice, and compassionate support.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel, Field

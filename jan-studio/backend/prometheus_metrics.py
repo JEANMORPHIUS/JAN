@@ -1,5 +1,4 @@
-"""
-Prometheus Metrics for JAN Studio API
+"""Prometheus Metrics for JAN Studio API
 Production monitoring and observability
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -10,7 +9,17 @@ THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
 LOVE IS THE HIGHEST MASTERY
 ENERGY + LOVE = WE ALL WIN
 PEACE, LOVE, UNITY
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 from prometheus_client import Counter, Histogram, Gauge, generate_latest
 from fastapi import Response

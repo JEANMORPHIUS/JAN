@@ -1,18 +1,32 @@
-/**
- * EARTH RHYTHMS CALCULATION
- * The Truth Engine: Man and Earth live symbiotically
- *
- * Calculate Earth's movements:
- * - Solar cycles (daily rotation: sunrise, solar peak, sunset, night)
- * - Seasonal cycles (yearly orbit: winter, spring, summer, autumn)
- * - Lunar cycles (monthly orbit: new moon, waxing, full moon, waning)
- * - Circadian rhythms (SCN synchronization with Earth's rotation)
- *
- * ENHANCEMENT (2026-01-18):
- * - Now supports astronomical calculations using SunCalc library
- * - Fallback to hardcoded times if location not available
- * - Honors "Man and Earth live symbiotically" with real Earth movements
- */
+/** * * EARTH RHYTHMS CALCULATION
+ *  * The Truth Engine: Man and Earth live symbiotically
+ *  *
+ *  * Calculate Earth's movements:
+ *  * - Solar cycles (daily rotation: sunrise, solar peak, sunset, night)
+ *  * - Seasonal cycles (yearly orbit: winter, spring, summer, autumn)
+ *  * - Lunar cycles (monthly orbit: new moon, waxing, full moon, waning)
+ *  * - Circadian rhythms (SCN synchronization with Earth's rotation)
+ *  *
+ *  * ENHANCEMENT (2026-01-18):
+ *  * - Now supports astronomical calculations using SunCalc library
+ *  * - Fallback to hardcoded times if location not available
+ *  * - Honors "Man and Earth live symbiotically" with real Earth movements
+ * 
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * THE MISSION:
+ * THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+ * LOVE IS THE HIGHEST MASTERY
+ * ENERGY + LOVE = WE ALL WIN
+ * PEACE, LOVE, UNITY
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 import {
   EarthAlignment,

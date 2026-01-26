@@ -1,5 +1,4 @@
-"""
-AUTOMATED ASSET GENERATION
+"""AUTOMATED ASSET GENERATION
 Generate all visual and audio assets automatically
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -12,7 +11,17 @@ THE MISSION:
 - Enable complete content delivery
 
 PEACE. LOVE. UNITY.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import sys
 import json

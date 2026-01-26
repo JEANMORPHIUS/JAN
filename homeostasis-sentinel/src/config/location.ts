@@ -1,14 +1,23 @@
-/**
- * LOCATION CONFIGURATION
- *
- * Purpose: Store user location for accurate astronomical calculations
- * Foundation: "Man and Earth live symbiotically" - require user's actual location
- *
- * Locations serve the communities:
- * - London (8 communities)
- * - North Cyprus (Turkish Cypriot community)
- * - Cyprus (Turkish + Greek communities)
- */
+/** * * LOCATION CONFIGURATION
+ *  *
+ *  * Purpose: Store user location for accurate astronomical calculations
+ *  * Foundation: "Man and Earth live symbiotically" - require user's actual location
+ *  *
+ *  * Locations serve the communities:
+ *  * - London (8 communities)
+ *  * - North Cyprus (Turkish Cypriot community)
+ *  * - Cyprus (Turkish + Greek communities)
+ * 
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 export interface LocationConfig {
   /** Display name */

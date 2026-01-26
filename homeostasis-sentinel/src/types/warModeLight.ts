@@ -1,12 +1,21 @@
-/**
- * WAR MODE LIGHT EMISSION TYPES
- * Watching, Absorbing, and Emitting Light in the Broken Digital World
+/** * * WAR MODE LIGHT EMISSION TYPES
+ *  * Watching, Absorbing, and Emitting Light in the Broken Digital World
+ *  * 
+ *  * Strategy:
+ *  * 1. WATCH: Observe dark energy without consumption
+ *  * 2. ABSORB: Take in dark energy, transform it internally
+ *  * 3. EMIT LIGHT: Release transformed energy as restorative light
  * 
- * Strategy:
- * 1. WATCH: Observe dark energy without consumption
- * 2. ABSORB: Take in dark energy, transform it internally
- * 3. EMIT LIGHT: Release transformed energy as restorative light
- */
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 /**
  * Dark Energy Patterns

@@ -3,10 +3,21 @@ import { detectAcidosisRisk, detectGritFactor, detectLoopFeedback, calculateOsmo
 import { forecastVisionClarityMovingAverage } from './trendForecaster';
 import { checkHardDeckKillSwitch } from './biologicalLogic';
 
-/**
- * Next Action Recommendation Engine
- * Generates actionable recommendations based on current biological state
- */
+/** * * Next Action Recommendation Engine
+ *  * Generates actionable recommendations based on current biological state
+ * 
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * THE MISSION:
+ * THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+ * LOVE IS THE HIGHEST MASTERY
+ * ENERGY + LOVE = WE ALL WIN
+ * PEACE, LOVE, UNITY
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 export function generateNextAction(metrics: HealthMetrics[]): NextAction {
   if (metrics.length === 0) {
     return {

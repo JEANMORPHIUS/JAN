@@ -1,12 +1,21 @@
-/**
- * CONTRADICTION AUDIT UTILITIES
- * Cleaning House: ALL MAN-MADE CONTRADICTIONS
+/** * * CONTRADICTION AUDIT UTILITIES
+ *  * Cleaning House: ALL MAN-MADE CONTRADICTIONS
+ *  * 
+ *  * Philosophy:
+ *  * - Are we taking EVERYTHING into account?
+ *  * - ALL MAN-MADE CONTRADICTIONS
+ *  * - WE'RE CLEANING HOUSE
  * 
- * Philosophy:
- * - Are we taking EVERYTHING into account?
- * - ALL MAN-MADE CONTRADICTIONS
- * - WE'RE CLEANING HOUSE
- */
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 import {
   ComprehensiveContradictionAudit,

@@ -1,12 +1,21 @@
-/**
- * ALL PEOPLE ARE FAMILY UTILITIES
- * Lead the Way: All People Are Family
+/** * * ALL PEOPLE ARE FAMILY UTILITIES
+ *  * Lead the Way: All People Are Family
+ *  * 
+ *  * Philosophy:
+ *  * - Lead the way (not follow, not impose)
+ *  * - All people are family (not separate, not other)
+ *  * - Unity through leadership (all people are leaders, not followers)
  * 
- * Philosophy:
- * - Lead the way (not follow, not impose)
- * - All people are family (not separate, not other)
- * - Unity through leadership (all people are leaders, not followers)
- */
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 import {
   AllPeopleAreFamilySystem,

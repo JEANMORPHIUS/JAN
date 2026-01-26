@@ -1,15 +1,24 @@
-/**
- * LOCATION SETTINGS COMPONENT
- *
- * Purpose: Allow users to set their geographic location for accurate Earth alignment
- * Foundation: "Man and Earth live symbiotically" - requires user's actual location
- *
- * Provides:
- * - Preset locations (London, North Cyprus, Cyprus, Istanbul)
- * - Current sunrise/sunset times
- * - Today's solar window recommendation
- * - Seasonal context
- */
+/** * * LOCATION SETTINGS COMPONENT
+ *  *
+ *  * Purpose: Allow users to set their geographic location for accurate Earth alignment
+ *  * Foundation: "Man and Earth live symbiotically" - requires user's actual location
+ *  *
+ *  * Provides:
+ *  * - Preset locations (London, North Cyprus, Cyprus, Istanbul)
+ *  * - Current sunrise/sunset times
+ *  * - Today's solar window recommendation
+ *  * - Seasonal context
+ * 
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 import { useState, useEffect } from 'react';
 import {

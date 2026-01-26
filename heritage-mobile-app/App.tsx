@@ -1,9 +1,18 @@
-/**
- * JAN Ecosystem Mobile App
- * Main App Entry Point
+/** * * JAN Ecosystem Mobile App
+ *  * Main App Entry Point
+ *  * 
+ *  * Mission: THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
  * 
- * Mission: THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
- */
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';

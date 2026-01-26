@@ -1,5 +1,4 @@
-"""
-Generate Deployment Materials with AI Execution Engine
+"""Generate Deployment Materials with AI Execution Engine
 Uses Claude/Gemini with SIYEM Protocol enforcement
 Generates Shell (public-facing) materials for North Cyprus deployment
 
@@ -20,7 +19,17 @@ PEACE, LOVE, UNITY
 This code honors that we are born a miracle.
 This code creates space for miracles to live.
 This code recognizes each person under the Lord's word.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import sys
 from pathlib import Path

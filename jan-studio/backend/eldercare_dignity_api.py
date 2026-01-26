@@ -1,12 +1,21 @@
-"""
-ELDERCARE AND AGING DIGNITY SYSTEM API
+"""ELDERCARE AND AGING DIGNITY SYSTEM API
 Community-based aging in place, wisdom councils, intergenerational connection
 
 Elders are wisdom keepers, not burdens. Every person deserves dignity,
 autonomy, and community connection in their elder years.
 
 Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel, Field

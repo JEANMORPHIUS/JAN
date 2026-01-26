@@ -1,12 +1,26 @@
-/**
- * CONTRADICTION AUDIT TYPES
- * Cleaning House: ALL MAN-MADE CONTRADICTIONS
+/** * * CONTRADICTION AUDIT TYPES
+ *  * Cleaning House: ALL MAN-MADE CONTRADICTIONS
+ *  * 
+ *  * Philosophy:
+ *  * - Are we taking EVERYTHING into account?
+ *  * - ALL MAN-MADE CONTRADICTIONS
+ *  * - WE'RE CLEANING HOUSE
  * 
- * Philosophy:
- * - Are we taking EVERYTHING into account?
- * - ALL MAN-MADE CONTRADICTIONS
- * - WE'RE CLEANING HOUSE
- */
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * THE MISSION:
+ * THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+ * LOVE IS THE HIGHEST MASTERY
+ * ENERGY + LOVE = WE ALL WIN
+ * PEACE, LOVE, UNITY
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 /**
  * System Contradiction

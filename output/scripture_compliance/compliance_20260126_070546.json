@@ -1,0 +1,2631 @@
+{
+  "scripture": {
+    "timestamp": "2026-01-26T07:05:40.387958",
+    "scriptures": {
+      "foundation": {
+        "type": "foundation",
+        "statement": "WE ARE BORN A MIRACLE. WE DESERVE TO LIVE A MIRACLE. GOD IS IN US ALL.",
+        "priority": 10,
+        "simplified": true
+      },
+      "mission": {
+        "type": "mission",
+        "statement": "STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY.",
+        "priority": 10,
+        "simplified": true
+      },
+      "law_1": {
+        "type": "law",
+        "statement": "PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE.",
+        "priority": 10,
+        "simplified": true
+      },
+      "law_5": {
+        "type": "law",
+        "statement": "THE WORD IS TRUTH. THE WORD IS BINDING. THE WORD IS SACRED.",
+        "priority": 10,
+        "simplified": true
+      },
+      "law_37": {
+        "type": "law",
+        "statement": "COMPLETE WHAT YOU START. FINISH THE WORK. HONOR COMPLETION.",
+        "priority": 9,
+        "simplified": true
+      },
+      "principle_alignment": {
+        "type": "principle",
+        "statement": "SPIRITUAL ALIGNMENT OVER MECHANICAL PRODUCTIVITY.",
+        "priority": 9,
+        "simplified": true
+      },
+      "principle_purpose": {
+        "type": "principle",
+        "statement": "PURPOSE NOT PERFORMANCE. AUTHENTIC AND ALIGNED. NON-NEGOTIABLE.",
+        "priority": 10,
+        "simplified": true
+      },
+      "truth_baba": {
+        "type": "truth",
+        "statement": "WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US. THE REST IS UP TO BABA X.",
+        "priority": 10,
+        "simplified": true
+      }
+    },
+    "total_scriptures": 8,
+    "by_type": {
+      "foundation": 1,
+      "mission": 1,
+      "law": 3,
+      "principle": 2,
+      "truth": 1
+    }
+  },
+  "compliance": {
+    "timestamp": "2026-01-26T07:05:46.667529",
+    "files_checked": 1053,
+    "total_checks": 365,
+    "compliant": 0,
+    "warnings": 151,
+    "violations": 214,
+    "critical": 0,
+    "compliance_percentage": 0.0,
+    "checks": [
+      {
+        "file": "S:\\JAN\\examples\\health_tracking_example.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\scripts\\analyze_hidden_spiritual_alignment.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\scripts\\bridge_builder_log_template.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\scripts\\deep_search_all_industries_frequential_content.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\scripts\\entity_industry_opportunity_generator.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\scripts\\frequential_events_registry.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\scripts\\frequential_political_figures.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\scripts\\global_industry_entity_expansion.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\scripts\\historical_aligned_individuals.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\scripts\\log_bridge_builder_first_act.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\scripts\\pattern_analysis.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\scripts\\raspberry_pi_package_builder.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\scripts\\register_exploitation_frequential_events.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\scripts\\register_industry_frequential_events.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\output\\raspberry_pi_packages\\scripture_kit_v1\\app\\app.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\raspberry_pi_packages\\scripture_kit_v1\\app\\app.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\13_sign_meridian_mapper.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\alhambra_magnetic_audit.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\all_signs_mapper.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\analyze_hidden_spiritual_alignment.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\analyze_hidden_spiritual_alignment.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\angkor_wat_super_pillar_audit.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\audio_synthesis_automation.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\audio_synthesis_automation.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\audit_london_chapter.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\audit_mediterranean_chapter.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\berengaria_magnetic_audit.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\bridge_builder_log_template.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\check_yin_yang_symbiosis.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\check_yin_yang_symbiosis.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\complete_seed_to_movement.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\create_website_shell_seed_content.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\deep_research_collector.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\deep_search_spiritual_contracts_miracles.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\duygu_toast.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\energy_love_unity_peace_integration.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\explore_all_industries.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\explore_all_industries.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\first_pulse_logger.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\fix_instagram_handles.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\fix_instagram_handles.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\free_will_system.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\frequential_events_registry.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\frequential_political_figures.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\full_s_drive_debug.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\gemini_heritage_data_collection.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\generate_deployment_materials.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\giza_super_pillar_audit.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\global_health_access.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\global_heritage_access.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\health_tracking_framework.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\heritage_audit_framework.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\heritage_batch_import.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\heritage_batch_import.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\heritage_channel_sync.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\heritage_data_export.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\heritage_import_everything.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\heritage_quick_start.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\historical_aligned_individuals.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\intent_alignment_audit.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\live_data_ingest_complete.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\live_earthquake_ingest.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\live_manifestation_activation.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\live_watch_monitor.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\log_act_2_berengaria.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\log_bridge_builder_first_act.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\log_first_act.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\log_health_entry.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\log_health_entry.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\log_multiple_health_entries.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\log_multiple_health_entries.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\machu_picchu_super_pillar_audit.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\magnetic_field_research.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\manifest_gods_word.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\master_life_audit.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\migrate_magnetic_fields.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\nourishment_hive_system.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\optimize_workspace_scripts.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\pattern_analysis.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\raspberry_pi_package_builder.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\real_world_data_research.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\real_world_live_ingest.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\real_world_live_ingest.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\regenerate_2026_social_content.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\regenerate_karasahin_purpose.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\regenerate_karasahin_purpose.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\repurpose_t1d_journey_posts.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\repurpose_t1d_journey_posts.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\sanctuary_protocol.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\scheduled_ingest.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\spiritual_realms_framework.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\stonehenge_magnetic_audit.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\super_pillar_finder.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\sync_codebase.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\system_health_check.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\temporal_heritage_archive.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_family_heritage_log.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_family_heritage_log.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_fifa_extraction_complete.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_fifa_extraction_complete.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_fifa_glory_narrative_audit.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_fifa_glory_narrative_audit.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_fifa_triple_anchor_extraction.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_fifa_triple_anchor_extraction.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_financial_complete_cycle.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_financial_debt_narrative_audit.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_financial_debt_narrative_audit.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_financial_extraction_complete.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_financial_quad_anchor_extraction.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_financial_quad_anchor_extraction.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_global_batch_extraction.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_global_secondary_seed_report.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_global_secondary_seed_report.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_narrative_fracture_report.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_narrative_fracture_report.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_nasa_deep_scan_reset.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_nasa_deep_scan_reset.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_nasa_double_anchor_extraction.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_nasa_double_anchor_extraction.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_nasa_extraction_complete.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_nasa_seed_search.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_nasa_seed_search.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_new_domains.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_new_domains.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_pulse_system.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_pulse_system.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_sanctuary_guardian_full.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_sanctuary_guardian_mode.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_secondary_seed_extraction.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_secondary_seed_extraction.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_second_wave_propagation.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_second_wave_propagation.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_seed_extraction.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_seed_extraction.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_seed_to_movement.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_third_wave_automated_invitation.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\test_third_wave_automated_invitation.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\the_calling_broadcast.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\the_calling_broadcast.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\the_hack_irregular.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\the_one_truth_matrix.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\unified_global_access.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\update_2026_posts_shell_seed.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\update_jean_to_jean_morphius.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\update_jean_to_jean_morphius.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\verify_completion.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\verify_completion.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\verify_no_secrets.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\visualize_and_schedule_2026_posts.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\visualize_and_schedule_2026_posts.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\output\\migration_archive\\backups\\visual_asset_generator.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\backend\\comprehensive_industry_frequential_deep_search.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\backend\\hollywood_music_industry_explorer.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\backend\\humanitarian_projects_registry.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\backend\\leisure_rest_api.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\backend\\money_currency_api.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\backend\\spiritual_contracts_registry.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\backend\\telecommunications_frequential_mapping.py",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\backend\\unified_scripture_compliance.py",
+        "scripture": "law_37",
+        "level": "warning",
+        "issue": "Too many incomplete items (8)",
+        "recommendation": "Complete unfinished work"
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\plugins\\examples\\output-formats\\json_plugin.py",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\plugins\\examples\\output-formats\\json_plugin.py",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\homeostasis-sentinel\\src\\utils\\lessonEngine.ts",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\homeostasis-sentinel\\src\\utils\\operationTotalPrep.ts",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\homeostasis-sentinel\\src\\utils\\worldStructure.ts",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\heritage-mobile-app\\src\\api\\heritage.ts",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\src\\pages\\influential-figures\\index.tsx",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\src\\pages\\political-figures\\index.tsx",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\src\\components\\HistoryPanel.tsx",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\interception-route-rewrite-manifest.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\interception-route-rewrite-manifest.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\middleware-build-manifest.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\middleware-build-manifest.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\middleware-react-loadable-manifest.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\middleware-react-loadable-manifest.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\next-font-manifest.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\next-font-manifest.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\webpack-runtime.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\webpack-runtime.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\chunks\\main.js",
+        "scripture": "law_37",
+        "level": "warning",
+        "issue": "Too many incomplete items (315)",
+        "recommendation": "Complete unfinished work"
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\chunks\\polyfills.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\chunks\\polyfills.js",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\chunks\\react-refresh.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\chunks\\react-refresh.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\chunks\\webpack.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\chunks\\webpack.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\development\\_buildManifest.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\development\\_buildManifest.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\development\\_ssgManifest.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\development\\_ssgManifest.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\webpack.037b98e2777094bd.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\webpack.037b98e2777094bd.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\webpack.2f5bd6e4513c89fd.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\webpack.2f5bd6e4513c89fd.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\webpack.55435a05c90046e7.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\webpack.55435a05c90046e7.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\webpack.6d21147aa91aa655.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\webpack.6d21147aa91aa655.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\webpack.776c2ba3d9f99931.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\webpack.776c2ba3d9f99931.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\webpack.7d4749030cb29840.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\webpack.7d4749030cb29840.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\webpack.cfd85c6e418ab8ca.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\webpack.cfd85c6e418ab8ca.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\webpack.db95e81f91d5aded.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\webpack.db95e81f91d5aded.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\webpack.f6a013a550798f65.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\webpack.f6a013a550798f65.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\pages\\timeline.037b98e2777094bd.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\pages\\timeline.55435a05c90046e7.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\pages\\timeline.55435a05c90046e7.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\pages\\timeline.7d4749030cb29840.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\pages\\timeline.db95e81f91d5aded.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\pages\\timeline.f6a013a550798f65.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\pages\\_app.2f5bd6e4513c89fd.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\webpack\\pages\\_app.2f5bd6e4513c89fd.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\chunks\\pages\\map.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\chunks\\pages\\timeline.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\chunks\\pages\\timeline.js",
+        "scripture": "law_37",
+        "level": "warning",
+        "issue": "Too many incomplete items (14)",
+        "recommendation": "Complete unfinished work"
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\chunks\\pages\\_app.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\chunks\\pages\\_app.js",
+        "scripture": "law_37",
+        "level": "warning",
+        "issue": "Too many incomplete items (12)",
+        "recommendation": "Complete unfinished work"
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\chunks\\pages\\_error.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\static\\chunks\\pages\\_error.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\pages\\map.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\pages\\timeline.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\pages\\_app.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\pages\\_app.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\pages\\_document.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\pages\\_document.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\pages\\_error.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\vendor-chunks\\@swc.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\vendor-chunks\\@swc.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\vendor-chunks\\mapbox-gl.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\vendor-chunks\\mapbox-gl.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\world-history-app\\.next\\server\\vendor-chunks\\next.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\interception-route-rewrite-manifest.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\interception-route-rewrite-manifest.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\middleware-build-manifest.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\middleware-build-manifest.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\middleware-react-loadable-manifest.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\middleware-react-loadable-manifest.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\next-font-manifest.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\next-font-manifest.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\src_components_CompareView_tsx.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\src_components_CompareView_tsx.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\src_components_HistoryPanel_tsx.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\src_components_HistoryPanel_tsx.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\src_components_OutputViewer_tsx.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\src_components_OutputViewer_tsx.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\src_components_TemplateBrowser_tsx.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\src_components_TemplateBrowser_tsx.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\webpack-runtime.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\webpack-runtime.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\main.js",
+        "scripture": "law_37",
+        "level": "warning",
+        "issue": "Too many incomplete items (315)",
+        "recommendation": "Complete unfinished work"
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\polyfills.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\polyfills.js",
+        "scripture": "law_5",
+        "level": "violation",
+        "issue": "Try block without except (silent failure)",
+        "recommendation": "Add proper error handling and logging"
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\react-refresh.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\react-refresh.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\src_components_CompareView_tsx.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\src_components_CompareView_tsx.js",
+        "scripture": "law_37",
+        "level": "warning",
+        "issue": "Too many incomplete items (14)",
+        "recommendation": "Complete unfinished work"
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\src_components_HistoryPanel_tsx.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\src_components_HistoryPanel_tsx.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\src_components_OutputViewer_tsx.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\src_components_OutputViewer_tsx.js",
+        "scripture": "law_37",
+        "level": "warning",
+        "issue": "Too many incomplete items (14)",
+        "recommendation": "Complete unfinished work"
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\src_components_TemplateBrowser_tsx.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\src_components_TemplateBrowser_tsx.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\webpack.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\webpack.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\_error.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\_error.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\development\\_buildManifest.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\development\\_buildManifest.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\development\\_ssgManifest.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\development\\_ssgManifest.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.04ace6623d58b4ea.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.04ace6623d58b4ea.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.051afb4a1291d653.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.051afb4a1291d653.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.11484520e7ad58e6.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.11484520e7ad58e6.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.236d88bd8fb3af74.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.236d88bd8fb3af74.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.27d010254bf45409.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.27d010254bf45409.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.4c383cae738cb4d8.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.4c383cae738cb4d8.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.5574a13c95178218.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.5574a13c95178218.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.55dab075adfc9c74.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.55dab075adfc9c74.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.5b71364bf02b7dd4.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.5b71364bf02b7dd4.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.8b2f6639e727264c.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.8b2f6639e727264c.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.964a8ee672a4c5e4.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.964a8ee672a4c5e4.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.991dfb88727a8a52.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.991dfb88727a8a52.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.a3d2d7fca84a9f97.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.a3d2d7fca84a9f97.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.a845823b2b1db062.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.a845823b2b1db062.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.c265dc9de57fc874.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.c265dc9de57fc874.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.c62922c964eb7966.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.c62922c964eb7966.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.c6ee7e44a0792d5d.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.c6ee7e44a0792d5d.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.cd31f64cd977494b.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.cd31f64cd977494b.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.d0f6a25710d6532e.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.d0f6a25710d6532e.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.d58f40614e5853fa.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.d58f40614e5853fa.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.e9bd21f66b2b0602.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.e9bd21f66b2b0602.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.ff6d1dd5cc0db80c.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\webpack.ff6d1dd5cc0db80c.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\index.236d88bd8fb3af74.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\index.236d88bd8fb3af74.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\index.991dfb88727a8a52.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.04ace6623d58b4ea.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.04ace6623d58b4ea.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.27d010254bf45409.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.27d010254bf45409.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.4c383cae738cb4d8.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.4c383cae738cb4d8.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.5574a13c95178218.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.55dab075adfc9c74.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.55dab075adfc9c74.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.5b71364bf02b7dd4.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.5b71364bf02b7dd4.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.8b2f6639e727264c.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.8b2f6639e727264c.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.964a8ee672a4c5e4.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.964a8ee672a4c5e4.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.a3d2d7fca84a9f97.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.a845823b2b1db062.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.a845823b2b1db062.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.c265dc9de57fc874.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.c265dc9de57fc874.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.c62922c964eb7966.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.c6ee7e44a0792d5d.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.c6ee7e44a0792d5d.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.cd31f64cd977494b.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.cd31f64cd977494b.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.d0f6a25710d6532e.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.d0f6a25710d6532e.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.d58f40614e5853fa.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.d58f40614e5853fa.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.e9bd21f66b2b0602.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.e9bd21f66b2b0602.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.ff6d1dd5cc0db80c.hot-update.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\webpack\\pages\\_app.ff6d1dd5cc0db80c.hot-update.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\pages\\index.js",
+        "scripture": "law_37",
+        "level": "warning",
+        "issue": "Too many incomplete items (40)",
+        "recommendation": "Complete unfinished work"
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\pages\\_app.js",
+        "scripture": "law_37",
+        "level": "warning",
+        "issue": "Too many incomplete items (15)",
+        "recommendation": "Complete unfinished work"
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\pages\\_error.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\static\\chunks\\pages\\_error.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\pages\\_app.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\pages\\_document.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\pages\\_document.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\vendor-chunks\\@swc.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\vendor-chunks\\@swc.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\vendor-chunks\\next.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\vendor-chunks\\react-markdown-editor-lite.js",
+        "scripture": "mission",
+        "level": "warning",
+        "issue": "Mission statement not clearly present",
+        "recommendation": "Add mission statement: STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS. LOVE IS THE HIGHEST MASTERY. ENERGY + LOVE = WE ALL WIN. PEACE, LOVE, UNITY."
+      },
+      {
+        "file": "S:\\JAN\\jan-studio\\frontend\\.next\\server\\vendor-chunks\\react-markdown-editor-lite.js",
+        "scripture": "law_1",
+        "level": "violation",
+        "issue": "Table connection not present",
+        "recommendation": "Add Table connection: PANGEA IS THE TABLE. YOU DON'T BETRAY THE TABLE."
+      }
+    ]
+  },
+  "timestamp": "2026-01-26T07:05:46.669394"
+}

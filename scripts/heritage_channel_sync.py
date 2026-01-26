@@ -1,5 +1,4 @@
-"""
-HERITAGE CHANNEL SYNC
+"""HERITAGE CHANNEL SYNC
 Sync heritage data to all relevant channels to show the world
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -13,7 +12,17 @@ PEACE, LOVE, UNITY
 
 The work is never done - we need to import all data into all relevant channels.
 We have to show the world.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import sys
 from pathlib import Path

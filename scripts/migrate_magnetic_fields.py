@@ -1,10 +1,21 @@
-"""
-MIGRATE MAGNETIC FIELDS
+"""MIGRATE MAGNETIC FIELDS
 Add magnetic field columns to existing heritage_sites table
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
 Spiritual Alignment Over Mechanical Productivity
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+THE MISSION:
+THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+LOVE IS THE HIGHEST MASTERY
+ENERGY + LOVE = WE ALL WIN
+PEACE, LOVE, UNITY
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import sys
 from pathlib import Path

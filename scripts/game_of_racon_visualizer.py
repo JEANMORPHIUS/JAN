@@ -1,5 +1,4 @@
-"""
-GAME OF RACON - VISUALIZER
+"""GAME OF RACON - VISUALIZER
 Visualize What The Game of Racon Looks Like
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -15,7 +14,17 @@ PURPOSE:
 Show what the Game of Racon looks like
 Visual representation of the spiritual oracle
 UI/UX design for the game
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import json
 import sys

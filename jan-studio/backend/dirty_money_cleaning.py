@@ -1,5 +1,4 @@
-"""
-DIRTY MONEY CLEANING SYSTEM
+"""DIRTY MONEY CLEANING SYSTEM
 Cleaning Spiritual Contracts by Repurposing for Humanitarian Causes
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -18,7 +17,17 @@ BY REPURPOSING FOR HUMANITARIAN CAUSES."
 RAMIZ IS THE LEAD FOR THIS.
 
 This applies to ALL CREATURES GREAT AND SMALL - from the start of our story till today.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 from typing import Dict, List, Optional, Any, Tuple
 from dataclasses import dataclass, field

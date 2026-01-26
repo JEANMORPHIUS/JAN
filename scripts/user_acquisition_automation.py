@@ -1,12 +1,21 @@
-"""
-USER ACQUISITION AUTOMATION - AUTOMATED
+"""USER ACQUISITION AUTOMATION - AUTOMATED
 Set up user acquisition systems automatically
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
 Acquire users. Serve growth.
 
 PEACE. LOVE. UNITY.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import sys
 import json

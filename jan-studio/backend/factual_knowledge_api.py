@@ -1,9 +1,23 @@
-"""
-FACTUAL KNOWLEDGE API
+"""FACTUAL KNOWLEDGE API
 Sciences, mathematics, and factual knowledge to retain and build upon.
 
 We are here to fix, not throw away. We keep what is true and refine it.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+THE MISSION:
+THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+LOVE IS THE HIGHEST MASTERY
+ENERGY + LOVE = WE ALL WIN
+PEACE, LOVE, UNITY
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel, Field

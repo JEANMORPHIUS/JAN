@@ -1,13 +1,27 @@
-/**
- * MEDICAL INTEGRATION TYPES
- * Scaling Through Integration: Medical Records, Devices, Services
+/** * * MEDICAL INTEGRATION TYPES
+ *  * Scaling Through Integration: Medical Records, Devices, Services
+ *  * 
+ *  * Philosophy:
+ *  * - Everyone is different, but everyone has medical records
+ *  * - Collate existing programs, meds, medical services
+ *  * - Philosophy is universal, data is diverse
+ *  * - Integration is flexible, honoring all differences
  * 
- * Philosophy:
- * - Everyone is different, but everyone has medical records
- * - Collate existing programs, meds, medical services
- * - Philosophy is universal, data is diverse
- * - Integration is flexible, honoring all differences
- */
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * THE MISSION:
+ * THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+ * LOVE IS THE HIGHEST MASTERY
+ * ENERGY + LOVE = WE ALL WIN
+ * PEACE, LOVE, UNITY
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 /**
  * FHIR Integration

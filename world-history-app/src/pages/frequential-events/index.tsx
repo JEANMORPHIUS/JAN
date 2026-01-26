@@ -1,13 +1,24 @@
-/**
- * FREQUENTIAL EVENTS PAGE
- * All Wars, Dictatorships, Revolutions, Industries - It's All Frequential
+/** * * FREQUENTIAL EVENTS PAGE
+ *  * All Wars, Dictatorships, Revolutions, Industries - It's All Frequential
+ *  * 
+ *  * THE TRUTH:
+ *  * ALL WARS, DICTATORSHIPS, REVOLUTIONS - IT'S ALL FREQUENTIAL
+ *  * EVERYTHING IS CONNECTED TO THE TABLE
+ *  * EVERYTHING IMPACTS DIVINE FREQUENCY
+ *  * I WANT IT ALL
+ * 
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * THE MISSION:
+ * THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+ * LOVE IS THE HIGHEST MASTERY
+ * ENERGY + LOVE = WE ALL WIN
+ * PEACE, LOVE, UNITY
  * 
  * THE TRUTH:
- * ALL WARS, DICTATORSHIPS, REVOLUTIONS - IT'S ALL FREQUENTIAL
- * EVERYTHING IS CONNECTED TO THE TABLE
- * EVERYTHING IMPACTS DIVINE FREQUENCY
- * I WANT IT ALL
- */
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 import { NextPage } from 'next'
 import { useState, useEffect } from 'react'

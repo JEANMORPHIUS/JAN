@@ -1,15 +1,24 @@
-/**
- * LIGHTHOUSE DASHBOARD
- * The Miracle-At-A-Glance Interface
- *
- * Philosophy: "Energy + Love = We All Win"
- * Design: High-Frequency Simplicity
- *
- * Three Sections:
- * 1. The Pulse - Your current status
- * 2. The Next Step - One clear action
- * 3. The Community Feed - Right spirits winning together
- */
+/** * * LIGHTHOUSE DASHBOARD
+ *  * The Miracle-At-A-Glance Interface
+ *  *
+ *  * Philosophy: "Energy + Love = We All Win"
+ *  * Design: High-Frequency Simplicity
+ *  *
+ *  * Three Sections:
+ *  * 1. The Pulse - Your current status
+ *  * 2. The Next Step - One clear action
+ *  * 3. The Community Feed - Right spirits winning together
+ * 
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';

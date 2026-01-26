@@ -1,5 +1,4 @@
-"""
-TEMPORAL HERITAGE ARCHIVE
+"""TEMPORAL HERITAGE ARCHIVE
 Query and Debug Heritage Sites Across All Dimensional Timelines
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -18,7 +17,17 @@ PEACE, LOVE, UNITY
 
 This script allows querying and debugging heritage sites across all timelines.
 Chronologizes all heritage sites throughout all of time for pattern detection.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import sys
 from pathlib import Path

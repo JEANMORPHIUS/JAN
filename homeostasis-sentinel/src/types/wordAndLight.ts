@@ -1,8 +1,17 @@
-/**
- * WORD AND LIGHT OF GOD TYPES
- * All entities speaking and emitting the Word and Light of God
- * Full bilingual support (English/Turkish/French) with scalable multilingual framework
- */
+/** * * WORD AND LIGHT OF GOD TYPES
+ *  * All entities speaking and emitting the Word and Light of God
+ *  * Full bilingual support (English/Turkish/French) with scalable multilingual framework
+ * 
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 /**
  * Supported Languages

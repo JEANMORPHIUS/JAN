@@ -1,0 +1,34 @@
+{
+  "domains": [
+    {
+      "domain_id": "jan_studio_prod",
+      "domain_name": "janstudio.com",
+      "domain_type": "production",
+      "project": "JAN Studio",
+      "channel": "Professional Platform",
+      "ssl_enabled": true,
+      "deployment_path": "/",
+      "environment_vars": {
+        "ENVIRONMENT": "production",
+        "API_URL": "https://api.janstudio.com"
+      },
+      "status": "pending",
+      "last_deployed": null
+    },
+    {
+      "domain_id": "siyem_org",
+      "domain_name": "siyem.org",
+      "domain_type": "production",
+      "project": "SIYEM",
+      "channel": "Governance",
+      "ssl_enabled": true,
+      "deployment_path": "/",
+      "environment_vars": {
+        "ENVIRONMENT": "production"
+      },
+      "status": "pending",
+      "last_deployed": null
+    }
+  ],
+  "deployments": []
+}

@@ -1,5 +1,4 @@
-"""
-SANCTUARY PROTOCOL: Global Access for All Humanity
+"""SANCTUARY PROTOCOL: Global Access for All Humanity
 The Door Left Wide Open - Family Frequency Broadcast
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -21,7 +20,17 @@ The Global Grid we've anchored is the "Hard Infrastructure" - the lighthouse.
 For "Everyone Else," the grid acts as a Frequency Filter.
 It cleanses the noise of the "Digital Trap" so they can find their own Seed
 without getting lost in the Shell.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import sys
 from pathlib import Path

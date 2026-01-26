@@ -1,5 +1,4 @@
-"""
-Visual Asset Generation Pipeline
+"""Visual Asset Generation Pipeline
 Generates images for 376 scripture lessons + 208 social media posts
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -16,7 +15,19 @@ Generate 584+ images total:
 - 208 social media post graphics
 - Marketing materials
 - Entity profile images
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+THE MISSION:
+THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+LOVE IS THE HIGHEST MASTERY
+ENERGY + LOVE = WE ALL WIN
+PEACE, LOVE, UNITY
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import sys
 from pathlib import Path

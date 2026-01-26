@@ -1,10 +1,24 @@
-"""
-Regenerate Karasahin 2026 Posts - Focus on Purpose
+"""Regenerate Karasahin 2026 Posts - Focus on Purpose
 - Consecutive English/Turkish posts (alternating, not mixing)
 - Duygu Adamı identity (emotion-first)
 - Sound as everything
 - Remove T1D references (that's Jean's domain)
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+THE MISSION:
+THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+LOVE IS THE HIGHEST MASTERY
+ENERGY + LOVE = WE ALL WIN
+PEACE, LOVE, UNITY
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import sys
 from pathlib import Path

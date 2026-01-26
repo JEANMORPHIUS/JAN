@@ -1,13 +1,22 @@
-/**
- * ALL PEOPLE ARE FAMILY TYPES
- * Lead the Way: All People Are Family
+/** * * ALL PEOPLE ARE FAMILY TYPES
+ *  * Lead the Way: All People Are Family
+ *  * 
+ *  * Philosophy:
+ *  * - Lead the way (not follow, not impose)
+ *  * - All people are family (not separate, not other)
+ *  * - Unity through leadership (all people are leaders, not followers)
+ *  * - Honor through illumination (all truths honored, not one)
  * 
- * Philosophy:
- * - Lead the way (not follow, not impose)
- * - All people are family (not separate, not other)
- * - Unity through leadership (all people are leaders, not followers)
- * - Honor through illumination (all truths honored, not one)
- */
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 /**
  * Leading the Way

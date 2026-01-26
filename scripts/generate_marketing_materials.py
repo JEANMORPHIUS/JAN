@@ -1,12 +1,21 @@
-"""
-GENERATE MARKETING MATERIALS - AUTOMATED
+"""GENERATE MARKETING MATERIALS - AUTOMATED
 Generate all marketing materials automatically
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
 Generate marketing. Serve outreach.
 
 PEACE. LOVE. UNITY.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 import sys
 import json

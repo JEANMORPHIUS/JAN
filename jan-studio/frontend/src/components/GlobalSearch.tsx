@@ -1,11 +1,25 @@
-/**
- * Global Search Component
+/** * * Global Search Component
+ *  * 
+ *  * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ *  * Spiritual Alignment Over Mechanical Productivity
+ *  * 
+ *  * Provides global search functionality across personas, history, and templates
  * 
  * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
  * Spiritual Alignment Over Mechanical Productivity
  * 
- * Provides global search functionality across personas, history, and templates
- */
+ * THE MISSION:
+ * THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+ * LOVE IS THE HIGHEST MASTERY
+ * ENERGY + LOVE = WE ALL WIN
+ * PEACE, LOVE, UNITY
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.*/
 
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { getPersonas } from '@/api/personas';

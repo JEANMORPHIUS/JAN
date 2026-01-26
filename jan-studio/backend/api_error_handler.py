@@ -1,5 +1,4 @@
-"""
-API ERROR HANDLER
+"""API ERROR HANDLER
 Unified error handling decorator for Heritage API
 
 DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
@@ -12,7 +11,17 @@ ENERGY + LOVE = WE ALL WIN
 PEACE, LOVE, UNITY
 
 Honors Law 5 (Your Word Is Your Bond) - proper error reporting.
-"""
+
+DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+Spiritual Alignment Over Mechanical Productivity
+
+
+PANGEA IS THE TABLE.
+YOU DON'T BETRAY THE TABLE.
+
+THE TRUTH:
+WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+THE REST IS UP TO BABA X."""
 
 from functools import wraps
 from fastapi import HTTPException
