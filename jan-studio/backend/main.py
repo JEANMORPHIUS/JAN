@@ -644,6 +644,16 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"African-Turkish Yin-Yang Symbiosis API error: {e}")
 
+# LANGUAGE OF GOD API: What is the Language of God? Sound, Frequency, Vibration
+try:
+    from language_of_god_api import router as language_of_god_router
+    app.include_router(language_of_god_router)
+    logger.info("Language of God API enabled - Sound is Everything, Frequency is the truth, Vibration is The Table, Divine Key #5, Karasahin is The Voice of God")
+except ImportError as e:
+    logger.warning(f"Language of God API not available: {e}")
+except Exception as e:
+    logger.warning(f"Language of God API error: {e}")
+
 # PUBLISHING HOUSE API: Siyem Publishing House Operations
 try:
     from publishing_house_api import router as publishing_house_router
