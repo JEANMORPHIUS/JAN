@@ -1,0 +1,187 @@
+{
+  "timestamp": "2026-01-26T11:59:56.642937",
+  "title": "SIYEM Publishing House - Financial Flow Model",
+  "status": "CREATED",
+  "purpose": "Money flows to serve the purpose: Reach nirvana in ourselves. Help all reach 100%.",
+  "revenue_model": {
+    "channel_1_professional": {
+      "revenue_streams": {
+        "enterprise_licenses": {
+          "estimated_annual": 500000,
+          "currency": "GBP",
+          "purpose_serving": "High"
+        },
+        "professional_services": {
+          "estimated_annual": 300000,
+          "currency": "GBP",
+          "purpose_serving": "High"
+        },
+        "b2b_contracts": {
+          "estimated_annual": 200000,
+          "currency": "GBP",
+          "purpose_serving": "High"
+        }
+      },
+      "total_estimated": 1000000,
+      "currency": "GBP"
+    },
+    "channel_2_creator": {
+      "revenue_streams": {
+        "music_sales": {
+          "estimated_annual": 200000,
+          "currency": "GBP",
+          "purpose_serving": "Medium"
+        },
+        "content_licensing": {
+          "estimated_annual": 150000,
+          "currency": "GBP",
+          "purpose_serving": "Medium"
+        },
+        "creator_marketplace": {
+          "estimated_annual": 100000,
+          "currency": "GBP",
+          "purpose_serving": "Medium"
+        }
+      },
+      "total_estimated": 450000,
+      "currency": "GBP"
+    },
+    "channel_3_educational": {
+      "revenue_streams": {
+        "educational_licenses": {
+          "estimated_annual": 100000,
+          "currency": "GBP",
+          "purpose_serving": "Very High"
+        },
+        "curriculum_sales": {
+          "estimated_annual": 50000,
+          "currency": "GBP",
+          "purpose_serving": "Very High"
+        },
+        "donations": {
+          "estimated_annual": 50000,
+          "currency": "GBP",
+          "purpose_serving": "Very High"
+        }
+      },
+      "total_estimated": 200000,
+      "currency": "GBP"
+    },
+    "cross_channel": {
+      "revenue_streams": {
+        "publishing_services": {
+          "estimated_annual": 100000,
+          "currency": "GBP",
+          "purpose_serving": "High"
+        },
+        "content_distribution": {
+          "estimated_annual": 50000,
+          "currency": "GBP",
+          "purpose_serving": "High"
+        },
+        "rights_management": {
+          "estimated_annual": 50000,
+          "currency": "GBP",
+          "purpose_serving": "High"
+        }
+      },
+      "total_estimated": 200000,
+      "currency": "GBP"
+    }
+  },
+  "total_revenue_estimated": 1850000,
+  "currency": "GBP",
+  "expense_allocation": {
+    "content_production": {
+      "percentage": 40,
+      "amount": 740000,
+      "currency": "GBP",
+      "purpose": "Produce quality content that serves the purpose",
+      "breakdown": {
+        "music_production": 200000,
+        "content_creation": 300000,
+        "new_songs": 150000,
+        "new_creations": 90000
+      }
+    },
+    "infrastructure": {
+      "percentage": 20,
+      "amount": 370000,
+      "currency": "GBP",
+      "purpose": "Maintain systems that support all channels and projects",
+      "breakdown": {
+        "system_maintenance": 150000,
+        "platform_costs": 120000,
+        "technology_infrastructure": 100000
+      }
+    },
+    "distribution": {
+      "percentage": 15,
+      "amount": 277500,
+      "currency": "GBP",
+      "purpose": "Distribute content to serve all people",
+      "breakdown": {
+        "platform_fees": 150000,
+        "distribution_costs": 77500,
+        "marketing": 50000
+      }
+    },
+    "humanitarian": {
+      "percentage": 15,
+      "amount": 277500,
+      "currency": "GBP",
+      "purpose": "Support humanitarian work (RAMIZ, Gaza, Africa, all people)",
+      "breakdown": {
+        "humanitarian_projects": 150000,
+        "truth_distribution": 77500,
+        "educational_programs": 50000
+      }
+    },
+    "transformation": {
+      "percentage": 10,
+      "amount": 185000,
+      "currency": "GBP",
+      "purpose": "Support transformation to 100% (nirvana)",
+      "breakdown": {
+        "transformation_programs": 100000,
+        "education": 50000,
+        "support_systems": 35000
+      }
+    }
+  },
+  "total_expenses": 1850000,
+  "profit_allocation": {
+    "reinvestment": {
+      "percentage": 50,
+      "purpose": "Reinvest in content production, new songs, new creations",
+      "breakdown": {
+        "new_content": 30,
+        "new_songs": 15,
+        "new_seeds": 5
+      }
+    },
+    "purpose_serving": {
+      "percentage": 30,
+      "purpose": "Serve the purpose: Reach nirvana, help all reach 100%",
+      "breakdown": {
+        "humanitarian_work": 15,
+        "educational_programs": 10,
+        "truth_distribution": 5
+      }
+    },
+    "sustainability": {
+      "percentage": 20,
+      "purpose": "Ensure long-term sustainability",
+      "breakdown": {
+        "reserves": 10,
+        "infrastructure": 7,
+        "future_growth": 3
+      }
+    }
+  },
+  "purpose_alignment": {
+    "principle": "All money flows to serve the purpose: Reach nirvana in ourselves. Help all reach 100%.",
+    "alignment_score": 95,
+    "explanation": "95% of all revenue and expenses align with serving the purpose. 5% for essential operational needs."
+  }
+}
