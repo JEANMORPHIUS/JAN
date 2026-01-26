@@ -1,0 +1,411 @@
+{
+  "timestamp": "2026-01-26T09:53:46.478639",
+  "title": "Global Community Integration Report - Greek, Jewish, and All Communities",
+  "total_communities": 20,
+  "integrated_communities": 20,
+  "communities_by_type": {
+    "greek": 3,
+    "jewish": 7,
+    "turkish_cypriot": 2,
+    "greek_cypriot": 2,
+    "multicultural": 4,
+    "diaspora": 0,
+    "religious": 0,
+    "cultural": 0,
+    "professional": 1,
+    "youth": 1
+  },
+  "communities_by_country": {
+    "Cyprus": 3,
+    "Global": 8,
+    "UK": 11
+  },
+  "communities_by_channel": {
+    "professional": 9,
+    "creator": 10,
+    "educational": 1
+  },
+  "communities": [
+    {
+      "community_id": "greek_cypriot_brotherhood_uk",
+      "name": "Greek Cypriot Brotherhood",
+      "community_type": "greek_cypriot",
+      "countries": [
+        "UK"
+      ],
+      "description": "Oldest Cypriot association in Britain (founded 1934). Based in North London. Cultural and community hub. Educational, cultural, and advocacy activities.",
+      "membership": {
+        "founded": 1934,
+        "location": "North London"
+      },
+      "partnerships": [],
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": null,
+      "notes": "2 Britannia Road, London N12 9RU. Preserves heritage, organizes cultural events, advocates for Cyprus reunification.",
+      "timestamp": "2026-01-26T09:53:46.476672"
+    },
+    {
+      "community_id": "national_federation_cypriots_uk",
+      "name": "National Federation of Cypriots in the UK",
+      "community_type": "greek_cypriot",
+      "countries": [
+        "UK"
+      ],
+      "description": "Representative umbrella organization for Cypriots in the UK. Coordinates refugee organizations, village organizations, educational societies, cultural groups.",
+      "membership": {
+        "member_associations": "multiple"
+      },
+      "partnerships": [
+        "All-Party Parliamentary Group for Cyprus",
+        "UK Cypriot Professionals Network"
+      ],
+      "integration_status": "integrated",
+      "siyem_channel": "professional",
+      "siyem_entity_role": null,
+      "notes": "Economic Diplomacy Roundtable. Founded after 1974 Turkish invasion.",
+      "timestamp": "2026-01-26T09:53:46.476681"
+    },
+    {
+      "community_id": "nepomak_uk",
+      "name": "NEPOMAK UK",
+      "community_type": "youth",
+      "countries": [
+        "UK"
+      ],
+      "description": "Young Cypriots across the UK. Social, cultural and networking events. Museum visits, language lessons, boat parties, professional networking.",
+      "membership": null,
+      "partnerships": [],
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": null,
+      "notes": "Promotes Cypriot culture and heritage for young people.",
+      "timestamp": "2026-01-26T09:53:46.476686"
+    },
+    {
+      "community_id": "sae_world_council_hellenes",
+      "name": "SAE - World Council of Hellenes Abroad",
+      "community_type": "greek",
+      "countries": [
+        "Global"
+      ],
+      "description": "Main representative body for people of Greek descent worldwide. Founded 1995 in Thessaloniki. Advisory body to Greek state on diaspora matters.",
+      "membership": {
+        "founded": 1995,
+        "scope": "global"
+      },
+      "partnerships": [],
+      "integration_status": "integrated",
+      "siyem_channel": "professional",
+      "siyem_entity_role": null,
+      "notes": "Brings together Greeks of the Diaspora creating a global Network. Planning and materializing programmes for the benefit of the Omogeneia.",
+      "timestamp": "2026-01-26T09:53:46.476690"
+    },
+    {
+      "community_id": "hellenes_abroad",
+      "name": "Hellenes Abroad",
+      "community_type": "greek",
+      "countries": [
+        "Global"
+      ],
+      "description": "Vibrant community platform connecting Greeks globally. Cultural events, language programs, professional networking, business opportunities, philanthropic initiatives.",
+      "membership": null,
+      "partnerships": [],
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": null,
+      "notes": "Preserves Greek heritage while facilitating international connections.",
+      "timestamp": "2026-01-26T09:53:46.476693"
+    },
+    {
+      "community_id": "hellenic_initiative",
+      "name": "The Hellenic Initiative",
+      "community_type": "greek",
+      "countries": [
+        "Global"
+      ],
+      "description": "Global organization with chapters in multiple countries (Australia, Canada). Summer Youth Academy, Venture Impact Awards, volunteer initiatives.",
+      "membership": null,
+      "partnerships": [],
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": null,
+      "notes": "Multiple country chapters.",
+      "timestamp": "2026-01-26T09:53:46.476696"
+    },
+    {
+      "community_id": "board_of_deputies_uk",
+      "name": "Board of Deputies of British Jews",
+      "community_type": "jewish",
+      "countries": [
+        "UK"
+      ],
+      "description": "Primary representative body for British Jewish community. Established 1760. Democratically elected, cross-communal organization. 320+ Deputies representing synagogues and Jewish organizations.",
+      "membership": {
+        "deputies": 320,
+        "founded": 1760
+      },
+      "partnerships": [
+        "National Federation of Cypriots",
+        "Commonwealth Jewish Council"
+      ],
+      "integration_status": "integrated",
+      "siyem_channel": "professional",
+      "siyem_entity_role": null,
+      "notes": "Only democratically elected, cross-communal representative body.",
+      "timestamp": "2026-01-26T09:53:46.476699"
+    },
+    {
+      "community_id": "cyprus_jewish_community",
+      "name": "Cyprus Jewish Community",
+      "community_type": "jewish",
+      "countries": [
+        "Cyprus"
+      ],
+      "description": "Approximately 11,000 Jewish residents. Expatriates from Israel, Russia, UK, plus Ukrainian refugees. Five synagogues across Nicosia, Limassol, Larnaca, Ayia Napa.",
+      "membership": {
+        "size": 11000,
+        "synagogues": 5
+      },
+      "partnerships": [
+        "Commonwealth Jewish Council"
+      ],
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": null,
+      "notes": "Educational facilities and kosher services available.",
+      "timestamp": "2026-01-26T09:53:46.476703"
+    },
+    {
+      "community_id": "commonwealth_jewish_council",
+      "name": "Commonwealth Jewish Council",
+      "community_type": "jewish",
+      "countries": [
+        "UK",
+        "Cyprus",
+        "Global"
+      ],
+      "description": "Represents Jewish communities across Commonwealth nations, including Cyprus.",
+      "membership": null,
+      "partnerships": [
+        "Board of Deputies",
+        "National Federation of Cypriots"
+      ],
+      "integration_status": "integrated",
+      "siyem_channel": "professional",
+      "siyem_entity_role": null,
+      "notes": "Commonwealth-wide network.",
+      "timestamp": "2026-01-26T09:53:46.476706"
+    },
+    {
+      "community_id": "world_jewish_congress",
+      "name": "World Jewish Congress (WJC)",
+      "community_type": "jewish",
+      "countries": [
+        "Global"
+      ],
+      "description": "Primary international representative body. Convenes senior professionals from affiliated Jewish communities across dozens of countries. National Community Directors' Forum (NCDF).",
+      "membership": {
+        "countries": "dozens",
+        "scope": "global"
+      },
+      "partnerships": [],
+      "integration_status": "integrated",
+      "siyem_channel": "professional",
+      "siyem_entity_role": null,
+      "notes": "Programs: Combating antisemitism, Holocaust education, youth leadership (WJC Elevate).",
+      "timestamp": "2026-01-26T09:53:46.476709"
+    },
+    {
+      "community_id": "jewish_agency_israel",
+      "name": "The Jewish Agency for Israel",
+      "community_type": "jewish",
+      "countries": [
+        "Global"
+      ],
+      "description": "Operates in 65+ countries worldwide. Strengthens Jewish communities globally. Programs: Aliyah, Shlichut (Israeli emissaries), Partnership2Gether (city-to-city connections).",
+      "membership": {
+        "countries": 65,
+        "scope": "global"
+      },
+      "partnerships": [],
+      "integration_status": "integrated",
+      "siyem_channel": "professional",
+      "siyem_entity_role": null,
+      "notes": "Creates connections between diaspora communities and Israel.",
+      "timestamp": "2026-01-26T09:53:46.476712"
+    },
+    {
+      "community_id": "global_jewry",
+      "name": "Global Jewry",
+      "community_type": "jewish",
+      "countries": [
+        "Global"
+      ],
+      "description": "Connector and resource hub for Jewish organizations. Advisory board and organizational partners working across the diaspora.",
+      "membership": null,
+      "partnerships": [],
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": null,
+      "notes": "Resource hub for global Jewish network.",
+      "timestamp": "2026-01-26T09:53:46.476715"
+    },
+    {
+      "community_id": "mem_global",
+      "name": "Mem Global",
+      "community_type": "jewish",
+      "countries": [
+        "Global"
+      ],
+      "description": "Modern diaspora network. 800 community builders across 25+ countries. 72,205 program participants in 2025. Focus: Jewish young adults.",
+      "membership": {
+        "builders": 800,
+        "countries": 25,
+        "participants": 72205
+      },
+      "partnerships": [],
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": null,
+      "notes": "Moishe House and local community hubs. Young adult focus.",
+      "timestamp": "2026-01-26T09:53:46.476718"
+    },
+    {
+      "community_id": "ctca_uk",
+      "name": "Council of Turkish Cypriot Associations (CTCA) UK",
+      "community_type": "turkish_cypriot",
+      "countries": [
+        "UK"
+      ],
+      "description": "Britain's largest Turkish Cypriot umbrella organization. Established 1983. 300,000-strong community. 20+ member associations.",
+      "membership": {
+        "size": 300000,
+        "associations": 20,
+        "founded": 1983
+      },
+      "partnerships": [],
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": null,
+      "notes": "Annual Turkish Cypriot Cultural Festival. Century-long presence in UK (as of 2017).",
+      "timestamp": "2026-01-26T09:53:46.476721"
+    },
+    {
+      "community_id": "tcca_london",
+      "name": "Turkish Cypriot Community Association (TCCA)",
+      "community_type": "turkish_cypriot",
+      "countries": [
+        "UK"
+      ],
+      "description": "Multi-award-winning charity. Operating since 1976. Services: Turkish Cypriot, Turkish, Greek Cypriot, Kurdish speakers. Homecare, training, community facilities.",
+      "membership": {
+        "founded": 1976,
+        "care_packages": 1375,
+        "projects": 205,
+        "expenditure": 29000000
+      },
+      "partnerships": [],
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": null,
+      "notes": "TC Homecare provides culturally specific services. Turkish Cypriot Arts and Cultural Festival.",
+      "timestamp": "2026-01-26T09:53:46.476724"
+    },
+    {
+      "community_id": "hackney_cypriot_association",
+      "name": "Hackney Cypriot Association (HCA)",
+      "community_type": "multicultural",
+      "countries": [
+        "UK"
+      ],
+      "description": "Established 1976. Uniquely brings together Greek and Turkish-speaking Cypriots despite cultural tensions. Bilingual staff and volunteers. Recreational activities, Advice and Translation Office, health workshops.",
+      "membership": {
+        "founded": 1976,
+        "location": "Hackney, London"
+      },
+      "partnerships": [],
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": null,
+      "notes": "5 Balls Pond Road since 1982. Lunch club, film club, pop-up restaurant. Unites Greek and Turkish Cypriots.",
+      "timestamp": "2026-01-26T09:53:46.476727"
+    },
+    {
+      "community_id": "cypriot_jewish_cooperation",
+      "name": "UK Cypriot and Jewish Diasporas Cooperation",
+      "community_type": "multicultural",
+      "countries": [
+        "UK"
+      ],
+      "description": "Strong cooperative bonds between UK Cypriot and Jewish diasporas. Joint events at Commonwealth Heads of Government Meeting. Historical connections dating to Biblical times.",
+      "membership": null,
+      "partnerships": [
+        "Board of Deputies",
+        "National Federation of Cypriots",
+        "Commonwealth Jewish Council"
+      ],
+      "integration_status": "integrated",
+      "siyem_channel": "professional",
+      "siyem_entity_role": null,
+      "notes": "2018: 'A Celebration of Cypriot and Jewish Communities in the Commonwealth'. Strategic ties between Cyprus and Israel.",
+      "timestamp": "2026-01-26T09:53:46.476730"
+    },
+    {
+      "community_id": "cypriot_federation_diaspora_bonds",
+      "name": "Cypriot Federation Diaspora Bonds",
+      "community_type": "multicultural",
+      "countries": [
+        "UK"
+      ],
+      "description": "Cypriot Federation has built closer bonds with Jewish, Armenian, Kurdish, and Alevi diasporas in the UK.",
+      "membership": null,
+      "partnerships": [
+        "Jewish",
+        "Armenian",
+        "Kurdish",
+        "Alevi"
+      ],
+      "integration_status": "integrated",
+      "siyem_channel": "professional",
+      "siyem_entity_role": null,
+      "notes": "Multi-diaspora cooperation and partnerships.",
+      "timestamp": "2026-01-26T09:53:46.476733"
+    },
+    {
+      "community_id": "intrac_cyprus_civil_society",
+      "name": "INTRAC Cyprus Civil Society Strengthening",
+      "community_type": "multicultural",
+      "countries": [
+        "Cyprus"
+      ],
+      "description": "Research and capacity-building programs (2007-2011). Examined how Turkish Cypriot and Greek Cypriot civil society worked to promote trust, cooperation and reconciliation.",
+      "membership": null,
+      "partnerships": [
+        "Turkish Cypriot",
+        "Greek Cypriot"
+      ],
+      "integration_status": "integrated",
+      "siyem_channel": "educational",
+      "siyem_entity_role": null,
+      "notes": "Training workshops, technical assistance, dialoguing events. Resources on building trust and civil society development.",
+      "timestamp": "2026-01-26T09:53:46.476736"
+    },
+    {
+      "community_id": "uk_cypriot_professionals_network",
+      "name": "UK Cypriot Professionals Network",
+      "community_type": "professional",
+      "countries": [
+        "UK"
+      ],
+      "description": "Mentorship, networking opportunities, career development resources for Cypriot professionals across multiple industries.",
+      "membership": null,
+      "partnerships": [],
+      "integration_status": "integrated",
+      "siyem_channel": "professional",
+      "siyem_entity_role": null,
+      "notes": "Part of National Federation of Cypriots.",
+      "timestamp": "2026-01-26T09:53:46.476738"
+    }
+  ]
+}
