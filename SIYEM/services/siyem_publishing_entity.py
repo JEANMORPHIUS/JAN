@@ -62,6 +62,9 @@ class EntityRole(Enum):
     JEAN_CREATIVE = "jean_creative"  # Creative and stories
     PIERRE_DISCIPLINE = "pierre_discipline"  # Discipline and motivation
     SIYEM_SYSTEMS = "siyem_systems"  # Systems and infrastructure
+    EDIBLE_LONDON = "edible_london"  # Community food resilience
+    ILVEN_SEAMOSS = "ilven_seamoss"  # Traditional craft, sea moss
+    ATILOK = "atilok"  # E-commerce platform
 
 
 @dataclass
@@ -216,8 +219,14 @@ class SiyemPublishingEntity:
         self.channels = ChannelManager()
         self.legal_protection = LegalProtection()
         
+        # Entity paths
+        self.edible_london_path = jan_path / "EDIBLE_LONDON"
+        self.ilven_seamoss_path = jan_path / "ILVEN_SEAMOSS"
+        self.atilok_path = jan_path / "ATILOK"
+        
         # Initialize
         self._apply_governance_to_all_channels()
+        self._integrate_all_entities()
     
     def _apply_governance_to_all_channels(self):
         """Apply The Chosen One philosophy across all channels."""
@@ -237,6 +246,68 @@ class SiyemPublishingEntity:
         self.ramiz.skepticism_prepared = True
         
         logger.info("=" * 80)
+    
+    def _integrate_all_entities(self):
+        """Integrate all entities (Edible London, ILVEN, Atilok) into publishing system."""
+        logger.info("=" * 80)
+        logger.info("INTEGRATING ALL ENTITIES INTO SIYEM PUBLISHING")
+        logger.info("=" * 80)
+        
+        # Edible London
+        if self.edible_london_path.exists():
+            logger.info("\n[EDIBLE LONDON] Integrating...")
+            self._integrate_entity(self.edible_london_path, EntityRole.EDIBLE_LONDON, ChannelType.CHANNEL_1_PROFESSIONAL)
+        
+        # ILVEN Sea Moss
+        if self.ilven_seamoss_path.exists():
+            logger.info("\n[ILVEN SEAMOSS] Integrating...")
+            self._integrate_entity(self.ilven_seamoss_path, EntityRole.ILVEN_SEAMOSS, ChannelType.CHANNEL_2_CREATOR)
+        
+        # Atilok
+        if self.atilok_path.exists():
+            logger.info("\n[ATILOK] Integrating...")
+            self._integrate_entity(self.atilok_path, EntityRole.ATILOK, ChannelType.CHANNEL_1_PROFESSIONAL)
+        
+        logger.info("=" * 80)
+    
+    def _integrate_entity(self, entity_path: Path, entity_role: EntityRole, channel: ChannelType):
+        """Integrate an entity into the publishing system with governance."""
+        # Count content files
+        content_files = list(entity_path.rglob("*.md")) + list(entity_path.rglob("*.json"))
+        content_count = len(content_files)
+        
+        # Apply governance
+        if self.governance:
+            self.governance.confidentiality.protect_sensitive_intel(
+                f"{entity_role.value}_content",
+                InformationClass.RESTRICTED
+            )
+            self.governance.governance.issue_decree(
+                f"{entity_role.value} operates in governance mode",
+                entity_role.value
+            )
+        
+        # Add to channel
+        entity_data = {
+            "entity": entity_role.value,
+            "path": str(entity_path),
+            "content_files": content_count,
+            "channel": channel.value,
+            "governance_applied": True,
+            "protection_active": True,
+            "legal_foundation": "solid",
+            "they_cannot_do_anything": True,
+            "timestamp": datetime.now().isoformat()
+        }
+        
+        self.channels.add_to_channel(
+            channel,
+            f"{entity_role.value}_integration",
+            entity_data,
+            entity_role
+        )
+        
+        logger.info(f"  [INTEGRATED] {entity_role.value} - {content_count} files - Channel: {channel.value}")
     
     def protect_ramiz_content(self, content_id: str, content: Dict, content_type: str = "educational"):
         """Protect Ramiz content with maximum legal protection."""
@@ -289,6 +360,9 @@ class SiyemPublishingEntity:
             "siyem": {"path": self.siyem_path, "governance_applied": True},
             "jan": {"path": self.jan_path, "governance_applied": True},
             "ark": {"path": Path("s:\\ARK"), "governance_applied": False},
+            "edible_london": {"path": self.edible_london_path, "governance_applied": True},
+            "ilven_seamoss": {"path": self.ilven_seamoss_path, "governance_applied": True},
+            "atilok": {"path": self.atilok_path, "governance_applied": True},
         }
         
         # Scan SIYEM structure
@@ -298,6 +372,14 @@ class SiyemPublishingEntity:
         # Scan JAN projects
         jan_projects = self._scan_jan_projects()
         projects["jan"]["projects"] = jan_projects
+        
+        # Scan entity projects
+        if self.edible_london_path.exists():
+            projects["edible_london"]["content_files"] = len(list(self.edible_london_path.rglob("*.md")))
+        if self.ilven_seamoss_path.exists():
+            projects["ilven_seamoss"]["content_files"] = len(list(self.ilven_seamoss_path.rglob("*.md")))
+        if self.atilok_path.exists():
+            projects["atilok"]["content_files"] = len(list(self.atilok_path.rglob("*.md")))
         
         logger.info(f"\nProjects scanned: {len(projects)}")
         logger.info("=" * 80)
@@ -328,6 +410,8 @@ class SiyemPublishingEntity:
     
     def export_publishing_report(self, output_path: Path):
         """Export comprehensive publishing entity report."""
+        projects = self.scan_all_projects()
+        
         report = {
             "timestamp": datetime.now().isoformat(),
             "entity": "SIYEM Publishing Entity",
@@ -345,6 +429,29 @@ class SiyemPublishingEntity:
                 "channel_2_creator": len(self.channels.channel_2_creator),
                 "channel_3_educational": len(self.channels.channel_3_educational)
             },
+            "entities_integrated": {
+                "edible_london": {
+                    "integrated": self.edible_london_path.exists(),
+                    "channel": ChannelType.CHANNEL_1_PROFESSIONAL.value,
+                    "content_files": projects.get("edible_london", {}).get("content_files", 0),
+                    "governance_applied": True,
+                    "protection_active": True
+                },
+                "ilven_seamoss": {
+                    "integrated": self.ilven_seamoss_path.exists(),
+                    "channel": ChannelType.CHANNEL_2_CREATOR.value,
+                    "content_files": projects.get("ilven_seamoss", {}).get("content_files", 0),
+                    "governance_applied": True,
+                    "protection_active": True
+                },
+                "atilok": {
+                    "integrated": self.atilok_path.exists(),
+                    "channel": ChannelType.CHANNEL_1_PROFESSIONAL.value,
+                    "content_files": projects.get("atilok", {}).get("content_files", 0),
+                    "governance_applied": True,
+                    "protection_active": True
+                }
+            },
             "legal_protection": {
                 "protection_active": self.legal_protection.protection_active,
                 "skepticism_prepared": self.legal_protection.skepticism_prepared,
@@ -352,7 +459,7 @@ class SiyemPublishingEntity:
                 "they_cannot_do_anything": True
             },
             "governance_applied": True,
-            "projects_scanned": self.scan_all_projects()
+            "projects_scanned": projects
         }
         
         with open(output_path, 'w', encoding='utf-8') as f:

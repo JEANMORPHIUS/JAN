@@ -105,6 +105,30 @@ class GovernanceApplicator:
             logger.info("\n[ARK] Applying governance...")
             self._apply_project_governance(ARK_PATH, "ARK")
         
+        # Edible London
+        edible_london_path = JAN_PATH / "EDIBLE_LONDON"
+        if edible_london_path.exists():
+            logger.info("\n[EDIBLE LONDON] Applying governance...")
+            self._apply_project_governance(edible_london_path, "EDIBLE_LONDON")
+            # Apply to Channel 1 (Professional)
+            self._apply_channel_governance(ChannelType.CHANNEL_1_PROFESSIONAL)
+        
+        # ILVEN Sea Moss
+        ilven_path = JAN_PATH / "ILVEN_SEAMOSS"
+        if ilven_path.exists():
+            logger.info("\n[ILVEN SEAMOSS] Applying governance...")
+            self._apply_project_governance(ilven_path, "ILVEN_SEAMOSS")
+            # Apply to Channel 2 (Creator)
+            self._apply_channel_governance(ChannelType.CHANNEL_2_CREATOR)
+        
+        # Atilok
+        atilok_path = JAN_PATH / "ATILOK"
+        if atilok_path.exists():
+            logger.info("\n[ATILOK] Applying governance...")
+            self._apply_project_governance(atilok_path, "ATILOK")
+            # Apply to Channel 1 (Professional)
+            self._apply_channel_governance(ChannelType.CHANNEL_1_PROFESSIONAL)
+        
         logger.info("\n" + "=" * 80)
         logger.info("ALL PROJECTS - GOVERNANCE APPLIED")
         logger.info("=" * 80)

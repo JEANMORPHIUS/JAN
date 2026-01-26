@@ -1,0 +1,139 @@
+{
+  "timestamp": "2026-01-26T09:42:32.377944",
+  "entity": "SIYEM Publishing Entity",
+  "philosophy": "The Chosen One",
+  "ramiz_status": {
+    "humanitarian_content": 0,
+    "educational_content": 1,
+    "protection_active": true,
+    "skepticism_prepared": true,
+    "legal_foundation": "solid",
+    "they_cannot_do_anything": true
+  },
+  "channels": {
+    "channel_1_professional": 2,
+    "channel_2_creator": 1,
+    "channel_3_educational": 1
+  },
+  "entities_integrated": {
+    "edible_london": {
+      "integrated": true,
+      "channel": "professional",
+      "content_files": 14,
+      "governance_applied": true,
+      "protection_active": true
+    },
+    "ilven_seamoss": {
+      "integrated": true,
+      "channel": "creator",
+      "content_files": 19,
+      "governance_applied": true,
+      "protection_active": true
+    },
+    "atilok": {
+      "integrated": true,
+      "channel": "professional",
+      "content_files": 644,
+      "governance_applied": true,
+      "protection_active": true
+    }
+  },
+  "legal_protection": {
+    "protection_active": true,
+    "skepticism_prepared": true,
+    "legal_battles_logged": 0,
+    "they_cannot_do_anything": true
+  },
+  "governance_applied": true,
+  "projects_scanned": {
+    "siyem": {
+      "path": "s:\\SIYEM",
+      "governance_applied": true,
+      "structure": {
+        "00_CORE": {
+          "governance": "applied",
+          "clearance": "HOLY_OF_HOLIES"
+        },
+        "01_CONCEPT": {
+          "governance": "applied",
+          "clearance": "CABINET"
+        },
+        "02_PREPRODUCTION": {
+          "governance": "applied",
+          "clearance": "CABINET"
+        },
+        "03_PRODUCTION": {
+          "governance": "applied",
+          "clearance": "CABINET"
+        },
+        "04_POSTPRODUCTION": {
+          "governance": "applied",
+          "clearance": "CABINET"
+        },
+        "05_PUBLISHING": {
+          "governance": "applied",
+          "clearance": "CROWD"
+        },
+        "08_WEB_DEV": {
+          "governance": "applied",
+          "clearance": "CROWD"
+        }
+      }
+    },
+    "jan": {
+      "path": "s:\\JAN",
+      "governance_applied": true,
+      "projects": [
+        "admin-dashboard",
+        "ARCHIVE",
+        "ark",
+        "ATILOK",
+        "config",
+        "data",
+        "deploy",
+        "docs",
+        "EDIBLE_CYPRUS",
+        "EDIBLE_LONDON",
+        "examples",
+        "expansion",
+        "heritage-mobile-app",
+        "homeostasis-sentinel",
+        "ILVEN_SEAMOSS",
+        "JAN",
+        "jan-studio",
+        "LEGAL_ARCHIVE",
+        "logs",
+        "NotebookLM_Sync",
+        "output",
+        "pi-display",
+        "prompts",
+        "scripts",
+        "SIYEM",
+        "Siyem.org",
+        "styles",
+        "translations",
+        "web",
+        "world-history-app"
+      ]
+    },
+    "ark": {
+      "path": "s:\\ARK",
+      "governance_applied": false
+    },
+    "edible_london": {
+      "path": "s:\\JAN\\EDIBLE_LONDON",
+      "governance_applied": true,
+      "content_files": 14
+    },
+    "ilven_seamoss": {
+      "path": "s:\\JAN\\ILVEN_SEAMOSS",
+      "governance_applied": true,
+      "content_files": 19
+    },
+    "atilok": {
+      "path": "s:\\JAN\\ATILOK",
+      "governance_applied": true,
+      "content_files": 644
+    }
+  }
+}
