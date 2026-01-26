@@ -1,0 +1,81 @@
+{
+  "timestamp": "2026-01-26T15:46:36.660352",
+  "audits": {
+    "audit_20260126_154636": {
+      "audit_id": "audit_20260126_154636",
+      "timestamp": "2026-01-26T15:46:36.658544",
+      "frequency_mismatches": [
+        {
+          "mismatch_id": "freq_20260126_154636",
+          "mismatch_type": "system_immune_response",
+          "detected_at": "2026-01-26T15:46:36.658555",
+          "description": "Frequency mismatch detected - operating on different frequency than world system",
+          "context": "Entering new environment, feeling rejection",
+          "system_response": "atmospheric_shift",
+          "is_foreign_object": true,
+          "notes": "Rejection is system's immune response trying to expel foreign object, not personal failure"
+        }
+      ],
+      "thought_audits": [
+        {
+          "thought_id": "thought_20260126_154636",
+          "thought_content": "I'm a failure because of my past mistakes",
+          "detected_at": "2026-01-26T15:46:36.658571",
+          "origin": "accuser",
+          "accuser_indicators": [
+            "failure",
+            "past",
+            "mistake"
+          ],
+          "father_indicators": [],
+          "verdict": "reject",
+          "notes": "Entering new environment, feeling rejection"
+        },
+        {
+          "thought_id": "thought_20260126_154636",
+          "thought_content": "I am created for a purpose, my identity is secure",
+          "detected_at": "2026-01-26T15:46:36.658584",
+          "origin": "father",
+          "accuser_indicators": [],
+          "father_indicators": [
+            "identity",
+            "purpose",
+            "created"
+          ],
+          "verdict": "accept",
+          "notes": "Entering new environment, feeling rejection"
+        },
+        {
+          "thought_id": "thought_20260126_154636",
+          "thought_content": "I should have done better",
+          "detected_at": "2026-01-26T15:46:36.658594",
+          "origin": "accuser",
+          "accuser_indicators": [
+            "should have"
+          ],
+          "father_indicators": [],
+          "verdict": "reject",
+          "notes": "Entering new environment, feeling rejection"
+        }
+      ],
+      "counterfeit_attacks": [],
+      "command_decrees": [],
+      "naos_readings": [
+        {
+          "reading_id": "naos_20260126_154636",
+          "timestamp": "2026-01-26T15:46:36.658599",
+          "biological_discernment": "Cold knot in stomach",
+          "location": "stomach",
+          "frequency_detected": 0.85,
+          "intruder_detected": true,
+          "intruder_description": "Feeling of unease, potential sabotage",
+          "blessing_protected": false,
+          "notes": "Naos = mobile holy of holies, frequency in rib cage"
+        }
+      ],
+      "dna_sealed": true,
+      "incubation_protected": true,
+      "summary": "Frequency mismatches detected: 1. Thoughts audited: 3 (Rejected: 2, Accepted: 1). Naos readings: 1 (Intruders detected: 1). Revelation sealed. Physical mark: Written agreement. Incubation protected: 24 hours."
+    }
+  }
+}
