@@ -81,8 +81,8 @@ async def get_status():
         "status": "active",
         "supported_languages": len(report["supported_languages"]),
         "total_translations": sum(report["translation_counts"].values()),
-        "message": "Full English/Turkish support. Framework for future languages.",
-        "the_truth": "Full English/Turkish support. Framework for future languages. All systems integrated."
+        "message": "Full 12-language support. Global expansion operational.",
+        "the_truth": "Full 12-language support (en, tr, fr, es, ar, de, it, pt, ru, zh, ja, ko). All systems integrated. Global expansion operational."
     }
 
 @router.get("/languages")

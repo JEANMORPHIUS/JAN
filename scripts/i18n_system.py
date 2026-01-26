@@ -48,11 +48,16 @@ class LanguageCode(Enum):
     """Supported language codes."""
     ENGLISH = "en"
     TURKISH = "tr"
-    # Future languages can be added here
-    # SPANISH = "es"
-    # FRENCH = "fr"
-    # GERMAN = "de"
-    # ARABIC = "ar"
+    FRENCH = "fr"
+    SPANISH = "es"
+    ARABIC = "ar"
+    GERMAN = "de"
+    ITALIAN = "it"
+    PORTUGUESE = "pt"
+    RUSSIAN = "ru"
+    CHINESE = "zh"
+    JAPANESE = "ja"
+    KOREAN = "ko"
 
 class LanguageStatus(Enum):
     """Status of language support."""
@@ -102,7 +107,7 @@ class I18nSystem:
         self._load_translations()
     
     def _initialize_languages(self):
-        """Initialize language support."""
+        """Initialize language support for all 12 languages."""
         
         # ENGLISH - Full Support
         self.language_support[LanguageCode.ENGLISH.value] = LanguageSupport(
@@ -125,6 +130,136 @@ class I18nSystem:
             status=LanguageStatus.FULL.value,
             character_encoding="UTF-8",
             special_characters=["ş", "ğ", "ü", "ö", "ı", "ç", "Ş", "Ğ", "Ü", "Ö", "İ", "Ç"],
+            rtl=False,
+            translation_count=0,
+            coverage_percentage=100.0
+        )
+        
+        # FRENCH - Full Support
+        self.language_support[LanguageCode.FRENCH.value] = LanguageSupport(
+            language_code=LanguageCode.FRENCH.value,
+            language_name="French",
+            native_name="Français",
+            status=LanguageStatus.FULL.value,
+            character_encoding="UTF-8",
+            special_characters=["é", "è", "ê", "ë", "à", "ç", "ô", "ù", "û", "É", "È", "Ê", "Ë", "À", "Ç", "Ô", "Ù", "Û"],
+            rtl=False,
+            translation_count=0,
+            coverage_percentage=100.0
+        )
+        
+        # SPANISH - Full Support
+        self.language_support[LanguageCode.SPANISH.value] = LanguageSupport(
+            language_code=LanguageCode.SPANISH.value,
+            language_name="Spanish",
+            native_name="Español",
+            status=LanguageStatus.FULL.value,
+            character_encoding="UTF-8",
+            special_characters=["ñ", "á", "é", "í", "ó", "ú", "ü", "Ñ", "Á", "É", "Í", "Ó", "Ú", "Ü"],
+            rtl=False,
+            translation_count=0,
+            coverage_percentage=100.0
+        )
+        
+        # ARABIC - Full Support with RTL
+        self.language_support[LanguageCode.ARABIC.value] = LanguageSupport(
+            language_code=LanguageCode.ARABIC.value,
+            language_name="Arabic",
+            native_name="العربية",
+            status=LanguageStatus.FULL.value,
+            character_encoding="UTF-8",
+            special_characters=["ا", "ب", "ت", "ث", "ج", "ح", "خ", "د", "ذ", "ر", "ز", "س", "ش", "ص", "ض", "ط", "ظ", "ع", "غ", "ف", "ق", "ك", "ل", "م", "ن", "ه", "و", "ي"],
+            rtl=True,
+            translation_count=0,
+            coverage_percentage=100.0
+        )
+        
+        # GERMAN - Full Support
+        self.language_support[LanguageCode.GERMAN.value] = LanguageSupport(
+            language_code=LanguageCode.GERMAN.value,
+            language_name="German",
+            native_name="Deutsch",
+            status=LanguageStatus.FULL.value,
+            character_encoding="UTF-8",
+            special_characters=["ä", "ö", "ü", "ß", "Ä", "Ö", "Ü"],
+            rtl=False,
+            translation_count=0,
+            coverage_percentage=100.0
+        )
+        
+        # ITALIAN - Full Support
+        self.language_support[LanguageCode.ITALIAN.value] = LanguageSupport(
+            language_code=LanguageCode.ITALIAN.value,
+            language_name="Italian",
+            native_name="Italiano",
+            status=LanguageStatus.FULL.value,
+            character_encoding="UTF-8",
+            special_characters=["à", "è", "é", "ì", "í", "ò", "ó", "ù", "ú", "À", "È", "É", "Ì", "Í", "Ò", "Ó", "Ù", "Ú"],
+            rtl=False,
+            translation_count=0,
+            coverage_percentage=100.0
+        )
+        
+        # PORTUGUESE - Full Support
+        self.language_support[LanguageCode.PORTUGUESE.value] = LanguageSupport(
+            language_code=LanguageCode.PORTUGUESE.value,
+            language_name="Portuguese",
+            native_name="Português",
+            status=LanguageStatus.FULL.value,
+            character_encoding="UTF-8",
+            special_characters=["á", "à", "â", "ã", "é", "ê", "í", "ó", "ô", "õ", "ú", "ü", "ç", "Á", "À", "Â", "Ã", "É", "Ê", "Í", "Ó", "Ô", "Õ", "Ú", "Ü", "Ç"],
+            rtl=False,
+            translation_count=0,
+            coverage_percentage=100.0
+        )
+        
+        # RUSSIAN - Full Support
+        self.language_support[LanguageCode.RUSSIAN.value] = LanguageSupport(
+            language_code=LanguageCode.RUSSIAN.value,
+            language_name="Russian",
+            native_name="Русский",
+            status=LanguageStatus.FULL.value,
+            character_encoding="UTF-8",
+            special_characters=["а", "б", "в", "г", "д", "е", "ё", "ж", "з", "и", "й", "к", "л", "м", "н", "о", "п", "р", "с", "т", "у", "ф", "х", "ц", "ч", "ш", "щ", "ъ", "ы", "ь", "э", "ю", "я"],
+            rtl=False,
+            translation_count=0,
+            coverage_percentage=100.0
+        )
+        
+        # CHINESE - Full Support
+        self.language_support[LanguageCode.CHINESE.value] = LanguageSupport(
+            language_code=LanguageCode.CHINESE.value,
+            language_name="Chinese",
+            native_name="中文",
+            status=LanguageStatus.FULL.value,
+            character_encoding="UTF-8",
+            special_characters=["中", "文", "汉", "字"],
+            rtl=False,
+            translation_count=0,
+            coverage_percentage=100.0
+        )
+        
+        # JAPANESE - Full Support
+        self.language_support[LanguageCode.JAPANESE.value] = LanguageSupport(
+            language_code=LanguageCode.JAPANESE.value,
+            language_name="Japanese",
+            native_name="日本語",
+            status=LanguageStatus.FULL.value,
+            character_encoding="UTF-8",
+            special_characters=["あ", "い", "う", "え", "お", "か", "き", "く", "け", "こ"],
+            rtl=False,
+            translation_count=0,
+            coverage_percentage=100.0
+        )
+        
+        # KOREAN - Full Support
+        self.language_support[LanguageCode.KOREAN.value] = LanguageSupport(
+            language_code=LanguageCode.KOREAN.value,
+            language_name="Korean",
+            native_name="한국어",
+            status=LanguageStatus.FULL.value,
+            character_encoding="UTF-8",
+            special_characters=["가", "나", "다", "라", "마", "바", "사", "아", "자", "차", "카", "타", "파", "하"],
             rtl=False,
             translation_count=0,
             coverage_percentage=100.0

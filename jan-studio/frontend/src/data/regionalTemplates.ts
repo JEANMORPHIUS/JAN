@@ -147,6 +147,72 @@ export const REGIONAL_TEMPLATES: RegionalTemplate[] = [
     variables: ['주제', '톤', '분위기'],
     culturalContext: 'Korean emotional expression, vibration, feeling',
   },
+  
+  // Italian Templates
+  {
+    id: 'it-story-community',
+    name: 'Storia - Comunità e Unità',
+    description: 'Una storia sulla comunità e il ripristino dell\'unità',
+    language: 'it',
+    category: 'story',
+    content: 'Scrivi una storia su {{comunità}} che mostra come {{sfida}} è stata superata attraverso {{metodo}}. Concentrati sull\'unità e sul ripristino di {{tavolo}}.',
+    variables: ['comunità', 'sfida', 'metodo', 'tavolo'],
+    culturalContext: 'Italian community values, unity, restoration',
+  },
+  {
+    id: 'it-reflection-wisdom',
+    name: 'Riflessione - Saggezza Antica',
+    description: 'Una riflessione sulla saggezza antica e l\'unità',
+    language: 'it',
+    category: 'reflection',
+    content: 'Rifletti su come {{saggezza}} ha influenzato la tua vita. Condividi come {{metodo}} ti ha aiutato a trovare {{unità}} e perché {{importanza}} è importante.',
+    variables: ['saggezza', 'metodo', 'unità', 'importanza'],
+    culturalContext: 'Italian philosophy, ancient wisdom, unity',
+  },
+  
+  // Portuguese Templates
+  {
+    id: 'pt-story-journey',
+    name: 'História - Jornada Pessoal',
+    description: 'Uma história sobre transformação e jornada pessoal',
+    language: 'pt',
+    category: 'story',
+    content: 'Escreva uma história sobre {{tema}} que mostra a jornada de {{início}} para {{fim}}. Inclua momentos de {{desafio}} e {{transformação}}.',
+    variables: ['tema', 'início', 'fim', 'desafio', 'transformação'],
+    culturalContext: 'Portuguese storytelling, personal journey, transformation',
+  },
+  {
+    id: 'pt-educational-unity',
+    name: 'Educacional - Unidade e Restauração',
+    description: 'Conteúdo educacional sobre unidade e restauração',
+    language: 'pt',
+    category: 'educational',
+    content: 'Explique {{conceito}} no contexto de {{contexto}}. Foque em como se relaciona com {{conexão}} e por que {{importância}} é importante para a unidade.',
+    variables: ['conceito', 'contexto', 'conexão', 'importância'],
+    culturalContext: 'Portuguese educational content, unity, restoration',
+  },
+  
+  // Russian Templates
+  {
+    id: 'ru-reflection-spiritual',
+    name: 'Размышление - Духовное Путешествие',
+    description: 'Размышление о духовном путешествии и единстве',
+    language: 'ru',
+    category: 'reflection',
+    content: 'Размышляй о том, как {{тема}} повлияла на твою жизнь. Поделись, как {{метод}} помог тебе найти {{единство}} и почему {{важность}} важна.',
+    variables: ['тема', 'метод', 'единство', 'важность'],
+    culturalContext: 'Russian spirituality, unity, reflection',
+  },
+  {
+    id: 'ru-story-ancestral',
+    name: 'История - Предков Путь',
+    description: 'История о предковой мудрости и современном мире',
+    language: 'ru',
+    category: 'story',
+    content: 'Напиши историю о персонаже {{персонаж}}, который путешествует от {{начало}} к {{конец}}. Включи моменты {{вызов}} и {{преобразование}}.',
+    variables: ['персонаж', 'начало', 'конец', 'вызов', 'преобразование'],
+    culturalContext: 'Russian ancestral wisdom, transformation, journey',
+  },
 ];
 
 export function getTemplatesByLanguage(language: SupportedLanguage): RegionalTemplate[] {

@@ -132,8 +132,22 @@ async def generate_content(request: GenerationRequest) -> GenerationResponse:
             # Persona doesn't exist, but we'll still generate
             profile_content = f"# {request.persona}\n\nNo profile found. Using default settings."
         
-        # Step 2: Build generation prompt with persona context
-        generation_prompt = f"""Generate {request.output_type} content.
+        # Step 2: Extract language from options if provided
+        target_language = request.options.get('language', 'en')
+        if target_language not in ['en', 'tr', 'fr', 'es', 'ar', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko']:
+            target_language = 'en'  # Default to English if invalid
+        
+        # Step 3: Build generation prompt with persona context and language
+        language_instruction = ""
+        if target_language != 'en':
+            language_names = {
+                'tr': 'Turkish', 'fr': 'French', 'es': 'Spanish', 'ar': 'Arabic',
+                'de': 'German', 'it': 'Italian', 'pt': 'Portuguese', 'ru': 'Russian',
+                'zh': 'Chinese', 'ja': 'Japanese', 'ko': 'Korean'
+            }
+            language_instruction = f"\n\nIMPORTANT: Generate the content in {language_names.get(target_language, target_language)} language. All output should be in {language_names.get(target_language, target_language)}."
+        
+        generation_prompt = f"""Generate {request.output_type} content.{language_instruction}
 
 Persona: {request.persona}
 User Prompt: {request.prompt}
