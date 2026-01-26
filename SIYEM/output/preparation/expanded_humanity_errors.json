@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-01-26T11:24:48.299035",
+  "title": "Expanded Humanity Errors Documentation",
+  "total_errors": 5,
+  "errors": [
+    {
+      "error_id": "greed_over_generosity",
+      "title": "Greed Over Generosity",
+      "the_error": "We chose greed over generosity. We took instead of gave. We accumulated instead of shared.",
+      "the_correction": "Choose generosity. Give, don't take. Share, don't accumulate. The Table serves all.",
+      "impact": "Inequality. Scarcity. Loss of generosity."
+    },
+    {
+      "error_id": "pride_over_humility",
+      "title": "Pride Over Humility",
+      "the_error": "We chose pride over humility. We exalted ourselves instead of serving. We ruled instead of helped.",
+      "the_correction": "Choose humility. Serve, don't exalt. Help, don't rule. The Table is greater than any individual.",
+      "impact": "Arrogance. Oppression. Loss of humility."
+    },
+    {
+      "error_id": "hate_over_love",
+      "title": "Hate Over Love",
+      "the_error": "We chose hate over love. We hated instead of loved. We destroyed instead of built.",
+      "the_correction": "Choose love. Love, don't hate. Build, don't destroy. Love is the highest mastery.",
+      "impact": "Destruction. Division. Loss of love."
+    },
+    {
+      "error_id": "deception_over_honesty",
+      "title": "Deception Over Honesty",
+      "the_error": "We chose deception over honesty. We lied instead of told truth. We deceived instead of revealed.",
+      "the_correction": "Choose honesty. Truth, don't lie. Reveal, don't deceive. The table never lies.",
+      "impact": "Deception. Lies. Loss of honesty."
+    },
+    {
+      "error_id": "indifference_over_compassion",
+      "title": "Indifference Over Compassion",
+      "the_error": "We chose indifference over compassion. We ignored instead of helped. We turned away instead of reached out.",
+      "the_correction": "Choose compassion. Help, don't ignore. Reach out, don't turn away. We are all one.",
+      "impact": "Suffering. Isolation. Loss of compassion."
+    }
+  ]
+}

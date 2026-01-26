@@ -1,0 +1,121 @@
+{
+  "timestamp": "2026-01-26T11:24:48.305821",
+  "title": "People Education Curriculum - For When People Come Calling",
+  "status": "structure_created",
+  "curriculum_structure": {
+    "module_1_spiritual_governance": {
+      "title": "Module 1: Spiritual Governance",
+      "description": "Understanding the 30/70 principle, frequential governance, spiritual governance",
+      "lessons": [
+        "The 30/70 Principle",
+        "Stay Silent Until The Stage Is Ours",
+        "We Sense What Is Coming But Cannot Preach",
+        "Frequential Governance",
+        "Flip Our Understanding of the Matrix Algorithm"
+      ],
+      "duration": "5 lessons",
+      "multilingual": true
+    },
+    "module_2_political_sabotage": {
+      "title": "Module 2: Political Sabotage Exposed",
+      "description": "Understanding political sabotages - Moon Landing, Watergate, Bay of Pigs, Space, and more",
+      "lessons": [
+        "The Moon Landing Hoax",
+        "Watergate - Political Sabotage",
+        "Bay of Pigs - Political Sabotage",
+        "Space and Satellites - The Deception",
+        "JFK Assassination",
+        "9/11 Attacks",
+        "Iraq Wars",
+        "And More..."
+      ],
+      "duration": "10+ lessons",
+      "multilingual": true
+    },
+    "module_3_humanity_errors": {
+      "title": "Module 3: Humanity's Errors - Shown",
+      "description": "Understanding humanity's errors and how to correct them",
+      "lessons": [
+        "The Original Error - Separation from Earth",
+        "Belief Over Knowledge",
+        "Exploitation Over Stewardship",
+        "Control Over Service",
+        "Fear Over Love",
+        "Division Over Unity",
+        "Lies Over Truth",
+        "And More..."
+      ],
+      "duration": "10+ lessons",
+      "multilingual": true
+    },
+    "module_4_rivers_of_order": {
+      "title": "Module 4: The Rivers of the Order (Ordunun Dereleri)",
+      "description": "Understanding the 5 Rivers of the Order and how they flow",
+      "lessons": [
+        "River of Truth",
+        "River of Stewardship",
+        "River of Unity",
+        "River of Love",
+        "River of Governance",
+        "How The Rivers Flow Together"
+      ],
+      "duration": "6 lessons",
+      "multilingual": true
+    },
+    "module_5_ramiz_truth": {
+      "title": "Module 5: RAMIZ Truth Content",
+      "description": "Understanding RAMIZ's humanitarian battles and truth content",
+      "lessons": [
+        "Gaza - 2.3M people",
+        "Africa - 1.4B people",
+        "All People Under Lies - Billions",
+        "Lies Exposed",
+        "Truths Shared",
+        "Educational Messages"
+      ],
+      "duration": "30+ lessons",
+      "multilingual": true
+    },
+    "module_6_earth_nourishment": {
+      "title": "Module 6: Earth Nourishment",
+      "description": "Understanding Earth nourishment, organic fertilizers, stewardship",
+      "lessons": [
+        "Nourish The Earth As A Priority",
+        "Organic Fertilizer In Many Forms",
+        "Law of the Land",
+        "Man and Earth Live Symbiotically",
+        "Stewardship Principles"
+      ],
+      "duration": "5 lessons",
+      "multilingual": true
+    },
+    "module_7_the_table": {
+      "title": "Module 7: The Table Is Being Laid",
+      "description": "Understanding the complete system alignment - The Table",
+      "lessons": [
+        "RAMIZ - The Global Saviour",
+        "EDIBLE & ILVEN - The Nourishers",
+        "ATILOK - Business E-commerce, Gambling, Sporting",
+        "SIYEM MEDIA - News, Music",
+        "POLITICAL - Everything in Between",
+        "THE ARK - Secured",
+        "Connect The Dots",
+        "Align The Stars"
+      ],
+      "duration": "8 lessons",
+      "multilingual": true
+    }
+  },
+  "assessment_structure": {
+    "knowledge_assessment": "Test understanding of truth",
+    "application_assessment": "Test ability to apply principles",
+    "reflection_assessment": "Test self-reflection and correction",
+    "multilingual": true
+  },
+  "delivery_methods": {
+    "online": "When stage opens",
+    "offline": "Raspberry Pi kits",
+    "multilingual": "Turkish, English, Arabic, French, and more",
+    "accessible": "For all people, all backgrounds, all languages"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-01-26T11:24:48.285448",
+  "title": "Expanded Political Sabotages Documentation",
+  "total_sabotages": 5,
+  "sabotages": [
+    {
+      "sabotage_id": "vietnam_war",
+      "title": "Vietnam War - Political Sabotage",
+      "the_lie": "Vietnam War was necessary to stop communism. We were defending freedom.",
+      "the_truth": "Vietnam War was political sabotage. False justification. War for control. Millions died for lies.",
+      "evidence": [
+        "Gulf of Tonkin incident (fabricated)",
+        "False justification for war",
+        "Millions of deaths",
+        "Pattern of deception",
+        "War for control, not freedom"
+      ],
+      "people_deceived": {
+        "count": 200000000,
+        "description": "American people"
+      },
+      "impact": "Justified war. Created destruction. Maintained control. Hid the truth."
+    },
+    {
+      "sabotage_id": "iran_contra",
+      "title": "Iran-Contra Affair - Political Sabotage",
+      "the_lie": "Iran-Contra was a rogue operation. A few bad actors. The system worked.",
+      "the_truth": "Iran-Contra was systemic. It was the pattern, not the exception. The system is broken.",
+      "evidence": [
+        "Systemic corruption",
+        "Cover-up at highest levels",
+        "Pattern of political sabotage",
+        "Illegal arms deals",
+        "Contra funding"
+      ],
+      "people_deceived": {
+        "count": 200000000,
+        "description": "American people"
+      },
+      "impact": "Destroyed trust in government. Revealed systemic corruption. Showed the pattern."
+    },
+    {
+      "sabotage_id": "iraq_war_2003",
+      "title": "Iraq War 2003 - Political Sabotage",
+      "the_lie": "Iraq War was necessary. Saddam Hussein was a threat. We were liberating Iraq.",
+      "the_truth": "Iraq War was political sabotage. False justification. War for resources. Millions died for lies.",
+      "evidence": [
+        "No WMDs found",
+        "False intelligence",
+        "Political manipulation",
+        "War for oil",
+        "Millions of deaths"
+      ],
+      "people_deceived": {
+        "count": 8000000000,
+        "description": "All of humanity"
+      },
+      "impact": "Justified war. Created destruction. Maintained control. Hid the truth."
+    },
+    {
+      "sabotage_id": "libya_intervention",
+      "title": "Libya Intervention - Political Sabotage",
+      "the_lie": "Libya intervention was humanitarian. We were protecting civilians.",
+      "the_truth": "Libya intervention was political sabotage. False humanitarian justification. War for control.",
+      "evidence": [
+        "False humanitarian justification",
+        "War for control",
+        "Destruction of Libya",
+        "Pattern of deception",
+        "Political manipulation"
+      ],
+      "people_deceived": {
+        "count": 8000000000,
+        "description": "All of humanity"
+      },
+      "impact": "Justified war. Created destruction. Maintained control. Hid the truth."
+    },
+    {
+      "sabotage_id": "syria_intervention",
+      "title": "Syria Intervention - Political Sabotage",
+      "the_lie": "Syria intervention was necessary. We were fighting terrorism.",
+      "the_truth": "Syria intervention was political sabotage. False justification. War for control. Millions died for lies.",
+      "evidence": [
+        "False justification",
+        "War for control",
+        "Millions of deaths",
+        "Pattern of deception",
+        "Political manipulation"
+      ],
+      "people_deceived": {
+        "count": 8000000000,
+        "description": "All of humanity"
+      },
+      "impact": "Justified war. Created destruction. Maintained control. Hid the truth."
+    }
+  ]
+}
