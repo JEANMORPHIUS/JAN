@@ -68,10 +68,18 @@ class ContentItem:
     timestamp: str = field(default_factory=lambda: datetime.now().isoformat())
 
 
+class StrategyType(Enum):
+    """Yin Yang Strategy Type."""
+    YIN = "yin"  # Subtle, hidden, nourishing
+    YANG = "yang"  # Direct, visible, exposing
+    BOTH = "both"  # Routes based on content
+
+
 class UnifiedContentDistribution:
     """
     Unified Content Distribution System
     Routes all content from all integrated entities through SIYEM channels.
+    Yin Yang principle integrated - Divide and Conquer.
     """
     
     def __init__(self, siyem_path: Path, jan_path: Path, output_dir: Path):
@@ -94,8 +102,32 @@ class UnifiedContentDistribution:
         self.social_content_path = jan_path / "data" / "2026_social_content"
         self.bilingual_content_path = jan_path / "SIYEM" / "output" / "bilingual_content"
         
+        # Yin Yang entity strategy mapping
+        self.entity_strategies = {
+            "edible_london": StrategyType.YIN,
+            "ilven_seamoss": StrategyType.YIN,
+            "atilok": StrategyType.YIN,
+            "ramiz": StrategyType.YANG,
+            "uncle_ray_ramiz": StrategyType.YANG,
+            "karasahin": StrategyType.YANG,
+            "jean": StrategyType.YANG,
+            "jean_morphius": StrategyType.YANG,
+            "pierre": StrategyType.YANG,
+            "pierre_pressure": StrategyType.YANG,
+            "siyem_media": StrategyType.BOTH,
+            "siyem": StrategyType.BOTH
+        }
+        
+        # Yin Yang channel strategy mapping
+        self.channel_strategies = {
+            ChannelType.CHANNEL_1_PROFESSIONAL: StrategyType.YIN,
+            ChannelType.CHANNEL_2_CREATOR: StrategyType.YANG,
+            ChannelType.CHANNEL_3_EDUCATIONAL: StrategyType.YANG
+        }
+        
         logger.info("=" * 80)
         logger.info("UNIFIED CONTENT DISTRIBUTION SYSTEM - INITIALIZED")
+        logger.info("YIN YANG PRINCIPLE - ACTIVE")
         logger.info("=" * 80)
     
     def discover_all_content(self):
@@ -277,19 +309,44 @@ class UnifiedContentDistribution:
                 return part.lower()
         return "unknown"
     
-    def _determine_channel_for_entity(self, entity_name: str) -> ChannelType:
-        """Determine appropriate channel for entity."""
+    def _determine_strategy_for_entity(self, entity_name: str) -> StrategyType:
+        """Determine Yin Yang strategy for entity."""
         entity_lower = entity_name.lower()
+        return self.entity_strategies.get(entity_lower, StrategyType.BOTH)
+    
+    def _determine_channel_for_entity(self, entity_name: str) -> ChannelType:
+        """Determine appropriate channel for entity with Yin Yang routing."""
+        entity_lower = entity_name.lower()
+        strategy = self._determine_strategy_for_entity(entity_name)
         
-        # Channel 1 (Professional)
+        # YIN entities route to Channel 1 (Professional) or Internal
+        if strategy == StrategyType.YIN:
+            if entity_lower in ["edible_london", "atilok"]:
+                return ChannelType.CHANNEL_1_PROFESSIONAL
+            if entity_lower in ["ilven_seamoss"]:
+                return ChannelType.CHANNEL_2_CREATOR  # But with YIN strategy
+        
+        # YANG entities route to Channel 2 (Creator) or Channel 3 (Educational)
+        if strategy == StrategyType.YANG:
+            if entity_lower in ["ramiz", "uncle_ray_ramiz"]:
+                return ChannelType.CHANNEL_3_EDUCATIONAL
+            if entity_lower in ["karasahin", "jean", "jean_morphius", "pierre", "pierre_pressure"]:
+                return ChannelType.CHANNEL_2_CREATOR
+        
+        # BOTH entities route based on content
+        if strategy == StrategyType.BOTH:
+            # Default routing for SIYEM
+            return ChannelType.CHANNEL_1_PROFESSIONAL
+        
+        # Channel 1 (Professional) - YIN
         if entity_lower in ["edible_london", "atilok", "siyem"]:
             return ChannelType.CHANNEL_1_PROFESSIONAL
         
-        # Channel 2 (Creator)
+        # Channel 2 (Creator) - YANG
         if entity_lower in ["ilven_seamoss", "karasahin", "jean", "pierre"]:
             return ChannelType.CHANNEL_2_CREATOR
         
-        # Channel 3 (Educational - RAMIZ)
+        # Channel 3 (Educational - RAMIZ) - YANG
         if entity_lower in ["ramiz", "uncle_ray_ramiz"]:
             return ChannelType.CHANNEL_3_EDUCATIONAL
         
@@ -336,9 +393,9 @@ class UnifiedContentDistribution:
         return None
     
     def route_content_to_channels(self):
-        """Route all discovered content to appropriate channels."""
+        """Route all discovered content to appropriate channels with Yin Yang routing."""
         logger.info("=" * 80)
-        logger.info("ROUTING CONTENT TO CHANNELS")
+        logger.info("ROUTING CONTENT TO CHANNELS - YIN YANG ACTIVE")
         logger.info("=" * 80)
         
         if not self.publishing_entity:
@@ -346,10 +403,16 @@ class UnifiedContentDistribution:
             return
         
         routed_count = 0
+        yin_count = 0
+        yang_count = 0
+        both_count = 0
         
         for content_item in self.content_queue:
             try:
-                # Route to channel
+                # Determine strategy
+                strategy = self._determine_strategy_for_entity(content_item.entity)
+                
+                # Route to channel with Yin Yang metadata
                 content_data = {
                     "content_id": content_item.content_id,
                     "entity": content_item.entity,
@@ -360,6 +423,8 @@ class UnifiedContentDistribution:
                     "languages": content_item.languages,
                     "scheduled_time": content_item.scheduled_time.isoformat() if content_item.scheduled_time else None,
                     "metadata": content_item.metadata,
+                    "yin_yang_strategy": strategy.value,
+                    "channel_strategy": self.channel_strategies.get(content_item.channel, StrategyType.BOTH).value,
                     "routed_timestamp": datetime.now().isoformat()
                 }
                 
@@ -377,10 +442,22 @@ class UnifiedContentDistribution:
                 self.distributed_content.append(content_item)
                 routed_count += 1
                 
+                # Count by strategy
+                if strategy == StrategyType.YIN:
+                    yin_count += 1
+                elif strategy == StrategyType.YANG:
+                    yang_count += 1
+                else:
+                    both_count += 1
+                
             except Exception as e:
                 logger.warning(f"Could not route {content_item.content_id}: {e}")
         
         logger.info(f"\nRouted {routed_count} content items to channels")
+        logger.info(f"YIN Strategy: {yin_count} items")
+        logger.info(f"YANG Strategy: {yang_count} items")
+        logger.info(f"BOTH Strategy: {both_count} items")
+        logger.info("Yin Yang routing active - Divide and Conquer operational")
         logger.info("=" * 80)
     
     def _get_entity_role(self, entity_name: str) -> EntityRole:

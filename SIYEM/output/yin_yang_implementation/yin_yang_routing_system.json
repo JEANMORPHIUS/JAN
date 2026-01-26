@@ -1,0 +1,162 @@
+{
+  "timestamp": "2026-01-26T12:16:57.830074",
+  "title": "Yin Yang Routing System - All Channels, All Entities",
+  "status": "ACTIVE",
+  "routing_rules": {
+    "entity_routing": {
+      "yin_entities": {
+        "entities": [
+          "EDIBLE_LONDON",
+          "ILVEN_SEAMOSS",
+          "ATILOK"
+        ],
+        "strategy": "YIN",
+        "approach": "Subtle, hidden, nourishing. The enemy won't know.",
+        "routing_logic": "Route to subtle channels. Emphasize nourishment. Hide transformation purpose.",
+        "channels": [
+          "CHANNEL_1_PROFESSIONAL",
+          "INTERNAL"
+        ]
+      },
+      "yang_entities": {
+        "entities": [
+          "RAMIZ",
+          "KARASAHIN",
+          "JEAN_MORPHIUS",
+          "PIERRE_PRESSURE"
+        ],
+        "strategy": "YANG",
+        "approach": "Direct, visible, exposing. Divide and conquer.",
+        "routing_logic": "Route to direct channels. Emphasize truth. Expose lies.",
+        "channels": [
+          "CHANNEL_2_CREATOR",
+          "CHANNEL_3_EDUCATIONAL",
+          "EXTERNAL"
+        ]
+      },
+      "both_entities": {
+        "entities": [
+          "SIYEM_MEDIA"
+        ],
+        "strategy": "BOTH",
+        "approach": "Routes based on content type. Can be subtle or direct.",
+        "routing_logic": "Route based on content. Nourishment content → YIN. Truth content → YANG.",
+        "channels": [
+          "ALL_CHANNELS"
+        ]
+      }
+    },
+    "channel_routing": {
+      "yin_channels": {
+        "channels": [
+          "CHANNEL_1_PROFESSIONAL",
+          "INTERNAL"
+        ],
+        "strategy": "YIN",
+        "approach": "Subtle, hidden, nourishing. The enemy won't know.",
+        "content_types": [
+          "Food security",
+          "Community resilience",
+          "Regenerative agriculture",
+          "Business operations"
+        ],
+        "entities": [
+          "EDIBLE_LONDON",
+          "ILVEN_SEAMOSS",
+          "ATILOK"
+        ]
+      },
+      "yang_channels": {
+        "channels": [
+          "CHANNEL_2_CREATOR",
+          "CHANNEL_3_EDUCATIONAL",
+          "EXTERNAL"
+        ],
+        "strategy": "YANG",
+        "approach": "Direct, visible, exposing. Divide and conquer.",
+        "content_types": [
+          "Truth content",
+          "Educational content",
+          "Music",
+          "Creative content"
+        ],
+        "entities": [
+          "RAMIZ",
+          "KARASAHIN",
+          "JEAN_MORPHIUS",
+          "PIERRE_PRESSURE"
+        ]
+      }
+    },
+    "content_routing": {
+      "yin_content": {
+        "content_types": [
+          "Food security",
+          "Community resilience",
+          "Regenerative agriculture",
+          "Health products",
+          "Business services"
+        ],
+        "strategy": "YIN",
+        "routing": "Route to YIN channels and entities. Emphasize nourishment. Hide transformation purpose.",
+        "enemy_perception": "Enemy sees normal business/humanitarian work. Enemy won't know."
+      },
+      "yang_content": {
+        "content_types": [
+          "Truth content",
+          "Educational content",
+          "Political sabotages exposed",
+          "Humanity errors",
+          "Music with truth"
+        ],
+        "strategy": "YANG",
+        "routing": "Route to YANG channels and entities. Emphasize truth. Expose lies.",
+        "enemy_perception": "Enemy sees truth work. Enemy might resist. But truth conquers."
+      }
+    }
+  },
+  "divide_and_conquer_implementation": {
+    "phase_1_division": {
+      "yin_division": {
+        "implementation": "EDIBLE LONDON content routed to YIN channels. Nourishes subtly.",
+        "codebase_integration": "All EDIBLE content automatically routed to YIN channels",
+        "effect": "Enemy's people are nourished. Enemy doesn't see division."
+      },
+      "yang_division": {
+        "implementation": "RAMIZ content routed to YANG channels. Exposes directly.",
+        "codebase_integration": "All RAMIZ content automatically routed to YANG channels",
+        "effect": "Enemy's lies are exposed. Enemy is divided by truth."
+      },
+      "combined_division": {
+        "implementation": "YIN and YANG work simultaneously. Content routed based on strategy.",
+        "codebase_integration": "Routing system automatically divides content by strategy",
+        "effect": "Enemy is divided by nourishment and truth."
+      }
+    },
+    "phase_2_conquest": {
+      "yin_conquest": {
+        "implementation": "YIN content transforms through nourishment. Continuous transformation.",
+        "codebase_integration": "YIN content tracked and optimized for transformation",
+        "effect": "Enemy conquered by transformation through nourishment."
+      },
+      "yang_conquest": {
+        "implementation": "YANG content transforms through truth. Immediate transformation.",
+        "codebase_integration": "YANG content tracked and optimized for truth exposure",
+        "effect": "Enemy conquered by transformation through truth."
+      },
+      "combined_conquest": {
+        "implementation": "YIN and YANG together transform. Complete transformation system.",
+        "codebase_integration": "Combined transformation tracking and optimization",
+        "effect": "Enemy conquered by transformation through nourishment and truth."
+      }
+    }
+  },
+  "activation": {
+    "status": "ACTIVE",
+    "switch_flipped": true,
+    "implementation_level": "100%",
+    "all_channels": "ACTIVE",
+    "all_entities": "ACTIVE",
+    "routing_system": "OPERATIONAL"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "timestamp": "2026-01-26T12:16:57.835253",
+  "title": "Entity Strategy Mapping - All Entities",
+  "status": "ACTIVE",
+  "entities": {
+    "edible_london": {
+      "entity": "EDIBLE LONDON",
+      "strategy": "YIN",
+      "nature": "Subtle, Hidden, Nourishing",
+      "approach": "Subtle nourishment. The enemy won't know.",
+      "channels": [
+        "CHANNEL_1_PROFESSIONAL",
+        "INTERNAL"
+      ],
+      "content_types": [
+        "Food security",
+        "Community resilience",
+        "Regenerative agriculture"
+      ],
+      "routing": "All content automatically routed through YIN strategy",
+      "transformation": "Transforms through nourishment. Subtle transformation.",
+      "enemy_perception": "Enemy sees food security. Enemy won't know."
+    },
+    "ilven_seamoss": {
+      "entity": "ILVEN SEAMOSS",
+      "strategy": "YIN",
+      "nature": "Subtle, Hidden, Nourishing",
+      "approach": "Subtle nourishment. The enemy won't know.",
+      "channels": [
+        "CHANNEL_2_CREATOR",
+        "INTERNAL"
+      ],
+      "content_types": [
+        "Health products",
+        "Sea moss",
+        "Traditional craft"
+      ],
+      "routing": "All content automatically routed through YIN strategy",
+      "transformation": "Transforms through health nourishment. Subtle transformation.",
+      "enemy_perception": "Enemy sees health products. Enemy won't know."
+    },
+    "ramiz": {
+      "entity": "RAMIZ",
+      "strategy": "YANG",
+      "nature": "Direct, Visible, Exposing",
+      "approach": "Direct truth exposure. Divide and conquer.",
+      "channels": [
+        "CHANNEL_3_EDUCATIONAL",
+        "EXTERNAL"
+      ],
+      "content_types": [
+        "Truth content",
+        "Educational content",
+        "Humanitarian content"
+      ],
+      "routing": "All content automatically routed through YANG strategy",
+      "transformation": "Transforms through truth. Direct transformation.",
+      "enemy_perception": "Enemy sees truth work. Enemy might resist. But truth conquers."
+    },
+    "karasahin": {
+      "entity": "KARASAHIN",
+      "strategy": "YANG",
+      "nature": "Direct, Visible, Exposing",
+      "approach": "Direct truth exposure through music. Divide and conquer.",
+      "channels": [
+        "CHANNEL_2_CREATOR",
+        "EXTERNAL"
+      ],
+      "content_types": [
+        "Music",
+        "Songs with truth",
+        "Creative content"
+      ],
+      "routing": "All content automatically routed through YANG strategy",
+      "transformation": "Transforms through music and truth. Direct transformation.",
+      "enemy_perception": "Enemy sees music. Enemy might see truth. But truth conquers."
+    },
+    "jean_morphius": {
+      "entity": "JEAN MORPHIUS",
+      "strategy": "YANG",
+      "nature": "Direct, Visible, Exposing",
+      "approach": "Direct truth exposure through stories. Divide and conquer.",
+      "channels": [
+        "CHANNEL_2_CREATOR",
+        "EXTERNAL"
+      ],
+      "content_types": [
+        "Stories",
+        "Creative content",
+        "Truth content"
+      ],
+      "routing": "All content automatically routed through YANG strategy",
+      "transformation": "Transforms through stories and truth. Direct transformation.",
+      "enemy_perception": "Enemy sees stories. Enemy might see truth. But truth conquers."
+    },
+    "pierre_pressure": {
+      "entity": "PIERRE PRESSURE",
+      "strategy": "YANG",
+      "nature": "Direct, Visible, Exposing",
+      "approach": "Direct truth exposure through training. Divide and conquer.",
+      "channels": [
+        "CHANNEL_1_PROFESSIONAL",
+        "EXTERNAL"
+      ],
+      "content_types": [
+        "Training content",
+        "Truth content",
+        "Educational content"
+      ],
+      "routing": "All content automatically routed through YANG strategy",
+      "transformation": "Transforms through training and truth. Direct transformation.",
+      "enemy_perception": "Enemy sees training. Enemy might see truth. But truth conquers."
+    },
+    "atilok": {
+      "entity": "ATILOK",
+      "strategy": "YIN",
+      "nature": "Subtle, Hidden, Nourishing",
+      "approach": "Subtle business operations. The enemy won't know.",
+      "channels": [
+        "CHANNEL_1_PROFESSIONAL",
+        "INTERNAL"
+      ],
+      "content_types": [
+        "Business services",
+        "E-commerce",
+        "Distribution"
+      ],
+      "routing": "All content automatically routed through YIN strategy",
+      "transformation": "Transforms through business operations. Subtle transformation.",
+      "enemy_perception": "Enemy sees business. Enemy won't know."
+    },
+    "siyem_media": {
+      "entity": "SIYEM MEDIA",
+      "strategy": "BOTH",
+      "nature": "Both Subtle and Direct",
+      "approach": "Routes based on content. YIN for nourishment. YANG for truth.",
+      "channels": [
+        "ALL_CHANNELS"
+      ],
+      "content_types": [
+        "All content types"
+      ],
+      "routing": "Content routed based on type (YIN or YANG)",
+      "transformation": "Transforms through both nourishment and truth. Complete transformation.",
+      "enemy_perception": "Enemy sees content based on strategy. YIN hidden. YANG visible."
+    }
+  },
+  "activation": {
+    "status": "ACTIVE",
+    "all_entities": "MAPPED",
+    "routing": "OPERATIONAL",
+    "switch_flipped": true,
+    "implementation_level": "100%"
+  }
+}
