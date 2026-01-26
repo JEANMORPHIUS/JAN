@@ -78,6 +78,42 @@
   .input {
     width: 100% !important;
   }
+  
+  /* Generation form - stack output types */
+  .output-types-grid {
+    grid-template-columns: 1fr !important;
+  }
+  
+  /* History panel - full width filters */
+  .history-filters {
+    flex-direction: column !important;
+  }
+  
+  /* Persona list - full width cards */
+  .persona-card {
+    width: 100% !important;
+  }
+  
+  /* Modal adjustments */
+  .modal,
+  [role="dialog"] {
+    width: 95vw !important;
+    max-width: 95vw !important;
+    left: 2.5vw !important;
+    transform: none !important;
+  }
+  
+  /* Touch-friendly spacing */
+  button, a, [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 0.75rem 1rem;
+  }
+  
+  /* Better text sizing */
+  h1 { font-size: 1.5rem !important; }
+  h2 { font-size: 1.25rem !important; }
+  h3 { font-size: 1.1rem !important; }
 }
 
 /* Tablet: 768px - 1024px */

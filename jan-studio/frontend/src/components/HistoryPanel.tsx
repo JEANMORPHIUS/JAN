@@ -127,6 +127,56 @@ export default function HistoryPanel({ onSelectHistory, onCompare, currentResult
       onCompare(selectedEntries);
     }
   };
+  
+  const handleBulkDelete = () => {
+    if (selectedIds.size === 0) {
+      alert('Select entries to delete');
+      return;
+    }
+    
+    if (confirm(`Delete ${selectedIds.size} selected entries?`)) {
+      // Remove from localStorage
+      try {
+        const stored = localStorage.getItem('jan-generation-history');
+        if (stored) {
+          const history = JSON.parse(stored);
+          const filtered = history.filter((entry: HistoryEntry) => !selectedIds.has(entry.id));
+          localStorage.setItem('jan-generation-history', JSON.stringify(filtered));
+          setSelectedIds(new Set());
+          refetch();
+        }
+      } catch (err) {
+        console.error('Failed to delete entries:', err);
+        alert('Failed to delete entries');
+      }
+    }
+  };
+  
+  const handleBulkExport = () => {
+    if (selectedIds.size === 0) {
+      alert('Select entries to export');
+      return;
+    }
+    
+    const selectedEntries = history.filter(entry => selectedIds.has(entry.id));
+    const exportData = selectedEntries.map(entry => ({
+      persona: entry.persona,
+      prompt: entry.prompt,
+      output_type: entry.output_type,
+      content: entry.content,
+      timestamp: entry.timestamp,
+    }));
+    
+    const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `jan-history-export-${new Date().toISOString().slice(0, 10)}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  };
 
   const formatDate = (timestamp: string) => {
     try {
@@ -144,17 +194,45 @@ export default function HistoryPanel({ onSelectHistory, onCompare, currentResult
 
   return (
     <div className="card">
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-        <h2>Generation History</h2>
-        {selectedIds.size >= 2 && (
-          <button
-            className="button"
-            onClick={handleCompare}
-            style={{ padding: '0.5rem 1rem', fontSize: '0.875rem' }}
-            aria-label={`Compare ${selectedIds.size} entries`}
-          >
-            Compare ({selectedIds.size})
-          </button>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '0.5rem' }}>
+        <h2 style={{ margin: 0 }}>Generation History</h2>
+        {selectedIds.size > 0 && (
+          <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+            {selectedIds.size >= 2 && (
+              <button
+                className="button"
+                onClick={handleCompare}
+                style={{ padding: '0.5rem 1rem', fontSize: '0.875rem' }}
+                aria-label={`Compare ${selectedIds.size} entries`}
+              >
+                Compare ({selectedIds.size})
+              </button>
+            )}
+            <button
+              className="button"
+              onClick={handleBulkExport}
+              style={{ padding: '0.5rem 1rem', fontSize: '0.875rem', backgroundColor: '#0070f3' }}
+              aria-label={`Export ${selectedIds.size} entries`}
+            >
+              Export ({selectedIds.size})
+            </button>
+            <button
+              className="button"
+              onClick={handleBulkDelete}
+              style={{ padding: '0.5rem 1rem', fontSize: '0.875rem', backgroundColor: '#d32f2f' }}
+              aria-label={`Delete ${selectedIds.size} entries`}
+            >
+              Delete ({selectedIds.size})
+            </button>
+            <button
+              className="button"
+              onClick={() => setSelectedIds(new Set())}
+              style={{ padding: '0.5rem 1rem', fontSize: '0.875rem', backgroundColor: '#666' }}
+              aria-label="Clear selection"
+            >
+              Clear
+            </button>
+          </div>
         )}
       </div>
       
