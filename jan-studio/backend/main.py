@@ -624,6 +624,16 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"Ottoman Generational Timeline API error: {e}")
 
+# SUPERPOWER DEBUNKING AND THE FATHER'S HAND API: Debunk current superpowers, offer The Father's Hand
+try:
+    from superpower_debunking_api import router as superpower_debunking_router
+    app.include_router(superpower_debunking_router)
+    logger.info("Superpower Debunking and The Father's Hand API enabled - Debunk current world stage superpowers, offer The Father's Hand as divine alternative, all roads lead to The Table")
+except ImportError as e:
+    logger.warning(f"Superpower Debunking API not available: {e}")
+except Exception as e:
+    logger.warning(f"Superpower Debunking API error: {e}")
+
 # PUBLISHING HOUSE API: Siyem Publishing House Operations
 try:
     from publishing_house_api import router as publishing_house_router
