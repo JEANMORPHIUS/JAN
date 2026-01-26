@@ -23,6 +23,7 @@ import { VirtualizedList } from './VirtualizedList';
 import { useGenerationHistory, useSaveToHistory } from '@/hooks/useGenerationHistory';
 import LoadingState from './LoadingState';
 import { useI18n } from '@/contexts/I18nContext';
+import { formatDateRegional, formatTimeRegional } from '@/utils/regionalFormats';
 
 export interface HistoryEntry extends GenerationResult {
   id: string;
@@ -47,9 +48,6 @@ export default function HistoryPanel({ onSelectHistory, onCompare, currentResult
   // Use React Query for data fetching
   const { data: history = [], isLoading: loading, error: queryError, refetch } = useGenerationHistory();
   const saveToHistoryMutation = useSaveToHistory();
-  
-  // Import regional formatting utilities
-  const { formatDateRegional, formatTimeRegional } = require('@/utils/regionalFormats');
 
   useEffect(() => {
     if (currentResult) {
