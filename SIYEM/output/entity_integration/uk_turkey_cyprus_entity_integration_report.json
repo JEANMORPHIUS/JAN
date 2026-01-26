@@ -1,0 +1,373 @@
+{
+  "timestamp": "2026-01-26T09:47:53.963323",
+  "title": "UK-Turkey-Cyprus Aligned Entities Integration Report",
+  "total_entities": 21,
+  "integrated_entities": 21,
+  "entities_by_category": {
+    "social_media": 3,
+    "media_broadcasting": 3,
+    "sports": 3,
+    "music_creative": 3,
+    "tv_streaming": 0,
+    "governance_diplomatic": 2,
+    "business_tech": 3,
+    "diaspora": 3,
+    "advocacy": 1
+  },
+  "entities_by_country": {
+    "UK": 14,
+    "Turkey": 7,
+    "Cyprus": 10
+  },
+  "entities_by_channel": {
+    "professional": 9,
+    "creator": 11,
+    "educational": 1
+  },
+  "entities": [
+    {
+      "entity_id": "meta_platforms",
+      "name": "Meta (Facebook, Instagram, Threads)",
+      "category": "social_media",
+      "countries": [
+        "UK",
+        "Turkey",
+        "Cyprus"
+      ],
+      "description": "Major social media platform active across all markets. 91.8% compliance with Turkish government requests (2024).",
+      "reach": {
+        "users": "billions",
+        "markets": 3
+      },
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": null,
+      "notes": "Under pressure from Turkish state censorship. Competition authority investigation (March 2024).",
+      "timestamp": "2026-01-26T09:47:53.962523"
+    },
+    {
+      "entity_id": "tiktok",
+      "name": "TikTok",
+      "category": "social_media",
+      "countries": [
+        "UK",
+        "Turkey",
+        "Cyprus"
+      ],
+      "description": "91.8% compliance rate with Turkish government removal requests (2024).",
+      "reach": {
+        "users": "millions",
+        "markets": 3
+      },
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": null,
+      "notes": "",
+      "timestamp": "2026-01-26T09:47:53.962529"
+    },
+    {
+      "entity_id": "trnc_presidency_social",
+      "name": "TRNC Presidency Social Media",
+      "category": "social_media",
+      "countries": [
+        "Cyprus"
+      ],
+      "description": "English-language social media service. Facebook, X, Instagram presence. Active UK media engagement.",
+      "reach": null,
+      "integration_status": "integrated",
+      "siyem_channel": "professional",
+      "siyem_entity_role": null,
+      "notes": "Times Radio interviews. Government communications.",
+      "timestamp": "2026-01-26T09:47:53.962532"
+    },
+    {
+      "entity_id": "freely_everyone_tv",
+      "name": "Freely (Everyone TV)",
+      "category": "media_broadcasting",
+      "countries": [
+        "UK"
+      ],
+      "description": "BBC, ITV, Channel 4, Channel 5 collaboration. 20 million users, 100 million devices, 170 channels.",
+      "reach": {
+        "users": 20000000,
+        "devices": 100000000,
+        "channels": 170
+      },
+      "integration_status": "integrated",
+      "siyem_channel": "professional",
+      "siyem_entity_role": null,
+      "notes": "Fastest-growing TV platform (2025). Partnerships: Warner Bros. Discovery, CNN.",
+      "timestamp": "2026-01-26T09:47:53.962534"
+    },
+    {
+      "entity_id": "olay_gazetesi",
+      "name": "Olay Gazetesi",
+      "category": "media_broadcasting",
+      "countries": [
+        "UK"
+      ],
+      "description": "Turkish newspaper based in London. Covers UK news, economics, culture, Cyprus topics.",
+      "reach": null,
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": null,
+      "notes": "Serves Turkish Cypriot community in UK.",
+      "timestamp": "2026-01-26T09:47:53.962536"
+    },
+    {
+      "entity_id": "trnc_pio",
+      "name": "TRNC Public Information Office",
+      "category": "media_broadcasting",
+      "countries": [
+        "Cyprus"
+      ],
+      "description": "Official media liaison. Global media monitoring. Daily bulletins on Cyprus issues.",
+      "reach": null,
+      "integration_status": "integrated",
+      "siyem_channel": "professional",
+      "siyem_entity_role": null,
+      "notes": "One of TRNC's oldest institutions. Multi-platform presence.",
+      "timestamp": "2026-01-26T09:47:53.962538"
+    },
+    {
+      "entity_id": "turkish_football_federation",
+      "name": "Turkish Football Federation (TFF)",
+      "category": "sports",
+      "countries": [
+        "Turkey"
+      ],
+      "description": "UEFA member. Riva 'Hasan Doğan' national teams training centre (Istanbul).",
+      "reach": null,
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": null,
+      "notes": "",
+      "timestamp": "2026-01-26T09:47:53.962540"
+    },
+    {
+      "entity_id": "cyprus_football_association",
+      "name": "Cyprus Football Association (CFA)",
+      "category": "sports",
+      "countries": [
+        "Cyprus"
+      ],
+      "description": "Republic of Cyprus football governance. Based in Nicosia. UEFA member.",
+      "reach": null,
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": null,
+      "notes": "",
+      "timestamp": "2026-01-26T09:47:53.962541"
+    },
+    {
+      "entity_id": "cyprus_turkish_football_association",
+      "name": "Cyprus Turkish Football Association (KTFF)",
+      "category": "sports",
+      "countries": [
+        "Cyprus"
+      ],
+      "description": "Northern Cyprus football governance. Established 1955. CONIFA member (since 2013).",
+      "reach": null,
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": null,
+      "notes": "",
+      "timestamp": "2026-01-26T09:47:53.962543"
+    },
+    {
+      "entity_id": "british_council_creative",
+      "name": "British Council - Creative Collaborations",
+      "category": "music_creative",
+      "countries": [
+        "UK",
+        "Turkey"
+      ],
+      "description": "34 Turkish organizations, 27 UK partners, 37 projects, 20 cities, 65,000+ people reached (2022-2025).",
+      "reach": {
+        "organizations": 34,
+        "uk_partners": 27,
+        "projects": 37,
+        "cities": 20,
+        "people": 65000
+      },
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": null,
+      "notes": "Funding up to £17,500 per project. Disciplines: Visual arts, film, music, theatre, dance.",
+      "timestamp": "2026-01-26T09:47:53.962546"
+    },
+    {
+      "entity_id": "british_council_music",
+      "name": "British Council Music",
+      "category": "music_creative",
+      "countries": [
+        "UK"
+      ],
+      "description": "All music genres. UK artists connected with international partners. Professional exchange programs.",
+      "reach": null,
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": "karasahin_music",
+      "notes": "",
+      "timestamp": "2026-01-26T09:47:53.962548"
+    },
+    {
+      "entity_id": "selector_pro_conference",
+      "name": "Selector Pro Conference",
+      "category": "music_creative",
+      "countries": [
+        "UK",
+        "Turkey"
+      ],
+      "description": "Held in Istanbul (2017). Turkish and UK music specialists. Digital music trends discussions.",
+      "reach": null,
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": "karasahin_music",
+      "notes": "Speakers: Mixcloud, music industry professionals. Panel: 'Musicians as Labels'.",
+      "timestamp": "2026-01-26T09:47:53.962550"
+    },
+    {
+      "entity_id": "uk_cyprus_mou",
+      "name": "UK-Cyprus Memorandum of Understanding",
+      "category": "governance_diplomatic",
+      "countries": [
+        "UK",
+        "Cyprus"
+      ],
+      "description": "Second annual review (December 2024). Foreign policy cooperation. Ukraine support. Illicit finance.",
+      "reach": null,
+      "integration_status": "integrated",
+      "siyem_channel": "professional",
+      "siyem_entity_role": null,
+      "notes": "Maritime humanitarian initiatives (Cyprus Amalthea Initiative to Gaza).",
+      "timestamp": "2026-01-26T09:47:53.962552"
+    },
+    {
+      "entity_id": "uk_turkey_trade_agreement",
+      "name": "UK-Turkey Free Trade Agreement",
+      "category": "governance_diplomatic",
+      "countries": [
+        "UK",
+        "Turkey"
+      ],
+      "description": "Preferential tariffs, rules of origin, intellectual property, government procurement.",
+      "reach": null,
+      "integration_status": "integrated",
+      "siyem_channel": "professional",
+      "siyem_entity_role": null,
+      "notes": "",
+      "timestamp": "2026-01-26T09:47:53.962553"
+    },
+    {
+      "entity_id": "cyprus_seeds_conception_x",
+      "name": "Cyprus Seeds + Conception X",
+      "category": "business_tech",
+      "countries": [
+        "Cyprus",
+        "UK"
+      ],
+      "description": "Partnership for deep-tech entrepreneurship. Conception X: Leading PhD deep-tech venture programme.",
+      "reach": null,
+      "integration_status": "integrated",
+      "siyem_channel": "professional",
+      "siyem_entity_role": null,
+      "notes": "Cypriot university/research center teams. Specialized training and mentorship.",
+      "timestamp": "2026-01-26T09:47:53.962555"
+    },
+    {
+      "entity_id": "invest_cyprus",
+      "name": "Invest Cyprus",
+      "category": "business_tech",
+      "countries": [
+        "Cyprus"
+      ],
+      "description": "European tech investment hub. UK listed among target investment countries.",
+      "reach": null,
+      "integration_status": "integrated",
+      "siyem_channel": "professional",
+      "siyem_entity_role": null,
+      "notes": "EU membership, competitive tax, startup visas, digital nomad initiatives.",
+      "timestamp": "2026-01-26T09:47:53.962557"
+    },
+    {
+      "entity_id": "enterprise_europe_network",
+      "name": "Enterprise Europe Network (Cyprus)",
+      "category": "business_tech",
+      "countries": [
+        "Cyprus"
+      ],
+      "description": "International business-technology-R&D partnerships. Europe's largest online database.",
+      "reach": null,
+      "integration_status": "integrated",
+      "siyem_channel": "professional",
+      "siyem_entity_role": null,
+      "notes": "",
+      "timestamp": "2026-01-26T09:47:53.962558"
+    },
+    {
+      "entity_id": "ctca_uk",
+      "name": "Council of Turkish Cypriot Associations (CTCA) UK",
+      "category": "diaspora",
+      "countries": [
+        "UK"
+      ],
+      "description": "Established 1983. Britain's largest Turkish Cypriot umbrella organization. 300,000-strong community. 20 member associations.",
+      "reach": {
+        "community": 300000,
+        "associations": 20
+      },
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": null,
+      "notes": "Annual Turkish Cypriot Festival. Community advocacy.",
+      "timestamp": "2026-01-26T09:47:53.962560"
+    },
+    {
+      "entity_id": "tcca",
+      "name": "Turkish Cypriot Community Association (TCCA)",
+      "category": "diaspora",
+      "countries": [
+        "UK"
+      ],
+      "description": "Operating since 1976. Multi-award-winning charity. Services: Turkish Cypriot, Turkish, Greek Cypriot, Kurdish speakers.",
+      "reach": null,
+      "integration_status": "integrated",
+      "siyem_channel": "creator",
+      "siyem_entity_role": null,
+      "notes": "Homecare, training, community facilities. Turkish Cypriot Arts and Cultural Festival.",
+      "timestamp": "2026-01-26T09:47:53.962562"
+    },
+    {
+      "entity_id": "national_federation_cypriots",
+      "name": "National Federation of Cypriots in the UK",
+      "category": "diaspora",
+      "countries": [
+        "UK"
+      ],
+      "description": "Representative body for Cypriots (including Turkish Cypriots). All-Party Parliamentary Group for Cyprus.",
+      "reach": null,
+      "integration_status": "integrated",
+      "siyem_channel": "professional",
+      "siyem_entity_role": null,
+      "notes": "Economic Diplomacy Roundtable. UK Cypriot Professionals Network.",
+      "timestamp": "2026-01-26T09:47:53.962563"
+    },
+    {
+      "entity_id": "human_rights_watch",
+      "name": "Human Rights Watch",
+      "category": "advocacy",
+      "countries": [
+        "UK",
+        "Turkey"
+      ],
+      "description": "Joint open letter to social media companies (May 2025). Social media censorship advocacy.",
+      "reach": null,
+      "integration_status": "integrated",
+      "siyem_channel": "educational",
+      "siyem_entity_role": null,
+      "notes": "Freedom of expression protection. Article 19 partnership.",
+      "timestamp": "2026-01-26T09:47:53.962565"
+    }
+  ]
+}
