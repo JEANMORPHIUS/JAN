@@ -655,6 +655,17 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"Legal Contractual Framework API error: {e}")
 
+# ENTREPRENEURIAL DOCUMENTATION FRAMEWORK API: Comprehensive Business Documentation for All Entities - The New World
+# Edibles, Ilven, ATILOK, The Ark - All blueprints, contracts, documentation needed for the new world
+try:
+    from entrepreneurial_documentation_api import router as entrepreneurial_documentation_router
+    app.include_router(entrepreneurial_documentation_router, tags=["Entrepreneurial Documentation"])
+    logger.info("Entrepreneurial Documentation Framework API enabled - Business blueprints, contracts, documentation for Edibles, Ilven, ATILOK, The Ark - All documentation needed for the new world")
+except ImportError as e:
+    logger.warning(f"Entrepreneurial Documentation Framework API not available: {e}")
+except Exception as e:
+    logger.warning(f"Entrepreneurial Documentation Framework API error: {e}")
+
 # LANGUAGE OF GOD API: What is the Language of God? Sound, Frequency, Vibration
 try:
     from language_of_god_api import router as language_of_god_router
