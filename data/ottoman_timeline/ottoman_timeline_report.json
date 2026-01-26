@@ -1,0 +1,267 @@
+{
+  "timeline_id": "ottoman_timeline_20260126_174059",
+  "span": "1299 - 2026",
+  "total_generations": 20,
+  "periods": {
+    "foundation": 4,
+    "expansion": 3,
+    "stagnation": 3,
+    "decline": 3,
+    "reform": 1,
+    "dissolution": 2,
+    "republic": 4
+  },
+  "frequency_trajectory": [
+    0.75,
+    0.78,
+    0.7,
+    0.75,
+    0.8,
+    0.78,
+    0.85,
+    0.7,
+    0.65,
+    0.6,
+    0.65,
+    0.62,
+    0.68,
+    0.7,
+    0.6,
+    0.55,
+    0.75,
+    0.7,
+    0.72,
+    0.68
+  ],
+  "average_frequency": 0.7005,
+  "key_events": 5,
+  "connection_to_table": "Ottoman Empire connected to The Table through Pangea. All Ottoman lands were once part of Pangea. All roads lead to The Table.",
+  "spiritual_narrative": "The Ottoman narrative is part of the larger story of The Table. From Pangea to present, through all generations, the connection to The Table remains.",
+  "generations": [
+    {
+      "generation_number": 1,
+      "period": "foundation",
+      "years": "1299-1326",
+      "rulers": [
+        "Osman I"
+      ],
+      "frequency_score": 0.75,
+      "generational_pattern": "Foundation - Building the state from small principality"
+    },
+    {
+      "generation_number": 2,
+      "period": "foundation",
+      "years": "1326-1362",
+      "rulers": [
+        "Orhan",
+        "Murad I"
+      ],
+      "frequency_score": 0.78,
+      "generational_pattern": "Expansion - Growing from Anatolia to Europe"
+    },
+    {
+      "generation_number": 3,
+      "period": "foundation",
+      "years": "1362-1402",
+      "rulers": [
+        "Bayezid I"
+      ],
+      "frequency_score": 0.7,
+      "generational_pattern": "Rise and Fall - Victory and defeat, resilience"
+    },
+    {
+      "generation_number": 4,
+      "period": "foundation",
+      "years": "1402-1451",
+      "rulers": [
+        "Mehmed I",
+        "Murad II"
+      ],
+      "frequency_score": 0.75,
+      "generational_pattern": "Recovery - Rebuilding after defeat"
+    },
+    {
+      "generation_number": 5,
+      "period": "expansion",
+      "years": "1451-1481",
+      "rulers": [
+        "Mehmed II (The Conqueror)"
+      ],
+      "frequency_score": 0.8,
+      "generational_pattern": "Conquest - The Conqueror, expansion, transformation"
+    },
+    {
+      "generation_number": 6,
+      "period": "expansion",
+      "years": "1481-1512",
+      "rulers": [
+        "Bayezid II"
+      ],
+      "frequency_score": 0.78,
+      "generational_pattern": "Consolidation - Building on conquest"
+    },
+    {
+      "generation_number": 7,
+      "period": "expansion",
+      "years": "1512-1566",
+      "rulers": [
+        "Selim I",
+        "Suleiman the Magnificent"
+      ],
+      "frequency_score": 0.85,
+      "generational_pattern": "Peak - Golden age, maximum expansion, cultural flourishing"
+    },
+    {
+      "generation_number": 8,
+      "period": "stagnation",
+      "years": "1566-1603",
+      "rulers": [
+        "Selim II",
+        "Murad III",
+        "Mehmed III"
+      ],
+      "frequency_score": 0.7,
+      "generational_pattern": "Stagnation Begins - Decline starts, corruption increases"
+    },
+    {
+      "generation_number": 9,
+      "period": "stagnation",
+      "years": "1603-1648",
+      "rulers": [
+        "Ahmed I",
+        "Mustafa I",
+        "Osman II",
+        "Murad IV"
+      ],
+      "frequency_score": 0.65,
+      "generational_pattern": "Instability - Internal conflicts, external pressures"
+    },
+    {
+      "generation_number": 10,
+      "period": "stagnation",
+      "years": "1648-1699",
+      "rulers": [
+        "Ibrahim",
+        "Mehmed IV",
+        "Suleiman II",
+        "Ahmed II",
+        "Mustafa II"
+      ],
+      "frequency_score": 0.6,
+      "generational_pattern": "Decline Accelerates - Major defeats, territorial losses"
+    },
+    {
+      "generation_number": 11,
+      "period": "decline",
+      "years": "1699-1730",
+      "rulers": [
+        "Ahmed III",
+        "Mahmud I"
+      ],
+      "frequency_score": 0.65,
+      "generational_pattern": "Cultural Flourishing Amid Decline - Tulip Period"
+    },
+    {
+      "generation_number": 12,
+      "period": "decline",
+      "years": "1730-1789",
+      "rulers": [
+        "Osman III",
+        "Mustafa III",
+        "Abdulhamid I",
+        "Selim III"
+      ],
+      "frequency_score": 0.62,
+      "generational_pattern": "Reform Attempts - Trying to reverse decline"
+    },
+    {
+      "generation_number": 13,
+      "period": "decline",
+      "years": "1789-1839",
+      "rulers": [
+        "Mustafa IV",
+        "Mahmud II"
+      ],
+      "frequency_score": 0.68,
+      "generational_pattern": "Modernization - Reforms, abolition of old systems"
+    },
+    {
+      "generation_number": 14,
+      "period": "reform",
+      "years": "1839-1876",
+      "rulers": [
+        "Abdulmejid I",
+        "Abdulaziz"
+      ],
+      "frequency_score": 0.7,
+      "generational_pattern": "Reform Period - Tanzimat, modernization, constitutionalism"
+    },
+    {
+      "generation_number": 15,
+      "period": "dissolution",
+      "years": "1876-1909",
+      "rulers": [
+        "Abdulhamid II",
+        "Mehmed V"
+      ],
+      "frequency_score": 0.6,
+      "generational_pattern": "Dissolution Begins - Territorial losses, internal conflicts"
+    },
+    {
+      "generation_number": 16,
+      "period": "dissolution",
+      "years": "1909-1922",
+      "rulers": [
+        "Mehmed V",
+        "Mehmed VI"
+      ],
+      "frequency_score": 0.55,
+      "generational_pattern": "End of Empire - World War I, genocide, independence war"
+    },
+    {
+      "generation_number": 17,
+      "period": "republic",
+      "years": "1922-1950",
+      "rulers": [
+        "Atatürk",
+        "İnönü"
+      ],
+      "frequency_score": 0.75,
+      "generational_pattern": "Republic - Modern Turkey, Atatürk's vision"
+    },
+    {
+      "generation_number": 18,
+      "period": "republic",
+      "years": "1950-1980",
+      "rulers": [
+        "Menderes",
+        "Demirel",
+        "Ecevit"
+      ],
+      "frequency_score": 0.7,
+      "generational_pattern": "Modern Turkey - Democracy, development, Cyprus"
+    },
+    {
+      "generation_number": 19,
+      "period": "republic",
+      "years": "1980-2002",
+      "rulers": [
+        "Özal",
+        "Demirel",
+        "Ecevit"
+      ],
+      "frequency_score": 0.72,
+      "generational_pattern": "EU Process - Modernization, EU candidacy"
+    },
+    {
+      "generation_number": 20,
+      "period": "republic",
+      "years": "2002-2026",
+      "rulers": [
+        "Erdoğan"
+      ],
+      "frequency_score": 0.68,
+      "generational_pattern": "AKP Era - Growth, polarization, modern Turkey"
+    }
+  ]
+}
