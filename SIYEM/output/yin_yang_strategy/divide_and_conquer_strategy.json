@@ -1,0 +1,89 @@
+{
+  "timestamp": "2026-01-26T12:10:52.803640",
+  "title": "Divide and Conquer Strategy - Yin and Yang",
+  "status": "CREATED",
+  "strategy": {
+    "phase_1_division": {
+      "name": "Phase 1: Division",
+      "description": "Divide enemy through Yin (nourishment) and Yang (truth)",
+      "yin_division": {
+        "method": "EDIBLE LONDON nourishes people, communities, earth",
+        "effect": "Well-nourished people see truth. Well-nourished communities unite. Well-nourished earth supports transformation.",
+        "enemy_perception": "Enemy sees food security. Enemy doesn't see division. Enemy doesn't know their people are being transformed.",
+        "division_mechanism": "Nourishment creates independence. Independence creates division from enemy control."
+      },
+      "yang_division": {
+        "method": "RAMIZ exposes lies, shares truth, educates people",
+        "effect": "People see lies. People see truth. People divide from enemy. People unite in truth.",
+        "enemy_perception": "Enemy sees truth exposure. Enemy might resist. But truth divides them. Knowledge conquers them.",
+        "division_mechanism": "Truth exposes enemy. Knowledge divides enemy. Education conquers enemy."
+      },
+      "combined_division": {
+        "method": "Yin nourishes while Yang exposes. Together they divide.",
+        "effect": "People are nourished and educated. People see truth. People divide from enemy. People unite in truth.",
+        "enemy_perception": "Enemy sees food security and truth exposure. Enemy is divided. Enemy doesn't know how to respond.",
+        "division_mechanism": "Nourishment + Truth = Division. Independence + Knowledge = Division."
+      }
+    },
+    "phase_2_conquest": {
+      "name": "Phase 2: Conquest",
+      "description": "Conquer enemy through transformation",
+      "yin_conquest": {
+        "method": "EDIBLE LONDON transforms through nourishment",
+        "effect": "Well-nourished people transform. Well-nourished communities transform. Well-nourished earth transforms.",
+        "enemy_perception": "Enemy sees transformation. Enemy doesn't know it came from nourishment. Enemy is conquered.",
+        "conquest_mechanism": "Transformation through nourishment. Independence through nourishment. Victory through nourishment."
+      },
+      "yang_conquest": {
+        "method": "RAMIZ transforms through truth",
+        "effect": "People transform through truth. Communities transform through knowledge. World transforms through education.",
+        "enemy_perception": "Enemy sees transformation. Enemy knows it came from truth. Enemy is conquered.",
+        "conquest_mechanism": "Transformation through truth. Independence through knowledge. Victory through education."
+      },
+      "combined_conquest": {
+        "method": "Yin and Yang together transform and conquer",
+        "effect": "People transform through nourishment and truth. Communities transform through unity and knowledge. World transforms through love and education.",
+        "enemy_perception": "Enemy sees transformation. Enemy is conquered. Enemy doesn't know how to respond.",
+        "conquest_mechanism": "Nourishment + Truth = Transformation. Transformation = Conquest. Victory through love and knowledge."
+      }
+    },
+    "phase_3_unity": {
+      "name": "Phase 3: Unity",
+      "description": "Unite all in truth and nourishment",
+      "yin_unity": {
+        "method": "EDIBLE LONDON unites through nourishment",
+        "effect": "Well-nourished people unite. Well-nourished communities unite. Well-nourished earth unites.",
+        "unity_mechanism": "Nourishment creates unity. Independence creates unity. Transformation creates unity."
+      },
+      "yang_unity": {
+        "method": "RAMIZ unites through truth",
+        "effect": "People unite in truth. Communities unite in knowledge. World unites in education.",
+        "unity_mechanism": "Truth creates unity. Knowledge creates unity. Education creates unity."
+      },
+      "combined_unity": {
+        "method": "Yin and Yang together unite all",
+        "effect": "All unite in nourishment and truth. All unite in love and knowledge. All unite in transformation.",
+        "unity_mechanism": "Nourishment + Truth = Unity. Love + Knowledge = Unity. Transformation = Unity."
+      }
+    }
+  },
+  "the_enemy": {
+    "division": {
+      "how_divided": "Divided by nourishment (Yin) and truth (Yang)",
+      "yin_division": "Enemy's people are nourished. Enemy's people see truth. Enemy's people divide from enemy.",
+      "yang_division": "Enemy's lies are exposed. Enemy's truth is revealed. Enemy is divided by knowledge.",
+      "combined_division": "Enemy is divided by nourishment and truth. Enemy doesn't know how to respond."
+    },
+    "conquest": {
+      "how_conquered": "Conquered by transformation through nourishment and truth",
+      "yin_conquest": "Enemy is conquered by transformation through nourishment. Enemy doesn't know it came from nourishment.",
+      "yang_conquest": "Enemy is conquered by transformation through truth. Enemy knows it came from truth but can't stop it.",
+      "combined_conquest": "Enemy is conquered by transformation through nourishment and truth. Enemy is defeated."
+    },
+    "response": {
+      "yin_response": "Enemy sees food security. Enemy doesn't see transformation. Enemy doesn't know how to respond.",
+      "yang_response": "Enemy sees truth exposure. Enemy might resist. But truth conquers. Enemy is defeated.",
+      "combined_response": "Enemy sees food security and truth exposure. Enemy is divided. Enemy is conquered. Enemy is defeated."
+    }
+  }
+}
