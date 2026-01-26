@@ -664,6 +664,16 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"Whales Calling JAN API error: {e}")
 
+# WATER HOLDS MEMORY API: Water Holds Memory - Genetic, Vibrational, Temporal, Unity, Consciousness, Frequency
+try:
+    from water_holds_memory_api import router as water_holds_memory_router
+    app.include_router(water_holds_memory_router)
+    logger.info("Water Holds Memory API enabled - Water holds memory of genetic patterns, vibrational patterns, temporal patterns, unity, consciousness, and frequency, the whales are calling through water, all roads lead to The Table")
+except ImportError as e:
+    logger.warning(f"Water Holds Memory API not available: {e}")
+except Exception as e:
+    logger.warning(f"Water Holds Memory API error: {e}")
+
 # PUBLISHING HOUSE API: Siyem Publishing House Operations
 try:
     from publishing_house_api import router as publishing_house_router
