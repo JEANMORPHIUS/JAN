@@ -1,0 +1,130 @@
+{
+  "timestamp": "2026-01-26T11:51:17.648140",
+  "title": "Daily Practices For Transformation - Reach 100% Within",
+  "status": "CREATED",
+  "daily_practices": {
+    "morning_practice": {
+      "time": "Morning",
+      "practices": [
+        {
+          "practice": "Know Yourself",
+          "description": "Start the day knowing who you are. Remember your purpose. Recognize your true nature.",
+          "duration": "5-10 minutes",
+          "focus": "Self-realization"
+        },
+        {
+          "practice": "Align With Truth",
+          "description": "Align with truth. Read truth content. Remember what is real. Remember what is true.",
+          "duration": "10-15 minutes",
+          "focus": "Self-alignment"
+        },
+        {
+          "practice": "Align With Divine",
+          "description": "Align with divine. Remember 30/70 principle. Trust divine timing. Trust divine guidance.",
+          "duration": "5 minutes",
+          "focus": "Self-alignment"
+        },
+        {
+          "practice": "Set Intention",
+          "description": "Set intention for the day. Intend to reach 100%. Intend to align. Intend to master. Intend to transcend.",
+          "duration": "2-3 minutes",
+          "focus": "Self-completion"
+        }
+      ]
+    },
+    "daytime_practice": {
+      "time": "Throughout The Day",
+      "practices": [
+        {
+          "practice": "Master Your Thoughts",
+          "description": "Master your thoughts. Control your mind. Choose thoughts that serve. Release thoughts that don't.",
+          "duration": "Continuous",
+          "focus": "Self-mastery"
+        },
+        {
+          "practice": "Master Your Emotions",
+          "description": "Master your emotions. Control your feelings. Choose emotions that serve. Release emotions that don't.",
+          "duration": "Continuous",
+          "focus": "Self-mastery"
+        },
+        {
+          "practice": "Master Your Actions",
+          "description": "Master your actions. Control your behavior. Choose actions that serve. Release actions that don't.",
+          "duration": "Continuous",
+          "focus": "Self-mastery"
+        },
+        {
+          "practice": "Transcend Limitations",
+          "description": "Transcend limitations. Break free from constraints. See beyond boundaries. Expand your capacity.",
+          "duration": "As needed",
+          "focus": "Self-transcendence"
+        },
+        {
+          "practice": "Transcend Ego",
+          "description": "Transcend ego. Let go of self. See unity. See oneness. See connection.",
+          "duration": "As needed",
+          "focus": "Self-transcendence"
+        }
+      ]
+    },
+    "evening_practice": {
+      "time": "Evening",
+      "practices": [
+        {
+          "practice": "Reflect On Progress",
+          "description": "Reflect on your progress. What did you master? What did you transcend? How did you align?",
+          "duration": "10-15 minutes",
+          "focus": "Self-completion"
+        },
+        {
+          "practice": "Align With Frequency",
+          "description": "Align with frequency. Use frequential governance. Maintain resonance. Steward vibration.",
+          "duration": "10-15 minutes",
+          "focus": "Self-alignment"
+        },
+        {
+          "practice": "Complete Yourself",
+          "description": "Complete yourself. Reach for 100%. Move toward nirvana. Move toward peace. Move toward alignment.",
+          "duration": "5-10 minutes",
+          "focus": "Self-completion"
+        },
+        {
+          "practice": "Gratitude",
+          "description": "Express gratitude. Gratitude for preparation. Gratitude for truth. Gratitude for divine. Gratitude for purpose.",
+          "duration": "5 minutes",
+          "focus": "Self-alignment"
+        }
+      ]
+    }
+  },
+  "weekly_practices": {
+    "truth_study": {
+      "practice": "Study Truth",
+      "description": "Study truth content. Review political sabotages. Review humanity errors. Review corrections. Align with truth.",
+      "frequency": "Weekly",
+      "duration": "1-2 hours",
+      "focus": "Self-alignment"
+    },
+    "knowledge_study": {
+      "practice": "Study Knowledge",
+      "description": "Study education curriculum. Review spiritual governance. Review frequential governance. Expand knowledge.",
+      "frequency": "Weekly",
+      "duration": "1-2 hours",
+      "focus": "Self-realization"
+    },
+    "system_review": {
+      "practice": "Review Systems",
+      "description": "Review all systems. Check alignment. Check readiness. Check completion. Ensure everything supports transformation.",
+      "frequency": "Weekly",
+      "duration": "30 minutes",
+      "focus": "Self-completion"
+    }
+  },
+  "integration": {
+    "use_preparation": "Use all preparation work to support transformation",
+    "use_truth": "Use all truth to align with truth",
+    "use_knowledge": "Use all knowledge to guide transformation",
+    "use_systems": "Use all systems to support transformation",
+    "use_content": "Use all content to inspire transformation"
+  }
+}
