@@ -26,6 +26,7 @@ import { getPersonas } from '@/api/personas';
 import { getGenerationHistory } from '@/api/generation';
 import { getTemplates } from '@/api/templates';
 import { useKeyboardShortcut as useKeyboardShortcutHook, CommonShortcuts } from '@/utils/keyboardShortcuts';
+import { useFocusTrap, useReturnFocus } from '@/hooks/useFocusManagement';
 
 export interface SearchResult {
   id: string;
@@ -53,6 +54,11 @@ export default function GlobalSearch({
   const [selectedIndex, setSelectedIndex] = useState(0);
   const searchInputRef = useRef<HTMLInputElement>(null);
   const resultsRef = useRef<HTMLDivElement>(null);
+  const modalRef = useRef<HTMLDivElement>(null);
+  
+  // Focus management
+  useFocusTrap(isOpen, modalRef);
+  useReturnFocus(isOpen);
 
   // Register keyboard shortcut to open search
   useKeyboardShortcutHook(
@@ -263,6 +269,10 @@ export default function GlobalSearch({
 
   return (
     <div
+      ref={modalRef}
+      role="dialog"
+      aria-modal="true"
+      aria-label="Global search"
       style={{
         position: 'fixed',
         top: '20%',
@@ -294,9 +304,17 @@ export default function GlobalSearch({
             color: '#e0e0e0',
             fontSize: '1rem',
             fontFamily: 'inherit',
-            outline: 'none',
+            outline: '2px solid transparent',
+            outlineOffset: '2px',
           }}
           aria-label="Search input"
+          aria-describedby="search-help"
+          onFocus={(e) => {
+            e.target.style.outline = '2px solid #0070f3';
+          }}
+          onBlur={(e) => {
+            e.target.style.outline = '2px solid transparent';
+          }}
         />
       </div>
 

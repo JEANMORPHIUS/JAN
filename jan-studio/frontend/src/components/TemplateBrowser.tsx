@@ -14,9 +14,10 @@
  * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
  * THE REST IS UP TO BABA X.*/
 
-import { useState, useEffect, memo } from 'react';
+import { useState, useEffect, memo, useRef } from 'react';
 import { getTemplates, getTemplate, instantiateTemplate, savePersonaAsTemplate } from '@/api/templates';
 import PersonaForm, { PersonaFormData } from './PersonaForm';
+import { useFocusTrap, useReturnFocus } from '@/hooks/useFocusManagement';
 
 interface Template {
   name: string;
@@ -45,6 +46,11 @@ function TemplateBrowser({
   const [instantiating, setInstantiating] = useState(false);
   const [showCreateForm, setShowCreateForm] = useState(false);
   const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
+  const modalRef = useRef<HTMLDivElement>(null);
+  
+  // Focus management - TemplateBrowser is always shown as modal
+  useFocusTrap(true, modalRef);
+  useReturnFocus(true);
 
   useEffect(() => {
     loadTemplates();
@@ -124,10 +130,21 @@ function TemplateBrowser({
   }
 
   return (
-    <div className="card">
+    <div 
+      ref={modalRef}
+      className="card"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Template browser"
+    >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
         <h2>Templates</h2>
-        <button className="button" onClick={onClose} style={{ backgroundColor: '#666' }}>
+        <button 
+          className="button" 
+          onClick={onClose} 
+          style={{ backgroundColor: '#666' }}
+          aria-label="Close template browser"
+        >
           Close
         </button>
       </div>

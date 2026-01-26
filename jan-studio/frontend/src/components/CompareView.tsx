@@ -14,10 +14,11 @@
  * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
  * THE REST IS UP TO BABA X.*/
 
-import { memo, useMemo } from 'react';
+import { memo, useMemo, useRef, useEffect } from 'react';
 import { HistoryEntry } from './HistoryPanel';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import { useFocusTrap, useReturnFocus } from '@/hooks/useFocusManagement';
 
 interface CompareViewProps {
   entries: HistoryEntry[];
@@ -27,11 +28,33 @@ interface CompareViewProps {
 function CompareView({ entries, onClose }: CompareViewProps) {
   // Memoize grid columns calculation
   const gridColumns = useMemo(() => entries.length, [entries.length]);
+  const modalRef = useRef<HTMLDivElement>(null);
+  
+  // Focus management
+  useFocusTrap(true, modalRef);
+  useReturnFocus(true);
+  
+  // Focus close button on mount
+  useEffect(() => {
+    const closeButton = modalRef.current?.querySelector('button') as HTMLElement;
+    closeButton?.focus();
+  }, []);
   return (
-    <div className="card">
+    <div 
+      ref={modalRef}
+      className="card"
+      role="dialog"
+      aria-modal="true"
+      aria-label={`Compare ${entries.length} outputs`}
+    >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
         <h2>Compare Outputs ({entries.length})</h2>
-        <button className="button" onClick={onClose} style={{ backgroundColor: '#666' }}>
+        <button 
+          className="button" 
+          onClick={onClose} 
+          style={{ backgroundColor: '#666' }}
+          aria-label="Close compare view"
+        >
           Close
         </button>
       </div>

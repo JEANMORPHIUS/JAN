@@ -43,6 +43,7 @@ import BackendStatus from '@/components/BackendStatus';
 import { useKeyboardShortcuts } from '@/hooks/useKeyboardShortcuts';
 import { isOnline, offlineQueue } from '@/utils/errorHandling';
 import LoadingState from '@/components/LoadingState';
+import { useSkipLink } from '@/hooks/useFocusManagement';
 
 // Lazy load heavy components for better performance
 const TemplateBrowser = lazy(() => import('@/components/TemplateBrowser'));
@@ -66,6 +67,9 @@ export default function Home() {
   const [showSearch, setShowSearch] = useState(false);
   const [isOnlineState, setIsOnlineState] = useState(true);
   const [initialLoading, setInitialLoading] = useState(true);
+  
+  // Skip link for accessibility
+  useSkipLink('main-content', 'Skip to main content');
 
   // Check online status
   useEffect(() => {
@@ -105,8 +109,30 @@ export default function Home() {
       callback: () => {
         setShowSearch(false);
         setCompareEntries(null);
+        setShowTemplates(false);
       },
       description: 'Close modals',
+    },
+    {
+      key: 'g',
+      ctrlKey: true,
+      callback: () => setViewMode('generate'),
+      description: 'Go to generate view',
+    },
+    {
+      key: 'p',
+      ctrlKey: true,
+      callback: () => setViewMode('personas'),
+      description: 'Go to personas view',
+    },
+    {
+      key: 't',
+      ctrlKey: true,
+      callback: () => {
+        setViewMode('templates');
+        setShowTemplates(true);
+      },
+      description: 'Go to templates view',
     },
   ]);
 
@@ -219,6 +245,7 @@ export default function Home() {
 
       <MissionDisplay />
 
+      <main id="main-content" role="main" tabIndex={-1} style={{ outline: 'none' }}>
       <div className="container">
         {/* Navigation Tabs */}
         <div className="card" style={{ marginBottom: '1.5rem' }}>
@@ -236,6 +263,9 @@ export default function Home() {
                 fontSize: '0.875rem',
                 fontWeight: viewMode === 'personas' ? 600 : 400,
               }}
+              aria-label="View personas"
+              aria-pressed={viewMode === 'personas'}
+              role="tab"
             >
               Personas
             </button>
@@ -252,6 +282,9 @@ export default function Home() {
                 fontSize: '0.875rem',
                 fontWeight: viewMode === 'generate' ? 600 : 400,
               }}
+              aria-label="Generate content"
+              aria-pressed={viewMode === 'generate'}
+              role="tab"
             >
               Generate Content
             </button>
@@ -271,6 +304,9 @@ export default function Home() {
                 fontSize: '0.875rem',
                 fontWeight: viewMode === 'templates' ? 600 : 400,
               }}
+              aria-label="View templates"
+              aria-pressed={viewMode === 'templates'}
+              role="tab"
             >
               Templates
             </button>
@@ -417,6 +453,7 @@ export default function Home() {
           </div>
         )}
       </div>
+      </main>
         </>
       )}
     </ErrorBoundary>
