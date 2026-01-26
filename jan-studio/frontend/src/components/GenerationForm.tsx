@@ -21,6 +21,8 @@ import PromptTemplates from './PromptTemplates';
 import { useKeyboardShortcuts } from '@/hooks/useKeyboardShortcuts';
 import { retryWithBackoff, getUserFriendlyError } from '@/utils/errorHandling';
 import { useI18n } from '@/contexts/I18nContext';
+import { detectLanguage, suggestLanguage } from '@/utils/languageDetection';
+import { detectLanguage, suggestLanguage } from '@/utils/languageDetection';
 
 interface GenerationFormProps {
   onGenerate: (result: GenerationResult) => void;
@@ -66,7 +68,7 @@ const OUTPUT_TYPES = [
 ] as const;
 
 export default function GenerationForm({ onGenerate, onProgress }: GenerationFormProps) {
-  const { t, language } = useI18n();
+  const { t, language, setLanguage } = useI18n();
   const [personas, setPersonas] = useState<string[]>([]);
   const [formData, setFormData] = useState<GenerationRequest>({
     persona: '',
@@ -80,6 +82,7 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
   const [progress, setProgress] = useState(0);
   const [error, setError] = useState<string | null>(null);
   const [showTemplates, setShowTemplates] = useState(false);
+  const [languageSuggestion, setLanguageSuggestion] = useState<{ lang: string; confidence: number } | null>(null);
   
   // Update language in formData when language changes
   useEffect(() => {
@@ -91,6 +94,28 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
       },
     }));
   }, [language]);
+  
+  // Detect language from prompt input
+  useEffect(() => {
+    if (formData.prompt.trim().length > 10) {
+      const suggestion = suggestLanguage(formData.prompt, language);
+      if (suggestion) {
+        const detection = detectLanguage(formData.prompt);
+        if (detection && detection.confidence > 0.5) {
+          setLanguageSuggestion({
+            lang: detection.language,
+            confidence: detection.confidence,
+          });
+        } else {
+          setLanguageSuggestion(null);
+        }
+      } else {
+        setLanguageSuggestion(null);
+      }
+    } else {
+      setLanguageSuggestion(null);
+    }
+  }, [formData.prompt, language]);
   
   // Keyboard shortcuts
   useKeyboardShortcuts([

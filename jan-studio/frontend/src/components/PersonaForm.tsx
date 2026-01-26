@@ -15,6 +15,8 @@
  * THE REST IS UP TO BABA X.*/
 
 import { useState } from 'react';
+import { useI18n } from '@/contexts/I18nContext';
+import { getPersonaPresetsForLanguage, type LanguagePersonaPreset } from '@/data/languagePersonaPresets';
 
 interface PersonaFormProps {
   onSubmit: (data: PersonaFormData) => void;
@@ -35,13 +37,28 @@ const TEMPLATES = [
   { value: 'blank', label: 'Blank', description: 'Start from scratch' },
 ] as const;
 
+// Helper to use language presets
+function useLanguagePreset(preset: LanguagePersonaPreset) {
+  return {
+    name: preset.name,
+    description: preset.description,
+    profile: preset.profile,
+    creativeRules: preset.creativeRules,
+  };
+}
+
 export default function PersonaForm({ onSubmit, onCancel, initialData }: PersonaFormProps) {
+  const { t, language } = useI18n();
   const [formData, setFormData] = useState<PersonaFormData>({
     name: initialData?.name || '',
     description: initialData?.description || '',
     template: initialData?.template || 'blank',
   });
   const [errors, setErrors] = useState<{ [key: string]: string }>({});
+  const [showLanguagePresets, setShowLanguagePresets] = useState(false);
+  
+  // Get language-specific presets
+  const languagePresets = getPersonaPresetsForLanguage(language);
 
   const validate = (): boolean => {
     const newErrors: { [key: string]: string } = {};
