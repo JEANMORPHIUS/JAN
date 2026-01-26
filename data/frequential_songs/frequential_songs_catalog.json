@@ -1,5 +1,5 @@
 {
-  "catalog_timestamp": "2026-01-26T15:23:03.840675",
+  "catalog_timestamp": "2026-01-26T15:26:12.964189",
   "total_songs": 39,
   "songs": {
     "en_001": {
@@ -48,7 +48,8 @@
       ],
       "discovered_at": "2026-01-22T12:47:55.702226",
       "source": "Deep search - Bob Marley catalog",
-      "notes": ""
+      "notes": "",
+      "suno_prompt": "Genre: Reggae\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, bass, drums. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "en_002": {
       "song_id": "en_002",
@@ -95,7 +96,8 @@
       ],
       "discovered_at": "2026-01-22T12:47:55.702251",
       "source": "Deep search - John Lennon catalog",
-      "notes": ""
+      "notes": "",
+      "suno_prompt": "Genre: Rock\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, bass, drums. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "en_003": {
       "song_id": "en_003",
@@ -142,7 +144,8 @@
       ],
       "discovered_at": "2026-01-22T12:47:55.702258",
       "source": "Deep search - Marvin Gaye catalog",
-      "notes": ""
+      "notes": "",
+      "suno_prompt": "Genre: Soul\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, bass, drums. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "tr_001": {
       "song_id": "tr_001",
@@ -171,7 +174,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 1984,
-      "genre": "Turkish Pop",
+      "genre": "Turkish pop",
       "album": "Sen Ağlama",
       "duration": null,
       "youtube_url": null,
@@ -188,7 +191,8 @@
       ],
       "discovered_at": "2026-01-22T12:47:55.702262",
       "source": "Deep search - Sezen Aksu catalog",
-      "notes": ""
+      "notes": "",
+      "suno_prompt": "Genre: Turkish Pop\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, bass, drums. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "tr_002": {
       "song_id": "tr_002",
@@ -218,7 +222,7 @@
       "unity_builder": true,
       "peace_oriented": true,
       "year": 1975,
-      "genre": "Turkish Rock",
+      "genre": "Turkish rock",
       "album": "2023",
       "duration": null,
       "youtube_url": null,
@@ -235,7 +239,8 @@
       ],
       "discovered_at": "2026-01-22T12:47:55.702267",
       "source": "Deep search - Barış Manço catalog",
-      "notes": ""
+      "notes": "",
+      "suno_prompt": "Genre: Turkish Rock\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, bass, drums. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "tr_003": {
       "song_id": "tr_003",
@@ -262,7 +267,7 @@
       "unity_builder": false,
       "peace_oriented": false,
       "year": 1997,
-      "genre": "Turkish Pop",
+      "genre": "Turkish pop",
       "album": "Ölürüm Sana",
       "duration": null,
       "youtube_url": null,
@@ -279,7 +284,8 @@
       ],
       "discovered_at": "2026-01-22T12:47:55.702270",
       "source": "Deep search - Tarkan catalog",
-      "notes": ""
+      "notes": "",
+      "suno_prompt": "Genre: Turkish Pop\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, bass, drums. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "en_004": {
       "song_id": "en_004",
@@ -291,7 +297,7 @@
         "love",
         "peace"
       ],
-      "lyrics_original": "One love, one heart\nLet's get together and feel all right\nHear the children crying (one love)\nHear the children crying (one heart)\nSayin', \"Give thanks and praise to the Lord and I will feel all right\"\nSayin', \"Let's get together and feel all right\"\nWo, wo-wo-wo-wo-wo\n\nLet them all pass all their dirty remarks (one love)\nThere is one question I'd really love to ask (one heart)\n\"Is there a place for the hopeless sinner\nWho has hurt all mankind just to save his own?\"\nBelieve me\n\nOne love, one heart\nLet's get together and feel all right\nAs it was in the beginning (one love)\nSo shall it be in the end (one heart)\nAlright, give thanks and praise to the Lord and I will feel all right\nLet's get together and feel all right\nOne more thing\n\nLet's get together to fight this Holy Armageddon (one love)\nSo when the Man comes there will be no, no doom (one heart)\nHave pity on those whose chances grow thinner\nThere ain't no hiding place from the Father of Creation\n\nSayin', \"One love, one heart\nLet's get together and feel all right\nI'm pleading to mankind (one love)\nOh, Lord (one heart)\nGive thanks and praise to the Lord and I will feel all right\nLet's get together and feel all right\" ",
+      "lyrics_original": "One love, one heart\nLet's get together and feel all right\nHear the children crying (one love)\nHear the children crying (one heart)\nSayin', \"Give thanks and praise to the Lord and I will feel all right\"\nSayin', \"Let's get together and feel all right\"\nWo, wo-wo-wo-wo-wo\n\nLet them all pass all their dirty remarks (one love)\nThere is one question I'd really love to ask (one heart)\n\"Is there a place for the hopeless sinner\nWho has hurt all mankind just to save his own?\"\nBelieve me\n\nOne love, one heart\nLet's get together and feel all right\nAs it was in the beginning (one love)\nSo shall it be in the end (one heart)\nAlright, give thanks and praise to the Lord and I will feel all right\nLet's get together and feel all right\nOne more thing\n\nLet's get together to fight this Holy Armageddon (one love)\nSo when the Man comes there will be no, no doom (one heart)\nHave pity on those whose chances grow thinner\nThere ain't no hiding place from the Father of Creation\n\nSayin', \"One love, one heart\nLet's get together and feel all right\nI'm pleading to mankind (one love)\nOh, Lord (one heart)\nGive thanks and praise to the Lord and I will feel all right\nLet's get together and feel all right\"",
       "lyrics_translation": null,
       "lyrics_english": null,
       "lyrics_turkish": null,
@@ -325,7 +331,8 @@
       ],
       "discovered_at": "2026-01-22T12:47:55.702274",
       "source": "Deep search - Bob Marley catalog",
-      "notes": ""
+      "notes": "",
+      "suno_prompt": "Genre: Reggae\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, bass, drums. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "en_005": {
       "song_id": "en_005",
@@ -368,7 +375,8 @@
       ],
       "discovered_at": "2026-01-22T12:47:55.702277",
       "source": "Deep search - John Lennon catalog",
-      "notes": ""
+      "notes": "",
+      "suno_prompt": "Genre: Rock\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, bass, drums. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "en_006": {
       "song_id": "en_006",
@@ -415,7 +423,8 @@
       ],
       "discovered_at": "2026-01-22T12:47:55.702280",
       "source": "Deep search - Sam Cooke catalog",
-      "notes": ""
+      "notes": "",
+      "suno_prompt": "Genre: Soul\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, bass, drums. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "en_007": {
       "song_id": "en_007",
@@ -445,7 +454,7 @@
       "unity_builder": false,
       "peace_oriented": false,
       "year": 1988,
-      "genre": "Folk Rock",
+      "genre": "Folk rock",
       "album": "Tracy Chapman",
       "duration": null,
       "youtube_url": null,
@@ -462,7 +471,8 @@
       ],
       "discovered_at": "2026-01-22T12:47:55.702283",
       "source": "Deep search - Tracy Chapman catalog",
-      "notes": ""
+      "notes": "",
+      "suno_prompt": "Genre: Folk Rock\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, bass, drums. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "en_008": {
       "song_id": "en_008",
@@ -509,7 +519,8 @@
       ],
       "discovered_at": "2026-01-22T12:47:55.702286",
       "source": "Deep search - Bill Withers catalog",
-      "notes": ""
+      "notes": "",
+      "suno_prompt": "Genre: Soul\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, bass, drums. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "en_009": {
       "song_id": "en_009",
@@ -556,7 +567,8 @@
       ],
       "discovered_at": "2026-01-22T12:47:55.702290",
       "source": "Deep search - Stevie Wonder catalog",
-      "notes": ""
+      "notes": "",
+      "suno_prompt": "Genre: Soul\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, bass, drums. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "en_010": {
       "song_id": "en_010",
@@ -603,7 +615,8 @@
       ],
       "discovered_at": "2026-01-22T12:47:55.702293",
       "source": "Deep search - Aretha Franklin catalog",
-      "notes": ""
+      "notes": "",
+      "suno_prompt": "Genre: Soul\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, bass, drums. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "tr_004": {
       "song_id": "tr_004",
@@ -631,7 +644,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 1986,
-      "genre": "Turkish Pop",
+      "genre": "Turkish pop",
       "album": "Git",
       "duration": null,
       "youtube_url": null,
@@ -648,7 +661,8 @@
       ],
       "discovered_at": "2026-01-22T12:47:55.702296",
       "source": "Deep search - Sezen Aksu catalog",
-      "notes": ""
+      "notes": "",
+      "suno_prompt": "Genre: Turkish Pop\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, bass, drums. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "tr_005": {
       "song_id": "tr_005",
@@ -678,7 +692,7 @@
       "unity_builder": true,
       "peace_oriented": true,
       "year": 1976,
-      "genre": "Turkish Rock",
+      "genre": "Turkish rock",
       "album": "2023",
       "duration": null,
       "youtube_url": null,
@@ -695,7 +709,8 @@
       ],
       "discovered_at": "2026-01-22T12:47:55.702300",
       "source": "Deep search - Barış Manço catalog",
-      "notes": ""
+      "notes": "",
+      "suno_prompt": "Genre: Turkish Rock\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, bass, drums. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "tr_006": {
       "song_id": "tr_006",
@@ -725,7 +740,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 1984,
-      "genre": "Turkish Pop",
+      "genre": "Turkish pop",
       "album": "Sen Ağlama",
       "duration": null,
       "youtube_url": null,
@@ -742,7 +757,8 @@
       ],
       "discovered_at": "2026-01-22T12:47:55.702303",
       "source": "Deep search - Sezen Aksu catalog",
-      "notes": ""
+      "notes": "",
+      "suno_prompt": "Genre: Turkish Pop\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, bass, drums. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "tr_007": {
       "song_id": "tr_007",
@@ -772,7 +788,7 @@
       "unity_builder": true,
       "peace_oriented": true,
       "year": 1975,
-      "genre": "Turkish Rock",
+      "genre": "Turkish rock",
       "album": "2023",
       "duration": null,
       "youtube_url": null,
@@ -789,7 +805,8 @@
       ],
       "discovered_at": "2026-01-22T12:47:55.702306",
       "source": "Deep search - Barış Manço catalog",
-      "notes": ""
+      "notes": "",
+      "suno_prompt": "Genre: Turkish Rock\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, bass, drums. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "en_011": {
       "song_id": "en_011",
@@ -807,7 +824,7 @@
         "raw",
         "authentic"
       ],
-      "lyrics_original": "[Intro – sparse piano motif, distant city ambience, low drone]\n[drop instruments after 2 bars, vocal enters alone]\n\n[Verse 1 – minimal, guitar + piano, no beat]\nAh, I'm tired of this fractured life,  \nWho will listen through the noise and strife?  \nYeah, caught in the middle, under the gun,  \nWho's left to save me when there's nowhere to run?  \n\nMr. Judge, you sit in your high chair,  \nBut outside, it's chaos, does anyone care?  \nNo roof to call home, danger at my door,  \nStill, you question me like I owe you more.  \n\n[Pre-Chorus – tension build, low bass swell, breath pauses emphasized]\n[add subtle pulse, hold last word]\n\n[Chorus – beat enters soft, emotional lift, layered harmony on \"you\"]\nYou, you hold the gavel, I'm on trial,  \nLost in the stars, but it's all denial.  \nI reach for my dreams, but they slip through air,  \nJudge, jury, executioner — none of it's fair.  \n\nYou, you say justice is blind,  \nBut I'm lost in the sky, left behind.  \nWith all my dreams that crumble and fall,  \nYou decide my fate, you have it all.  \n\n[Post-Chorus – instrumental breath, echo tail on last line]\n\n[Verse 2 – beat drops back, darker tone, tighter phrasing]\nLife's always been rigged, a cruel design,  \nI'm just a victim of a twisted line.  \nThey come for me knowing I'm already down,  \nDon't ask why I bleed, don't wear that frown.  \n\nMr. Judge, you see me as a case,  \nBut in the streets, it's a whole different face.  \nThe world spins with lies and deceit,  \nWhile I'm left crawling, dragged by defeat.  \n\n[Pre-Chorus – same as before, slightly stronger bass movement]\n\n[Chorus – repeat, fuller instrumentation, emotional peak]\nYou, you hold the gavel, I'm on trial,  \nLost in the stars, but it's all denial.  \nI reach for my dreams, but they slip through air,  \nJudge, jury, executioner — none of it's fair.  \n\nYou, you say justice is blind,  \nBut I'm lost in the sky, left behind.  \nWith all my dreams that crumble and fall,  \nYou decide my fate, you have it all.  \n\n[Bridge – beat strips out, spoken intensity, echoing space]\n[tempo drops feel, no rhythm for first two lines]\nA world full of trouble, but no one sees,  \nWe scream for change, but get no reprieves.  \n\n[gradual swell, low choir pad enters]\nMr. Judge, ask the ones still alive,  \nHope's been chained, but it won't survive.  \n\n[emotion rises, vocal cracks allowed]\nIt's love we need, not bars and chains,  \nCan't you see the system's in vain?  \nDon't punish the broken, understand their cry,  \nThis world's burning, but we still try.  \n\n[Final Chorus – fullest arrangement, restrained power, no shouting]\nYou, you hold the gavel, I'm on trial,  \nLost in the stars, but it's all denial.  \nI reach for my dreams, but they slip through air,  \nJudge, jury, executioner — none of it's fair.",
+      "lyrics_original": "[INTRO]\n[DROP INSTRUMENTS AFTER 2 BARS, VOCAL ENTERS ALONE]\n\n[VERSE 1]\nAh, I'm tired of this fractured life,\nWho will listen through the noise and strife?\nYeah, caught in the middle, under the gun,\nWho's left to save me when there's nowhere to run?\n\nMr. Judge, you sit in your high chair,\nBut outside, it's chaos, does anyone care?\nNo roof to call home, danger at my door,\nStill, you question me like I owe you more.\n\n[CHORUS]\n[ADD SUBTLE PULSE, HOLD LAST WORD]\n\n[CHORUS]\nYou, you hold the gavel, I'm on trial,\nLost in the stars, but it's all denial.\nI reach for my dreams, but they slip through air,\nJudge, jury, executioner — none of it's fair.\n\nYou, you say justice is blind,\nBut I'm lost in the sky, left behind.\nWith all my dreams that crumble and fall,\nYou decide my fate, you have it all.\n\n[CHORUS]\n\n[VERSE 2]\nLife's always been rigged, a cruel design,\nI'm just a victim of a twisted line.\nThey come for me knowing I'm already down,\nDon't ask why I bleed, don't wear that frown.\n\nMr. Judge, you see me as a case,\nBut in the streets, it's a whole different face.\nThe world spins with lies and deceit,\nWhile I'm left crawling, dragged by defeat.\n\n[CHORUS]\n\n[CHORUS]\nYou, you hold the gavel, I'm on trial,\nLost in the stars, but it's all denial.\nI reach for my dreams, but they slip through air,\nJudge, jury, executioner — none of it's fair.\n\nYou, you say justice is blind,\nBut I'm lost in the sky, left behind.\nWith all my dreams that crumble and fall,\nYou decide my fate, you have it all.\n\n[BRIDGE]\n[TEMPO DROPS FEEL, NO RHYTHM FOR FIRST TWO LINES]\nA world full of trouble, but no one sees,\nWe scream for change, but get no reprieves.\n\n[GRADUAL SWELL, LOW CHOIR PAD ENTERS]\nMr. Judge, ask the ones still alive,\nHope's been chained, but it won't survive.\n\n[EMOTION RISES, VOCAL CRACKS ALLOWED]\nIt's love we need, not bars and chains,\nCan't you see the system's in vain?\nDon't punish the broken, understand their cry,\nThis world's burning, but we still try.\n\n[CHORUS]\nYou, you hold the gavel, I'm on trial,\nLost in the stars, but it's all denial.\nI reach for my dreams, but they slip through air,\nJudge, jury, executioner — none of it's fair.",
       "lyrics_translation": null,
       "lyrics_english": null,
       "lyrics_turkish": null,
@@ -825,7 +842,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Cinematic Folk, Light Arabesk, Cool Pop, Subtle House",
+      "genre": "Cinematic folk, Light arabesk, Cool pop, Subtle house",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -844,7 +861,8 @@
       ],
       "discovered_at": "2026-01-26T15:19:13.265776",
       "source": "User submission - Karasahin (JK) catalog",
-      "notes": "Tempo: 92 BPM, Key: D minor. Instrumentation: acoustic guitar, bağlama accents, low piano, soft kick, airy synth pad. Vocal: male, mid-range, restrained, emotional, spoken-sung delivery. Mood: weary, defiant, introspective, humane. Genres: cinematic, folk, pop, arabesk, house, protest, emotional, justice, acoustic, piano, bağlama, mid-tempo, minor, moody, introspective, defiant, humane, spoken-sung, raw, authentic, modern, atmospheric, urban, soulful, restrained."
+      "notes": "Tempo: 92 BPM, Key: D minor. Instrumentation: acoustic guitar, bağlama accents, low piano, soft kick, airy synth pad. Vocal: male, mid-range, restrained, emotional, spoken-sung delivery. Mood: weary, defiant, introspective, humane. Genres: cinematic, folk, pop, arabesk, house, protest, emotional, justice, acoustic, piano, bağlama, mid-tempo, minor, moody, introspective, defiant, humane, spoken-sung, raw, authentic, modern, atmospheric, urban, soulful, restrained.",
+      "suno_prompt": "Genre: Cinematic Folk, Light Arabesk, Cool Pop, Subtle House\nBPM: 92\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, defiant, introspective, weary atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, bağlama, piano, synth pad. Vocals: male mid-range vocals. Mood: defiant, introspective, weary. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n\nLyrics structure:\n- INTRO\n- DROP INSTRUMENTS AFTER 2 BARS, VOCAL ENTERS ALONE\n- VERSE 1\n- CHORUS\n- ADD SUBTLE PULSE, HOLD LAST WORD\n- CHORUS\n- CHORUS\n- VERSE 2\n- CHORUS\n- CHORUS\n"
     },
     "tr_008": {
       "song_id": "tr_008",
@@ -880,7 +898,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Sinematik Folk, Hafif Arabesk, Cool Pop, İnce House",
+      "genre": "Sinematik folk, Hafif arabesk, Cool pop, İnce house",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -899,7 +917,8 @@
       ],
       "discovered_at": "2026-01-26T15:19:13.265798",
       "source": "User submission - Karasahin (JK) catalog - Bilingual twin",
-      "notes": "Tempo: 92 BPM, Key: D minor. Enstrümantasyon: akustik gitar, bağlama vurguları, düşük piyano, yumuşak kick, havalı synth pad. Vokal: erkek, orta aralık, kısıtlı, duygusal, konuşma-şarkı söyleme. Ruh hali: yorgun, meydan okuyan, içe dönük, insancıl."
+      "notes": "Tempo: 92 BPM, Key: D minor. Enstrümantasyon: akustik gitar, bağlama vurguları, düşük piyano, yumuşak kick, havalı synth pad. Vokal: erkek, orta aralık, kısıtlı, duygusal, konuşma-şarkı söyleme. Ruh hali: yorgun, meydan okuyan, içe dönük, insancıl.",
+      "suno_prompt": "Genre: Sinematik Folk, Hafif Arabesk, Cool Pop, İnce House\nBPM: 92\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: bağlama, synth pad. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "en_012": {
       "song_id": "en_012",
@@ -917,7 +936,7 @@
         "raw",
         "authentic"
       ],
-      "lyrics_original": "[Intro – sparse piano motif, distant city ambience, low drone]\n[drop instruments after 2 bars, vocal enters alone]\n\n[Verse 1 – minimal, guitar + piano, no beat]\nAh, I'm tired of this fractured life,  \nWho will listen through the noise and strife?  \nYeah, caught in the middle, under the gun,  \nWho's left to save me when there's nowhere to run?  \n\nMr. Judge, you sit in your high chair,  \nBut outside, it's chaos, does anyone care?  \nNo roof to call home, danger at my door,  \nStill, you question me like I owe you more.  \n\n[Pre-Chorus – tension build, low bass swell, breath pauses emphasized]\n[add subtle pulse, hold last word]\n\n[Chorus – beat enters soft, emotional lift, layered harmony on \"you\"]\nYou, you hold the gavel, I'm on trial,  \nLost in the stars, but it's all denial.  \nI reach for my dreams, but they slip through air,  \nJudge, jury, executioner — none of it's fair.  \n\nYou, you say justice is blind,  \nBut I'm lost in the sky, left behind.  \nWith all my dreams that crumble and fall,  \nYou decide my fate, you have it all.  \n\n[Post-Chorus – instrumental breath, echo tail on last line]\n\n[Verse 2 – beat drops back, darker tone, tighter phrasing]\nLife's always been rigged, a cruel design,  \nI'm just a victim of a twisted line.  \nThey come for me knowing I'm already down,  \nDon't ask why I bleed, don't wear that frown.  \n\nMr. Judge, you see me as a case,  \nBut in the streets, it's a whole different face.  \nThe world spins with lies and deceit,  \nWhile I'm left crawling, dragged by defeat.  \n\n[Pre-Chorus – same as before, slightly stronger bass movement]\n\n[Chorus – repeat, fuller instrumentation, emotional peak]\nYou, you hold the gavel, I'm on trial,  \nLost in the stars, but it's all denial.  \nI reach for my dreams, but they slip through air,  \nJudge, jury, executioner — none of it's fair.  \n\nYou, you say justice is blind,  \nBut I'm lost in the sky, left behind.  \nWith all my dreams that crumble and fall,  \nYou decide my fate, you have it all.  \n\n[Bridge – beat strips out, spoken intensity, echoing space]\n[tempo drops feel, no rhythm for first two lines]\nA world full of trouble, but no one sees,  \nWe scream for change, but get no reprieves.  \n\n[gradual swell, low choir pad enters]\nMr. Judge, ask the ones still alive,  \nHope's been chained, but it won't survive.  \n\n[emotion rises, vocal cracks allowed]\nIt's love we need, not bars and chains,  \nCan't you see the system's in vain?  \nDon't punish the broken, understand their cry,  \nThis world's burning, but we still try.  \n\n[Final Chorus – fullest arrangement, restrained power, no shouting]\nYou, you hold the gavel, I'm on trial,  \nLost in the stars, but it's all denial.  \nI reach for my dreams, but they slip through air,  \nJudge, jury, executioner — none of it's fair.",
+      "lyrics_original": "[INTRO]\n[DROP INSTRUMENTS AFTER 2 BARS, VOCAL ENTERS ALONE]\n\n[VERSE 1]\nAh, I'm tired of this fractured life,\nWho will listen through the noise and strife?\nYeah, caught in the middle, under the gun,\nWho's left to save me when there's nowhere to run?\n\nMr. Judge, you sit in your high chair,\nBut outside, it's chaos, does anyone care?\nNo roof to call home, danger at my door,\nStill, you question me like I owe you more.\n\n[CHORUS]\n[ADD SUBTLE PULSE, HOLD LAST WORD]\n\n[CHORUS]\nYou, you hold the gavel, I'm on trial,\nLost in the stars, but it's all denial.\nI reach for my dreams, but they slip through air,\nJudge, jury, executioner — none of it's fair.\n\nYou, you say justice is blind,\nBut I'm lost in the sky, left behind.\nWith all my dreams that crumble and fall,\nYou decide my fate, you have it all.\n\n[CHORUS]\n\n[VERSE 2]\nLife's always been rigged, a cruel design,\nI'm just a victim of a twisted line.\nThey come for me knowing I'm already down,\nDon't ask why I bleed, don't wear that frown.\n\nMr. Judge, you see me as a case,\nBut in the streets, it's a whole different face.\nThe world spins with lies and deceit,\nWhile I'm left crawling, dragged by defeat.\n\n[CHORUS]\n\n[CHORUS]\nYou, you hold the gavel, I'm on trial,\nLost in the stars, but it's all denial.\nI reach for my dreams, but they slip through air,\nJudge, jury, executioner — none of it's fair.\n\nYou, you say justice is blind,\nBut I'm lost in the sky, left behind.\nWith all my dreams that crumble and fall,\nYou decide my fate, you have it all.\n\n[BRIDGE]\n[TEMPO DROPS FEEL, NO RHYTHM FOR FIRST TWO LINES]\nA world full of trouble, but no one sees,\nWe scream for change, but get no reprieves.\n\n[GRADUAL SWELL, LOW CHOIR PAD ENTERS]\nMr. Judge, ask the ones still alive,\nHope's been chained, but it won't survive.\n\n[EMOTION RISES, VOCAL CRACKS ALLOWED]\nIt's love we need, not bars and chains,\nCan't you see the system's in vain?\nDon't punish the broken, understand their cry,\nThis world's burning, but we still try.\n\n[CHORUS]\nYou, you hold the gavel, I'm on trial,\nLost in the stars, but it's all denial.\nI reach for my dreams, but they slip through air,\nJudge, jury, executioner — none of it's fair.",
       "lyrics_translation": null,
       "lyrics_english": null,
       "lyrics_turkish": null,
@@ -935,7 +954,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Cinematic Folk, Light Arabesk, Cool Pop, Subtle House",
+      "genre": "Cinematic folk, Light arabesk, Cool pop, Subtle house",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -954,7 +973,8 @@
       ],
       "discovered_at": "2026-01-26T15:19:27.781729",
       "source": "User submission - Karasahin (JK) catalog",
-      "notes": "Tempo: 92 BPM, Key: D minor. Instrumentation: acoustic guitar, bağlama accents, low piano, soft kick, airy synth pad. Vocal: male, mid-range, restrained, emotional, spoken-sung delivery. Mood: weary, defiant, introspective, humane. Genres: cinematic, folk, pop, arabesk, house, protest, emotional, justice, acoustic, piano, bağlama, mid-tempo, minor, moody, introspective, defiant, humane, spoken-sung, raw, authentic, modern, atmospheric, urban, soulful, restrained."
+      "notes": "Tempo: 92 BPM, Key: D minor. Instrumentation: acoustic guitar, bağlama accents, low piano, soft kick, airy synth pad. Vocal: male, mid-range, restrained, emotional, spoken-sung delivery. Mood: weary, defiant, introspective, humane. Genres: cinematic, folk, pop, arabesk, house, protest, emotional, justice, acoustic, piano, bağlama, mid-tempo, minor, moody, introspective, defiant, humane, spoken-sung, raw, authentic, modern, atmospheric, urban, soulful, restrained.",
+      "suno_prompt": "Genre: Cinematic Folk, Light Arabesk, Cool Pop, Subtle House\nBPM: 92\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, defiant, introspective, weary atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, bağlama, piano, synth pad. Vocals: male mid-range vocals. Mood: defiant, introspective, weary. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n\nLyrics structure:\n- INTRO\n- DROP INSTRUMENTS AFTER 2 BARS, VOCAL ENTERS ALONE\n- VERSE 1\n- CHORUS\n- ADD SUBTLE PULSE, HOLD LAST WORD\n- CHORUS\n- CHORUS\n- VERSE 2\n- CHORUS\n- CHORUS\n"
     },
     "tr_009": {
       "song_id": "tr_009",
@@ -990,7 +1010,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Sinematik Folk, Hafif Arabesk, Cool Pop, İnce House",
+      "genre": "Sinematik folk, Hafif arabesk, Cool pop, İnce house",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -1009,7 +1029,8 @@
       ],
       "discovered_at": "2026-01-26T15:19:27.781754",
       "source": "User submission - Karasahin (JK) catalog - Bilingual twin",
-      "notes": "Tempo: 92 BPM, Key: D minor. Enstrümantasyon: akustik gitar, bağlama vurguları, düşük piyano, yumuşak kick, havalı synth pad. Vokal: erkek, orta aralık, kısıtlı, duygusal, konuşma-şarkı söyleme. Ruh hali: yorgun, meydan okuyan, içe dönük, insancıl."
+      "notes": "Tempo: 92 BPM, Key: D minor. Enstrümantasyon: akustik gitar, bağlama vurguları, düşük piyano, yumuşak kick, havalı synth pad. Vokal: erkek, orta aralık, kısıtlı, duygusal, konuşma-şarkı söyleme. Ruh hali: yorgun, meydan okuyan, içe dönük, insancıl.",
+      "suno_prompt": "Genre: Sinematik Folk, Hafif Arabesk, Cool Pop, İnce House\nBPM: 92\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: bağlama, synth pad. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "en_013": {
       "song_id": "en_013",
@@ -1027,7 +1048,7 @@
         "soulful",
         "restrained"
       ],
-      "lyrics_original": "[Verse 1]\nOne, two, three, I will never be\nEverything that you are\nFour, five, six, come and get your kicks\nSeven's here, gone too far\nEight, nine, ten, let's go again\nI never thought we'd ever fail\nEleven is a heaven, mighty upper but\nBut he never ever opens his mouth\n\n[Chorus]\nAnd here I ever see you up and down the street\n\n[Verse 2]\nI know I'll never ever play again\nBetween me and you, I'd rather go for a ride with you\nI have no hell, it's one in the same\n\n[Chorus]\nOh, I hope that they got it all\nShe's too wild, you know\nOh yeah, you think I am\n\n[Outro]\nOh, oh, oh\nYeah, hey\nShe's too wild, you know\n(Ay-ya!)",
+      "lyrics_original": "[VERSE 1]\nOne, two, three, I will never be\nEverything that you are\nFour, five, six, come and get your kicks\nSeven's here, gone too far\nEight, nine, ten, let's go again\nI never thought we'd ever fail\nEleven is a heaven, mighty upper but\nBut he never ever opens his mouth\n\n[CHORUS]\nAnd here I ever see you up and down the street\n\n[VERSE 2]\nI know I'll never ever play again\nBetween me and you, I'd rather go for a ride with you\nI have no hell, it's one in the same\n\n[CHORUS]\nOh, I hope that they got it all\nShe's too wild, you know\nOh yeah, you think I am\n\n[OUTRO]\nOh, oh, oh\nYeah, hey\nShe's too wild, you know\n(Ay-ya!)",
       "lyrics_translation": null,
       "lyrics_english": null,
       "lyrics_turkish": null,
@@ -1044,7 +1065,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Mid-tempo Folk Rock, Soul",
+      "genre": "Mid-tempo folk rock, Soul",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -1063,7 +1084,8 @@
       ],
       "discovered_at": "2026-01-26T15:19:27.802882",
       "source": "User submission - Karasahin (JK) catalog",
-      "notes": "Mid-tempo folk rock, Soulful male baritone vocals, A blend of percussive acoustic guitar strumming and melodic electric guitar leads, Featuring a Hammond organ swell in the bridge, Driving drum kit with prominent cymbals, Rich, full-band arrangement, Earnest storytelling tone, high dynamic range, Warm analog saturation, 100 BPM, bright and clear mix. Weirdness 11%, Style Influence 31%, Audio Influence 69%. Genres: folk, pop, emotional, acoustic, piano, mid-tempo, minor, moody, introspective, raw, authentic, modern, atmospheric, urban, soulful, restrained."
+      "notes": "Mid-tempo folk rock, Soulful male baritone vocals, A blend of percussive acoustic guitar strumming and melodic electric guitar leads, Featuring a Hammond organ swell in the bridge, Driving drum kit with prominent cymbals, Rich, full-band arrangement, Earnest storytelling tone, high dynamic range, Warm analog saturation, 100 BPM, bright and clear mix. Weirdness 11%, Style Influence 31%, Audio Influence 69%. Genres: folk, pop, emotional, acoustic, piano, mid-tempo, minor, moody, introspective, raw, authentic, modern, atmospheric, urban, soulful, restrained.",
+      "suno_prompt": "Genre: Mid-tempo Folk Rock, Soul\nBPM: 100\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, introspective atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, drums. Vocals: male baritone vocals. Mood: introspective. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n\nLyrics structure:\n- VERSE 1\n- CHORUS\n- VERSE 2\n- CHORUS\n- OUTRO\n"
     },
     "tr_010": {
       "song_id": "tr_010",
@@ -1098,7 +1120,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Orta Tempo Folk Rock, Soul",
+      "genre": "Orta tempo folk rock, Soul",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -1117,7 +1139,8 @@
       ],
       "discovered_at": "2026-01-26T15:19:27.802895",
       "source": "User submission - Karasahin (JK) catalog - Bilingual twin",
-      "notes": "Orta tempo folk rock, Ruh dolu erkek bariton vokaller, Perküsif akustik gitar çalma ve melodik elektrik gitar sololarının karışımı, Köprüde Hammond org şişmesi, Belirgin zillerle sürücü davul seti, Zengin, tam grup düzenleme, Samimi hikaye anlatımı tonu, yüksek dinamik aralık, Sıcak analog doygunluk, 100 BPM, parlak ve net mix. Garip 11%, Stil Etkisi 31%, Ses Etkisi 69%"
+      "notes": "Orta tempo folk rock, Ruh dolu erkek bariton vokaller, Perküsif akustik gitar çalma ve melodik elektrik gitar sololarının karışımı, Köprüde Hammond org şişmesi, Belirgin zillerle sürücü davul seti, Zengin, tam grup düzenleme, Samimi hikaye anlatımı tonu, yüksek dinamik aralık, Sıcak analog doygunluk, 100 BPM, parlak ve net mix. Garip 11%, Stil Etkisi 31%, Ses Etkisi 69%",
+      "suno_prompt": "Genre: Orta Tempo Folk Rock, Soul\nBPM: 100\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: davul. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "en_014": {
       "song_id": "en_014",
@@ -1135,7 +1158,7 @@
         "raw",
         "authentic"
       ],
-      "lyrics_original": "[Intro – sparse piano motif, distant city ambience, low drone]\n[drop instruments after 2 bars, vocal enters alone]\n\n[Verse 1 – minimal, guitar + piano, no beat]\nAh, I'm tired of this fractured life,  \nWho will listen through the noise and strife?  \nYeah, caught in the middle, under the gun,  \nWho's left to save me when there's nowhere to run?  \n\nMr. Judge, you sit in your high chair,  \nBut outside, it's chaos, does anyone care?  \nNo roof to call home, danger at my door,  \nStill, you question me like I owe you more.  \n\n[Pre-Chorus – tension build, low bass swell, breath pauses emphasized]\n[add subtle pulse, hold last word]\n\n[Chorus – beat enters soft, emotional lift, layered harmony on \"you\"]\nYou, you hold the gavel, I'm on trial,  \nLost in the stars, but it's all denial.  \nI reach for my dreams, but they slip through air,  \nJudge, jury, executioner — none of it's fair.  \n\nYou, you say justice is blind,  \nBut I'm lost in the sky, left behind.  \nWith all my dreams that crumble and fall,  \nYou decide my fate, you have it all.  \n\n[Post-Chorus – instrumental breath, echo tail on last line]\n\n[Verse 2 – beat drops back, darker tone, tighter phrasing]\nLife's always been rigged, a cruel design,  \nI'm just a victim of a twisted line.  \nThey come for me knowing I'm already down,  \nDon't ask why I bleed, don't wear that frown.  \n\nMr. Judge, you see me as a case,  \nBut in the streets, it's a whole different face.  \nThe world spins with lies and deceit,  \nWhile I'm left crawling, dragged by defeat.  \n\n[Pre-Chorus – same as before, slightly stronger bass movement]\n\n[Chorus – repeat, fuller instrumentation, emotional peak]\nYou, you hold the gavel, I'm on trial,  \nLost in the stars, but it's all denial.  \nI reach for my dreams, but they slip through air,  \nJudge, jury, executioner — none of it's fair.  \n\nYou, you say justice is blind,  \nBut I'm lost in the sky, left behind.  \nWith all my dreams that crumble and fall,  \nYou decide my fate, you have it all.  \n\n[Bridge – beat strips out, spoken intensity, echoing space]\n[tempo drops feel, no rhythm for first two lines]\nA world full of trouble, but no one sees,  \nWe scream for change, but get no reprieves.  \n\n[gradual swell, low choir pad enters]\nMr. Judge, ask the ones still alive,  \nHope's been chained, but it won't survive.  \n\n[emotion rises, vocal cracks allowed]\nIt's love we need, not bars and chains,  \nCan't you see the system's in vain?  \nDon't punish the broken, understand their cry,  \nThis world's burning, but we still try.  \n\n[Final Chorus – fullest arrangement, restrained power, no shouting]\nYou, you hold the gavel, I'm on trial,  \nLost in the stars, but it's all denial.  \nI reach for my dreams, but they slip through air,  \nJudge, jury, executioner — none of it's fair.",
+      "lyrics_original": "[INTRO]\n[DROP INSTRUMENTS AFTER 2 BARS, VOCAL ENTERS ALONE]\n\n[VERSE 1]\nAh, I'm tired of this fractured life,\nWho will listen through the noise and strife?\nYeah, caught in the middle, under the gun,\nWho's left to save me when there's nowhere to run?\n\nMr. Judge, you sit in your high chair,\nBut outside, it's chaos, does anyone care?\nNo roof to call home, danger at my door,\nStill, you question me like I owe you more.\n\n[CHORUS]\n[ADD SUBTLE PULSE, HOLD LAST WORD]\n\n[CHORUS]\nYou, you hold the gavel, I'm on trial,\nLost in the stars, but it's all denial.\nI reach for my dreams, but they slip through air,\nJudge, jury, executioner — none of it's fair.\n\nYou, you say justice is blind,\nBut I'm lost in the sky, left behind.\nWith all my dreams that crumble and fall,\nYou decide my fate, you have it all.\n\n[CHORUS]\n\n[VERSE 2]\nLife's always been rigged, a cruel design,\nI'm just a victim of a twisted line.\nThey come for me knowing I'm already down,\nDon't ask why I bleed, don't wear that frown.\n\nMr. Judge, you see me as a case,\nBut in the streets, it's a whole different face.\nThe world spins with lies and deceit,\nWhile I'm left crawling, dragged by defeat.\n\n[CHORUS]\n\n[CHORUS]\nYou, you hold the gavel, I'm on trial,\nLost in the stars, but it's all denial.\nI reach for my dreams, but they slip through air,\nJudge, jury, executioner — none of it's fair.\n\nYou, you say justice is blind,\nBut I'm lost in the sky, left behind.\nWith all my dreams that crumble and fall,\nYou decide my fate, you have it all.\n\n[BRIDGE]\n[TEMPO DROPS FEEL, NO RHYTHM FOR FIRST TWO LINES]\nA world full of trouble, but no one sees,\nWe scream for change, but get no reprieves.\n\n[GRADUAL SWELL, LOW CHOIR PAD ENTERS]\nMr. Judge, ask the ones still alive,\nHope's been chained, but it won't survive.\n\n[EMOTION RISES, VOCAL CRACKS ALLOWED]\nIt's love we need, not bars and chains,\nCan't you see the system's in vain?\nDon't punish the broken, understand their cry,\nThis world's burning, but we still try.\n\n[CHORUS]\nYou, you hold the gavel, I'm on trial,\nLost in the stars, but it's all denial.\nI reach for my dreams, but they slip through air,\nJudge, jury, executioner — none of it's fair.",
       "lyrics_translation": null,
       "lyrics_english": null,
       "lyrics_turkish": null,
@@ -1153,7 +1176,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Cinematic Folk, Light Arabesk, Cool Pop, Subtle House",
+      "genre": "Cinematic folk, Light arabesk, Cool pop, Subtle house",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -1172,7 +1195,8 @@
       ],
       "discovered_at": "2026-01-26T15:22:25.737327",
       "source": "User submission - Karasahin (JK) catalog",
-      "notes": "Tempo: 92 BPM, Key: D minor. Instrumentation: acoustic guitar, bağlama accents, low piano, soft kick, airy synth pad. Vocal: male, mid-range, restrained, emotional, spoken-sung delivery. Mood: weary, defiant, introspective, humane. Genres: cinematic, folk, pop, arabesk, house, protest, emotional, justice, acoustic, piano, bağlama, mid-tempo, minor, moody, introspective, defiant, humane, spoken-sung, raw, authentic, modern, atmospheric, urban, soulful, restrained."
+      "notes": "Tempo: 92 BPM, Key: D minor. Instrumentation: acoustic guitar, bağlama accents, low piano, soft kick, airy synth pad. Vocal: male, mid-range, restrained, emotional, spoken-sung delivery. Mood: weary, defiant, introspective, humane. Genres: cinematic, folk, pop, arabesk, house, protest, emotional, justice, acoustic, piano, bağlama, mid-tempo, minor, moody, introspective, defiant, humane, spoken-sung, raw, authentic, modern, atmospheric, urban, soulful, restrained.",
+      "suno_prompt": "Genre: Cinematic Folk, Light Arabesk, Cool Pop, Subtle House\nBPM: 92\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, defiant, introspective, weary atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, bağlama, piano, synth pad. Vocals: male mid-range vocals. Mood: defiant, introspective, weary. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n\nLyrics structure:\n- INTRO\n- DROP INSTRUMENTS AFTER 2 BARS, VOCAL ENTERS ALONE\n- VERSE 1\n- CHORUS\n- ADD SUBTLE PULSE, HOLD LAST WORD\n- CHORUS\n- CHORUS\n- VERSE 2\n- CHORUS\n- CHORUS\n"
     },
     "tr_011": {
       "song_id": "tr_011",
@@ -1208,7 +1232,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Sinematik Folk, Hafif Arabesk, Cool Pop, İnce House",
+      "genre": "Sinematik folk, Hafif arabesk, Cool pop, İnce house",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -1227,7 +1251,8 @@
       ],
       "discovered_at": "2026-01-26T15:22:25.737351",
       "source": "User submission - Karasahin (JK) catalog - Bilingual twin",
-      "notes": "Tempo: 92 BPM, Key: D minor. Enstrümantasyon: akustik gitar, bağlama vurguları, düşük piyano, yumuşak kick, havalı synth pad. Vokal: erkek, orta aralık, kısıtlı, duygusal, konuşma-şarkı söyleme. Ruh hali: yorgun, meydan okuyan, içe dönük, insancıl."
+      "notes": "Tempo: 92 BPM, Key: D minor. Enstrümantasyon: akustik gitar, bağlama vurguları, düşük piyano, yumuşak kick, havalı synth pad. Vokal: erkek, orta aralık, kısıtlı, duygusal, konuşma-şarkı söyleme. Ruh hali: yorgun, meydan okuyan, içe dönük, insancıl.",
+      "suno_prompt": "Genre: Sinematik Folk, Hafif Arabesk, Cool Pop, İnce House\nBPM: 92\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: bağlama, synth pad. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "en_015": {
       "song_id": "en_015",
@@ -1245,7 +1270,7 @@
         "soulful",
         "restrained"
       ],
-      "lyrics_original": "[Verse 1]\nOne, two, three, I will never be\nEverything that you are\nFour, five, six, come and get your kicks\nSeven's here, gone too far\nEight, nine, ten, let's go again\nI never thought we'd ever fail\nEleven is a heaven, mighty upper but\nBut he never ever opens his mouth\n\n[Chorus]\nAnd here I ever see you up and down the street\n\n[Verse 2]\nI know I'll never ever play again\nBetween me and you, I'd rather go for a ride with you\nI have no hell, it's one in the same\n\n[Chorus]\nOh, I hope that they got it all\nShe's too wild, you know\nOh yeah, you think I am\n\n[Outro]\nOh, oh, oh\nYeah, hey\nShe's too wild, you know\n(Ay-ya!)",
+      "lyrics_original": "[VERSE 1]\nOne, two, three, I will never be\nEverything that you are\nFour, five, six, come and get your kicks\nSeven's here, gone too far\nEight, nine, ten, let's go again\nI never thought we'd ever fail\nEleven is a heaven, mighty upper but\nBut he never ever opens his mouth\n\n[CHORUS]\nAnd here I ever see you up and down the street\n\n[VERSE 2]\nI know I'll never ever play again\nBetween me and you, I'd rather go for a ride with you\nI have no hell, it's one in the same\n\n[CHORUS]\nOh, I hope that they got it all\nShe's too wild, you know\nOh yeah, you think I am\n\n[OUTRO]\nOh, oh, oh\nYeah, hey\nShe's too wild, you know\n(Ay-ya!)",
       "lyrics_translation": null,
       "lyrics_english": null,
       "lyrics_turkish": null,
@@ -1262,7 +1287,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Mid-tempo Folk Rock, Soul",
+      "genre": "Mid-tempo folk rock, Soul",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -1281,7 +1306,8 @@
       ],
       "discovered_at": "2026-01-26T15:22:25.765684",
       "source": "User submission - Karasahin (JK) catalog",
-      "notes": "Mid-tempo folk rock, Soulful male baritone vocals, A blend of percussive acoustic guitar strumming and melodic electric guitar leads, Featuring a Hammond organ swell in the bridge, Driving drum kit with prominent cymbals, Rich, full-band arrangement, Earnest storytelling tone, high dynamic range, Warm analog saturation, 100 BPM, bright and clear mix. Weirdness 11%, Style Influence 31%, Audio Influence 69%. Genres: folk, pop, emotional, acoustic, piano, mid-tempo, minor, moody, introspective, raw, authentic, modern, atmospheric, urban, soulful, restrained."
+      "notes": "Mid-tempo folk rock, Soulful male baritone vocals, A blend of percussive acoustic guitar strumming and melodic electric guitar leads, Featuring a Hammond organ swell in the bridge, Driving drum kit with prominent cymbals, Rich, full-band arrangement, Earnest storytelling tone, high dynamic range, Warm analog saturation, 100 BPM, bright and clear mix. Weirdness 11%, Style Influence 31%, Audio Influence 69%. Genres: folk, pop, emotional, acoustic, piano, mid-tempo, minor, moody, introspective, raw, authentic, modern, atmospheric, urban, soulful, restrained.",
+      "suno_prompt": "Genre: Mid-tempo Folk Rock, Soul\nBPM: 100\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, introspective atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, drums. Vocals: male baritone vocals. Mood: introspective. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n\nLyrics structure:\n- VERSE 1\n- CHORUS\n- VERSE 2\n- CHORUS\n- OUTRO\n"
     },
     "tr_012": {
       "song_id": "tr_012",
@@ -1316,7 +1342,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Orta Tempo Folk Rock, Soul",
+      "genre": "Orta tempo folk rock, Soul",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -1335,7 +1361,8 @@
       ],
       "discovered_at": "2026-01-26T15:22:25.765696",
       "source": "User submission - Karasahin (JK) catalog - Bilingual twin",
-      "notes": "Orta tempo folk rock, Ruh dolu erkek bariton vokaller, Perküsif akustik gitar çalma ve melodik elektrik gitar sololarının karışımı, Köprüde Hammond org şişmesi, Belirgin zillerle sürücü davul seti, Zengin, tam grup düzenleme, Samimi hikaye anlatımı tonu, yüksek dinamik aralık, Sıcak analog doygunluk, 100 BPM, parlak ve net mix. Garip 11%, Stil Etkisi 31%, Ses Etkisi 69%"
+      "notes": "Orta tempo folk rock, Ruh dolu erkek bariton vokaller, Perküsif akustik gitar çalma ve melodik elektrik gitar sololarının karışımı, Köprüde Hammond org şişmesi, Belirgin zillerle sürücü davul seti, Zengin, tam grup düzenleme, Samimi hikaye anlatımı tonu, yüksek dinamik aralık, Sıcak analog doygunluk, 100 BPM, parlak ve net mix. Garip 11%, Stil Etkisi 31%, Ses Etkisi 69%",
+      "suno_prompt": "Genre: Orta Tempo Folk Rock, Soul\nBPM: 100\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: davul. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "en_016": {
       "song_id": "en_016",
@@ -1354,7 +1381,7 @@
         "reflective",
         "evocative"
       ],
-      "lyrics_original": "[Verse 1]\nAll I ever really wanted to be was someone on TV\nSomeone people could see, cause then you can get away with almost anything\nYou put your mind to\nI've forgotten everything you've ever seen for\nEverything you've ever believed in\nOh, that's a funny way to live your life, but it's\nI said, can you hear me?\n\n[Verse 2]\nAnd ever since you left me, I've been running around\nI've been chasing every piece of ass\nSooner or later, one of them might just crash\n\n[Instrumental]\nCrash\nCrash",
+      "lyrics_original": "[VERSE 1]\nAll I ever really wanted to be was someone on TV\nSomeone people could see, cause then you can get away with almost anything\nYou put your mind to\nI've forgotten everything you've ever seen for\nEverything you've ever believed in\nOh, that's a funny way to live your life, but it's\nI said, can you hear me?\n\n[VERSE 2]\nAnd ever since you left me, I've been running around\nI've been chasing every piece of ass\nSooner or later, one of them might just crash\n\n[INSTRUMENTAL]\nCrash\nCrash",
       "lyrics_translation": null,
       "lyrics_english": null,
       "lyrics_turkish": null,
@@ -1371,7 +1398,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Mid-tempo Indie Folk Rock",
+      "genre": "Mid-tempo indie folk rock",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -1390,7 +1417,8 @@
       ],
       "discovered_at": "2026-01-26T15:22:25.777263",
       "source": "User submission - Karasahin (JK) catalog",
-      "notes": "Mid-tempo indie folk rock, melancholic yet driving, Mellow male vocals, harmonizing with himself in the chorus, Clean acoustic guitar strumming, syncopated rhythm, melodic bass guitar, Subtle Rhodes piano accents, The vibe is lonely but rhythmic, like a long drive at dusk, Crisp production, clear vocals, 105 BPM, Bittersweet, reflective, evocative storytelling. Weirdness 11%, Style Influence 31%, Audio Influence 69%. Genres: folk, pop, emotional, acoustic, piano, mid-tempo, minor, moody, introspective, raw, authentic, modern, atmospheric, urban, soulful, restrained, melancholic, reflective, evocative."
+      "notes": "Mid-tempo indie folk rock, melancholic yet driving, Mellow male vocals, harmonizing with himself in the chorus, Clean acoustic guitar strumming, syncopated rhythm, melodic bass guitar, Subtle Rhodes piano accents, The vibe is lonely but rhythmic, like a long drive at dusk, Crisp production, clear vocals, 105 BPM, Bittersweet, reflective, evocative storytelling. Weirdness 11%, Style Influence 31%, Audio Influence 69%. Genres: folk, pop, emotional, acoustic, piano, mid-tempo, minor, moody, introspective, raw, authentic, modern, atmospheric, urban, soulful, restrained, melancholic, reflective, evocative.",
+      "suno_prompt": "Genre: Mid-tempo Indie Folk Rock\nBPM: 105\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, melancholic, introspective atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, bass guitar, Rhodes piano. Vocals: mellow male vocals. Mood: melancholic, introspective. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n\nLyrics structure:\n- VERSE 1\n- VERSE 2\n- INSTRUMENTAL\n"
     },
     "tr_013": {
       "song_id": "tr_013",
@@ -1426,7 +1454,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Orta Tempo Indie Folk Rock",
+      "genre": "Orta tempo indie folk rock",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -1445,7 +1473,8 @@
       ],
       "discovered_at": "2026-01-26T15:22:25.777276",
       "source": "User submission - Karasahin (JK) catalog - Bilingual twin",
-      "notes": "Orta tempo indie folk rock, melankolik ama sürücü, Yumuşak erkek vokaller, nakaratta kendisiyle uyumlu, Temiz akustik gitar çalma, senkoplu ritim, melodik bas gitar, İnce Rhodes piyano vurguları, Ruh hali yalnız ama ritmik, alacakaranlıkta uzun bir sürüş gibi, Net üretim, net vokaller, 105 BPM, Acı-tatlı, düşündürücü, etkileyici hikaye anlatımı."
+      "notes": "Orta tempo indie folk rock, melankolik ama sürücü, Yumuşak erkek vokaller, nakaratta kendisiyle uyumlu, Temiz akustik gitar çalma, senkoplu ritim, melodik bas gitar, İnce Rhodes piyano vurguları, Ruh hali yalnız ama ritmik, alacakaranlıkta uzun bir sürüş gibi, Net üretim, net vokaller, 105 BPM, Acı-tatlı, düşündürücü, etkileyici hikaye anlatımı.",
+      "suno_prompt": "Genre: Orta Tempo Indie Folk Rock\nBPM: 105\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: Rhodes piano. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "tr_014": {
       "song_id": "tr_014",
@@ -1466,7 +1495,7 @@
         "defiant",
         "communal"
       ],
-      "lyrics_original": "[Intro – slow ceremonial opening]\n[Low davul heartbeat in 4/4; distant male choir hums on a single note; deep cello drones establish gravity]\n(Voice enters solemn, restrained, almost spoken, with controlled vibrato)\n\nKıta 1\nDünya yanar dert içinde\nToprak kavga, kan izinde\nMasum canlar göç içinde\nAğlar yürek, sönmez közüm\n\n[Strings begin to rise slowly; bağlama tremolo underneath last line; breath audible at phrase ends]\n\n⸻\n\n[Nakarat – first lift, dignified not explosive yet]\n[Mehter-style snare rolls softly; choir opens into harmony thirds; tempo steady]\n(Vocal grows fuller, proud but mournful)\n\nNakarat\nKıbrıs bizim canımız\nToprağında kanımız\nGerçek Kıbrıslı direnir\nYaşatır vatanımız\n\n[Last line held with sustained vibrato; short echo tail]\n\n⸻\n\n[Kıta 2 – movement and memory]\n[Rhythm tightens; subtle rhythmic oud pattern joins; violins pulse gently]\n(Vocal slightly warmer, reflective rather than angry)\n\nKıta 2\nAnılarla dolu dağlar\nGöçmen geçti, kaldı yarlar\nCennetime açtı yollar\nYine biziz köklerimiz\n\n[Choir hums quietly under \"köklerimiz\"]\n\n⸻\n\n[Nakarat – stronger, collective voice]\n[Davul hits heavier; brass (trumpet + horn blend) answers melody; crowd texture fades in]\n(Vocal firm, resolute, chest-led)\n\nNakarat\nKıbrıs bizim canımız\nToprağında kanımız\nGerçek Kıbrıslı direnir\nYaşatır vatanımız\n\n⸻\n\n[Kıta 3 – hope and resolve]\n[Music briefly drops back; single cello + piano; light breath before first word]\n(Vocal tender, hopeful, lifted at phrase ends)\n\nKıta 3\nGüneş doğar umut ile\nBarış gelsin sevda dile\nÖzgür yaşa kendiyle\nKıbrıs'ın kalbinde biz\n\n[String swell begins midway through verse, foreshadowing finale]\n\n⸻\n\n[Nakarat (2x) – final anthem]\n[Full orchestra unleashed: davul, mehter snare, soaring strings, brass fanfares, massive choir]\n(First pass strong; second pass louder, communal, almost shouted)\n\nNakarat\nKıbrıs bizim canımız\nToprağında kanımız\nGerçek Kıbrıslı direnir\nYaşatır vatanımız\n\nNakarat (repeat)\nKıbrıs bizim canımız\nToprağında kanımız\nGerçek Kıbrıslı direnir\nYaşatır vatanımız\n\n[Outro – reverent fade]\n[Choir sustains final chord; lone cello descends; distant davul heartbeat fades into silence]",
+      "lyrics_original": "[INTRO – SLOW CEREMONIAL OPENING]\n[LOW DAVUL HEARTBEAT IN 4/4; DISTANT MALE CHOIR HUMS ON A SINGLE NOTE; DEEP CELLO DRONES ESTABLISH GRAVITY]\n(Voice enters solemn, restrained, almost spoken, with controlled vibrato)\n\nKıta 1\nDünya yanar dert içinde\nToprak kavga, kan izinde\nMasum canlar göç içinde\nAğlar yürek, sönmez közüm\n\n[STRINGS BEGIN TO RISE SLOWLY; BAĞLAMA TREMOLO UNDERNEATH LAST LINE; BREATH AUDIBLE AT PHRASE ENDS]\n\n⸻\n\n[NAKARAT – FIRST LIFT, DIGNIFIED NOT EXPLOSIVE YET]\n[MEHTER-STYLE SNARE ROLLS SOFTLY; CHOIR OPENS INTO HARMONY THIRDS; TEMPO STEADY]\n(Vocal grows fuller, proud but mournful)\n\nNakarat\nKıbrıs bizim canımız\nToprağında kanımız\nGerçek Kıbrıslı direnir\nYaşatır vatanımız\n\n[LAST LINE HELD WITH SUSTAINED VIBRATO; SHORT ECHO TAIL]\n\n⸻\n\n[KITA 2 – MOVEMENT AND MEMORY]\n[RHYTHM TIGHTENS; SUBTLE RHYTHMIC OUD PATTERN JOINS; VIOLINS PULSE GENTLY]\n(Vocal slightly warmer, reflective rather than angry)\n\nKıta 2\nAnılarla dolu dağlar\nGöçmen geçti, kaldı yarlar\nCennetime açtı yollar\nYine biziz köklerimiz\n\n[CHOIR HUMS QUIETLY UNDER \"KÖKLERIMIZ\"]\n\n⸻\n\n[NAKARAT – STRONGER, COLLECTIVE VOICE]\n[DAVUL HITS HEAVIER; BRASS (TRUMPET + HORN BLEND) ANSWERS MELODY; CROWD TEXTURE FADES IN]\n(Vocal firm, resolute, chest-led)\n\nNakarat\nKıbrıs bizim canımız\nToprağında kanımız\nGerçek Kıbrıslı direnir\nYaşatır vatanımız\n\n⸻\n\n[KITA 3 – HOPE AND RESOLVE]\n[MUSIC BRIEFLY DROPS BACK; SINGLE CELLO + PIANO; LIGHT BREATH BEFORE FIRST WORD]\n(Vocal tender, hopeful, lifted at phrase ends)\n\nKıta 3\nGüneş doğar umut ile\nBarış gelsin sevda dile\nÖzgür yaşa kendiyle\nKıbrıs'ın kalbinde biz\n\n[STRING SWELL BEGINS MIDWAY THROUGH VERSE, FORESHADOWING FINALE]\n\n⸻\n\n[NAKARAT (2X) – FINAL ANTHEM]\n[FULL ORCHESTRA UNLEASHED: DAVUL, MEHTER SNARE, SOARING STRINGS, BRASS FANFARES, MASSIVE CHOIR]\n(First pass strong; second pass louder, communal, almost shouted)\n\nNakarat\nKıbrıs bizim canımız\nToprağında kanımız\nGerçek Kıbrıslı direnir\nYaşatır vatanımız\n\nNakarat (repeat)\nKıbrıs bizim canımız\nToprağında kanımız\nGerçek Kıbrıslı direnir\nYaşatır vatanımız\n\n[OUTRO – REVERENT FADE]\n[CHOIR SUSTAINS FINAL CHORD; LONE CELLO DESCENDS; DISTANT DAVUL HEARTBEAT FADES INTO SILENCE]",
       "lyrics_translation": null,
       "lyrics_english": null,
       "lyrics_turkish": null,
@@ -1484,7 +1513,7 @@
       "unity_builder": true,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Epic Anatolian Patriotic Ballad, Arabesk, Folk",
+      "genre": "Epic anatolian patriotic ballad, Arabesk, Folk",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -1505,7 +1534,8 @@
       ],
       "discovered_at": "2026-01-26T15:22:25.789334",
       "source": "User submission - Karasahin (JK) catalog",
-      "notes": "Epic Anatolian patriotic ballad with strong arabesque and folk foundations, performed by a deep male vocal with emotional vibrato and dignified restraint, Tempo mid-slow, ceremonial and steady, Arrangement builds from sparse davul, cello, and drone into a full Ottoman-inspired orchestral anthem, Instrumentation includes davul, mehter snare, bağlama, oud, deep cellos, soaring violins, cinematic brass, and a powerful male choir, Mood is mournful yet proud, rooted in history, resilience, and identity, Vocals should feel sincere, grounded, and communal — never pop, never glossy, Production cinematic and spacious, with wide stereo strings, deep low-end percussion, and reverbs that feel like open land and memory, Emotional arc moves from grief → remembrance → unity → defiant hope, Timeless, serious, and respectful — a song of land, roots, and endurance. Weirdness 11%, Style Influence 31%. Genres: cinematic, folk, arabesk, patriotic, emotional, justice, acoustic, piano, bağlama, mid-tempo, minor, moody, introspective, defiant, humane, raw, authentic, modern, atmospheric, urban, soulful, ceremonial, historical, proud, mournful, communal."
+      "notes": "Epic Anatolian patriotic ballad with strong arabesque and folk foundations, performed by a deep male vocal with emotional vibrato and dignified restraint, Tempo mid-slow, ceremonial and steady, Arrangement builds from sparse davul, cello, and drone into a full Ottoman-inspired orchestral anthem, Instrumentation includes davul, mehter snare, bağlama, oud, deep cellos, soaring violins, cinematic brass, and a powerful male choir, Mood is mournful yet proud, rooted in history, resilience, and identity, Vocals should feel sincere, grounded, and communal — never pop, never glossy, Production cinematic and spacious, with wide stereo strings, deep low-end percussion, and reverbs that feel like open land and memory, Emotional arc moves from grief → remembrance → unity → defiant hope, Timeless, serious, and respectful — a song of land, roots, and endurance. Weirdness 11%, Style Influence 31%. Genres: cinematic, folk, arabesk, patriotic, emotional, justice, acoustic, piano, bağlama, mid-tempo, minor, moody, introspective, defiant, humane, raw, authentic, modern, atmospheric, urban, soulful, ceremonial, historical, proud, mournful, communal.",
+      "suno_prompt": "Genre: Epic Anatolian Patriotic Ballad, Arabesk, Folk\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, defiant, introspective, proud, mournful atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: bağlama, piano, strings, brass, choir, davul, oud. Vocals: deep male vocals. Mood: defiant, introspective, proud, mournful. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n\nLyrics structure:\n- INTRO – SLOW CEREMONIAL OPENING\n- LOW DAVUL HEARTBEAT IN 4/4; DISTANT MALE CHOIR HUMS ON A SINGLE NOTE; DEEP CELLO DRONES ESTABLISH GRAVITY\n- STRINGS BEGIN TO RISE SLOWLY; BAĞLAMA TREMOLO UNDERNEATH LAST LINE; BREATH AUDIBLE AT PHRASE ENDS\n- NAKARAT – FIRST LIFT, DIGNIFIED NOT EXPLOSIVE YET\n- MEHTER-STYLE SNARE ROLLS SOFTLY; CHOIR OPENS INTO HARMONY THIRDS; TEMPO STEADY\n- LAST LINE HELD WITH SUSTAINED VIBRATO; SHORT ECHO TAIL\n- KITA 2 – MOVEMENT AND MEMORY\n- RHYTHM TIGHTENS; SUBTLE RHYTHMIC OUD PATTERN JOINS; VIOLINS PULSE GENTLY\n- CHOIR HUMS QUIETLY UNDER \"KÖKLERIMIZ\"\n- NAKARAT – STRONGER, COLLECTIVE VOICE\n"
     },
     "en_017": {
       "song_id": "en_017",
@@ -1544,7 +1574,7 @@
       "unity_builder": true,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Epic Anatolian Patriotic Ballad, Arabesk, Folk",
+      "genre": "Epic anatolian patriotic ballad, Arabesk, Folk",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -1565,7 +1595,8 @@
       ],
       "discovered_at": "2026-01-26T15:22:25.789349",
       "source": "User submission - Karasahin (JK) catalog - Bilingual twin",
-      "notes": "Epic Anatolian patriotic ballad with strong arabesque and folk foundations, performed by a deep male vocal with emotional vibrato and dignified restraint, Tempo mid-slow, ceremonial and steady, Arrangement builds from sparse davul, cello, and drone into a full Ottoman-inspired orchestral anthem, Instrumentation includes davul, mehter snare, bağlama, oud, deep cellos, soaring violins, cinematic brass, and a powerful male choir, Mood is mournful yet proud, rooted in history, resilience, and identity, Vocals should feel sincere, grounded, and communal — never pop, never glossy, Production cinematic and spacious, with wide stereo strings, deep low-end percussion, and reverbs that feel like open land and memory, Emotional arc moves from grief → remembrance → unity → defiant hope, Timeless, serious, and respectful — a song of land, roots, and endurance."
+      "notes": "Epic Anatolian patriotic ballad with strong arabesque and folk foundations, performed by a deep male vocal with emotional vibrato and dignified restraint, Tempo mid-slow, ceremonial and steady, Arrangement builds from sparse davul, cello, and drone into a full Ottoman-inspired orchestral anthem, Instrumentation includes davul, mehter snare, bağlama, oud, deep cellos, soaring violins, cinematic brass, and a powerful male choir, Mood is mournful yet proud, rooted in history, resilience, and identity, Vocals should feel sincere, grounded, and communal — never pop, never glossy, Production cinematic and spacious, with wide stereo strings, deep low-end percussion, and reverbs that feel like open land and memory, Emotional arc moves from grief → remembrance → unity → defiant hope, Timeless, serious, and respectful — a song of land, roots, and endurance.",
+      "suno_prompt": "Genre: Epic Anatolian Patriotic Ballad, Arabesk, Folk\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, defiant, proud, mournful atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: bağlama, strings, brass, choir, davul, oud. Vocals: deep male vocals. Mood: defiant, proud, mournful. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "en_018": {
       "song_id": "en_018",
@@ -1583,7 +1614,7 @@
         "raw",
         "authentic"
       ],
-      "lyrics_original": "[Intro – sparse piano motif, distant city ambience, low drone]\n[drop instruments after 2 bars, vocal enters alone]\n\n[Verse 1 – minimal, guitar + piano, no beat]\nAh, I'm tired of this fractured life,  \nWho will listen through the noise and strife?  \nYeah, caught in the middle, under the gun,  \nWho's left to save me when there's nowhere to run?  \n\nMr. Judge, you sit in your high chair,  \nBut outside, it's chaos, does anyone care?  \nNo roof to call home, danger at my door,  \nStill, you question me like I owe you more.  \n\n[Pre-Chorus – tension build, low bass swell, breath pauses emphasized]\n[add subtle pulse, hold last word]\n\n[Chorus – beat enters soft, emotional lift, layered harmony on \"you\"]\nYou, you hold the gavel, I'm on trial,  \nLost in the stars, but it's all denial.  \nI reach for my dreams, but they slip through air,  \nJudge, jury, executioner — none of it's fair.  \n\nYou, you say justice is blind,  \nBut I'm lost in the sky, left behind.  \nWith all my dreams that crumble and fall,  \nYou decide my fate, you have it all.  \n\n[Post-Chorus – instrumental breath, echo tail on last line]\n\n[Verse 2 – beat drops back, darker tone, tighter phrasing]\nLife's always been rigged, a cruel design,  \nI'm just a victim of a twisted line.  \nThey come for me knowing I'm already down,  \nDon't ask why I bleed, don't wear that frown.  \n\nMr. Judge, you see me as a case,  \nBut in the streets, it's a whole different face.  \nThe world spins with lies and deceit,  \nWhile I'm left crawling, dragged by defeat.  \n\n[Pre-Chorus – same as before, slightly stronger bass movement]\n\n[Chorus – repeat, fuller instrumentation, emotional peak]\nYou, you hold the gavel, I'm on trial,  \nLost in the stars, but it's all denial.  \nI reach for my dreams, but they slip through air,  \nJudge, jury, executioner — none of it's fair.  \n\nYou, you say justice is blind,  \nBut I'm lost in the sky, left behind.  \nWith all my dreams that crumble and fall,  \nYou decide my fate, you have it all.  \n\n[Bridge – beat strips out, spoken intensity, echoing space]\n[tempo drops feel, no rhythm for first two lines]\nA world full of trouble, but no one sees,  \nWe scream for change, but get no reprieves.  \n\n[gradual swell, low choir pad enters]\nMr. Judge, ask the ones still alive,  \nHope's been chained, but it won't survive.  \n\n[emotion rises, vocal cracks allowed]\nIt's love we need, not bars and chains,  \nCan't you see the system's in vain?  \nDon't punish the broken, understand their cry,  \nThis world's burning, but we still try.  \n\n[Final Chorus – fullest arrangement, restrained power, no shouting]\nYou, you hold the gavel, I'm on trial,  \nLost in the stars, but it's all denial.  \nI reach for my dreams, but they slip through air,  \nJudge, jury, executioner — none of it's fair.",
+      "lyrics_original": "[INTRO]\n[DROP INSTRUMENTS AFTER 2 BARS, VOCAL ENTERS ALONE]\n\n[VERSE 1]\nAh, I'm tired of this fractured life,\nWho will listen through the noise and strife?\nYeah, caught in the middle, under the gun,\nWho's left to save me when there's nowhere to run?\n\nMr. Judge, you sit in your high chair,\nBut outside, it's chaos, does anyone care?\nNo roof to call home, danger at my door,\nStill, you question me like I owe you more.\n\n[CHORUS]\n[ADD SUBTLE PULSE, HOLD LAST WORD]\n\n[CHORUS]\nYou, you hold the gavel, I'm on trial,\nLost in the stars, but it's all denial.\nI reach for my dreams, but they slip through air,\nJudge, jury, executioner — none of it's fair.\n\nYou, you say justice is blind,\nBut I'm lost in the sky, left behind.\nWith all my dreams that crumble and fall,\nYou decide my fate, you have it all.\n\n[CHORUS]\n\n[VERSE 2]\nLife's always been rigged, a cruel design,\nI'm just a victim of a twisted line.\nThey come for me knowing I'm already down,\nDon't ask why I bleed, don't wear that frown.\n\nMr. Judge, you see me as a case,\nBut in the streets, it's a whole different face.\nThe world spins with lies and deceit,\nWhile I'm left crawling, dragged by defeat.\n\n[CHORUS]\n\n[CHORUS]\nYou, you hold the gavel, I'm on trial,\nLost in the stars, but it's all denial.\nI reach for my dreams, but they slip through air,\nJudge, jury, executioner — none of it's fair.\n\nYou, you say justice is blind,\nBut I'm lost in the sky, left behind.\nWith all my dreams that crumble and fall,\nYou decide my fate, you have it all.\n\n[BRIDGE]\n[TEMPO DROPS FEEL, NO RHYTHM FOR FIRST TWO LINES]\nA world full of trouble, but no one sees,\nWe scream for change, but get no reprieves.\n\n[GRADUAL SWELL, LOW CHOIR PAD ENTERS]\nMr. Judge, ask the ones still alive,\nHope's been chained, but it won't survive.\n\n[EMOTION RISES, VOCAL CRACKS ALLOWED]\nIt's love we need, not bars and chains,\nCan't you see the system's in vain?\nDon't punish the broken, understand their cry,\nThis world's burning, but we still try.\n\n[CHORUS]\nYou, you hold the gavel, I'm on trial,\nLost in the stars, but it's all denial.\nI reach for my dreams, but they slip through air,\nJudge, jury, executioner — none of it's fair.",
       "lyrics_translation": null,
       "lyrics_english": null,
       "lyrics_turkish": null,
@@ -1601,7 +1632,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Cinematic Folk, Light Arabesk, Cool Pop, Subtle House",
+      "genre": "Cinematic folk, Light arabesk, Cool pop, Subtle house",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -1620,7 +1651,8 @@
       ],
       "discovered_at": "2026-01-26T15:23:03.787214",
       "source": "User submission - Karasahin (JK) catalog",
-      "notes": "Tempo: 92 BPM, Key: D minor. Instrumentation: acoustic guitar, bağlama accents, low piano, soft kick, airy synth pad. Vocal: male, mid-range, restrained, emotional, spoken-sung delivery. Mood: weary, defiant, introspective, humane. Genres: cinematic, folk, pop, arabesk, house, protest, emotional, justice, acoustic, piano, bağlama, mid-tempo, minor, moody, introspective, defiant, humane, spoken-sung, raw, authentic, modern, atmospheric, urban, soulful, restrained."
+      "notes": "Tempo: 92 BPM, Key: D minor. Instrumentation: acoustic guitar, bağlama accents, low piano, soft kick, airy synth pad. Vocal: male, mid-range, restrained, emotional, spoken-sung delivery. Mood: weary, defiant, introspective, humane. Genres: cinematic, folk, pop, arabesk, house, protest, emotional, justice, acoustic, piano, bağlama, mid-tempo, minor, moody, introspective, defiant, humane, spoken-sung, raw, authentic, modern, atmospheric, urban, soulful, restrained.",
+      "suno_prompt": "Genre: Cinematic Folk, Light Arabesk, Cool Pop, Subtle House\nBPM: 92\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, defiant, introspective, weary atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, bağlama, piano, synth pad. Vocals: male mid-range vocals. Mood: defiant, introspective, weary. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n\nLyrics structure:\n- INTRO\n- DROP INSTRUMENTS AFTER 2 BARS, VOCAL ENTERS ALONE\n- VERSE 1\n- CHORUS\n- ADD SUBTLE PULSE, HOLD LAST WORD\n- CHORUS\n- CHORUS\n- VERSE 2\n- CHORUS\n- CHORUS\n"
     },
     "tr_015": {
       "song_id": "tr_015",
@@ -1656,7 +1688,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Sinematik Folk, Hafif Arabesk, Cool Pop, İnce House",
+      "genre": "Sinematik folk, Hafif arabesk, Cool pop, İnce house",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -1675,7 +1707,8 @@
       ],
       "discovered_at": "2026-01-26T15:23:03.787251",
       "source": "User submission - Karasahin (JK) catalog - Bilingual twin",
-      "notes": "Tempo: 92 BPM, Key: D minor. Enstrümantasyon: akustik gitar, bağlama vurguları, düşük piyano, yumuşak kick, havalı synth pad. Vokal: erkek, orta aralık, kısıtlı, duygusal, konuşma-şarkı söyleme. Ruh hali: yorgun, meydan okuyan, içe dönük, insancıl."
+      "notes": "Tempo: 92 BPM, Key: D minor. Enstrümantasyon: akustik gitar, bağlama vurguları, düşük piyano, yumuşak kick, havalı synth pad. Vokal: erkek, orta aralık, kısıtlı, duygusal, konuşma-şarkı söyleme. Ruh hali: yorgun, meydan okuyan, içe dönük, insancıl.",
+      "suno_prompt": "Genre: Sinematik Folk, Hafif Arabesk, Cool Pop, İnce House\nBPM: 92\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: bağlama, synth pad. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "en_019": {
       "song_id": "en_019",
@@ -1693,7 +1726,7 @@
         "soulful",
         "restrained"
       ],
-      "lyrics_original": "[Verse 1]\nOne, two, three, I will never be\nEverything that you are\nFour, five, six, come and get your kicks\nSeven's here, gone too far\nEight, nine, ten, let's go again\nI never thought we'd ever fail\nEleven is a heaven, mighty upper but\nBut he never ever opens his mouth\n\n[Chorus]\nAnd here I ever see you up and down the street\n\n[Verse 2]\nI know I'll never ever play again\nBetween me and you, I'd rather go for a ride with you\nI have no hell, it's one in the same\n\n[Chorus]\nOh, I hope that they got it all\nShe's too wild, you know\nOh yeah, you think I am\n\n[Outro]\nOh, oh, oh\nYeah, hey\nShe's too wild, you know\n(Ay-ya!)",
+      "lyrics_original": "[VERSE 1]\nOne, two, three, I will never be\nEverything that you are\nFour, five, six, come and get your kicks\nSeven's here, gone too far\nEight, nine, ten, let's go again\nI never thought we'd ever fail\nEleven is a heaven, mighty upper but\nBut he never ever opens his mouth\n\n[CHORUS]\nAnd here I ever see you up and down the street\n\n[VERSE 2]\nI know I'll never ever play again\nBetween me and you, I'd rather go for a ride with you\nI have no hell, it's one in the same\n\n[CHORUS]\nOh, I hope that they got it all\nShe's too wild, you know\nOh yeah, you think I am\n\n[OUTRO]\nOh, oh, oh\nYeah, hey\nShe's too wild, you know\n(Ay-ya!)",
       "lyrics_translation": null,
       "lyrics_english": null,
       "lyrics_turkish": null,
@@ -1710,7 +1743,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Mid-tempo Folk Rock, Soul",
+      "genre": "Mid-tempo folk rock, Soul",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -1729,7 +1762,8 @@
       ],
       "discovered_at": "2026-01-26T15:23:03.813200",
       "source": "User submission - Karasahin (JK) catalog",
-      "notes": "Mid-tempo folk rock, Soulful male baritone vocals, A blend of percussive acoustic guitar strumming and melodic electric guitar leads, Featuring a Hammond organ swell in the bridge, Driving drum kit with prominent cymbals, Rich, full-band arrangement, Earnest storytelling tone, high dynamic range, Warm analog saturation, 100 BPM, bright and clear mix. Weirdness 11%, Style Influence 31%, Audio Influence 69%. Genres: folk, pop, emotional, acoustic, piano, mid-tempo, minor, moody, introspective, raw, authentic, modern, atmospheric, urban, soulful, restrained."
+      "notes": "Mid-tempo folk rock, Soulful male baritone vocals, A blend of percussive acoustic guitar strumming and melodic electric guitar leads, Featuring a Hammond organ swell in the bridge, Driving drum kit with prominent cymbals, Rich, full-band arrangement, Earnest storytelling tone, high dynamic range, Warm analog saturation, 100 BPM, bright and clear mix. Weirdness 11%, Style Influence 31%, Audio Influence 69%. Genres: folk, pop, emotional, acoustic, piano, mid-tempo, minor, moody, introspective, raw, authentic, modern, atmospheric, urban, soulful, restrained.",
+      "suno_prompt": "Genre: Mid-tempo Folk Rock, Soul\nBPM: 100\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, introspective atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, drums. Vocals: male baritone vocals. Mood: introspective. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n\nLyrics structure:\n- VERSE 1\n- CHORUS\n- VERSE 2\n- CHORUS\n- OUTRO\n"
     },
     "tr_016": {
       "song_id": "tr_016",
@@ -1764,7 +1798,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Orta Tempo Folk Rock, Soul",
+      "genre": "Orta tempo folk rock, Soul",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -1783,7 +1817,8 @@
       ],
       "discovered_at": "2026-01-26T15:23:03.813219",
       "source": "User submission - Karasahin (JK) catalog - Bilingual twin",
-      "notes": "Orta tempo folk rock, Ruh dolu erkek bariton vokaller, Perküsif akustik gitar çalma ve melodik elektrik gitar sololarının karışımı, Köprüde Hammond org şişmesi, Belirgin zillerle sürücü davul seti, Zengin, tam grup düzenleme, Samimi hikaye anlatımı tonu, yüksek dinamik aralık, Sıcak analog doygunluk, 100 BPM, parlak ve net mix. Garip 11%, Stil Etkisi 31%, Ses Etkisi 69%"
+      "notes": "Orta tempo folk rock, Ruh dolu erkek bariton vokaller, Perküsif akustik gitar çalma ve melodik elektrik gitar sololarının karışımı, Köprüde Hammond org şişmesi, Belirgin zillerle sürücü davul seti, Zengin, tam grup düzenleme, Samimi hikaye anlatımı tonu, yüksek dinamik aralık, Sıcak analog doygunluk, 100 BPM, parlak ve net mix. Garip 11%, Stil Etkisi 31%, Ses Etkisi 69%",
+      "suno_prompt": "Genre: Orta Tempo Folk Rock, Soul\nBPM: 100\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: davul. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "en_020": {
       "song_id": "en_020",
@@ -1802,7 +1837,7 @@
         "reflective",
         "evocative"
       ],
-      "lyrics_original": "[Verse 1]\nAll I ever really wanted to be was someone on TV\nSomeone people could see, cause then you can get away with almost anything\nYou put your mind to\nI've forgotten everything you've ever seen for\nEverything you've ever believed in\nOh, that's a funny way to live your life, but it's\nI said, can you hear me?\n\n[Verse 2]\nAnd ever since you left me, I've been running around\nI've been chasing every piece of ass\nSooner or later, one of them might just crash\n\n[Instrumental]\nCrash\nCrash",
+      "lyrics_original": "[VERSE 1]\nAll I ever really wanted to be was someone on TV\nSomeone people could see, cause then you can get away with almost anything\nYou put your mind to\nI've forgotten everything you've ever seen for\nEverything you've ever believed in\nOh, that's a funny way to live your life, but it's\nI said, can you hear me?\n\n[VERSE 2]\nAnd ever since you left me, I've been running around\nI've been chasing every piece of ass\nSooner or later, one of them might just crash\n\n[INSTRUMENTAL]\nCrash\nCrash",
       "lyrics_translation": null,
       "lyrics_english": null,
       "lyrics_turkish": null,
@@ -1819,7 +1854,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Mid-tempo Indie Folk Rock",
+      "genre": "Mid-tempo indie folk rock",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -1838,7 +1873,8 @@
       ],
       "discovered_at": "2026-01-26T15:23:03.826380",
       "source": "User submission - Karasahin (JK) catalog",
-      "notes": "Mid-tempo indie folk rock, melancholic yet driving, Mellow male vocals, harmonizing with himself in the chorus, Clean acoustic guitar strumming, syncopated rhythm, melodic bass guitar, Subtle Rhodes piano accents, The vibe is lonely but rhythmic, like a long drive at dusk, Crisp production, clear vocals, 105 BPM, Bittersweet, reflective, evocative storytelling. Weirdness 11%, Style Influence 31%, Audio Influence 69%. Genres: folk, pop, emotional, acoustic, piano, mid-tempo, minor, moody, introspective, raw, authentic, modern, atmospheric, urban, soulful, restrained, melancholic, reflective, evocative."
+      "notes": "Mid-tempo indie folk rock, melancholic yet driving, Mellow male vocals, harmonizing with himself in the chorus, Clean acoustic guitar strumming, syncopated rhythm, melodic bass guitar, Subtle Rhodes piano accents, The vibe is lonely but rhythmic, like a long drive at dusk, Crisp production, clear vocals, 105 BPM, Bittersweet, reflective, evocative storytelling. Weirdness 11%, Style Influence 31%, Audio Influence 69%. Genres: folk, pop, emotional, acoustic, piano, mid-tempo, minor, moody, introspective, raw, authentic, modern, atmospheric, urban, soulful, restrained, melancholic, reflective, evocative.",
+      "suno_prompt": "Genre: Mid-tempo Indie Folk Rock\nBPM: 105\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, melancholic, introspective atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: acoustic guitar, piano, bass guitar, Rhodes piano. Vocals: mellow male vocals. Mood: melancholic, introspective. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n\nLyrics structure:\n- VERSE 1\n- VERSE 2\n- INSTRUMENTAL\n"
     },
     "tr_017": {
       "song_id": "tr_017",
@@ -1874,7 +1910,7 @@
       "unity_builder": false,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Orta Tempo Indie Folk Rock",
+      "genre": "Orta tempo indie folk rock",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -1893,7 +1929,8 @@
       ],
       "discovered_at": "2026-01-26T15:23:03.826394",
       "source": "User submission - Karasahin (JK) catalog - Bilingual twin",
-      "notes": "Orta tempo indie folk rock, melankolik ama sürücü, Yumuşak erkek vokaller, nakaratta kendisiyle uyumlu, Temiz akustik gitar çalma, senkoplu ritim, melodik bas gitar, İnce Rhodes piyano vurguları, Ruh hali yalnız ama ritmik, alacakaranlıkta uzun bir sürüş gibi, Net üretim, net vokaller, 105 BPM, Acı-tatlı, düşündürücü, etkileyici hikaye anlatımı."
+      "notes": "Orta tempo indie folk rock, melankolik ama sürücü, Yumuşak erkek vokaller, nakaratta kendisiyle uyumlu, Temiz akustik gitar çalma, senkoplu ritim, melodik bas gitar, İnce Rhodes piyano vurguları, Ruh hali yalnız ama ritmik, alacakaranlıkta uzun bir sürüş gibi, Net üretim, net vokaller, 105 BPM, Acı-tatlı, düşündürücü, etkileyici hikaye anlatımı.",
+      "suno_prompt": "Genre: Orta Tempo Indie Folk Rock\nBPM: 105\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, emotional atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: Rhodes piano. Vocals: male vocals. Mood: emotional. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     },
     "tr_018": {
       "song_id": "tr_018",
@@ -1914,7 +1951,7 @@
         "defiant",
         "communal"
       ],
-      "lyrics_original": "[Intro – slow ceremonial opening]\n[Low davul heartbeat in 4/4; distant male choir hums on a single note; deep cello drones establish gravity]\n(Voice enters solemn, restrained, almost spoken, with controlled vibrato)\n\nKıta 1\nDünya yanar dert içinde\nToprak kavga, kan izinde\nMasum canlar göç içinde\nAğlar yürek, sönmez közüm\n\n[Strings begin to rise slowly; bağlama tremolo underneath last line; breath audible at phrase ends]\n\n⸻\n\n[Nakarat – first lift, dignified not explosive yet]\n[Mehter-style snare rolls softly; choir opens into harmony thirds; tempo steady]\n(Vocal grows fuller, proud but mournful)\n\nNakarat\nKıbrıs bizim canımız\nToprağında kanımız\nGerçek Kıbrıslı direnir\nYaşatır vatanımız\n\n[Last line held with sustained vibrato; short echo tail]\n\n⸻\n\n[Kıta 2 – movement and memory]\n[Rhythm tightens; subtle rhythmic oud pattern joins; violins pulse gently]\n(Vocal slightly warmer, reflective rather than angry)\n\nKıta 2\nAnılarla dolu dağlar\nGöçmen geçti, kaldı yarlar\nCennetime açtı yollar\nYine biziz köklerimiz\n\n[Choir hums quietly under \"köklerimiz\"]\n\n⸻\n\n[Nakarat – stronger, collective voice]\n[Davul hits heavier; brass (trumpet + horn blend) answers melody; crowd texture fades in]\n(Vocal firm, resolute, chest-led)\n\nNakarat\nKıbrıs bizim canımız\nToprağında kanımız\nGerçek Kıbrıslı direnir\nYaşatır vatanımız\n\n⸻\n\n[Kıta 3 – hope and resolve]\n[Music briefly drops back; single cello + piano; light breath before first word]\n(Vocal tender, hopeful, lifted at phrase ends)\n\nKıta 3\nGüneş doğar umut ile\nBarış gelsin sevda dile\nÖzgür yaşa kendiyle\nKıbrıs'ın kalbinde biz\n\n[String swell begins midway through verse, foreshadowing finale]\n\n⸻\n\n[Nakarat (2x) – final anthem]\n[Full orchestra unleashed: davul, mehter snare, soaring strings, brass fanfares, massive choir]\n(First pass strong; second pass louder, communal, almost shouted)\n\nNakarat\nKıbrıs bizim canımız\nToprağında kanımız\nGerçek Kıbrıslı direnir\nYaşatır vatanımız\n\nNakarat (repeat)\nKıbrıs bizim canımız\nToprağında kanımız\nGerçek Kıbrıslı direnir\nYaşatır vatanımız\n\n[Outro – reverent fade]\n[Choir sustains final chord; lone cello descends; distant davul heartbeat fades into silence]",
+      "lyrics_original": "[INTRO – SLOW CEREMONIAL OPENING]\n[LOW DAVUL HEARTBEAT IN 4/4; DISTANT MALE CHOIR HUMS ON A SINGLE NOTE; DEEP CELLO DRONES ESTABLISH GRAVITY]\n(Voice enters solemn, restrained, almost spoken, with controlled vibrato)\n\nKıta 1\nDünya yanar dert içinde\nToprak kavga, kan izinde\nMasum canlar göç içinde\nAğlar yürek, sönmez közüm\n\n[STRINGS BEGIN TO RISE SLOWLY; BAĞLAMA TREMOLO UNDERNEATH LAST LINE; BREATH AUDIBLE AT PHRASE ENDS]\n\n⸻\n\n[NAKARAT – FIRST LIFT, DIGNIFIED NOT EXPLOSIVE YET]\n[MEHTER-STYLE SNARE ROLLS SOFTLY; CHOIR OPENS INTO HARMONY THIRDS; TEMPO STEADY]\n(Vocal grows fuller, proud but mournful)\n\nNakarat\nKıbrıs bizim canımız\nToprağında kanımız\nGerçek Kıbrıslı direnir\nYaşatır vatanımız\n\n[LAST LINE HELD WITH SUSTAINED VIBRATO; SHORT ECHO TAIL]\n\n⸻\n\n[KITA 2 – MOVEMENT AND MEMORY]\n[RHYTHM TIGHTENS; SUBTLE RHYTHMIC OUD PATTERN JOINS; VIOLINS PULSE GENTLY]\n(Vocal slightly warmer, reflective rather than angry)\n\nKıta 2\nAnılarla dolu dağlar\nGöçmen geçti, kaldı yarlar\nCennetime açtı yollar\nYine biziz köklerimiz\n\n[CHOIR HUMS QUIETLY UNDER \"KÖKLERIMIZ\"]\n\n⸻\n\n[NAKARAT – STRONGER, COLLECTIVE VOICE]\n[DAVUL HITS HEAVIER; BRASS (TRUMPET + HORN BLEND) ANSWERS MELODY; CROWD TEXTURE FADES IN]\n(Vocal firm, resolute, chest-led)\n\nNakarat\nKıbrıs bizim canımız\nToprağında kanımız\nGerçek Kıbrıslı direnir\nYaşatır vatanımız\n\n⸻\n\n[KITA 3 – HOPE AND RESOLVE]\n[MUSIC BRIEFLY DROPS BACK; SINGLE CELLO + PIANO; LIGHT BREATH BEFORE FIRST WORD]\n(Vocal tender, hopeful, lifted at phrase ends)\n\nKıta 3\nGüneş doğar umut ile\nBarış gelsin sevda dile\nÖzgür yaşa kendiyle\nKıbrıs'ın kalbinde biz\n\n[STRING SWELL BEGINS MIDWAY THROUGH VERSE, FORESHADOWING FINALE]\n\n⸻\n\n[NAKARAT (2X) – FINAL ANTHEM]\n[FULL ORCHESTRA UNLEASHED: DAVUL, MEHTER SNARE, SOARING STRINGS, BRASS FANFARES, MASSIVE CHOIR]\n(First pass strong; second pass louder, communal, almost shouted)\n\nNakarat\nKıbrıs bizim canımız\nToprağında kanımız\nGerçek Kıbrıslı direnir\nYaşatır vatanımız\n\nNakarat (repeat)\nKıbrıs bizim canımız\nToprağında kanımız\nGerçek Kıbrıslı direnir\nYaşatır vatanımız\n\n[OUTRO – REVERENT FADE]\n[CHOIR SUSTAINS FINAL CHORD; LONE CELLO DESCENDS; DISTANT DAVUL HEARTBEAT FADES INTO SILENCE]",
       "lyrics_translation": null,
       "lyrics_english": null,
       "lyrics_turkish": null,
@@ -1932,7 +1969,7 @@
       "unity_builder": true,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Epic Anatolian Patriotic Ballad, Arabesk, Folk",
+      "genre": "Epic anatolian patriotic ballad, Arabesk, Folk",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -1953,7 +1990,8 @@
       ],
       "discovered_at": "2026-01-26T15:23:03.840656",
       "source": "User submission - Karasahin (JK) catalog",
-      "notes": "Epic Anatolian patriotic ballad with strong arabesque and folk foundations, performed by a deep male vocal with emotional vibrato and dignified restraint, Tempo mid-slow, ceremonial and steady, Arrangement builds from sparse davul, cello, and drone into a full Ottoman-inspired orchestral anthem, Instrumentation includes davul, mehter snare, bağlama, oud, deep cellos, soaring violins, cinematic brass, and a powerful male choir, Mood is mournful yet proud, rooted in history, resilience, and identity, Vocals should feel sincere, grounded, and communal — never pop, never glossy, Production cinematic and spacious, with wide stereo strings, deep low-end percussion, and reverbs that feel like open land and memory, Emotional arc moves from grief → remembrance → unity → defiant hope, Timeless, serious, and respectful — a song of land, roots, and endurance. Weirdness 11%, Style Influence 31%. Genres: cinematic, folk, arabesk, patriotic, emotional, justice, acoustic, piano, bağlama, mid-tempo, minor, moody, introspective, defiant, humane, raw, authentic, modern, atmospheric, urban, soulful, ceremonial, historical, proud, mournful, communal."
+      "notes": "Epic Anatolian patriotic ballad with strong arabesque and folk foundations, performed by a deep male vocal with emotional vibrato and dignified restraint, Tempo mid-slow, ceremonial and steady, Arrangement builds from sparse davul, cello, and drone into a full Ottoman-inspired orchestral anthem, Instrumentation includes davul, mehter snare, bağlama, oud, deep cellos, soaring violins, cinematic brass, and a powerful male choir, Mood is mournful yet proud, rooted in history, resilience, and identity, Vocals should feel sincere, grounded, and communal — never pop, never glossy, Production cinematic and spacious, with wide stereo strings, deep low-end percussion, and reverbs that feel like open land and memory, Emotional arc moves from grief → remembrance → unity → defiant hope, Timeless, serious, and respectful — a song of land, roots, and endurance. Weirdness 11%, Style Influence 31%. Genres: cinematic, folk, arabesk, patriotic, emotional, justice, acoustic, piano, bağlama, mid-tempo, minor, moody, introspective, defiant, humane, raw, authentic, modern, atmospheric, urban, soulful, ceremonial, historical, proud, mournful, communal.",
+      "suno_prompt": "Genre: Epic Anatolian Patriotic Ballad, Arabesk, Folk\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, defiant, introspective, proud, mournful atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: bağlama, piano, strings, brass, choir, davul, oud. Vocals: deep male vocals. Mood: defiant, introspective, proud, mournful. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n\nLyrics structure:\n- INTRO – SLOW CEREMONIAL OPENING\n- LOW DAVUL HEARTBEAT IN 4/4; DISTANT MALE CHOIR HUMS ON A SINGLE NOTE; DEEP CELLO DRONES ESTABLISH GRAVITY\n- STRINGS BEGIN TO RISE SLOWLY; BAĞLAMA TREMOLO UNDERNEATH LAST LINE; BREATH AUDIBLE AT PHRASE ENDS\n- NAKARAT – FIRST LIFT, DIGNIFIED NOT EXPLOSIVE YET\n- MEHTER-STYLE SNARE ROLLS SOFTLY; CHOIR OPENS INTO HARMONY THIRDS; TEMPO STEADY\n- LAST LINE HELD WITH SUSTAINED VIBRATO; SHORT ECHO TAIL\n- KITA 2 – MOVEMENT AND MEMORY\n- RHYTHM TIGHTENS; SUBTLE RHYTHMIC OUD PATTERN JOINS; VIOLINS PULSE GENTLY\n- CHOIR HUMS QUIETLY UNDER \"KÖKLERIMIZ\"\n- NAKARAT – STRONGER, COLLECTIVE VOICE\n"
     },
     "en_021": {
       "song_id": "en_021",
@@ -1992,7 +2030,7 @@
       "unity_builder": true,
       "peace_oriented": true,
       "year": 2026,
-      "genre": "Epic Anatolian Patriotic Ballad, Arabesk, Folk",
+      "genre": "Epic anatolian patriotic ballad, Arabesk, Folk",
       "album": null,
       "duration": null,
       "youtube_url": null,
@@ -2013,7 +2051,9 @@
       ],
       "discovered_at": "2026-01-26T15:23:03.840672",
       "source": "User submission - Karasahin (JK) catalog - Bilingual twin",
-      "notes": "Epic Anatolian patriotic ballad with strong arabesque and folk foundations, performed by a deep male vocal with emotional vibrato and dignified restraint, Tempo mid-slow, ceremonial and steady, Arrangement builds from sparse davul, cello, and drone into a full Ottoman-inspired orchestral anthem, Instrumentation includes davul, mehter snare, bağlama, oud, deep cellos, soaring violins, cinematic brass, and a powerful male choir, Mood is mournful yet proud, rooted in history, resilience, and identity, Vocals should feel sincere, grounded, and communal — never pop, never glossy, Production cinematic and spacious, with wide stereo strings, deep low-end percussion, and reverbs that feel like open land and memory, Emotional arc moves from grief → remembrance → unity → defiant hope, Timeless, serious, and respectful — a song of land, roots, and endurance."
+      "notes": "Epic Anatolian patriotic ballad with strong arabesque and folk foundations, performed by a deep male vocal with emotional vibrato and dignified restraint, Tempo mid-slow, ceremonial and steady, Arrangement builds from sparse davul, cello, and drone into a full Ottoman-inspired orchestral anthem, Instrumentation includes davul, mehter snare, bağlama, oud, deep cellos, soaring violins, cinematic brass, and a powerful male choir, Mood is mournful yet proud, rooted in history, resilience, and identity, Vocals should feel sincere, grounded, and communal — never pop, never glossy, Production cinematic and spacious, with wide stereo strings, deep low-end percussion, and reverbs that feel like open land and memory, Emotional arc moves from grief → remembrance → unity → defiant hope, Timeless, serious, and respectful — a song of land, roots, and endurance.",
+      "suno_prompt": "Genre: Epic Anatolian Patriotic Ballad, Arabesk, Folk\nBPM: 85\nKey: D minor\n\n=== CODED FRAMEWORK ===\n\n[CONTEXT] Karasahin (JK) studio, defiant, proud, mournful atmosphere, authentic emotional expression\n\n[OBJECTIVES] Create music that serves The Table through truth-telling and emotional authenticity\n\n[DETAILS] Instruments: bağlama, strings, brass, choir, davul, oud. Vocals: deep male vocals. Mood: defiant, proud, mournful. Production: crisp, clear, authentic\n\n[EXAMPLES] Style: lo-fi soul over pristine digital, warmth over perfection, space over clutter, emotional truth over production polish\n\n[DIRECTION] Avoid over-produced pop sheen, sterile digital sound, generic arrangements. Maintain authentic emotional core.\n\n=== STRUCTURE ===\n"
     }
-  }
+  },
+  "last_standardized": "2026-01-26T15:26:12.964204"
 }
