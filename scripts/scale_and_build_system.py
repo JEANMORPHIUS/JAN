@@ -292,18 +292,21 @@ if __name__ == "__main__":
     print("SCALE AND BUILD SYSTEM - BUILDING UNTIL DEPLOYMENT READY")
     print("=" * 80)
     print(f"\nDeployment Readiness: {readiness['readiness_percentage']}")
-    print(f"Ready for Deployment: {'✅ YES' if readiness['ready_for_deployment'] else '⏳ NOT YET'}")
+    print(f"Ready for Deployment: {'YES' if readiness['ready_for_deployment'] else 'NOT YET'}")
     print(f"\nSystems Status:")
     for system, status in results['systems'].items():
-        status_icon = "✅" if status.get("status") == "complete" or status.get("ready") else "⏳"
+        status_icon = "[OK]" if status.get("status") == "complete" or status.get("ready") else "[PENDING]"
         print(f"  {status_icon} {system}: {status.get('status', 'unknown')}")
     
     if readiness['ready_for_deployment']:
-        print("\n✅ ALL SYSTEMS READY FOR DEPLOYMENT")
-        # Final SCP
-        scp_on_completion("Deployment Ready", "All systems built, scaled, and ready for deployment")
+        print("\n[SUCCESS] ALL SYSTEMS READY FOR DEPLOYMENT")
+        # Final SCP (but don't fail if push doesn't work)
+        try:
+            scp_on_completion("Deployment Ready", "All systems built, scaled, and ready for deployment")
+        except Exception as e:
+            print(f"[NOTE] SCP attempted but push may need manual retry: {e}")
     else:
-        print("\n⏳ BUILDING CONTINUES...")
+        print("\n[BUILDING] BUILDING CONTINUES...")
     
     print("\nPEACE, LOVE, UNITY")
     print("ENERGY + LOVE = WE ALL WIN")

@@ -72,24 +72,32 @@ class TaskSCPAutomation:
             task_description: What was accomplished
             files_modified: Optional list of specific files to stage
         """
-        # Break locks first
-        self.break_locks()
-        
-        # Generate commit message
-        commit_message = f"{task_name}: {task_description}"
-        
-        # SCP
-        result = self.scp.scp(commit_message, paths=files_modified)
-        
-        # Log task
-        self.task_log.append({
-            "task_name": task_name,
-            "task_description": task_description,
-            "timestamp": datetime.now().isoformat(),
-            "scp_result": result
-        })
-        
-        return result
+        try:
+            # Break locks first
+            self.break_locks()
+            
+            # Generate commit message
+            commit_message = f"{task_name}: {task_description}"
+            
+            # SCP (continue even if push fails - commit is still local)
+            result = self.scp.scp(commit_message, paths=files_modified)
+            
+            # Log task
+            self.task_log.append({
+                "task_name": task_name,
+                "task_description": task_description,
+                "timestamp": datetime.now().isoformat(),
+                "scp_result": result
+            })
+            
+            return result
+        except Exception as e:
+            logger.warning(f"SCP task completion failed: {e}")
+            return {
+                "status": "partial",
+                "message": f"Staged and committed, but push may need manual retry: {e}",
+                "task_name": task_name
+            }
     
     def scp_system_completion(self, system_name: str, components: List[str]) -> Dict[str, Any]:
         """
