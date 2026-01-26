@@ -674,6 +674,16 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"Water Holds Memory API error: {e}")
 
+# CODEBASE PHILOSOPHY API: Strategic Framework for High-Value Assets - The Chosen Ones
+try:
+    from codebase_philosophy_api import router as codebase_philosophy_router
+    app.include_router(codebase_philosophy_router)
+    logger.info("Codebase Philosophy API enabled - Strategic framework for The Chosen One, Grave Clothes Protocol, Trojan Horse Strategy, Fourth Day Logic, Dignity Protocol, Internal Safety Mechanisms, Signals and Sensory Confirmation, all serve The Table and The Original Name")
+except ImportError as e:
+    logger.warning(f"Codebase Philosophy API not available: {e}")
+except Exception as e:
+    logger.warning(f"Codebase Philosophy API error: {e}")
+
 # PUBLISHING HOUSE API: Siyem Publishing House Operations
 try:
     from publishing_house_api import router as publishing_house_router
