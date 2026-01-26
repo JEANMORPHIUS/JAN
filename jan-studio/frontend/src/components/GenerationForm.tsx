@@ -20,6 +20,7 @@ import { generateContent } from '@/api/generation';
 import PromptTemplates from './PromptTemplates';
 import { useKeyboardShortcuts } from '@/hooks/useKeyboardShortcuts';
 import { retryWithBackoff, getUserFriendlyError } from '@/utils/errorHandling';
+import { useI18n } from '@/contexts/I18nContext';
 
 interface GenerationFormProps {
   onGenerate: (result: GenerationResult) => void;
@@ -65,17 +66,31 @@ const OUTPUT_TYPES = [
 ] as const;
 
 export default function GenerationForm({ onGenerate, onProgress }: GenerationFormProps) {
+  const { t, language } = useI18n();
   const [personas, setPersonas] = useState<string[]>([]);
   const [formData, setFormData] = useState<GenerationRequest>({
     persona: '',
     prompt: '',
     output_type: 'text',
-    options: {},
+    options: {
+      language: language, // Include language in options
+    },
   });
   const [loading, setLoading] = useState(false);
   const [progress, setProgress] = useState(0);
   const [error, setError] = useState<string | null>(null);
   const [showTemplates, setShowTemplates] = useState(false);
+  
+  // Update language in formData when language changes
+  useEffect(() => {
+    setFormData(prev => ({
+      ...prev,
+      options: {
+        ...prev.options,
+        language: language,
+      },
+    }));
+  }, [language]);
   
   // Keyboard shortcuts
   useKeyboardShortcuts([
@@ -186,7 +201,7 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
 
   return (
     <div className="card">
-      <h2>Generate Content</h2>
+      <h2>{t('generate_content')}</h2>
 
       {error && (
         <div className="error" style={{ marginBottom: '1rem' }} role="alert" aria-live="assertive">
@@ -196,17 +211,17 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
 
       <div style={{ marginBottom: '1.5rem' }}>
         <label className="label">
-          Persona <span style={{ color: '#d32f2f' }}>*</span>
+          {t('persona')} <span style={{ color: '#d32f2f' }}>*</span>
         </label>
         <select
           className="input"
           value={formData.persona}
           onChange={(e) => setFormData({ ...formData, persona: e.target.value })}
           disabled={loading}
-          aria-label="Select persona"
+          aria-label={t('select_persona')}
           aria-required="true"
         >
-          <option value="">Select a persona...</option>
+          <option value="">{t('select_persona')}...</option>
           {personas.map((persona) => (
             <option key={persona} value={persona}>
               {persona}
@@ -217,7 +232,7 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
 
       <div style={{ marginBottom: '1.5rem' }}>
         <label className="label">
-          Output Type
+          {t('output_type')}
         </label>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.75rem' }}>
           {OUTPUT_TYPES.map((type) => (
@@ -266,15 +281,15 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
       <div style={{ marginBottom: '1.5rem' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
           <label className="label">
-            Prompt <span style={{ color: '#d32f2f' }}>*</span>
+            {t('prompt')} <span style={{ color: '#d32f2f' }}>*</span>
           </label>
           <button
             className="button"
             onClick={() => setShowTemplates(!showTemplates)}
             style={{ padding: '0.5rem 1rem', fontSize: '0.875rem' }}
-            aria-label="Show prompt templates"
+            aria-label={t('show_templates')}
           >
-            {showTemplates ? 'Hide' : 'Show'} Templates
+            {showTemplates ? t('hide') : t('show')} {t('templates')}
           </button>
         </div>
         
@@ -295,22 +310,22 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
           className="textarea"
           value={formData.prompt}
           onChange={(e) => setFormData({ ...formData, prompt: e.target.value })}
-          placeholder="Enter your prompt here... Describe what you want to generate. Or use templates above."
+          placeholder={t('prompt_placeholder')}
           disabled={loading}
           style={{ minHeight: '200px', fontFamily: 'inherit' }}
-          aria-label="Prompt input"
+          aria-label={t('prompt_input')}
           aria-required="true"
           aria-describedby="prompt-char-count"
         />
         <div id="prompt-char-count" style={{ fontSize: '0.75rem', color: '#666', marginTop: '0.25rem' }} aria-live="polite">
-          {formData.prompt.length} characters
+          {formData.prompt.length} {t('characters')}
         </div>
       </div>
 
       {loading && (
         <div style={{ marginBottom: '1rem' }} aria-live="polite" aria-busy="true">
           <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
-            <span className="loading">Generating...</span>
+            <span className="loading">{t('generating')}...</span>
             <span style={{ fontSize: '0.875rem', color: '#999' }}>{progress}%</span>
           </div>
           <div 
@@ -342,10 +357,10 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
         onClick={handleGenerate}
         disabled={loading || !formData.persona || !formData.prompt.trim()}
         style={{ width: '100%' }}
-        aria-label="Generate content"
+        aria-label={t('generate_content')}
         aria-busy={loading}
       >
-        {loading ? 'Generating...' : 'Generate Content (Ctrl+Enter)'}
+        {loading ? `${t('generating')}...` : `${t('generate_content')} (Ctrl+Enter)`}
       </button>
     </div>
   );
