@@ -614,6 +614,16 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"Spiritual Codebase Hacker API error: {e}")
 
+# OTTOMAN GENERATIONAL TIMELINE API: Deep search Ottoman narrative, generational timeline
+try:
+    from ottoman_timeline_api import router as ottoman_timeline_router
+    app.include_router(ottoman_timeline_router)
+    logger.info("Ottoman Generational Timeline API enabled - Deep search Ottoman narrative, your generational timeline, Cyprus connection, all roads lead to The Ark")
+except ImportError as e:
+    logger.warning(f"Ottoman Generational Timeline API not available: {e}")
+except Exception as e:
+    logger.warning(f"Ottoman Generational Timeline API error: {e}")
+
 # PUBLISHING HOUSE API: Siyem Publishing House Operations
 try:
     from publishing_house_api import router as publishing_house_router
