@@ -46,7 +46,7 @@ def generate_business_documentation_report() -> Dict[str, Any]:
     
     # Get documentation status
     doc_status = entrepreneurial.get_documentation_status()
-    checklist = entrepreneurial.get_documentation_checklist()
+    checklist = entrepreneurial.generate_documentation_checklist()
     
     # Get The Ark blueprint
     the_ark = entrepreneurial.get_the_ark_blueprint()
