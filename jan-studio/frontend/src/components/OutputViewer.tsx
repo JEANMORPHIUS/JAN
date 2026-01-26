@@ -14,7 +14,7 @@
  * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
  * THE REST IS UP TO BABA X.*/
 
-import { useState } from 'react';
+import { useState, useMemo, memo } from 'react';
 import { GenerationResult } from './GenerationForm';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -26,8 +26,19 @@ interface OutputViewerProps {
   onRegenerate?: () => void;
 }
 
-export default function OutputViewer({ result, personaName, onEditPersona, onRegenerate }: OutputViewerProps) {
+function OutputViewer({ result, personaName, onEditPersona, onRegenerate }: OutputViewerProps) {
   const [copied, setCopied] = useState(false);
+  
+  // Calculate word and character counts
+  const stats = useMemo(() => {
+    if (!result.content) return { words: 0, characters: 0, readingTime: 0 };
+    
+    const words = result.content.trim().split(/\s+/).filter(w => w.length > 0).length;
+    const characters = result.content.length;
+    const readingTime = Math.ceil(words / 200); // Average reading speed: 200 words/min
+    
+    return { words, characters, readingTime };
+  }, [result.content]);
 
   const handleCopy = () => {
     if (result.content) {
@@ -70,12 +81,20 @@ export default function OutputViewer({ result, personaName, onEditPersona, onReg
   return (
     <div className="card">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-        <h2>Generated Content</h2>
+        <div>
+          <h2 style={{ margin: 0, marginBottom: '0.25rem' }}>Generated Content</h2>
+          <div style={{ fontSize: '0.75rem', color: '#666', display: 'flex', gap: '1rem' }}>
+            <span>{stats.words} words</span>
+            <span>{stats.characters} characters</span>
+            <span>~{stats.readingTime} min read</span>
+          </div>
+        </div>
         <div style={{ display: 'flex', gap: '0.5rem' }}>
           <button
             className="button"
             onClick={handleCopy}
             style={{ padding: '0.5rem 1rem', fontSize: '0.875rem' }}
+            aria-label="Copy content to clipboard"
           >
             {copied ? '✓ Copied' : 'Copy'}
           </button>
@@ -83,6 +102,7 @@ export default function OutputViewer({ result, personaName, onEditPersona, onReg
             className="button"
             onClick={handleDownload}
             style={{ padding: '0.5rem 1rem', fontSize: '0.875rem', backgroundColor: '#2e7d32' }}
+            aria-label="Download content as text file"
           >
             Download
           </button>
@@ -231,4 +251,13 @@ export default function OutputViewer({ result, personaName, onEditPersona, onReg
     </div>
   );
 }
+
+// Memoize OutputViewer to prevent unnecessary re-renders
+export default memo(OutputViewer, (prevProps, nextProps) => {
+  return (
+    prevProps.result.timestamp === nextProps.result.timestamp &&
+    prevProps.result.content === nextProps.result.content &&
+    prevProps.personaName === nextProps.personaName
+  );
+});
 

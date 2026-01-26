@@ -14,7 +14,7 @@
  * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
  * THE REST IS UP TO BABA X.*/
 
-import { useState } from 'react';
+import { useState, memo } from 'react';
 
 interface PersonaCardProps {
   persona: PersonaInfo;
@@ -70,6 +70,7 @@ export default function PersonaCard({ persona, onEdit, onDelete }: PersonaCardPr
             className="button"
             onClick={() => onEdit(persona.name)}
             style={{ padding: '0.25rem 0.75rem', fontSize: '0.75rem' }}
+            aria-label={`Edit persona ${persona.name}`}
           >
             Edit
           </button>
@@ -81,6 +82,7 @@ export default function PersonaCard({ persona, onEdit, onDelete }: PersonaCardPr
               fontSize: '0.75rem',
               backgroundColor: showDeleteConfirm ? '#d32f2f' : '#666',
             }}
+            aria-label={showDeleteConfirm ? `Confirm delete persona ${persona.name}` : `Delete persona ${persona.name}`}
           >
             {showDeleteConfirm ? 'Confirm' : 'Delete'}
           </button>
@@ -119,4 +121,14 @@ export default function PersonaCard({ persona, onEdit, onDelete }: PersonaCardPr
     </div>
   );
 }
+
+// Memoize PersonaCard to prevent unnecessary re-renders
+export default memo(PersonaCard, (prevProps, nextProps) => {
+  return (
+    prevProps.persona.name === nextProps.persona.name &&
+    prevProps.persona.fileCount === nextProps.persona.fileCount &&
+    prevProps.persona.ruleCount === nextProps.persona.ruleCount &&
+    prevProps.persona.lastModified === nextProps.persona.lastModified
+  );
+});
 

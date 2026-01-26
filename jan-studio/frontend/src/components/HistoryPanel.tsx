@@ -14,9 +14,11 @@
  * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
  * THE REST IS UP TO BABA X.*/
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { GenerationResult } from './GenerationForm';
 import { getGenerationHistory, saveToHistory } from '@/api/generation';
+import { shouldVirtualize } from '@/utils/performance';
+import { retryWithBackoff, getUserFriendlyError } from '@/utils/errorHandling';
 
 export interface HistoryEntry extends GenerationResult {
   id: string;
@@ -34,7 +36,10 @@ interface HistoryPanelProps {
 export default function HistoryPanel({ onSelectHistory, onCompare, currentResult }: HistoryPanelProps) {
   const [history, setHistory] = useState<HistoryEntry[]>([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
+  const [filterPersona, setFilterPersona] = useState<string>('');
+  const [filterType, setFilterType] = useState<string>('');
 
   useEffect(() => {
     loadHistory();
@@ -51,14 +56,51 @@ export default function HistoryPanel({ onSelectHistory, onCompare, currentResult
   const loadHistory = async () => {
     try {
       setLoading(true);
-      const data = await getGenerationHistory();
+      setError(null);
+      const data = await retryWithBackoff(
+        () => getGenerationHistory(),
+        3,
+        1000
+      );
       setHistory(data);
     } catch (err) {
       console.error('Failed to load history:', err);
+      setError(getUserFriendlyError(err));
     } finally {
       setLoading(false);
     }
   };
+  
+  // Filter history
+  const filteredHistory = useMemo(() => {
+    let filtered = history;
+    
+    if (filterPersona) {
+      filtered = filtered.filter(entry => 
+        entry.persona.toLowerCase().includes(filterPersona.toLowerCase())
+      );
+    }
+    
+    if (filterType) {
+      filtered = filtered.filter(entry => 
+        entry.output_type === filterType
+      );
+    }
+    
+    return filtered;
+  }, [history, filterPersona, filterType]);
+  
+  // Get unique personas and types for filters
+  const uniquePersonas = useMemo(() => {
+    return Array.from(new Set(history.map(e => e.persona))).sort();
+  }, [history]);
+  
+  const uniqueTypes = useMemo(() => {
+    return Array.from(new Set(history.map(e => e.output_type))).sort();
+  }, [history]);
+  
+  // Check if virtualization is needed
+  const needsVirtualization = shouldVirtualize(filteredHistory.length, 100);
 
   const handleSelect = (entry: HistoryEntry) => {
     onSelectHistory(entry);
@@ -109,23 +151,78 @@ export default function HistoryPanel({ onSelectHistory, onCompare, currentResult
             className="button"
             onClick={handleCompare}
             style={{ padding: '0.5rem 1rem', fontSize: '0.875rem' }}
+            aria-label={`Compare ${selectedIds.size} entries`}
           >
             Compare ({selectedIds.size})
           </button>
         )}
       </div>
+      
+      {/* Filters */}
+      <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
+        <select
+          className="input"
+          value={filterPersona}
+          onChange={(e) => setFilterPersona(e.target.value)}
+          style={{ flex: 1, minWidth: '120px', padding: '0.5rem', fontSize: '0.875rem' }}
+          aria-label="Filter by persona"
+        >
+          <option value="">All Personas</option>
+          {uniquePersonas.map(persona => (
+            <option key={persona} value={persona}>{persona}</option>
+          ))}
+        </select>
+        <select
+          className="input"
+          value={filterType}
+          onChange={(e) => setFilterType(e.target.value)}
+          style={{ flex: 1, minWidth: '120px', padding: '0.5rem', fontSize: '0.875rem' }}
+          aria-label="Filter by output type"
+        >
+          <option value="">All Types</option>
+          {uniqueTypes.map(type => (
+            <option key={type} value={type}>{type}</option>
+          ))}
+        </select>
+      </div>
+      
+      {error && (
+        <div className="error" style={{ marginBottom: '1rem', padding: '0.75rem' }} role="alert">
+          {error}
+          <button
+            onClick={loadHistory}
+            style={{ marginLeft: '0.5rem', padding: '0.25rem 0.5rem', fontSize: '0.75rem' }}
+          >
+            Retry
+          </button>
+        </div>
+      )}
 
       {loading ? (
-        <div className="loading">Loading history...</div>
-      ) : history.length === 0 ? (
+        <div className="loading" role="status" aria-live="polite" aria-busy="true">
+          Loading history...
+        </div>
+      ) : filteredHistory.length === 0 ? (
         <p style={{ color: '#999', fontSize: '0.875rem', textAlign: 'center' }}>
-          No generation history yet
+          {history.length === 0 
+            ? 'No generation history yet'
+            : `No entries match filters (${history.length} total)`}
         </p>
       ) : (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', maxHeight: '600px', overflowY: 'auto' }}>
-          {history.map((entry) => (
+        <div 
+          style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', maxHeight: '600px', overflowY: 'auto' }}
+          role="list"
+          aria-label="Generation history list"
+        >
+          {needsVirtualization && (
+            <div style={{ fontSize: '0.75rem', color: '#666', padding: '0.5rem', textAlign: 'center' }}>
+              Large list ({filteredHistory.length} entries) - Scroll to load more
+            </div>
+          )}
+          {filteredHistory.map((entry) => (
             <div
               key={entry.id}
+              role="listitem"
               style={{
                 padding: '1rem',
                 border: selectedIds.has(entry.id) ? '2px solid #0070f3' : '1px solid #333',
@@ -135,6 +232,15 @@ export default function HistoryPanel({ onSelectHistory, onCompare, currentResult
                 transition: 'all 0.2s',
               }}
               onClick={() => handleSelect(entry)}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  handleSelect(entry);
+                }
+              }}
+              tabIndex={0}
+              aria-label={`History entry: ${entry.persona} - ${entry.output_type}`}
+              aria-pressed={selectedIds.has(entry.id)}
             >
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'start', marginBottom: '0.5rem' }}>
                 <div style={{ flex: 1 }}>
@@ -147,6 +253,7 @@ export default function HistoryPanel({ onSelectHistory, onCompare, currentResult
                         handleToggleSelect(entry.id);
                       }}
                       onClick={(e) => e.stopPropagation()}
+                      aria-label={`Select entry ${entry.id} for comparison`}
                     />
                     <span style={{ fontWeight: 600, fontFamily: 'monospace', fontSize: '0.875rem' }}>
                       {entry.persona}

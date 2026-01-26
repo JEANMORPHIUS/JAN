@@ -14,10 +14,11 @@
  * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
  * THE REST IS UP TO BABA X.*/
 
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useRef } from 'react';
 import PersonaCard, { PersonaInfo } from './PersonaCard';
 import PersonaForm, { PersonaFormData } from './PersonaForm';
 import { getPersonas, createPersona, deletePersona, getPersonaFiles } from '@/api/personas';
+import { debounce, shouldVirtualize } from '@/utils/performance';
 
 interface PersonaListProps {
   selectedPersona: string | null;
@@ -36,7 +37,17 @@ export default function PersonaList({
   const [personas, setPersonas] = useState<PersonaInfo[]>([]);
   const [loadingPersonas, setLoadingPersonas] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
+  const [debouncedSearchQuery, setDebouncedSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState<'name' | 'date' | 'files'>('name');
+  
+  // Debounce search query
+  useEffect(() => {
+    const debounced = debounce((value: string) => {
+      setDebouncedSearchQuery(value);
+    }, 300);
+    
+    debounced(searchQuery);
+  }, [searchQuery]);
 
   useEffect(() => {
     loadPersonas();
@@ -75,9 +86,9 @@ export default function PersonaList({
   const filteredAndSortedPersonas = useMemo(() => {
     let filtered = personas;
 
-    // Filter by search query
-    if (searchQuery.trim()) {
-      const query = searchQuery.toLowerCase();
+    // Filter by debounced search query
+    if (debouncedSearchQuery.trim()) {
+      const query = debouncedSearchQuery.toLowerCase();
       filtered = filtered.filter(
         (persona) =>
           persona.name.toLowerCase().includes(query)
@@ -100,7 +111,10 @@ export default function PersonaList({
     });
 
     return sorted;
-  }, [personas, searchQuery, sortBy]);
+  }, [personas, debouncedSearchQuery, sortBy]);
+  
+  // Check if virtualization is needed
+  const needsVirtualization = shouldVirtualize(filteredAndSortedPersonas.length, 50);
 
   const handleCreatePersona = async (data: PersonaFormData) => {
     try {
@@ -153,7 +167,13 @@ export default function PersonaList({
           onChange={(e) => setSearchQuery(e.target.value)}
           style={{ marginBottom: '0.75rem' }}
           aria-label="Search personas"
+          aria-describedby="search-help"
         />
+        {needsVirtualization && (
+          <div id="search-help" style={{ fontSize: '0.75rem', color: '#666', marginTop: '0.25rem' }}>
+            Large list detected - virtualization active
+          </div>
+        )}
 
         {/* Sort Selector */}
         <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '0.75rem' }}>
@@ -223,6 +243,7 @@ export default function PersonaList({
               persona={persona}
               onEdit={onSelectPersona}
               onDelete={handleDeletePersona}
+              isSelected={selectedPersona === persona.name}
             />
           ))}
         </div>
