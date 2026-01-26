@@ -1,0 +1,138 @@
+{
+  "timestamp": "2026-01-26T11:29:06.600134",
+  "title": "Comprehensive Space/Satellite Debunking Evidence",
+  "total_evidence_items": 17,
+  "evidence_categories": {
+    "technical_evidence": [
+      {
+        "evidence_id": "vacuum_impossibility",
+        "title": "Satellites Cannot Exist in Vacuum",
+        "description": "Satellites require atmosphere to maintain orbit. In vacuum, they would fall. The physics don't work.",
+        "technical_details": "Orbital mechanics require atmospheric drag. No atmosphere = no orbit. Satellites cannot maintain position in vacuum.",
+        "category": "technical_evidence"
+      },
+      {
+        "evidence_id": "van_allen_belt",
+        "title": "Van Allen Radiation Belt - Impossible to Pass",
+        "description": "Van Allen radiation belt would kill astronauts. Impossible to pass through. Moon landing impossible.",
+        "technical_details": "Radiation levels lethal. No protection possible. Space travel through belt impossible.",
+        "category": "technical_evidence"
+      },
+      {
+        "evidence_id": "temperature_extremes",
+        "title": "Temperature Extremes - Impossible to Survive",
+        "description": "Space has extreme temperatures. No protection possible. Human survival impossible.",
+        "technical_details": "Extreme heat and cold. No protection. Human survival impossible in space.",
+        "category": "technical_evidence"
+      },
+      {
+        "evidence_id": "no_real_photos",
+        "title": "No Real Photos of Earth from Space",
+        "description": "All photos of Earth from space are CGI or composite. No real photos exist.",
+        "technical_details": "All photos are computer-generated or composited. No authentic photos of Earth from space exist.",
+        "category": "technical_evidence"
+      },
+      {
+        "evidence_id": "satellite_orbits_impossible",
+        "title": "Satellite Orbits Are Impossible",
+        "description": "Satellite orbits violate physics. Cannot maintain position. Cannot stay in orbit.",
+        "technical_details": "Orbital mechanics don't support claimed satellite positions. Physics violation.",
+        "category": "technical_evidence"
+      }
+    ],
+    "historical_evidence": [
+      {
+        "evidence_id": "firmament_ancient_knowledge",
+        "title": "Firmament - Ancient Knowledge",
+        "description": "Ancient civilizations knew about the firmament. It's in all ancient texts. The firmament is real.",
+        "historical_details": "All ancient texts mention firmament. It's not a myth. It's ancient knowledge.",
+        "category": "historical_evidence"
+      },
+      {
+        "evidence_id": "flat_earth_ancient",
+        "title": "Flat Earth - Ancient Knowledge",
+        "description": "Ancient civilizations knew Earth was flat. It's in all ancient texts. Flat Earth is real.",
+        "historical_details": "All ancient texts describe flat Earth. It's not a myth. It's ancient knowledge.",
+        "category": "historical_evidence"
+      },
+      {
+        "evidence_id": "space_race_lie",
+        "title": "Space Race - The Lie",
+        "description": "Space race was political, not scientific. It was about control, not exploration.",
+        "historical_details": "Space race was political manipulation. False science. Control through deception.",
+        "category": "historical_evidence"
+      }
+    ],
+    "scientific_evidence": [
+      {
+        "evidence_id": "atmospheric_barrier",
+        "title": "Atmospheric Barrier - Real",
+        "description": "Atmospheric barrier prevents space travel. The barrier is real. Space travel is impossible.",
+        "scientific_details": "Atmospheric barrier exists. Prevents space travel. The barrier is real.",
+        "category": "scientific_evidence"
+      },
+      {
+        "evidence_id": "gravity_doesnt_work",
+        "title": "Gravity Doesn't Work in Space",
+        "description": "Gravity as described doesn't work in space. The physics don't match. Space is a lie.",
+        "scientific_details": "Gravity physics don't work in space. The science doesn't match. Space is deception.",
+        "category": "scientific_evidence"
+      },
+      {
+        "evidence_id": "no_stars_in_space",
+        "title": "No Stars Visible in Space",
+        "description": "Astronauts claim no stars visible in space. But stars should be everywhere. The lie is exposed.",
+        "scientific_details": "Stars should be visible everywhere in space. But astronauts see no stars. The lie is exposed.",
+        "category": "scientific_evidence"
+      }
+    ],
+    "photographic_evidence": [
+      {
+        "evidence_id": "cgi_earth_photos",
+        "title": "All Earth Photos Are CGI",
+        "description": "All photos of Earth from space are computer-generated. No real photos exist.",
+        "photographic_details": "All photos are CGI. No authentic photos. The deception is visual.",
+        "category": "photographic_evidence"
+      },
+      {
+        "evidence_id": "composite_images",
+        "title": "Composite Images - Not Real",
+        "description": "All space images are composites. Multiple images combined. Not real photos.",
+        "photographic_details": "All images are composites. Multiple sources combined. Not authentic.",
+        "category": "photographic_evidence"
+      }
+    ],
+    "atmospheric_evidence": [
+      {
+        "evidence_id": "atmosphere_ends",
+        "title": "Atmosphere Ends - Firmament Begins",
+        "description": "Atmosphere ends at firmament. The firmament is real. Space is a lie.",
+        "atmospheric_details": "Atmosphere ends. Firmament begins. The barrier is real.",
+        "category": "atmospheric_evidence"
+      },
+      {
+        "evidence_id": "no_vacuum",
+        "title": "No Vacuum - Atmosphere Everywhere",
+        "description": "There is no vacuum. Atmosphere exists everywhere. Space vacuum is a lie.",
+        "atmospheric_details": "No vacuum exists. Atmosphere is everywhere. Space vacuum is deception.",
+        "category": "atmospheric_evidence"
+      }
+    ],
+    "firmament_evidence": [
+      {
+        "evidence_id": "firmament_real",
+        "title": "Firmament Is Real",
+        "description": "The firmament is real. It's in all ancient texts. It's not a myth. It's reality.",
+        "firmament_details": "Firmament is real. Ancient knowledge. Not a myth. Reality.",
+        "category": "firmament_evidence"
+      },
+      {
+        "evidence_id": "firmament_barrier",
+        "title": "Firmament Is The Barrier",
+        "description": "The firmament is the barrier. It prevents space travel. It's real.",
+        "firmament_details": "Firmament is the barrier. Prevents space travel. It's real.",
+        "category": "firmament_evidence"
+      }
+    ]
+  }
+}

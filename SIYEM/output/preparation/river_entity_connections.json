@@ -1,0 +1,141 @@
+{
+  "timestamp": "2026-01-26T11:29:06.620366",
+  "title": "River-Entity Connections - How Rivers Flow Through Entities",
+  "rivers": {
+    "river_of_truth": {
+      "name": "River of Truth",
+      "flow_direction": "From the Source to the People",
+      "entities": {
+        "RAMIZ": {
+          "how_river_flows": "RAMIZ receives truth from the Source. RAMIZ shares truth with the people. RAMIZ exposes lies. RAMIZ shares truth.",
+          "connection_strength": 0.95,
+          "manifestation": "Truth content generation, lies exposed, truths shared, educational messages"
+        },
+        "SIYEM_MEDIA": {
+          "how_river_flows": "SIYEM MEDIA distributes truth through all channels. SIYEM MEDIA publishes truth content. SIYEM MEDIA makes truth accessible.",
+          "connection_strength": 0.9,
+          "manifestation": "Content distribution, publishing, channel management, truth accessibility"
+        },
+        "THE_ARK": {
+          "how_river_flows": "THE ARK preserves truth. THE ARK secures truth. THE ARK protects truth. THE ARK contains all truth.",
+          "connection_strength": 0.95,
+          "manifestation": "Truth preservation, truth security, truth protection, complete truth archive"
+        }
+      }
+    },
+    "river_of_stewardship": {
+      "name": "River of Stewardship",
+      "flow_direction": "From the Source to the Earth",
+      "entities": {
+        "EDIBLE_LONDON": {
+          "how_river_flows": "EDIBLE LONDON stewards food. EDIBLE LONDON stewards community. EDIBLE LONDON stewards resilience. EDIBLE LONDON serves the Earth.",
+          "connection_strength": 0.9,
+          "manifestation": "Food stewardship, community stewardship, resilience stewardship, Earth service"
+        },
+        "ILVEN_SEAMOSS": {
+          "how_river_flows": "ILVEN stewards sea moss. ILVEN stewards traditional craft. ILVEN stewards health. ILVEN stewards the Earth.",
+          "connection_strength": 0.9,
+          "manifestation": "Sea moss stewardship, craft stewardship, health stewardship, Earth stewardship"
+        },
+        "ATILOK": {
+          "how_river_flows": "ATILOK stewards business. ATILOK stewards resources. ATILOK stewards distribution. ATILOK serves the Earth.",
+          "connection_strength": 0.85,
+          "manifestation": "Business stewardship, resource stewardship, distribution stewardship, Earth service"
+        },
+        "THE_ARK": {
+          "how_river_flows": "THE ARK stewards all systems. THE ARK stewards all projects. THE ARK stewards all blueprints. THE ARK serves the Earth.",
+          "connection_strength": 0.9,
+          "manifestation": "System stewardship, project stewardship, blueprint stewardship, Earth service"
+        }
+      }
+    },
+    "river_of_unity": {
+      "name": "River of Unity",
+      "flow_direction": "From the Source to All People",
+      "entities": {
+        "RAMIZ": {
+          "how_river_flows": "RAMIZ unites all people. RAMIZ connects all people. RAMIZ serves all people. RAMIZ brings unity.",
+          "connection_strength": 0.95,
+          "manifestation": "People unity, connection, service, unity restoration"
+        },
+        "EDIBLE_LONDON": {
+          "how_river_flows": "EDIBLE LONDON unites communities. EDIBLE LONDON connects people. EDIBLE LONDON serves unity.",
+          "connection_strength": 0.9,
+          "manifestation": "Community unity, connection, service, unity building"
+        },
+        "ILVEN_SEAMOSS": {
+          "how_river_flows": "ILVEN unites through craft. ILVEN connects through tradition. ILVEN serves unity.",
+          "connection_strength": 0.9,
+          "manifestation": "Craft unity, tradition connection, service, unity building"
+        },
+        "ATILOK": {
+          "how_river_flows": "ATILOK unites through business. ATILOK connects through commerce. ATILOK serves unity.",
+          "connection_strength": 0.85,
+          "manifestation": "Business unity, commerce connection, service, unity building"
+        },
+        "SIYEM_MEDIA": {
+          "how_river_flows": "SIYEM MEDIA unites through content. SIYEM MEDIA connects through channels. SIYEM MEDIA serves unity.",
+          "connection_strength": 0.9,
+          "manifestation": "Content unity, channel connection, service, unity building"
+        },
+        "THE_ARK": {
+          "how_river_flows": "THE ARK unites all systems. THE ARK connects all projects. THE ARK serves unity.",
+          "connection_strength": 0.95,
+          "manifestation": "System unity, project connection, service, unity restoration"
+        }
+      }
+    },
+    "river_of_love": {
+      "name": "River of Love",
+      "flow_direction": "From the Source to All Hearts",
+      "entities": {
+        "RAMIZ": {
+          "how_river_flows": "RAMIZ brings love. RAMIZ shares love. RAMIZ serves with love. RAMIZ is love.",
+          "connection_strength": 0.98,
+          "manifestation": "Love in humanitarian work, love in education, love in truth, love in service"
+        },
+        "EDIBLE_LONDON": {
+          "how_river_flows": "EDIBLE LONDON brings love through food. EDIBLE LONDON shares love through community. EDIBLE LONDON serves with love.",
+          "connection_strength": 0.95,
+          "manifestation": "Love in food, love in community, love in service"
+        },
+        "ILVEN_SEAMOSS": {
+          "how_river_flows": "ILVEN brings love through craft. ILVEN shares love through tradition. ILVEN serves with love.",
+          "connection_strength": 0.95,
+          "manifestation": "Love in craft, love in tradition, love in service"
+        },
+        "SIYEM_MEDIA": {
+          "how_river_flows": "SIYEM MEDIA brings love through content. SIYEM MEDIA shares love through channels. SIYEM MEDIA serves with love.",
+          "connection_strength": 0.9,
+          "manifestation": "Love in content, love in channels, love in service"
+        },
+        "THE_ARK": {
+          "how_river_flows": "THE ARK brings love through protection. THE ARK shares love through preservation. THE ARK serves with love.",
+          "connection_strength": 0.95,
+          "manifestation": "Love in protection, love in preservation, love in service"
+        }
+      }
+    },
+    "river_of_governance": {
+      "name": "River of Governance",
+      "flow_direction": "From the Source to the Systems",
+      "entities": {
+        "ATILOK": {
+          "how_river_flows": "ATILOK governs business. ATILOK governs commerce. ATILOK governs distribution. ATILOK serves governance.",
+          "connection_strength": 0.85,
+          "manifestation": "Business governance, commerce governance, distribution governance, governance service"
+        },
+        "SIYEM_MEDIA": {
+          "how_river_flows": "SIYEM MEDIA governs channels. SIYEM MEDIA governs content. SIYEM MEDIA governs distribution. SIYEM MEDIA serves governance.",
+          "connection_strength": 0.9,
+          "manifestation": "Channel governance, content governance, distribution governance, governance service"
+        },
+        "THE_ARK": {
+          "how_river_flows": "THE ARK governs all systems. THE ARK governs all projects. THE ARK governs all blueprints. THE ARK serves governance.",
+          "connection_strength": 0.95,
+          "manifestation": "System governance, project governance, blueprint governance, governance service"
+        }
+      }
+    }
+  }
+}
