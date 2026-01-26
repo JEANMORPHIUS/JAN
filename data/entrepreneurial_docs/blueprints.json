@@ -1,0 +1,154 @@
+{
+  "blueprints": [
+    {
+      "entity_id": "edible_london",
+      "entity_type": "edible_london",
+      "name": "Edible London",
+      "description": "Community Interest Company - Redefining how food is produced, shared, and used",
+      "mission": "Redefine how food is produced, shared, and used while enhancing community resilience",
+      "vision": "Resilient communities with sustainable food systems",
+      "legal_structure": "Community Interest Company (CIC)",
+      "registration_number": "11735749",
+      "location": "20-22 Bernard Road, London N15 4NE, UK",
+      "channels": [
+        "professional",
+        "creator"
+      ],
+      "revenue_streams": [
+        "donations",
+        "grants",
+        "corporate_sponsorships",
+        "fundraising"
+      ],
+      "partnerships": [
+        "Edible Cyprus",
+        "Food For All",
+        "Streetbox London"
+      ],
+      "compliance_requirements": [
+        "CIC reporting",
+        "charity compliance",
+        "food safety"
+      ],
+      "documentation_status": {
+        "business_plan": true,
+        "partnership_agreements": true,
+        "compliance_docs": false,
+        "cic_registration": true,
+        "charity_compliance": true,
+        "food_safety": true,
+        "financial_reports": true,
+        "operational_policies": true
+      },
+      "created_at": "2026-01-26T23:43:32.413497",
+      "updated_at": "2026-01-26T23:43:32.445284"
+    },
+    {
+      "entity_id": "edible_cyprus",
+      "entity_type": "edible_cyprus",
+      "name": "Edible Cyprus",
+      "description": "Food supplier partner - Grows food in Cyprus",
+      "mission": "Sustainable food production in Cyprus",
+      "vision": "Food sovereignty and community resilience",
+      "legal_structure": "Partnership/Supplier",
+      "registration_number": null,
+      "location": "Cyprus",
+      "channels": [
+        "professional"
+      ],
+      "revenue_streams": [
+        "product_sales",
+        "wholesale",
+        "partnership_revenue"
+      ],
+      "partnerships": [
+        "Edible London"
+      ],
+      "compliance_requirements": [
+        "food_safety",
+        "export_compliance",
+        "agricultural_regulations"
+      ],
+      "documentation_status": {
+        "supply_chain_docs": true,
+        "partnership_agreement": true,
+        "export_licenses": true,
+        "food_safety": true,
+        "agricultural_permits": true
+      },
+      "created_at": "2026-01-26T23:43:32.413515",
+      "updated_at": "2026-01-26T23:43:32.461070"
+    },
+    {
+      "entity_id": "ilven_seamoss",
+      "entity_type": "ilven_seamoss",
+      "name": "Ilven Seamoss",
+      "description": "90-second sea moss production",
+      "mission": "Sustainable sea moss production and distribution",
+      "vision": "Accessible superfood for all",
+      "legal_structure": "Business",
+      "registration_number": null,
+      "location": null,
+      "channels": [
+        "creator",
+        "professional"
+      ],
+      "revenue_streams": [
+        "product_sales",
+        "advertising",
+        "sponsorships",
+        "educational_content"
+      ],
+      "partnerships": [],
+      "compliance_requirements": [
+        "food_safety",
+        "health_claims",
+        "marketing_compliance"
+      ],
+      "documentation_status": {
+        "production_docs": true,
+        "health_claims_docs": true,
+        "marketing_compliance": true,
+        "product_safety": true,
+        "distribution_agreements": true
+      },
+      "created_at": "2026-01-26T23:43:32.413517",
+      "updated_at": "2026-01-26T23:43:32.476428"
+    },
+    {
+      "entity_id": "atilok",
+      "entity_type": "atilok",
+      "name": "ATILOK LTD",
+      "description": "E-commerce truck parts platform",
+      "mission": "Efficient truck parts distribution",
+      "vision": "Leading truck parts e-commerce platform",
+      "legal_structure": "Limited Company (LTD)",
+      "registration_number": null,
+      "location": null,
+      "channels": [
+        "professional"
+      ],
+      "revenue_streams": [
+        "product_sales",
+        "commission",
+        "subscription",
+        "advertising"
+      ],
+      "partnerships": [],
+      "compliance_requirements": [
+        "ecommerce_compliance",
+        "consumer_protection",
+        "data_protection"
+      ],
+      "documentation_status": {
+        "ecommerce_terms": true,
+        "privacy_policy": true,
+        "supply_chain_docs": true,
+        "consumer_protection": true,
+        "data_protection": true
+      },
+      "created_at": "2026-01-26T23:43:32.413520",
+      "updated_at": "2026-01-26T23:43:32.493342"
+    }
+  ]
+}
