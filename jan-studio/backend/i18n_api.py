@@ -207,3 +207,50 @@ async def get_translations_report():
         raise HTTPException(status_code=503, detail="I18n System not available")
     
     return i18n.export_translations_report()
+
+@router.get("/translations/bulk")
+async def get_bulk_translations(keys: str, language: str = "en"):
+    """Get multiple translations at once.
+    
+    Args:
+        keys: Comma-separated list of translation keys
+        language: Target language code
+    """
+    if not SYSTEM_AVAILABLE:
+        raise HTTPException(status_code=503, detail="I18n System not available")
+    
+    key_list = [k.strip() for k in keys.split(",")]
+    translations = {}
+    
+    for key in key_list:
+        translation = i18n.get_translation(key, language, key)  # Fallback to key if not found
+        translations[key] = translation
+    
+    return {
+        "language": language,
+        "translations": translations,
+        "count": len(translations)
+    }
+
+@router.post("/translations/batch")
+async def register_batch_translations(translations: List[TranslationRequest]):
+    """Register multiple translations at once."""
+    if not SYSTEM_AVAILABLE:
+        raise HTTPException(status_code=503, detail="I18n System not available")
+    
+    registered = []
+    for req in translations:
+        i18n.register_translation(
+            key=req.key,
+            language=req.language,
+            text=req.text,
+            context=req.context,
+            notes=req.notes,
+            verified=req.verified
+        )
+        registered.append({"key": req.key, "language": req.language})
+    
+    return {
+        "message": f"Registered {len(registered)} translations",
+        "registered": registered
+    }
