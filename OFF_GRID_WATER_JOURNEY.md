@@ -20,12 +20,14 @@
 ## 📍 LOCATION CONTEXT
 
 **Starting Point:**
-- 187 Westbury Avenue, Brighton
-- Born in Brighton
-- Rivers nearby
+- 187 Westbury Avenue, N22 6RX
+- Wood Green/Tottenham, North London
+- Haringey Borough
+- Coordinates: 51.597178°N, 0.094006°W
+- Born in Brighton (but currently in North London)
 
 **Destination:**
-- Water (rivers, sea, connection point)
+- Water (rivers, canals, connection point)
 - Whale vibration location
 - Off-grid sanctuary
 

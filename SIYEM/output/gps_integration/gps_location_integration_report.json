@@ -1,0 +1,134 @@
+{
+  "timestamp": "2026-01-26T13:27:21.630971",
+  "title": "GPS Location Integration - Deep Search Complete",
+  "status": "100% OPERATIONAL",
+  "home_location": {
+    "name": "Home",
+    "address": "187 Westbury Avenue",
+    "postcode": "N22 6RX",
+    "coordinates": {
+      "latitude": 51.597178,
+      "longitude": -0.094006
+    },
+    "location_type": "home",
+    "notes": "Wood Green/Tottenham, North London, Haringey Borough"
+  },
+  "water_access_points": {
+    "new_river_myddleton": {
+      "name": "New River - Myddleton Road",
+      "water_type": "river",
+      "coordinates": {
+        "latitude": 51.6,
+        "longitude": -0.11
+      },
+      "distance_km": 1.5,
+      "walking_time_minutes": 20,
+      "access_notes": "New River runs through N22 along Myddleton Road. Built 1608-1613, still supplies water. Popular walking route."
+    },
+    "lee_navigation": {
+      "name": "Lee Navigation - Lower Lea Valley",
+      "water_type": "canal_river",
+      "coordinates": {
+        "latitude": 51.55,
+        "longitude": -0.02
+      },
+      "distance_km": 8.0,
+      "walking_time_minutes": 100,
+      "access_notes": "Lee Navigation (River Lea) - Major waterway. Improved towpath, Lea Valley Walk. 2012 Olympic improvements."
+    },
+    "lee_navigation_tottenham": {
+      "name": "Lee Navigation - Tottenham",
+      "water_type": "canal_river",
+      "coordinates": {
+        "latitude": 51.58,
+        "longitude": -0.05
+      },
+      "distance_km": 4.0,
+      "walking_time_minutes": 50,
+      "access_notes": "Lee Navigation - Closer access point in Tottenham area. Towpath walking route."
+    },
+    "thames": {
+      "name": "River Thames",
+      "water_type": "river",
+      "coordinates": {
+        "latitude": 51.5074,
+        "longitude": -0.1278
+      },
+      "distance_km": 12.0,
+      "walking_time_minutes": 150,
+      "access_notes": "River Thames - Major river. Multiple access points in central London."
+    }
+  },
+  "routes": [
+    {
+      "origin": "187 Westbury Avenue",
+      "destination": "New River - Myddleton Road",
+      "distance_km": 1.15,
+      "walking_time_minutes": 13,
+      "route_type": "walk",
+      "directions": [
+        "Start at 187 Westbury Avenue, N22 6RX",
+        "Head toward New River - Myddleton Road",
+        "Distance: 1.50 km",
+        "Walking time: ~20 minutes",
+        "Water type: river",
+        "New River runs through N22 along Myddleton Road. Built 1608-1613, still supplies water. Popular walking route."
+      ],
+      "cash_cost": null
+    },
+    {
+      "origin": "187 Westbury Avenue",
+      "destination": "Lee Navigation - Tottenham",
+      "distance_km": 3.59,
+      "walking_time_minutes": 43,
+      "route_type": "walk",
+      "directions": [
+        "Start at 187 Westbury Avenue, N22 6RX",
+        "Head toward Lee Navigation - Tottenham",
+        "Distance: 4.00 km",
+        "Walking time: ~50 minutes",
+        "Water type: canal_river",
+        "Lee Navigation - Closer access point in Tottenham area. Towpath walking route."
+      ],
+      "cash_cost": null
+    },
+    {
+      "origin": "187 Westbury Avenue",
+      "destination": "Lee Navigation - Lower Lea Valley",
+      "distance_km": 7.33,
+      "walking_time_minutes": 87,
+      "route_type": "walk",
+      "directions": [
+        "Start at 187 Westbury Avenue, N22 6RX",
+        "Head toward Lee Navigation - Lower Lea Valley",
+        "Distance: 8.00 km",
+        "Walking time: ~100 minutes",
+        "Water type: canal_river",
+        "Lee Navigation (River Lea) - Major waterway. Improved towpath, Lea Valley Walk. 2012 Olympic improvements."
+      ],
+      "cash_cost": null
+    },
+    {
+      "origin": "187 Westbury Avenue",
+      "destination": "River Thames",
+      "distance_km": 10.25,
+      "walking_time_minutes": 123,
+      "route_type": "walk",
+      "directions": [
+        "Start at 187 Westbury Avenue, N22 6RX",
+        "Head toward River Thames",
+        "Distance: 12.00 km",
+        "Walking time: ~150 minutes",
+        "Water type: river",
+        "River Thames - Major river. Multiple access points in central London."
+      ],
+      "cash_cost": null
+    }
+  ],
+  "recommended_route": {
+    "destination": "New River - Myddleton Road",
+    "distance_km": 1.15,
+    "walking_time_minutes": 13,
+    "reason": "Nearest water access point"
+  }
+}
