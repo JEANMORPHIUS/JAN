@@ -1,6 +1,6 @@
 """
 Google Cloud TTS Audio Generation Script
-Generated: 2026-01-25T15:11:10.087082
+Generated: 2026-01-25T15:36:44.011908
 Total Audio Files: 655
 
 Requirements:

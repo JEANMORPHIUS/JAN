@@ -1,0 +1,1524 @@
+{
+  "analysis_timestamp": "2026-01-26T05:15:42.208710",
+  "total_animals": 43,
+  "animals": {
+    "early_amphibians": {
+      "animal_name": "Early Amphibians",
+      "scientific_name": "Amphibia (early forms)",
+      "animal_type": "amphibian",
+      "first_appearance_mya": 360.0,
+      "peak_significance_mya": 335.0,
+      "time_period": "carboniferous",
+      "field_resonance_at_emergence": 1.0,
+      "frequency_band": "unity",
+      "divine_frequency_contribution": 0.15,
+      "table_connection_strength": 1.0,
+      "spiritual_meaning": "First creatures to walk on The Table. First souls to experience perfect unity.",
+      "table_role": "First creatures on The Table - perfect unity witnesses",
+      "soul_signature": "UNITY_WITNESS",
+      "evolutionary_importance": "First tetrapods - bridge between water and land",
+      "dna_markers": [
+        "tetrapod_origin",
+        "pangea_unity"
+      ],
+      "modern_descendants": [
+        "All modern amphibians",
+        "All tetrapods"
+      ],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": null,
+      "cultural_significance": [
+        "First walkers",
+        "Unity witnesses",
+        "Table origin"
+      ],
+      "mythological_connections": [],
+      "notes": "These creatures experienced perfect unity (1.0 field resonance) at The Table's formation."
+    },
+    "early_reptiles": {
+      "animal_name": "Early Reptiles",
+      "scientific_name": "Reptilia (early forms)",
+      "animal_type": "reptile",
+      "first_appearance_mya": 320.0,
+      "peak_significance_mya": 280.0,
+      "time_period": "carboniferous",
+      "field_resonance_at_emergence": 1.0,
+      "frequency_band": "unity",
+      "divine_frequency_contribution": 0.12,
+      "table_connection_strength": 1.0,
+      "spiritual_meaning": "Reptiles that knew The Table whole. Ancient wisdom keepers.",
+      "table_role": "Reptiles at peak unity - ancient wisdom",
+      "soul_signature": "ANCIENT_WISDOM",
+      "evolutionary_importance": "First fully terrestrial vertebrates",
+      "dna_markers": [
+        "terrestrial_origin",
+        "pangea_unity"
+      ],
+      "modern_descendants": [
+        "All modern reptiles",
+        "Birds",
+        "Mammals"
+      ],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "snake",
+      "cultural_significance": [
+        "Ancient wisdom",
+        "Unity memory",
+        "Table guardians"
+      ],
+      "mythological_connections": [],
+      "notes": "Reptiles that existed during perfect unity - they carry the memory."
+    },
+    "giant_dragonflies": {
+      "animal_name": "Giant Dragonflies",
+      "scientific_name": "Meganisoptera",
+      "animal_type": "insect",
+      "first_appearance_mya": 330.0,
+      "peak_significance_mya": 300.0,
+      "time_period": "carboniferous",
+      "field_resonance_at_emergence": 1.0,
+      "frequency_band": "unity",
+      "divine_frequency_contribution": 0.08,
+      "table_connection_strength": 0.95,
+      "spiritual_meaning": "Flying witnesses of perfect unity. Air spirits of The Table.",
+      "table_role": "Air spirits at perfect unity",
+      "soul_signature": "AIR_UNITY",
+      "evolutionary_importance": "First large flying insects - oxygen-rich atmosphere",
+      "dna_markers": [
+        "high_oxygen_adaptation",
+        "pangea_unity"
+      ],
+      "modern_descendants": [
+        "All modern dragonflies",
+        "All flying insects"
+      ],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": null,
+      "cultural_significance": [
+        "Unity in flight",
+        "Ancient air spirits"
+      ],
+      "mythological_connections": [],
+      "notes": "These massive insects flew during perfect unity - air spirits of The Table."
+    },
+    "synapsids": {
+      "animal_name": "Synapsids",
+      "scientific_name": "Synapsida",
+      "animal_type": "mammal_ancestor",
+      "first_appearance_mya": 310.0,
+      "peak_significance_mya": 280.0,
+      "time_period": "permian",
+      "field_resonance_at_emergence": 1.0,
+      "frequency_band": "unity",
+      "divine_frequency_contribution": 0.18,
+      "table_connection_strength": 1.0,
+      "spiritual_meaning": "Mammal ancestors at peak unity. The seed of mammalian souls.",
+      "table_role": "Mammal ancestors at perfect unity",
+      "soul_signature": "MAMMAL_SEED",
+      "evolutionary_importance": "Direct ancestors of all mammals",
+      "dna_markers": [
+        "mammal_origin",
+        "pangea_unity"
+      ],
+      "modern_descendants": [
+        "All mammals",
+        "Humans"
+      ],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "wolf",
+      "cultural_significance": [
+        "Mammal origin",
+        "Unity seed",
+        "Table ancestors"
+      ],
+      "mythological_connections": [],
+      "notes": "These are the direct ancestors of all mammals - they knew perfect unity."
+    },
+    "therapsids": {
+      "animal_name": "Therapsids",
+      "scientific_name": "Therapsida",
+      "animal_type": "mammal_ancestor",
+      "first_appearance_mya": 275.0,
+      "peak_significance_mya": 260.0,
+      "time_period": "permian",
+      "field_resonance_at_emergence": 1.0,
+      "frequency_band": "unity",
+      "divine_frequency_contribution": 0.2,
+      "table_connection_strength": 1.0,
+      "spiritual_meaning": "Advanced mammal ancestors at peak unity. The bridge to mammals.",
+      "table_role": "Mammal bridge at perfect unity",
+      "soul_signature": "MAMMAL_BRIDGE",
+      "evolutionary_importance": "Advanced mammal-like reptiles - closer to mammals",
+      "dna_markers": [
+        "mammal_evolution",
+        "pangea_unity"
+      ],
+      "modern_descendants": [
+        "All mammals",
+        "Humans"
+      ],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "bear",
+      "cultural_significance": [
+        "Mammal evolution",
+        "Unity bridge"
+      ],
+      "mythological_connections": [],
+      "notes": "These advanced mammal ancestors existed during perfect unity."
+    },
+    "early_dinosaurs": {
+      "animal_name": "Early Dinosaurs",
+      "scientific_name": "Dinosauria (early forms)",
+      "animal_type": "dinosaur",
+      "first_appearance_mya": 245.0,
+      "peak_significance_mya": 200.0,
+      "time_period": "triassic",
+      "field_resonance_at_emergence": 0.9,
+      "frequency_band": "high",
+      "divine_frequency_contribution": 0.1,
+      "table_connection_strength": 0.85,
+      "spiritual_meaning": "Dinosaurs that witnessed The Table's breakup. Separation witnesses.",
+      "table_role": "Witnesses of separation beginning",
+      "soul_signature": "SEPARATION_WITNESS",
+      "evolutionary_importance": "First dinosaurs - dominant land vertebrates",
+      "dna_markers": [
+        "dinosaur_origin",
+        "table_breakup"
+      ],
+      "modern_descendants": [
+        "Birds"
+      ],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "dragon",
+      "cultural_significance": [
+        "Separation era",
+        "Ancient power",
+        "Table breakup"
+      ],
+      "mythological_connections": [],
+      "notes": "Dinosaurs emerged as The Table began to break - they witnessed separation."
+    },
+    "early_mammals": {
+      "animal_name": "Early Mammals",
+      "scientific_name": "Mammalia (early forms)",
+      "animal_type": "mammal",
+      "first_appearance_mya": 225.0,
+      "peak_significance_mya": 200.0,
+      "time_period": "triassic",
+      "field_resonance_at_emergence": 0.85,
+      "frequency_band": "high",
+      "divine_frequency_contribution": 0.15,
+      "table_connection_strength": 0.8,
+      "spiritual_meaning": "First mammals during breakup. They carry separation memory.",
+      "table_role": "Mammals during separation",
+      "soul_signature": "SEPARATION_MAMMAL",
+      "evolutionary_importance": "First true mammals - small, nocturnal",
+      "dna_markers": [
+        "mammal_origin",
+        "table_breakup"
+      ],
+      "modern_descendants": [
+        "All modern mammals",
+        "Humans"
+      ],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "cat",
+      "cultural_significance": [
+        "Mammal origin",
+        "Separation memory"
+      ],
+      "mythological_connections": [],
+      "notes": "First mammals emerged as The Table broke - they carry separation in their DNA."
+    },
+    "pterosaurs": {
+      "animal_name": "Pterosaurs",
+      "scientific_name": "Pterosauria",
+      "animal_type": "flying_reptile",
+      "first_appearance_mya": 230.0,
+      "peak_significance_mya": 200.0,
+      "time_period": "triassic",
+      "field_resonance_at_emergence": 0.85,
+      "frequency_band": "high",
+      "divine_frequency_contribution": 0.08,
+      "table_connection_strength": 0.8,
+      "spiritual_meaning": "Flying reptiles during breakup. Air spirits of separation.",
+      "table_role": "Air spirits during separation",
+      "soul_signature": "AIR_SEPARATION",
+      "evolutionary_importance": "First powered flight in vertebrates",
+      "dna_markers": [
+        "flight_origin",
+        "table_breakup"
+      ],
+      "modern_descendants": [
+        "Birds"
+      ],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "eagle",
+      "cultural_significance": [
+        "Flight origin",
+        "Separation air spirits"
+      ],
+      "mythological_connections": [],
+      "notes": "First flying vertebrates emerged as The Table broke."
+    },
+    "diverse_dinosaurs": {
+      "animal_name": "Diverse Dinosaurs",
+      "scientific_name": "Dinosauria (diverse)",
+      "animal_type": "dinosaur",
+      "first_appearance_mya": 200.0,
+      "peak_significance_mya": 150.0,
+      "time_period": "jurassic",
+      "field_resonance_at_emergence": 0.7,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.05,
+      "table_connection_strength": 0.65,
+      "spiritual_meaning": "Dinosaurs after breakup. They never knew unity.",
+      "table_role": "Post-breakup dominance",
+      "soul_signature": "POST_BREAKUP",
+      "evolutionary_importance": "Peak dinosaur diversity",
+      "dna_markers": [
+        "dinosaur_diversity",
+        "table_separation"
+      ],
+      "modern_descendants": [
+        "Birds"
+      ],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "dragon",
+      "cultural_significance": [
+        "Separation era",
+        "Ancient dominance"
+      ],
+      "mythological_connections": [],
+      "notes": "Dinosaurs that dominated after The Table broke - they never knew unity."
+    },
+    "first_birds": {
+      "animal_name": "First Birds",
+      "scientific_name": "Aves (early forms)",
+      "animal_type": "bird",
+      "first_appearance_mya": 150.0,
+      "peak_significance_mya": 100.0,
+      "time_period": "jurassic",
+      "field_resonance_at_emergence": 0.7,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.12,
+      "table_connection_strength": 0.75,
+      "spiritual_meaning": "Birds that bridge The Table's fragments. Unity bridge spirits.",
+      "table_role": "Bridge The Table's fragments",
+      "soul_signature": "BRIDGE_SPIRIT",
+      "evolutionary_importance": "First birds - bridge between dinosaurs and modern birds",
+      "dna_markers": [
+        "bird_origin",
+        "table_bridge"
+      ],
+      "modern_descendants": [
+        "All modern birds"
+      ],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "eagle",
+      "cultural_significance": [
+        "Unity bridge",
+        "Fragment connection"
+      ],
+      "mythological_connections": [],
+      "notes": "Birds evolved to bridge The Table's fragments - they connect what was separated."
+    },
+    "marine_reptiles": {
+      "animal_name": "Marine Reptiles",
+      "scientific_name": "Marine Reptilia",
+      "animal_type": "marine_reptile",
+      "first_appearance_mya": 250.0,
+      "peak_significance_mya": 150.0,
+      "time_period": "jurassic",
+      "field_resonance_at_emergence": 0.7,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.08,
+      "table_connection_strength": 0.7,
+      "spiritual_meaning": "Water spirits during separation. Ocean memory keepers.",
+      "table_role": "Water spirits during separation",
+      "soul_signature": "WATER_SEPARATION",
+      "evolutionary_importance": "Return to water - secondary aquatic adaptation",
+      "dna_markers": [
+        "aquatic_adaptation",
+        "table_separation"
+      ],
+      "modern_descendants": [
+        "None (extinct)"
+      ],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "whale",
+      "cultural_significance": [
+        "Water memory",
+        "Separation ocean"
+      ],
+      "mythological_connections": [],
+      "notes": "Marine reptiles that returned to water as The Table separated."
+    },
+    "flowering_plants_era_animals": {
+      "animal_name": "Flowering Plants Era Animals",
+      "scientific_name": "Various",
+      "animal_type": "diverse",
+      "first_appearance_mya": 130.0,
+      "peak_significance_mya": 100.0,
+      "time_period": "cretaceous",
+      "field_resonance_at_emergence": 0.72,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.1,
+      "table_connection_strength": 0.7,
+      "spiritual_meaning": "Animals during flowering plant revolution. New ecosystems.",
+      "table_role": "New ecosystem witnesses",
+      "soul_signature": "ECOSYSTEM_SHIFT",
+      "evolutionary_importance": "Co-evolution with flowering plants",
+      "dna_markers": [
+        "ecosystem_evolution",
+        "table_separation"
+      ],
+      "modern_descendants": [
+        "All modern animals"
+      ],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": null,
+      "cultural_significance": [],
+      "mythological_connections": [],
+      "notes": "Animals that adapted to flowering plants - new ecosystems on separated plates."
+    },
+    "modern_mammals": {
+      "animal_name": "Modern Mammals",
+      "scientific_name": "Mammalia (modern forms)",
+      "animal_type": "mammal",
+      "first_appearance_mya": 66.0,
+      "peak_significance_mya": 50.0,
+      "time_period": "paleogene",
+      "field_resonance_at_emergence": 0.75,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.15,
+      "table_connection_strength": 0.75,
+      "spiritual_meaning": "Modern mammals on separated plates. Memory of unity persists.",
+      "table_role": "Modern mammals with unity memory",
+      "soul_signature": "UNITY_MEMORY",
+      "evolutionary_importance": "Mammal diversification after dinosaur extinction",
+      "dna_markers": [
+        "mammal_diversification",
+        "unity_memory"
+      ],
+      "modern_descendants": [
+        "All modern mammals",
+        "Humans"
+      ],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "wolf",
+      "cultural_significance": [
+        "Unity memory",
+        "Mammal diversity"
+      ],
+      "mythological_connections": [],
+      "notes": "Modern mammals carry the memory of unity in their DNA."
+    },
+    "wolf": {
+      "animal_name": "Wolf",
+      "scientific_name": "Canis lupus",
+      "animal_type": "wolf",
+      "first_appearance_mya": 0.8,
+      "peak_significance_mya": 0.0,
+      "time_period": "quaternary",
+      "field_resonance_at_emergence": 0.78,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.08,
+      "table_connection_strength": 0.75,
+      "spiritual_meaning": "Pack leader, loyalty, family. Unity through pack.",
+      "table_role": "Pack unity spirits",
+      "soul_signature": "PACK_UNITY",
+      "evolutionary_importance": "Social pack structure - unity model",
+      "dna_markers": [
+        "pack_structure",
+        "unity_model"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "wolf",
+      "cultural_significance": [
+        "Pack unity",
+        "Loyalty",
+        "Family bonds"
+      ],
+      "mythological_connections": [
+        "Fenrir",
+        "Romulus and Remus"
+      ],
+      "notes": "Wolves model unity through pack structure - connection to The Table."
+    },
+    "bear": {
+      "animal_name": "Bear",
+      "scientific_name": "Ursidae",
+      "animal_type": "bear",
+      "first_appearance_mya": 20.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "neogene",
+      "field_resonance_at_emergence": 0.77,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.1,
+      "table_connection_strength": 0.75,
+      "spiritual_meaning": "Strength, protection, solitude. Guardian of The Table.",
+      "table_role": "Table guardians",
+      "soul_signature": "GUARDIAN",
+      "evolutionary_importance": "Large omnivores - ecosystem balance",
+      "dna_markers": [
+        "guardian_energy",
+        "table_protection"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "bear",
+      "cultural_significance": [
+        "Protection",
+        "Strength",
+        "Guardian"
+      ],
+      "mythological_connections": [
+        "Artio",
+        "Bear constellations"
+      ],
+      "notes": "Bears carry guardian energy - protectors of The Table's memory."
+    },
+    "eagle": {
+      "animal_name": "Eagle",
+      "scientific_name": "Aquilinae",
+      "animal_type": "eagle",
+      "first_appearance_mya": 30.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "neogene",
+      "field_resonance_at_emergence": 0.77,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.12,
+      "table_connection_strength": 0.8,
+      "spiritual_meaning": "Vision, freedom, perspective. Sees The Table whole.",
+      "table_role": "Vision spirits - see The Table whole",
+      "soul_signature": "VISION_SPIRIT",
+      "evolutionary_importance": "Apex predators - high perspective",
+      "dna_markers": [
+        "high_perspective",
+        "table_vision"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "eagle",
+      "cultural_significance": [
+        "Vision",
+        "Freedom",
+        "Perspective"
+      ],
+      "mythological_connections": [
+        "Zeus's eagle",
+        "American eagle"
+      ],
+      "notes": "Eagles see from above - they see The Table's fragments as whole."
+    },
+    "lion": {
+      "animal_name": "Lion",
+      "scientific_name": "Panthera leo",
+      "animal_type": "lion",
+      "first_appearance_mya": 1.2,
+      "peak_significance_mya": 0.0,
+      "time_period": "quaternary",
+      "field_resonance_at_emergence": 0.78,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.1,
+      "table_connection_strength": 0.75,
+      "spiritual_meaning": "Courage, leadership, pride. Pride unity.",
+      "table_role": "Pride unity spirits",
+      "soul_signature": "PRIDE_UNITY",
+      "evolutionary_importance": "Social big cats - pride structure",
+      "dna_markers": [
+        "pride_structure",
+        "unity_model"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "lion",
+      "cultural_significance": [
+        "Leadership",
+        "Courage",
+        "Pride"
+      ],
+      "mythological_connections": [
+        "Nemean Lion",
+        "Lion of Judah"
+      ],
+      "notes": "Lions model unity through pride - connection to The Table."
+    },
+    "fox": {
+      "animal_name": "Fox",
+      "scientific_name": "Vulpes",
+      "animal_type": "fox",
+      "first_appearance_mya": 7.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "neogene",
+      "field_resonance_at_emergence": 0.77,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.08,
+      "table_connection_strength": 0.7,
+      "spiritual_meaning": "Cunning, adaptability, wisdom. Adapts to separation.",
+      "table_role": "Adaptation spirits",
+      "soul_signature": "ADAPTATION",
+      "evolutionary_importance": "Highly adaptable - survive separation",
+      "dna_markers": [
+        "adaptability",
+        "separation_survival"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "fox",
+      "cultural_significance": [
+        "Cunning",
+        "Adaptability",
+        "Wisdom"
+      ],
+      "mythological_connections": [
+        "Kitsune",
+        "Reynard"
+      ],
+      "notes": "Foxes adapt to separation - they survive and thrive."
+    },
+    "deer": {
+      "animal_name": "Deer",
+      "scientific_name": "Cervidae",
+      "animal_type": "deer",
+      "first_appearance_mya": 20.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "neogene",
+      "field_resonance_at_emergence": 0.77,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.08,
+      "table_connection_strength": 0.7,
+      "spiritual_meaning": "Gentleness, grace, sensitivity. Gentle unity.",
+      "table_role": "Gentle unity spirits",
+      "soul_signature": "GENTLE_UNITY",
+      "evolutionary_importance": "Herbivores - ecosystem balance",
+      "dna_markers": [
+        "gentleness",
+        "unity_grace"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "deer",
+      "cultural_significance": [
+        "Gentleness",
+        "Grace",
+        "Sensitivity"
+      ],
+      "mythological_connections": [
+        "Cernunnos",
+        "Deer in mythology"
+      ],
+      "notes": "Deer carry gentle unity energy - grace in connection."
+    },
+    "owl": {
+      "animal_name": "Owl",
+      "scientific_name": "Strigiformes",
+      "animal_type": "owl",
+      "first_appearance_mya": 60.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "paleogene",
+      "field_resonance_at_emergence": 0.75,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.12,
+      "table_connection_strength": 0.8,
+      "spiritual_meaning": "Wisdom, mystery, night vision. Sees in darkness.",
+      "table_role": "Wisdom keepers - see unity in darkness",
+      "soul_signature": "WISDOM_KEEPER",
+      "evolutionary_importance": "Nocturnal predators - night wisdom",
+      "dna_markers": [
+        "night_wisdom",
+        "unity_vision"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "owl",
+      "cultural_significance": [
+        "Wisdom",
+        "Mystery",
+        "Night vision"
+      ],
+      "mythological_connections": [
+        "Athena's owl",
+        "Owl of Minerva"
+      ],
+      "notes": "Owls see unity even in darkness - wisdom keepers of The Table."
+    },
+    "raven": {
+      "animal_name": "Raven",
+      "scientific_name": "Corvus corax",
+      "animal_type": "raven",
+      "first_appearance_mya": 2.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "quaternary",
+      "field_resonance_at_emergence": 0.78,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.1,
+      "table_connection_strength": 0.75,
+      "spiritual_meaning": "Transformation, magic, messages. Bridge between worlds.",
+      "table_role": "Transformation spirits - bridge worlds",
+      "soul_signature": "TRANSFORMATION",
+      "evolutionary_importance": "Highly intelligent - problem solving",
+      "dna_markers": [
+        "intelligence",
+        "transformation"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "raven",
+      "cultural_significance": [
+        "Transformation",
+        "Magic",
+        "Messages"
+      ],
+      "mythological_connections": [
+        "Odin's ravens",
+        "Raven creators"
+      ],
+      "notes": "Ravens bridge worlds - transformation spirits of The Table."
+    },
+    "snake": {
+      "animal_name": "Snake",
+      "scientific_name": "Serpentes",
+      "animal_type": "snake",
+      "first_appearance_mya": 100.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "cretaceous",
+      "field_resonance_at_emergence": 0.72,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.1,
+      "table_connection_strength": 0.75,
+      "spiritual_meaning": "Transformation, healing, cycles. Shed separation.",
+      "table_role": "Transformation spirits - shed separation",
+      "soul_signature": "CYCLE_TRANSFORMATION",
+      "evolutionary_importance": "Limbless reptiles - unique adaptation",
+      "dna_markers": [
+        "transformation",
+        "cycle_healing"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "snake",
+      "cultural_significance": [
+        "Transformation",
+        "Healing",
+        "Cycles"
+      ],
+      "mythological_connections": [
+        "Ouroboros",
+        "Serpent wisdom"
+      ],
+      "notes": "Snakes transform through shedding - they heal separation."
+    },
+    "tiger": {
+      "animal_name": "Tiger",
+      "scientific_name": "Panthera tigris",
+      "animal_type": "tiger",
+      "first_appearance_mya": 2.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "quaternary",
+      "field_resonance_at_emergence": 0.78,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.1,
+      "table_connection_strength": 0.75,
+      "spiritual_meaning": "Power, independence, passion. Independent unity.",
+      "table_role": "Independent unity spirits",
+      "soul_signature": "INDEPENDENT_POWER",
+      "evolutionary_importance": "Apex predators - solitary power",
+      "dna_markers": [
+        "independence",
+        "power"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "tiger",
+      "cultural_significance": [
+        "Power",
+        "Independence",
+        "Passion"
+      ],
+      "mythological_connections": [
+        "Tiger gods",
+        "Tiger spirits"
+      ],
+      "notes": "Tigers carry independent power - unity through strength."
+    },
+    "whale": {
+      "animal_name": "Whale",
+      "scientific_name": "Cetacea",
+      "animal_type": "whale",
+      "first_appearance_mya": 50.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "paleogene",
+      "field_resonance_at_emergence": 0.75,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.15,
+      "table_connection_strength": 0.85,
+      "spiritual_meaning": "Depth, ancient wisdom, song. Songs of unity.",
+      "table_role": "Ancient wisdom keepers - songs of unity",
+      "soul_signature": "ANCIENT_SONG",
+      "evolutionary_importance": "Return to water - secondary aquatic",
+      "dna_markers": [
+        "ancient_wisdom",
+        "unity_song"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "whale",
+      "cultural_significance": [
+        "Ancient wisdom",
+        "Songs",
+        "Depth"
+      ],
+      "mythological_connections": [
+        "Whale gods",
+        "Leviathan"
+      ],
+      "notes": "Whales sing songs of unity - they remember The Table's connection."
+    },
+    "dolphin": {
+      "animal_name": "Dolphin",
+      "scientific_name": "Delphinidae",
+      "animal_type": "dolphin",
+      "first_appearance_mya": 15.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "neogene",
+      "field_resonance_at_emergence": 0.77,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.12,
+      "table_connection_strength": 0.8,
+      "spiritual_meaning": "Joy, communication, intelligence. Joyful unity.",
+      "table_role": "Joyful unity spirits",
+      "soul_signature": "JOYFUL_UNITY",
+      "evolutionary_importance": "Highly intelligent - social communication",
+      "dna_markers": [
+        "intelligence",
+        "joyful_communication"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "dolphin",
+      "cultural_significance": [
+        "Joy",
+        "Communication",
+        "Intelligence"
+      ],
+      "mythological_connections": [
+        "Dolphin gods",
+        "Dolphin helpers"
+      ],
+      "notes": "Dolphins communicate with joy - they model joyful unity."
+    },
+    "orca": {
+      "animal_name": "Orca",
+      "scientific_name": "Orcinus orca",
+      "animal_type": "orca",
+      "first_appearance_mya": 5.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "quaternary",
+      "field_resonance_at_emergence": 0.78,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.12,
+      "table_connection_strength": 0.8,
+      "spiritual_meaning": "Power, family bonds, strategy. Pod unity.",
+      "table_role": "Pod unity spirits",
+      "soul_signature": "POD_UNITY",
+      "evolutionary_importance": "Apex marine predators - pod structure",
+      "dna_markers": [
+        "pod_structure",
+        "unity_power"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "orca",
+      "cultural_significance": [
+        "Power",
+        "Family",
+        "Strategy"
+      ],
+      "mythological_connections": [
+        "Orca spirits",
+        "Killer whale"
+      ],
+      "notes": "Orcas model pod unity - powerful family bonds."
+    },
+    "seal": {
+      "animal_name": "Seal",
+      "scientific_name": "Pinnipedia",
+      "animal_type": "seal",
+      "first_appearance_mya": 23.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "neogene",
+      "field_resonance_at_emergence": 0.77,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.08,
+      "table_connection_strength": 0.7,
+      "spiritual_meaning": "Playfulness, adaptability, balance. Balance unity.",
+      "table_role": "Balance spirits",
+      "soul_signature": "BALANCE",
+      "evolutionary_importance": "Amphibious - land and sea balance",
+      "dna_markers": [
+        "balance",
+        "adaptability"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "seal",
+      "cultural_significance": [
+        "Playfulness",
+        "Balance",
+        "Adaptability"
+      ],
+      "mythological_connections": [],
+      "notes": "Seals balance land and sea - they bridge elements."
+    },
+    "walrus": {
+      "animal_name": "Walrus",
+      "scientific_name": "Odobenus rosmarus",
+      "animal_type": "walrus",
+      "first_appearance_mya": 15.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "neogene",
+      "field_resonance_at_emergence": 0.77,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.1,
+      "table_connection_strength": 0.75,
+      "spiritual_meaning": "Strength, community, wisdom. Community unity.",
+      "table_role": "Community unity spirits",
+      "soul_signature": "COMMUNITY_UNITY",
+      "evolutionary_importance": "Social pinnipeds - community structure",
+      "dna_markers": [
+        "community",
+        "unity_strength"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "walrus",
+      "cultural_significance": [
+        "Strength",
+        "Community",
+        "Wisdom"
+      ],
+      "mythological_connections": [],
+      "notes": "Walruses model community unity - strength through togetherness."
+    },
+    "manatee": {
+      "animal_name": "Manatee",
+      "scientific_name": "Trichechus",
+      "animal_type": "manatee",
+      "first_appearance_mya": 50.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "paleogene",
+      "field_resonance_at_emergence": 0.75,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.1,
+      "table_connection_strength": 0.8,
+      "spiritual_meaning": "Gentleness, peace, ancient grace. Peaceful unity.",
+      "table_role": "Peaceful unity spirits",
+      "soul_signature": "PEACEFUL_UNITY",
+      "evolutionary_importance": "Gentle herbivores - peace model",
+      "dna_markers": [
+        "gentleness",
+        "peace"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "manatee",
+      "cultural_significance": [
+        "Gentleness",
+        "Peace",
+        "Ancient grace"
+      ],
+      "mythological_connections": [],
+      "notes": "Manatees carry peaceful unity - gentle grace of The Table."
+    },
+    "otter": {
+      "animal_name": "Otter",
+      "scientific_name": "Lutrinae",
+      "animal_type": "otter",
+      "first_appearance_mya": 7.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "neogene",
+      "field_resonance_at_emergence": 0.77,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.08,
+      "table_connection_strength": 0.7,
+      "spiritual_meaning": "Playfulness, joy, resourcefulness. Joyful adaptation.",
+      "table_role": "Joyful adaptation spirits",
+      "soul_signature": "JOYFUL_ADAPTATION",
+      "evolutionary_importance": "Playful mustelids - joy model",
+      "dna_markers": [
+        "playfulness",
+        "joy"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "otter",
+      "cultural_significance": [
+        "Playfulness",
+        "Joy",
+        "Resourcefulness"
+      ],
+      "mythological_connections": [],
+      "notes": "Otters model joyful adaptation - play in connection."
+    },
+    "porpoise": {
+      "animal_name": "Porpoise",
+      "scientific_name": "Phocoenidae",
+      "animal_type": "porpoise",
+      "first_appearance_mya": 15.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "neogene",
+      "field_resonance_at_emergence": 0.77,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.08,
+      "table_connection_strength": 0.7,
+      "spiritual_meaning": "Intelligence, harmony, subtlety. Subtle unity.",
+      "table_role": "Subtle unity spirits",
+      "soul_signature": "SUBTLE_UNITY",
+      "evolutionary_importance": "Small cetaceans - subtle intelligence",
+      "dna_markers": [
+        "intelligence",
+        "subtlety"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "porpoise",
+      "cultural_significance": [
+        "Intelligence",
+        "Harmony",
+        "Subtlety"
+      ],
+      "mythological_connections": [],
+      "notes": "Porpoises carry subtle unity - harmony in connection."
+    },
+    "narwhal": {
+      "animal_name": "Narwhal",
+      "scientific_name": "Monodon monoceros",
+      "animal_type": "narwhal",
+      "first_appearance_mya": 5.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "quaternary",
+      "field_resonance_at_emergence": 0.78,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.1,
+      "table_connection_strength": 0.75,
+      "spiritual_meaning": "Mystery, uniqueness, ancient magic. Magic unity.",
+      "table_role": "Magic unity spirits",
+      "soul_signature": "MAGIC_UNITY",
+      "evolutionary_importance": "Unique tusk - mystery adaptation",
+      "dna_markers": [
+        "mystery",
+        "uniqueness"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "narwhal",
+      "cultural_significance": [
+        "Mystery",
+        "Uniqueness",
+        "Magic"
+      ],
+      "mythological_connections": [
+        "Unicorn of the sea"
+      ],
+      "notes": "Narwhals carry magic unity - mystery of The Table."
+    },
+    "beluga": {
+      "animal_name": "Beluga",
+      "scientific_name": "Delphinapterus leucas",
+      "animal_type": "beluga",
+      "first_appearance_mya": 5.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "quaternary",
+      "field_resonance_at_emergence": 0.78,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.1,
+      "table_connection_strength": 0.75,
+      "spiritual_meaning": "Communication, adaptability, social harmony. Harmonic unity.",
+      "table_role": "Harmonic unity spirits",
+      "soul_signature": "HARMONIC_UNITY",
+      "evolutionary_importance": "Highly vocal - communication model",
+      "dna_markers": [
+        "communication",
+        "harmony"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "beluga",
+      "cultural_significance": [
+        "Communication",
+        "Adaptability",
+        "Harmony"
+      ],
+      "mythological_connections": [],
+      "notes": "Belugas model harmonic unity - communication in connection."
+    },
+    "shark": {
+      "animal_name": "Shark",
+      "scientific_name": "Selachimorpha",
+      "animal_type": "shark",
+      "first_appearance_mya": 420.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "carboniferous",
+      "field_resonance_at_emergence": 1.0,
+      "frequency_band": "unity",
+      "divine_frequency_contribution": 0.12,
+      "table_connection_strength": 0.9,
+      "spiritual_meaning": "Focus, survival, instinct. Ancient survival.",
+      "table_role": "Ancient survival spirits - pre-Table",
+      "soul_signature": "ANCIENT_SURVIVAL",
+      "evolutionary_importance": "Ancient predators - pre-Pangea origin",
+      "dna_markers": [
+        "ancient_origin",
+        "survival"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "shark",
+      "cultural_significance": [
+        "Focus",
+        "Survival",
+        "Instinct"
+      ],
+      "mythological_connections": [
+        "Shark gods",
+        "Shark spirits"
+      ],
+      "notes": "Sharks existed before Pangea - they are ancient survival spirits."
+    },
+    "hawk": {
+      "animal_name": "Hawk",
+      "scientific_name": "Accipitridae",
+      "animal_type": "hawk",
+      "first_appearance_mya": 30.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "neogene",
+      "field_resonance_at_emergence": 0.77,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.1,
+      "table_connection_strength": 0.75,
+      "spiritual_meaning": "Precision, focus, hunting. Focused unity.",
+      "table_role": "Focused unity spirits",
+      "soul_signature": "FOCUSED_UNITY",
+      "evolutionary_importance": "Precision predators - focused hunting",
+      "dna_markers": [
+        "precision",
+        "focus"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "hawk",
+      "cultural_significance": [
+        "Precision",
+        "Focus",
+        "Hunting"
+      ],
+      "mythological_connections": [],
+      "notes": "Hawks carry focused unity - precision in connection."
+    },
+    "falcon": {
+      "animal_name": "Falcon",
+      "scientific_name": "Falconidae",
+      "animal_type": "falcon",
+      "first_appearance_mya": 30.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "neogene",
+      "field_resonance_at_emergence": 0.77,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.1,
+      "table_connection_strength": 0.75,
+      "spiritual_meaning": "Speed, precision, nobility. Noble unity.",
+      "table_role": "Noble unity spirits",
+      "soul_signature": "NOBLE_UNITY",
+      "evolutionary_importance": "Fast predators - speed and precision",
+      "dna_markers": [
+        "speed",
+        "nobility"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "falcon",
+      "cultural_significance": [
+        "Speed",
+        "Precision",
+        "Nobility"
+      ],
+      "mythological_connections": [
+        "Falcon gods",
+        "Horus"
+      ],
+      "notes": "Falcons carry noble unity - speed and precision in connection."
+    },
+    "dog": {
+      "animal_name": "Dog",
+      "scientific_name": "Canis lupus familiaris",
+      "animal_type": "dog",
+      "first_appearance_mya": 0.03,
+      "peak_significance_mya": 0.0,
+      "time_period": "quaternary",
+      "field_resonance_at_emergence": 0.78,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.12,
+      "table_connection_strength": 0.8,
+      "spiritual_meaning": "Loyalty, service, companionship. Loyal unity.",
+      "table_role": "Loyal unity spirits",
+      "soul_signature": "LOYAL_UNITY",
+      "evolutionary_importance": "Domesticated - human partnership",
+      "dna_markers": [
+        "loyalty",
+        "partnership"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "dog",
+      "cultural_significance": [
+        "Loyalty",
+        "Service",
+        "Companionship"
+      ],
+      "mythological_connections": [
+        "Cerberus",
+        "Dog guides"
+      ],
+      "notes": "Dogs model loyal unity - partnership and service."
+    },
+    "cat": {
+      "animal_name": "Cat",
+      "scientific_name": "Felis catus",
+      "animal_type": "cat",
+      "first_appearance_mya": 0.01,
+      "peak_significance_mya": 0.0,
+      "time_period": "quaternary",
+      "field_resonance_at_emergence": 0.78,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.1,
+      "table_connection_strength": 0.75,
+      "spiritual_meaning": "Independence, mystery, intuition. Independent unity.",
+      "table_role": "Independent unity spirits",
+      "soul_signature": "INDEPENDENT_UNITY",
+      "evolutionary_importance": "Domesticated - independent partnership",
+      "dna_markers": [
+        "independence",
+        "mystery"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "cat",
+      "cultural_significance": [
+        "Independence",
+        "Mystery",
+        "Intuition"
+      ],
+      "mythological_connections": [
+        "Bastet",
+        "Cat guides"
+      ],
+      "notes": "Cats carry independent unity - mystery and intuition."
+    },
+    "horse": {
+      "animal_name": "Horse",
+      "scientific_name": "Equus",
+      "animal_type": "horse",
+      "first_appearance_mya": 4.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "quaternary",
+      "field_resonance_at_emergence": 0.78,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.1,
+      "table_connection_strength": 0.75,
+      "spiritual_meaning": "Freedom, power, journey. Journey unity.",
+      "table_role": "Journey unity spirits",
+      "soul_signature": "JOURNEY_UNITY",
+      "evolutionary_importance": "Domesticated - journey partnership",
+      "dna_markers": [
+        "freedom",
+        "journey"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "horse",
+      "cultural_significance": [
+        "Freedom",
+        "Power",
+        "Journey"
+      ],
+      "mythological_connections": [
+        "Pegasus",
+        "Horse gods"
+      ],
+      "notes": "Horses carry journey unity - freedom and power in movement."
+    },
+    "elephant": {
+      "animal_name": "Elephant",
+      "scientific_name": "Elephantidae",
+      "animal_type": "elephant",
+      "first_appearance_mya": 5.0,
+      "peak_significance_mya": 0.0,
+      "time_period": "quaternary",
+      "field_resonance_at_emergence": 0.78,
+      "frequency_band": "moderate",
+      "divine_frequency_contribution": 0.15,
+      "table_connection_strength": 0.85,
+      "spiritual_meaning": "Memory, wisdom, family. Memory unity.",
+      "table_role": "Memory unity spirits - remember The Table",
+      "soul_signature": "MEMORY_UNITY",
+      "evolutionary_importance": "Long memory - wisdom keepers",
+      "dna_markers": [
+        "memory",
+        "wisdom"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "elephant",
+      "cultural_significance": [
+        "Memory",
+        "Wisdom",
+        "Family"
+      ],
+      "mythological_connections": [
+        "Ganesha",
+        "Elephant wisdom"
+      ],
+      "notes": "Elephants remember - they carry The Table's memory."
+    },
+    "dragon": {
+      "animal_name": "Dragon",
+      "scientific_name": "Mythical",
+      "animal_type": "dragon",
+      "first_appearance_mya": null,
+      "peak_significance_mya": null,
+      "time_period": null,
+      "field_resonance_at_emergence": 1.0,
+      "frequency_band": "unity",
+      "divine_frequency_contribution": 0.2,
+      "table_connection_strength": 1.0,
+      "spiritual_meaning": "Power, transformation, ancient. Ancient unity power.",
+      "table_role": "Mythical unity spirits - perfect unity",
+      "soul_signature": "MYTHICAL_UNITY",
+      "evolutionary_importance": "Mythical - represents perfect unity",
+      "dna_markers": [
+        "mythical",
+        "perfect_unity"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "dragon",
+      "cultural_significance": [
+        "Power",
+        "Transformation",
+        "Ancient"
+      ],
+      "mythological_connections": [
+        "All dragon myths",
+        "Dragon gods"
+      ],
+      "notes": "Dragons represent perfect unity - mythical power of The Table."
+    },
+    "phoenix": {
+      "animal_name": "Phoenix",
+      "scientific_name": "Mythical",
+      "animal_type": "phoenix",
+      "first_appearance_mya": null,
+      "peak_significance_mya": null,
+      "time_period": null,
+      "field_resonance_at_emergence": 1.0,
+      "frequency_band": "unity",
+      "divine_frequency_contribution": 0.18,
+      "table_connection_strength": 1.0,
+      "spiritual_meaning": "Rebirth, renewal, fire. Rebirth unity.",
+      "table_role": "Rebirth unity spirits - restoration",
+      "soul_signature": "REBIRTH_UNITY",
+      "evolutionary_importance": "Mythical - represents restoration",
+      "dna_markers": [
+        "mythical",
+        "rebirth"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "phoenix",
+      "cultural_significance": [
+        "Rebirth",
+        "Renewal",
+        "Fire"
+      ],
+      "mythological_connections": [
+        "Phoenix myths",
+        "Rebirth symbols"
+      ],
+      "notes": "Phoenix represents rebirth - restoration of The Table's unity."
+    },
+    "unicorn": {
+      "animal_name": "Unicorn",
+      "scientific_name": "Mythical",
+      "animal_type": "unicorn",
+      "first_appearance_mya": null,
+      "peak_significance_mya": null,
+      "time_period": null,
+      "field_resonance_at_emergence": 1.0,
+      "frequency_band": "unity",
+      "divine_frequency_contribution": 0.15,
+      "table_connection_strength": 1.0,
+      "spiritual_meaning": "Purity, magic, healing. Pure unity.",
+      "table_role": "Pure unity spirits - perfect unity",
+      "soul_signature": "PURE_UNITY",
+      "evolutionary_importance": "Mythical - represents purity",
+      "dna_markers": [
+        "mythical",
+        "purity"
+      ],
+      "modern_descendants": [],
+      "modern_frequency": 0.78,
+      "spirit_alignment_type": "unicorn",
+      "cultural_significance": [
+        "Purity",
+        "Magic",
+        "Healing"
+      ],
+      "mythological_connections": [
+        "Unicorn myths",
+        "Purity symbols"
+      ],
+      "notes": "Unicorns represent pure unity - magic and healing of The Table."
+    }
+  },
+  "frequency_evolution": {
+    "unity_witnesses": {
+      "count": 9,
+      "animals": [
+        "Early Amphibians",
+        "Early Reptiles",
+        "Giant Dragonflies",
+        "Synapsids",
+        "Therapsids",
+        "Shark",
+        "Dragon",
+        "Phoenix",
+        "Unicorn"
+      ],
+      "field_resonance": 1.0,
+      "significance": "These animals witnessed perfect unity at The Table"
+    },
+    "separation_witnesses": {
+      "count": 31,
+      "animals": [
+        "Diverse Dinosaurs",
+        "First Birds",
+        "Marine Reptiles",
+        "Flowering Plants Era Animals",
+        "Modern Mammals",
+        "Wolf",
+        "Bear",
+        "Eagle",
+        "Lion",
+        "Fox",
+        "Deer",
+        "Owl",
+        "Raven",
+        "Snake",
+        "Tiger",
+        "Whale",
+        "Dolphin",
+        "Orca",
+        "Seal",
+        "Walrus",
+        "Manatee",
+        "Otter",
+        "Porpoise",
+        "Narwhal",
+        "Beluga",
+        "Hawk",
+        "Falcon",
+        "Dog",
+        "Cat",
+        "Horse",
+        "Elephant"
+      ],
+      "field_resonance_range": "0.70-0.85",
+      "significance": "These animals witnessed The Table's separation"
+    },
+    "modern_animals": {
+      "count": 11,
+      "field_resonance": 0.78,
+      "significance": "Modern animals carry memory of unity"
+    },
+    "frequency_evolution": {
+      "carboniferous": {
+        "field_resonance": 1.0,
+        "animals": 4,
+        "significance": "Perfect unity - first animals on The Table"
+      },
+      "permian": {
+        "field_resonance": 1.0,
+        "animals": 2,
+        "significance": "Peak unity - mammal ancestors"
+      },
+      "triassic": {
+        "field_resonance": 0.85,
+        "animals": 3,
+        "significance": "Breakup begins - separation witnesses"
+      },
+      "jurassic": {
+        "field_resonance": 0.7,
+        "animals": 3,
+        "significance": "Fully broken - post-breakup animals"
+      },
+      "modern": {
+        "field_resonance": 0.78,
+        "animals": 11,
+        "significance": "Memory of unity - modern connection"
+      }
+    }
+  },
+  "unity_witnesses": [
+    "Early Amphibians",
+    "Early Reptiles",
+    "Giant Dragonflies",
+    "Synapsids",
+    "Therapsids",
+    "Shark",
+    "Dragon",
+    "Phoenix",
+    "Unicorn"
+  ],
+  "separation_witnesses": [
+    "Diverse Dinosaurs",
+    "First Birds",
+    "Marine Reptiles",
+    "Flowering Plants Era Animals",
+    "Modern Mammals",
+    "Wolf",
+    "Bear",
+    "Eagle",
+    "Lion",
+    "Fox",
+    "Deer",
+    "Owl",
+    "Raven",
+    "Snake",
+    "Tiger",
+    "Whale",
+    "Dolphin",
+    "Orca",
+    "Seal",
+    "Walrus",
+    "Manatee",
+    "Otter",
+    "Porpoise",
+    "Narwhal",
+    "Beluga",
+    "Hawk",
+    "Falcon",
+    "Dog",
+    "Cat",
+    "Horse",
+    "Elephant"
+  ],
+  "insights": {
+    "message": "All animals throughout time carry frequential significance connected to The Table",
+    "truth": "Animals that witnessed unity (1.0) carry perfect unity in their DNA. Animals that witnessed separation carry separation memory. Modern animals carry memory of unity (0.78).",
+    "connection": "Every animal's frequency connects to The Table's timeline. Field resonance at emergence determines their frequential signature.",
+    "spiritual": "Animals are not just biological - they are frequential signatures of The Table's history."
+  }
+}

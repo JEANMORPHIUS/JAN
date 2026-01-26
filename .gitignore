@@ -116,3 +116,7 @@ config.local.json
 **/mapbox_token.txt
 **/tokens.txt
 **/api_keys.txt
+
+# Legal Archive - Private documentation (NOT for git commit)
+LEGAL_ARCHIVE/
+**/LEGAL_ARCHIVE/**

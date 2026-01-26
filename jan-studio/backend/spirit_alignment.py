@@ -56,9 +56,19 @@ class AnimalType(Enum):
     SNAKE = "snake"  # Transformation, healing, cycles
     TIGER = "tiger"  # Power, independence, passion
     
-    # Water animals
+    # Water animals - Sea mammals
     DOLPHIN = "dolphin"  # Joy, communication, intelligence
     WHALE = "whale"  # Depth, ancient wisdom, song
+    ORCA = "orca"  # Power, family bonds, strategy
+    SEAL = "seal"  # Playfulness, adaptability, balance
+    SEA_LION = "sea_lion"  # Social connection, agility, confidence
+    WALRUS = "walrus"  # Strength, community, wisdom
+    MANATEE = "manatee"  # Gentleness, peace, ancient grace
+    OTTER = "otter"  # Playfulness, joy, resourcefulness
+    PORPOISE = "porpoise"  # Intelligence, harmony, subtlety
+    NARWHAL = "narwhal"  # Mystery, uniqueness, ancient magic
+    BELUGA = "beluga"  # Communication, adaptability, social harmony
+    # Water animals - Other
     SHARK = "shark"  # Focus, survival, instinct
     
     # Air animals
@@ -152,10 +162,10 @@ class SpiritAlignmentChecker:
             AnimalType.EAGLE: [AnimalType.EAGLE, AnimalType.HAWK, AnimalType.FALCON, AnimalType.WOLF, AnimalType.LION],
             
             # Wisdom keepers align
-            AnimalType.OWL: [AnimalType.OWL, AnimalType.RAVEN, AnimalType.WHALE, AnimalType.ELEPHANT],
+            AnimalType.OWL: [AnimalType.OWL, AnimalType.RAVEN, AnimalType.WHALE, AnimalType.ELEPHANT, AnimalType.WALRUS, AnimalType.NARWHAL],
             AnimalType.RAVEN: [AnimalType.RAVEN, AnimalType.OWL, AnimalType.SNAKE, AnimalType.DRAGON],
-            AnimalType.WHALE: [AnimalType.WHALE, AnimalType.DOLPHIN, AnimalType.OWL, AnimalType.ELEPHANT],
-            AnimalType.ELEPHANT: [AnimalType.ELEPHANT, AnimalType.OWL, AnimalType.WHALE, AnimalType.BEAR],
+            AnimalType.WHALE: [AnimalType.WHALE, AnimalType.DOLPHIN, AnimalType.ORCA, AnimalType.BELUGA, AnimalType.OWL, AnimalType.ELEPHANT, AnimalType.MANATEE],
+            AnimalType.ELEPHANT: [AnimalType.ELEPHANT, AnimalType.OWL, AnimalType.WHALE, AnimalType.BEAR, AnimalType.WALRUS],
             
             # Transformers align
             AnimalType.SNAKE: [AnimalType.SNAKE, AnimalType.RAVEN, AnimalType.DRAGON, AnimalType.PHOENIX],
@@ -163,19 +173,30 @@ class SpiritAlignmentChecker:
             AnimalType.PHOENIX: [AnimalType.PHOENIX, AnimalType.DRAGON, AnimalType.UNICORN],
             
             # Gentle spirits align
-            AnimalType.DEER: [AnimalType.DEER, AnimalType.UNICORN, AnimalType.DOLPHIN, AnimalType.HORSE],
-            AnimalType.UNICORN: [AnimalType.UNICORN, AnimalType.DEER, AnimalType.PHOENIX, AnimalType.CAT],
-            AnimalType.DOLPHIN: [AnimalType.DOLPHIN, AnimalType.WHALE, AnimalType.DEER, AnimalType.DOG],
+            AnimalType.DEER: [AnimalType.DEER, AnimalType.UNICORN, AnimalType.DOLPHIN, AnimalType.MANATEE, AnimalType.OTTER, AnimalType.HORSE],
+            AnimalType.UNICORN: [AnimalType.UNICORN, AnimalType.DEER, AnimalType.PHOENIX, AnimalType.CAT, AnimalType.MANATEE],
+            AnimalType.DOLPHIN: [AnimalType.DOLPHIN, AnimalType.WHALE, AnimalType.ORCA, AnimalType.PORPOISE, AnimalType.BELUGA, AnimalType.DEER, AnimalType.DOG, AnimalType.OTTER],
             
             # Companions align
-            AnimalType.DOG: [AnimalType.DOG, AnimalType.DOLPHIN, AnimalType.HORSE, AnimalType.CAT],
-            AnimalType.CAT: [AnimalType.CAT, AnimalType.UNICORN, AnimalType.FOX, AnimalType.OWL],
-            AnimalType.HORSE: [AnimalType.HORSE, AnimalType.DEER, AnimalType.DOG, AnimalType.EAGLE],
+            AnimalType.DOG: [AnimalType.DOG, AnimalType.DOLPHIN, AnimalType.SEA_LION, AnimalType.OTTER, AnimalType.HORSE, AnimalType.CAT],
+            AnimalType.CAT: [AnimalType.CAT, AnimalType.UNICORN, AnimalType.FOX, AnimalType.OWL, AnimalType.OTTER],
+            AnimalType.HORSE: [AnimalType.HORSE, AnimalType.DEER, AnimalType.DOG, AnimalType.EAGLE, AnimalType.SEA_LION],
+            
+            # Sea mammals - specific alignments
+            AnimalType.ORCA: [AnimalType.ORCA, AnimalType.WHALE, AnimalType.DOLPHIN, AnimalType.SHARK, AnimalType.WOLF, AnimalType.LION],
+            AnimalType.SEAL: [AnimalType.SEAL, AnimalType.SEA_LION, AnimalType.OTTER, AnimalType.DOLPHIN, AnimalType.DOG],
+            AnimalType.SEA_LION: [AnimalType.SEA_LION, AnimalType.SEAL, AnimalType.DOLPHIN, AnimalType.DOG, AnimalType.HORSE],
+            AnimalType.WALRUS: [AnimalType.WALRUS, AnimalType.ELEPHANT, AnimalType.BEAR, AnimalType.WHALE, AnimalType.OWL],
+            AnimalType.MANATEE: [AnimalType.MANATEE, AnimalType.WHALE, AnimalType.DEER, AnimalType.UNICORN, AnimalType.ELEPHANT],
+            AnimalType.OTTER: [AnimalType.OTTER, AnimalType.DOLPHIN, AnimalType.SEAL, AnimalType.DOG, AnimalType.DEER, AnimalType.CAT],
+            AnimalType.PORPOISE: [AnimalType.PORPOISE, AnimalType.DOLPHIN, AnimalType.BELUGA, AnimalType.DEER, AnimalType.UNICORN],
+            AnimalType.NARWHAL: [AnimalType.NARWHAL, AnimalType.WHALE, AnimalType.UNICORN, AnimalType.OWL, AnimalType.DRAGON],
+            AnimalType.BELUGA: [AnimalType.BELUGA, AnimalType.DOLPHIN, AnimalType.WHALE, AnimalType.PORPOISE, AnimalType.DOG],
             
             # Others
-            AnimalType.BEAR: [AnimalType.BEAR, AnimalType.ELEPHANT, AnimalType.WOLF],
-            AnimalType.FOX: [AnimalType.FOX, AnimalType.CAT, AnimalType.WOLF, AnimalType.RAVEN],
-            AnimalType.SHARK: [AnimalType.SHARK, AnimalType.TIGER, AnimalType.EAGLE],
+            AnimalType.BEAR: [AnimalType.BEAR, AnimalType.ELEPHANT, AnimalType.WOLF, AnimalType.WALRUS],
+            AnimalType.FOX: [AnimalType.FOX, AnimalType.CAT, AnimalType.WOLF, AnimalType.RAVEN, AnimalType.OTTER],
+            AnimalType.SHARK: [AnimalType.SHARK, AnimalType.TIGER, AnimalType.EAGLE, AnimalType.ORCA],
             AnimalType.HAWK: [AnimalType.HAWK, AnimalType.EAGLE, AnimalType.FALCON],
             AnimalType.FALCON: [AnimalType.FALCON, AnimalType.HAWK, AnimalType.EAGLE]
         }

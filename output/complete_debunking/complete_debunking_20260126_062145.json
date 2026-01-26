@@ -1,0 +1,328 @@
+{
+  "analysis_timestamp": "2026-01-26T06:21:45.993878",
+  "dark_energy_analysis": {
+    "total_narratives": 3,
+    "total_systems": 3,
+    "total_manifestations": 3,
+    "narrative_impact": -2.4,
+    "system_impact": -2.7,
+    "manifestation_impact": -2.8,
+    "total_dark_energy_impact": -7.8999999999999995,
+    "by_type": {
+      "exploitation": {
+        "narratives": 0,
+        "systems": 1,
+        "manifestations": 1,
+        "total_impact": -1.9
+      },
+      "extraction": {
+        "narratives": 0,
+        "systems": 3,
+        "manifestations": 0,
+        "total_impact": -2.7
+      },
+      "control": {
+        "narratives": 0,
+        "systems": 1,
+        "manifestations": 0,
+        "total_impact": -0.9
+      },
+      "fear": {
+        "narratives": 0,
+        "systems": 1,
+        "manifestations": 1,
+        "total_impact": -1.75
+      },
+      "division": {
+        "narratives": 1,
+        "systems": 0,
+        "manifestations": 1,
+        "total_impact": -1.85
+      },
+      "scarcity": {
+        "narratives": 1,
+        "systems": 2,
+        "manifestations": 0,
+        "total_impact": -2.55
+      },
+      "profit_over_people": {
+        "narratives": 1,
+        "systems": 1,
+        "manifestations": 0,
+        "total_impact": -1.65
+      }
+    }
+  },
+  "contradictory_narratives": {
+    "scarcity_lie": {
+      "category": "scarcity_lie",
+      "dark_energy_type": "scarcity",
+      "the_lie": "Resources are scarce. We must compete for resources.",
+      "the_truth": "Abundance is the truth. Scarcity is the lie. Energy is abundant (sun, wind, water, Earth).",
+      "frequency_impact": -0.8,
+      "dark_energy_strength": 0.9,
+      "debunking_evidence": [
+        "Energy is abundant (sun, wind, water, Earth)",
+        "Scarcity is manufactured for profit",
+        "Natural abundance exists everywhere"
+      ],
+      "refutation_points": [
+        "Recognize natural abundance",
+        "Reject manufactured scarcity",
+        "Share resources freely",
+        "Build commons"
+      ],
+      "how_to_quell": [
+        "Expose scarcity as manufactured",
+        "Demonstrate natural abundance",
+        "Build resource sharing systems",
+        "Create commons"
+      ]
+    },
+    "profit_necessary": {
+      "category": "profit_necessary",
+      "dark_energy_type": "profit_over_people",
+      "the_lie": "Profit is necessary for economic growth and sustainability.",
+      "the_truth": "People over profit. Stewardship over exploitation. Profit exploits people.",
+      "frequency_impact": -0.7,
+      "dark_energy_strength": 0.85,
+      "debunking_evidence": [
+        "Profit exploits people",
+        "Stewardship serves all",
+        "People-centered economics work"
+      ],
+      "refutation_points": [
+        "Stewardship economy",
+        "People-centered economics",
+        "Service over profit"
+      ],
+      "how_to_quell": [
+        "Expose profit as exploitation",
+        "Demonstrate stewardship models",
+        "Build people-centered systems"
+      ]
+    },
+    "division_natural": {
+      "category": "division_natural",
+      "dark_energy_type": "division",
+      "the_lie": "Division is natural. Social groups naturally divide by differences.",
+      "the_truth": "Unity is the truth. Division is the lie. We are one.",
+      "frequency_impact": -0.9,
+      "dark_energy_strength": 0.95,
+      "debunking_evidence": [
+        "Unity is the truth",
+        "Division serves power",
+        "We are one - no separation can hold"
+      ],
+      "refutation_points": [
+        "Recognize we are one",
+        "Reject division",
+        "Support unity over separation",
+        "Build community power"
+      ],
+      "how_to_quell": [
+        "Expose division as manufactured",
+        "Demonstrate unity",
+        "Build unity systems",
+        "Reject division narratives"
+      ]
+    }
+  },
+  "present_day_systems": {
+    "capitalism": {
+      "category": "capitalism",
+      "dark_energy_types": [
+        "exploitation",
+        "extraction",
+        "profit_over_people"
+      ],
+      "name": "Capitalism",
+      "the_truth": "Capitalism exploits people and Earth. Profit over people. Extraction over stewardship.",
+      "what_it_actually_does": "Extracts from workers and Earth. Concentrates wealth. Creates inequality. Destroys environment.",
+      "frequency_impact": -0.95,
+      "dark_energy_strength": 0.98,
+      "how_to_dismantle": [
+        "End private ownership of means of production",
+        "End profit motive",
+        "End competition",
+        "Build cooperative ownership",
+        "Build stewardship economy"
+      ],
+      "what_must_replace": [
+        "Stewardship economy",
+        "Cooperative ownership",
+        "Resource sharing",
+        "People-centered economics"
+      ]
+    },
+    "consumerism": {
+      "category": "consumerism",
+      "dark_energy_types": [
+        "extraction",
+        "scarcity",
+        "fear"
+      ],
+      "name": "Consumerism",
+      "the_truth": "Consumerism extracts from Earth and people. Creates false needs. Destroys environment.",
+      "what_it_actually_does": "Creates waste. Destroys Earth. Exploits workers. Creates false needs.",
+      "frequency_impact": -0.85,
+      "dark_energy_strength": 0.9,
+      "how_to_dismantle": [
+        "End advertising manipulation",
+        "End planned obsolescence",
+        "End false need creation",
+        "Build sharing systems",
+        "Build repair culture"
+      ],
+      "what_must_replace": [
+        "Stewardship culture",
+        "Sharing systems",
+        "Repair culture",
+        "Needs-based economy"
+      ]
+    },
+    "debt_system": {
+      "category": "debt_system",
+      "dark_energy_types": [
+        "control",
+        "extraction",
+        "scarcity"
+      ],
+      "name": "Debt-Based Money System",
+      "the_truth": "Debt is control. Interest is extraction. Scarcity is manufactured. Freedom, not dependency.",
+      "what_it_actually_does": "Creates debt slavery. Extracts wealth. Manufactures scarcity. Controls people.",
+      "frequency_impact": -0.9,
+      "dark_energy_strength": 0.95,
+      "how_to_dismantle": [
+        "End debt-based money",
+        "End interest",
+        "Debt jubilee",
+        "Create interest-free money",
+        "Build abundance economy"
+      ],
+      "what_must_replace": [
+        "Interest-free money",
+        "Abundance economy",
+        "Debt-free systems",
+        "Resource sharing"
+      ]
+    }
+  },
+  "dark_energy_manifestations": {
+    "exploitation": {
+      "dark_energy_type": "exploitation",
+      "name": "Exploitation",
+      "description": "Using others for personal gain. Extracting from life and Earth.",
+      "frequency_impact": -0.95,
+      "dark_energy_strength": 0.98,
+      "how_to_quell": [
+        "End all exploitation",
+        "Restore stewardship",
+        "Honor dignity",
+        "Build cooperation"
+      ],
+      "light_energy_alternative": "Stewardship. Service. Cooperation. Honor all life."
+    },
+    "fear": {
+      "dark_energy_type": "fear",
+      "name": "Fear",
+      "description": "Fear-based manipulation and control",
+      "frequency_impact": -0.9,
+      "dark_energy_strength": 0.95,
+      "how_to_quell": [
+        "Expose fear as manipulation",
+        "Choose love over fear",
+        "Reject fear narratives",
+        "Build love-based systems"
+      ],
+      "light_energy_alternative": "Love. Courage. Truth. Trust. Love is the highest mastery."
+    },
+    "division": {
+      "dark_energy_type": "division",
+      "name": "Division",
+      "description": "Creating separation between people",
+      "frequency_impact": -0.95,
+      "dark_energy_strength": 0.98,
+      "how_to_quell": [
+        "Expose division as manufactured",
+        "Recognize we are one",
+        "Build unity",
+        "Reject division"
+      ],
+      "light_energy_alternative": "Unity. Oneness. Connection. We are one."
+    }
+  },
+  "all_debunking_actions": {
+    "narrative_actions": [
+      "End scarcity narratives",
+      "Create commons",
+      "Build stewardship economy",
+      "Demonstrate natural abundance",
+      "Demonstrate unity",
+      "Honor oneness",
+      "Expose scarcity as manufactured",
+      "Demonstrate abundance",
+      "Build resource sharing systems",
+      "Reject division narratives",
+      "Demonstrate stewardship models",
+      "End division narratives",
+      "Share resources",
+      "Expose division as manufactured",
+      "Build unity",
+      "Expose profit as exploitation",
+      "Build unity systems",
+      "End profit-over-people",
+      "Build people-centered systems"
+    ],
+    "system_actions": [
+      "Build sharing systems",
+      "Repair culture",
+      "Debt jubilee",
+      "Build stewardship economy",
+      "Sharing systems",
+      "Build repair culture",
+      "People-centered economics",
+      "Create interest-free money",
+      "End profit motive",
+      "Needs-based economy",
+      "Stewardship economy",
+      "Stewardship culture",
+      "Cooperative ownership",
+      "Interest-free money",
+      "Build cooperative ownership",
+      "Build abundance economy",
+      "End competition",
+      "Abundance economy",
+      "End false need creation",
+      "End private ownership of means of production",
+      "End planned obsolescence",
+      "Resource sharing",
+      "End advertising manipulation",
+      "End debt-based money",
+      "Debt-free systems",
+      "End interest"
+    ],
+    "manifestation_actions": [
+      "Build stewardship",
+      "End fear narratives",
+      "End exploitation",
+      "Build trust",
+      "Expose fear as manipulation",
+      "End all exploitation",
+      "Honor oneness",
+      "End division",
+      "Build love-based systems",
+      "Build cooperation",
+      "Honor dignity",
+      "Reject division",
+      "Expose division as manufactured",
+      "Choose love over fear",
+      "Build unity",
+      "Choose love",
+      "Recognize we are one",
+      "Restore stewardship",
+      "Reject fear narratives"
+    ],
+    "total_actions": 60
+  }
+}

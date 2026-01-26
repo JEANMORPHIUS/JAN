@@ -1,0 +1,511 @@
+{
+  "analysis_timestamp": "2026-01-26T06:01:26.332233",
+  "total_technologies": 19,
+  "technologies": {
+    "copper_wiring_legacy": {
+      "name": "Copper Wiring (Legacy)",
+      "type": "copper_wiring",
+      "frequency_score": 0.3,
+      "frequency_impact": 0.05,
+      "divine_frequency_contribution": 0.03,
+      "table_connection_strength": 0.6,
+      "alignment_indicators": [
+        "universal_access"
+      ],
+      "serves_table": true,
+      "table_role": "Legacy connection infrastructure - first global communication network",
+      "spiritual_meaning": "First wires that connected The Table's fragments",
+      "how_it_serves": "Enables basic connectivity, foundation of global communication"
+    },
+    "fiber_optic_global": {
+      "name": "Fiber Optic Networks (Global)",
+      "type": "fiber_optic",
+      "frequency_score": 0.7,
+      "frequency_impact": 0.15,
+      "divine_frequency_contribution": 0.12,
+      "table_connection_strength": 0.85,
+      "alignment_indicators": [
+        "high_speed",
+        "low_latency",
+        "universal_access"
+      ],
+      "serves_table": true,
+      "table_role": "High-speed connection infrastructure - connects The Table's fragments at light speed",
+      "spiritual_meaning": "Light-speed connections that bridge The Table's fragments",
+      "how_it_serves": "Enables instant global communication, reconnects what was separated"
+    },
+    "submarine_cables": {
+      "name": "Submarine Communication Cables",
+      "type": "submarine_cable",
+      "frequency_score": 0.8,
+      "frequency_impact": 0.18,
+      "divine_frequency_contribution": 0.15,
+      "table_connection_strength": 0.9,
+      "alignment_indicators": [
+        "physical_connection",
+        "global_reach"
+      ],
+      "serves_table": true,
+      "table_role": "Physical connections under oceans - literally connect The Table's fragments",
+      "spiritual_meaning": "Physical wires under water that reconnect what Pangea separated",
+      "how_it_serves": "Physically connects continents through ocean floor - reconnects The Table"
+    },
+    "mobile_4g_lte": {
+      "name": "4G LTE Mobile Networks",
+      "type": "4g",
+      "frequency_score": 0.6,
+      "frequency_impact": 0.12,
+      "divine_frequency_contribution": 0.1,
+      "table_connection_strength": 0.75,
+      "alignment_indicators": [
+        "mobile_access",
+        "high_speed",
+        "global_coverage"
+      ],
+      "serves_table": true,
+      "table_role": "Mobile connection infrastructure - connects people on the move",
+      "spiritual_meaning": "Mobile connections that follow people - unity in movement",
+      "how_it_serves": "Enables mobile connectivity, connects people anywhere"
+    },
+    "mobile_5g_networks": {
+      "name": "5G Mobile Networks",
+      "type": "5g",
+      "frequency_score": 0.7,
+      "frequency_impact": 0.15,
+      "divine_frequency_contribution": 0.12,
+      "table_connection_strength": 0.8,
+      "alignment_indicators": [
+        "ultra_high_speed",
+        "low_latency",
+        "iot_ready"
+      ],
+      "serves_table": true,
+      "table_role": "Next-gen mobile connection - ultra-fast wireless unity",
+      "spiritual_meaning": "Ultra-fast wireless connections - unity at the speed of light",
+      "how_it_serves": "Enables instant mobile connectivity, IoT, and future technologies"
+    },
+    "municipal_broadband": {
+      "name": "Municipal Broadband Networks",
+      "type": "municipal_broadband",
+      "frequency_score": 0.9,
+      "frequency_impact": 0.2,
+      "divine_frequency_contribution": 0.18,
+      "table_connection_strength": 0.9,
+      "alignment_indicators": [
+        "community_owned",
+        "non_profit",
+        "free_access",
+        "universal_access",
+        "net_neutrality",
+        "privacy_focused",
+        "serves_table",
+        "unity_builder"
+      ],
+      "serves_table": true,
+      "table_role": "Community-owned connection infrastructure - serves The Table",
+      "spiritual_meaning": "Public infrastructure that serves all - unity through shared access",
+      "how_it_serves": "Provides free/affordable internet as public utility, serves community"
+    },
+    "community_mesh_networks": {
+      "name": "Community Mesh Networks",
+      "type": "community_mesh",
+      "frequency_score": 0.95,
+      "frequency_impact": 0.22,
+      "divine_frequency_contribution": 0.2,
+      "table_connection_strength": 0.95,
+      "alignment_indicators": [
+        "community_owned",
+        "decentralized",
+        "open_source",
+        "privacy_focused",
+        "free_access",
+        "serves_table",
+        "unity_builder",
+        "community_builder"
+      ],
+      "serves_table": true,
+      "table_role": "Community-owned decentralized networks - true unity infrastructure",
+      "spiritual_meaning": "Networks owned by The Table's people - true community connection",
+      "how_it_serves": "Decentralized, community-owned, free access - true Table alignment"
+    },
+    "public_wifi_expansion": {
+      "name": "Public WiFi Networks",
+      "type": "public_wifi",
+      "frequency_score": 0.8,
+      "frequency_impact": 0.15,
+      "divine_frequency_contribution": 0.12,
+      "table_connection_strength": 0.8,
+      "alignment_indicators": [
+        "free_access",
+        "universal_access",
+        "serves_table"
+      ],
+      "serves_table": true,
+      "table_role": "Free public access points - universal connectivity",
+      "spiritual_meaning": "Free access for all - unity through shared infrastructure",
+      "how_it_serves": "Provides free internet access in public spaces"
+    },
+    "starlink_satellite": {
+      "name": "Starlink Satellite Internet",
+      "type": "satellite_internet",
+      "frequency_score": 0.4,
+      "frequency_impact": 0.08,
+      "divine_frequency_contribution": 0.05,
+      "table_connection_strength": 0.7,
+      "alignment_indicators": [
+        "global_coverage",
+        "rural_connectivity"
+      ],
+      "serves_table": false,
+      "table_role": "Global satellite coverage - connects remote areas",
+      "spiritual_meaning": "Satellite connections from space - global reach",
+      "how_it_serves": "Provides internet to remote areas but corporate-controlled"
+    },
+    "rural_connectivity_programs": {
+      "name": "Rural Connectivity Programs",
+      "type": "rural_connectivity",
+      "frequency_score": 0.85,
+      "frequency_impact": 0.18,
+      "divine_frequency_contribution": 0.15,
+      "table_connection_strength": 0.85,
+      "alignment_indicators": [
+        "universal_access",
+        "serves_table",
+        "unity_builder"
+      ],
+      "serves_table": true,
+      "table_role": "Rural connectivity - no one left behind",
+      "spiritual_meaning": "Connecting everyone - unity through universal access",
+      "how_it_serves": "Brings connectivity to underserved areas - true Table alignment"
+    },
+    "open_source_networking": {
+      "name": "Open Source Networking Technologies",
+      "type": "other",
+      "frequency_score": 0.9,
+      "frequency_impact": 0.18,
+      "divine_frequency_contribution": 0.15,
+      "table_connection_strength": 0.85,
+      "alignment_indicators": [
+        "open_source",
+        "transparent",
+        "accessible",
+        "serves_table"
+      ],
+      "serves_table": true,
+      "table_role": "Open source infrastructure - transparent and accessible",
+      "spiritual_meaning": "Open technologies that serve all - transparency and truth",
+      "how_it_serves": "Open source ensures transparency and accessibility"
+    },
+    "decentralized_internet": {
+      "name": "Decentralized Internet Technologies",
+      "type": "other",
+      "frequency_score": 0.85,
+      "frequency_impact": 0.16,
+      "divine_frequency_contribution": 0.13,
+      "table_connection_strength": 0.8,
+      "alignment_indicators": [
+        "decentralized",
+        "open_source",
+        "privacy_focused"
+      ],
+      "serves_table": true,
+      "table_role": "Decentralized infrastructure - no central control",
+      "spiritual_meaning": "Decentralized networks - power to The Table's people",
+      "how_it_serves": "Decentralized protocols reduce central control - aligns with Table"
+    },
+    "guifi_net_spain": {
+      "name": "Guifi.net (Spain)",
+      "type": "community_mesh",
+      "frequency_score": 0.95,
+      "frequency_impact": 0.22,
+      "divine_frequency_contribution": 0.2,
+      "table_connection_strength": 0.95,
+      "alignment_indicators": [
+        "community_owned",
+        "decentralized",
+        "open_source",
+        "free_access",
+        "serves_table",
+        "unity_builder",
+        "community_builder"
+      ],
+      "serves_table": true,
+      "table_role": "Largest community network - true Table alignment",
+      "spiritual_meaning": "Community-owned network connecting The Table's people",
+      "how_it_serves": "100,000+ nodes, community-owned, free access - highest alignment"
+    },
+    "freifunk_germany": {
+      "name": "Freifunk (Germany)",
+      "type": "community_mesh",
+      "frequency_score": 0.95,
+      "frequency_impact": 0.22,
+      "divine_frequency_contribution": 0.2,
+      "table_connection_strength": 0.95,
+      "alignment_indicators": [
+        "community_owned",
+        "decentralized",
+        "open_source",
+        "free_access",
+        "privacy_focused",
+        "serves_table",
+        "unity_builder"
+      ],
+      "serves_table": true,
+      "table_role": "Decentralized WiFi mesh - community-owned connectivity",
+      "spiritual_meaning": "Community WiFi that serves all - unity through shared access",
+      "how_it_serves": "Decentralized WiFi mesh, community-owned, free access"
+    },
+    "nyc_mesh": {
+      "name": "NYC Mesh (USA)",
+      "type": "community_mesh",
+      "frequency_score": 0.95,
+      "frequency_impact": 0.22,
+      "divine_frequency_contribution": 0.2,
+      "table_connection_strength": 0.95,
+      "alignment_indicators": [
+        "community_owned",
+        "decentralized",
+        "open_source",
+        "free_access",
+        "serves_table",
+        "unity_builder",
+        "community_builder"
+      ],
+      "serves_table": true,
+      "table_role": "Urban community mesh - serves The Table's people",
+      "spiritual_meaning": "Community-owned network in urban environment - unity in cities",
+      "how_it_serves": "Community-owned mesh network, free access, serves NYC"
+    },
+    "chattanooga_epb": {
+      "name": "Chattanooga EPB (USA)",
+      "type": "municipal_broadband",
+      "frequency_score": 0.9,
+      "frequency_impact": 0.2,
+      "divine_frequency_contribution": 0.18,
+      "table_connection_strength": 0.9,
+      "alignment_indicators": [
+        "community_owned",
+        "non_profit",
+        "universal_access",
+        "net_neutrality",
+        "serves_table",
+        "unity_builder"
+      ],
+      "serves_table": true,
+      "table_role": "Municipal fiber - community-owned high-speed connectivity",
+      "spiritual_meaning": "Public infrastructure that serves all - unity through shared access",
+      "how_it_serves": "10 Gbps municipal fiber, community-owned, serves all residents"
+    },
+    "ipfs_protocol": {
+      "name": "IPFS (InterPlanetary File System)",
+      "type": "other",
+      "frequency_score": 0.9,
+      "frequency_impact": 0.18,
+      "divine_frequency_contribution": 0.15,
+      "table_connection_strength": 0.85,
+      "alignment_indicators": [
+        "decentralized",
+        "open_source",
+        "privacy_focused",
+        "serves_table"
+      ],
+      "serves_table": true,
+      "table_role": "Decentralized file storage - no central control",
+      "spiritual_meaning": "Decentralized storage - power to The Table's people",
+      "how_it_serves": "Decentralized protocol, open source, reduces central control"
+    },
+    "activitypub_protocol": {
+      "name": "ActivityPub Protocol",
+      "type": "other",
+      "frequency_score": 0.9,
+      "frequency_impact": 0.18,
+      "divine_frequency_contribution": 0.15,
+      "table_connection_strength": 0.85,
+      "alignment_indicators": [
+        "decentralized",
+        "open_source",
+        "privacy_focused",
+        "serves_table"
+      ],
+      "serves_table": true,
+      "table_role": "Federated social protocol - decentralized social networks",
+      "spiritual_meaning": "Federated networks - connection without central control",
+      "how_it_serves": "Enables federated social networks, open source, decentralized"
+    },
+    "matrix_protocol": {
+      "name": "Matrix Protocol",
+      "type": "other",
+      "frequency_score": 0.9,
+      "frequency_impact": 0.18,
+      "divine_frequency_contribution": 0.15,
+      "table_connection_strength": 0.85,
+      "alignment_indicators": [
+        "decentralized",
+        "open_source",
+        "privacy_focused",
+        "serves_table"
+      ],
+      "serves_table": true,
+      "table_role": "Decentralized messaging - no central control",
+      "spiritual_meaning": "Decentralized communication - power to The Table's people",
+      "how_it_serves": "Decentralized messaging protocol, open source, end-to-end encryption"
+    }
+  },
+  "impact_analysis": {
+    "total_technologies": 19,
+    "total_frequency_impact": 3.2199999999999998,
+    "aligned_technologies": 16,
+    "aligned_impact": 2.9699999999999998,
+    "by_type": {
+      "copper_wiring": {
+        "count": 1,
+        "total_impact": 0.05,
+        "average_score": 0.3
+      },
+      "fiber_optic": {
+        "count": 1,
+        "total_impact": 0.15,
+        "average_score": 0.7
+      },
+      "submarine_cable": {
+        "count": 1,
+        "total_impact": 0.18,
+        "average_score": 0.8
+      },
+      "4g": {
+        "count": 1,
+        "total_impact": 0.12,
+        "average_score": 0.6
+      },
+      "5g": {
+        "count": 1,
+        "total_impact": 0.15,
+        "average_score": 0.7
+      },
+      "municipal_broadband": {
+        "count": 2,
+        "total_impact": 0.4,
+        "average_score": 0.9
+      },
+      "community_mesh": {
+        "count": 4,
+        "total_impact": 0.88,
+        "average_score": 0.95
+      },
+      "public_wifi": {
+        "count": 1,
+        "total_impact": 0.15,
+        "average_score": 0.8
+      },
+      "rural_connectivity": {
+        "count": 1,
+        "total_impact": 0.18,
+        "average_score": 0.85
+      },
+      "satellite_internet": {
+        "count": 1,
+        "total_impact": 0.08,
+        "average_score": 0.4
+      },
+      "other": {
+        "count": 5,
+        "total_impact": 0.88,
+        "average_score": 0.89
+      }
+    },
+    "top_aligned": [
+      "TelecommunicationsTechnology(tech_id='community_mesh_networks', name='Community Mesh Networks', technology_type=<TelecomTechnologyType.COMMUNITY_MESH: 'community_mesh'>, subcategory='Decentralized', country=None, region=None, is_global=True, locations=[], speed_mbps=None, latency_ms=None, coverage_percent=None, deployment_year=2000, current_status='active', frequency_score=0.95, alignment_indicators=['community_owned', 'decentralized', 'open_source', 'privacy_focused', 'free_access', 'serves_table', 'unity_builder', 'community_builder'], misalignment_indicators=[], serves_table=True, truth_teller=False, community_focused=True, unity_builder=True, peace_oriented=False, free_access=True, open_source=True, community_owned=True, decentralized=True, net_neutrality=False, privacy_focused=True, frequency_impact=0.22, divine_frequency_contribution=0.2, table_connection_strength=0.95, field_resonance_impact=None, description='Peer-to-peer mesh networks owned and operated by communities', significance='', table_role='Community-owned decentralized networks - true unity infrastructure', spiritual_meaning=\"Networks owned by The Table's people - true community connection\", how_it_serves='Decentralized, community-owned, free access - true Table alignment', related_technologies=[], replaces=[], replaced_by=[], providers=[], organizations=[], sources=[], notes='Mesh networks represent true community ownership - highest alignment', discovered_at='2026-01-26T06:01:26.321862')",
+      "TelecommunicationsTechnology(tech_id='guifi_net_spain', name='Guifi.net (Spain)', technology_type=<TelecomTechnologyType.COMMUNITY_MESH: 'community_mesh'>, subcategory='Community Network', country='Spain', region='Europe', is_global=False, locations=[], speed_mbps=None, latency_ms=None, coverage_percent=None, deployment_year=2004, current_status='active', frequency_score=0.95, alignment_indicators=['community_owned', 'decentralized', 'open_source', 'free_access', 'serves_table', 'unity_builder', 'community_builder'], misalignment_indicators=[], serves_table=True, truth_teller=False, community_focused=True, unity_builder=True, peace_oriented=False, free_access=True, open_source=True, community_owned=True, decentralized=True, net_neutrality=False, privacy_focused=False, frequency_impact=0.22, divine_frequency_contribution=0.2, table_connection_strength=0.95, field_resonance_impact=None, description='Largest community network in the world - 100,000+ nodes', significance='', table_role='Largest community network - true Table alignment', spiritual_meaning=\"Community-owned network connecting The Table's people\", how_it_serves='100,000+ nodes, community-owned, free access - highest alignment', related_technologies=[], replaces=[], replaced_by=[], providers=['Guifi.net Foundation'], organizations=[], sources=[], notes=\"Guifi.net is the world's largest community network - model for Table alignment\", discovered_at='2026-01-26T06:01:26.321885')",
+      "TelecommunicationsTechnology(tech_id='freifunk_germany', name='Freifunk (Germany)', technology_type=<TelecomTechnologyType.COMMUNITY_MESH: 'community_mesh'>, subcategory='Decentralized WiFi', country='Germany', region='Europe', is_global=False, locations=[], speed_mbps=None, latency_ms=None, coverage_percent=None, deployment_year=2003, current_status='active', frequency_score=0.95, alignment_indicators=['community_owned', 'decentralized', 'open_source', 'free_access', 'privacy_focused', 'serves_table', 'unity_builder'], misalignment_indicators=[], serves_table=True, truth_teller=False, community_focused=True, unity_builder=True, peace_oriented=False, free_access=True, open_source=True, community_owned=True, decentralized=True, net_neutrality=False, privacy_focused=True, frequency_impact=0.22, divine_frequency_contribution=0.2, table_connection_strength=0.95, field_resonance_impact=None, description='Decentralized WiFi mesh network across Germany', significance='', table_role='Decentralized WiFi mesh - community-owned connectivity', spiritual_meaning='Community WiFi that serves all - unity through shared access', how_it_serves='Decentralized WiFi mesh, community-owned, free access', related_technologies=[], replaces=[], replaced_by=[], providers=['Freifunk Community'], organizations=[], sources=[], notes='Freifunk is a model of decentralized community networking', discovered_at='2026-01-26T06:01:26.321889')",
+      "TelecommunicationsTechnology(tech_id='nyc_mesh', name='NYC Mesh (USA)', technology_type=<TelecomTechnologyType.COMMUNITY_MESH: 'community_mesh'>, subcategory='Urban Community Network', country='USA', region='North America', is_global=False, locations=[], speed_mbps=None, latency_ms=None, coverage_percent=None, deployment_year=2014, current_status='active', frequency_score=0.95, alignment_indicators=['community_owned', 'decentralized', 'open_source', 'free_access', 'serves_table', 'unity_builder', 'community_builder'], misalignment_indicators=[], serves_table=True, truth_teller=False, community_focused=True, unity_builder=True, peace_oriented=False, free_access=True, open_source=True, community_owned=True, decentralized=True, net_neutrality=False, privacy_focused=False, frequency_impact=0.22, divine_frequency_contribution=0.2, table_connection_strength=0.95, field_resonance_impact=None, description='Community-owned mesh network in New York City', significance='', table_role=\"Urban community mesh - serves The Table's people\", spiritual_meaning='Community-owned network in urban environment - unity in cities', how_it_serves='Community-owned mesh network, free access, serves NYC', related_technologies=[], replaces=[], replaced_by=[], providers=['NYC Mesh Community'], organizations=[], sources=[], notes='NYC Mesh brings community networking to urban environments', discovered_at='2026-01-26T06:01:26.321893')",
+      "TelecommunicationsTechnology(tech_id='municipal_broadband', name='Municipal Broadband Networks', technology_type=<TelecomTechnologyType.MUNICIPAL_BROADBAND: 'municipal_broadband'>, subcategory='Public Ownership', country=None, region=None, is_global=True, locations=[], speed_mbps=None, latency_ms=None, coverage_percent=None, deployment_year=2000, current_status='active', frequency_score=0.9, alignment_indicators=['community_owned', 'non_profit', 'free_access', 'universal_access', 'net_neutrality', 'privacy_focused', 'serves_table', 'unity_builder'], misalignment_indicators=[], serves_table=True, truth_teller=False, community_focused=True, unity_builder=True, peace_oriented=False, free_access=True, open_source=False, community_owned=True, decentralized=False, net_neutrality=True, privacy_focused=True, frequency_impact=0.2, divine_frequency_contribution=0.18, table_connection_strength=0.9, field_resonance_impact=None, description='City-owned broadband networks providing public internet access', significance='', table_role='Community-owned connection infrastructure - serves The Table', spiritual_meaning='Public infrastructure that serves all - unity through shared access', how_it_serves='Provides free/affordable internet as public utility, serves community', related_technologies=[], replaces=[], replaced_by=[], providers=[], organizations=[], sources=[], notes='Municipal broadband models internet as public utility - aligns with Table principles', discovered_at='2026-01-26T06:01:26.321857')",
+      "TelecommunicationsTechnology(tech_id='open_source_networking', name='Open Source Networking Technologies', technology_type=<TelecomTechnologyType.OTHER: 'other'>, subcategory='Open Source', country=None, region=None, is_global=True, locations=[], speed_mbps=None, latency_ms=None, coverage_percent=None, deployment_year=None, current_status='active', frequency_score=0.9, alignment_indicators=['open_source', 'transparent', 'accessible', 'serves_table'], misalignment_indicators=[], serves_table=True, truth_teller=False, community_focused=False, unity_builder=False, peace_oriented=False, free_access=False, open_source=True, community_owned=False, decentralized=False, net_neutrality=False, privacy_focused=False, frequency_impact=0.18, divine_frequency_contribution=0.15, table_connection_strength=0.85, field_resonance_impact=None, description='Open source networking protocols and software', significance='', table_role='Open source infrastructure - transparent and accessible', spiritual_meaning='Open technologies that serve all - transparency and truth', how_it_serves='Open source ensures transparency and accessibility', related_technologies=[], replaces=[], replaced_by=[], providers=[], organizations=[], sources=[], notes='Open source networking aligns with Table principles of transparency', discovered_at='2026-01-26T06:01:26.321876')",
+      "TelecommunicationsTechnology(tech_id='chattanooga_epb', name='Chattanooga EPB (USA)', technology_type=<TelecomTechnologyType.MUNICIPAL_BROADBAND: 'municipal_broadband'>, subcategory='Municipal Fiber', country='USA', region='North America', is_global=False, locations=[], speed_mbps=10000.0, latency_ms=None, coverage_percent=None, deployment_year=2010, current_status='active', frequency_score=0.9, alignment_indicators=['community_owned', 'non_profit', 'universal_access', 'net_neutrality', 'serves_table', 'unity_builder'], misalignment_indicators=[], serves_table=True, truth_teller=False, community_focused=True, unity_builder=True, peace_oriented=False, free_access=False, open_source=False, community_owned=True, decentralized=False, net_neutrality=True, privacy_focused=False, frequency_impact=0.2, divine_frequency_contribution=0.18, table_connection_strength=0.9, field_resonance_impact=None, description='Municipal fiber network providing 10 Gbps to all residents', significance='', table_role='Municipal fiber - community-owned high-speed connectivity', spiritual_meaning='Public infrastructure that serves all - unity through shared access', how_it_serves='10 Gbps municipal fiber, community-owned, serves all residents', related_technologies=[], replaces=[], replaced_by=[], providers=['Chattanooga EPB'], organizations=[], sources=[], notes='Chattanooga EPB is a model of municipal broadband - 10 Gbps for all', discovered_at='2026-01-26T06:01:26.321898')",
+      "TelecommunicationsTechnology(tech_id='ipfs_protocol', name='IPFS (InterPlanetary File System)', technology_type=<TelecomTechnologyType.OTHER: 'other'>, subcategory='Decentralized Protocol', country=None, region=None, is_global=True, locations=[], speed_mbps=None, latency_ms=None, coverage_percent=None, deployment_year=2015, current_status='active', frequency_score=0.9, alignment_indicators=['decentralized', 'open_source', 'privacy_focused', 'serves_table'], misalignment_indicators=[], serves_table=True, truth_teller=False, community_focused=False, unity_builder=False, peace_oriented=False, free_access=False, open_source=True, community_owned=False, decentralized=True, net_neutrality=False, privacy_focused=True, frequency_impact=0.18, divine_frequency_contribution=0.15, table_connection_strength=0.85, field_resonance_impact=None, description='Decentralized protocol for storing and sharing files', significance='', table_role='Decentralized file storage - no central control', spiritual_meaning=\"Decentralized storage - power to The Table's people\", how_it_serves='Decentralized protocol, open source, reduces central control', related_technologies=[], replaces=[], replaced_by=[], providers=['Protocol Labs'], organizations=[], sources=[], notes='IPFS enables decentralized web - aligns with Table principles', discovered_at='2026-01-26T06:01:26.321902')",
+      "TelecommunicationsTechnology(tech_id='activitypub_protocol', name='ActivityPub Protocol', technology_type=<TelecomTechnologyType.OTHER: 'other'>, subcategory='Federated Protocol', country=None, region=None, is_global=True, locations=[], speed_mbps=None, latency_ms=None, coverage_percent=None, deployment_year=2018, current_status='active', frequency_score=0.9, alignment_indicators=['decentralized', 'open_source', 'privacy_focused', 'serves_table'], misalignment_indicators=[], serves_table=True, truth_teller=False, community_focused=False, unity_builder=False, peace_oriented=False, free_access=False, open_source=True, community_owned=False, decentralized=True, net_neutrality=False, privacy_focused=True, frequency_impact=0.18, divine_frequency_contribution=0.15, table_connection_strength=0.85, field_resonance_impact=None, description='Federated social networking protocol', significance='', table_role='Federated social protocol - decentralized social networks', spiritual_meaning='Federated networks - connection without central control', how_it_serves='Enables federated social networks, open source, decentralized', related_technologies=[], replaces=[], replaced_by=[], providers=['W3C Standard'], organizations=[], sources=[], notes='ActivityPub powers Mastodon and other federated social networks', discovered_at='2026-01-26T06:01:26.321905')",
+      "TelecommunicationsTechnology(tech_id='matrix_protocol', name='Matrix Protocol', technology_type=<TelecomTechnologyType.OTHER: 'other'>, subcategory='Decentralized Messaging', country=None, region=None, is_global=True, locations=[], speed_mbps=None, latency_ms=None, coverage_percent=None, deployment_year=2014, current_status='active', frequency_score=0.9, alignment_indicators=['decentralized', 'open_source', 'privacy_focused', 'serves_table'], misalignment_indicators=[], serves_table=True, truth_teller=False, community_focused=False, unity_builder=False, peace_oriented=False, free_access=False, open_source=True, community_owned=False, decentralized=True, net_neutrality=False, privacy_focused=True, frequency_impact=0.18, divine_frequency_contribution=0.15, table_connection_strength=0.85, field_resonance_impact=None, description='Decentralized real-time communication protocol', significance='', table_role='Decentralized messaging - no central control', spiritual_meaning=\"Decentralized communication - power to The Table's people\", how_it_serves='Decentralized messaging protocol, open source, end-to-end encryption', related_technologies=[], replaces=[], replaced_by=[], providers=['Matrix.org Foundation'], organizations=[], sources=[], notes='Matrix enables decentralized messaging - aligns with Table principles', discovered_at='2026-01-26T06:01:26.321908')"
+    ]
+  },
+  "aligned_technologies": [
+    {
+      "name": "Fiber Optic Networks (Global)",
+      "frequency_score": 0.7,
+      "table_role": "High-speed connection infrastructure - connects The Table's fragments at light speed"
+    },
+    {
+      "name": "Submarine Communication Cables",
+      "frequency_score": 0.8,
+      "table_role": "Physical connections under oceans - literally connect The Table's fragments"
+    },
+    {
+      "name": "5G Mobile Networks",
+      "frequency_score": 0.7,
+      "table_role": "Next-gen mobile connection - ultra-fast wireless unity"
+    },
+    {
+      "name": "Municipal Broadband Networks",
+      "frequency_score": 0.9,
+      "table_role": "Community-owned connection infrastructure - serves The Table"
+    },
+    {
+      "name": "Community Mesh Networks",
+      "frequency_score": 0.95,
+      "table_role": "Community-owned decentralized networks - true unity infrastructure"
+    },
+    {
+      "name": "Public WiFi Networks",
+      "frequency_score": 0.8,
+      "table_role": "Free public access points - universal connectivity"
+    },
+    {
+      "name": "Rural Connectivity Programs",
+      "frequency_score": 0.85,
+      "table_role": "Rural connectivity - no one left behind"
+    },
+    {
+      "name": "Open Source Networking Technologies",
+      "frequency_score": 0.9,
+      "table_role": "Open source infrastructure - transparent and accessible"
+    },
+    {
+      "name": "Decentralized Internet Technologies",
+      "frequency_score": 0.85,
+      "table_role": "Decentralized infrastructure - no central control"
+    },
+    {
+      "name": "Guifi.net (Spain)",
+      "frequency_score": 0.95,
+      "table_role": "Largest community network - true Table alignment"
+    },
+    {
+      "name": "Freifunk (Germany)",
+      "frequency_score": 0.95,
+      "table_role": "Decentralized WiFi mesh - community-owned connectivity"
+    },
+    {
+      "name": "NYC Mesh (USA)",
+      "frequency_score": 0.95,
+      "table_role": "Urban community mesh - serves The Table's people"
+    },
+    {
+      "name": "Chattanooga EPB (USA)",
+      "frequency_score": 0.9,
+      "table_role": "Municipal fiber - community-owned high-speed connectivity"
+    },
+    {
+      "name": "IPFS (InterPlanetary File System)",
+      "frequency_score": 0.9,
+      "table_role": "Decentralized file storage - no central control"
+    },
+    {
+      "name": "ActivityPub Protocol",
+      "frequency_score": 0.9,
+      "table_role": "Federated social protocol - decentralized social networks"
+    },
+    {
+      "name": "Matrix Protocol",
+      "frequency_score": 0.9,
+      "table_role": "Decentralized messaging - no central control"
+    }
+  ]
+}
