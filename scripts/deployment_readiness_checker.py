@@ -185,13 +185,31 @@ class DeploymentReadinessChecker:
                 test_files.extend(list(test_dir.glob("test_*.py")))
                 test_files.extend(list(test_dir.glob("*_test.py")))
         
+        # Check for comprehensive test coverage
+        test_categories = {
+            "framework": any("framework" in f.name.lower() for f in test_files),
+            "apis": any("api" in f.name.lower() for f in test_files),
+            "integration": any("integration" in f.name.lower() for f in test_files),
+            "e2e": any("e2e" in f.name.lower() for f in test_files),
+            "security": any("security" in f.name.lower() for f in test_files)
+        }
+        
         has_tests = len(test_files) > 0
+        comprehensive = sum(test_categories.values()) >= 4  # At least 4 categories
+        
+        # Check for CI/CD
+        cicd_exists = (self.repo_path / ".github" / "workflows" / "test.yml").exists()
+        
+        ready = has_tests and comprehensive and cicd_exists
         
         self.checks["testing"] = {
-            "ready": has_tests,
+            "ready": ready,
             "test_files": len(test_files),
+            "test_categories": test_categories,
+            "comprehensive": comprehensive,
+            "cicd": cicd_exists,
             "test_paths": [str(f.relative_to(self.repo_path)) for f in test_files[:5]],
-            "score": 50.0 if has_tests else 0.0  # Basic scoring
+            "score": 100.0 if ready else (75.0 if comprehensive else (50.0 if has_tests else 0.0))
         }
         
         return self.checks["testing"]
