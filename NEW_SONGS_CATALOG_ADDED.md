@@ -139,5 +139,35 @@
 
 ---
 
+## 🎵 ADDITIONAL SONGS ADDED
+
+### Song 3: Someone on TV
+- **English ID:** `en_020`
+- **Turkish ID:** `tr_017` (Televizyonda Biri)
+- **Artist:** Karasahin (JK)
+- **Tempo:** 105 BPM
+- **Genre:** Mid-tempo Indie Folk Rock
+- **Themes:** emotional, introspective, moody, raw, authentic, modern, atmospheric, melancholic, reflective, evocative
+- **Vocal:** Mellow male vocals, harmonizing with himself in the chorus
+- **Instrumentation:** Clean acoustic guitar strumming, syncopated rhythm, melodic bass guitar, Subtle Rhodes piano accents
+- **Mood:** Lonely but rhythmic, like a long drive at dusk, Bittersweet, reflective, evocative storytelling
+- **Production:** Crisp production, clear vocals
+
+### Song 4: Kıbrıs Bizim Canımız (Cyprus Is Our Soul)
+- **Turkish ID:** `tr_018`
+- **English ID:** `en_021` (Cyprus Is Our Soul)
+- **Artist:** Karasahin (JK)
+- **Genre:** Epic Anatolian Patriotic Ballad, Arabesk, Folk
+- **Tempo:** Mid-slow, ceremonial and steady
+- **Themes:** patriotic, identity, resilience, hope, unity, emotional, ceremonial, historical, proud, mournful, defiant, communal
+- **Vocal:** Deep male vocal with emotional vibrato and dignified restraint
+- **Instrumentation:** davul, mehter snare, bağlama, oud, deep cellos, soaring violins, cinematic brass, powerful male choir
+- **Mood:** Mournful yet proud, rooted in history, resilience, and identity
+- **Emotional Arc:** grief → remembrance → unity → defiant hope
+- **Production:** Cinematic and spacious, with wide stereo strings, deep low-end percussion, and reverbs that feel like open land and memory
+- **Significance:** A song of land, roots, and endurance - timeless, serious, and respectful
+
+---
+
 **Date:** 2026-01-26  
-**Status:** ✅ **SONGS ADDED - BILINGUAL TWINS READY FOR EXPANSION**
+**Status:** ✅ **4 SONGS ADDED - BILINGUAL TWINS READY FOR EXPANSION**
