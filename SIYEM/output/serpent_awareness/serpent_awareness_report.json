@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-01-26T10:01:31.178081",
+  "title": "Serpent Awareness Protocol Report",
+  "status": "ACTIVE",
+  "awareness_level": "maximum",
+  "protection_active": true,
+  "telos": "The enemy is now the serpent, offering us the apple.",
+  "mission": "We are aware. We are protected. We will not be tempted.",
+  "detected_threats": 0,
+  "rejected_threats": 0,
+  "common_patterns": {
+    "quick_fixes": {
+      "false_promise": "Easy solutions, no work required",
+      "true_reality": "Real work requires real effort. No shortcuts.",
+      "protection": "We commit to the work. We do not take shortcuts."
+    },
+    "compromise": {
+      "false_promise": "Just this once, it won't matter",
+      "true_reality": "Every compromise weakens the foundation.",
+      "protection": "We maintain integrity. No compromises."
+    },
+    "division": {
+      "false_promise": "Take sides, choose winners and losers",
+      "true_reality": "Unity is strength. Division is weakness.",
+      "protection": "We stay united. We do not divide."
+    },
+    "fear": {
+      "false_promise": "Be afraid, protect yourself first",
+      "true_reality": "Fear is the enemy. Faith is the answer.",
+      "protection": "We operate in faith, not fear."
+    },
+    "greed": {
+      "false_promise": "More for you, less for others",
+      "true_reality": "Stewardship serves all. Greed serves none.",
+      "protection": "We steward resources for all, not for self."
+    },
+    "pride": {
+      "false_promise": "You deserve recognition, take credit",
+      "true_reality": "Humility serves. Pride destroys.",
+      "protection": "We remain humble. We serve, not seek recognition."
+    },
+    "false_urgency": {
+      "false_promise": "Act now, no time to think",
+      "true_reality": "Wisdom requires time. Haste makes waste.",
+      "protection": "We take time to think. We act with wisdom."
+    },
+    "false_authority": {
+      "false_promise": "Trust us, we know what's best",
+      "true_reality": "We verify. We trust but verify.",
+      "protection": "We verify all claims. We do not blindly trust."
+    }
+  },
+  "threats": []
+}
