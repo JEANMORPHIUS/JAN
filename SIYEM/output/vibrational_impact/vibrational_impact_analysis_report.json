@@ -1,0 +1,399 @@
+{
+  "timestamp": "2026-01-26T13:32:49.084064",
+  "title": "Vibrational Impact Analysis - From N22 6RX",
+  "status": "100% COMPLETE",
+  "origin": {
+    "name": "187 Westbury Avenue, N22 6RX",
+    "postcode": "N22 6RX",
+    "coordinates": {
+      "latitude": 51.597178,
+      "longitude": -0.094006
+    },
+    "location": "Wood Green/Tottenham, North London, Haringey Borough"
+  },
+  "impact_zones": [
+    {
+      "level": "core",
+      "radius_km": 1.0,
+      "radius_miles": 0.62,
+      "coverage_area_km2": 3.14,
+      "coverage_area_miles2": 1.21,
+      "description": "Core vibrational impact - Immediate area",
+      "reachable_locations": [
+        "Wood Green",
+        "Tottenham",
+        "New River"
+      ]
+    },
+    {
+      "level": "strong",
+      "radius_km": 5.0,
+      "radius_miles": 3.11,
+      "coverage_area_km2": 78.54,
+      "coverage_area_miles2": 30.32,
+      "description": "Strong vibrational impact - North London",
+      "reachable_locations": [
+        "Wood Green",
+        "Tottenham",
+        "Haringey",
+        "Enfield",
+        "Lee Navigation",
+        "New River",
+        "Alexandra Palace",
+        "Finsbury Park",
+        "Highgate",
+        "Muswell Hill"
+      ]
+    },
+    {
+      "level": "moderate",
+      "radius_km": 25.0,
+      "radius_miles": 15.53,
+      "coverage_area_km2": 1963.5,
+      "coverage_area_miles2": 758.11,
+      "description": "Moderate vibrational impact - Greater London",
+      "reachable_locations": [
+        "Central London",
+        "River Thames",
+        "Westminster",
+        "City of London",
+        "Camden",
+        "Islington",
+        "Hackney",
+        "Waltham Forest",
+        "Redbridge",
+        "Barking",
+        "Dagenham",
+        "Greenwich",
+        "Lewisham",
+        "Southwark",
+        "Lambeth",
+        "Wandsworth",
+        "Richmond",
+        "Kingston",
+        "Hounslow",
+        "Ealing",
+        "Brent",
+        "Harrow",
+        "Barnet",
+        "Hertfordshire"
+      ]
+    },
+    {
+      "level": "extended",
+      "radius_km": 100.0,
+      "radius_miles": 62.14,
+      "coverage_area_km2": 31415.93,
+      "coverage_area_miles2": 12129.75,
+      "description": "Extended vibrational impact - South East England",
+      "reachable_locations": [
+        "Greater London",
+        "Essex",
+        "Kent",
+        "Surrey",
+        "Hertfordshire",
+        "Buckinghamshire",
+        "Berkshire",
+        "Brighton",
+        "Canterbury",
+        "Dover",
+        "Reading",
+        "Oxford",
+        "Cambridge",
+        "Luton",
+        "Milton Keynes",
+        "North Sea",
+        "English Channel",
+        "Thames Estuary"
+      ]
+    },
+    {
+      "level": "maximum",
+      "radius_km": 500.0,
+      "radius_miles": 310.69,
+      "coverage_area_km2": 785398.16,
+      "coverage_area_miles2": 303243.8,
+      "description": "Maximum vibrational reach - UK and beyond",
+      "reachable_locations": [
+        "Entire UK",
+        "Wales",
+        "Scotland",
+        "Northern Ireland",
+        "Ireland",
+        "France",
+        "Belgium",
+        "Netherlands",
+        "North Sea",
+        "English Channel",
+        "Celtic Sea",
+        "Atlantic Ocean",
+        "Whale migration routes"
+      ]
+    }
+  ],
+  "key_locations": [
+    {
+      "name": "New River - Myddleton Road",
+      "coordinates": {
+        "latitude": 51.6,
+        "longitude": -0.11
+      },
+      "distance_km": 1.15,
+      "impact_received": "strong",
+      "zones": {
+        "core": false,
+        "strong": true,
+        "moderate": true,
+        "extended": true
+      }
+    },
+    {
+      "name": "Alexandra Palace",
+      "coordinates": {
+        "latitude": 51.5947,
+        "longitude": -0.1294
+      },
+      "distance_km": 2.46,
+      "impact_received": "strong",
+      "zones": {
+        "core": false,
+        "strong": true,
+        "moderate": true,
+        "extended": true
+      }
+    },
+    {
+      "name": "Lee Navigation - Tottenham",
+      "coordinates": {
+        "latitude": 51.58,
+        "longitude": -0.05
+      },
+      "distance_km": 3.59,
+      "impact_received": "strong",
+      "zones": {
+        "core": false,
+        "strong": true,
+        "moderate": true,
+        "extended": true
+      }
+    },
+    {
+      "name": "Finsbury Park",
+      "coordinates": {
+        "latitude": 51.5642,
+        "longitude": -0.1065
+      },
+      "distance_km": 3.77,
+      "impact_received": "strong",
+      "zones": {
+        "core": false,
+        "strong": true,
+        "moderate": true,
+        "extended": true
+      }
+    },
+    {
+      "name": "Highgate",
+      "coordinates": {
+        "latitude": 51.5714,
+        "longitude": -0.1447
+      },
+      "distance_km": 4.53,
+      "impact_received": "strong",
+      "zones": {
+        "core": false,
+        "strong": true,
+        "moderate": true,
+        "extended": true
+      }
+    },
+    {
+      "name": "Lee Navigation - Lower Lea Valley",
+      "coordinates": {
+        "latitude": 51.55,
+        "longitude": -0.02
+      },
+      "distance_km": 7.33,
+      "impact_received": "moderate",
+      "zones": {
+        "core": false,
+        "strong": false,
+        "moderate": true,
+        "extended": true
+      }
+    },
+    {
+      "name": "City of London",
+      "coordinates": {
+        "latitude": 51.5155,
+        "longitude": -0.0922
+      },
+      "distance_km": 9.08,
+      "impact_received": "moderate",
+      "zones": {
+        "core": false,
+        "strong": false,
+        "moderate": true,
+        "extended": true
+      }
+    },
+    {
+      "name": "River Thames - Central",
+      "coordinates": {
+        "latitude": 51.5074,
+        "longitude": -0.1278
+      },
+      "distance_km": 10.25,
+      "impact_received": "moderate",
+      "zones": {
+        "core": false,
+        "strong": false,
+        "moderate": true,
+        "extended": true
+      }
+    },
+    {
+      "name": "Westminster",
+      "coordinates": {
+        "latitude": 51.4994,
+        "longitude": -0.1249
+      },
+      "distance_km": 11.08,
+      "impact_received": "moderate",
+      "zones": {
+        "core": false,
+        "strong": false,
+        "moderate": true,
+        "extended": true
+      }
+    },
+    {
+      "name": "Greenwich",
+      "coordinates": {
+        "latitude": 51.4826,
+        "longitude": -0.0077
+      },
+      "distance_km": 14.07,
+      "impact_received": "moderate",
+      "zones": {
+        "core": false,
+        "strong": false,
+        "moderate": true,
+        "extended": true
+      }
+    },
+    {
+      "name": "Cambridge",
+      "coordinates": {
+        "latitude": 52.2053,
+        "longitude": 0.1218
+      },
+      "distance_km": 69.22,
+      "impact_received": "extended",
+      "zones": {
+        "core": false,
+        "strong": false,
+        "moderate": false,
+        "extended": true
+      }
+    },
+    {
+      "name": "Oxford",
+      "coordinates": {
+        "latitude": 51.752,
+        "longitude": -1.2577
+      },
+      "distance_km": 82.07,
+      "impact_received": "extended",
+      "zones": {
+        "core": false,
+        "strong": false,
+        "moderate": false,
+        "extended": true
+      }
+    },
+    {
+      "name": "Brighton",
+      "coordinates": {
+        "latitude": 50.8225,
+        "longitude": -0.1372
+      },
+      "distance_km": 86.19,
+      "impact_received": "extended",
+      "zones": {
+        "core": false,
+        "strong": false,
+        "moderate": false,
+        "extended": true
+      }
+    },
+    {
+      "name": "Canterbury",
+      "coordinates": {
+        "latitude": 51.2802,
+        "longitude": 1.0789
+      },
+      "distance_km": 88.61,
+      "impact_received": "extended",
+      "zones": {
+        "core": false,
+        "strong": false,
+        "moderate": false,
+        "extended": true
+      }
+    },
+    {
+      "name": "Dover",
+      "coordinates": {
+        "latitude": 51.1294,
+        "longitude": 1.3089
+      },
+      "distance_km": 110.42,
+      "impact_received": "maximum",
+      "zones": {
+        "core": false,
+        "strong": false,
+        "moderate": false,
+        "extended": false
+      }
+    },
+    {
+      "name": "English Channel",
+      "coordinates": {
+        "latitude": 50.5,
+        "longitude": -0.5
+      },
+      "distance_km": 125.26,
+      "impact_received": "maximum",
+      "zones": {
+        "core": false,
+        "strong": false,
+        "moderate": false,
+        "extended": false
+      }
+    },
+    {
+      "name": "North Sea",
+      "coordinates": {
+        "latitude": 52.0,
+        "longitude": 2.0
+      },
+      "distance_km": 150.8,
+      "impact_received": "maximum",
+      "zones": {
+        "core": false,
+        "strong": false,
+        "moderate": false,
+        "extended": false
+      }
+    }
+  ],
+  "summary": {
+    "total_coverage_area_km2": 785398.16,
+    "total_coverage_area_miles2": 303243.8,
+    "maximum_reach_km": 500.0,
+    "maximum_reach_miles": 310.69,
+    "locations_analyzed": 17,
+    "whale_migration_routes": "Within maximum reach (500 km)"
+  }
+}
