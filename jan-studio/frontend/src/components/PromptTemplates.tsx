@@ -18,7 +18,7 @@
  * Prompt Templates Component
  */
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 
 interface PromptTemplate {
   name: string;
@@ -75,14 +75,33 @@ interface PromptTemplatesProps {
 export default function PromptTemplates({ persona, onSelect, onClose }: PromptTemplatesProps) {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState('');
+  const [savedTemplates, setSavedTemplates] = useState<PromptTemplate[]>([]);
+  const [showSaveForm, setShowSaveForm] = useState(false);
+  const [newTemplate, setNewTemplate] = useState<Partial<PromptTemplate>>({});
+  
+  // Load saved templates from localStorage
+  useEffect(() => {
+    try {
+      const stored = localStorage.getItem('jan-prompt-templates');
+      if (stored) {
+        setSavedTemplates(JSON.parse(stored));
+      }
+    } catch (err) {
+      console.error('Failed to load saved templates:', err);
+    }
+  }, []);
 
   const categories = useMemo(() => {
     const cats = Array.from(new Set(DEFAULT_TEMPLATES.map(t => t.category)));
     return ['all', ...cats];
   }, []);
 
+  const allTemplates = useMemo(() => {
+    return [...DEFAULT_TEMPLATES, ...savedTemplates];
+  }, [savedTemplates]);
+
   const filteredTemplates = useMemo(() => {
-    let filtered = DEFAULT_TEMPLATES;
+    let filtered = allTemplates;
 
     if (selectedCategory !== 'all') {
       filtered = filtered.filter(t => t.category === selectedCategory);
@@ -97,7 +116,31 @@ export default function PromptTemplates({ persona, onSelect, onClose }: PromptTe
     }
 
     return filtered;
-  }, [selectedCategory, searchQuery]);
+  }, [allTemplates, selectedCategory, searchQuery]);
+  
+  const saveTemplate = () => {
+    if (!newTemplate.name || !newTemplate.content) return;
+    
+    const template: PromptTemplate = {
+      name: newTemplate.name,
+      description: newTemplate.description || '',
+      content: newTemplate.content,
+      variables: newTemplate.variables,
+      category: newTemplate.category || 'story',
+    };
+    
+    const updated = [...savedTemplates, template];
+    setSavedTemplates(updated);
+    localStorage.setItem('jan-prompt-templates', JSON.stringify(updated));
+    setShowSaveForm(false);
+    setNewTemplate({});
+  };
+  
+  const deleteTemplate = (name: string) => {
+    const updated = savedTemplates.filter(t => t.name !== name);
+    setSavedTemplates(updated);
+    localStorage.setItem('jan-prompt-templates', JSON.stringify(updated));
+  };
 
   const processTemplate = (template: PromptTemplate): string => {
     let content = template.content;
@@ -114,16 +157,92 @@ export default function PromptTemplates({ persona, onSelect, onClose }: PromptTe
     <div className="card" style={{ maxHeight: '600px', overflowY: 'auto' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
         <h2>Prompt Templates</h2>
-        {onClose && (
+        <div style={{ display: 'flex', gap: '0.5rem' }}>
           <button
             className="button"
-            onClick={onClose}
-            aria-label="Close templates"
+            onClick={() => setShowSaveForm(!showSaveForm)}
+            style={{ padding: '0.5rem 1rem', fontSize: '0.875rem' }}
+            aria-label="Save new template"
           >
-            Close
+            + Save Template
           </button>
-        )}
+          {onClose && (
+            <button
+              className="button"
+              onClick={onClose}
+              aria-label="Close templates"
+            >
+              Close
+            </button>
+          )}
+        </div>
       </div>
+      
+      {showSaveForm && (
+        <div className="card" style={{ marginBottom: '1rem', padding: '1rem' }}>
+          <h3 style={{ marginTop: 0, marginBottom: '1rem' }}>Save New Template</h3>
+          <input
+            type="text"
+            className="input"
+            placeholder="Template name"
+            value={newTemplate.name || ''}
+            onChange={(e) => setNewTemplate({ ...newTemplate, name: e.target.value })}
+            style={{ marginBottom: '0.5rem' }}
+            aria-label="Template name"
+          />
+          <input
+            type="text"
+            className="input"
+            placeholder="Description"
+            value={newTemplate.description || ''}
+            onChange={(e) => setNewTemplate({ ...newTemplate, description: e.target.value })}
+            style={{ marginBottom: '0.5rem' }}
+            aria-label="Template description"
+          />
+          <textarea
+            className="textarea"
+            placeholder="Template content (use {{variable}} for variables)"
+            value={newTemplate.content || ''}
+            onChange={(e) => setNewTemplate({ ...newTemplate, content: e.target.value })}
+            style={{ minHeight: '150px', marginBottom: '0.5rem' }}
+            aria-label="Template content"
+          />
+          <select
+            className="input"
+            value={newTemplate.category || 'story'}
+            onChange={(e) => setNewTemplate({ ...newTemplate, category: e.target.value as any })}
+            style={{ marginBottom: '0.5rem' }}
+            aria-label="Template category"
+          >
+            <option value="story">Story</option>
+            <option value="lyric">Lyric</option>
+            <option value="educational">Educational</option>
+            <option value="reflection">Reflection</option>
+            <option value="question">Question</option>
+          </select>
+          <div style={{ display: 'flex', gap: '0.5rem' }}>
+            <button
+              className="button"
+              onClick={saveTemplate}
+              disabled={!newTemplate.name || !newTemplate.content}
+              aria-label="Save template"
+            >
+              Save
+            </button>
+            <button
+              className="button"
+              onClick={() => {
+                setShowSaveForm(false);
+                setNewTemplate({});
+              }}
+              style={{ backgroundColor: '#666' }}
+              aria-label="Cancel"
+            >
+              Cancel
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Search */}
       <input
@@ -186,7 +305,7 @@ export default function PromptTemplates({ persona, onSelect, onClose }: PromptTe
             aria-label={`Select template: ${template.name}`}
           >
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'start', marginBottom: '0.5rem' }}>
-              <div>
+              <div style={{ flex: 1 }}>
                 <h3 style={{ margin: 0, marginBottom: '0.25rem', fontSize: '1rem' }}>
                   {template.name}
                 </h3>
@@ -194,18 +313,40 @@ export default function PromptTemplates({ persona, onSelect, onClose }: PromptTe
                   {template.description}
                 </p>
               </div>
-              <span
-                style={{
-                  padding: '0.25rem 0.5rem',
-                  backgroundColor: '#1a1a2a',
-                  border: '1px solid #444',
-                  borderRadius: '4px',
-                  fontSize: '0.75rem',
-                  textTransform: 'capitalize',
-                }}
-              >
-                {template.category}
-              </span>
+              <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
+                <span
+                  style={{
+                    padding: '0.25rem 0.5rem',
+                    backgroundColor: '#1a1a2a',
+                    border: '1px solid #444',
+                    borderRadius: '4px',
+                    fontSize: '0.75rem',
+                    textTransform: 'capitalize',
+                  }}
+                >
+                  {template.category}
+                </span>
+                {savedTemplates.some(t => t.name === template.name) && (
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      deleteTemplate(template.name);
+                    }}
+                    style={{
+                      padding: '0.25rem 0.5rem',
+                      backgroundColor: '#d32f2f',
+                      border: 'none',
+                      borderRadius: '4px',
+                      color: 'white',
+                      fontSize: '0.75rem',
+                      cursor: 'pointer',
+                    }}
+                    aria-label={`Delete template ${template.name}`}
+                  >
+                    Delete
+                  </button>
+                )}
+              </div>
             </div>
             <div
               style={{

@@ -98,6 +98,7 @@ export default function PersonaEditor({ personaName, onSave }: PersonaEditorProp
           className="input"
           value={selectedFile || ''}
           onChange={(e) => setSelectedFile(e.target.value)}
+          aria-label="Select file to edit"
           style={{ fontFamily: 'monospace' }}
         >
           <option value="">Select a file...</option>
@@ -119,6 +120,7 @@ export default function PersonaEditor({ personaName, onSave }: PersonaEditorProp
               onChange={(e) => setContent(e.target.value)}
               placeholder="File content..."
               style={{ minHeight: '400px' }}
+              aria-label={`Edit ${selectedFile} content`}
             />
           </div>
 
@@ -127,12 +129,18 @@ export default function PersonaEditor({ personaName, onSave }: PersonaEditorProp
               className="button"
               onClick={handleSave}
               disabled={saving}
+              aria-label="Save file"
+              aria-busy={saving}
             >
               {saving ? 'Saving...' : 'Save File'}
             </button>
 
             {message && (
-              <span className={message.type === 'success' ? 'success' : 'error'}>
+              <span 
+                className={message.type === 'success' ? 'success' : 'error'}
+                role="alert"
+                aria-live={message.type === 'error' ? 'assertive' : 'polite'}
+              >
                 {message.text}
               </span>
             )}
@@ -140,7 +148,11 @@ export default function PersonaEditor({ personaName, onSave }: PersonaEditorProp
         </>
       )}
 
-      {loading && <div className="loading">Loading...</div>}
+      {loading && (
+        <div className="loading" aria-live="polite" aria-busy="true">
+          Loading...
+        </div>
+      )}
     </div>
   );
 }

@@ -92,7 +92,9 @@ export default function RuleEditor({ personaName, fileType }: RuleEditorProps) {
   if (loading) {
     return (
       <div className="card">
-        <div className="loading">Loading editor...</div>
+        <div className="loading" aria-live="polite" aria-busy="true">
+          Loading editor...
+        </div>
       </div>
     );
   }
@@ -107,13 +109,20 @@ export default function RuleEditor({ personaName, fileType }: RuleEditorProps) {
           className="button"
           onClick={handleSave}
           disabled={saving}
+          aria-label={`Save ${fileType}`}
+          aria-busy={saving}
         >
           {saving ? 'Saving...' : 'Save'}
         </button>
       </div>
 
       {message && (
-        <div className={message.type === 'success' ? 'success' : 'error'} style={{ marginBottom: '1rem' }}>
+        <div 
+          className={message.type === 'success' ? 'success' : 'error'} 
+          style={{ marginBottom: '1rem' }}
+          role="alert"
+          aria-live={message.type === 'error' ? 'assertive' : 'polite'}
+        >
           {message.text}
         </div>
       )}

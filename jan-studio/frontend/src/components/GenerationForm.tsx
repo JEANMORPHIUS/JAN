@@ -189,7 +189,7 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
       <h2>Generate Content</h2>
 
       {error && (
-        <div className="error" style={{ marginBottom: '1rem' }}>
+        <div className="error" style={{ marginBottom: '1rem' }} role="alert" aria-live="assertive">
           {error}
         </div>
       )}
@@ -203,6 +203,8 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
           value={formData.persona}
           onChange={(e) => setFormData({ ...formData, persona: e.target.value })}
           disabled={loading}
+          aria-label="Select persona"
+          aria-required="true"
         >
           <option value="">Select a persona...</option>
           {personas.map((persona) => (
@@ -222,6 +224,16 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
             <div
               key={type.value}
               onClick={() => !loading && setFormData({ ...formData, output_type: type.value })}
+              role="button"
+              tabIndex={loading ? -1 : 0}
+              aria-label={`Select ${type.label} output type`}
+              aria-pressed={formData.output_type === type.value}
+              onKeyDown={(e) => {
+                if ((e.key === 'Enter' || e.key === ' ') && !loading) {
+                  e.preventDefault();
+                  setFormData({ ...formData, output_type: type.value });
+                }
+              }}
               style={{
                 padding: '0.75rem',
                 border: formData.output_type === type.value ? '2px solid #0070f3' : '1px solid #333',
@@ -230,6 +242,14 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
                 backgroundColor: formData.output_type === type.value ? '#1a1a1a' : '#0a0a0a',
                 opacity: loading ? 0.5 : 1,
                 transition: 'all 0.2s',
+                outline: '2px solid transparent',
+                outlineOffset: '2px',
+              }}
+              onFocus={(e) => {
+                e.currentTarget.style.outline = '2px solid #0070f3';
+              }}
+              onBlur={(e) => {
+                e.currentTarget.style.outline = '2px solid transparent';
               }}
             >
               <div style={{ fontWeight: 600, marginBottom: '0.25rem', fontSize: '0.875rem' }}>
@@ -279,25 +299,34 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
           disabled={loading}
           style={{ minHeight: '200px', fontFamily: 'inherit' }}
           aria-label="Prompt input"
+          aria-required="true"
+          aria-describedby="prompt-char-count"
         />
-        <div style={{ fontSize: '0.75rem', color: '#666', marginTop: '0.25rem' }}>
+        <div id="prompt-char-count" style={{ fontSize: '0.75rem', color: '#666', marginTop: '0.25rem' }} aria-live="polite">
           {formData.prompt.length} characters
         </div>
       </div>
 
       {loading && (
-        <div style={{ marginBottom: '1rem' }}>
+        <div style={{ marginBottom: '1rem' }} aria-live="polite" aria-busy="true">
           <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
             <span className="loading">Generating...</span>
             <span style={{ fontSize: '0.875rem', color: '#999' }}>{progress}%</span>
           </div>
-          <div style={{
-            width: '100%',
-            height: '8px',
-            backgroundColor: '#333',
-            borderRadius: '4px',
-            overflow: 'hidden',
-          }}>
+          <div 
+            role="progressbar"
+            aria-valuenow={progress}
+            aria-valuemin={0}
+            aria-valuemax={100}
+            aria-label="Generation progress"
+            style={{
+              width: '100%',
+              height: '8px',
+              backgroundColor: '#333',
+              borderRadius: '4px',
+              overflow: 'hidden',
+            }}
+          >
             <div style={{
               width: `${progress}%`,
               height: '100%',
