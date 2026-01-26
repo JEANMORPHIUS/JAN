@@ -23,14 +23,17 @@ import '../styles/mobile.css';
 import { AuthProvider } from '../contexts/AuthContext';
 import CursorFix from '../components/CursorFix';
 import { QueryProvider } from '../providers/QueryProvider';
+import { I18nProvider } from '../contexts/I18nContext';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <QueryProvider>
-      <AuthProvider>
-        <CursorFix />
-        <Component {...pageProps} />
-      </AuthProvider>
+      <I18nProvider>
+        <AuthProvider>
+          <CursorFix />
+          <Component {...pageProps} />
+        </AuthProvider>
+      </I18nProvider>
     </QueryProvider>
   );
 }

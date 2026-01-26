@@ -44,6 +44,8 @@ import { useKeyboardShortcuts } from '@/hooks/useKeyboardShortcuts';
 import { isOnline, offlineQueue } from '@/utils/errorHandling';
 import LoadingState from '@/components/LoadingState';
 import { useSkipLink } from '@/hooks/useFocusManagement';
+import { useI18n } from '@/contexts/I18nContext';
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 // Lazy load heavy components for better performance
 const TemplateBrowser = lazy(() => import('@/components/TemplateBrowser'));
@@ -67,6 +69,7 @@ export default function Home() {
   const [showSearch, setShowSearch] = useState(false);
   const [isOnlineState, setIsOnlineState] = useState(true);
   const [initialLoading, setInitialLoading] = useState(true);
+  const { t } = useI18n();
   
   // Skip link for accessibility
   useSkipLink('main-content', 'Skip to main content');
@@ -211,9 +214,10 @@ export default function Home() {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div>
             <h1>JAN Studio</h1>
-            <p>Creation Centre - Create and manage JAN personas</p>
+            <p>{t('creation_centre')} - {t('create_and_manage_personas')}</p>
           </div>
-          <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', maxWidth: '500px', width: '100%' }}>
+          <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', maxWidth: '600px', width: '100%', flexWrap: 'wrap' }}>
+            <LanguageSwitcher />
             <BackendStatus />
             {showSearch ? (
               <GlobalSearch
@@ -233,10 +237,11 @@ export default function Home() {
                   fontSize: '0.875rem',
                   flex: 1,
                   textAlign: 'left',
+                  minWidth: '200px',
                 }}
-                aria-label="Open search"
+                aria-label={t('search')}
               >
-                🔍 Search... (Ctrl+K)
+                🔍 {t('search')}... (Ctrl+K)
               </button>
             )}
           </div>
@@ -263,11 +268,11 @@ export default function Home() {
                 fontSize: '0.875rem',
                 fontWeight: viewMode === 'personas' ? 600 : 400,
               }}
-              aria-label="View personas"
+              aria-label={t('view_personas')}
               aria-pressed={viewMode === 'personas'}
               role="tab"
             >
-              Personas
+              {t('personas')}
             </button>
             <button
               onClick={() => setViewMode('generate')}
@@ -282,11 +287,11 @@ export default function Home() {
                 fontSize: '0.875rem',
                 fontWeight: viewMode === 'generate' ? 600 : 400,
               }}
-              aria-label="Generate content"
+              aria-label={t('generate_content')}
               aria-pressed={viewMode === 'generate'}
               role="tab"
             >
-              Generate Content
+              {t('generate_content')}
             </button>
             <button
               onClick={() => {
@@ -304,11 +309,11 @@ export default function Home() {
                 fontSize: '0.875rem',
                 fontWeight: viewMode === 'templates' ? 600 : 400,
               }}
-              aria-label="View templates"
+              aria-label={t('view_templates')}
               aria-pressed={viewMode === 'templates'}
               role="tab"
             >
-              Templates
+              {t('templates')}
             </button>
           </div>
         </div>
