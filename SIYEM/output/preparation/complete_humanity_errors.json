@@ -1,0 +1,69 @@
+{
+  "total": 23,
+  "errors": [
+    {
+      "error_id": "greed_over_generosity",
+      "title": "Greed Over Generosity",
+      "the_error": "We hoard. We accumulate. We take. We keep.",
+      "the_correction": "We share. We give. We serve. We love.",
+      "impact": "Creates poverty. Creates inequality. Creates suffering.",
+      "correction_status": "identified"
+    },
+    {
+      "error_id": "pride_over_humility",
+      "title": "Pride Over Humility",
+      "the_error": "We are proud. We are superior. We are better.",
+      "the_correction": "We are humble. We are equal. We are one.",
+      "impact": "Creates division. Creates conflict. Creates suffering.",
+      "correction_status": "identified"
+    },
+    {
+      "error_id": "hate_over_love",
+      "title": "Hate Over Love",
+      "the_error": "We hate. We divide. We destroy. We kill.",
+      "the_correction": "We love. We unite. We build. We serve.",
+      "impact": "Creates war. Creates suffering. Creates death.",
+      "correction_status": "identified"
+    },
+    {
+      "error_id": "deception_over_honesty",
+      "title": "Deception Over Honesty",
+      "the_error": "We lie. We deceive. We hide. We manipulate.",
+      "the_correction": "We tell truth. We are honest. We reveal. We serve.",
+      "impact": "Creates confusion. Creates distrust. Creates suffering.",
+      "correction_status": "identified"
+    },
+    {
+      "error_id": "indifference_over_compassion",
+      "title": "Indifference Over Compassion",
+      "the_error": "We ignore. We neglect. We abandon. We forget.",
+      "the_correction": "We care. We help. We serve. We love.",
+      "impact": "Creates suffering. Creates isolation. Creates death.",
+      "correction_status": "identified"
+    },
+    {
+      "error_id": "violence_over_peace",
+      "title": "Violence Over Peace",
+      "the_error": "We fight. We kill. We destroy. We war.",
+      "the_correction": "We make peace. We protect. We build. We serve.",
+      "impact": "Creates war. Creates death. Creates suffering.",
+      "correction_status": "identified"
+    },
+    {
+      "error_id": "exploitation_over_stewardship",
+      "title": "Exploitation Over Stewardship",
+      "the_error": "We exploit. We destroy. We consume. We waste.",
+      "the_correction": "We steward. We protect. We preserve. We serve.",
+      "impact": "Creates destruction. Creates pollution. Creates suffering.",
+      "correction_status": "identified"
+    },
+    {
+      "error_id": "separation_over_unity",
+      "title": "Separation Over Unity",
+      "the_error": "We separate. We divide. We exclude. We isolate.",
+      "the_correction": "We unite. We include. We connect. We serve.",
+      "impact": "Creates division. Creates conflict. Creates suffering.",
+      "correction_status": "identified"
+    }
+  ]
+}

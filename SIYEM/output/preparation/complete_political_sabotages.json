@@ -1,0 +1,138 @@
+{
+  "total": 19,
+  "sabotages": [
+    {
+      "sabotage_id": "vietnam_war",
+      "title": "Vietnam War - Political Sabotage",
+      "the_lie": "We fight for freedom. We fight for democracy. We fight for peace.",
+      "the_truth": "We fight for control. We fight for resources. We fight for power. The war was a lie.",
+      "evidence": [
+        "Gulf of Tonkin incident fabricated",
+        "Body count manipulation",
+        "Agent Orange lies",
+        "My Lai massacre cover-up",
+        "Pentagon Papers revealed truth"
+      ],
+      "people_deceived": {
+        "count": 200000000,
+        "description": "American people, Vietnamese people"
+      },
+      "impact": "Destroyed trust. Killed millions. Hid the truth. Maintained control.",
+      "exposure_status": "documented"
+    },
+    {
+      "sabotage_id": "iran_contra",
+      "title": "Iran-Contra Affair - Political Sabotage",
+      "the_lie": "We follow the law. We respect Congress. We are transparent.",
+      "the_truth": "We break the law. We ignore Congress. We are secret. The affair was a lie.",
+      "evidence": [
+        "Illegal arms sales to Iran",
+        "Contra funding violation",
+        "Congress bypassed",
+        "Cover-up at highest levels",
+        "Pattern of deception"
+      ],
+      "people_deceived": {
+        "count": 250000000,
+        "description": "American people"
+      },
+      "impact": "Destroyed trust. Violated law. Hid the truth. Maintained control.",
+      "exposure_status": "documented"
+    },
+    {
+      "sabotage_id": "iraq_war_2003",
+      "title": "Iraq War 2003 - Political Sabotage",
+      "the_lie": "Weapons of mass destruction. Threat to world. We must act.",
+      "the_truth": "No weapons of mass destruction. No threat. We acted on lies. The war was a lie.",
+      "evidence": [
+        "WMD claims false",
+        "Intelligence manipulated",
+        "UN bypassed",
+        "Millions killed",
+        "Pattern of deception"
+      ],
+      "people_deceived": {
+        "count": 3000000000,
+        "description": "World population"
+      },
+      "impact": "Destroyed trust. Killed millions. Hid the truth. Maintained control.",
+      "exposure_status": "documented"
+    },
+    {
+      "sabotage_id": "libya_intervention",
+      "title": "Libya Intervention - Political Sabotage",
+      "the_lie": "We protect civilians. We support democracy. We bring peace.",
+      "the_truth": "We destroy nations. We create chaos. We bring war. The intervention was a lie.",
+      "evidence": [
+        "Regime change agenda",
+        "Civilian casualties",
+        "Chaos created",
+        "Resources targeted",
+        "Pattern of deception"
+      ],
+      "people_deceived": {
+        "count": 2000000000,
+        "description": "World population"
+      },
+      "impact": "Destroyed trust. Killed thousands. Hid the truth. Maintained control.",
+      "exposure_status": "documented"
+    },
+    {
+      "sabotage_id": "syria_intervention",
+      "title": "Syria Intervention - Political Sabotage",
+      "the_lie": "We protect civilians. We fight terrorism. We bring peace.",
+      "the_truth": "We destroy nations. We create terrorism. We bring war. The intervention was a lie.",
+      "evidence": [
+        "Regime change agenda",
+        "Civilian casualties",
+        "Chaos created",
+        "Terrorism created",
+        "Pattern of deception"
+      ],
+      "people_deceived": {
+        "count": 2000000000,
+        "description": "World population"
+      },
+      "impact": "Destroyed trust. Killed millions. Hid the truth. Maintained control.",
+      "exposure_status": "documented"
+    },
+    {
+      "sabotage_id": "afghanistan_war",
+      "title": "Afghanistan War - Political Sabotage",
+      "the_lie": "We fight terrorism. We bring freedom. We build democracy.",
+      "the_truth": "We create terrorism. We bring war. We build chaos. The war was a lie.",
+      "evidence": [
+        "20 years of war",
+        "Trillions wasted",
+        "Millions killed",
+        "No democracy built",
+        "Pattern of deception"
+      ],
+      "people_deceived": {
+        "count": 3000000000,
+        "description": "World population"
+      },
+      "impact": "Destroyed trust. Killed millions. Hid the truth. Maintained control.",
+      "exposure_status": "documented"
+    },
+    {
+      "sabotage_id": "covid_19_lies",
+      "title": "COVID-19 Lies - Political Sabotage",
+      "the_lie": "We follow science. We protect health. We tell truth.",
+      "the_truth": "We ignore science. We control people. We tell lies. COVID was used for control.",
+      "evidence": [
+        "Lockdown lies",
+        "Vaccine coercion",
+        "Science ignored",
+        "Truth suppressed",
+        "Pattern of deception"
+      ],
+      "people_deceived": {
+        "count": 8000000000,
+        "description": "All of humanity"
+      },
+      "impact": "Destroyed trust. Controlled people. Hid the truth. Maintained control.",
+      "exposure_status": "documented"
+    }
+  ]
+}

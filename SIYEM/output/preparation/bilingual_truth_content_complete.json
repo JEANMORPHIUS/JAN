@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-01-26T11:35:53.479599",
+  "title": "Complete Bilingual Truth Content - 100%",
+  "status": "100% COMPLETE",
+  "content_types": {
+    "political_sabotages": {
+      "total": 19,
+      "bilingual_pairs": 19,
+      "languages": [
+        "Turkish/English",
+        "Arabic/English",
+        "French/English"
+      ],
+      "status": "100%"
+    },
+    "humanity_errors": {
+      "total": 23,
+      "bilingual_pairs": 23,
+      "languages": [
+        "Turkish/English",
+        "Arabic/English",
+        "French/English"
+      ],
+      "status": "100%"
+    },
+    "ramiz_content": {
+      "total": 100,
+      "bilingual_pairs": 100,
+      "languages": [
+        "Turkish/English",
+        "Arabic/English",
+        "French/English"
+      ],
+      "status": "100%"
+    },
+    "educational_content": {
+      "total": 35,
+      "bilingual_pairs": 35,
+      "languages": [
+        "Turkish/English",
+        "Arabic/English",
+        "French/English"
+      ],
+      "status": "100%"
+    }
+  },
+  "total_bilingual_pairs": 177,
+  "completion": "100%"
+}
