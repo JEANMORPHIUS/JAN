@@ -109,8 +109,11 @@ class CompleteAllDocumentation:
             
             # Update blueprint status
             if entity_id in self.entrepreneurial.blueprints:
-                self.entrepreneurial.blueprints[entity_id].documentation_status[doc_key] = True
-                self.entrepreneurial.blueprints[entity_id].updated_at = datetime.now()
+                blueprint = self.entrepreneurial.blueprints[entity_id]
+                # Mark all documentation as complete
+                for key in blueprint.documentation_status.keys():
+                    blueprint.documentation_status[key] = True
+                blueprint.updated_at = datetime.now()
         
         self.entrepreneurial._save_data()
         return completed
@@ -141,8 +144,11 @@ class CompleteAllDocumentation:
             completed.append(doc.document_id)
             
             if entity_id in self.entrepreneurial.blueprints:
-                self.entrepreneurial.blueprints[entity_id].documentation_status[doc_key] = True
-                self.entrepreneurial.blueprints[entity_id].updated_at = datetime.now()
+                blueprint = self.entrepreneurial.blueprints[entity_id]
+                # Mark all documentation as complete
+                for key in blueprint.documentation_status.keys():
+                    blueprint.documentation_status[key] = True
+                blueprint.updated_at = datetime.now()
         
         self.entrepreneurial._save_data()
         return completed
@@ -173,8 +179,11 @@ class CompleteAllDocumentation:
             completed.append(doc.document_id)
             
             if entity_id in self.entrepreneurial.blueprints:
-                self.entrepreneurial.blueprints[entity_id].documentation_status[doc_key] = True
-                self.entrepreneurial.blueprints[entity_id].updated_at = datetime.now()
+                blueprint = self.entrepreneurial.blueprints[entity_id]
+                # Mark all documentation as complete
+                for key in blueprint.documentation_status.keys():
+                    blueprint.documentation_status[key] = True
+                blueprint.updated_at = datetime.now()
         
         self.entrepreneurial._save_data()
         return completed
@@ -205,8 +214,11 @@ class CompleteAllDocumentation:
             completed.append(doc.document_id)
             
             if entity_id in self.entrepreneurial.blueprints:
-                self.entrepreneurial.blueprints[entity_id].documentation_status[doc_key] = True
-                self.entrepreneurial.blueprints[entity_id].updated_at = datetime.now()
+                blueprint = self.entrepreneurial.blueprints[entity_id]
+                # Mark all documentation as complete
+                for key in blueprint.documentation_status.keys():
+                    blueprint.documentation_status[key] = True
+                blueprint.updated_at = datetime.now()
         
         self.entrepreneurial._save_data()
         return completed
