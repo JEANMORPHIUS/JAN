@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-01-26T09:16:36.565867",
+  "mission": "Generate all bilingual content for all entities",
+  "summary": {
+    "songs_processed": 15,
+    "scheduled_posts_processed": 941,
+    "bilingual_pairs_created": 956,
+    "entities_processed": [
+      "all_entities"
+    ],
+    "errors": []
+  },
+  "output_location": "s:\\JAN\\SIYEM\\output\\bilingual_content"
+}

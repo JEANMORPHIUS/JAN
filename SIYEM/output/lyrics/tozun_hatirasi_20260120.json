@@ -4,8 +4,16 @@
     "genre_fusion": "turkish_arabesque_rnb",
     "theme": "memory_love_eternal",
     "ottoman_influence": {
-      "metaphors": ["sevda", "hatıra", "nefes", "kalp"],
-      "patterns": ["poetic", "temporal"]
+      "metaphors": [
+        "sevda",
+        "hatıra",
+        "nefes",
+        "kalp"
+      ],
+      "patterns": [
+        "poetic",
+        "temporal"
+      ]
     },
     "bpm": 70,
     "section": null,
@@ -78,6 +86,17 @@
       "community": true,
       "stewardship": true,
       "description": "Eternal love and memory, community bonds, stewardship of relationships"
+    }
+  },
+  "english_lyrics": {
+    "title": "Sound and Emotion",
+    "sections": {
+      "verse_1": [
+        "English lyrics - from emotional seed"
+      ],
+      "chorus": [
+        "Sound is everything"
+      ]
     }
   }
 }

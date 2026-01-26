@@ -4,8 +4,17 @@
     "genre_fusion": "turkish_arabesque_rnb",
     "theme": "destiny_self_reflection",
     "ottoman_influence": {
-      "metaphors": ["kader", "yazı", "alın yazısı", "yol", "gölge"],
-      "patterns": ["poetic", "existential"]
+      "metaphors": [
+        "kader",
+        "yazı",
+        "alın yazısı",
+        "yol",
+        "gölge"
+      ],
+      "patterns": [
+        "poetic",
+        "existential"
+      ]
     },
     "bpm": 80,
     "section": null,
@@ -100,6 +109,17 @@
       "spiritual_battle": true,
       "stewardship": true,
       "description": "Destiny and truth, spiritual alignment, self-stewardship through reflection"
+    }
+  },
+  "english_lyrics": {
+    "title": "Sound and Emotion",
+    "sections": {
+      "verse_1": [
+        "English lyrics - from emotional seed"
+      ],
+      "chorus": [
+        "Sound is everything"
+      ]
     }
   }
 }

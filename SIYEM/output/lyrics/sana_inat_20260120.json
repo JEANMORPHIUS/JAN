@@ -4,8 +4,16 @@
     "genre_fusion": "turkish_arabesque_rnb",
     "theme": "defiance_resilience",
     "ottoman_influence": {
-      "metaphors": ["aşk", "dert", "keder", "yol"],
-      "patterns": ["poetic", "existential"]
+      "metaphors": [
+        "aşk",
+        "dert",
+        "keder",
+        "yol"
+      ],
+      "patterns": [
+        "poetic",
+        "existential"
+      ]
     },
     "bpm": 90,
     "section": null,
@@ -80,6 +88,17 @@
       "spiritual_battle": true,
       "right_spirits": true,
       "description": "Resilience and defiance, self-stewardship, spiritual strength"
+    }
+  },
+  "english_lyrics": {
+    "title": "Sound and Emotion",
+    "sections": {
+      "verse_1": [
+        "English lyrics - from emotional seed"
+      ],
+      "chorus": [
+        "Sound is everything"
+      ]
     }
   }
 }

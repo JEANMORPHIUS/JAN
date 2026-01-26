@@ -4,8 +4,16 @@
     "genre_fusion": "folk_rock",
     "theme": "childhood_growth_truth",
     "ottoman_influence": {
-      "metaphors": ["yol", "hakikat", "yara", "kalp"],
-      "patterns": ["poetic", "existential"]
+      "metaphors": [
+        "yol",
+        "hakikat",
+        "yara",
+        "kalp"
+      ],
+      "patterns": [
+        "poetic",
+        "existential"
+      ]
     },
     "bpm": 75,
     "section": null,
@@ -67,6 +75,17 @@
       "spiritual_battle": true,
       "love": true,
       "description": "Growth through truth, self-stewardship, spiritual healing through love"
+    }
+  },
+  "english_lyrics": {
+    "title": "Sound and Emotion",
+    "sections": {
+      "verse_1": [
+        "English lyrics - from emotional seed"
+      ],
+      "chorus": [
+        "Sound is everything"
+      ]
     }
   }
 }

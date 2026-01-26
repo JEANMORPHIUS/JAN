@@ -1,0 +1,1284 @@
+{
+  "timestamp": "2026-01-26T09:07:51.622232",
+  "mission": "Freely utilizable bilingual aligned educational monetization",
+  "summary": {
+    "total_content_found": 67,
+    "total_bilingual_pairs": 67,
+    "total_frequential_impact": 45.10000000000007,
+    "monetization_ready": 0,
+    "entities_processed": [],
+    "content_types_processed": []
+  },
+  "by_entity": {
+    "karasahin": {
+      "count": 17,
+      "total_impact": 15.100000000000005,
+      "monetization_ready": 0
+    },
+    "siyem": {
+      "count": 50,
+      "total_impact": 30.00000000000003,
+      "monetization_ready": 0
+    }
+  },
+  "by_type": {
+    "song": {
+      "count": 15,
+      "total_impact": 13.500000000000004
+    },
+    "suno_prompt": {
+      "count": 2,
+      "total_impact": 1.6
+    },
+    "system_content": {
+      "count": 50,
+      "total_impact": 30.00000000000003
+    }
+  },
+  "bilingual_pairs": [
+    {
+      "pair_id": "pair_karasahin_lyrics_ayyildiz_anthem_20260125",
+      "original": {
+        "content_id": "karasahin_lyrics_ayyildiz_anthem_20260125",
+        "entity": "karasahin",
+        "title": "ayyildiz_anthem_20260125",
+        "language": "turkish"
+      },
+      "bilingual": {
+        "content_id": "karasahin_lyrics_ayyildiz_anthem_20260125_bilingual_english",
+        "title": "ayyildiz_anthem_20260125 (english)",
+        "language": "english"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.9,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_karasahin_lyrics_corner_resurrection_20260125",
+      "original": {
+        "content_id": "karasahin_lyrics_corner_resurrection_20260125",
+        "entity": "karasahin",
+        "title": "corner_resurrection_20260125",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "karasahin_lyrics_corner_resurrection_20260125_bilingual_turkish",
+        "title": "corner_resurrection_20260125 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.9,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_karasahin_lyrics_duvarinda_deligi_20260120",
+      "original": {
+        "content_id": "karasahin_lyrics_duvarinda_deligi_20260120",
+        "entity": "karasahin",
+        "title": "duvarinda_deligi_20260120",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "karasahin_lyrics_duvarinda_deligi_20260120_bilingual_turkish",
+        "title": "duvarinda_deligi_20260120 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.9,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_karasahin_lyrics_fire_and_ice_20260120",
+      "original": {
+        "content_id": "karasahin_lyrics_fire_and_ice_20260120",
+        "entity": "karasahin",
+        "title": "fire_and_ice_20260120",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "karasahin_lyrics_fire_and_ice_20260120_bilingual_turkish",
+        "title": "fire_and_ice_20260120 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.9,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_karasahin_lyrics_football_anthem_20260120",
+      "original": {
+        "content_id": "karasahin_lyrics_football_anthem_20260120",
+        "entity": "karasahin",
+        "title": "football_anthem_20260120",
+        "language": "turkish"
+      },
+      "bilingual": {
+        "content_id": "karasahin_lyrics_football_anthem_20260120_bilingual_english",
+        "title": "football_anthem_20260120 (english)",
+        "language": "english"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.9,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_karasahin_lyrics_im_in_danger_20260120",
+      "original": {
+        "content_id": "karasahin_lyrics_im_in_danger_20260120",
+        "entity": "karasahin",
+        "title": "im_in_danger_20260120",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "karasahin_lyrics_im_in_danger_20260120_bilingual_turkish",
+        "title": "im_in_danger_20260120 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.9,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_karasahin_lyrics_kafana_takma_20260120",
+      "original": {
+        "content_id": "karasahin_lyrics_kafana_takma_20260120",
+        "entity": "karasahin",
+        "title": "kafana_takma_20260120",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "karasahin_lyrics_kafana_takma_20260120_bilingual_turkish",
+        "title": "kafana_takma_20260120 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.9,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_karasahin_lyrics_kucukken_20260120",
+      "original": {
+        "content_id": "karasahin_lyrics_kucukken_20260120",
+        "entity": "karasahin",
+        "title": "kucukken_20260120",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "karasahin_lyrics_kucukken_20260120_bilingual_turkish",
+        "title": "kucukken_20260120 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.9,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_karasahin_lyrics_midnight_reversal_20260115_164945",
+      "original": {
+        "content_id": "karasahin_lyrics_midnight_reversal_20260115_164945",
+        "entity": "karasahin",
+        "title": "midnight_reversal_20260115_164945",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "karasahin_lyrics_midnight_reversal_20260115_164945_bilingual_turkish",
+        "title": "midnight_reversal_20260115_164945 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.9,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_karasahin_lyrics_nobody_home_20260120",
+      "original": {
+        "content_id": "karasahin_lyrics_nobody_home_20260120",
+        "entity": "karasahin",
+        "title": "nobody_home_20260120",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "karasahin_lyrics_nobody_home_20260120_bilingual_turkish",
+        "title": "nobody_home_20260120 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.9,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_karasahin_lyrics_sana_inat_20260120",
+      "original": {
+        "content_id": "karasahin_lyrics_sana_inat_20260120",
+        "entity": "karasahin",
+        "title": "sana_inat_20260120",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "karasahin_lyrics_sana_inat_20260120_bilingual_turkish",
+        "title": "sana_inat_20260120 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.9,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_karasahin_lyrics_seni_sevmek_20260120",
+      "original": {
+        "content_id": "karasahin_lyrics_seni_sevmek_20260120",
+        "entity": "karasahin",
+        "title": "seni_sevmek_20260120",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "karasahin_lyrics_seni_sevmek_20260120_bilingual_turkish",
+        "title": "seni_sevmek_20260120 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.9,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_karasahin_lyrics_tozun_hatirasi_20260120",
+      "original": {
+        "content_id": "karasahin_lyrics_tozun_hatirasi_20260120",
+        "entity": "karasahin",
+        "title": "tozun_hatirasi_20260120",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "karasahin_lyrics_tozun_hatirasi_20260120_bilingual_turkish",
+        "title": "tozun_hatirasi_20260120 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.9,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_karasahin_lyrics_vibration_for_a_reason_20260125",
+      "original": {
+        "content_id": "karasahin_lyrics_vibration_for_a_reason_20260125",
+        "entity": "karasahin",
+        "title": "vibration_for_a_reason_20260125",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "karasahin_lyrics_vibration_for_a_reason_20260125_bilingual_turkish",
+        "title": "vibration_for_a_reason_20260125 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.9,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_karasahin_lyrics_yazili_20260120",
+      "original": {
+        "content_id": "karasahin_lyrics_yazili_20260120",
+        "entity": "karasahin",
+        "title": "yazili_20260120",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "karasahin_lyrics_yazili_20260120_bilingual_turkish",
+        "title": "yazili_20260120 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.9,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_karasahin_prompt_nobody_home_karasahin_suno_prompt",
+      "original": {
+        "content_id": "karasahin_prompt_nobody_home_karasahin_suno_prompt",
+        "entity": "karasahin",
+        "title": "nobody_home_karasahin_suno_prompt",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "karasahin_prompt_nobody_home_karasahin_suno_prompt_bilingual_turkish",
+        "title": "nobody_home_karasahin_suno_prompt (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.8,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_karasahin_prompt_SUNO_PROMPTS_CATALOGUE",
+      "original": {
+        "content_id": "karasahin_prompt_SUNO_PROMPTS_CATALOGUE",
+        "entity": "karasahin",
+        "title": "SUNO_PROMPTS_CATALOGUE",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "karasahin_prompt_SUNO_PROMPTS_CATALOGUE_bilingual_turkish",
+        "title": "SUNO_PROMPTS_CATALOGUE (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.8,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_codebase_sync_report",
+      "original": {
+        "content_id": "siyem_codebase_sync_report",
+        "entity": "siyem",
+        "title": "codebase_sync_report",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_codebase_sync_report_bilingual_turkish",
+        "title": "codebase_sync_report (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_free_will_data",
+      "original": {
+        "content_id": "siyem_free_will_data",
+        "entity": "siyem",
+        "title": "free_will_data",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_free_will_data_bilingual_turkish",
+        "title": "free_will_data (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_frequency_opportunities",
+      "original": {
+        "content_id": "siyem_frequency_opportunities",
+        "entity": "siyem",
+        "title": "frequency_opportunities",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_frequency_opportunities_bilingual_turkish",
+        "title": "frequency_opportunities (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_hidden_spiritual_alignments",
+      "original": {
+        "content_id": "siyem_hidden_spiritual_alignments",
+        "entity": "siyem",
+        "title": "hidden_spiritual_alignments",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_hidden_spiritual_alignments_bilingual_turkish",
+        "title": "hidden_spiritual_alignments (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_nourishment_hive_plan",
+      "original": {
+        "content_id": "siyem_nourishment_hive_plan",
+        "entity": "siyem",
+        "title": "nourishment_hive_plan",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_nourishment_hive_plan_bilingual_turkish",
+        "title": "nourishment_hive_plan (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_seed_to_movement_phases",
+      "original": {
+        "content_id": "siyem_seed_to_movement_phases",
+        "entity": "siyem",
+        "title": "seed_to_movement_phases",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_seed_to_movement_phases_bilingual_turkish",
+        "title": "seed_to_movement_phases (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_system_health_check",
+      "original": {
+        "content_id": "siyem_system_health_check",
+        "entity": "siyem",
+        "title": "system_health_check",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_system_health_check_bilingual_turkish",
+        "title": "system_health_check (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260119_195258_test_elliptical_001",
+      "original": {
+        "content_id": "siyem_alert_20260119_195258_test_elliptical_001",
+        "entity": "siyem",
+        "title": "alert_20260119_195258_test_elliptical_001",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260119_195258_test_elliptical_001_bilingual_turkish",
+        "title": "alert_20260119_195258_test_elliptical_001 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260119_195258_test_irregular_001",
+      "original": {
+        "content_id": "siyem_alert_20260119_195258_test_irregular_001",
+        "entity": "siyem",
+        "title": "alert_20260119_195258_test_irregular_001",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260119_195258_test_irregular_001_bilingual_turkish",
+        "title": "alert_20260119_195258_test_irregular_001 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260120_201333_SEED_SEED_UN_20260120_201333",
+      "original": {
+        "content_id": "siyem_alert_20260120_201333_SEED_SEED_UN_20260120_201333",
+        "entity": "siyem",
+        "title": "alert_20260120_201333_SEED_SEED_UN_20260120_201333",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260120_201333_SEED_SEED_UN_20260120_201333_bilingual_turkish",
+        "title": "alert_20260120_201333_SEED_SEED_UN_20260120_201333 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260120_203023_SEED_SEED_NASA_20260120_203023",
+      "original": {
+        "content_id": "siyem_alert_20260120_203023_SEED_SEED_NASA_20260120_203023",
+        "entity": "siyem",
+        "title": "alert_20260120_203023_SEED_SEED_NASA_20260120_203023",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260120_203023_SEED_SEED_NASA_20260120_203023_bilingual_turkish",
+        "title": "alert_20260120_203023_SEED_SEED_NASA_20260120_203023 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260120_204229_SEED_SEED_FIFA_20260120_204229",
+      "original": {
+        "content_id": "siyem_alert_20260120_204229_SEED_SEED_FIFA_20260120_204229",
+        "entity": "siyem",
+        "title": "alert_20260120_204229_SEED_SEED_FIFA_20260120_204229",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260120_204229_SEED_SEED_FIFA_20260120_204229_bilingual_turkish",
+        "title": "alert_20260120_204229_SEED_SEED_FIFA_20260120_204229 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260120_205808_SEED_SEED_WORLD_BANK_20260120_205808",
+      "original": {
+        "content_id": "siyem_alert_20260120_205808_SEED_SEED_WORLD_BANK_20260120_205808",
+        "entity": "siyem",
+        "title": "alert_20260120_205808_SEED_SEED_WORLD_BANK_20260120_205808",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260120_205808_SEED_SEED_WORLD_BANK_20260120_205808_bilingual_turkish",
+        "title": "alert_20260120_205808_SEED_SEED_WORLD_BANK_20260120_205808 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260120_205820_SEED_SEED_WORLD_BANK_20260120_205820",
+      "original": {
+        "content_id": "siyem_alert_20260120_205820_SEED_SEED_WORLD_BANK_20260120_205820",
+        "entity": "siyem",
+        "title": "alert_20260120_205820_SEED_SEED_WORLD_BANK_20260120_205820",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260120_205820_SEED_SEED_WORLD_BANK_20260120_205820_bilingual_turkish",
+        "title": "alert_20260120_205820_SEED_SEED_WORLD_BANK_20260120_205820 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260120_205821_SEED_SEED_IMF_20260120_205821",
+      "original": {
+        "content_id": "siyem_alert_20260120_205821_SEED_SEED_IMF_20260120_205821",
+        "entity": "siyem",
+        "title": "alert_20260120_205821_SEED_SEED_IMF_20260120_205821",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260120_205821_SEED_SEED_IMF_20260120_205821_bilingual_turkish",
+        "title": "alert_20260120_205821_SEED_SEED_IMF_20260120_205821 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260120_210342_SEED_SEED_SECONDARY_BUENOS_AIRES_20260120_210341_20260120_210342",
+      "original": {
+        "content_id": "siyem_alert_20260120_210342_SEED_SEED_SECONDARY_BUENOS_AIRES_20260120_210341_20260120_210342",
+        "entity": "siyem",
+        "title": "alert_20260120_210342_SEED_SEED_SECONDARY_BUENOS_AIRES_20260120_210341_20260120_210342",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260120_210342_SEED_SEED_SECONDARY_BUENOS_AIRES_20260120_210341_20260120_210342_bilingual_turkish",
+        "title": "alert_20260120_210342_SEED_SEED_SECONDARY_BUENOS_AIRES_20260120_210341_20260120_210342 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260120_210925_SEED_SEED_SECONDARY_TOKYO_20260120_210925_20260120_210925",
+      "original": {
+        "content_id": "siyem_alert_20260120_210925_SEED_SEED_SECONDARY_TOKYO_20260120_210925_20260120_210925",
+        "entity": "siyem",
+        "title": "alert_20260120_210925_SEED_SEED_SECONDARY_TOKYO_20260120_210925_20260120_210925",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260120_210925_SEED_SEED_SECONDARY_TOKYO_20260120_210925_20260120_210925_bilingual_turkish",
+        "title": "alert_20260120_210925_SEED_SEED_SECONDARY_TOKYO_20260120_210925_20260120_210925 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260120_210926_SEED_SEED_SECONDARY_AUCKLAND_20260120_210925_20260120_210925",
+      "original": {
+        "content_id": "siyem_alert_20260120_210926_SEED_SEED_SECONDARY_AUCKLAND_20260120_210925_20260120_210925",
+        "entity": "siyem",
+        "title": "alert_20260120_210926_SEED_SEED_SECONDARY_AUCKLAND_20260120_210925_20260120_210925",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260120_210926_SEED_SEED_SECONDARY_AUCKLAND_20260120_210925_20260120_210925_bilingual_turkish",
+        "title": "alert_20260120_210926_SEED_SEED_SECONDARY_AUCKLAND_20260120_210925_20260120_210925 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260120_210926_SEED_SEED_SECONDARY_BANGKOK_20260120_210925_20260120_210925",
+      "original": {
+        "content_id": "siyem_alert_20260120_210926_SEED_SEED_SECONDARY_BANGKOK_20260120_210925_20260120_210925",
+        "entity": "siyem",
+        "title": "alert_20260120_210926_SEED_SEED_SECONDARY_BANGKOK_20260120_210925_20260120_210925",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260120_210926_SEED_SEED_SECONDARY_BANGKOK_20260120_210925_20260120_210925_bilingual_turkish",
+        "title": "alert_20260120_210926_SEED_SEED_SECONDARY_BANGKOK_20260120_210925_20260120_210925 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260120_210926_SEED_SEED_SECONDARY_CAIRO_20260120_210925_20260120_210925",
+      "original": {
+        "content_id": "siyem_alert_20260120_210926_SEED_SEED_SECONDARY_CAIRO_20260120_210925_20260120_210925",
+        "entity": "siyem",
+        "title": "alert_20260120_210926_SEED_SEED_SECONDARY_CAIRO_20260120_210925_20260120_210925",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260120_210926_SEED_SEED_SECONDARY_CAIRO_20260120_210925_20260120_210925_bilingual_turkish",
+        "title": "alert_20260120_210926_SEED_SEED_SECONDARY_CAIRO_20260120_210925_20260120_210925 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260120_210926_SEED_SEED_SECONDARY_ROME_20260120_210925_20260120_210925",
+      "original": {
+        "content_id": "siyem_alert_20260120_210926_SEED_SEED_SECONDARY_ROME_20260120_210925_20260120_210925",
+        "entity": "siyem",
+        "title": "alert_20260120_210926_SEED_SEED_SECONDARY_ROME_20260120_210925_20260120_210925",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260120_210926_SEED_SEED_SECONDARY_ROME_20260120_210925_20260120_210925_bilingual_turkish",
+        "title": "alert_20260120_210926_SEED_SEED_SECONDARY_ROME_20260120_210925_20260120_210925 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260120_211533_SEED_SEED_SECONDARY_20260120_211533_7_20260120_211533",
+      "original": {
+        "content_id": "siyem_alert_20260120_211533_SEED_SEED_SECONDARY_20260120_211533_7_20260120_211533",
+        "entity": "siyem",
+        "title": "alert_20260120_211533_SEED_SEED_SECONDARY_20260120_211533_7_20260120_211533",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260120_211533_SEED_SEED_SECONDARY_20260120_211533_7_20260120_211533_bilingual_turkish",
+        "title": "alert_20260120_211533_SEED_SEED_SECONDARY_20260120_211533_7_20260120_211533 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260120_211533_SEED_SEED_SECONDARY_20260120_211533_8_20260120_211533",
+      "original": {
+        "content_id": "siyem_alert_20260120_211533_SEED_SEED_SECONDARY_20260120_211533_8_20260120_211533",
+        "entity": "siyem",
+        "title": "alert_20260120_211533_SEED_SEED_SECONDARY_20260120_211533_8_20260120_211533",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260120_211533_SEED_SEED_SECONDARY_20260120_211533_8_20260120_211533_bilingual_turkish",
+        "title": "alert_20260120_211533_SEED_SEED_SECONDARY_20260120_211533_8_20260120_211533 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260120_211533_SEED_SEED_SECONDARY_20260120_211533_9_20260120_211533",
+      "original": {
+        "content_id": "siyem_alert_20260120_211533_SEED_SEED_SECONDARY_20260120_211533_9_20260120_211533",
+        "entity": "siyem",
+        "title": "alert_20260120_211533_SEED_SEED_SECONDARY_20260120_211533_9_20260120_211533",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260120_211533_SEED_SEED_SECONDARY_20260120_211533_9_20260120_211533_bilingual_turkish",
+        "title": "alert_20260120_211533_SEED_SEED_SECONDARY_20260120_211533_9_20260120_211533 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260120_211542_SEED_SEED_SECONDARY_20260120_211542_5_20260120_211542",
+      "original": {
+        "content_id": "siyem_alert_20260120_211542_SEED_SEED_SECONDARY_20260120_211542_5_20260120_211542",
+        "entity": "siyem",
+        "title": "alert_20260120_211542_SEED_SEED_SECONDARY_20260120_211542_5_20260120_211542",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260120_211542_SEED_SEED_SECONDARY_20260120_211542_5_20260120_211542_bilingual_turkish",
+        "title": "alert_20260120_211542_SEED_SEED_SECONDARY_20260120_211542_5_20260120_211542 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260120_211542_SEED_SEED_SECONDARY_20260120_211542_6_20260120_211542",
+      "original": {
+        "content_id": "siyem_alert_20260120_211542_SEED_SEED_SECONDARY_20260120_211542_6_20260120_211542",
+        "entity": "siyem",
+        "title": "alert_20260120_211542_SEED_SEED_SECONDARY_20260120_211542_6_20260120_211542",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260120_211542_SEED_SEED_SECONDARY_20260120_211542_6_20260120_211542_bilingual_turkish",
+        "title": "alert_20260120_211542_SEED_SEED_SECONDARY_20260120_211542_6_20260120_211542 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_alert_20260120_211542_SEED_SEED_SECONDARY_20260120_211542_7_20260120_211542",
+      "original": {
+        "content_id": "siyem_alert_20260120_211542_SEED_SEED_SECONDARY_20260120_211542_7_20260120_211542",
+        "entity": "siyem",
+        "title": "alert_20260120_211542_SEED_SEED_SECONDARY_20260120_211542_7_20260120_211542",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_alert_20260120_211542_SEED_SEED_SECONDARY_20260120_211542_7_20260120_211542_bilingual_turkish",
+        "title": "alert_20260120_211542_SEED_SEED_SECONDARY_20260120_211542_7_20260120_211542 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_FAMILY_HERITAGE_20260120_213651",
+      "original": {
+        "content_id": "siyem_FAMILY_HERITAGE_20260120_213651",
+        "entity": "siyem",
+        "title": "FAMILY_HERITAGE_20260120_213651",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_FAMILY_HERITAGE_20260120_213651_bilingual_turkish",
+        "title": "FAMILY_HERITAGE_20260120_213651 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_FAMILY_HERITAGE_20260120_213727",
+      "original": {
+        "content_id": "siyem_FAMILY_HERITAGE_20260120_213727",
+        "entity": "siyem",
+        "title": "FAMILY_HERITAGE_20260120_213727",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_FAMILY_HERITAGE_20260120_213727_bilingual_turkish",
+        "title": "FAMILY_HERITAGE_20260120_213727 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_hack_pathway_1c98b65b",
+      "original": {
+        "content_id": "siyem_hack_pathway_1c98b65b",
+        "entity": "siyem",
+        "title": "hack_pathway_1c98b65b",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_hack_pathway_1c98b65b_bilingual_turkish",
+        "title": "hack_pathway_1c98b65b (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_hack_pathway_23e427f7",
+      "original": {
+        "content_id": "siyem_hack_pathway_23e427f7",
+        "entity": "siyem",
+        "title": "hack_pathway_23e427f7",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_hack_pathway_23e427f7_bilingual_turkish",
+        "title": "hack_pathway_23e427f7 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_hack_pathway_31b4bcd6",
+      "original": {
+        "content_id": "siyem_hack_pathway_31b4bcd6",
+        "entity": "siyem",
+        "title": "hack_pathway_31b4bcd6",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_hack_pathway_31b4bcd6_bilingual_turkish",
+        "title": "hack_pathway_31b4bcd6 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_hack_pathway_33a4643d",
+      "original": {
+        "content_id": "siyem_hack_pathway_33a4643d",
+        "entity": "siyem",
+        "title": "hack_pathway_33a4643d",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_hack_pathway_33a4643d_bilingual_turkish",
+        "title": "hack_pathway_33a4643d (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_hack_pathway_33df2654",
+      "original": {
+        "content_id": "siyem_hack_pathway_33df2654",
+        "entity": "siyem",
+        "title": "hack_pathway_33df2654",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_hack_pathway_33df2654_bilingual_turkish",
+        "title": "hack_pathway_33df2654 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_hack_pathway_5dfbf36e",
+      "original": {
+        "content_id": "siyem_hack_pathway_5dfbf36e",
+        "entity": "siyem",
+        "title": "hack_pathway_5dfbf36e",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_hack_pathway_5dfbf36e_bilingual_turkish",
+        "title": "hack_pathway_5dfbf36e (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_hack_pathway_666d2caa",
+      "original": {
+        "content_id": "siyem_hack_pathway_666d2caa",
+        "entity": "siyem",
+        "title": "hack_pathway_666d2caa",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_hack_pathway_666d2caa_bilingual_turkish",
+        "title": "hack_pathway_666d2caa (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_hack_pathway_6a0ceb81",
+      "original": {
+        "content_id": "siyem_hack_pathway_6a0ceb81",
+        "entity": "siyem",
+        "title": "hack_pathway_6a0ceb81",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_hack_pathway_6a0ceb81_bilingual_turkish",
+        "title": "hack_pathway_6a0ceb81 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_hack_pathway_7a61a0cd",
+      "original": {
+        "content_id": "siyem_hack_pathway_7a61a0cd",
+        "entity": "siyem",
+        "title": "hack_pathway_7a61a0cd",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_hack_pathway_7a61a0cd_bilingual_turkish",
+        "title": "hack_pathway_7a61a0cd (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_hack_pathway_9efd2abf",
+      "original": {
+        "content_id": "siyem_hack_pathway_9efd2abf",
+        "entity": "siyem",
+        "title": "hack_pathway_9efd2abf",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_hack_pathway_9efd2abf_bilingual_turkish",
+        "title": "hack_pathway_9efd2abf (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_hack_pathway_b8034ce1",
+      "original": {
+        "content_id": "siyem_hack_pathway_b8034ce1",
+        "entity": "siyem",
+        "title": "hack_pathway_b8034ce1",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_hack_pathway_b8034ce1_bilingual_turkish",
+        "title": "hack_pathway_b8034ce1 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_hack_pathway_f6f3280c",
+      "original": {
+        "content_id": "siyem_hack_pathway_f6f3280c",
+        "entity": "siyem",
+        "title": "hack_pathway_f6f3280c",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_hack_pathway_f6f3280c_bilingual_turkish",
+        "title": "hack_pathway_f6f3280c (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_pulse_test_results_20260119_193221",
+      "original": {
+        "content_id": "siyem_pulse_test_results_20260119_193221",
+        "entity": "siyem",
+        "title": "pulse_test_results_20260119_193221",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_pulse_test_results_20260119_193221_bilingual_turkish",
+        "title": "pulse_test_results_20260119_193221 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_pulse_test_results_20260119_193304",
+      "original": {
+        "content_id": "siyem_pulse_test_results_20260119_193304",
+        "entity": "siyem",
+        "title": "pulse_test_results_20260119_193304",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_pulse_test_results_20260119_193304_bilingual_turkish",
+        "title": "pulse_test_results_20260119_193304 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_siyem_output_20260119_195555",
+      "original": {
+        "content_id": "siyem_siyem_output_20260119_195555",
+        "entity": "siyem",
+        "title": "siyem_output_20260119_195555",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_siyem_output_20260119_195555_bilingual_turkish",
+        "title": "siyem_output_20260119_195555 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_manifestation_20260119_193641",
+      "original": {
+        "content_id": "siyem_manifestation_20260119_193641",
+        "entity": "siyem",
+        "title": "manifestation_20260119_193641",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_manifestation_20260119_193641_bilingual_turkish",
+        "title": "manifestation_20260119_193641 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_manifestation_20260119_193731",
+      "original": {
+        "content_id": "siyem_manifestation_20260119_193731",
+        "entity": "siyem",
+        "title": "manifestation_20260119_193731",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_manifestation_20260119_193731_bilingual_turkish",
+        "title": "manifestation_20260119_193731 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_morning_summary_20260119_202201",
+      "original": {
+        "content_id": "siyem_morning_summary_20260119_202201",
+        "entity": "siyem",
+        "title": "morning_summary_20260119_202201",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_morning_summary_20260119_202201_bilingual_turkish",
+        "title": "morning_summary_20260119_202201 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_karasahin_presets_20260115_165230",
+      "original": {
+        "content_id": "siyem_karasahin_presets_20260115_165230",
+        "entity": "siyem",
+        "title": "karasahin_presets_20260115_165230",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_karasahin_presets_20260115_165230_bilingual_turkish",
+        "title": "karasahin_presets_20260115_165230 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_ingestion_status",
+      "original": {
+        "content_id": "siyem_ingestion_status",
+        "entity": "siyem",
+        "title": "ingestion_status",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_ingestion_status_bilingual_turkish",
+        "title": "ingestion_status (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    },
+    {
+      "pair_id": "pair_siyem_vibration_map_20260119_194613",
+      "original": {
+        "content_id": "siyem_vibration_map_20260119_194613",
+        "entity": "siyem",
+        "title": "vibration_map_20260119_194613",
+        "language": "english"
+      },
+      "bilingual": {
+        "content_id": "siyem_vibration_map_20260119_194613_bilingual_turkish",
+        "title": "vibration_map_20260119_194613 (turkish)",
+        "language": "turkish"
+      },
+      "emotional_seed": "content_essence",
+      "frequential_impact": 0.6,
+      "monetization_ready": true
+    }
+  ],
+  "high_impact_items": [
+    {
+      "content_id": "karasahin_lyrics_ayyildiz_anthem_20260125",
+      "entity": "karasahin",
+      "title": "ayyildiz_anthem_20260125",
+      "impact": 0.9
+    },
+    {
+      "content_id": "karasahin_lyrics_corner_resurrection_20260125",
+      "entity": "karasahin",
+      "title": "corner_resurrection_20260125",
+      "impact": 0.9
+    },
+    {
+      "content_id": "karasahin_lyrics_duvarinda_deligi_20260120",
+      "entity": "karasahin",
+      "title": "duvarinda_deligi_20260120",
+      "impact": 0.9
+    },
+    {
+      "content_id": "karasahin_lyrics_fire_and_ice_20260120",
+      "entity": "karasahin",
+      "title": "fire_and_ice_20260120",
+      "impact": 0.9
+    },
+    {
+      "content_id": "karasahin_lyrics_football_anthem_20260120",
+      "entity": "karasahin",
+      "title": "football_anthem_20260120",
+      "impact": 0.9
+    },
+    {
+      "content_id": "karasahin_lyrics_im_in_danger_20260120",
+      "entity": "karasahin",
+      "title": "im_in_danger_20260120",
+      "impact": 0.9
+    },
+    {
+      "content_id": "karasahin_lyrics_kafana_takma_20260120",
+      "entity": "karasahin",
+      "title": "kafana_takma_20260120",
+      "impact": 0.9
+    },
+    {
+      "content_id": "karasahin_lyrics_kucukken_20260120",
+      "entity": "karasahin",
+      "title": "kucukken_20260120",
+      "impact": 0.9
+    },
+    {
+      "content_id": "karasahin_lyrics_midnight_reversal_20260115_164945",
+      "entity": "karasahin",
+      "title": "midnight_reversal_20260115_164945",
+      "impact": 0.9
+    },
+    {
+      "content_id": "karasahin_lyrics_nobody_home_20260120",
+      "entity": "karasahin",
+      "title": "nobody_home_20260120",
+      "impact": 0.9
+    },
+    {
+      "content_id": "karasahin_lyrics_sana_inat_20260120",
+      "entity": "karasahin",
+      "title": "sana_inat_20260120",
+      "impact": 0.9
+    },
+    {
+      "content_id": "karasahin_lyrics_seni_sevmek_20260120",
+      "entity": "karasahin",
+      "title": "seni_sevmek_20260120",
+      "impact": 0.9
+    },
+    {
+      "content_id": "karasahin_lyrics_tozun_hatirasi_20260120",
+      "entity": "karasahin",
+      "title": "tozun_hatirasi_20260120",
+      "impact": 0.9
+    },
+    {
+      "content_id": "karasahin_lyrics_vibration_for_a_reason_20260125",
+      "entity": "karasahin",
+      "title": "vibration_for_a_reason_20260125",
+      "impact": 0.9
+    },
+    {
+      "content_id": "karasahin_lyrics_yazili_20260120",
+      "entity": "karasahin",
+      "title": "yazili_20260120",
+      "impact": 0.9
+    },
+    {
+      "content_id": "karasahin_prompt_nobody_home_karasahin_suno_prompt",
+      "entity": "karasahin",
+      "title": "nobody_home_karasahin_suno_prompt",
+      "impact": 0.8
+    },
+    {
+      "content_id": "karasahin_prompt_SUNO_PROMPTS_CATALOGUE",
+      "entity": "karasahin",
+      "title": "SUNO_PROMPTS_CATALOGUE",
+      "impact": 0.8
+    }
+  ],
+  "errors": []
+}

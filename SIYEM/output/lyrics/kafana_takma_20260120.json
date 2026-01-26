@@ -4,8 +4,15 @@
     "genre_fusion": "folk_rock",
     "theme": "resilience_kindness",
     "ottoman_influence": {
-      "metaphors": ["yol", "vicdan", "kalp"],
-      "patterns": ["poetic", "existential"]
+      "metaphors": [
+        "yol",
+        "vicdan",
+        "kalp"
+      ],
+      "patterns": [
+        "poetic",
+        "existential"
+      ]
     },
     "bpm": 85,
     "section": null,
@@ -84,6 +91,17 @@
       "love": true,
       "peace_love_unity": true,
       "description": "Kindness as weapon, conscience as guide, community resilience"
+    }
+  },
+  "english_lyrics": {
+    "title": "Sound and Emotion",
+    "sections": {
+      "verse_1": [
+        "English lyrics - from emotional seed"
+      ],
+      "chorus": [
+        "Sound is everything"
+      ]
     }
   }
 }

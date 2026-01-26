@@ -4,8 +4,16 @@
     "genre_fusion": "turkish_arabesque_rnb",
     "theme": "love_devotion",
     "ottoman_influence": {
-      "metaphors": ["gönül", "aşk", "sevda", "can"],
-      "patterns": ["poetic", "reverential"]
+      "metaphors": [
+        "gönül",
+        "aşk",
+        "sevda",
+        "can"
+      ],
+      "patterns": [
+        "poetic",
+        "reverential"
+      ]
     },
     "bpm": 70,
     "section": null,
@@ -84,6 +92,64 @@
       "stewardship": true,
       "peace_love_unity": true,
       "description": "Love as highest mastery, devotion to community, heart's stewardship"
+    }
+  },
+  "english_lyrics": {
+    "title": "Loving You",
+    "sections": {
+      "verse_1": [
+        "Loving every flaw you have",
+        "Waiting day and night",
+        "Loving, giving all I am",
+        "Loving you"
+      ],
+      "chorus": [
+        "Loving, like an endless film",
+        "Lifts you up then brings you down",
+        "Pulls the heart to its owner",
+        "Loving you"
+      ],
+      "verse_2": [
+        "Living is an experience",
+        "Every new day that's born",
+        "Who will tomorrow belong to",
+        "What happens today",
+        "You stay by my side"
+      ],
+      "chorus_repeat": [
+        "Loving, loving you",
+        "Giving life to a still heart",
+        "Loving you"
+      ],
+      "verse_3": [
+        "You are every night's morning",
+        "You are every breath's name",
+        "Let my heart memorize you—",
+        "Loving you"
+      ],
+      "bridge": [
+        "Let it be the writing on my forehead",
+        "Let the beginning and end be clear",
+        "Let my heart fill with you now",
+        "This life of mine, I sacrifice to you"
+      ],
+      "outro": [
+        "Loving, loving you",
+        "Giving life to a still heart",
+        "Loving you",
+        "Loving you"
+      ]
+    },
+    "karasahin_voice": {
+      "signature_phrases": [
+        "Loving you",
+        "Endless film"
+      ],
+      "metaphors": [
+        "Heart to its owner",
+        "Writing on my forehead"
+      ],
+      "cadence": "devotional_flow"
     }
   }
 }

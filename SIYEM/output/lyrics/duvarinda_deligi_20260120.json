@@ -4,8 +4,15 @@
     "genre_fusion": "folk_rock",
     "theme": "cyprus_identity",
     "ottoman_influence": {
-      "metaphors": ["yol", "gurbetlik", "vatan"],
-      "patterns": ["poetic", "temporal"]
+      "metaphors": [
+        "yol",
+        "gurbetlik",
+        "vatan"
+      ],
+      "patterns": [
+        "poetic",
+        "temporal"
+      ]
     },
     "bpm": 85,
     "section": null,
@@ -69,6 +76,17 @@
       "community": true,
       "stewardship": true,
       "description": "Small island community, identity and belonging, stewardship of place"
+    }
+  },
+  "english_lyrics": {
+    "title": "Sound and Emotion",
+    "sections": {
+      "verse_1": [
+        "English lyrics - from emotional seed"
+      ],
+      "chorus": [
+        "Sound is everything"
+      ]
     }
   }
 }

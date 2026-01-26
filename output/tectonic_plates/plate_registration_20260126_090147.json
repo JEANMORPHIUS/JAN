@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-01-26T09:01:47.144569",
+  "major_plates": {
+    "pacific": {
+      "plate_name": "Pacific Plate",
+      "site_id": 154,
+      "type": "major",
+      "area_km2": 103300000,
+      "movement_rate_cm_per_year": 8.0,
+      "heritage_sites": [
+        "Stonehenge (distant connection)",
+        "Machu Picchu (South American plate boundary)",
+        "Angkor Wat (distant connection)"
+      ]
+    },
+    "north_american": {
+      "plate_name": "North American Plate",
+      "site_id": 155,
+      "type": "major",
+      "area_km2": 75900000,
+      "movement_rate_cm_per_year": 2.3,
+      "heritage_sites": [
+        "Stonehenge (on plate)",
+        "Various North American heritage sites"
+      ]
+    },
+    "eurasian": {
+      "plate_name": "Eurasian Plate",
+      "site_id": 156,
+      "type": "major",
+      "area_km2": 67800000,
+      "movement_rate_cm_per_year": 0.7,
+      "heritage_sites": [
+        "Stonehenge (on plate)",
+        "Alhambra Palace (on plate)",
+        "Berengaria Hotel (on plate)",
+        "Great Pyramid of Giza (on plate)",
+        "Angkor Wat (on plate)"
+      ]
+    },
+    "african": {
+      "plate_name": "African Plate",
+      "site_id": 157,
+      "type": "major",
+      "area_km2": 61300000,
+      "movement_rate_cm_per_year": 2.15,
+      "heritage_sites": [
+        "Great Pyramid of Giza (on plate)"
+      ]
+    },
+    "indo_australian": {
+      "plate_name": "Indo-Australian Plate",
+      "site_id": 158,
+      "type": "major",
+      "area_km2": 58000000,
+      "movement_rate_cm_per_year": 6.0,
+      "heritage_sites": [
+        "Angkor Wat (on plate)"
+      ]
+    },
+    "south_american": {
+      "plate_name": "South American Plate",
+      "site_id": 159,
+      "type": "major",
+      "area_km2": 43400000,
+      "movement_rate_cm_per_year": 1.4,
+      "heritage_sites": [
+        "Machu Picchu (on plate)"
+      ]
+    },
+    "antarctic": {
+      "plate_name": "Antarctic Plate",
+      "site_id": 160,
+      "type": "major",
+      "area_km2": 16900000,
+      "movement_rate_cm_per_year": 1.0,
+      "heritage_sites": []
+    }
+  },
+  "minor_plates": {
+    "nazca": {
+      "plate_name": "Nazca Plate",
+      "site_id": 161,
+      "type": "minor",
+      "heritage_sites": [
+        "Machu Picchu (near boundary)"
+      ]
+    },
+    "philippine": {
+      "plate_name": "Philippine Sea Plate",
+      "site_id": 162,
+      "type": "minor",
+      "heritage_sites": []
+    },
+    "arabian": {
+      "plate_name": "Arabian Plate",
+      "site_id": 163,
+      "type": "minor",
+      "heritage_sites": []
+    },
+    "cocos": {
+      "plate_name": "Cocos Plate",
+      "site_id": 164,
+      "type": "minor",
+      "heritage_sites": []
+    },
+    "caribbean": {
+      "plate_name": "Caribbean Plate",
+      "site_id": 165,
+      "type": "minor",
+      "heritage_sites": []
+    }
+  },
+  "total_registered": 12,
+  "errors": []
+}

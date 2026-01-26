@@ -4,8 +4,14 @@
     "genre_fusion": "pop",
     "theme": "loneliness_longing",
     "ottoman_influence": {
-      "metaphors": ["yol", "hasret"],
-      "patterns": ["poetic", "temporal"]
+      "metaphors": [
+        "yol",
+        "hasret"
+      ],
+      "patterns": [
+        "poetic",
+        "temporal"
+      ]
     },
     "bpm": 95,
     "section": null,
@@ -84,6 +90,80 @@
       "community": true,
       "love": true,
       "description": "Longing for connection, community need, hope for new day"
+    }
+  },
+  "turkish_lyrics": {
+    "title": "Kimse Yok Evde",
+    "sections": {
+      "verse_1": [
+        "Yine aynı sokakta yürüyorum yalnız",
+        "Daha önce de buradaydım, hiç değişmemiş",
+        "Yolumu bulmaya çalışıyorum, karışık",
+        "Dünü tutamayacağımı biliyorum",
+        "Sadece bugünü atlatmayı umuyorum"
+      ],
+      "verse_2": [
+        "Kıyıdaki dalgalar hala senin adını çağırıyor",
+        "Omzumdaki başın hala aynı hissediliyor",
+        "Her şey yalan olsa bile sen gerçek kalırsın",
+        "Ama biliyorum bu resimde sen eksiksin",
+        "Geçeceğimden emin olamıyorum"
+      ],
+      "chorus": [
+        "Ama telefonda konuşacak kimse yok evde",
+        "Birisi lütfen beni arasın, yeni bir şeye ihtiyacım var",
+        "Sana sözlerimi veriyorum, sen bana zamanını ver",
+        "Sen bana gülümsemeni ver, ben sana şarkımı söylüyorum",
+        "İşte istediğim bu",
+        "Ama kimse yok evde",
+        "Kimse yok evde",
+        "Ve kendimi çok yalnız hissediyorum"
+      ],
+      "verse_3": [
+        "Kalmak her geçen gün daha zorlaşıyor, sen burada değilsin",
+        "Ama sen beni kalıyorum, oynadığın oyunlarla, belirsiz",
+        "Nerede olduğunu soruyorum, dörtte orada olacağını söylüyorsun",
+        "Beşe yirmi kala, hala kapımda değilsin",
+        "Ne yapabilirim? Yerdeyim",
+        "Seni bekliyorum, ama daha fazla dayanamıyorum"
+      ],
+      "bridge": [
+        "Daha uzakta hissediyorum, ama sen beni kalıyorum",
+        "Ne yapabilirim, gördüğüm tek şey sensin",
+        "Kalbimin atışı bana bunun başlangıç olduğunu söylüyor",
+        "Güzel bir şeyin, gerçek bir şeyin başlangıcı"
+      ],
+      "verse_4": [
+        "Bir kez daha kendimi tam hissediyorum, ayaklarımın üzerinde duruyorum",
+        "Şimdi tam olarak nerede olmak istediğimi görebiliyorum",
+        "Dünün acısı beni tekrar yenmeyecek",
+        "Ufukta yeni bir gün görüyorum",
+        "Ufukta yeni bir gün görüyorum"
+      ]
+    },
+    "ottoman_influence": {
+      "metaphors_used": [
+        "hasret",
+        "yol",
+        "ufuk",
+        "gönül"
+      ],
+      "patterns_applied": [
+        "poetic",
+        "temporal"
+      ],
+      "cultural_weight": "authentic_soil"
+    },
+    "karasahin_voice": {
+      "signature_phrases": [
+        "Kimse yok evde",
+        "Ufukta yeni bir gün"
+      ],
+      "metaphors": [
+        "Dalgalar senin adını çağırıyor",
+        "Oynadığın oyunlar"
+      ],
+      "cadence": "melancholic_hope"
     }
   }
 }
