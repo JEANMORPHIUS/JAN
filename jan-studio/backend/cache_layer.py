@@ -11,7 +11,7 @@ THE TRUTH:
 We build arks, not plastic tables.
 """
 
-from typing import Optional, Any, Callable
+from typing import Optional, Any, Callable, Dict
 from functools import wraps
 import logging
 import json
