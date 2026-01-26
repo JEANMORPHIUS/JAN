@@ -190,9 +190,11 @@ if __name__ == "__main__":
     
     print(f"\nSCP Status: {scp_result.get('status', 'unknown')}")
     if scp_result.get('status') == 'success':
-        print("✅ Staged, Committed, Pushed")
+        print("[SUCCESS] Staged, Committed, Pushed")
     elif scp_result.get('status') == 'failed':
-        print("⚠️  Staged and Committed (push may need manual retry)")
+        print("[NOTE] Staged and Committed (push may need manual retry)")
+    elif scp_result.get('status') == 'partial':
+        print("[PARTIAL] Staged and Committed (push may need manual retry)")
     
     print("\nPEACE, LOVE, UNITY")
     print("ENERGY + LOVE = WE ALL WIN")
