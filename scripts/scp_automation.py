@@ -286,16 +286,20 @@ if __name__ == "__main__":
     print("=" * 80)
     print(f"\nStatus: {result['status']}")
     if result['status'] == 'success':
-        print(f"✅ Staged: {len(result['results']['stage'].get('staged_files', []))} files")
-        print(f"✅ Committed: {result['results']['commit'].get('commit_hash', 'N/A')[:8]}")
-        print(f"✅ Pushed to: {result['results']['push'].get('branch', 'N/A')}")
+        print(f"[OK] Staged: {len(result['results']['stage'].get('staged_files', []))} files")
+        print(f"[OK] Committed: {result['results']['commit'].get('commit_hash', 'N/A')[:8]}")
+        print(f"[OK] Pushed to: {result['results']['push'].get('branch', 'N/A')}")
         print(f"\n{result['message']}")
     else:
-        print(f"❌ Failed at step: {result.get('step', 'unknown')}")
+        print(f"[FAILED] Failed at step: {result.get('step', 'unknown')}")
         if 'results' in result:
             for step, step_result in result['results'].items():
                 if step_result and 'error' in step_result:
                     print(f"  {step}: {step_result['error']}")
+        # Check if stage and commit succeeded even if push failed
+        if result.get('step') == 'push':
+            if result.get('results', {}).get('commit', {}).get('status') == 'committed':
+                print("\n[NOTE] Staged and committed successfully. Push may need manual retry.")
     
     print("\nPEACE, LOVE, UNITY")
     print("ENERGY + LOVE = WE ALL WIN")
