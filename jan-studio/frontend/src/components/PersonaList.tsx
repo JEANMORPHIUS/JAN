@@ -207,7 +207,7 @@ export default function PersonaList({
           </p>
         </div>
       ) : (
-        {needsVirtualization ? (
+        needsVirtualization ? (
           <div style={{ height: '600px' }}>
             <VirtualizedList
               items={filteredAndSortedPersonas}
@@ -252,7 +252,7 @@ export default function PersonaList({
               />
             ))}
           </div>
-        )}
+        )
       )}
     </div>
   );

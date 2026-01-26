@@ -14,6 +14,7 @@
  * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
  * THE REST IS UP TO BABA X.*/
 
+import { memo, useMemo } from 'react';
 import { HistoryEntry } from './HistoryPanel';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -23,7 +24,9 @@ interface CompareViewProps {
   onClose: () => void;
 }
 
-export default function CompareView({ entries, onClose }: CompareViewProps) {
+function CompareView({ entries, onClose }: CompareViewProps) {
+  // Memoize grid columns calculation
+  const gridColumns = useMemo(() => entries.length, [entries.length]);
   return (
     <div className="card">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
@@ -33,7 +36,7 @@ export default function CompareView({ entries, onClose }: CompareViewProps) {
         </button>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: `repeat(${entries.length}, 1fr)`, gap: '1rem' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: `repeat(${gridColumns}, 1fr)`, gap: '1rem' }}>
         {entries.map((entry, idx) => (
           <div
             key={entry.id}
@@ -95,4 +98,13 @@ export default function CompareView({ entries, onClose }: CompareViewProps) {
     </div>
   );
 }
+
+// Memoize CompareView to prevent unnecessary re-renders
+export default memo(CompareView, (prevProps, nextProps) => {
+  if (prevProps.entries.length !== nextProps.entries.length) return false;
+  return prevProps.entries.every((entry, idx) => 
+    entry.id === nextProps.entries[idx]?.id &&
+    entry.content === nextProps.entries[idx]?.content
+  );
+});
 

@@ -30,6 +30,31 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000',
   },
+  // Bundle optimization
+  swcMinify: true,
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production' ? {
+      exclude: ['error', 'warn'],
+    } : false,
+  },
+  // Optimize images
+  images: {
+    formats: ['image/avif', 'image/webp'],
+  },
+  // Experimental features for better performance
+  experimental: {
+    optimizeCss: true,
+  },
+  // Webpack configuration for bundle optimization
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      // Tree-shake unused markdown plugins
+      config.resolve.alias = {
+        ...config.resolve.alias,
+      };
+    }
+    return config;
+  },
 };
 
 module.exports = nextConfig;

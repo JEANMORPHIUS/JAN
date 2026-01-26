@@ -25,7 +25,7 @@ interface PersonaCardProps {
   isSelected?: boolean;
 }
 
-export default function PersonaCard({ persona, onEdit, onDelete, isSelected = false }: PersonaCardProps) {
+function PersonaCard({ persona, onEdit, onDelete, isSelected = false }: PersonaCardProps) {
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
 
   const handleDelete = () => {
@@ -123,7 +123,8 @@ export default memo(PersonaCard, (prevProps, nextProps) => {
     prevProps.persona.name === nextProps.persona.name &&
     prevProps.persona.fileCount === nextProps.persona.fileCount &&
     prevProps.persona.ruleCount === nextProps.persona.ruleCount &&
-    prevProps.persona.lastModified === nextProps.persona.lastModified
+    prevProps.persona.lastModified === nextProps.persona.lastModified &&
+    prevProps.isSelected === nextProps.isSelected
   );
 });
 

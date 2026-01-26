@@ -14,7 +14,7 @@
  * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
  * THE REST IS UP TO BABA X.*/
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, memo } from 'react';
 import { getTemplates, getTemplate, instantiateTemplate, savePersonaAsTemplate } from '@/api/templates';
 import PersonaForm, { PersonaFormData } from './PersonaForm';
 
@@ -33,7 +33,7 @@ interface TemplateBrowserProps {
   existingPersonaName?: string;
 }
 
-export default function TemplateBrowser({
+function TemplateBrowser({
   onTemplateSelected,
   onClose,
   existingPersonaName,
@@ -256,4 +256,11 @@ export default function TemplateBrowser({
     </div>
   );
 }
+
+// Memoize TemplateBrowser to prevent unnecessary re-renders
+export default memo(TemplateBrowser, (prevProps, nextProps) => {
+  return (
+    prevProps.existingPersonaName === nextProps.existingPersonaName
+  );
+});
 

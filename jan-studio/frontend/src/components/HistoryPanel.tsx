@@ -14,7 +14,7 @@
  * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
  * THE REST IS UP TO BABA X.*/
 
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, memo } from 'react';
 import { GenerationResult } from './GenerationForm';
 import { getGenerationHistory, saveToHistory } from '@/api/generation';
 import { shouldVirtualize } from '@/utils/performance';
@@ -260,31 +260,30 @@ export default function HistoryPanel({ onSelectHistory, onCompare, currentResult
           />
         </div>
       ) : (
-          <div 
-            style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', maxHeight: '600px', overflowY: 'auto' }}
-            role="list"
-            aria-label="Generation history list"
-          >
-            {filteredHistory.map((entry) => (
-              <HistoryEntryCard
-                key={entry.id}
-                entry={entry}
-                isSelected={selectedIds.has(entry.id)}
-                onSelect={() => handleSelect(entry)}
-                onToggleSelect={() => handleToggleSelect(entry.id)}
-                formatDate={formatDate}
-                truncate={truncate}
-              />
-            ))}
-          </div>
-        )}
+        <div 
+          style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', maxHeight: '600px', overflowY: 'auto' }}
+          role="list"
+          aria-label="Generation history list"
+        >
+          {filteredHistory.map((entry) => (
+            <HistoryEntryCard
+              key={entry.id}
+              entry={entry}
+              isSelected={selectedIds.has(entry.id)}
+              onSelect={() => handleSelect(entry)}
+              onToggleSelect={() => handleToggleSelect(entry.id)}
+              formatDate={formatDate}
+              truncate={truncate}
+            />
+          ))}
+        </div>
       )}
     </div>
   );
 }
 
-// Separate component for history entry card
-function HistoryEntryCard({
+// Separate component for history entry card - memoized for performance
+const HistoryEntryCard = memo(function HistoryEntryCard({
   entry,
   isSelected,
   onSelect,
@@ -391,5 +390,14 @@ function HistoryEntryCard({
             </div>
     );
   }
-}
+}, (prevProps, nextProps) => {
+  // Memoization comparison - only re-render if these change
+  return (
+    prevProps.entry.id === nextProps.entry.id &&
+    prevProps.isSelected === nextProps.isSelected &&
+    prevProps.entry.persona === nextProps.entry.persona &&
+    prevProps.entry.output_type === nextProps.entry.output_type &&
+    prevProps.entry.timestamp === nextProps.entry.timestamp
+  );
+});
 
