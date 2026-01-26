@@ -24,10 +24,20 @@ from pathlib import Path
 # Add utils to path
 sys.path.insert(0, str(Path(__file__).parent))
 
-from utils import (
-    Path, datetime, json, load_json, save_json
-    setup_logging, standard_main
-)
+try:
+    from utils import (
+        Path, datetime, json, load_json, save_json,
+        setup_logging, standard_main
+    )
+except ImportError:
+    # Fallback if utils not available
+    from datetime import datetime
+    import json
+    from pathlib import Path
+    def setup_logging():
+        pass
+    def standard_main():
+        pass
 
 from typing import Dict, List, Any, Optional
 from dataclasses import dataclass, field
