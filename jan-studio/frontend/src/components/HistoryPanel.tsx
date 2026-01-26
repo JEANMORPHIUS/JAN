@@ -240,25 +240,26 @@ export default function HistoryPanel({ onSelectHistory, onCompare, currentResult
             ? 'No generation history yet'
             : `No entries match filters (${history.length} total)`}
         </p>
+      ) : needsVirtualization ? (
+        <div style={{ height: '600px' }}>
+          <VirtualizedList
+            items={filteredHistory}
+            estimateSize={180}
+            renderItem={(entry, index) => (
+              <div style={{ padding: '0.5rem' }}>
+                <HistoryEntryCard
+                  entry={entry}
+                  isSelected={selectedIds.has(entry.id)}
+                  onSelect={() => handleSelect(entry)}
+                  onToggleSelect={() => handleToggleSelect(entry.id)}
+                  formatDate={formatDate}
+                  truncate={truncate}
+                />
+              </div>
+            )}
+          />
+        </div>
       ) : (
-        {needsVirtualization ? (
-          <div style={{ height: '600px' }}>
-            <VirtualizedList
-              items={filteredHistory}
-              estimateSize={180}
-              renderItem={(entry, index) => (
-                <div style={{ padding: '0.5rem' }}>
-                  <HistoryEntryCard
-                    entry={entry}
-                    isSelected={selectedIds.has(entry.id)}
-                    onSelect={() => handleSelect(entry)}
-                    onToggleSelect={() => handleToggleSelect(entry.id)}
-                  />
-                </div>
-              )}
-            />
-          </div>
-        ) : (
           <div 
             style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', maxHeight: '600px', overflowY: 'auto' }}
             role="list"
