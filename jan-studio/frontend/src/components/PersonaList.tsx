@@ -15,8 +15,9 @@
  * THE REST IS UP TO BABA X.*/
 
 import { useState, useEffect, useMemo, useRef } from 'react';
-import PersonaCard, { PersonaInfo } from './PersonaCard';
+import PersonaCard from './PersonaCard';
 import PersonaForm, { PersonaFormData } from './PersonaForm';
+import type { PersonaInfo } from '@/api/personas';
 import { getPersonas, createPersona, deletePersona, getPersonaFiles } from '@/api/personas';
 import { debounce, shouldVirtualize } from '@/utils/performance';
 import { VirtualizedList } from './VirtualizedList';
@@ -99,7 +100,17 @@ export default function PersonaList({
   const handleCreatePersona = async (data: PersonaFormData) => {
     try {
       await createPersonaMutation.mutateAsync(data.name);
-      // TODO: Apply template based on data.template
+      
+      // Apply template if not blank
+      if (data.template !== 'blank') {
+        try {
+          const { instantiateTemplate } = await import('@/api/templates');
+          await instantiateTemplate(data.template, data.name);
+        } catch (templateErr) {
+          console.warn('Template application failed, persona created without template:', templateErr);
+        }
+      }
+      
       setShowCreateForm(false);
       onSelectPersona(data.name);
       onRefresh();

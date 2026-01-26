@@ -19,7 +19,8 @@
  */
 
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
-import { getPersonas, createPersona, deletePersona, getPersonaFiles, PersonaInfo } from '@/api/personas';
+import { getPersonas, createPersona, deletePersona, getPersonaFiles } from '@/api/personas';
+import type { PersonaInfo } from '@/api/personas';
 
 export function usePersonas() {
   return useQuery({

@@ -30,6 +30,14 @@ export interface PersonaFile {
   content: string;
 }
 
+export interface PersonaInfo {
+  name: string;
+  description?: string;
+  ruleCount?: number;
+  lastModified?: string;
+  fileCount?: number;
+}
+
 // Get list of all personas
 export async function getPersonas(): Promise<string[]> {
   try {

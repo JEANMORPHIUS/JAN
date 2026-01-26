@@ -16,21 +16,16 @@
 
 import { useState, memo } from 'react';
 
+import type { PersonaInfo } from '@/api/personas';
+
 interface PersonaCardProps {
   persona: PersonaInfo;
   onEdit: (name: string) => void;
   onDelete: (name: string) => void;
+  isSelected?: boolean;
 }
 
-export interface PersonaInfo {
-  name: string;
-  description?: string;
-  ruleCount?: number;
-  lastModified?: string;
-  fileCount?: number;
-}
-
-export default function PersonaCard({ persona, onEdit, onDelete }: PersonaCardProps) {
+export default function PersonaCard({ persona, onEdit, onDelete, isSelected = false }: PersonaCardProps) {
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
 
   const handleDelete = () => {
