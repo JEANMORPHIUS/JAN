@@ -17,6 +17,9 @@
 import { useState, useEffect } from 'react';
 import { getPersonas } from '@/api/personas';
 import { generateContent } from '@/api/generation';
+import PromptTemplates from './PromptTemplates';
+import { useKeyboardShortcuts } from '@/hooks/useKeyboardShortcuts';
+import { retryWithBackoff, getUserFriendlyError } from '@/utils/errorHandling';
 
 interface GenerationFormProps {
   onGenerate: (result: GenerationResult) => void;
@@ -72,6 +75,29 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
   const [loading, setLoading] = useState(false);
   const [progress, setProgress] = useState(0);
   const [error, setError] = useState<string | null>(null);
+  const [showTemplates, setShowTemplates] = useState(false);
+  
+  // Keyboard shortcuts
+  useKeyboardShortcuts([
+    {
+      key: 'Enter',
+      ctrlKey: true,
+      callback: () => {
+        if (!loading && formData.persona && formData.prompt.trim()) {
+          handleGenerate();
+        }
+      },
+      description: 'Generate content',
+    },
+    {
+      key: 's',
+      ctrlKey: true,
+      callback: () => {
+        setShowTemplates(!showTemplates);
+      },
+      description: 'Toggle templates',
+    },
+  ]);
 
   useEffect(() => {
     loadPersonas();
@@ -99,6 +125,7 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
       setLoading(true);
       setError(null);
       setProgress(0);
+      setProgress(0);
 
       // Simulate progress (in real implementation, this would come from the API)
       const progressInterval = setInterval(() => {
@@ -115,7 +142,11 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
         onProgress(0);
       }
 
-      const result = await generateContent(formData);
+      const result = await retryWithBackoff(
+        () => generateContent(formData),
+        3,
+        1000
+      );
 
       clearInterval(progressInterval);
       setProgress(100);
@@ -142,7 +173,8 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
 
       onGenerate(resultWithContext);
     } catch (err: any) {
-      setError(err.response?.data?.detail || 'Generation failed');
+      const errorMessage = getUserFriendlyError(err);
+      setError(errorMessage);
       setProgress(0);
       if (onProgress) {
         onProgress(0);
@@ -212,16 +244,41 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
       </div>
 
       <div style={{ marginBottom: '1.5rem' }}>
-        <label className="label">
-          Prompt <span style={{ color: '#d32f2f' }}>*</span>
-        </label>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
+          <label className="label">
+            Prompt <span style={{ color: '#d32f2f' }}>*</span>
+          </label>
+          <button
+            className="button"
+            onClick={() => setShowTemplates(!showTemplates)}
+            style={{ padding: '0.5rem 1rem', fontSize: '0.875rem' }}
+            aria-label="Show prompt templates"
+          >
+            {showTemplates ? 'Hide' : 'Show'} Templates
+          </button>
+        </div>
+        
+        {showTemplates && (
+          <div style={{ marginBottom: '1rem' }}>
+            <PromptTemplates
+              persona={formData.persona}
+              onSelect={(template) => {
+                setFormData({ ...formData, prompt: template.content });
+                setShowTemplates(false);
+              }}
+              onClose={() => setShowTemplates(false)}
+            />
+          </div>
+        )}
+        
         <textarea
           className="textarea"
           value={formData.prompt}
           onChange={(e) => setFormData({ ...formData, prompt: e.target.value })}
-          placeholder="Enter your prompt here... Describe what you want to generate."
+          placeholder="Enter your prompt here... Describe what you want to generate. Or use templates above."
           disabled={loading}
           style={{ minHeight: '200px', fontFamily: 'inherit' }}
+          aria-label="Prompt input"
         />
         <div style={{ fontSize: '0.75rem', color: '#666', marginTop: '0.25rem' }}>
           {formData.prompt.length} characters
@@ -256,8 +313,10 @@ export default function GenerationForm({ onGenerate, onProgress }: GenerationFor
         onClick={handleGenerate}
         disabled={loading || !formData.persona || !formData.prompt.trim()}
         style={{ width: '100%' }}
+        aria-label="Generate content"
+        aria-busy={loading}
       >
-        {loading ? 'Generating...' : 'Generate Content'}
+        {loading ? 'Generating...' : 'Generate Content (Ctrl+Enter)'}
       </button>
     </div>
   );

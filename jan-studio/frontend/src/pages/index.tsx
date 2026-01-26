@@ -29,7 +29,7 @@
  * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
  * THE REST IS UP TO BABA X.*/
 
-import { useState, lazy, Suspense } from 'react';
+import { useState, lazy, Suspense, useEffect } from 'react';
 import Head from 'next/head';
 import PersonaList from '@/components/PersonaList';
 import PersonaEditor from '@/components/PersonaEditor';
@@ -40,6 +40,9 @@ import ErrorBoundary from '@/components/ErrorBoundary';
 import MissionDisplay from '@/components/MissionDisplay';
 import PushNotificationSystem from '@/components/PushNotificationSystem';
 import BackendStatus from '@/components/BackendStatus';
+import { useKeyboardShortcuts } from '@/hooks/useKeyboardShortcuts';
+import { isOnline, offlineQueue } from '@/utils/errorHandling';
+import LoadingState from '@/components/LoadingState';
 
 // Lazy load heavy components for better performance
 const TemplateBrowser = lazy(() => import('@/components/TemplateBrowser'));
@@ -61,6 +64,51 @@ export default function Home() {
   const [generationProgress, setGenerationProgress] = useState(0);
   const [compareEntries, setCompareEntries] = useState<HistoryEntry[] | null>(null);
   const [showSearch, setShowSearch] = useState(false);
+  const [isOnlineState, setIsOnlineState] = useState(true);
+  const [initialLoading, setInitialLoading] = useState(true);
+
+  // Check online status
+  useEffect(() => {
+    setIsOnlineState(isOnline());
+    
+    const handleOnline = () => {
+      setIsOnlineState(true);
+      offlineQueue.process();
+    };
+    
+    const handleOffline = () => {
+      setIsOnlineState(false);
+    };
+    
+    window.addEventListener('online', handleOnline);
+    window.addEventListener('offline', handleOffline);
+    
+    // Simulate initial load
+    setTimeout(() => setInitialLoading(false), 500);
+    
+    return () => {
+      window.removeEventListener('online', handleOnline);
+      window.removeEventListener('offline', handleOffline);
+    };
+  }, []);
+
+  // Global keyboard shortcuts
+  useKeyboardShortcuts([
+    {
+      key: 'k',
+      ctrlKey: true,
+      callback: () => setShowSearch(true),
+      description: 'Open search',
+    },
+    {
+      key: 'Escape',
+      callback: () => {
+        setShowSearch(false);
+        setCompareEntries(null);
+      },
+      description: 'Close modals',
+    },
+  ]);
 
   const handleRefresh = () => {
     setRefreshKey(prev => prev + 1);
@@ -112,6 +160,27 @@ export default function Home() {
 
       <PushNotificationSystem />
       
+      {!isOnlineState && (
+        <div 
+          style={{
+            padding: '0.75rem',
+            backgroundColor: '#2a1a1a',
+            border: '1px solid #d32f2f',
+            color: '#d32f2f',
+            textAlign: 'center',
+            fontSize: '0.875rem',
+          }}
+          role="alert"
+          aria-live="assertive"
+        >
+          ⚠️ You are offline. Changes will be queued and synced when connection is restored.
+        </div>
+      )}
+      
+      {initialLoading ? (
+        <LoadingState message="Loading Creation Centre..." size="medium" />
+      ) : (
+        <>
       <div className="header">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div>
@@ -221,7 +290,7 @@ export default function Home() {
             />
           </Suspense>
         ) : viewMode === 'generate' ? (
-          <div style={{ display: 'grid', gridTemplateColumns: '400px 1fr 300px', gap: '1.5rem' }}>
+          <div className="grid-columns" style={{ display: 'grid', gridTemplateColumns: '400px 1fr 300px', gap: '1.5rem' }}>
             <div>
               <GenerationForm
                 onGenerate={handleGenerate}
@@ -269,7 +338,7 @@ export default function Home() {
             />
           </Suspense>
         ) : (
-          <div style={{ display: 'grid', gridTemplateColumns: '350px 1fr', gap: '2rem' }}>
+          <div className="grid-columns" style={{ display: 'grid', gridTemplateColumns: '350px 1fr', gap: '2rem' }}>
             <div>
               <PersonaList
                 selectedPersona={selectedPersona}
@@ -348,6 +417,8 @@ export default function Home() {
           </div>
         )}
       </div>
+        </>
+      )}
     </ErrorBoundary>
   );
 }

@@ -18,6 +18,8 @@ import { useState, useMemo, memo } from 'react';
 import { GenerationResult } from './GenerationForm';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import ExportOptions from './ExportOptions';
+import { getUserFriendlyError } from '@/utils/errorHandling';
 
 interface OutputViewerProps {
   result: GenerationResult;
@@ -28,6 +30,7 @@ interface OutputViewerProps {
 
 function OutputViewer({ result, personaName, onEditPersona, onRegenerate }: OutputViewerProps) {
   const [copied, setCopied] = useState(false);
+  const [showExport, setShowExport] = useState(false);
   
   // Calculate word and character counts
   const stats = useMemo(() => {
@@ -66,11 +69,16 @@ function OutputViewer({ result, personaName, onEditPersona, onRegenerate }: Outp
     return (
       <div className="card">
         <h2>Generation Failed</h2>
-        <div className="error" style={{ marginTop: '1rem' }}>
-          {result.error || 'Unknown error occurred'}
+        <div className="error" style={{ marginTop: '1rem', padding: '0.75rem' }} role="alert" aria-live="assertive">
+          {getUserFriendlyError(result.error || new Error('Unknown error occurred'))}
         </div>
         {onRegenerate && (
-          <button className="button" onClick={onRegenerate} style={{ marginTop: '1rem' }}>
+          <button 
+            className="button" 
+            onClick={onRegenerate} 
+            style={{ marginTop: '1rem' }}
+            aria-label="Try generating again"
+          >
             Try Again
           </button>
         )}
@@ -100,14 +108,24 @@ function OutputViewer({ result, personaName, onEditPersona, onRegenerate }: Outp
           </button>
           <button
             className="button"
-            onClick={handleDownload}
+            onClick={() => setShowExport(!showExport)}
             style={{ padding: '0.5rem 1rem', fontSize: '0.875rem', backgroundColor: '#2e7d32' }}
-            aria-label="Download content as text file"
+            aria-label="Show export options"
           >
-            Download
+            {showExport ? 'Hide Export' : 'Export'}
           </button>
         </div>
       </div>
+      
+      {showExport && result.content && (
+        <div style={{ marginBottom: '1rem' }}>
+          <ExportOptions
+            content={result.content}
+            filename={`${personaName}-${new Date(result.timestamp).toISOString().slice(0, 10)}`}
+            onClose={() => setShowExport(false)}
+          />
+        </div>
+      )}
 
       {result.validation && (
         <div style={{

@@ -18,6 +18,8 @@
  * Accessibility utilities for Creation Centre
  */
 
+import { useEffect } from 'react';
+
 /**
  * Keyboard shortcut handler
  */
@@ -30,20 +32,22 @@ export function useKeyboardShortcut(
 ) {
   if (typeof window === 'undefined') return;
   
-  const handleKeyDown = (e: KeyboardEvent) => {
-    if (
-      e.key === key &&
-      e.ctrlKey === ctrlKey &&
-      e.shiftKey === shiftKey &&
-      e.altKey === altKey
-    ) {
-      e.preventDefault();
-      callback();
-    }
-  };
-  
-  window.addEventListener('keydown', handleKeyDown);
-  return () => window.removeEventListener('keydown', handleKeyDown);
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (
+        e.key === key &&
+        (ctrlKey ? (e.ctrlKey || e.metaKey) : !e.ctrlKey && !e.metaKey) &&
+        e.shiftKey === shiftKey &&
+        e.altKey === altKey
+      ) {
+        e.preventDefault();
+        callback();
+      }
+    };
+    
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [key, callback, ctrlKey, shiftKey, altKey]);
 }
 
 /**

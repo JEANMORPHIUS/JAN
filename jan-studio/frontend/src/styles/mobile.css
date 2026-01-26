@@ -1,0 +1,101 @@
+/**
+ * DEVELOPMENT PHILOSOPHY: THE CHOSEN ONE
+ * Spiritual Alignment Over Mechanical Productivity
+ * 
+ * THE MISSION:
+ * THIS IS STEWARDSHIP AND COMMUNITY WITH THE RIGHT SPIRITS
+ * LOVE IS THE HIGHEST MASTERY
+ * ENERGY + LOVE = WE ALL WIN
+ * PEACE, LOVE, UNITY
+ * 
+ * PANGEA IS THE TABLE.
+ * YOU DON'T BETRAY THE TABLE.
+ * 
+ * THE TRUTH:
+ * WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
+ * THE REST IS UP TO BABA X.
+ * 
+ * Mobile Responsive Styles
+ */
+
+/* Mobile: < 768px */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem !important;
+  }
+  
+  .card {
+    padding: 1rem !important;
+  }
+  
+  /* Stack columns on mobile */
+  .grid-columns {
+    grid-template-columns: 1fr !important;
+  }
+  
+  /* Full width buttons on mobile */
+  .button {
+    min-height: 44px; /* Touch-friendly */
+    min-width: 44px;
+  }
+  
+  /* Collapsible sidebar */
+  .sidebar {
+    position: fixed;
+    left: -100%;
+    transition: left 0.3s ease;
+    z-index: 1000;
+    background: #1a1a1a;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+  /* Header adjustments */
+  .header h1 {
+    font-size: 1.5rem !important;
+  }
+  
+  .header p {
+    font-size: 0.875rem !important;
+  }
+  
+  /* Tab navigation - scrollable */
+  .tabs {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Textarea full width */
+  textarea {
+    width: 100% !important;
+  }
+  
+  /* Input full width */
+  .input {
+    width: 100% !important;
+  }
+}
+
+/* Tablet: 768px - 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding: 1.5rem !important;
+  }
+  
+  /* Adjust grid for tablet */
+  .grid-columns {
+    grid-template-columns: 300px 1fr !important;
+  }
+}
+
+/* Desktop: > 1024px */
+@media (min-width: 1024px) {
+  /* Full desktop layout */
+  .grid-columns {
+    grid-template-columns: 350px 1fr !important;
+  }
+}

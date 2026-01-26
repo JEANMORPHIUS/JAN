@@ -19,6 +19,9 @@ import PersonaCard, { PersonaInfo } from './PersonaCard';
 import PersonaForm, { PersonaFormData } from './PersonaForm';
 import { getPersonas, createPersona, deletePersona, getPersonaFiles } from '@/api/personas';
 import { debounce, shouldVirtualize } from '@/utils/performance';
+import { VirtualizedList } from './VirtualizedList';
+import { usePersonas, useCreatePersona, useDeletePersona } from '@/hooks/usePersonas';
+import LoadingState from './LoadingState';
 
 interface PersonaListProps {
   selectedPersona: string | null;
@@ -34,11 +37,14 @@ export default function PersonaList({
   onRefresh,
 }: PersonaListProps) {
   const [showCreateForm, setShowCreateForm] = useState(false);
-  const [personas, setPersonas] = useState<PersonaInfo[]>([]);
-  const [loadingPersonas, setLoadingPersonas] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [debouncedSearchQuery, setDebouncedSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState<'name' | 'date' | 'files'>('name');
+  
+  // Use React Query for data fetching
+  const { data: personas = [], isLoading: loadingPersonas, refetch } = usePersonas();
+  const createPersonaMutation = useCreatePersona();
+  const deletePersonaMutation = useDeletePersona();
   
   // Debounce search query
   useEffect(() => {
@@ -48,39 +54,13 @@ export default function PersonaList({
     
     debounced(searchQuery);
   }, [searchQuery]);
-
+  
+  // Refetch when refresh is called
   useEffect(() => {
-    loadPersonas();
-  }, []);
-
-  const loadPersonas = async () => {
-    try {
-      setLoadingPersonas(true);
-      const personaNames = await getPersonas();
-      
-      // Load details for each persona
-      const personaDetails = await Promise.all(
-        personaNames.map(async (name) => {
-          try {
-            const files = await getPersonaFiles(name);
-            return {
-              name,
-              fileCount: files.length,
-              ruleCount: files.filter(f => f.includes('rules') || f.includes('profile')).length,
-            } as PersonaInfo;
-          } catch {
-            return { name, fileCount: 0, ruleCount: 0 } as PersonaInfo;
-          }
-        })
-      );
-      
-      setPersonas(personaDetails);
-    } catch (err) {
-      console.error('Failed to load personas:', err);
-    } finally {
-      setLoadingPersonas(false);
+    if (onRefresh) {
+      refetch();
     }
-  };
+  }, [onRefresh, refetch]);
 
   // Filter and sort personas
   const filteredAndSortedPersonas = useMemo(() => {
@@ -118,9 +98,8 @@ export default function PersonaList({
 
   const handleCreatePersona = async (data: PersonaFormData) => {
     try {
-      await createPersona(data.name);
+      await createPersonaMutation.mutateAsync(data.name);
       // TODO: Apply template based on data.template
-      await loadPersonas();
       setShowCreateForm(false);
       onSelectPersona(data.name);
       onRefresh();
@@ -131,8 +110,7 @@ export default function PersonaList({
 
   const handleDeletePersona = async (name: string) => {
     try {
-      await deletePersona(name);
-      await loadPersonas();
+      await deletePersonaMutation.mutateAsync(name);
       if (selectedPersona === name) {
         onSelectPersona('');
       }
@@ -208,9 +186,7 @@ export default function PersonaList({
       </div>
 
       {loadingPersonas ? (
-        <div className="card" role="status" aria-live="polite">
-          <div className="loading">Loading personas...</div>
-        </div>
+        <LoadingState message="Loading personas..." size="small" />
       ) : filteredAndSortedPersonas.length === 0 ? (
         <div className="card">
           <p style={{ color: '#999', fontSize: '0.875rem', textAlign: 'center' }}>
@@ -220,33 +196,52 @@ export default function PersonaList({
           </p>
         </div>
       ) : (
-        <div
-          style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}
-          role="list"
-          aria-label="Persona list"
-        >
-          {filteredAndSortedPersonas.length !== personas.length && (
-            <div
-              style={{
-                fontSize: '0.75rem',
-                color: '#999',
-                padding: '0.5rem',
-                textAlign: 'center',
-              }}
-            >
-              Showing {filteredAndSortedPersonas.length} of {personas.length} personas
-            </div>
-          )}
-          {filteredAndSortedPersonas.map((persona) => (
-            <PersonaCard
-              key={persona.name}
-              persona={persona}
-              onEdit={onSelectPersona}
-              onDelete={handleDeletePersona}
-              isSelected={selectedPersona === persona.name}
+        {needsVirtualization ? (
+          <div style={{ height: '600px' }}>
+            <VirtualizedList
+              items={filteredAndSortedPersonas}
+              estimateSize={120}
+              renderItem={(persona, index) => (
+                <div style={{ padding: '0.5rem' }}>
+                  <PersonaCard
+                    persona={persona}
+                    onEdit={onSelectPersona}
+                    onDelete={handleDeletePersona}
+                    isSelected={selectedPersona === persona.name}
+                  />
+                </div>
+              )}
             />
-          ))}
-        </div>
+          </div>
+        ) : (
+          <div
+            style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}
+            role="list"
+            aria-label="Persona list"
+          >
+            {filteredAndSortedPersonas.length !== personas.length && (
+              <div
+                style={{
+                  fontSize: '0.75rem',
+                  color: '#999',
+                  padding: '0.5rem',
+                  textAlign: 'center',
+                }}
+              >
+                Showing {filteredAndSortedPersonas.length} of {personas.length} personas
+              </div>
+            )}
+            {filteredAndSortedPersonas.map((persona) => (
+              <PersonaCard
+                key={persona.name}
+                persona={persona}
+                onEdit={onSelectPersona}
+                onDelete={handleDeletePersona}
+                isSelected={selectedPersona === persona.name}
+              />
+            ))}
+          </div>
+        )}
       )}
     </div>
   );
