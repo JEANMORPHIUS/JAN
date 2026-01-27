@@ -503,6 +503,17 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"Deployment Dashboard API error: {e}")
 
+# SCHOOL CURRICULUM API
+# Complete curriculum management for schools
+try:
+    from school_curriculum_api import router as school_curriculum_router
+    app.include_router(school_curriculum_router)
+    logger.info("School Curriculum API enabled - Curriculum management, lessons, modules, student progress, analytics")
+except ImportError as e:
+    logger.warning(f"School Curriculum API not available: {e}")
+except Exception as e:
+    logger.warning(f"School Curriculum API error: {e}")
+
 # Factual Knowledge API: Sciences, Mathematics, Verified Facts
 try:
     from factual_knowledge_api import router as factual_knowledge_router
