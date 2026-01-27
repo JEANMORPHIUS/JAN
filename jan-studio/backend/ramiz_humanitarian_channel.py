@@ -137,8 +137,8 @@ class RamizHumanitarianChannel:
         logger.info("Ramiz Humanitarian Channel initialized - Gaza Priority")
     
     def _initialize_gaza_priority(self):
-        """Initialize Gaza as priority"""
-        # Critical needs in Gaza
+        """Initialize Gaza as priority - ABSOLUTE PRIORITY"""
+        # Critical needs in Gaza - ABSOLUTE PRIORITY
         gaza_needs = [
             {
                 "need_id": "gaza_food_critical",
@@ -432,6 +432,47 @@ Peace, love, unity. No one gets left behind."""
                 "educational_content": "Humanitarian aid and helping those in need",
                 "offline_ready": True
             }
+        }
+    
+    def get_comprehensive_status(self) -> Dict[str, Any]:
+        """Get comprehensive humanitarian channel status"""
+        gaza_status = self.get_gaza_priority_status()
+        analytics = self.get_humanitarian_analytics()
+        
+        # Integrate funding status
+        try:
+            from ramiz_humanitarian_funding import get_humanitarian_funding
+            funding = get_humanitarian_funding()
+            funding_status = funding.get_gaza_funding_status()
+        except Exception as e:
+            logger.warning(f"Could not get funding status: {e}")
+            funding_status = {"status": "not_available"}
+        
+        # Integrate volunteer status
+        try:
+            from ramiz_humanitarian_volunteers import get_humanitarian_volunteers
+            volunteers = get_humanitarian_volunteers()
+            volunteer_status = volunteers.get_volunteer_analytics()
+        except Exception as e:
+            logger.warning(f"Could not get volunteer status: {e}")
+            volunteer_status = {"status": "not_available"}
+        
+        # Integrate supply chain status
+        try:
+            from ramiz_humanitarian_supply_chain import get_humanitarian_supply_chain
+            supply_chain = get_humanitarian_supply_chain()
+            supply_status = supply_chain.get_gaza_supply_status()
+        except Exception as e:
+            logger.warning(f"Could not get supply chain status: {e}")
+            supply_status = {"status": "not_available"}
+        
+        return {
+            "gaza_priority": gaza_status,
+            "analytics": analytics,
+            "funding": funding_status,
+            "volunteers": volunteer_status,
+            "supply_chain": supply_status,
+            "timestamp": datetime.now().isoformat()
         }
 
 

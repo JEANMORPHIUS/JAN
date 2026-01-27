@@ -20,6 +20,15 @@ from datetime import datetime
 from ramiz_humanitarian_channel import (
     get_humanitarian_channel, PriorityLevel, AidType, Region
 )
+from ramiz_humanitarian_funding import (
+    get_humanitarian_funding, FundingSource, FundingStatus
+)
+from ramiz_humanitarian_volunteers import (
+    get_humanitarian_volunteers, VolunteerStatus, VolunteerSkill
+)
+from ramiz_humanitarian_supply_chain import (
+    get_humanitarian_supply_chain, SupplyType, SupplyStatus
+)
 import logging
 
 logger = logging.getLogger(__name__)
@@ -442,3 +451,17 @@ async def get_humanitarian_health():
             "status": "unhealthy",
             "error": str(e)
         }
+
+
+@router.get("/comprehensive-status")
+async def get_comprehensive_status():
+    """Get comprehensive humanitarian channel status"""
+    try:
+        channel = get_humanitarian_channel()
+        return channel.get_comprehensive_status()
+    except Exception as e:
+        logger.error(f"Get comprehensive status error: {e}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail="Failed to get comprehensive status"
+        )

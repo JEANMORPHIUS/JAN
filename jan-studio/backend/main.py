@@ -537,6 +537,39 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"Ramiz Humanitarian Channel API error: {e}")
 
+# RAMIZ HUMANITARIAN FUNDING API
+# Funding, donations, dirty money cleaning integration
+try:
+    from ramiz_humanitarian_funding_api import router as ramiz_funding_router
+    app.include_router(ramiz_funding_router)
+    logger.info("Ramiz Humanitarian Funding API enabled - Funding tracking, dirty money cleaning integration")
+except ImportError as e:
+    logger.warning(f"Ramiz Humanitarian Funding API not available: {e}")
+except Exception as e:
+    logger.warning(f"Ramiz Humanitarian Funding API error: {e}")
+
+# RAMIZ HUMANITARIAN VOLUNTEERS API
+# Volunteer coordination and deployment
+try:
+    from ramiz_humanitarian_volunteers_api import router as ramiz_volunteers_router
+    app.include_router(ramiz_volunteers_router)
+    logger.info("Ramiz Humanitarian Volunteers API enabled - Volunteer coordination, deployment")
+except ImportError as e:
+    logger.warning(f"Ramiz Humanitarian Volunteers API not available: {e}")
+except Exception as e:
+    logger.warning(f"Ramiz Humanitarian Volunteers API error: {e}")
+
+# RAMIZ HUMANITARIAN SUPPLY CHAIN API
+# Supply chain management and logistics
+try:
+    from ramiz_humanitarian_supply_chain_api import router as ramiz_supply_chain_router
+    app.include_router(ramiz_supply_chain_router)
+    logger.info("Ramiz Humanitarian Supply Chain API enabled - Supply chain, logistics, delivery tracking")
+except ImportError as e:
+    logger.warning(f"Ramiz Humanitarian Supply Chain API not available: {e}")
+except Exception as e:
+    logger.warning(f"Ramiz Humanitarian Supply Chain API error: {e}")
+
 # Factual Knowledge API: Sciences, Mathematics, Verified Facts
 try:
     from factual_knowledge_api import router as factual_knowledge_router

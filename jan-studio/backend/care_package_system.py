@@ -800,6 +800,30 @@ class CarePackageSystem:
                 "message": "Humanitarian projects registry not available"
             }
         
+        # RAMIZ HUMANITARIAN CHANNEL INTEGRATION
+        # Gaza Priority - NO ONE GETS LEFT BEHIND
+        try:
+            from ramiz_humanitarian_channel import get_humanitarian_channel
+            humanitarian_channel = get_humanitarian_channel()
+            gaza_status = humanitarian_channel.get_gaza_priority_status()
+            
+            care_package["ramiz_humanitarian_channel"] = {
+                "gaza_priority": {
+                    "critical_needs": gaza_status["critical_needs"],
+                    "active_projects": gaza_status["active_projects"],
+                    "people_reached": gaza_status["people_reached"],
+                    "coverage_percentage": gaza_status["coverage_percentage"],
+                    "message": "Gaza is priority. NO ONE GETS LEFT BEHIND. Ramiz leads humanitarian channel."
+                },
+                "ramiz_message": "Children of Gaza, Uncle Ray here. You are not forgotten. You are not alone. We see you. We hear you. We are coming. Peace, love, unity. No one gets left behind."
+            }
+        except Exception as e:
+            logger.warning(f"Could not integrate Ramiz Humanitarian Channel: {e}")
+            care_package["ramiz_humanitarian_channel"] = {
+                "status": "not_available",
+                "message": "Ramiz Humanitarian Channel not available"
+            }
+        
         # Load song recommendations (Song serves mission)
         try:
             import sys
