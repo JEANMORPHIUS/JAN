@@ -441,6 +441,28 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"Could not load Educational API: {e}")
 
+# RASPBERRY PI DEPLOYMENT API
+# Complete deployment management for Raspberry Pi Scripture Kits
+try:
+    from raspberry_pi_deployment_api import router as raspberry_pi_router
+    app.include_router(raspberry_pi_router)
+    logger.info("Raspberry Pi Deployment API enabled - Package builds, deployment management, monitoring")
+except ImportError as e:
+    logger.warning(f"Raspberry Pi Deployment API not available: {e}")
+except Exception as e:
+    logger.warning(f"Raspberry Pi Deployment API error: {e}")
+
+# EDUCATION PROFESSIONAL DEPLOYMENT API
+# Complete deployment management for Education Professional channel
+try:
+    from education_professional_deployment_api import router as education_professional_router
+    app.include_router(education_professional_router)
+    logger.info("Education Professional Deployment API enabled - School deployments, licenses, analytics")
+except ImportError as e:
+    logger.warning(f"Education Professional Deployment API not available: {e}")
+except Exception as e:
+    logger.warning(f"Education Professional Deployment API error: {e}")
+
 # Factual Knowledge API: Sciences, Mathematics, Verified Facts
 try:
     from factual_knowledge_api import router as factual_knowledge_router
