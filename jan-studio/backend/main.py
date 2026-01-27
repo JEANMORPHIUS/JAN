@@ -463,6 +463,46 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"Education Professional Deployment API error: {e}")
 
+# DEPLOYMENT AUTOMATION
+# Automated builds, testing, and distribution
+try:
+    from deployment_automation import get_automation, DeploymentChannel
+    automation = get_automation()
+    
+    # Register handlers
+    from raspberry_pi_deployment_api import get_deployment_manager
+    from education_professional_deployment_api import get_education_manager
+    
+    pi_manager = get_deployment_manager()
+    edu_manager = get_education_manager()
+    
+    async def pi_build_handler(version: str):
+        return pi_manager.build_package(version)
+    
+    async def edu_build_handler(version: str):
+        # Education deployments are school-specific, not version-based
+        return {"status": "ready", "message": "Education deployments are school-specific"}
+    
+    automation.register_handler(DeploymentChannel.RASPBERRY_PI, pi_build_handler)
+    automation.register_handler(DeploymentChannel.EDUCATION_PROFESSIONAL, edu_build_handler)
+    
+    logger.info("Deployment Automation enabled - Automated builds, testing, distribution")
+except ImportError as e:
+    logger.warning(f"Deployment Automation not available: {e}")
+except Exception as e:
+    logger.warning(f"Deployment Automation error: {e}")
+
+# DEPLOYMENT DASHBOARD API
+# Real-time deployment status, analytics, and management
+try:
+    from deployment_dashboard_api import router as deployment_dashboard_router
+    app.include_router(deployment_dashboard_router)
+    logger.info("Deployment Dashboard API enabled - Real-time status, analytics, management")
+except ImportError as e:
+    logger.warning(f"Deployment Dashboard API not available: {e}")
+except Exception as e:
+    logger.warning(f"Deployment Dashboard API error: {e}")
+
 # Factual Knowledge API: Sciences, Mathematics, Verified Facts
 try:
     from factual_knowledge_api import router as factual_knowledge_router
