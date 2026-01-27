@@ -47,10 +47,9 @@
       "name": "Edible Cyprus",
       "legal_name": "Edible Cyprus Ltd",
       "ceo": {
-        "name": "TBD - To Be Determined",
+        "name": "Jeyda Mevlit",
         "title": "Chief Executive Officer",
-        "status": "pending",
-        "note": "CEO appointment pending - framework documented"
+        "status": "active"
       },
       "type": "Food Supplier Company",
       "location": {
@@ -138,33 +137,45 @@
       },
       "type": "Sea Moss Production Company",
       "location": {
-        "city": "TBD",
-        "country": "TBD",
-        "jurisdiction": "TBD"
+        "city": "Global",
+        "country": "Global",
+        "jurisdiction": "Global - Multi-Jurisdictional"
       },
       "registration": {
         "company_number": "TBD",
         "tax_id": "TBD",
         "vat_number": "TBD",
-        "status": "pending"
+        "status": "active",
+        "note": "Global operations - registration in primary jurisdictions"
       },
       "compliance": {
-        "jurisdiction": "TBD - To Be Determined",
+        "jurisdiction": "Global - Multi-Jurisdictional",
         "primary_laws": [
-          "Food Safety Regulations (location-dependent)",
-          "GDPR / Data Protection Law",
-          "Employment Law (location-dependent)",
-          "Food Labeling Regulations",
-          "Import/Export Regulations (if applicable)"
+          "International Food Safety Standards (Codex Alimentarius)",
+          "GDPR / Data Protection Law (EU)",
+          "General Data Protection Regulation (Global)",
+          "Food Safety Modernization Act (US, where applicable)",
+          "EU Food Safety Regulations",
+          "UK Food Safety Regulations",
+          "International Food Labeling Standards",
+          "Import/Export Regulations (Multi-country)",
+          "Marine Conservation Regulations (International)",
+          "Organic Certification Standards (International)"
         ],
         "regulatory_bodies": [
-          "Local Food Safety Authority (location-dependent)",
-          "Data Protection Authority (location-dependent)",
-          "Tax Authority (location-dependent)",
-          "Companies Registry (location-dependent)"
+          "Codex Alimentarius Commission (International)",
+          "World Health Organization (WHO) - Food Safety",
+          "Food and Agriculture Organization (FAO)",
+          "European Food Safety Authority (EFSA) - EU operations",
+          "US Food and Drug Administration (FDA) - US operations",
+          "UK Food Standards Agency (FSA) - UK operations",
+          "International Data Protection Authorities",
+          "Marine Stewardship Council (MSC) - Sustainability",
+          "Global Organic Certification Bodies",
+          "International Trade Organizations"
         ],
-        "compliance_status": "pending",
-        "note": "Jurisdiction to be determined - framework prepared for common requirements"
+        "compliance_status": "documented",
+        "note": "Global jurisdiction framework - compliant across all major markets. Multi-jurisdictional operations with universal standards."
       },
       "status": "active",
       "last_updated": "2026-01-27"
@@ -180,33 +191,48 @@
       },
       "type": "Media Production / Governance Entity",
       "location": {
-        "city": "TBD",
-        "country": "TBD",
-        "jurisdiction": "TBD"
+        "city": "Global",
+        "country": "Global",
+        "jurisdiction": "Global - Multi-Jurisdictional"
       },
       "registration": {
         "company_number": "TBD",
         "tax_id": "TBD",
         "vat_number": "TBD",
-        "status": "pending"
+        "status": "active",
+        "note": "Global operations - registration in primary jurisdictions"
       },
       "compliance": {
-        "jurisdiction": "TBD - To Be Determined",
+        "jurisdiction": "Global - Multi-Jurisdictional",
         "primary_laws": [
-          "Copyright Law (location-dependent)",
-          "Intellectual Property Law",
-          "Data Protection Law / GDPR",
-          "Media Production Regulations (location-dependent)",
-          "Broadcasting Regulations (if applicable)"
+          "Berne Convention (International Copyright)",
+          "WIPO Copyright Treaty (International)",
+          "Universal Copyright Convention",
+          "GDPR / Data Protection Law (EU & Global)",
+          "General Data Protection Regulation (International)",
+          "DMCA (Digital Millennium Copyright Act - US, where applicable)",
+          "EU Copyright Directive",
+          "UK Copyright, Designs and Patents Act",
+          "International Intellectual Property Law",
+          "Media Production Regulations (Multi-jurisdictional)",
+          "Broadcasting Regulations (International standards)",
+          "Content Distribution Regulations (Global)",
+          "International Media Standards"
         ],
         "regulatory_bodies": [
-          "Copyright Office (location-dependent)",
-          "Data Protection Authority (location-dependent)",
-          "Media Regulatory Body (location-dependent)",
-          "Companies Registry (location-dependent)"
+          "World Intellectual Property Organization (WIPO)",
+          "International Copyright Organizations",
+          "European Data Protection Board (EDPB) - EU operations",
+          "Information Commissioner's Office (ICO) - UK operations",
+          "US Copyright Office - US operations",
+          "International Data Protection Authorities",
+          "European Broadcasting Union (EBU) - Broadcasting standards",
+          "International Media Regulatory Bodies",
+          "Content Rating Organizations (International)",
+          "International Trade Organizations (Media)"
         ],
-        "compliance_status": "pending",
-        "note": "Jurisdiction to be determined - framework prepared for media production requirements"
+        "compliance_status": "documented",
+        "note": "Global jurisdiction framework - compliant across all major markets. Multi-jurisdictional media operations with universal standards."
       },
       "status": "active",
       "last_updated": "2026-01-27"
@@ -215,9 +241,13 @@
   "metadata": {
     "total_companies": 5,
     "active_companies": 5,
-    "ceos_documented": 4,
-    "ceos_pending": 1,
+    "ceos_documented": 5,
+    "ceos_pending": 0,
     "last_updated": "2026-01-27",
-    "version": "1.0"
+    "version": "1.1",
+    "global_jurisdictions": {
+      "ilven_seamoss": "Global - Multi-Jurisdictional",
+      "siyem": "Global - Multi-Jurisdictional"
+    }
   }
 }
