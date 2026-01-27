@@ -31,9 +31,15 @@ def auto_share_on_exit():
     Called automatically via atexit.
     """
     try:
+        # Import generate_intelligent_commit_message
+        from scripts.utils.git_automation import generate_intelligent_commit_message
+        
+        # Generate intelligent message
+        commit_message = generate_intelligent_commit_message()
+        
         result = auto_commit_and_push(
-            message=None,  # Auto-generate
-            auto_message=True,
+            message=commit_message,  # Intelligent auto-generated
+            auto_message=False,  # Already generated
             push=True,
             skip_if_clean=True
         )

@@ -222,6 +222,184 @@ def git_push(branch: Optional[str] = None, force: bool = False) -> bool:
     return result['success']
 
 
+def analyze_changes() -> Dict[str, Any]:
+    """
+    Analyze git changes to generate intelligent commit message.
+    
+    Returns:
+        Dict with change analysis
+    """
+    status = git_status()
+    
+    if not status['has_changes']:
+        return {
+            'new_files': [],
+            'modified_files': [],
+            'deleted_files': [],
+            'categories': {},
+            'summary': 'No changes'
+        }
+    
+    new_files = []
+    modified_files = []
+    deleted_files = []
+    categories = {}
+    
+    for line in status['files']:
+        if not line.strip():
+            continue
+        
+        # Parse git status line (format: "XY filename" or "?? filename")
+        parts = line.strip().split(None, 1)
+        if len(parts) < 2:
+            continue
+        
+        status_code = parts[0]
+        filepath = parts[1]
+        
+        # Categorize by file type
+        file_path = Path(filepath)
+        ext = file_path.suffix.lower()
+        parent_dir = file_path.parts[0] if file_path.parts else ''
+        
+        # Determine change type
+        if status_code == '??' or status_code.startswith('A'):
+            new_files.append(filepath)
+            change_type = 'new'
+        elif status_code.startswith('D'):
+            deleted_files.append(filepath)
+            change_type = 'deleted'
+        else:
+            modified_files.append(filepath)
+            change_type = 'modified'
+        
+        # Categorize
+        if ext == '.py':
+            category = 'Python Scripts'
+        elif ext == '.md':
+            category = 'Documentation'
+        elif ext == '.json':
+            category = 'Data/Config'
+        elif ext == '.ts' or ext == '.tsx':
+            category = 'TypeScript'
+        elif ext == '.ps1':
+            category = 'PowerShell'
+        elif ext in ['.db', '.sqlite', '.sqlite3']:
+            category = 'Database'
+        elif parent_dir in ['scripts', 'jan-studio', 'SIYEM', 'ark', 'ATILOK', 'EDIBLE_LONDON', 'EDIBLE_CYPRUS', 'ILVEN_SEAMOSS']:
+            category = parent_dir.replace('_', ' ').title()
+        else:
+            category = 'Other'
+        
+        if category not in categories:
+            categories[category] = {'new': 0, 'modified': 0, 'deleted': 0}
+        categories[category][change_type] = categories[category].get(change_type, 0) + 1
+    
+    return {
+        'new_files': new_files,
+        'modified_files': modified_files,
+        'deleted_files': deleted_files,
+        'categories': categories,
+        'summary': f"{len(new_files)} new, {len(modified_files)} modified, {len(deleted_files)} deleted"
+    }
+
+
+def generate_intelligent_commit_message() -> str:
+    """
+    Generate intelligent commit message based on changes.
+    
+    Returns:
+        Commit message string
+    """
+    analysis = analyze_changes()
+    
+    if analysis['summary'] == 'No changes':
+        return "✨ No changes to commit"
+    
+    # Build message components
+    parts = []
+    emoji = "✨"
+    
+    # Primary change summary
+    new_count = len(analysis['new_files'])
+    mod_count = len(analysis['modified_files'])
+    del_count = len(analysis['deleted_files'])
+    
+    if new_count > 0 and mod_count == 0 and del_count == 0:
+        emoji = "✨"
+        parts.append(f"✨ NEW: {new_count} file(s) created")
+    elif mod_count > 0 and new_count == 0 and del_count == 0:
+        emoji = "🔄"
+        parts.append(f"🔄 UPDATE: {mod_count} file(s) modified")
+    elif del_count > 0:
+        emoji = "🗑️"
+        parts.append(f"🗑️ REMOVE: {del_count} file(s) deleted")
+    else:
+        parts.append(f"✨ CHANGE: {analysis['summary']}")
+    
+    # Category breakdown
+    if analysis['categories']:
+        category_lines = []
+        for category, counts in sorted(analysis['categories'].items()):
+            cat_parts = []
+            if counts.get('new', 0) > 0:
+                cat_parts.append(f"{counts['new']} new")
+            if counts.get('modified', 0) > 0:
+                cat_parts.append(f"{counts['modified']} modified")
+            if counts.get('deleted', 0) > 0:
+                cat_parts.append(f"{counts['deleted']} deleted")
+            if cat_parts:
+                category_lines.append(f"- {category}: {', '.join(cat_parts)}")
+        
+        if category_lines:
+            parts.append("")
+            parts.append("Changes by category:")
+            parts.extend(category_lines)
+    
+    # Key files (top 5 most important)
+    key_files = []
+    all_files = analysis['new_files'] + analysis['modified_files']
+    
+    # Prioritize important files
+    priority_patterns = [
+        ('COMPLETE.md', 'Completion docs'),
+        ('README.md', 'Documentation'),
+        ('_COMPLETE.md', 'Completion'),
+        ('blueprint', 'Blueprints'),
+        ('system', 'Systems'),
+        ('api', 'APIs'),
+        ('integration', 'Integration'),
+    ]
+    
+    for pattern, label in priority_patterns:
+        for file in all_files:
+            if pattern.lower() in file.lower() and file not in key_files:
+                key_files.append(file)
+                if len(key_files) >= 5:
+                    break
+        if len(key_files) >= 5:
+            break
+    
+    # Add remaining files if needed
+    for file in all_files:
+        if file not in key_files and len(key_files) < 5:
+            key_files.append(file)
+    
+    if key_files:
+        parts.append("")
+        parts.append("Key files:")
+        for file in key_files[:5]:
+            # Truncate long paths
+            display_file = file if len(file) <= 60 else "..." + file[-57:]
+            parts.append(f"- {display_file}")
+    
+    # Footer
+    parts.append("")
+    parts.append("Faith. Nothing to hide. ✨🙏")
+    
+    return "\n".join(parts)
+
+
 def auto_commit_and_push(
     message: Optional[str] = None,
     auto_message: bool = True,
@@ -232,7 +410,7 @@ def auto_commit_and_push(
     Automatically stage, commit, and push all changes.
     
     Args:
-        message: Custom commit message (if None, auto-generates)
+        message: Custom commit message (if None, auto-generates intelligently)
         auto_message: Auto-generate message if None (default: True)
         push: Push to remote after commit (default: True)
         skip_if_clean: Skip if working tree is clean (default: True)
@@ -264,10 +442,9 @@ def auto_commit_and_push(
             'pushed': False
         }
     
-    # Generate commit message if needed
+    # Generate intelligent commit message if needed
     if not message and auto_message:
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        message = f"✨ Auto-commit: {timestamp}\n\nAll changes staged, committed, and shared.\n\nFaith. Nothing to hide. ✨🙏"
+        message = generate_intelligent_commit_message()
     
     results = {
         'success': True,
@@ -311,7 +488,7 @@ def auto_share_decorator(message: Optional[str] = None, push: bool = True):
             pass
     
     Args:
-        message: Commit message (auto-generated if None)
+        message: Commit message (auto-generated intelligently if None)
         push: Push to remote (default: True)
     """
     def decorator(func):
@@ -320,9 +497,19 @@ def auto_share_decorator(message: Optional[str] = None, push: bool = True):
             # Execute the function
             result = func(*args, **kwargs)
             
-            # Auto-commit and push
+            # Auto-commit and push with intelligent message
             try:
-                commit_message = message or f"✨ Auto-commit: {func.__name__}\n\nAll changes from {func.__name__} shared.\n\nFaith. Nothing to hide. ✨🙏"
+                if message:
+                    commit_message = message
+                else:
+                    # Generate intelligent message based on function name and changes
+                    analysis = analyze_changes()
+                    func_name = func.__name__.replace('_', ' ').title()
+                    commit_message = generate_intelligent_commit_message()
+                    # Prepend function context if meaningful
+                    if func_name and func_name not in ['Main', 'Wrapper']:
+                        commit_message = f"✨ {func_name}\n\n{commit_message}"
+                
                 auto_commit_and_push(message=commit_message, push=push)
             except Exception as e:
                 logger.warning(f"Auto-commit failed after {func.__name__}: {e}")
@@ -346,15 +533,24 @@ def standard_main_with_auto_share(
     
     Args:
         main_func: Main function to execute
-        message: Commit message (auto-generated if None)
+        message: Commit message (auto-generated intelligently if None)
         push: Push to remote (default: True)
     """
     try:
         # Execute main function
         result = main_func()
         
-        # Auto-commit and push
-        commit_message = message or f"✨ Auto-commit: {main_func.__name__}\n\nAll changes from {main_func.__name__} shared.\n\nFaith. Nothing to hide. ✨🙏"
+        # Auto-commit and push with intelligent message
+        if message:
+            commit_message = message
+        else:
+            # Generate intelligent message
+            commit_message = generate_intelligent_commit_message()
+            # Add function context
+            func_name = main_func.__name__.replace('_', ' ').title()
+            if func_name and func_name not in ['Main']:
+                commit_message = f"✨ {func_name}\n\n{commit_message}"
+        
         auto_commit_and_push(message=commit_message, push=push)
         
         return result
