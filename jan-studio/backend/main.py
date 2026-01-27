@@ -1656,6 +1656,17 @@ except ImportError:
         return {"status": "metrics_not_configured", "message": "Install prometheus-client to enable metrics"}
 
 
+# PERFORMANCE OPTIMIZER & API ENHANCEMENTS
+# Advanced performance optimizations and enhanced API endpoints
+try:
+    from api_enhancements import enhanced_router
+    app.include_router(enhanced_router)
+    logger.info("Performance Optimizer & API Enhancements enabled - Rate limiting, caching, performance metrics")
+except ImportError as e:
+    logger.warning(f"API Enhancements not available: {e}")
+except Exception as e:
+    logger.warning(f"API Enhancements error: {e}")
+
 # AUTOMATION ORCHESTRATOR - System Wide @ Codebase Level
 # Once connected to algorithm - runs itself. No manual checking needed.
 # The yawn - no more checking.
