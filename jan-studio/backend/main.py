@@ -514,6 +514,17 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"School Curriculum API error: {e}")
 
+# SYSTEM WIDE INTEGRATION API
+# Complete system-wide alignment and integration
+try:
+    from system_wide_integration_api import router as system_integration_router
+    app.include_router(system_integration_router)
+    logger.info("System Wide Integration API enabled - System alignment, integration status, protocol compliance")
+except ImportError as e:
+    logger.warning(f"System Wide Integration API not available: {e}")
+except Exception as e:
+    logger.warning(f"System Wide Integration API error: {e}")
+
 # Factual Knowledge API: Sciences, Mathematics, Verified Facts
 try:
     from factual_knowledge_api import router as factual_knowledge_router

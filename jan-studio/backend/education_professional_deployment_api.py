@@ -142,12 +142,38 @@ class EducationProfessionalDeploymentManager:
         school.deployment_status = DeploymentStatus.IN_PROGRESS
         school.updated_at = datetime.now()
         
+        # System-wide integration: Initialize curriculum for school
+        curriculum_created = False
+        try:
+            from school_curriculum_manager import get_curriculum_manager
+            curriculum_manager = get_curriculum_manager()
+            
+            # Create default curriculum for school
+            default_modules = ["module_loyalty", "module_divine_keys"]
+            default_age_groups = [AgeGroup.AGES_8_10, AgeGroup.AGES_11_13]
+            default_languages = [Language.ENGLISH, Language.TURKISH]
+            
+            curriculum = curriculum_manager.create_curriculum(
+                school_id=school_id,
+                name=f"{school.school_name} - Default Curriculum",
+                description=f"Default curriculum for {school.school_name}",
+                module_ids=default_modules,
+                age_groups=default_age_groups,
+                languages=default_languages,
+                duration_weeks=52
+            )
+            
+            curriculum_created = True
+            school.configuration["curriculum_id"] = curriculum.curriculum_id
+        except Exception as e:
+            logger.warning(f"Could not create curriculum for school: {e}")
+        
         # Simulate deployment process
         # In production, this would:
         # 1. Create school tenant in multi-tenant system
         # 2. Configure school-specific settings
         # 3. Set up teacher/student accounts
-        # 4. Initialize curriculum
+        # 4. Initialize curriculum (done above)
         # 5. Send deployment notification
         
         # Mark as completed
@@ -160,7 +186,8 @@ class EducationProfessionalDeploymentManager:
             "action": "deployed",
             "school_id": school_id,
             "timestamp": datetime.now().isoformat(),
-            "configuration": configuration
+            "configuration": configuration,
+            "curriculum_created": curriculum_created
         })
         
         return {
@@ -168,7 +195,9 @@ class EducationProfessionalDeploymentManager:
             "school_id": school_id,
             "deployment_date": school.deployment_date.isoformat(),
             "api_key": school.api_key,
-            "access_url": f"https://education.siyem.org/schools/{school_id}"
+            "access_url": f"https://education.siyem.org/schools/{school_id}",
+            "curriculum_created": curriculum_created,
+            "curriculum_id": school.configuration.get("curriculum_id") if curriculum_created else None
         }
     
     def get_school(self, school_id: str) -> SchoolDeployment:
