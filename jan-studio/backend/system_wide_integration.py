@@ -188,6 +188,16 @@ class SystemWideIntegration:
             protocols=["Noah Protocol"],
             integration_points=["education_professional_deployment", "raspberry_pi_deployment", "school_curriculum"]
         )
+        
+        # Humanitarian Systems
+        self.systems["ramiz_humanitarian_channel"] = SystemIntegration(
+            system_id="ramiz_humanitarian_channel",
+            system_name="Ramiz Humanitarian Channel",
+            category=SystemCategory.CHANNEL,
+            status=IntegrationStatus.FULLY_INTEGRATED,
+            protocols=["Noah Protocol", "Arrival Protocol"],
+            integration_points=["school_curriculum", "raspberry_pi_deployment", "education_professional_deployment", "monitoring"]
+        )
     
     def _map_integrations(self):
         """Map all integrations"""

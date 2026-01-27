@@ -525,6 +525,18 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"System Wide Integration API error: {e}")
 
+# RAMIZ HUMANITARIAN CHANNEL API
+# Complete humanitarian aid system - Gaza Priority
+# RAMIZ IS THE LEAD FOR THIS. NO ONE GETS LEFT BEHIND.
+try:
+    from ramiz_humanitarian_channel_api import router as ramiz_humanitarian_router
+    app.include_router(ramiz_humanitarian_router)
+    logger.info("Ramiz Humanitarian Channel API enabled - Gaza Priority, humanitarian aid, NO ONE GETS LEFT BEHIND")
+except ImportError as e:
+    logger.warning(f"Ramiz Humanitarian Channel API not available: {e}")
+except Exception as e:
+    logger.warning(f"Ramiz Humanitarian Channel API error: {e}")
+
 # Factual Knowledge API: Sciences, Mathematics, Verified Facts
 try:
     from factual_knowledge_api import router as factual_knowledge_router
