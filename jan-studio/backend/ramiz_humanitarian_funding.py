@@ -104,6 +104,25 @@ class RamizHumanitarianFunding:
         # Track Gaza priority funding
         if project_id == "gaza_comprehensive_aid":
             self.gaza_priority_funding += amount
+            
+            # Send monitoring alert for Gaza funding
+            try:
+                from monitoring_enhancements import get_monitoring, AlertLevel
+                monitoring = get_monitoring()
+                monitoring.add_alert(
+                    AlertLevel.INFO,
+                    f"Gaza Funding Received: {amount} {currency} from {source.value}",
+                    "ramiz_humanitarian_funding",
+                    {
+                        "funding_id": funding_id,
+                        "amount": amount,
+                        "currency": currency,
+                        "source": source.value,
+                        "gaza_priority": True
+                    }
+                )
+            except Exception as e:
+                logger.warning(f"Could not send monitoring alert: {e}")
         
         # Update project allocation
         self.project_allocations[project_id] = self.project_allocations.get(project_id, 0.0) + amount

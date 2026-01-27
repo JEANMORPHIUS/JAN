@@ -143,6 +143,24 @@ class RamizHumanitarianVolunteers:
         if gaza_priority:
             if volunteer_id not in self.gaza_volunteers:
                 self.gaza_volunteers.append(volunteer_id)
+            
+            # Send monitoring alert for Gaza volunteer
+            try:
+                from monitoring_enhancements import get_monitoring, AlertLevel
+                monitoring = get_monitoring()
+                monitoring.add_alert(
+                    AlertLevel.INFO,
+                    f"Gaza Priority Volunteer Registered: {name} - Skills: {[s.value for s in skill_enums]}",
+                    "ramiz_humanitarian_volunteers",
+                    {
+                        "volunteer_id": volunteer_id,
+                        "name": name,
+                        "skills": [s.value for s in skill_enums],
+                        "gaza_priority": True
+                    }
+                )
+            except Exception as e:
+                logger.warning(f"Could not send monitoring alert: {e}")
         
         logger.info(f"Volunteer registered: {volunteer_id}, Name: {name}, Gaza Priority: {gaza_priority}")
         

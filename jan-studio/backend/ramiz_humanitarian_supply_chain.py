@@ -125,6 +125,28 @@ class RamizHumanitarianSupplyChain:
         if project_id == "gaza_comprehensive_aid" or priority == "critical":
             if order_id not in self.gaza_orders:
                 self.gaza_orders.append(order_id)
+            
+            # Send monitoring alert for Gaza supply order
+            try:
+                from monitoring_enhancements import get_monitoring, AlertLevel
+                monitoring = get_monitoring()
+                alert_level = AlertLevel.CRITICAL if priority == "critical" else AlertLevel.INFO
+                monitoring.add_alert(
+                    alert_level,
+                    f"Gaza Supply Order: {quantity} {unit} of {supply_type.value} - Priority: {priority}",
+                    "ramiz_humanitarian_supply_chain",
+                    {
+                        "order_id": order_id,
+                        "project_id": project_id,
+                        "supply_type": supply_type.value,
+                        "quantity": quantity,
+                        "unit": unit,
+                        "priority": priority,
+                        "gaza_priority": True
+                    }
+                )
+            except Exception as e:
+                logger.warning(f"Could not send monitoring alert: {e}")
         
         logger.info(f"Supply order created: {order_id}, Type: {supply_type.value}, Quantity: {quantity} {unit}")
         

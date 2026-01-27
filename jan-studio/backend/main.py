@@ -570,6 +570,17 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"Ramiz Humanitarian Supply Chain API error: {e}")
 
+# RAMIZ HUMANITARIAN COMMUNICATIONS API
+# Communication system for humanitarian operations
+try:
+    from ramiz_humanitarian_communications_api import router as ramiz_communications_router
+    app.include_router(ramiz_communications_router)
+    logger.info("Ramiz Humanitarian Communications API enabled - Communications, alerts, coordination")
+except ImportError as e:
+    logger.warning(f"Ramiz Humanitarian Communications API not available: {e}")
+except Exception as e:
+    logger.warning(f"Ramiz Humanitarian Communications API error: {e}")
+
 # Factual Knowledge API: Sciences, Mathematics, Verified Facts
 try:
     from factual_knowledge_api import router as factual_knowledge_router

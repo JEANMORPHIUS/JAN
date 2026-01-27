@@ -134,7 +134,33 @@ class RamizHumanitarianChannel:
         # Initialize Gaza as priority
         self._initialize_gaza_priority()
         
+        # Initialize monitoring integration
+        self._initialize_monitoring()
+        
         logger.info("Ramiz Humanitarian Channel initialized - Gaza Priority")
+    
+    def _initialize_monitoring(self):
+        """Initialize monitoring integration for real-time alerts"""
+        try:
+            from monitoring_enhancements import get_monitoring, AlertLevel
+            monitoring = get_monitoring()
+            
+            # Register Gaza priority alert
+            monitoring.add_alert(
+                AlertLevel.CRITICAL,
+                "Gaza Priority: 2.3M people in critical need - Food, Water, Medical, Shelter, Education, Psychosocial",
+                "ramiz_humanitarian_channel",
+                {
+                    "region": "Gaza",
+                    "priority": "CRITICAL",
+                    "population": 2300000,
+                    "critical_needs": 6
+                }
+            )
+            
+            logger.info("Monitoring integration initialized - Gaza priority alerts active")
+        except Exception as e:
+            logger.warning(f"Could not initialize monitoring: {e}")
     
     def _initialize_gaza_priority(self):
         """Initialize Gaza as priority - ABSOLUTE PRIORITY"""
@@ -301,6 +327,27 @@ Peace, love, unity. No one gets left behind."""
         if project:
             project.current_reach += int(quantity) if unit in ["people", "families", "children"] else 0
             project.updated_at = datetime.now()
+        
+        # Send monitoring alert for Gaza aid delivery
+        if region == Region.GAZA:
+            try:
+                from monitoring_enhancements import get_monitoring, AlertLevel
+                monitoring = get_monitoring()
+                monitoring.add_alert(
+                    AlertLevel.INFO,
+                    f"Gaza Aid Delivered: {quantity} {unit} of {aid_type.value} to {delivered_to}",
+                    "ramiz_humanitarian_channel",
+                    {
+                        "aid_id": aid_id,
+                        "project_id": project_id,
+                        "aid_type": aid_type.value,
+                        "quantity": quantity,
+                        "unit": unit,
+                        "delivered_to": delivered_to
+                    }
+                )
+            except Exception as e:
+                logger.warning(f"Could not send monitoring alert: {e}")
         
         return aid
     
