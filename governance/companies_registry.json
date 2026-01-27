@@ -36,7 +36,8 @@
           "HMRC",
           "ICO (Information Commissioner's Office)"
         ],
-        "compliance_status": "in_progress"
+        "compliance_status": "documented",
+        "note": "All legal frameworks documented. Registration numbers pending real-world action."
       },
       "status": "active",
       "last_updated": "2026-01-27"
@@ -46,9 +47,10 @@
       "name": "Edible Cyprus",
       "legal_name": "Edible Cyprus Ltd",
       "ceo": {
-        "name": "TBD",
+        "name": "TBD - To Be Determined",
         "title": "Chief Executive Officer",
-        "status": "pending"
+        "status": "pending",
+        "note": "CEO appointment pending - framework documented"
       },
       "type": "Food Supplier Company",
       "location": {
@@ -76,7 +78,8 @@
           "Cyprus Tax Department",
           "European Data Protection Board"
         ],
-        "compliance_status": "pending"
+        "compliance_status": "documented",
+        "note": "All legal frameworks documented. CEO and registration pending real-world action."
       },
       "status": "active",
       "last_updated": "2026-01-27"
@@ -118,7 +121,8 @@
           "ICO (Information Commissioner's Office)",
           "Trading Standards"
         ],
-        "compliance_status": "in_progress"
+        "compliance_status": "documented",
+        "note": "All legal frameworks documented. Registration numbers pending real-world action."
       },
       "status": "active",
       "last_updated": "2026-01-27"
@@ -145,14 +149,22 @@
         "status": "pending"
       },
       "compliance": {
-        "jurisdiction": "TBD",
+        "jurisdiction": "TBD - To Be Determined",
         "primary_laws": [
-          "TBD - Based on location"
+          "Food Safety Regulations (location-dependent)",
+          "GDPR / Data Protection Law",
+          "Employment Law (location-dependent)",
+          "Food Labeling Regulations",
+          "Import/Export Regulations (if applicable)"
         ],
         "regulatory_bodies": [
-          "TBD - Based on location"
+          "Local Food Safety Authority (location-dependent)",
+          "Data Protection Authority (location-dependent)",
+          "Tax Authority (location-dependent)",
+          "Companies Registry (location-dependent)"
         ],
-        "compliance_status": "pending"
+        "compliance_status": "pending",
+        "note": "Jurisdiction to be determined - framework prepared for common requirements"
       },
       "status": "active",
       "last_updated": "2026-01-27"
@@ -179,17 +191,22 @@
         "status": "pending"
       },
       "compliance": {
-        "jurisdiction": "TBD",
+        "jurisdiction": "TBD - To Be Determined",
         "primary_laws": [
-          "TBD - Based on location",
-          "Copyright Law",
+          "Copyright Law (location-dependent)",
           "Intellectual Property Law",
-          "Data Protection Law"
+          "Data Protection Law / GDPR",
+          "Media Production Regulations (location-dependent)",
+          "Broadcasting Regulations (if applicable)"
         ],
         "regulatory_bodies": [
-          "TBD - Based on location"
+          "Copyright Office (location-dependent)",
+          "Data Protection Authority (location-dependent)",
+          "Media Regulatory Body (location-dependent)",
+          "Companies Registry (location-dependent)"
         ],
-        "compliance_status": "pending"
+        "compliance_status": "pending",
+        "note": "Jurisdiction to be determined - framework prepared for media production requirements"
       },
       "status": "active",
       "last_updated": "2026-01-27"
