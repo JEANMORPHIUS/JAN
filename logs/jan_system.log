@@ -1,0 +1,109 @@
+2026-01-20 03:26:15 - root - INFO - JAN logging system initialized
+2026-01-20 03:26:15 - root - INFO - Log level: INFO
+2026-01-20 03:26:15 - root - INFO - Log directory: S:\JAN\logs
+2026-01-20 03:26:15 - root - INFO - JAN logging system initialized
+2026-01-20 03:26:15 - root - INFO - Log level: INFO
+2026-01-20 03:26:15 - root - INFO - Log directory: S:\JAN\logs
+2026-01-20 03:29:30 - root - INFO - JAN logging system initialized
+2026-01-20 03:29:30 - root - INFO - Log level: INFO
+2026-01-20 03:29:30 - root - INFO - Log directory: S:\JAN\logs
+2026-01-20 03:30:51 - root - INFO - JAN logging system initialized
+2026-01-20 03:30:51 - root - INFO - Log level: INFO
+2026-01-20 03:30:51 - root - INFO - Log directory: S:\JAN\logs
+2026-01-20 03:31:48 - root - INFO - JAN logging system initialized
+2026-01-20 03:31:48 - root - INFO - Log level: INFO
+2026-01-20 03:31:48 - root - INFO - Log directory: S:\JAN\logs
+2026-01-20 03:40:26 - root - INFO - JAN logging system initialized
+2026-01-20 03:40:26 - root - INFO - Log level: INFO
+2026-01-20 03:40:26 - root - INFO - Log directory: S:\JAN\logs
+2026-01-20 03:40:26 - __main__ - INFO - Exported statistics to: S:\JAN\output\exports\heritage_statistics_20260120_034026.json
+2026-01-20 03:40:47 - root - INFO - JAN logging system initialized
+2026-01-20 03:40:47 - root - INFO - Log level: INFO
+2026-01-20 03:40:47 - root - INFO - Log directory: S:\JAN\logs
+2026-01-20 03:40:47 - __main__ - INFO - Exported 13 sites to JSON: S:\JAN\output\exports\heritage_sites_all_20260120_034047.json
+2026-01-20 03:40:47 - __main__ - INFO - Exported 13 sites to CSV: S:\JAN\output\exports\heritage_sites_all_20260120_034047.csv
+2026-01-20 03:40:47 - __main__ - INFO - Exported 13 sites to Markdown: S:\JAN\output\exports\heritage_sites_all_20260120_034047.md
+2026-01-20 03:40:47 - __main__ - INFO - Exported 7 sites to GeoJSON: S:\JAN\output\exports\heritage_sites_geojson_20260120_034047.geojson
+2026-01-20 03:40:47 - __main__ - INFO - Exported 13 sites to HTML: S:\JAN\output\exports\heritage_sites_all_20260120_034047.html
+2026-01-20 03:40:47 - __main__ - INFO - Exported statistics to: S:\JAN\output\exports\heritage_statistics_20260120_034047.json
+2026-01-20 03:41:19 - root - INFO - JAN logging system initialized
+2026-01-20 03:41:19 - root - INFO - Log level: INFO
+2026-01-20 03:41:19 - root - INFO - Log directory: S:\JAN\logs
+2026-01-20 03:41:19 - heritage_data_export - INFO - Exported 13 sites to JSON: S:\JAN\output\exports\heritage_sites_all_20260120_034119.json
+2026-01-20 03:41:19 - heritage_data_export - INFO - Exported 13 sites to CSV: S:\JAN\output\exports\heritage_sites_all_20260120_034119.csv
+2026-01-20 03:41:19 - heritage_data_export - INFO - Exported 13 sites to Markdown: S:\JAN\output\exports\heritage_sites_all_20260120_034119.md
+2026-01-20 03:41:19 - heritage_data_export - INFO - Exported 7 sites to GeoJSON: S:\JAN\output\exports\heritage_sites_geojson_20260120_034119.geojson
+2026-01-20 03:41:19 - heritage_data_export - INFO - Exported 13 sites to HTML: S:\JAN\output\exports\heritage_sites_all_20260120_034119.html
+2026-01-20 03:41:39 - root - INFO - JAN logging system initialized
+2026-01-20 03:41:39 - root - INFO - Log level: INFO
+2026-01-20 03:41:39 - root - INFO - Log directory: S:\JAN\logs
+2026-01-20 03:41:39 - heritage_data_export - INFO - Exported 13 sites to JSON: S:\JAN\output\exports\heritage_sites_all_20260120_034139.json
+2026-01-20 03:41:39 - heritage_data_export - INFO - Exported 13 sites to CSV: S:\JAN\output\exports\heritage_sites_all_20260120_034139.csv
+2026-01-20 03:41:39 - heritage_data_export - INFO - Exported 13 sites to Markdown: S:\JAN\output\exports\heritage_sites_all_20260120_034139.md
+2026-01-20 03:41:39 - heritage_data_export - INFO - Exported 7 sites to GeoJSON: S:\JAN\output\exports\heritage_sites_geojson_20260120_034139.geojson
+2026-01-20 03:41:39 - heritage_data_export - INFO - Exported 13 sites to HTML: S:\JAN\output\exports\heritage_sites_all_20260120_034139.html
+2026-01-20 03:41:39 - heritage_data_export - INFO - Exported statistics to: S:\JAN\output\exports\heritage_statistics_20260120_034139.json
+2026-01-20 03:41:39 - heritage_data_export - INFO - Exported 13 sites to HTML: S:\JAN\output\web\heritage_index_20260120.html
+2026-01-20 03:46:24 - root - INFO - JAN logging system initialized
+2026-01-20 03:46:24 - root - INFO - Log level: INFO
+2026-01-20 03:46:24 - root - INFO - Log directory: S:\JAN\logs
+2026-01-20 03:46:59 - root - INFO - JAN logging system initialized
+2026-01-20 03:46:59 - root - INFO - Log level: INFO
+2026-01-20 03:46:59 - root - INFO - Log directory: S:\JAN\logs
+2026-01-20 03:47:00 - __main__ - INFO - Exported statistics to: S:\JAN\output\exports\heritage_statistics_20260120_034700.json
+2026-01-20 03:49:19 - root - INFO - JAN logging system initialized
+2026-01-20 03:49:19 - root - INFO - Log level: INFO
+2026-01-20 03:49:19 - root - INFO - Log directory: S:\JAN\logs
+2026-01-20 03:49:19 - __main__ - INFO - Exported 138 sites to JSON: S:\JAN\output\exports\heritage_sites_all_20260120_034919.json
+2026-01-20 03:49:19 - __main__ - INFO - Exported 138 sites to CSV: S:\JAN\output\exports\heritage_sites_all_20260120_034919.csv
+2026-01-20 03:49:19 - __main__ - INFO - Exported 138 sites to Markdown: S:\JAN\output\exports\heritage_sites_all_20260120_034919.md
+2026-01-20 03:49:19 - __main__ - INFO - Exported 72 sites to GeoJSON: S:\JAN\output\exports\heritage_sites_geojson_20260120_034919.geojson
+2026-01-20 03:49:19 - __main__ - INFO - Exported 138 sites to HTML: S:\JAN\output\exports\heritage_sites_all_20260120_034919.html
+2026-01-20 03:49:19 - __main__ - INFO - Exported statistics to: S:\JAN\output\exports\heritage_statistics_20260120_034919.json
+2026-01-20 03:49:34 - root - INFO - JAN logging system initialized
+2026-01-20 03:49:34 - root - INFO - Log level: INFO
+2026-01-20 03:49:34 - root - INFO - Log directory: S:\JAN\logs
+2026-01-20 03:49:34 - heritage_data_export - INFO - Exported 138 sites to JSON: S:\JAN\output\exports\heritage_sites_all_20260120_034934.json
+2026-01-20 03:49:34 - heritage_data_export - INFO - Exported 138 sites to CSV: S:\JAN\output\exports\heritage_sites_all_20260120_034934.csv
+2026-01-20 03:49:34 - heritage_data_export - INFO - Exported 138 sites to Markdown: S:\JAN\output\exports\heritage_sites_all_20260120_034934.md
+2026-01-20 03:49:34 - heritage_data_export - INFO - Exported 72 sites to GeoJSON: S:\JAN\output\exports\heritage_sites_geojson_20260120_034934.geojson
+2026-01-20 03:49:34 - heritage_data_export - INFO - Exported 138 sites to HTML: S:\JAN\output\exports\heritage_sites_all_20260120_034934.html
+2026-01-20 03:49:34 - heritage_data_export - INFO - Exported statistics to: S:\JAN\output\exports\heritage_statistics_20260120_034934.json
+2026-01-20 03:49:34 - heritage_data_export - INFO - Exported 138 sites to HTML: S:\JAN\output\web\heritage_index_20260120.html
+2026-01-20 04:17:03 - root - INFO - JAN logging system initialized
+2026-01-20 04:17:03 - root - INFO - Log level: INFO
+2026-01-20 04:17:03 - root - INFO - Log directory: S:\JAN\logs
+2026-01-20 04:17:03 - __main__ - INFO - Exported statistics to: S:\JAN\output\exports\heritage_statistics_20260120_041703.json
+2026-01-20 04:17:39 - root - INFO - JAN logging system initialized
+2026-01-20 04:17:39 - root - INFO - Log level: INFO
+2026-01-20 04:17:39 - root - INFO - Log directory: S:\JAN\logs
+2026-01-20 04:17:39 - __main__ - INFO - Exported 138 sites to JSON: S:\JAN\output\exports\heritage_sites_20260120_041739.json
+2026-01-20 04:18:08 - root - INFO - JAN logging system initialized
+2026-01-20 04:18:08 - root - INFO - Log level: INFO
+2026-01-20 04:18:08 - root - INFO - Log directory: S:\JAN\logs
+2026-01-20 04:18:08 - heritage_data_export - INFO - Exported 138 sites to JSON: S:\JAN\output\exports\heritage_sites_all_20260120_041808.json
+2026-01-20 04:18:08 - heritage_data_export - INFO - Exported 138 sites to CSV: S:\JAN\output\exports\heritage_sites_all_20260120_041808.csv
+2026-01-20 04:18:08 - heritage_data_export - INFO - Exported 138 sites to Markdown: S:\JAN\output\exports\heritage_sites_all_20260120_041808.md
+2026-01-20 04:18:08 - heritage_data_export - INFO - Exported 72 sites to GeoJSON: S:\JAN\output\exports\heritage_sites_geojson_20260120_041808.geojson
+2026-01-20 04:18:08 - heritage_data_export - INFO - Exported 138 sites to HTML: S:\JAN\output\exports\heritage_sites_all_20260120_041808.html
+2026-01-20 04:18:08 - heritage_data_export - INFO - Exported statistics to: S:\JAN\output\exports\heritage_statistics_20260120_041808.json
+2026-01-20 04:18:08 - heritage_data_export - INFO - Exported 138 sites to HTML: S:\JAN\output\web\heritage_index_20260120.html
+2026-01-21 16:57:21 - root - INFO - JAN logging system initialized
+2026-01-21 16:57:21 - root - INFO - Log level: INFO
+2026-01-21 16:57:21 - root - INFO - Log directory: S:\JAN\logs
+2026-01-21 16:57:21 - heritage_audit_framework - INFO - Heritage Audit Framework initialized
+2026-01-21 16:57:22 - heritage_audit_framework - INFO - Heritage audit completed for Yellowstone National Park (ID: 144)
+2026-01-21 16:58:10 - root - INFO - JAN logging system initialized
+2026-01-21 16:58:10 - root - INFO - Log level: INFO
+2026-01-21 16:58:10 - root - INFO - Log directory: S:\JAN\logs
+2026-01-21 16:58:10 - heritage_audit_framework - INFO - Heritage Audit Framework initialized
+2026-01-21 16:58:10 - heritage_audit_framework - INFO - Heritage audit completed for Yellowstone National Park (ID: 144)
+2026-01-25 07:55:36 - root - INFO - JAN logging system initialized
+2026-01-25 07:55:36 - root - INFO - Log level: INFO
+2026-01-25 07:55:36 - root - INFO - Log directory: S:\JAN\logs
+2026-01-25 07:55:36 - heritage_audit_framework - INFO - Heritage Audit Framework initialized
+2026-01-25 07:55:38 - heritage_audit_framework - INFO - Heritage audit completed for Great Wall of China (ID: 146)
+2026-01-25 07:55:41 - heritage_audit_framework - INFO - Heritage audit completed for Petra (ID: 148)
+2026-01-25 07:55:43 - heritage_audit_framework - INFO - Heritage audit completed for Colosseum (ID: 149)
+2026-01-25 07:55:46 - heritage_audit_framework - INFO - Heritage audit completed for Chichén Itzá (ID: 150)
+2026-01-25 07:55:48 - heritage_audit_framework - INFO - Heritage audit completed for Christ the Redeemer (ID: 152)

@@ -1,0 +1,20 @@
+2026-01-20 06:01:34,714 - main - INFO - Protocol of Loyalty middleware enabled
+2026-01-20 06:01:35,060 - database - INFO - Database pool initialized: S:\JAN\jan-studio\backend\temporal_heritage_registry.db (pool_size=5)
+2026-01-20 06:01:35,086 - main - INFO - Heritage Archive API enabled
+2026-01-20 06:01:35,087 - main - INFO - Health Tracking API enabled
+2026-01-20 06:01:35,101 - main - INFO - Unified Global Access API enabled
+2026-01-20 06:01:35,110 - main - INFO - Connection Ritual endpoint enabled
+2026-01-20 06:01:35,111 - main - INFO - Vibration Map endpoint enabled
+2026-01-20 06:01:35,113 - main - INFO - Energy Alert System enabled
+2026-01-20 06:01:35,117 - main - INFO - Quiet Protocol Sentinel enabled
+2026-01-20 06:01:35,126 - main - INFO - Morning Summary Generator enabled
+INFO:     Started server process [27060]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Warning: Shell/Seed integration not available: No module named 'shell_seed_translator'
+Warning: Could not load auth_router: JWT_SECRET_KEY must be set in environment variables. Never use the default secret in production!
+INFO:     127.0.0.1:52572 - "GET / HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:52597 - "GET /docs HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:52628 - "GET /api/heritage/sanctuary/status HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:56455 - "GET /health HTTP/1.1" 403 Forbidden

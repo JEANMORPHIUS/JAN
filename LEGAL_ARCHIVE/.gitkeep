@@ -1,0 +1,3 @@
+# This file ensures the LEGAL_ARCHIVE directory is tracked by git
+# The directory itself is ignored, but this file can be committed if needed
+# Actual legal documentation files are NOT committed

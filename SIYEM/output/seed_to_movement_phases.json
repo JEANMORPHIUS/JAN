@@ -1,0 +1,13 @@
+{
+  "completed_phases": [
+    "root",
+    "stem",
+    "flower",
+    "fruit",
+    "movement",
+    "sprout",
+    "leaf",
+    "seed"
+  ],
+  "current_phase_override": "movement"
+}

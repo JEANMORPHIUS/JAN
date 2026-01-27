@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-01-21T23:34:10.642608",
+  "systems_synced": [
+    {
+      "system": "Pulse System",
+      "status": "synced",
+      "total_systems": 13
+    },
+    {
+      "system": "Deep Search Frequency Opportunities",
+      "status": "synced",
+      "total_domains": 24
+    },
+    {
+      "system": "Free Will System",
+      "status": "synced",
+      "decisions": 4,
+      "paths": 0
+    },
+    {
+      "system": "Financial Controls",
+      "status": "synced",
+      "revenue_channels": 0,
+      "expense_categories": 0
+    }
+  ],
+  "projects_integrated": [
+    {
+      "name": "world-history-app",
+      "type": "Next.js",
+      "port": 3001,
+      "status": "integrated"
+    },
+    {
+      "name": "pi-display",
+      "type": "Vite/React",
+      "port": 5173,
+      "status": "integrated"
+    },
+    {
+      "name": "admin-dashboard",
+      "type": "React",
+      "port": 3000,
+      "status": "integrated"
+    },
+    {
+      "name": "jan-studio-backend",
+      "type": "FastAPI",
+      "port": 8000,
+      "status": "integrated"
+    }
+  ],
+  "domains_available": [
+    {
+      "domain": "immigration_services",
+      "status": "available",
+      "opportunities": 1
+    },
+    {
+      "domain": "foreign_investment_analysis",
+      "status": "available",
+      "opportunities": 1
+    },
+    {
+      "domain": "philanthropic_finance",
+      "status": "available",
+      "opportunities": 1
+    }
+  ],
+  "status": "synced"
+}

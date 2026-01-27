@@ -1,0 +1,642 @@
+{
+  "timestamp": "2026-01-21T23:30:25.593177",
+  "domains_searched": [
+    "web",
+    "socials",
+    "business",
+    "e-commerce",
+    "global_supply_chain",
+    "crypto_projects",
+    "transport",
+    "private_services",
+    "public_services",
+    "corporate",
+    "hollywood",
+    "music",
+    "education",
+    "healthcare",
+    "energy",
+    "agriculture",
+    "technology",
+    "finance",
+    "real_estate",
+    "manufacturing",
+    "immigration_services",
+    "foreign_investment_analysis",
+    "philanthropic_finance"
+  ],
+  "total_opportunities": 32,
+  "top_opportunities": [
+    {
+      "opportunity_id": "immigration_001",
+      "domain": "immigration_services",
+      "title": "UK Family Visa Services for Georgian Nationals",
+      "description": "Immigration services helping Georgian mothers and families navigate UK visa requirements, family reunification, and legal pathways. Focus on ethical, transparent, community-centered immigration support.",
+      "source": "Immigration Services/UK",
+      "frequency_score": 0.3116666666666667,
+      "impact_potential": 0.75,
+      "alignment_factors": [
+        "Community",
+        "Spiritual: Reuniting families serves love and community. Help",
+        "Ethical",
+        "Unity",
+        "Hidden Spiritual Alignment",
+        "Transparent"
+      ],
+      "opportunity_type": "service",
+      "accessibility": 0.7,
+      "urgency": 0.9
+    },
+    {
+      "opportunity_id": "fie_001",
+      "domain": "foreign_investment_analysis",
+      "title": "FIE Analyst Services - Ethical Foreign Investment Analysis",
+      "description": "Foreign Investment Enterprise (FIE) analysis services focused on ethical investment, compliance transparency, and community benefit. Helping businesses navigate international investment with integrity.",
+      "source": "Investment Analysis/International Business",
+      "frequency_score": 0.25,
+      "impact_potential": 0.6833333333333332,
+      "alignment_factors": [
+        "Community",
+        "Ethical",
+        "Unity",
+        "Hidden Spiritual Alignment",
+        "Spiritual: Ethical foreign investment analysis promotes trans"
+      ],
+      "opportunity_type": "service",
+      "accessibility": 0.6,
+      "urgency": 0.7
+    },
+    {
+      "opportunity_id": "agriculture_001",
+      "domain": "agriculture",
+      "title": "Regenerative Agriculture and Food Systems",
+      "description": "Sustainable and regenerative agriculture projects focused on community nourishment, environmental restoration, and food security. Aligned with stewardship and The Table.",
+      "source": "Agriculture/Development",
+      "frequency_score": 0.24,
+      "impact_potential": 0.8333333333333334,
+      "alignment_factors": [
+        "Community",
+        "Regenerative",
+        "Restoration",
+        "Nourishment",
+        "Unity",
+        "Stewardship"
+      ],
+      "opportunity_type": "partnership",
+      "accessibility": 0.75,
+      "urgency": 0.85
+    },
+    {
+      "opportunity_id": "agriculture_002",
+      "domain": "agriculture",
+      "title": "Farmer Mental Health and Well-Being Programs",
+      "description": "Programs supporting farmer mental health and well-being, recognizing the importance of caring for those who feed us. Aligned with community service and healing.",
+      "source": "Agriculture/Health",
+      "frequency_score": 0.16,
+      "impact_potential": 0.7666666666666666,
+      "alignment_factors": [
+        "Healing",
+        "Community",
+        "Unity"
+      ],
+      "opportunity_type": "partnership",
+      "accessibility": 0.7,
+      "urgency": 0.8
+    },
+    {
+      "opportunity_id": "education_001",
+      "domain": "education",
+      "title": "High Frequency Opportunities in Education",
+      "description": "Opportunities in education domain aligned with truth, love, and community.",
+      "source": "Various",
+      "frequency_score": 0.16,
+      "impact_potential": 0.6999999999999998,
+      "alignment_factors": [
+        "Community",
+        "Empowerment",
+        "Knowledge Sharing",
+        "Love",
+        "Unity",
+        "Truth"
+      ],
+      "opportunity_type": "exploration",
+      "accessibility": 0.7,
+      "urgency": 0.6
+    },
+    {
+      "opportunity_id": "healthcare_001",
+      "domain": "healthcare",
+      "title": "High Frequency Opportunities in Healthcare",
+      "description": "Opportunities in healthcare domain aligned with truth, love, and community.",
+      "source": "Various",
+      "frequency_score": 0.16,
+      "impact_potential": 0.6999999999999998,
+      "alignment_factors": [
+        "Community",
+        "Love",
+        "Truth",
+        "Unity"
+      ],
+      "opportunity_type": "exploration",
+      "accessibility": 0.7,
+      "urgency": 0.6
+    },
+    {
+      "opportunity_id": "philanthropic_005",
+      "domain": "philanthropic_finance",
+      "title": "SEED Foundation - Sustainable Agriculture in Sub-Saharan Africa",
+      "description": "SEED Foundation promotes sustainable agriculture and food security in Sub-Saharan Africa, providing grants to relevant organizations. High-frequency alignment with community and sustainability.",
+      "source": "SEED Foundation",
+      "frequency_score": 0.15333333333333332,
+      "impact_potential": 0.7833333333333333,
+      "alignment_factors": [
+        "Sustainability",
+        "Community",
+        "Alignment",
+        "Unity"
+      ],
+      "opportunity_type": "partnership",
+      "accessibility": 0.65,
+      "urgency": 0.85
+    },
+    {
+      "opportunity_id": "social_001",
+      "domain": "socials",
+      "title": "Alternative Social Platforms for Truth and Community",
+      "description": "Emerging social platforms focused on truth, community, and authentic connection rather than manipulation.",
+      "source": "Tech/Social Media",
+      "frequency_score": 0.14666666666666667,
+      "impact_potential": 0.9800000000000001,
+      "alignment_factors": [
+        "Community",
+        "Connection",
+        "Community Building",
+        "Unity",
+        "Authentic",
+        "Truth"
+      ],
+      "opportunity_type": "partnership",
+      "accessibility": 0.6,
+      "urgency": 0.9
+    },
+    {
+      "opportunity_id": "immigration_002",
+      "domain": "immigration_services",
+      "title": "Community-Based Immigration Support Networks",
+      "description": "Grassroots networks providing support, guidance, and resources for families navigating immigration. Focus on mutual aid, community connection, and transparent processes.",
+      "source": "Community Organizations",
+      "frequency_score": 0.14666666666666667,
+      "impact_potential": 0.7666666666666666,
+      "alignment_factors": [
+        "Community",
+        "Connection",
+        "Transparent",
+        "Unity"
+      ],
+      "opportunity_type": "partnership",
+      "accessibility": 0.8,
+      "urgency": 0.85
+    },
+    {
+      "opportunity_id": "transport_001",
+      "domain": "transport",
+      "title": "Sustainable and Regenerative Transport",
+      "description": "Transport solutions focused on sustainability, clean energy, and community access.",
+      "source": "Transport/Infrastructure",
+      "frequency_score": 0.13333333333333333,
+      "impact_potential": 0.7833333333333332,
+      "alignment_factors": [
+        "Sustainability",
+        "Community",
+        "Regenerative",
+        "Unity"
+      ],
+      "opportunity_type": "partnership",
+      "accessibility": 0.7,
+      "urgency": 0.8
+    },
+    {
+      "opportunity_id": "fie_002",
+      "domain": "foreign_investment_analysis",
+      "title": "Community-Focused FDI Advisory Services",
+      "description": "Foreign Direct Investment advisory services that prioritize community benefit, environmental sustainability, and ethical practices. Helping investors align with high-frequency values.",
+      "source": "Investment Advisory",
+      "frequency_score": 0.13333333333333333,
+      "impact_potential": 0.7333333333333334,
+      "alignment_factors": [
+        "Sustainability",
+        "Community",
+        "Ethical",
+        "Unity"
+      ],
+      "opportunity_type": "service",
+      "accessibility": 0.65,
+      "urgency": 0.75
+    },
+    {
+      "opportunity_id": "global_supply_chain_001",
+      "domain": "global_supply_chain",
+      "title": "High Frequency Opportunities in Global Supply Chain",
+      "description": "Opportunities in global supply chain domain aligned with truth, love, and community.",
+      "source": "Various",
+      "frequency_score": 0.13333333333333333,
+      "impact_potential": 0.6999999999999998,
+      "alignment_factors": [
+        "Community",
+        "Love",
+        "Truth",
+        "Unity"
+      ],
+      "opportunity_type": "exploration",
+      "accessibility": 0.7,
+      "urgency": 0.6
+    },
+    {
+      "opportunity_id": "private_services_001",
+      "domain": "private_services",
+      "title": "High Frequency Opportunities in Private Services",
+      "description": "Opportunities in private services domain aligned with truth, love, and community.",
+      "source": "Various",
+      "frequency_score": 0.13333333333333333,
+      "impact_potential": 0.6999999999999998,
+      "alignment_factors": [
+        "Community",
+        "Love",
+        "Truth",
+        "Unity"
+      ],
+      "opportunity_type": "exploration",
+      "accessibility": 0.7,
+      "urgency": 0.6
+    },
+    {
+      "opportunity_id": "public_services_001",
+      "domain": "public_services",
+      "title": "High Frequency Opportunities in Public Services",
+      "description": "Opportunities in public services domain aligned with truth, love, and community.",
+      "source": "Various",
+      "frequency_score": 0.13333333333333333,
+      "impact_potential": 0.6999999999999998,
+      "alignment_factors": [
+        "Community",
+        "Love",
+        "Truth",
+        "Unity"
+      ],
+      "opportunity_type": "exploration",
+      "accessibility": 0.7,
+      "urgency": 0.6
+    },
+    {
+      "opportunity_id": "energy_001",
+      "domain": "energy",
+      "title": "High Frequency Opportunities in Energy",
+      "description": "Opportunities in energy domain aligned with truth, love, and community.",
+      "source": "Various",
+      "frequency_score": 0.13333333333333333,
+      "impact_potential": 0.6999999999999998,
+      "alignment_factors": [
+        "Community",
+        "Love",
+        "Truth",
+        "Unity"
+      ],
+      "opportunity_type": "exploration",
+      "accessibility": 0.7,
+      "urgency": 0.6
+    },
+    {
+      "opportunity_id": "technology_001",
+      "domain": "technology",
+      "title": "High Frequency Opportunities in Technology",
+      "description": "Opportunities in technology domain aligned with truth, love, and community.",
+      "source": "Various",
+      "frequency_score": 0.13333333333333333,
+      "impact_potential": 0.6999999999999998,
+      "alignment_factors": [
+        "Community",
+        "Love",
+        "Truth",
+        "Unity"
+      ],
+      "opportunity_type": "exploration",
+      "accessibility": 0.7,
+      "urgency": 0.6
+    },
+    {
+      "opportunity_id": "finance_001",
+      "domain": "finance",
+      "title": "High Frequency Opportunities in Finance",
+      "description": "Opportunities in finance domain aligned with truth, love, and community.",
+      "source": "Various",
+      "frequency_score": 0.13333333333333333,
+      "impact_potential": 0.6999999999999998,
+      "alignment_factors": [
+        "Community",
+        "Love",
+        "Trust-Based Systems",
+        "Unity",
+        "Financial Stewardship",
+        "Truth"
+      ],
+      "opportunity_type": "exploration",
+      "accessibility": 0.7,
+      "urgency": 0.6
+    },
+    {
+      "opportunity_id": "real_estate_001",
+      "domain": "real_estate",
+      "title": "High Frequency Opportunities in Real Estate",
+      "description": "Opportunities in real estate domain aligned with truth, love, and community.",
+      "source": "Various",
+      "frequency_score": 0.13333333333333333,
+      "impact_potential": 0.6999999999999998,
+      "alignment_factors": [
+        "Community",
+        "Love",
+        "Truth",
+        "Unity"
+      ],
+      "opportunity_type": "exploration",
+      "accessibility": 0.7,
+      "urgency": 0.6
+    },
+    {
+      "opportunity_id": "manufacturing_001",
+      "domain": "manufacturing",
+      "title": "High Frequency Opportunities in Manufacturing",
+      "description": "Opportunities in manufacturing domain aligned with truth, love, and community.",
+      "source": "Various",
+      "frequency_score": 0.13333333333333333,
+      "impact_potential": 0.6999999999999998,
+      "alignment_factors": [
+        "Community",
+        "Love",
+        "Truth",
+        "Unity"
+      ],
+      "opportunity_type": "exploration",
+      "accessibility": 0.7,
+      "urgency": 0.6
+    },
+    {
+      "opportunity_id": "music_001",
+      "domain": "music",
+      "title": "Independent Artists Promoting Truth and Love",
+      "description": "Platforms and artists sharing messages of unity, love, and truth through music. Opportunities for collaboration, distribution, and promotion.",
+      "source": "Music Industry",
+      "frequency_score": 0.12,
+      "impact_potential": 0.9199999999999999,
+      "alignment_factors": [
+        "Cultural Impact",
+        "Love",
+        "Creative Expression",
+        "Unity",
+        "Truth"
+      ],
+      "opportunity_type": "collaboration",
+      "accessibility": 0.8,
+      "urgency": 0.7
+    }
+  ],
+  "by_domain": {
+    "web": [
+      {
+        "opportunity_id": "web_001",
+        "title": "Decentralized Web Infrastructure for Truth",
+        "frequency_score": 0.11000000000000001,
+        "impact_potential": 0.88
+      }
+    ],
+    "socials": [
+      {
+        "opportunity_id": "social_001",
+        "title": "Alternative Social Platforms for Truth and Community",
+        "frequency_score": 0.14666666666666667,
+        "impact_potential": 0.9800000000000001
+      }
+    ],
+    "business": [
+      {
+        "opportunity_id": "business_001",
+        "title": "Regenerative Business Models",
+        "frequency_score": 0.06666666666666667,
+        "impact_potential": 0.7333333333333334
+      }
+    ],
+    "e-commerce": [
+      {
+        "opportunity_id": "ecommerce_001",
+        "title": "Ethical E-commerce Platforms",
+        "frequency_score": 0.1,
+        "impact_potential": 0.7833333333333333
+      }
+    ],
+    "global_supply_chain": [
+      {
+        "opportunity_id": "global_supply_chain_001",
+        "title": "High Frequency Opportunities in Global Supply Chain",
+        "frequency_score": 0.13333333333333333,
+        "impact_potential": 0.6999999999999998
+      }
+    ],
+    "crypto_projects": [
+      {
+        "opportunity_id": "crypto_001",
+        "title": "Crypto Projects for Social Good",
+        "frequency_score": 0.09000000000000001,
+        "impact_potential": 0.6833333333333332
+      }
+    ],
+    "transport": [
+      {
+        "opportunity_id": "transport_001",
+        "title": "Sustainable and Regenerative Transport",
+        "frequency_score": 0.13333333333333333,
+        "impact_potential": 0.7833333333333332
+      }
+    ],
+    "private_services": [
+      {
+        "opportunity_id": "private_services_001",
+        "title": "High Frequency Opportunities in Private Services",
+        "frequency_score": 0.13333333333333333,
+        "impact_potential": 0.6999999999999998
+      }
+    ],
+    "public_services": [
+      {
+        "opportunity_id": "public_services_001",
+        "title": "High Frequency Opportunities in Public Services",
+        "frequency_score": 0.13333333333333333,
+        "impact_potential": 0.6999999999999998
+      }
+    ],
+    "corporate": [
+      {
+        "opportunity_id": "corporate_001",
+        "title": "High Frequency Opportunities in Corporate",
+        "frequency_score": 0.10666666666666667,
+        "impact_potential": 0.6999999999999998
+      }
+    ],
+    "hollywood": [
+      {
+        "opportunity_id": "hollywood_001",
+        "title": "High Frequency Opportunities in Hollywood",
+        "frequency_score": 0.12,
+        "impact_potential": 0.6999999999999998
+      }
+    ],
+    "music": [
+      {
+        "opportunity_id": "music_001",
+        "title": "Independent Artists Promoting Truth and Love",
+        "frequency_score": 0.12,
+        "impact_potential": 0.9199999999999999
+      },
+      {
+        "opportunity_id": "music_002",
+        "title": "Music Education and Empowerment Programs",
+        "frequency_score": 0.12,
+        "impact_potential": 0.8399999999999997
+      }
+    ],
+    "education": [
+      {
+        "opportunity_id": "education_001",
+        "title": "High Frequency Opportunities in Education",
+        "frequency_score": 0.16,
+        "impact_potential": 0.6999999999999998
+      }
+    ],
+    "healthcare": [
+      {
+        "opportunity_id": "healthcare_001",
+        "title": "High Frequency Opportunities in Healthcare",
+        "frequency_score": 0.16,
+        "impact_potential": 0.6999999999999998
+      }
+    ],
+    "energy": [
+      {
+        "opportunity_id": "energy_001",
+        "title": "High Frequency Opportunities in Energy",
+        "frequency_score": 0.13333333333333333,
+        "impact_potential": 0.6999999999999998
+      }
+    ],
+    "agriculture": [
+      {
+        "opportunity_id": "agriculture_001",
+        "title": "Regenerative Agriculture and Food Systems",
+        "frequency_score": 0.24,
+        "impact_potential": 0.8333333333333334
+      },
+      {
+        "opportunity_id": "agriculture_002",
+        "title": "Farmer Mental Health and Well-Being Programs",
+        "frequency_score": 0.16,
+        "impact_potential": 0.7666666666666666
+      },
+      {
+        "opportunity_id": "agriculture_003",
+        "title": "Youth-Led Agricultural Innovation Projects",
+        "frequency_score": 0.08,
+        "impact_potential": 0.8333333333333334
+      }
+    ],
+    "technology": [
+      {
+        "opportunity_id": "technology_001",
+        "title": "High Frequency Opportunities in Technology",
+        "frequency_score": 0.13333333333333333,
+        "impact_potential": 0.6999999999999998
+      }
+    ],
+    "finance": [
+      {
+        "opportunity_id": "finance_001",
+        "title": "High Frequency Opportunities in Finance",
+        "frequency_score": 0.13333333333333333,
+        "impact_potential": 0.6999999999999998
+      }
+    ],
+    "real_estate": [
+      {
+        "opportunity_id": "real_estate_001",
+        "title": "High Frequency Opportunities in Real Estate",
+        "frequency_score": 0.13333333333333333,
+        "impact_potential": 0.6999999999999998
+      }
+    ],
+    "manufacturing": [
+      {
+        "opportunity_id": "manufacturing_001",
+        "title": "High Frequency Opportunities in Manufacturing",
+        "frequency_score": 0.13333333333333333,
+        "impact_potential": 0.6999999999999998
+      }
+    ],
+    "immigration_services": [
+      {
+        "opportunity_id": "immigration_001",
+        "title": "UK Family Visa Services for Georgian Nationals",
+        "frequency_score": 0.3116666666666667,
+        "impact_potential": 0.75
+      },
+      {
+        "opportunity_id": "immigration_002",
+        "title": "Community-Based Immigration Support Networks",
+        "frequency_score": 0.14666666666666667,
+        "impact_potential": 0.7666666666666666
+      }
+    ],
+    "foreign_investment_analysis": [
+      {
+        "opportunity_id": "fie_001",
+        "title": "FIE Analyst Services - Ethical Foreign Investment Analysis",
+        "frequency_score": 0.25,
+        "impact_potential": 0.6833333333333332
+      },
+      {
+        "opportunity_id": "fie_002",
+        "title": "Community-Focused FDI Advisory Services",
+        "frequency_score": 0.13333333333333333,
+        "impact_potential": 0.7333333333333334
+      }
+    ],
+    "philanthropic_finance": [
+      {
+        "opportunity_id": "philanthropic_005",
+        "title": "SEED Foundation - Sustainable Agriculture in Sub-Saharan Africa",
+        "frequency_score": 0.15333333333333332,
+        "impact_potential": 0.7833333333333333
+      },
+      {
+        "opportunity_id": "philanthropic_004",
+        "title": "South African Agricultural Development Organizations",
+        "frequency_score": 0.07666666666666666,
+        "impact_potential": 0.7333333333333334
+      },
+      {
+        "opportunity_id": "philanthropic_001",
+        "title": "AGCO Agriculture Foundation - Agricultural Development Projects",
+        "frequency_score": 0.0,
+        "impact_potential": 0.8166666666666668
+      },
+      {
+        "opportunity_id": "philanthropic_002",
+        "title": "Bill & Melinda Gates Foundation - Agricultural Development",
+        "frequency_score": 0.0,
+        "impact_potential": 0.7999999999999999
+      },
+      {
+        "opportunity_id": "philanthropic_003",
+        "title": "UK-Based Agricultural Philanthropic Foundations",
+        "frequency_score": 0.0,
+        "impact_potential": 0.75
+      }
+    ]
+  }
+}

@@ -19,8 +19,9 @@ import sys
 import argparse
 from pathlib import Path
 
-# Add scripts to path
-sys.path.insert(0, str(Path(__file__).parent))
+# Add repo root to path
+repo_root = Path(__file__).parent.parent
+sys.path.insert(0, str(repo_root))
 
 from scripts.utils.git_automation import auto_commit_and_push
 
