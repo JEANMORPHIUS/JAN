@@ -1667,6 +1667,38 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"API Enhancements error: {e}")
 
+# MONITORING ENHANCEMENTS
+# Advanced monitoring, alerting, and real-time dashboards
+try:
+    from monitoring_api import router as monitoring_router
+    app.include_router(monitoring_router)
+    logger.info("Monitoring Enhancements enabled - Real-time alerts, performance metrics, health dashboards")
+except ImportError as e:
+    logger.warning(f"Monitoring Enhancements not available: {e}")
+except Exception as e:
+    logger.warning(f"Monitoring Enhancements error: {e}")
+
+# API DOCUMENTATION GENERATOR
+# Auto-generate comprehensive API documentation
+try:
+    from api_documentation_generator import generate_api_docs_from_app
+    import atexit
+    
+    @app.on_event("startup")
+    async def generate_docs_on_startup():
+        """Generate API documentation on startup"""
+        try:
+            doc_file = generate_api_docs_from_app(app)
+            logger.info(f"API documentation generated: {doc_file}")
+        except Exception as e:
+            logger.warning(f"Could not generate API documentation: {e}")
+    
+    logger.info("API Documentation Generator enabled - Auto-generates comprehensive API docs")
+except ImportError as e:
+    logger.warning(f"API Documentation Generator not available: {e}")
+except Exception as e:
+    logger.warning(f"API Documentation Generator error: {e}")
+
 # AUTOMATION ORCHESTRATOR - System Wide @ Codebase Level
 # Once connected to algorithm - runs itself. No manual checking needed.
 # The yawn - no more checking.
