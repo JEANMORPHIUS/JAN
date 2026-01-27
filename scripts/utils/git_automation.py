@@ -85,7 +85,7 @@ def run_git_command(command: List[str], cwd: Optional[Path] = None, check: bool 
             capture_output=True,
             text=True,
             check=check,
-            timeout=30
+            timeout=120  # Increased timeout for large repos
         )
         
         return {

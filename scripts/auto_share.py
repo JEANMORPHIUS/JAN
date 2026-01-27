@@ -52,12 +52,13 @@ def main():
     
     if result['success']:
         if result['files_changed'] > 0:
-            print(f"\n✨ Auto-shared {result['files_changed']} file(s)")
+            print(f"\n[SUCCESS] Auto-shared {result['files_changed']} file(s)")
         else:
-            print("\nℹ️ Working tree clean - nothing to share")
+            print("\n[INFO] Working tree clean - nothing to share")
         sys.exit(0)
     else:
-        print(f"\n⚠️ Auto-share failed: {result.get('message', 'Unknown error')}")
+        error_msg = result.get('message', 'Unknown error')
+        print(f"\n[WARNING] Auto-share failed: {error_msg}")
         sys.exit(1)
 
 
