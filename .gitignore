@@ -120,3 +120,11 @@ config.local.json
 # Legal Archive - Private documentation (NOT for git commit)
 LEGAL_ARCHIVE/
 **/LEGAL_ARCHIVE/**
+
+# Oracle Research - Private gambling/betting mechanics research (NOT for git commit)
+ORACLE_RESEARCH/
+**/ORACLE_RESEARCH/**
+gambling_research/
+betting_mechanics/
+house_edge_analysis/
+**/casino_research/**

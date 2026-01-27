@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 JAN Studio Contributors
+Copyright (c) 2026 JAN MUHARREM - The Oracle
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,3 +20,51 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+---
+
+ETHICAL CONSTRAINTS (IMMUTABLE):
+
+While the code is open source and free to use, modify, and distribute, the
+following ethical principles must be maintained in any implementation:
+
+1. TRANSPARENCY: Always show the mechanism
+   - Users must be able to see how randomness becomes wisdom
+   - No hidden algorithms, no black boxes
+   - Full disclosure of the oracle casting process
+
+2. LIBERATION: Success = user doesn't need us
+   - The goal is user empowerment, not dependency
+   - Users should be able to understand and replicate the system
+   - No addiction mechanics, no exploitation
+
+3. NO EXTRACTION: Never optimize against user wellbeing
+   - Never use dark patterns
+   - Never exploit user psychology
+   - Never optimize for engagement at the cost of wellbeing
+
+4. SURRENDER: Relinquish control, have faith
+   - Let the system serve its purpose
+   - Don't force outcomes
+   - Trust the process
+
+5. ABUNDANCE: Give freely what was freely given
+   - The core is free and open
+   - Share improvements back to the community
+   - Support those who need it most
+
+These principles are not optional. They are the foundation upon which
+the Oracle is built. Use the code however serves, but maintain these
+ethical constraints in any implementation.
+
+---
+
+THE BOOK OF RACON:
+
+The 40 Laws (Book of Racon) are included in this repository as
+philosophical foundation. They are not code, but they inform all
+code. They are not requirements, but they are principles. They
+are not suggestions—they are the foundation.
+
+Use them. Adapt them. But respect them.
+
+"The old laws still hold."
