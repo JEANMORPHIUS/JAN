@@ -1,0 +1,206 @@
+{
+  "companies": [
+    {
+      "id": "edible_london",
+      "name": "Edible London",
+      "legal_name": "Edible London Ltd",
+      "ceo": {
+        "name": "Soner Mustafa Karagozlu",
+        "title": "Chief Executive Officer",
+        "status": "active"
+      },
+      "type": "Food Production Company",
+      "location": {
+        "city": "London",
+        "country": "United Kingdom",
+        "jurisdiction": "UK Law"
+      },
+      "registration": {
+        "company_number": "TBD",
+        "tax_id": "TBD",
+        "vat_number": "TBD",
+        "status": "active"
+      },
+      "compliance": {
+        "jurisdiction": "UK",
+        "primary_laws": [
+          "Companies Act 2006",
+          "GDPR / Data Protection Act 2018",
+          "Consumer Rights Act 2015",
+          "Food Safety Act 1990",
+          "Health & Safety at Work Act 1974"
+        ],
+        "regulatory_bodies": [
+          "Companies House",
+          "Food Standards Agency",
+          "HMRC",
+          "ICO (Information Commissioner's Office)"
+        ],
+        "compliance_status": "in_progress"
+      },
+      "status": "active",
+      "last_updated": "2026-01-27"
+    },
+    {
+      "id": "edible_cyprus",
+      "name": "Edible Cyprus",
+      "legal_name": "Edible Cyprus Ltd",
+      "ceo": {
+        "name": "TBD",
+        "title": "Chief Executive Officer",
+        "status": "pending"
+      },
+      "type": "Food Supplier Company",
+      "location": {
+        "city": "TBD",
+        "country": "Cyprus",
+        "jurisdiction": "Cyprus Law / EU Law"
+      },
+      "registration": {
+        "company_number": "TBD",
+        "tax_id": "TBD",
+        "vat_number": "TBD",
+        "status": "pending"
+      },
+      "compliance": {
+        "jurisdiction": "Cyprus / EU",
+        "primary_laws": [
+          "Cyprus Companies Law",
+          "GDPR (EU Regulation)",
+          "Cyprus Food Safety Authority Regulations",
+          "EU Food Safety Regulations"
+        ],
+        "regulatory_bodies": [
+          "Cyprus Registrar of Companies",
+          "Cyprus Food Safety Authority",
+          "Cyprus Tax Department",
+          "European Data Protection Board"
+        ],
+        "compliance_status": "pending"
+      },
+      "status": "active",
+      "last_updated": "2026-01-27"
+    },
+    {
+      "id": "atilok_ltd",
+      "name": "ATILOK LTD",
+      "legal_name": "ATILOK Limited",
+      "ceo": {
+        "name": "Tony Strong",
+        "title": "Chief Executive Officer",
+        "status": "active"
+      },
+      "type": "E-commerce / Heavy-Duty Truck Parts Supplier",
+      "location": {
+        "city": "United Kingdom",
+        "country": "United Kingdom",
+        "jurisdiction": "UK Law"
+      },
+      "registration": {
+        "company_number": "TBD",
+        "tax_id": "TBD",
+        "vat_number": "TBD",
+        "status": "active"
+      },
+      "compliance": {
+        "jurisdiction": "UK",
+        "primary_laws": [
+          "Companies Act 2006",
+          "GDPR / Data Protection Act 2018",
+          "Consumer Rights Act 2015",
+          "Distance Selling Regulations",
+          "E-commerce Regulations",
+          "Consumer Contracts Regulations"
+        ],
+        "regulatory_bodies": [
+          "Companies House",
+          "HMRC",
+          "ICO (Information Commissioner's Office)",
+          "Trading Standards"
+        ],
+        "compliance_status": "in_progress"
+      },
+      "status": "active",
+      "last_updated": "2026-01-27"
+    },
+    {
+      "id": "ilven_seamoss",
+      "name": "Ilven Seamoss",
+      "legal_name": "Ilven Seamoss Ltd",
+      "ceo": {
+        "name": "Ilven Mustafa",
+        "title": "Chief Executive Officer",
+        "status": "active"
+      },
+      "type": "Sea Moss Production Company",
+      "location": {
+        "city": "TBD",
+        "country": "TBD",
+        "jurisdiction": "TBD"
+      },
+      "registration": {
+        "company_number": "TBD",
+        "tax_id": "TBD",
+        "vat_number": "TBD",
+        "status": "pending"
+      },
+      "compliance": {
+        "jurisdiction": "TBD",
+        "primary_laws": [
+          "TBD - Based on location"
+        ],
+        "regulatory_bodies": [
+          "TBD - Based on location"
+        ],
+        "compliance_status": "pending"
+      },
+      "status": "active",
+      "last_updated": "2026-01-27"
+    },
+    {
+      "id": "siyem",
+      "name": "Siyem",
+      "legal_name": "Siyem Media Ltd",
+      "ceo": {
+        "name": "Jan Muharrem",
+        "title": "Chief Executive Officer",
+        "status": "active"
+      },
+      "type": "Media Production / Governance Entity",
+      "location": {
+        "city": "TBD",
+        "country": "TBD",
+        "jurisdiction": "TBD"
+      },
+      "registration": {
+        "company_number": "TBD",
+        "tax_id": "TBD",
+        "vat_number": "TBD",
+        "status": "pending"
+      },
+      "compliance": {
+        "jurisdiction": "TBD",
+        "primary_laws": [
+          "TBD - Based on location",
+          "Copyright Law",
+          "Intellectual Property Law",
+          "Data Protection Law"
+        ],
+        "regulatory_bodies": [
+          "TBD - Based on location"
+        ],
+        "compliance_status": "pending"
+      },
+      "status": "active",
+      "last_updated": "2026-01-27"
+    }
+  ],
+  "metadata": {
+    "total_companies": 5,
+    "active_companies": 5,
+    "ceos_documented": 4,
+    "ceos_pending": 1,
+    "last_updated": "2026-01-27",
+    "version": "1.0"
+  }
+}
