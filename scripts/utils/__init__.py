@@ -21,6 +21,7 @@ from .common_imports import *
 from .helpers import *
 from .paths import *
 from .data_collectors import *
+from .git_automation import *
 
 __all__ = [
     # Common imports
@@ -30,5 +31,8 @@ __all__ = [
     # Paths
     'JAN_ROOT', 'SIYEM_ROOT', 'get_data_path', 'get_output_path',
     # Data collectors
-    'save_event_data', 'load_event_data', 'format_event_summary'
+    'save_event_data', 'load_event_data', 'format_event_summary',
+    # Git automation
+    'auto_commit_and_push', 'auto_share_decorator', 'standard_main_with_auto_share',
+    'share_everything', 'git_stage_all', 'git_commit', 'git_push', 'git_status'
 ]
