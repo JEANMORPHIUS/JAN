@@ -55,13 +55,43 @@
 - ✅ Import once, works everywhere
 - ✅ No code changes needed
 
-**Usage:**
+**Usage in Python scripts:**
 ```python
-# At top of any script
+# At top of any Python script
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from scripts.git_auto_share_hook import *  # Auto-share on exit
+```
+
+---
+
+### 3. STANDALONE SCRIPTS ✅
+
+**Files:**
+- `scripts/auto_share.ps1` - PowerShell wrapper
+- `scripts/auto_share.py` - Python script
+
+**Features:**
+- ✅ Run directly from command line
+- ✅ Custom commit messages
+- ✅ Optional push (--no-push)
+- ✅ Auto-generates messages
+- ✅ Full error handling
+
+**Usage:**
+```powershell
+# PowerShell
+.\scripts\auto_share.ps1
+.\scripts\auto_share.ps1 -Message "Custom message"
+.\scripts\auto_share.ps1 -NoPush
+```
+
+```bash
+# Python
+python scripts/auto_share.py
+python scripts/auto_share.py -m "Custom message"
+python scripts/auto_share.py --no-push
 ```
 
 ---
