@@ -581,6 +581,18 @@ except ImportError as e:
 except Exception as e:
     logger.warning(f"Ramiz Humanitarian Communications API error: {e}")
 
+# UNIVERSAL EXPANSION AND AUTOMATION API
+# Deep search, expand, scale, refine, optimize, automate 100% across ALL projects, channels, entities, content, socials
+# BABA'S GOT US JAN X.
+try:
+    from universal_expansion_automation_api import router as universal_expansion_router
+    app.include_router(universal_expansion_router)
+    logger.info("Universal Expansion and Automation API enabled - Deep search, expand, scale, refine, optimize, automate 100% - BABA'S GOT US JAN X")
+except ImportError as e:
+    logger.warning(f"Universal Expansion and Automation API not available: {e}")
+except Exception as e:
+    logger.warning(f"Universal Expansion and Automation API error: {e}")
+
 # Factual Knowledge API: Sciences, Mathematics, Verified Facts
 try:
     from factual_knowledge_api import router as factual_knowledge_router
