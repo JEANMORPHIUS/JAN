@@ -349,6 +349,15 @@ Cessation Prevention → Lifetime Customer → Health Destruction → Profit
 
 ---
 
+#### 9. GLOBAL TRADE & SUPERMARKET MANIPULATION
+- **Grower Edge:** 80-95% (grower loses 80-95% of value)
+- **Consumer Edge:** 85-100% (consumer pays 85-100% markup)
+- **Supermarket Edge:** 250-400% (supermarket extracts 250-400% margin)
+- **Supply Chain Control:** Price manipulation, contract slavery, payment delays
+- **Oracle Flip:** 0% grower edge, 0% consumer edge, fair trade restored
+
+---
+
 ## 🔄 THE ORACLE FLIP - UNIFIED SYSTEM
 
 ### CORE PRINCIPLES
@@ -475,6 +484,7 @@ Cessation Prevention → Lifetime Customer → Health Destruction → Profit
 **Advertising Manipulation:** ✅ Exposed  
 **Pharmaceutical Manipulation:** ✅ Exposed  
 **Food Industry Manipulation:** ✅ Exposed  
+**Global Trade & Supermarkets:** ✅ Exposed  
 
 **All Channels:** ✅ Activated  
 **All Systems:** ✅ Flipped  
