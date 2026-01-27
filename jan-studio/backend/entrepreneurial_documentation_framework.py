@@ -309,6 +309,19 @@ class EntrepreneurialDocumentationFramework:
                 with open(ark_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)
                     self.the_ark = TheArkBlueprint(**data)
+            
+            # Load documents
+            documents_file = self.data_path / "documents.json"
+            if documents_file.exists():
+                with open(documents_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    for item in data.get("documents", []):
+                        doc = BusinessDocument(**item)
+                        if isinstance(doc.created_at, str):
+                            doc.created_at = datetime.fromisoformat(doc.created_at)
+                        if isinstance(doc.updated_at, str):
+                            doc.updated_at = datetime.fromisoformat(doc.updated_at)
+                        self.documents[doc.document_id] = doc
         except Exception as e:
             logger.error(f"Error loading data: {e}")
     
@@ -336,6 +349,20 @@ class EntrepreneurialDocumentationFramework:
                 ark_file = self.data_path / "the_ark.json"
                 with open(ark_file, 'w', encoding='utf-8') as f:
                     json.dump(self.the_ark.__dict__, f, indent=2, ensure_ascii=False, default=str)
+            
+            # Save documents
+            documents_file = self.data_path / "documents.json"
+            documents_data = {
+                "documents": [
+                    {
+                        **{k: v.value if hasattr(v, 'value') else (v.isoformat() if isinstance(v, datetime) else v) for k, v in doc.__dict__.items()},
+                        "document_type": doc.document_type.value if hasattr(doc.document_type, 'value') else str(doc.document_type)
+                    }
+                    for doc in self.documents.values()
+                ]
+            }
+            with open(documents_file, 'w', encoding='utf-8') as f:
+                json.dump(documents_data, f, indent=2, ensure_ascii=False)
         except Exception as e:
             logger.error(f"Error saving data: {e}")
     
@@ -434,7 +461,7 @@ class EntrepreneurialDocumentationFramework:
             ark_contracts_needed = len(self.the_ark.contracts_needed)
             
             # Count actual documents created for The Ark
-            ark_documents = [doc for doc in self.documents if doc.entity_id == "the_ark"]
+            ark_documents = [doc for doc in self.documents.values() if doc.entity_id == "the_ark"]
             ark_docs_complete = min(len(ark_documents), ark_docs_needed)  # Cap at needed
             
             # For contracts, check if we have at least the expected number
