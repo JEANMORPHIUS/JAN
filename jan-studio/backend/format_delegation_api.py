@@ -48,6 +48,11 @@ class FormatDelegationRequest(BaseModel):
     )
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'format_type': 'string', 'entities': [], 'limit': 10}
+        }
 @router.get("/formats")
 async def list_formats():
     """List all available formats and their definitions"""

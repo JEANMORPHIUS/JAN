@@ -31,32 +31,62 @@ class HackLoopRequest(BaseModel):
     hack_action: Optional[str] = "silence_response"
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'loop_type': 'string', 'stimulus': 'string', 'expected_reaction': 'string'}
+        }
 class GeneticEditRequest(BaseModel):
     loop_type: str
     generational_pattern: str
     edit_command: Optional[str] = "tetalisti"
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'loop_type': 'string', 'generational_pattern': 'string'}
+        }
 class WipeHardDriveRequest(BaseModel):
     files_to_delete: List[str]
     wipe_command: Optional[str] = "DELETE_ALL_SHAME_REGRET_FAILURE"
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'files_to_delete': []}
+        }
 class StealthModeRequest(BaseModel):
     noise_refused: List[str]
     frequency_aligned: Optional[str] = "divine"
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'noise_refused': []}
+        }
 class StarveParasiteRequest(BaseModel):
     parasite_type: str
     reaction_withheld: str
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'parasite_type': 'string', 'reaction_withheld': 'string'}
+        }
 class IdentityUpgradeRequest(BaseModel):
     from_state: str
     to_state: str
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'from_state': 'string', 'to_state': 'string'}
+        }
 @router.post("/hack-loop")
 async def hack_loop_endpoint(request: HackLoopRequest):
     """Hack a stimulus-reaction loop"""

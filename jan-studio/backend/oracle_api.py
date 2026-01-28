@@ -60,6 +60,11 @@ class OracleCastRequest(BaseModel):
     transparency_level: Optional[str] = Field("full", description="Level of transparency (full, minimal)")
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'user_intent': 'string', 'user_id': 1}
+        }
 class OracleCastResponse(BaseModel):
     """Response model for oracle cast."""
     timestamp: str

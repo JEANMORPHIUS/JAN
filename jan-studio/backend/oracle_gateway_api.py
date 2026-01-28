@@ -54,6 +54,11 @@ class CardReadingRequest(BaseModel):
     visitor_id: Optional[str] = Field(None, description="Visitor identifier (auto-generated if not provided)")
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'visitor_id': 1, 'x_visitor_id': 1}
+        }
 def get_visitor_id(x_visitor_id: Optional[str] = Header(None)) -> str:
     """Get or generate visitor ID from header or generate new one."""
     if x_visitor_id:

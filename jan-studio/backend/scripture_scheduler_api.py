@@ -63,6 +63,11 @@ class ScheduleGenerationRequest(BaseModel):
     )
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'year': 1, 'posts_per_week': 1, 'entities': [], 'Options': 'string', 'entity_frequencies': 1, 'Format': 'string'}
+        }
 class ExportToCalendarRequest(BaseModel):
     """Request model for exporting schedule to calendar"""
     schedule: Dict = Field(..., description="Generated schedule dictionary")
@@ -73,6 +78,11 @@ class ExportToCalendarRequest(BaseModel):
     calendar_name: str = Field(default="Scripture Posts 2026", description="Calendar name")
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'schedule': {}, 'calendar_name': 'jan'}
+        }
 @router.post("/generate", summary="Generate scripture schedule for 2026")
 async def generate_schedule(request: ScheduleGenerationRequest):
     """

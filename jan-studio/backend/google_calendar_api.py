@@ -63,12 +63,22 @@ class ExportToICalRequest(BaseModel):
     output_filename: Optional[str] = Field(default=None, description="Optional output filename")
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'posts': [], 'calendar_name': 'jan', 'output_filename': 'jan'}
+        }
 class GoogleCalendarAuthRequest(BaseModel):
     """Request model for Google Calendar authentication"""
     client_id: Optional[str] = None
     client_secret: Optional[str] = None
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'client_id': 1}
+        }
 class GoogleCalendarAuthCompleteRequest(BaseModel):
     """Request model for completing Google Calendar authentication"""
     authorization_code: str = Field(..., description="OAuth authorization code")
@@ -76,12 +86,22 @@ class GoogleCalendarAuthCompleteRequest(BaseModel):
     client_secret: Optional[str] = None
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'authorization_code': 'string', 'client_id': 1}
+        }
 class ExportToGoogleCalendarRequest(BaseModel):
     """Request model for Google Calendar API export"""
     posts: List[PostItem] = Field(..., description="List of posts to export")
     calendar_id: str = Field(default="primary", description="Google Calendar ID")
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'posts': [], 'calendar_id': 1}
+        }
 @router.post("/export/ical", summary="Export posts to iCal format")
 async def export_to_ical(request: ExportToICalRequest):
     """

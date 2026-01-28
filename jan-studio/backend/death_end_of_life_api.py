@@ -106,6 +106,11 @@ assisted_requests_db: Dict[str, AssistedDyingRequest] = {}
 # ENDPOINTS
 # ============================================================================
 
+
+    class Config:
+        schema_extra = {
+            "example": {'request_id': 1, 'person_id': 1, 'person_name': 'jan', 'eligibility_confirmed': True, 'waiting_period_days': 1, 'status': 'string', 'submitted_date': 'string', 'plans_db': {}, 'doulas_db': {}, 'burial_sites_db': {}, 'archives_db': {}, 'assisted_requests_db': {}}
+        }
 @router.post("/death/plan/create")
 async def create_end_of_life_plan(plan: EndOfLifePlan):
     """

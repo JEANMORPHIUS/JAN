@@ -44,6 +44,11 @@ class DocumentCreateRequest(BaseModel):
     compliance_related: bool = False
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'entity_id': 1, 'document_type': 'string', 'title': 'string', 'description': 'string', 'required': True, 'compliance_related': True}
+        }
 @router.get("/blueprints")
 async def get_all_blueprints():
     """Get all business blueprints"""

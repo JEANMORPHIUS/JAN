@@ -70,6 +70,11 @@ class TranslationRequest(BaseModel):
     notes: Optional[str] = ""
     verified: Optional[bool] = False
 
+
+    class Config:
+        schema_extra = {
+            "example": {'key': 'string', 'language': 'string', 'text': 'string', 'verified': True}
+        }
 @router.get("/status")
 async def get_status():
     """Get i18n system status."""

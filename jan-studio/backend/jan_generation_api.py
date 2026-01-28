@@ -65,6 +65,16 @@ class GenerationRequest(BaseModel):
     output_type: str
     options: Optional[Dict[str, Any]] = {}
 
+    class Config:
+        schema_extra = {
+            "example": {
+                "persona": "example_persona",
+                "prompt": "Write a story about unity",
+                "output_type": "text",
+                "options": {}
+            }
+        }
+
 
 class GenerationResponse(BaseModel):
     success: bool

@@ -56,6 +56,11 @@ class SpiritualCastRequest(BaseModel):
     user_id: Optional[str] = Field("jan", description="User identifier")
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'prayer_intent': 'string', 'user_id': 1}
+        }
 class HomeworkSubmissionRequest(BaseModel):
     """Request model for homework submission."""
     cast_id: int = Field(..., description="ID of the cast that assigned this homework")
@@ -63,6 +68,11 @@ class HomeworkSubmissionRequest(BaseModel):
     reflection: Optional[str] = Field(None, description="Your reflection on the homework")
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'cast_id': 1, 'submission_content': 'string'}
+        }
 @router.post("/cast")
 async def cast_spiritual_oracle(request: SpiritualCastRequest):
     """

@@ -53,12 +53,22 @@ class CreativePracticalRequest(BaseModel):
     practical_manifestations: List[str]
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'creative_manifestations': [], 'practical_manifestations': []}
+        }
 class InternalExternalRequest(BaseModel):
     """Request for internal-external balance check"""
     internal_systems: List[str]
     external_readiness: Optional[Dict[str, bool]] = None
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'internal_systems': [], 'external_readiness': True}
+        }
 @router.get("/war-readiness")
 async def get_war_readiness():
     """

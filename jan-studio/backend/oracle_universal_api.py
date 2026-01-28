@@ -47,6 +47,11 @@ class UniversalCastRequest(BaseModel):
     user_status: Optional[str] = Field("human", description="Status (all are equal - homeless, leader, creator, all equal)")
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'intent': 'string', 'user_id': 1}
+        }
 @router.post("/cast")
 async def cast_universal(request: UniversalCastRequest):
     """

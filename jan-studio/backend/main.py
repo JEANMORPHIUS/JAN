@@ -31,6 +31,7 @@ This code recognizes each person under the Lord's word.
 from fastapi import FastAPI, Request, status, HTTPException, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, FileResponse
+import json
 from fastapi.exceptions import RequestValidationError
 from starlette.middleware.base import BaseHTTPMiddleware
 import os
@@ -64,6 +65,18 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# Custom JSON encoder for pretty printing
+class PrettyJSONResponse(JSONResponse):
+    """JSONResponse with pretty-printed JSON"""
+    def render(self, content) -> bytes:
+        return json.dumps(
+            content,
+            ensure_ascii=False,
+            allow_nan=False,
+            indent=2,
+            separators=(",", ": ")
+        ).encode("utf-8")
+
 # Create FastAPI app
 app = FastAPI(
     title="JAN Studio API",
@@ -83,7 +96,23 @@ app = FastAPI(
     We are building a ministry, sharing God's message, our mission carries kingdom impact, 
     we honor the Lord's holy assignment, have faith.
     """,
-    version="1.0.0"
+    version="1.0.0",
+    default_response_class=PrettyJSONResponse,
+    # Ensure Swagger UI shows proper request body examples
+    swagger_ui_parameters={
+        "tryItOutEnabled": True,
+        "requestSnippetsEnabled": True,
+        "requestSnippets": {
+            "generators": {
+                "curl_bash": {
+                    "title": "cURL (bash)"
+                },
+                "curl_powershell": {
+                    "title": "cURL (PowerShell)"
+                }
+            }
+        }
+    }
 )
 
 # SECURITY: Configure CORS from environment variables
@@ -141,16 +170,19 @@ class SecurityHeadersMiddleware(BaseHTTPMiddleware):
             response.headers["Strict-Transport-Security"] = "max-age=31536000; includeSubDomains"
         
 # Content Security Policy
-        csp_policy = (
-            "default-src 'self'; "
-            "script-src 'self' 'unsafe-inline' 'unsafe-eval'; "  # unsafe-eval for Swagger UI
-            "style-src 'self' 'unsafe-inline'; "
-            "img-src 'self' data: https:; "
-            "font-src 'self' data:; "
-            "connect-src 'self' https://api.openai.com https://api.anthropic.com https://generativelanguage.googleapis.com; "
-            "frame-ancestors 'none';"
-        )
-        response.headers["Content-Security-Policy"] = csp_policy
+        # Allow Swagger UI CDN for docs page
+        # Skip CSP for /health endpoint to allow browser JSON rendering
+        if request.url.path != "/health":
+            csp_policy = (
+                "default-src 'self'; "
+                "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://unpkg.com; "  # Allow Swagger UI CDN
+                "style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; "  # Allow Swagger UI styles
+                "img-src 'self' data: https:; "
+                "font-src 'self' data: https://fonts.gstatic.com; "  # Allow Google Fonts
+                "connect-src 'self' https://api.openai.com https://api.anthropic.com https://generativelanguage.googleapis.com; "
+                "frame-ancestors 'none';"
+            )
+            response.headers["Content-Security-Policy"] = csp_policy
         
         return response
 
@@ -236,8 +268,12 @@ async def shell_seed_middleware(request: Request, call_next):
     """Automatically sanitize responses to Shell language for public endpoints"""
     response = await call_next(request)
     
-    # Only apply to public endpoints (not /api/community/*)
-    if SHELL_SEED_AVAILABLE and not request.url.path.startswith("/api/community"):
+    # Skip middleware for health endpoint and /api/community/*
+    if request.url.path == "/health" or request.url.path.startswith("/api/community"):
+        return response
+    
+    # Only apply to public endpoints
+    if SHELL_SEED_AVAILABLE:
         try:
             # Get response body
             response_body = b""
@@ -255,7 +291,14 @@ async def shell_seed_middleware(request: Request, call_next):
                         for key in ["content", "quote", "text", "message", "description"]:
                             if key in data and isinstance(data[key], str):
                                 data[key] = sanitizer.sanitize_for_shell(data[key])
-                        response_body = json.dumps(data).encode()
+                        # Preserve pretty printing if original was pretty-printed
+                        # Check if original had newlines (pretty-printed)
+                        original_str = response_body.decode()
+                        if '\n' in original_str:
+                            # Preserve indentation
+                            response_body = json.dumps(data, indent=2, separators=(",", ": ")).encode()
+                        else:
+                            response_body = json.dumps(data).encode()
                 except:
                     pass
             
@@ -271,6 +314,21 @@ async def shell_seed_middleware(request: Request, call_next):
             print(f"Shell/Seed middleware error: {e}")
     
     return response
+
+
+# ============================================================================
+# CORE ENDPOINTS (Define before routers to take precedence)
+# ============================================================================
+
+@app.get("/health", response_class=PrettyJSONResponse)
+async def health():
+    """Basic health check endpoint with pretty-printed JSON."""
+    return {
+        "status": "healthy",
+        "service": "JAN Studio API",
+        "version": "1.0.0",
+        "timestamp": datetime.now().isoformat()
+    }
 
 
 # Import and include routers (handle missing dependencies gracefully)
@@ -317,6 +375,14 @@ except ImportError as e:
     logger.warning(f"Could not import marketplace_router: {e}")
 except Exception as e:
     logger.warning(f"Could not load marketplace_router: {e}")
+
+# Initialize database before loading auth API
+try:
+    from marketplace_db import init_database as init_marketplace_db
+    init_marketplace_db()
+    logger.info("Database initialized before loading auth API")
+except Exception as e:
+    logger.warning(f"Database initialization warning: {e}")
 
 try:
     from auth_api import router as auth_router
@@ -384,6 +450,26 @@ except ImportError as e:
     logger.warning(f"Could not import oracle_universal_router: {e}")
 except Exception as e:
     logger.warning(f"Could not load oracle_universal_router: {e}")
+
+# Oracle SIYEM Integration - Transparent RNG + 40 Laws + Anti-Addiction Metrics
+try:
+    from oracle_siyem_api import router as oracle_siyem_router
+    app.include_router(oracle_siyem_router)
+    logger.info("Oracle SIYEM Integration enabled - Transparent RNG engine, 40 Laws interpretation, anti-addiction success metrics")
+except ImportError as e:
+    logger.warning(f"Could not import oracle_siyem_router: {e}")
+except Exception as e:
+    logger.warning(f"Could not load oracle_siyem_router: {e}")
+
+# Campaign Automation - Email Integration + Social Media Scheduling + Response Tracking
+try:
+    from campaign_automation_api import router as campaign_automation_router
+    app.include_router(campaign_automation_router)
+    logger.info("Campaign Automation enabled - Email integration, social media scheduling, response tracking")
+except ImportError as e:
+    logger.warning(f"Could not import campaign_automation_router: {e}")
+except Exception as e:
+    logger.warning(f"Could not load campaign_automation_router: {e}")
 
 # Heritage Archive API
 try:
@@ -1672,9 +1758,9 @@ async def serve_dashboard():
     raise HTTPException(status_code=404, detail="Dashboard not found")
 
 
-@app.get("/health")
+@app.get("/health", response_class=PrettyJSONResponse)
 async def health():
-    """Basic health check endpoint."""
+    """Basic health check endpoint with pretty-printed JSON."""
     return {
         "status": "healthy",
         "service": "JAN Studio API",

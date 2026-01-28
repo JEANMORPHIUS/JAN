@@ -39,6 +39,23 @@ class PersonaCreateRequest(BaseModel):
     category: Optional[str] = None
     files: List[Dict[str, str]]  # [{"path": "profile.md", "content": "..."}]
 
+    class Config:
+        schema_extra = {
+            "example": {
+                "name": "Example Persona",
+                "author_username": "jan",
+                "author_email": "jan@example.com",
+                "description": "An example persona for testing",
+                "category": "creative",
+                "files": [
+                    {
+                        "path": "profile.md",
+                        "content": "# Example Persona\n\nThis is an example persona."
+                    }
+                ]
+            }
+        }
+
 
 class PersonaResponse(BaseModel):
     id: int
@@ -59,12 +76,30 @@ class DownloadRequest(BaseModel):
     user_id: Optional[int] = None
     username: Optional[str] = None
 
+    class Config:
+        schema_extra = {
+            "example": {
+                "user_id": 1,
+                "username": "jan"
+            }
+        }
+
 
 class RatingRequest(BaseModel):
     user_id: Optional[int] = None
     username: Optional[str] = None
     rating: int  # 1-5
     comment: Optional[str] = None
+
+    class Config:
+        schema_extra = {
+            "example": {
+                "user_id": 1,
+                "username": "jan",
+                "rating": 5,
+                "comment": "Excellent persona!"
+            }
+        }
 
 
 @router.get("/personas")

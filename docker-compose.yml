@@ -3,36 +3,65 @@ version: '3.8'
 services:
   backend:
     build:
-      context: ./jan-studio/backend
+      context: .
       dockerfile: Dockerfile
+    container_name: jan-studio-backend
     ports:
       - "8000:8000"
     environment:
-      - GEMINI_API_KEY=${GEMINI_API_KEY}
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
-      - JAN_ROOT=${JAN_ROOT:-./jan}
-      - SERVER_HOST=0.0.0.0
-      - SERVER_PORT=8000
+      # Python configuration
+      - PYTHONPATH=/app
+      - PYTHONUNBUFFERED=1
+      
+      # Logging configuration
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - LOG_FORMAT=${LOG_FORMAT:-json}
+      
+      # SMTP configuration (for email campaigns)
+      - SMTP_SERVER=${SMTP_SERVER:-smtp.gmail.com}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_USER=${SMTP_USER:-}
+      - SMTP_PASSWORD=${SMTP_PASSWORD:-}
+      
+      # AI API keys (optional, for AI features)
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      
+      # CORS configuration
+      - ALLOWED_ORIGINS=${ALLOWED_ORIGINS:-http://localhost:3000,http://localhost:3001}
+      
+      # Database configuration (SQLite by default)
+      - DATABASE_PATH=${DATABASE_PATH:-/app/data}
     volumes:
-      - ./jan:/app/jan
-      - ./jan-studio/backend:/app:ro
+      - ./data:/app/data
+      - ./SIYEM/data:/app/SIYEM/data
+      - ./logs:/app/logs
     restart: unless-stopped
     healthcheck:
-      test: ["CMD", "python", "-c", "import requests; requests.get('http://localhost:8000/health')"]
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
       interval: 30s
       timeout: 10s
       retries: 3
-      start_period: 10s
+      start_period: 40s
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
 
-  frontend:
-    build:
-      context: ./jan-studio/frontend
-      dockerfile: Dockerfile
-    ports:
-      - "3000:3000"
-    environment:
-      - NEXT_PUBLIC_API_URL=http://localhost:8000
-    depends_on:
-      - backend
-    restart: unless-stopped
+  # Optional: Add database service if needed
+  # db:
+  #   image: postgres:15-alpine
+  #   container_name: jan-studio-db
+  #   environment:
+  #     - POSTGRES_DB=jan_studio
+  #     - POSTGRES_USER=jan
+  #     - POSTGRES_PASSWORD=changeme
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   ports:
+  #     - "5432:5432"
+  #   restart: unless-stopped
 
+# volumes:
+#   postgres_data:

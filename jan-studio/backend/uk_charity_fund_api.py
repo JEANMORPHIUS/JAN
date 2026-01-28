@@ -84,17 +84,32 @@ class AdvisoryCouncilRequest(BaseModel):
     government_representatives: List[str]
     beneficiary_representatives: List[str]
 
+
+    class Config:
+        schema_extra = {
+            "example": {'policy_domain': 'string', 'charity_representatives': [], 'government_representatives': [], 'beneficiary_representatives': []}
+        }
 class PolicySandboxRequest(BaseModel):
     charity_id: str
     policy_innovation: str
     pilot_duration_months: int
     success_metrics: List[str]
 
+
+    class Config:
+        schema_extra = {
+            "example": {'charity_id': 1, 'policy_innovation': 'string', 'pilot_duration_months': 1, 'success_metrics': []}
+        }
 class DemandPredictionRequest(BaseModel):
     service_type: str
     geographic_area: str
     lookahead_weeks: int = 4
 
+
+    class Config:
+        schema_extra = {
+            "example": {'service_type': 'string', 'geographic_area': 'string', 'lookahead_weeks': 1}
+        }
 class GrantApplicationRequest(BaseModel):
     charity_name: str
     mission: str
@@ -102,12 +117,22 @@ class GrantApplicationRequest(BaseModel):
     program_description: str
     target_beneficiaries: str
 
+
+    class Config:
+        schema_extra = {
+            "example": {'charity_name': 'jan', 'mission': 'string', 'funding_amount': 100.0, 'program_description': 'string', 'target_beneficiaries': 'string'}
+        }
 class FundingLandscapeRequest(BaseModel):
     sector: str
     geographic_focus: str
     min_funding: float
     max_funding: float
 
+
+    class Config:
+        schema_extra = {
+            "example": {'sector': 'string', 'geographic_focus': 'string', 'min_funding': 1.0, 'max_funding': 1.0}
+        }
 class CollaborativeDesignRequest(BaseModel):
     challenge: str
     context: Dict[str, Any]
@@ -115,6 +140,11 @@ class CollaborativeDesignRequest(BaseModel):
 
 # Health Check
 @app.get("/")
+
+    class Config:
+        schema_extra = {
+            "example": {'challenge': 'string', 'context': {}}
+        }
 def root():
     """API root - health check"""
     return {

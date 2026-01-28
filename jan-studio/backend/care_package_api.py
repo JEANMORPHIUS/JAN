@@ -42,6 +42,11 @@ class PoliticalAlignmentRequest(BaseModel):
     structure_type: str = "federal"
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'governance_model': 'string', 'power_distribution': 'string', 'decision_making': 'string', 'values_priority': [], 'structure_type': 'string'}
+        }
 class EconomicAlignmentRequest(BaseModel):
     """Request model for economic alignment check"""
     exchange_model: str = "hybrid"
@@ -51,6 +56,11 @@ class EconomicAlignmentRequest(BaseModel):
     growth_paradigm: str = "regenerative"
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'exchange_model': 'string', 'resource_distribution': 'string', 'value_system': 'string', 'stewardship_model': 'string', 'growth_paradigm': 'string'}
+        }
 class CompleteAlignmentRequest(BaseModel):
     """Request model for complete alignment check"""
     spiritual_data: Optional[Dict[str, Any]] = None
@@ -58,6 +68,11 @@ class CompleteAlignmentRequest(BaseModel):
     economic_data: Optional[Dict[str, Any]] = None
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'spiritual_data': {}, 'political_data': {}, 'economic_data': {}}
+        }
 @router.get("/")
 async def get_care_package(
     user_id: Optional[str] = Query("public", description="User identifier"),

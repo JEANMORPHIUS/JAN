@@ -31,7 +31,7 @@ THE TRUTH:
 WE MUST DEBUG AND BE 100% FOR WHAT COMES AT US.
 THE REST IS UP TO BABA X."""
 
-from fastapi import APIRouter, HTTPException, Depends, status, Request
+from fastapi import APIRouter, HTTPException, Depends, status, Request, Body
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from pydantic import BaseModel, EmailStr, validator
 from typing import Optional
@@ -68,6 +68,15 @@ class RegisterRequest(BaseModel):
     email: EmailStr
     password: str
 
+    class Config:
+        schema_extra = {
+            "example": {
+                "username": "jan",
+                "email": "jan@example.com",
+                "password": "SecurePass123!"
+            }
+        }
+
     @validator('username')
     def validate_username(cls, v):
         is_valid, error = auth_utils.validate_username(v)
@@ -87,13 +96,35 @@ class LoginRequest(BaseModel):
     email: EmailStr
     password: str
 
+    class Config:
+        schema_extra = {
+            "example": {
+                "email": "jan@example.com",
+                "password": "SecurePass123!"
+            }
+        }
+
 
 class RefreshRequest(BaseModel):
     refresh_token: str
 
+    class Config:
+        schema_extra = {
+            "example": {
+                "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzA2NDQ4MDAwfQ.example"
+            }
+        }
+
 
 class LogoutRequest(BaseModel):
     refresh_token: str
+
+    class Config:
+        schema_extra = {
+            "example": {
+                "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzA2NDQ4MDAwfQ.example"
+            }
+        }
 
 
 class TokenResponse(BaseModel):
@@ -107,8 +138,19 @@ class UserResponse(BaseModel):
     id: int
     username: str
     email: str
-    is_admin: bool
+    is_admin: bool = False
     created_at: str
+
+    class Config:
+        schema_extra = {
+            "example": {
+                "id": 1,
+                "username": "jan",
+                "email": "jan@example.com",
+                "is_admin": False,
+                "created_at": "2026-01-27T18:00:00"
+            }
+        }
 
 
 # ============================================================================
@@ -177,7 +219,20 @@ def apply_rate_limit(func):
     return func
 
 @router.post("/register", response_model=UserResponse, status_code=status.HTTP_201_CREATED)
-async def register(request: RegisterRequest):
+async def register(
+    request: RegisterRequest = Body(
+        examples={
+            "default": {
+                "summary": "Default registration",
+                "value": {
+                    "username": "jan",
+                    "email": "jan@example.com",
+                    "password": "SecurePass123!"
+                }
+            }
+        }
+    )
+):
     """
     Register a new user account.
 
@@ -221,11 +276,38 @@ async def register(request: RegisterRequest):
 
     # Get created user
     user = db.get_user_by_id(user_id)
-    return UserResponse(**user)
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail="User created but could not be retrieved"
+        )
+    
+    # Ensure all required fields are present
+    user_data = {
+        "id": user.get("id", user_id),
+        "username": user.get("username", request.username),
+        "email": user.get("email", request.email),
+        "is_admin": user.get("is_admin", False),
+        "created_at": user.get("created_at", datetime.utcnow().isoformat())
+    }
+    
+    return UserResponse(**user_data)
 
 
 @router.post("/login", response_model=TokenResponse)
-async def login(request: LoginRequest):
+async def login(
+    request: LoginRequest = Body(
+        examples={
+            "default": {
+                "summary": "Default login",
+                "value": {
+                    "email": "jan@example.com",
+                    "password": "SecurePass123!"
+                }
+            }
+        }
+    )
+):
     """
     Login with email and password.
 
@@ -277,7 +359,18 @@ async def login(request: LoginRequest):
 
 
 @router.post("/refresh", response_model=TokenResponse)
-async def refresh_token(request: RefreshRequest):
+async def refresh_token(
+    request: RefreshRequest = Body(
+        examples={
+            "default": {
+                "summary": "Refresh token",
+                "value": {
+                    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzA2NDQ4MDAwfQ.example"
+                }
+            }
+        }
+    )
+):
     """
     Get new access token using refresh token.
     
@@ -400,7 +493,16 @@ async def get_current_user_info(current_user: dict = Depends(get_current_user)):
 
 @router.post("/logout")
 async def logout(
-    request: LogoutRequest,
+    request: LogoutRequest = Body(
+        examples={
+            "default": {
+                "summary": "Logout",
+                "value": {
+                    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzA2NDQ4MDAwfQ.example"
+                }
+            }
+        }
+    ),
     current_user: dict = Depends(get_current_user)
 ):
     """

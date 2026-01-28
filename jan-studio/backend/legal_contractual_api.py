@@ -46,6 +46,11 @@ class PRSRegistrationRequest(BaseModel):
     usage_rights: Dict[str, Any] = {}
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'song_title': 'string', 'composer': 'string', 'channel': 'string', 'copyright_year': 1, 'copyright_holder': 'string', 'usage_rights': {}}
+        }
 class AgreementCreateRequest(BaseModel):
     """Agreement creation request"""
     agreement_type: str
@@ -63,6 +68,11 @@ class AgreementCreateRequest(BaseModel):
     licensing_terms: Dict[str, Any] = {}
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'agreement_type': 'string', 'title': 'string', 'description': 'string', 'parties': [], 'channel': 'string', 'licensing_terms': {}}
+        }
 @router.post("/prs/register")
 async def register_prs_copyright(request: PRSRegistrationRequest):
     """Register PRS copyright"""

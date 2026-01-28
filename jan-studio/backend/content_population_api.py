@@ -42,12 +42,22 @@ class PopulationRequest(BaseModel):
     base_url: Optional[str] = Field(default="http://localhost:8000", description="Base URL for AI services")
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'schedule': {}, 'limit': 10}
+        }
 class SinglePostRequest(BaseModel):
     """Request model for populating a single post"""
     post: Dict = Field(..., description="Post dictionary to populate")
     base_url: Optional[str] = Field(default="http://localhost:8000", description="Base URL for AI services")
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'post': {}}
+        }
 @router.post("/populate-schedule", summary="Auto-populate entire schedule")
 async def populate_schedule(request: PopulationRequest):
     """

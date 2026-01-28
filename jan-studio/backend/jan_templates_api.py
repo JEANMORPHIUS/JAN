@@ -48,6 +48,11 @@ class CreateTemplateRequest(BaseModel):
     category: Optional[str] = None
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'template_name': 'jan', 'persona_data': {}}
+        }
 class TemplateMetadata(BaseModel):
     name: str
     description: Optional[str] = None
@@ -67,6 +72,11 @@ class InstantiateTemplateRequest(BaseModel):
 Path(TEMPLATES_DIR).mkdir(parents=True, exist_ok=True)
 
 
+
+    class Config:
+        schema_extra = {
+            "example": {'template_name': 'jan', 'persona_name': 'jan', 'overwrite': True, 'name': 'jan'}
+        }
 def get_template_path(template_name: str) -> Path:
     """Get path to template file."""
     return Path(TEMPLATES_DIR) / f"{template_name}.json"
