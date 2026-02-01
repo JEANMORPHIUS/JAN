@@ -1,0 +1,166 @@
+{
+  "title": "Unified Google Infrastructure — All Projects, Channels, Businesses",
+  "version": "1.0",
+  "updated": "2026-02-01",
+  "philosophy": "Same infrastructure for all. One backend (Cloud Run), all frontends (Firebase Hosting / App Hosting). Every project, channel, business.",
+  "spiritual_twin_map": "docs/SPIRITUAL_TWIN_ENTITY_MAP.md",
+  "spiritual_twin_data": "data/spiritual_twin_entities.json",
+  "backend_shared": {
+    "id": "jan-studio-backend",
+    "name": "JAN Studio API",
+    "path": "jan-studio/backend",
+    "type": "backend",
+    "stack": "FastAPI, Python 3.11, uvicorn",
+    "port": 8000,
+    "cloud_run_service": "jan-studio-api",
+    "dockerfile_path": "jan-studio/backend/Dockerfile"
+  },
+  "projects": [
+    {
+      "id": "jan-studio-frontend",
+      "name": "JAN Studio Frontend",
+      "path": "jan-studio/frontend",
+      "type": "frontend_next",
+      "stack": "Next.js 14, React 18",
+      "port": 3000,
+      "firebase_site_id": "jan-studio",
+      "api_env_key": "NEXT_PUBLIC_API_URL"
+    },
+    {
+      "id": "world-history-app",
+      "name": "World History App",
+      "path": "world-history-app",
+      "type": "frontend_next",
+      "stack": "Next.js 14, React 18",
+      "port": 3001,
+      "firebase_site_id": "world-history",
+      "api_env_key": "NEXT_PUBLIC_API_URL"
+    },
+    {
+      "id": "admin-dashboard",
+      "name": "Admin Dashboard",
+      "path": "admin-dashboard",
+      "type": "frontend_next",
+      "stack": "Next.js 14, React 18",
+      "port": 3002,
+      "firebase_site_id": "admin-dashboard",
+      "api_env_key": "NEXT_PUBLIC_API_URL"
+    },
+    {
+      "id": "atilok",
+      "name": "ATILOK Platform",
+      "path": "ATILOK",
+      "type": "frontend_next",
+      "stack": "Next.js 14, React 18",
+      "port": 3000,
+      "firebase_site_id": "atilok",
+      "api_env_key": "NEXT_PUBLIC_API_URL",
+      "venture": true,
+      "brand_bible_path": "ATILOK/BRAND_BIBLE_AND_MISSION.md"
+    },
+    {
+      "id": "pi-display",
+      "name": "Pi Display",
+      "path": "pi-display",
+      "type": "frontend_vite",
+      "stack": "Vite, React 18",
+      "port": 5173,
+      "firebase_site_id": "pi-display",
+      "api_env_key": "VITE_API_URL"
+    },
+    {
+      "id": "homeostasis-sentinel",
+      "name": "Homeostasis Sentinel",
+      "path": "homeostasis-sentinel",
+      "type": "frontend_vite",
+      "stack": "Vite, React 18, TypeScript",
+      "port": 5173,
+      "firebase_site_id": "homeostasis-sentinel",
+      "api_env_key": "VITE_API_URL"
+    },
+    {
+      "id": "heritage-mobile-app",
+      "name": "Heritage Mobile App",
+      "path": "heritage-mobile-app",
+      "type": "mobile_expo",
+      "stack": "Expo, React Native",
+      "firebase_site_id": null,
+      "api_env_key": "EXPO_PUBLIC_API_URL"
+    }
+  ],
+  "ventures": [
+    {
+      "id": "ark",
+      "name": "ARK",
+      "path": "ark",
+      "type": "venture",
+      "brand_bible_path": "ark/ARK_BRAND_BIBLE_AND_MISSION.md",
+      "readme_path": "ark/README.md",
+      "firebase_site_id": "ark",
+      "has_app": false
+    },
+    {
+      "id": "ilven_seamoss",
+      "name": "Ilven Semoss",
+      "path": "ILVEN_SEAMOSS",
+      "type": "venture",
+      "brand_bible_path": "ILVEN_SEAMOSS/BRAND_BIBLE_AND_MISSION.md",
+      "readme_path": "ILVEN_SEAMOSS/README.md",
+      "firebase_site_id": "ilven-seamoss",
+      "has_app": false
+    },
+    {
+      "id": "kashs_karachi_chai_vape",
+      "name": "Kash's Karachi Chai Vape",
+      "path": "KASH'S_KARAK_CHAI_VAPE",
+      "type": "venture",
+      "brand_bible_path": "KASH'S_KARAK_CHAI_VAPE/BRAND_BIBLE_AND_MISSION.md",
+      "firebase_site_id": "kashs-karak-chai-vape",
+      "has_app": false
+    },
+    {
+      "id": "edible_london",
+      "name": "Edible London",
+      "path": "EDIBLE_LONDON",
+      "type": "venture",
+      "brand_voice_path": "EDIBLE_LONDON/docs/BRAND_VOICE_GUIDE.md",
+      "firebase_site_id": "edible-london",
+      "has_app": false
+    },
+    {
+      "id": "edible_cyprus",
+      "name": "Edible Cyprus",
+      "path": "EDIBLE_CYPRUS",
+      "type": "venture",
+      "firebase_site_id": "edible-cyprus",
+      "has_app": false
+    }
+  ],
+  "channels_entities": [
+    { "id": "siyem_media", "name": "Siyem", "path": "Siyem.org/siyem_media", "type": "channel" },
+    { "id": "jean_mahram", "name": "Jean", "path": "Siyem.org/jean_mahram", "type": "channel" },
+    { "id": "pierre_pressure", "name": "Pierre Pressure", "path": "Siyem.org/pierre_pressure", "type": "channel" },
+    { "id": "uncle_ray_ramiz", "name": "Ramiz", "path": "Siyem.org/uncle_ray_ramiz", "type": "channel" },
+    { "id": "jk", "name": "JK / Karasahin", "path": "Siyem.org/jk", "type": "channel" }
+  ],
+  "businesses_other": [
+    { "id": "cyprus_meyhane_shuttle", "name": "Cyprus Meyhane Taverna Shuttle", "path": "CYPRUS_MEYHANE_TAVERNA_SHUTTLE", "type": "business" },
+    { "id": "jan_scaling", "name": "JAN-SCALING", "path": "JAN-SCALING", "type": "infra" },
+    { "id": "expansion", "name": "Expansion", "path": "expansion", "type": "scripts" },
+    { "id": "siyem_data", "name": "SIYEM", "path": "SIYEM", "type": "data_scripts" },
+    { "id": "brighton_turkey_world_cup", "name": "Brighton Turkey World Cup 2026", "path": "BRIGHTON_TURKEY_WORLD_CUP_2026", "type": "event" },
+    { "id": "congo_boxing_olympics", "name": "Congo Boxing Olympics", "path": "CONGO_BOXING_OLYMPICS", "type": "event" },
+    { "id": "spurs_galatasaray_budapest", "name": "Spurs Galatasaray Budapest 2026", "path": "SPURS_GALATASARAY_BUDAPEST_2026", "type": "event" },
+    { "id": "oracle_research", "name": "Oracle Research", "path": "ORACLE_RESEARCH", "type": "research" },
+    { "id": "governance", "name": "Governance", "path": "governance", "type": "tooling" },
+    { "id": "jan_core", "name": "JAN Core", "path": "JAN", "type": "identity" }
+  ],
+  "google_platform_map": {
+    "backend": "Cloud Run",
+    "frontend_hosting": "Firebase Hosting or Firebase App Hosting",
+    "auth_db": "Firebase Auth, Firestore",
+    "ai": "Google AI Studio or Vertex AI",
+    "console": "Firebase Studio",
+    "deep_search": "Vertex AI"
+  }
+}

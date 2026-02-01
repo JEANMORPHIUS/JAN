@@ -11,6 +11,13 @@
   "expansion_seeds": [
     "seed_entity_entity_jk"
   ],
+  "spiritual_twin": {
+    "entity": "bert_jones",
+    "name": "Bert Jones",
+    "type": "artist",
+    "map": "docs/SPIRITUAL_TWIN_ENTITY_MAP.md",
+    "data": "data/spiritual_twin_entities.json"
+  },
   "migrated_at": "2026-01-25T07:30:05.669307",
   "spragitso_applied": true
 }

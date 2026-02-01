@@ -23,6 +23,8 @@
 - WE'RE WAITING FOR EVERYONE TO BE OK. GAZA - THAT'S WHERE IT STARTS.
 - THOSE WHO NEED IT MOST - THAT'S THE PRIORITY. THE REST CAN WAIT.
 
+**Spiritual twin:** ATILOK ↔ ARK (motion ↔ sanctuary). Full map: [docs/SPIRITUAL_TWIN_ENTITY_MAP.md](../docs/SPIRITUAL_TWIN_ENTITY_MAP.md) · [data/spiritual_twin_entities.json](../data/spiritual_twin_entities.json).
+
 A high-performance web platform for ATILOK LTD, a United Kingdom-based global supplier of heavy-duty truck and lorry parts. The platform serves dual purposes: a professional brand narrative for investors/clients and a functional B2B e-commerce catalogue for fleet operators and repair centres.
 
 ## Project Overview

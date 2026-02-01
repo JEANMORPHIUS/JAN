@@ -4,6 +4,8 @@
 **Date:** 2026-01-24  
 **Status:** ✅ **ARK SYSTEM ESTABLISHED**
 
+**Spiritual twin:** ARK ↔ ATILOK (sanctuary ↔ motion). Full map: [docs/SPIRITUAL_TWIN_ENTITY_MAP.md](../docs/SPIRITUAL_TWIN_ENTITY_MAP.md) · [data/spiritual_twin_entities.json](../data/spiritual_twin_entities.json).
+
 ---
 
 ## 🎯 THE ARK

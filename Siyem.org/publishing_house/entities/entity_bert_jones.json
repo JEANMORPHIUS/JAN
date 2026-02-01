@@ -1,0 +1,26 @@
+{
+  "entity_id": "entity_bert_jones",
+  "name": "Bert Jones",
+  "entity_type": "signed_artist",
+  "folder_path": "Siyem.org/bert_jones/",
+  "channels": [],
+  "projects": [],
+  "content_items": [],
+  "monetization_opportunities": [],
+  "alignment_score": 0.0,
+  "revenue_potential": 0.0,
+  "expansion_seeds": [],
+  "asset_management_ref": "data/assets/",
+  "media_ingestion_ref": "Siyem.org/jk/SUNO_INGESTION_INDEX.md",
+  "creation_centre_ref": "jan-studio, AD PRINT DESIGN",
+  "migrated_at": "2026-02-01T00:00:00.000000",
+  "spragitso_applied": true,
+  "notes": "Siyem's first new artist. Album: The Pause Between the Noise. Concept origin: JAN · Karasahin / Duygu Adamı.",
+  "spiritual_twin": {
+    "entity": "karasahin_jk",
+    "name": "Karasahin (JK)",
+    "type": "artist",
+    "map": "docs/SPIRITUAL_TWIN_ENTITY_MAP.md",
+    "data": "data/spiritual_twin_entities.json"
+  }
+}

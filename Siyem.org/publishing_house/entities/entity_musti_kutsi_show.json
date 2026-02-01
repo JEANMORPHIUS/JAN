@@ -1,21 +1,23 @@
 {
-  "entity_id": "entity_jean_mahram",
-  "name": "Jean Mahram",
+  "entity_id": "entity_musti_kutsi_show",
+  "name": "Musti Kutsi Show",
   "entity_type": "creative_persona",
-  "channels": [],
+  "channels": [
+    "channel_music_revolution"
+  ],
   "projects": [],
   "content_items": [],
   "monetization_opportunities": [],
   "alignment_score": 0.0,
   "revenue_potential": 0.0,
   "expansion_seeds": [
-    "seed_entity_entity_jean_mahram"
+    "seed_entity_entity_musti_kutsi_show"
   ],
-  "migrated_at": "2026-01-25T07:30:05.666433",
-  "spragitso_applied": true,
+  "migrated_at": "2026-01-28T16:45:00.000000",
+  "spragitso_applied": false,
   "spiritual_twin": {
-    "entity": "sukut_dimension_oracle",
-    "name": "Sükût dimension / Oracle",
+    "entity": "entity_kuzon_mahram",
+    "name": "Kuzon Mahram",
     "type": "persona",
     "map": "docs/SPIRITUAL_TWIN_ENTITY_MAP.md",
     "data": "data/spiritual_twin_entities.json"

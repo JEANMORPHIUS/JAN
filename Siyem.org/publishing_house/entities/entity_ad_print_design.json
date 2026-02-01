@@ -1,0 +1,45 @@
+{
+  "entity_id": "entity_ad_print_design",
+  "name": "AD PRINT DESIGN",
+  "entity_type": "internal_service",
+  "ceo": "Betty Paul",
+  "description": "In-house graphics and print shop for all entities and projects. Single shop for print (flyers, table tents, packaging, merch, co-branded) and digital graphics (social, overlays, brand marks).",
+  "channels": [],
+  "projects": [],
+  "content_items": [],
+  "monetization_opportunities": [],
+  "alignment_score": 0.0,
+  "revenue_potential": 0.0,
+  "serves_entities": [
+    "entity_jean_mahram",
+    "entity_jk",
+    "entity_kuzon_mahram",
+    "entity_pierre_pressure",
+    "entity_siyem_media",
+    "entity_uncle_ray_ramiz",
+    "entity_musti_kutsi_show"
+  ],
+  "serves_projects": [
+    "Edible London",
+    "Edible Cyprus",
+    "İlven Seamoss",
+    "ATILOK"
+  ],
+  "scope": [
+    "print",
+    "digital_graphics",
+    "brand_consistency"
+  ],
+  "doc_anchor": "docs/AD_PRINT_DESIGN_IN_HOUSE_GRAPHICS_PRINT.md",
+  "asset_management_doc": "docs/ASSET_MANAGEMENT_ACROSS_ENTITIES.md",
+  "expansion_seeds": [],
+  "migrated_at": "2026-01-30T00:00:00.000000",
+  "spragitso_applied": true,
+  "spiritual_twin": {
+    "entity": "jan_studio_creation_centre",
+    "name": "jan-studio / creation centre",
+    "type": "service",
+    "map": "docs/SPIRITUAL_TWIN_ENTITY_MAP.md",
+    "data": "data/spiritual_twin_entities.json"
+  }
+}

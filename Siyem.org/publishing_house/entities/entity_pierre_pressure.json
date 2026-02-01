@@ -12,5 +12,12 @@
     "seed_entity_entity_pierre_pressure"
   ],
   "migrated_at": "2026-01-25T07:30:05.672317",
-  "spragitso_applied": true
+  "spragitso_applied": true,
+  "spiritual_twin": {
+    "entity": "ark",
+    "name": "ARK (sanctuary)",
+    "type": "persona",
+    "map": "docs/SPIRITUAL_TWIN_ENTITY_MAP.md",
+    "data": "data/spiritual_twin_entities.json"
+  }
 }
