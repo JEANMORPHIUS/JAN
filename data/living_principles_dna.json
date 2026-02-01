@@ -1,0 +1,42 @@
+{
+  "title": "Living Principles DNA — JAN Codebase",
+  "version": "1.0",
+  "updated": "2026-02-01",
+  "status": "official",
+  "purpose": "Embedded in everyone's DNA. Moderation, 30/70, time, presence. s: drive.",
+  "principles": [
+    {
+      "id": "moderation",
+      "tagline": "Everything in moderation",
+      "origin": "Delphic nothing in excess; Cleobulus Moderation is best; Aristotle Doctrine of the Mean",
+      "meaning_short": "Golden mean between excess and deficiency; virtue by reason and practical wisdom.",
+      "codebase_rule": "Build, speak, act from the mean. Temperance in all things."
+    },
+    {
+      "id": "thirty_seventy",
+      "tagline": "The 30/70 rule",
+      "origin": "70% listen / 30% speak — communication and leadership",
+      "meaning_short": "Listen more than you speak. Create space for others; trust and alignment follow.",
+      "codebase_rule": "30% speak, 70% listen. Presence over performance. Hear first."
+    },
+    {
+      "id": "yesterday_tomorrow",
+      "tagline": "Yesterday history, tomorrow the mystery",
+      "origin": "Today is a gift — that's why it's called the present",
+      "meaning_short": "Past fixed, future unknown. Only now is where we act. Flow lives in the present.",
+      "codebase_rule": "Operate from now. Don't over-explain the past or over-plan the future; anchor in presence."
+    },
+    {
+      "id": "presence_gift",
+      "tagline": "Presence is the greatest gift",
+      "origin": "Psychology and mindfulness; therapeutic relationship; Mindful.org",
+      "meaning_short": "Full presence to another — met, understood, safe. Benefits giver and receiver.",
+      "codebase_rule": "Presence > words. Witness, don't preach. Presence is the greatest gift."
+    }
+  ],
+  "one_line": "Everything in moderation; 30% speak / 70% listen; yesterday history, tomorrow mystery, today the gift; presence is the greatest gift.",
+  "docs": {
+    "canonical": "JAN/LIVING_PRINCIPLES_DNA.md",
+    "heritage": "JAN/heritage_philosophy.md"
+  }
+}
