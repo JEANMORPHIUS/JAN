@@ -41,4 +41,4 @@ Energy + Love = We All Win. Peace, Love, Unity.
 
 ---
 
-**Next:** Create 1–3 visuals (logo, Oracle cast example, CARE example). Publish post; share video link. Reach out to 10 early testers (DM or email).
+**Next:** Create 1–3 visuals (logo, Oracle cast example, CARE example). Publish post; share video link. Reach out to 10 early testers (DM or email). **Discord:** Create server; pin [DISCORD_WELCOME_MESSAGE_PHASE_2.md](DISCORD_WELCOME_MESSAGE_PHASE_2.md) in #welcome; invite first 50.
