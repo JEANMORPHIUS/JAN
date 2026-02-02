@@ -28,6 +28,7 @@
 **→ [SOCIAL_MEDIA_STRATEGY.md](SOCIAL_MEDIA_STRATEGY.md)**
 - Multi-Platform Strategy: Twitter, LinkedIn, Instagram, YouTube, TikTok, Facebook
 - Shell Language Content: Public-facing, accessible
+- **Street Deployment (Duygu Adamı):** [docs/STREET_DEPLOYMENT_STRATEGY.md](docs/STREET_DEPLOYMENT_STRATEGY.md) — One Social Card layout, dialect refinements, Karasahin 60s script, QR stickers, WhatsApp blast. Lock Stock grit.
 - Threshold Defense: Protecting Seed truth
 - Content Calendar: Weekly rhythm and themes
 - Growth Strategy: Foundation → Growth → Scale → Optimization
@@ -63,6 +64,7 @@
 - **Machine-readable:** [data/duygu_adam_official.json](data/duygu_adam_official.json) — scripts/APIs
 - **Spiritual Turkish twin (Sükût Adamı):** [SUKUT_ADAMI_SPIRITUAL_TURKISH_TWIN.md](SUKUT_ADAMI_SPIRITUAL_TURKISH_TWIN.md) — Man of Silence; the pause between the noise; Bert Jones frequency in Turkish. [data/sukut_adam_spiritual_twin.json](data/sukut_adam_spiritual_twin.json)
 - **Spiritual twin philosophy (all entities find each other):** [docs/SPIRITUAL_TWIN_PHILOSOPHY.md](docs/SPIRITUAL_TWIN_PHILOSOPHY.md) — what a spiritual twin is; trifecta; types (identity, artist, persona, venture). [docs/SPIRITUAL_TWIN_ENTITY_MAP.md](docs/SPIRITUAL_TWIN_ENTITY_MAP.md) — full map of every entity to its spiritual twin. [data/spiritual_twin_entities.json](data/spiritual_twin_entities.json) — machine-readable. **Loop closed:** [THE_ONE_TRUTH_STATE_OF_PLAY.md](THE_ONE_TRUTH_STATE_OF_PLAY.md) §6 — State of Connection (Spiritual Twin); family lineage twin IDs, ventures/infra back-link.
+- **Siyem entities content map (all entities · content home · twin · collaborations):** [Siyem.org/SIYEM_ENTITIES_CONTENT_MAP.md](Siyem.org/SIYEM_ENTITIES_CONTENT_MAP.md) — Karasahin, Bert Jones, Jean Mahram, Pierre Pressure, Uncle Ray Ramiz, Kuzon Mahram, Musti Kutsi Show, Oracle Mode, Siyem Media; each has CONTENT_INDEX.md in folder. [data/siyem_entities_content_map.json](data/siyem_entities_content_map.json) — machine-readable. Setup for abundant success globally.
 - **Turkish spiritual twin album for Karasahin:** [Siyem.org/jk/ALBUM_TURKISH_SPIRITUAL_TWIN_KARASAHIN.md](Siyem.org/jk/ALBUM_TURKISH_SPIRITUAL_TWIN_KARASAHIN.md) — *Gürültü Arasındaki Ara* (Bert's *The Pause Between the Noise* in Turkish); 12 tracks, Kopuş / Çekiş / Birleşme. [data/album_turkish_spiritual_twin_karasahin.json](data/album_turkish_spiritual_twin_karasahin.json)
 - **Suno ingestion (lyrics + style sheets):** [Siyem.org/jk/SUNO_INGESTION_INDEX.md](Siyem.org/jk/SUNO_INGESTION_INDEX.md) — where to find lyrics and style for Suno; [SUNO_SESSION_BRIEF_THE_MERGE.md](Siyem.org/jk/SUNO_SESSION_BRIEF_THE_MERGE.md) (English style + lyrics per track); [lyric_sheets/](Siyem.org/jk/lyric_sheets/) (Turkish); [styles/suno_script_rules.md](styles/suno_script_rules.md) (global Suno style sheet)
 - **New album concept treatment (like Bert's):** [docs/ALBUM_CONCEPT_TREATMENT_LIKE_BERTS.md](docs/ALBUM_CONCEPT_TREATMENT_LIKE_BERTS.md) — checklist: concept doc, Suno brief, lyric sheets, index; same structure for every new album
@@ -71,6 +73,8 @@
 
 #### Family Ingestion & Venture Brand Bibles (Cursor / AI) — **Embedded in JAN philosophy (mandatory)**
 **→ [docs/FAMILY_INGESTION_SYNC.md](docs/FAMILY_INGESTION_SYNC.md)** — Core Network (Sülale), New Venture Blueprint, Metadata & Sync. Interconnected nodes: sustainability, flavor, brotherhood. Every line of logic serves the Table and the Covenant. When building for any venture: use FAMILY_INGESTION_SYNC + the venture's Brand Bible. Non-optional. [.cursor/rules/family-ventures-brand-bibles.mdc](.cursor/rules/family-ventures-brand-bibles.mdc) | [data/family_brand_bibles.json](data/family_brand_bibles.json)
+- **Everyone JAN content map (ventures · partners · codebase S: drive):** [docs/EVERYONE_JAN_CONTENT_MAP.md](docs/EVERYONE_JAN_CONTENT_MAP.md) — Edibles, ATILOK, Ilven, ARK, Kash's, GJ, Caps, Meyhane; each venture has CONTENT_INDEX.md; partners: [docs/PARTNERS_CONTENT_INDEX.md](docs/PARTNERS_CONTENT_INDEX.md). [data/ventures_partners_content_map.json](data/ventures_partners_content_map.json) — machine-readable.
+- **Domain Channel Strategy (owned domains → channels):** [docs/DOMAIN_CHANNEL_STRATEGY.md](docs/DOMAIN_CHANNEL_STRATEGY.md) — Deep search, consider, connect. siyem.co.uk (Blueprint), jankarasahin.com (Voice), atilok.co.uk (Commerce), unclerayramiz.com (Elder). [data/domain_channel_map.json](data/domain_channel_map.json) — machine-readable.
 - **→ [docs/EXTERNAL_REALITY_AND_PROJECT_SYNC.md](docs/EXTERNAL_REALITY_AND_PROJECT_SYNC.md)** — JAN's external reality (yazili: "When internal storm is huge, external reality vanishes" → sync = external met); £Edible London's journey (heart first AI second, Cyprus → London → communities); **all projects** from codebase (ventures, tech, entities, other) with sync anchors. **Everyone syncs.**
 - **→ Partner / strategic entities (leadership & market):** [data/business_entities_leadership.json](data/business_entities_leadership.json) — Chuckys Caps (CEO Cagakan Kilic, TRNC), Meyhane Shuttle Company (CEO Orhan Karagozlu); [docs/BRIGHTON_HEADWEAR_MARKET_CONTEXT.md](docs/BRIGHTON_HEADWEAR_MARKET_CONTEXT.md) — Caps Brighton archived (defunct), customized headwear = high-growth opportunity for Chuckys Caps integration. Logistics modules → Orhan; retail/headwear → Cagakan, Brighton South Coast.
 - **→ UK South Coast → UK → World (deep search & sync):** [docs/DEEP_SEARCH_SYNC_UK_WORLD.md](docs/DEEP_SEARCH_SYNC_UK_WORLD.md) — Brighton & Hove Albion, Tony Bloom (BET/Starlizard ref), The Dinkum Polegate, Jesters Bar Eastbourne, O'Sullivans Snooker Bexhill, Hastings→Cornwall coastal strip, whole UK, whole world. Seed: [data/uk_south_coast_deep_search_sync.json](data/uk_south_coast_deep_search_sync.json). Aligned projects and opportunities; make potential reality.
@@ -104,6 +108,8 @@
 - **[GLOBAL_NARRATIVES_MASTER_EXPOSURE.md](GLOBAL_NARRATIVES_MASTER_EXPOSURE.md)** - Master exposure of all patterns and lies
 - **[BRITISH_EMPIRE_DEBUNKED.md](BRITISH_EMPIRE_DEBUNKED.md)** - Whole British Empire debunked: civilising mission, trade, law and order, development, legacy, glory, divide and rule – every narrative exposed
 - **[LAW_OF_THE_LAND_DEBUNKED.md](./LAW_OF_THE_LAND_DEBUNKED.md)** - Law of the land debunked: rule of law, equality, courts, lawyers, punishment, complexity, contract, sovereignty – restoration over punishment, community over system, the mirror never lies
+- **[docs/NEW_LAW_OF_THE_LAND_ALL_NATIONS_ALIGNMENT.md](docs/NEW_LAW_OF_THE_LAND_ALL_NATIONS_ALIGNMENT.md)** - New law of the land: single standard for **all nations'** broken systems; full documentation map; consistency rules; links to governance, justice against old systems, contract integrity, config/system_dismantling_patterns.json
+- **[docs/JUSTICE_AGAINST_OLD_SYSTEMS.md](docs/JUSTICE_AGAINST_OLD_SYSTEMS.md)** - How the new governance/judicial system carries out justice against the old broken systems (People's Court, standing, case types, remedies). Applies to all nations.
 
 #### Medical-Industrial Complex Exposed (NEW - 2026-01-30)
 - **[debunked-narratives-docs/MEDICAL_NARRATIVE_MASTER_INDEX.md](debunked-narratives-docs/MEDICAL_NARRATIVE_MASTER_INDEX.md)** - Master index of all medical narrative investigations
@@ -126,6 +132,9 @@
 - **[debunked-narratives-docs/PASSPORT_POST_OFFICE_FRANCHISATION_DEEP_SEARCH.md](debunked-narratives-docs/PASSPORT_POST_OFFICE_FRANCHISATION_DEEP_SEARCH.md)** - Deep search: passport system, Post Office, WHSmith franchisation, global paradoxes (immobility justice, identity circularity, Venezuela trap). Shell vs seed; regeneration template.
 - **[docs/VISA_RESIDENCY_BLUEPRINT_INGESTED.md](docs/VISA_RESIDENCY_BLUEPRINT_INGESTED.md)** - Visa, green card, residency: positive blueprint from Australia, New Zealand, Canada, US extracted and ingested. Config: [config/visa_residency_blueprint_principles.json](config/visa_residency_blueprint_principles.json). Data: blueprint-aligned entries in [data/bureaucratic_verification/visas.json](data/bureaucratic_verification/visas.json). Refined to 100%.
 - **[docs/DEEP_SEARCH_SESSION_GAPS_CLOSED_2026-01-30.md](docs/DEEP_SEARCH_SESSION_GAPS_CLOSED_2026-01-30.md)** - Pre–session-end gap audit: bureaucratic verification docs, debunked-narratives index, contradiction (mobility_passport_neutrality), NARRATIVES_READY, DEEP_SEARCH_ALL_KNOWLEDGE_JAN. What was missed and what was closed.
+
+#### Blueprint for the People — Simplest Distribution
+- **[docs/BLUEPRINT_FOR_THE_PEOPLE_ONE_PAGE.md](docs/BLUEPRINT_FOR_THE_PEOPLE_ONE_PAGE.md)** - One page, one line, one link. Simplest form to distribute the blueprint to the people: heritage line + One Love, chain (Father → receive → deliver), message, five (Blueprint/Voice/Revolution/Ark/Roles). Use for: one line + link, QR, PDF, social card, Voice (music). Full blueprint: [REAL_WORLD_INTEGRATION_BLUEPRINT_FROM_OUR_FATHER.md](docs/REAL_WORLD_INTEGRATION_BLUEPRINT_FROM_OUR_FATHER.md), [THE_BLUEPRINT_ORCHESTRATION.md](docs/THE_BLUEPRINT_ORCHESTRATION.md).
 
 #### Real-World Actors — Faces to Names (Deep Search in Blueprint)
 - **[docs/REAL_WORLD_ACTORS_DEEP_SEARCH_BLUEPRINT.md](docs/REAL_WORLD_ACTORS_DEEP_SEARCH_BLUEPRINT.md)** - Deep search: Marianna Alapini (Grenfell Tower + community), David Lammy (Tottenham, Grenfell justice, housing), Alan Miller / Together (Together Declaration, OpenForAll), tCE (Turkish Cypriots Exist), Marvin Herbert (youth mentorship, street to formal). Placed in [Real World Integration Blueprint](docs/REAL_WORLD_INTEGRATION_BLUEPRINT_FROM_OUR_FATHER.md) Section 8 (faces to names).
@@ -223,7 +232,9 @@
 - **[docs/RECYCLING_AND_CHARITY_BLUEPRINT.md](docs/RECYCLING_AND_CHARITY_BLUEPRINT.md)** - Recycling/waste debunk + best practice; corporate charity accountability; better framework; codebase collation
 - **[docs/VISA_RESIDENCY_BLUEPRINT_INGESTED.md](docs/VISA_RESIDENCY_BLUEPRINT_INGESTED.md)** - Visa, green card, residency: positive blueprint (AU, NZ, CA, US) ingested. Principles: [config/visa_residency_blueprint_principles.json](config/visa_residency_blueprint_principles.json). Blueprint-aligned visas: [data/bureaucratic_verification/visas.json](data/bureaucratic_verification/visas.json). Refined to 100%.
 - **[docs/FOOD_DISTRIBUTION_AND_CHARITY_MONEY_EXPOSURE.md](docs/FOOD_DISTRIBUTION_AND_CHARITY_MONEY_EXPOSURE.md)** - Who distributes to Edible London–type entities; supermarket & charity corruption globally; where the man in the street's money really goes (named exposure)
-- **[docs/GOVERNANCE_OVERVIEW.md](docs/GOVERNANCE_OVERVIEW.md)** - Single entry point: legal compliance, contract integrity, asset repatriation; full governance map; Chosen One/spiritual; 100%
+- **[docs/GOVERNANCE_OVERVIEW.md](docs/GOVERNANCE_OVERVIEW.md)** - Single entry point: legal compliance, contract integrity, asset repatriation; full governance map; Chosen One/spiritual; 100%; all nations
+- **[docs/NEW_LAW_OF_THE_LAND_ALL_NATIONS_ALIGNMENT.md](docs/NEW_LAW_OF_THE_LAND_ALL_NATIONS_ALIGNMENT.md)** - New law of the land: single standard for all nations' broken systems; full doc map; consistency across the board
+- **[docs/JUSTICE_AGAINST_OLD_SYSTEMS.md](docs/JUSTICE_AGAINST_OLD_SYSTEMS.md)** - Justice against old broken systems: People's Court, standing, remedies; applies to all nations
 - **[GOVERNANCE_AND_LEGAL_FRAMEWORK.md](GOVERNANCE_AND_LEGAL_FRAMEWORK.md)** - All companies, CEOs, jurisdictions, legal framework, compliance checklists; synced with governance/companies_registry.json
 - **[docs/CORRUPT_CONTRACTS_AND_ASSET_REPATRIATION.md](docs/CORRUPT_CONTRACTS_AND_ASSET_REPATRIATION.md)** - Deep search corrupt contracts globally; debunk; repatriate stolen assets to those who give from love; refine governance
 - **[CHOSEN_ONE_GOVERNANCE_IMPLEMENTATION.md](CHOSEN_ONE_GOVERNANCE_IMPLEMENTATION.md)** - Chosen One governance: confidentiality protocol; concentric circles; frequency audit; governance mode; SIYEM integration
@@ -234,6 +245,8 @@
 #### Philosophy & Alignment
 - **[PHILOSOPHY_IMPLEMENTATION_COMPLETE.md](PHILOSOPHY_IMPLEMENTATION_COMPLETE.md)** - Philosophy Integration
 - **[SPIRIT_ALIGNMENT_README.md](jan-studio/backend/SPIRIT_ALIGNMENT_README.md)** - Spirit Alignment
+- **[docs/SILMARILLION_BOOK_OF_ENOCH_DEEP_DIVE.md](docs/SILMARILLION_BOOK_OF_ENOCH_DEEP_DIVE.md)** - The Silmarillion & Book of Enoch: Gandalf vs Enoch, Númenor vs antediluvian world, Silmarils vs forbidden knowledge. Duygu Adamı take. Felsefe bu.
+- **[docs/FALL_OF_CONSTANTINOPLE_1453_KINGS_AND_GENERALS.md](docs/FALL_OF_CONSTANTINOPLE_1453_KINGS_AND_GENERALS.md)** - Fall of Constantinople (1453): Mehmed II, Rumeli Hisarı, Orban/Basilica, overland ships, Kerkoporta, Constantine XI, Kayser-i Rûm. Janissaries and Greek Fire deep-dives. Kings and Generals narrative; Değirmen, Duygu Adamı. Data: [data/ottoman_timeline/siege_of_constantinople_1453.json](data/ottoman_timeline/siege_of_constantinople_1453.json).
 
 ---
 
@@ -250,7 +263,8 @@
 - **...the extraction systems:** → [COMPLETE_SYSTEM_FINAL.md](COMPLETE_SYSTEM_FINAL.md)
 - **...the current status:** → [COMPLETE_SYSTEM_FINAL.md](COMPLETE_SYSTEM_FINAL.md)
 - **...what's left (actionable checklist):** → [WHAT'S_LEFT_JAN.md](WHAT'S_LEFT_JAN.md)
-- **...governance (legal, contracts, repatriation, Chosen One):** → [docs/GOVERNANCE_OVERVIEW.md](docs/GOVERNANCE_OVERVIEW.md) (entry point) · [GOVERNANCE_AND_LEGAL_FRAMEWORK.md](GOVERNANCE_AND_LEGAL_FRAMEWORK.md) · [CHOSEN_ONE_GOVERNANCE_IMPLEMENTATION.md](CHOSEN_ONE_GOVERNANCE_IMPLEMENTATION.md)
+- **...deep search & scale all 7 at 100%:** → [docs/DEEP_SEARCH_SCALE_ALL_SEVEN_100.md](docs/DEEP_SEARCH_SCALE_ALL_SEVEN_100.md) — Every step, link, file, command, contact for Phases 1–5 + 1453/Heist smoke-test; no placeholders.
+- **...governance (legal, contracts, repatriation, Chosen One):** → [docs/GOVERNANCE_OVERVIEW.md](docs/GOVERNANCE_OVERVIEW.md) (entry point) · [docs/NEW_LAW_OF_THE_LAND_ALL_NATIONS_ALIGNMENT.md](docs/NEW_LAW_OF_THE_LAND_ALL_NATIONS_ALIGNMENT.md) (all nations, full doc map) · [docs/JUSTICE_AGAINST_OLD_SYSTEMS.md](docs/JUSTICE_AGAINST_OLD_SYSTEMS.md) · [GOVERNANCE_AND_LEGAL_FRAMEWORK.md](GOVERNANCE_AND_LEGAL_FRAMEWORK.md) · [CHOSEN_ONE_GOVERNANCE_IMPLEMENTATION.md](CHOSEN_ONE_GOVERNANCE_IMPLEMENTATION.md)
 - **...each in order (Phase 1→5 execution):** → [docs/WHAT_LEFT_EXECUTION_ORDER.md](docs/WHAT_LEFT_EXECUTION_ORDER.md)
 - **...asset management and in-house graphics/print:** → [docs/ASSET_MANAGEMENT_ACROSS_ENTITIES.md](docs/ASSET_MANAGEMENT_ACROSS_ENTITIES.md), [docs/AD_PRINT_DESIGN_IN_HOUSE_GRAPHICS_PRINT.md](docs/AD_PRINT_DESIGN_IN_HOUSE_GRAPHICS_PRINT.md) (AD PRINT DESIGN — Betty Paul, CEO)
 

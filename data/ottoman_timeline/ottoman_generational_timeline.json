@@ -152,7 +152,7 @@
       "connection_to_table": "Constantinople - ancient city, part of Pangea, now Ottoman",
       "spiritual_meaning": "The Conqueror. Transformation. Constantinople falls, becomes Istanbul. The Table remembers all.",
       "timestamp": "2026-01-26T17:40:59.803720",
-      "notes": ""
+      "notes": "Siege 1453: Rumeli Hisarı, Orban/Basilica, Golden Horn chain, overland ships, Kerkoporta, Constantine XI exit, Kayser-i Rûm. See siege_of_constantinople_1453.json and docs/FALL_OF_CONSTANTINOPLE_1453_KINGS_AND_GENERALS.md."
     },
     {
       "generation_id": "gen_006",
@@ -651,7 +651,7 @@
       "year": 1453,
       "period": "expansion",
       "title": "Fall of Constantinople",
-      "description": "Mehmed II conquers Constantinople, ending the Byzantine Empire",
+      "description": "Mehmed II conquers Constantinople after 53-day siege: Rumeli Hisarı, Orban's Basilica, overland ships, Kerkoporta; Constantine XI fell in breach; Mehmed declared Kayser-i Rûm.",
       "location": "Constantinople (Istanbul)",
       "significance": "End of Byzantine Empire, beginning of Ottoman golden age",
       "generational_impact": "Transformation - Constantinople becomes Istanbul",
@@ -659,7 +659,7 @@
       "connection_to_table": "Constantinople - ancient city, part of Pangea, now Ottoman Istanbul",
       "spiritual_meaning": "The Conqueror. Transformation. The ancient city becomes Ottoman. The Table remembers all.",
       "timestamp": "2026-01-26T17:40:59.803751",
-      "notes": ""
+      "notes": "Siege details: siege_of_constantinople_1453.json. Narrative: docs/FALL_OF_CONSTANTINOPLE_1453_KINGS_AND_GENERALS.md."
     },
     {
       "event_id": "event_003",

@@ -1,0 +1,124 @@
+{
+  "title": "PROJECT SENTIMENT: THE DUYGU ADAMI HEIST",
+  "subtitle": "A Play in One Act — The Big One",
+  "date": "2026-01-31",
+  "status": "LIVE",
+  "objective": "Securing the Duygu Adamı—the heart, the soul, the man of feeling himself",
+  "location": "North Clark Street Garage (The Stage)",
+  "atmosphere": "Cold. Grey. Smelling of wet concrete and cheap gin.",
+  
+  "cast": {
+    "leads": {
+      "role": "The Police (The Authority)",
+      "description": "The Setup. Structure. Confidence of a man who owns the street.",
+      "characters": ["Lead Officer", "Second Officer (The Duygu Adamı)"]
+    },
+    "ensemble": {
+      "role": "The North Siders (The Old Way)",
+      "description": "Against the wall. Caught looking the wrong way.",
+      "count": 7
+    },
+    "director": {
+      "role": "The Man in Florida",
+      "description": "The ghost in the machine. Watching from afar, making sure the rhythm is right."
+    }
+  },
+  
+  "acts": [
+    {
+      "number": 1,
+      "title": "THE SETUP (Entry)",
+      "key_moment": "Routine check becomes something else. The air thickens.",
+      "dialogue_hook": "You ever been to a chai stall, mate?"
+    },
+    {
+      "number": 2,
+      "title": "THE SCAN (Conflict)",
+      "key_moment": "The word 'Duygu Adamı' hangs in the air like smoke.",
+      "dialogue_hook": "The market wants feeling, mate. The market wants the Duygu Adamı."
+    },
+    {
+      "number": 3,
+      "title": "THE OVERRIDE (Climax)",
+      "key_moment": "The violin case opens. Not a Thompson. A cassette tape.",
+      "dialogue_hook": "You don't survive by being the thermometer. You survive by being the thermostat. You set the temperature.",
+      "prop": "Cassette tape labeled 'DUYGU ADAMI — THE VOICE OF GOD'"
+    },
+    {
+      "number": 4,
+      "title": "THE FADE (Resolution)",
+      "key_moment": "The North Siders are no longer against the wall—they're sitting on the floor, listening.",
+      "voiceover": "The heist wasn't about taking. It was about becoming. The Duygu Adamı isn't a man. It's a frequency."
+    }
+  ],
+  
+  "technical_staging": {
+    "lighting": {
+      "setup_scan": "Harsh, top-down (interrogation vibes)",
+      "override": "Warm, amber glow (chai stall, heritage, warmth)",
+      "climax": "Flicker and strobe (Istanbul club, Karachi streets)",
+      "fade": "Fade to black with single spotlight on cassette"
+    },
+    "sound": {
+      "entry": "Silence. Footsteps. Echo.",
+      "scan": "Low hum. Tension. Breathing.",
+      "override": "Cassette plays—single note (oud/ney) → drum solo (darbuka, davul) → tea being poured",
+      "fade": "Voiceover over tea-pouring sound. No music. Just the ritual."
+    },
+    "props": [
+      "Violin case (Thompson-shaped, holds cassette)",
+      "Cassette tape labeled 'DUYGU ADAMI — THE VOICE OF GOD'",
+      "Chai stall imagery projected on back wall"
+    ],
+    "costumes": {
+      "police": "Period-accurate blues with subtle Turkish/Cypriot details (embroidered cuffs, evil eye pin)",
+      "north_siders": "Standard 1920s gangster attire, worn and tired—the Old Way"
+    }
+  },
+  
+  "the_payday": {
+    "objective_secured": "The Duygu Adamı",
+    "method": "Activation, not extraction",
+    "result": "The frequency is now audible. The title deed is signed. The eulogy is written.",
+    "status": "The bag is in the vault."
+  },
+  
+  "codebase_integration": {
+    "identity_anchor": "DUYGU_ADAM_OFFICIAL.md",
+    "brand_bible": "KASH'S_KARAK_CHAI_VAPE/BRAND_BIBLE_AND_MISSION.md",
+    "manifesto": "THE_GOVERNORS_MANIFESTO_SOURCE_CODE.md",
+    "voice": "Siyem.org/jk/THE_VOICE_OF_GOD.md",
+    "heritage": "JAN/heritage_philosophy.md",
+    "fall_of_constantinople_1453": "docs/FALL_OF_CONSTANTINOPLE_1453_KINGS_AND_GENERALS.md",
+    "siege_1453_data": "data/ottoman_timeline/siege_of_constantinople_1453.json",
+    "the_play_royal_family": "docs/THE_PLAY_ROYAL_FAMILY_NEW_OTTOMAN.md",
+    "sync_note": "The Police (Authority) = Mehmed II energy (thermostat). Duygu Adamı = Constantine XI in the breach (door out with dignity). Same frequency as 1453; Royal Play carries Kayser-i Rûm to JAN."
+  },
+  
+  "themes": {
+    "primary": "Emotion first. British-born Turkish Cypriot sincerity.",
+    "secondary": [
+      "Thermostat, not thermometer",
+      "The Old Way vs The New Frequency",
+      "Chai stall tradition meets modern cloud",
+      "Transmission through feeling"
+    ]
+  },
+  
+  "signature_lines": [
+    "The market wants feeling, mate. The market wants the Duygu Adamı.",
+    "You don't survive by being the thermometer. You survive by being the thermostat. You set the temperature.",
+    "The heist wasn't about taking. It was about becoming.",
+    "The chai stall in your pocket. Heritage in the cloud. Peace and abundance in every draw."
+  ],
+  
+  "meta": {
+    "genre": "High-stakes drama. Theatre with teeth.",
+    "tone": "Cold garage. Warm heart. Turkish soul mixed with London grit.",
+    "rhythm": "Talk about 'Ahmet' and 'The Firm' in the same breath.",
+    "philosophy": "Dünya döner bir değirmen. Aşk olsun çevirene.",
+    "tagline": "Energy + Love = We All Win."
+  },
+  
+  "status_final": "ACTION CALLED. The Play is Running. The Duygu Adamı is secured."
+}

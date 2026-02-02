@@ -286,15 +286,16 @@
       "african"
     ],
     "magnitude": null,
-    "description": "Fall of Byzantine Empire. End of Middle Ages, beginning of Renaissance.",
+    "description": "Mehmed II conquers Constantinople after 53-day siege. Rumeli Hisarı choked the Bosphorus; Orban's Basilica cannon battered the walls; Ottoman ships dragged overland into the Golden Horn; Kerkoporta left open. Constantine XI fell in the breach. Mehmed declared Kayser-i Rûm. End of Byzantine Empire, beginning of Ottoman golden age and end of Middle Ages.",
     "heritage_site_connections": [],
     "field_resonance_impact": null,
     "temporal_dimension": "primary",
     "sources": [
+      "Kings and Generals (youtu.be/vAlZ1v1ArVg)",
       "Historical records",
       "Byzantine archives"
     ],
-    "research_notes": "Significance: Major civilizational shift",
+    "research_notes": "Siege details: data/ottoman_timeline/siege_of_constantinople_1453.json. Narrative: docs/FALL_OF_CONSTANTINOPLE_1453_KINGS_AND_GENERALS.md. Major civilizational shift; Değirmen—the Mill turned.",
     "documented_at": "2026-01-20T13:01:52.443822"
   },
   {

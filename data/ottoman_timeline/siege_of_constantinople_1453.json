@@ -1,0 +1,75 @@
+{
+  "siege_id": "siege_constantinople_1453",
+  "event_name": "Fall of Constantinople",
+  "date_start": "1453-04-06",
+  "date_end": "1453-05-29",
+  "duration_days": 53,
+  "source_video": "https://youtu.be/vAlZ1v1ArVg",
+  "source_label": "Kings and Generals",
+  "documented_at": "2026-02-02",
+  "key_entities": [
+    {
+      "id": "rumeli_hisari",
+      "name": "Rumeli Hisarı",
+      "type": "fortress",
+      "role": "Choked off the Bosphorus; starved the city of grain from the Black Sea.",
+      "detail": "Built in four and a half months. Strategic noose before the first cannon fired.",
+      "kings_and_generals_timestamp": "23:11"
+    },
+    {
+      "id": "orban_basilica",
+      "name": "Orban / Basilica",
+      "type": "engineer_and_weapon",
+      "role": "Hungarian engineer; built the great cannon 'Basilica'.",
+      "detail": "Monstrous cannon firing 1,500 lb stones. Designed to break the unbreakable walls.",
+      "kings_and_generals_timestamp": "29:15"
+    },
+    {
+      "id": "golden_horn_chain",
+      "name": "Golden Horn chain",
+      "type": "defensive_measure",
+      "role": "Romans blocked the Golden Horn to keep the Turkish fleet out.",
+      "detail": "Massive chain; forced Mehmed to find another way (overland ships).",
+      "kings_and_generals_timestamp": "32:32"
+    },
+    {
+      "id": "overland_ships",
+      "name": "Overland ships",
+      "type": "tactic",
+      "role": "Ottoman galleys dragged over hills on greased logs into the Golden Horn.",
+      "detail": "Bypassed the chain; dropped ships behind Roman defences. Masterstroke.",
+      "kings_and_generals_timestamp": "39:57"
+    },
+    {
+      "id": "kerkoporta",
+      "name": "Kerkoporta",
+      "type": "location_event",
+      "role": "Small gate left unlocked; Ottoman troops slipped behind the walls.",
+      "detail": "Coincided with Giustiniani wounded; breach became rout.",
+      "kings_and_generals_timestamp": "47:15"
+    },
+    {
+      "id": "constantine_xi_exit",
+      "name": "Constantine XI exit",
+      "type": "figure",
+      "role": "Emperor threw off imperial purple, drew sword, charged into the fray.",
+      "detail": "Died with his city. Duygu Adamı—chose the door out with dignity.",
+      "kings_and_generals_timestamp": "49:10"
+    },
+    {
+      "id": "kayser_i_rum",
+      "name": "Kayser-i Rûm",
+      "type": "title_legacy",
+      "role": "Mehmed II declared himself Caesar of Rome.",
+      "detail": "Ottoman Empire as true successor to Roman legacy. Hagia Sophia to mosque; city kept as capital.",
+      "kings_and_generals_timestamp": "50:07"
+    }
+  ],
+  "heritage_philosophy": {
+    "değirmen": "The Mill grinding down an old power to make room for the new. Byzantines held the handle 1,100 years; in 1453 the clock struck midnight.",
+    "aşk_olsun": "Honour to the one who turns the mill—Orban, the overland ships, the Janissaries in the breach.",
+    "duygu_adamı": "Constantine XI chose the door out with dignity. Fought and died with his city.",
+    "felsefe_bu": "The walls that stood for a millennium met a man who refused to believe in impossible."
+  },
+  "related_doc": "docs/FALL_OF_CONSTANTINOPLE_1453_KINGS_AND_GENERALS.md"
+}

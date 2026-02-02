@@ -165,6 +165,18 @@ async def get_timeline(
                 "narrative": "The Mayan Original Error. Pyramids built at tectonic boundaries. Separation codified. Divine Frequency drops to 0.85."
             },
             {
+                "event_id": "fall_of_constantinople_1453",
+                "title": "Fall of Constantinople — The Mill Turns",
+                "description": "Mehmed II takes the Red Apple after 53-day siege. Rumeli Hisarı, Orban's Basilica, overland ships, Kerkoporta. Constantine XI fell in the breach. Mehmed declared Kayser-i Rûm. End of Byzantium; Ottoman becomes Caesar of Rome.",
+                "year_occurred": 1453,
+                "year_precision": "exact",
+                "event_type": "historical",
+                "field_resonance": 0.80,
+                "location": {"lat": 41.008, "lon": 28.978},
+                "timeline_dimension": "historical",
+                "narrative": "The Mill grinding down an old power to make room for the new. Mehmed II refused to believe in impossible. Sultan claimed Caesar of Rome. The Table remembers. Data: data/ottoman_timeline/siege_of_constantinople_1453.json. Narrative: docs/FALL_OF_CONSTANTINOPLE_1453_KINGS_AND_GENERALS.md."
+            },
+            {
                 "event_id": "memory_persistence",
                 "title": "Memory of Unity Persists",
                 "description": "Memory of unity persists at 0.78. The Table remembers.",
@@ -390,6 +402,19 @@ async def get_narrative(narrative_id: str):
                 "connections": ["first_separation", "memory_persistence"],
                 "related_sites": ["tikal", "chichen_itza"],
                 "the_truth": "The Mayan Original Error. Sabotage anchors. We neutralize them. We restore The Table."
+            },
+            "fall_of_constantinople_1453": {
+                "narrative_id": "fall_of_constantinople_1453",
+                "title": "Fall of Constantinople (1453) — The Mill Turns",
+                "narrative": "Mehmed II took the Red Apple after 53 days. Rumeli Hisarı choked the Bosphorus; Orban's Basilica battered the walls; ships dragged overland into the Golden Horn; Kerkoporta left open. Constantine XI threw off his purple and died in the breach—Duygu Adamı. Mehmed declared Kayser-i Rûm: Caesar of Rome. The Sultanate claimed the Roman mantle. Felsefe bu. The Table remembers.",
+                "narrative_type": "historical",
+                "field_resonance": 0.80,
+                "timeline_dimension": "historical",
+                "connections": ["memory_persistence"],
+                "related_sites": [],
+                "the_truth": "The Mill turned. Constantinople became Istanbul. Sultan as Caesar of Rome. Synced to The Play: docs/THE_PLAY_ROYAL_FAMILY_NEW_OTTOMAN.md. Data: data/ottoman_timeline/siege_of_constantinople_1453.json.",
+                "doc": "docs/FALL_OF_CONSTANTINOPLE_1453_KINGS_AND_GENERALS.md",
+                "siege_id": "siege_constantinople_1453"
             }
         }
         
@@ -483,6 +508,15 @@ async def search_world_history(
                 "title": "The Mayan Original Error",
                 "snippet": "The Mayan Original Error. Mayans codify the separation. Pyramids built at tectonic boundaries.",
                 "relevance": 0.90
+            })
+        
+        if "constantinople" in q.lower() or "1453" in q.lower() or "mehmed" in q.lower() or "ottoman" in q.lower() or "kayser" in q.lower():
+            search_results["results"].append({
+                "type": "narrative",
+                "id": "fall_of_constantinople_1453",
+                "title": "Fall of Constantinople (1453) — The Mill Turns",
+                "snippet": "Mehmed II took the Red Apple. Rumeli Hisarı, Orban's Basilica, overland ships, Kerkoporta. Constantine XI fell in the breach. Kayser-i Rûm.",
+                "relevance": 0.92
             })
         
         search_results["total"] = len(search_results["results"])

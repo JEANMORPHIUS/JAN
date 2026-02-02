@@ -118,6 +118,28 @@ async def get_generation(generation_number: int):
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@router.get("/siege/1453")
+async def get_siege_constantinople_1453():
+    """Get siege of Constantinople (1453) — Rumeli Hisarı, Orban, Basilica, overland ships, Kerkoporta, Constantine XI, Kayser-i Rûm. Synced to The Play and world-history narrative."""
+    try:
+        data_dir = Path(__file__).resolve().parent.parent.parent / "data" / "ottoman_timeline"
+        siege_path = data_dir / "siege_of_constantinople_1453.json"
+        if not siege_path.exists():
+            raise HTTPException(status_code=404, detail="Siege 1453 data not found")
+        with open(siege_path, "r", encoding="utf-8") as f:
+            siege = json.load(f)
+        return {
+            "status": "success",
+            "siege": siege,
+            "the_play": "docs/THE_PLAY_ROYAL_FAMILY_NEW_OTTOMAN.md",
+            "narrative_doc": "docs/FALL_OF_CONSTANTINOPLE_1453_KINGS_AND_GENERALS.md"
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @router.get("/cyprus-connection")
 async def get_cyprus_connection():
     """Get Cyprus connection in Ottoman timeline"""
